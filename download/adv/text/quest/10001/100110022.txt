@@ -1,0 +1,369 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10020200.jpg,0,,,,,,,,
+endwait
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm006.mp3,0,
+endwait
+sprite,download/monster/20010101/adv/image/20010101.png,enemy2,-370,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy3,270,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-50,-170,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Blue,em1,default,animation,0,0,0,1,1.0,0
+shake,0.2,4,30,30
+playse,/download/sound/se/se_041.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy2,-370,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy3,270,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-50,-170,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>kẻ thù</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「――――――――!」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:sad,silvy,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Swarmalain</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Những hình ảnh ảo này giống như loài gây hại không thể giết được...\nBây giờ tôi không có loại thuốc mới nào để thử. Họ đang ngày càng khó chịu hơn.」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:normal,silvy,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「Gizelle, có cách nào bạn có thể loại bỏ tất cả chúng trong một lần không?」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:sad,gizel,300,-120,0.5,0.5,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Hãy để tôi nghĩ về điều này... Nếu tôi có thể tập trung kẻ thù vào một nơi càng nhiều càng tốt,\nthì tôi có một trò ảo thuật có thể sử dụng được」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「Nó yêu cầu xây dựng một câu thần chú và tích lũy sức mạnh phép thuật,\nit sẽ mất một thời gian để kích hoạt.」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:normal,silvy,-300,-120,0.5,0,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Swarmalain</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Tôi hiểu rồi, hãy để tôi giúp bạn.\nBạn và anh ấy nên lùi lại và chuẩn bị kích hoạt bùa chú, phải không?」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「Brigitte, xin hãy bảo vệ họ.」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,gizel,0
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,bligit,300,-120,0.5,0.5,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Đợi một chút, nếu cậu muốn thu hút kẻ thù, tôi cũng sẽ——」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:normal,silvy,-300,-120,0.5,0,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Swarmalain</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Nếu không có sách ma thuật thì bạn không thể thể hiện được sức mạnh của mình phải không?\nĐược rồi, hãy ngoan ngoãn và trốn đằng sau」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:anger,bligit,300,-120,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「...!Điều đó đang được nói...」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:normal,silvy,-300,-120,0.5,0,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Swarmalain</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Được rồi, đừng có vẻ không sẵn lòng.\nKhông chỉ tiền tuyến mới là chiến trường.」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「Hơn nữa, tôi cũng đã được bạn cứu.\nĐây chỉ là để báo đáp lòng tốt mà tôi đã dành cho bạn lúc đó.」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:anger,bligit,300,-120,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「…Tôi không nhớ mình đã tử tế với bạn」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:normal,silvy,-300,-120,0.5,0,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Swarmalain</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Bạn thực sự quan tâm đến tôi...Tôi cảm thấy thật tệ khi luôn nhờ đến sự giúp đỡ của bạn.\nĐã đến lúc trả ơn.」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,bligit,300,-120,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「...Được rồi, bây giờ tôi chỉ có thể giao việc đó cho bạn.\nĐừng quá lộn xộn」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:smile,silvy,-300,-120,0.5,0,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Swarmalain</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「hãy yên tâm.Đừng nhìn tôi như tôi thường làm, nhưng tôi vẫn khá giỏi trong những thời điểm quan trọng, hừm.」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「Được rồi, đến giờ chơi rồi.Gizelle, tùy bạn thôi.\nSố phận của chúng tôi được giao phó cho bạn.」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,bligit,0
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:anger,gizel,300,-120,0.5,0.5,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Được rồi, để đó cho tôi!」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,bligit,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「…………」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+stopbgm,0.5
+endwait
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name, 
+msg,0,<size=30><outline width=2 color=black>我的妹妹毫無疑問是個真正的天才。\n這一點不用任何人來告訴我，身為姐姐的我是最清楚的。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>可……僅憑“她是天才”這個理由，我還沒辦法徹底想開，放棄一切……\n再說……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>——正因為她是我妹妹，所以我才不能說出那種丟人的洩氣話。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>因此，我渴求著力量。即便要握著那把形狀令人厭惡的劍……\n即便那副模樣看起來很可笑，都無所謂。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>這是我自己決定的事情。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,
+bg,download/bg/bg_10020200.jpg,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm006.mp3,0,
+endwait
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,bligit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:anger,bligit2,0,0,0,0,,,,
+imgconf,bligit2,bligit1,0,-661,,,0,1.5,1.5,0.5
+wait,0.1
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Vẫn chưa đủ... Khi nào tôi mới có thể bắt kịp bạn?」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:normal,gizel,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:anger,bligit,-300,-120,0.5,0.5,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「...?Chà, chị Brigitte, chị vừa nói chuyện phải không?」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,bligit,255_255_255,0.0001,0
+anm,tint,gizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「...Không có gì.Được rồi, nhanh lên và tập trung.\nRốt cuộc, không phải lúc nào cô ấy cũng có thể thu hút sự chú ý của kẻ thù.」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,gizel,255_255_255,0.0001,0
+anm,tint,bligit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「...Vâng, vâng, tôi hiểu」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name, 
+msg,0,<size=30><outline width=2 color=black>……。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>………………。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+bg,download/bg/bg_10020200.jpg,1,255
+endwait,,,,,,,,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy2,-370,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy3,270,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-50,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>kẻ thù</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「――――――――!」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:sad,silvy,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+shake,0.2,4,30,30
+wait,0.1
+endwait,,,,,,,,,,,
+anm,move,silvy,-400_-120,0.11,0
+endwait,,,,,,,,,,,
+wait,0.6
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:sad,silvy,-400,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Swarmalain</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「——!Huh...vừa rồi thực sự rất nguy hiểm」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:normal,silvy,-400,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>「Không còn nhiều thuốc nữa...\nNếu cứ tiếp tục như thế này, tình hình sẽ thực sự trở nên tồi tệ hơn——」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,gizel1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:normal,gizel2,0,0,0,0,,,,
+imgconf,gizel2,gizel1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「---Mở rộng kỹ thuật」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:anger,gizel,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「Sylvie, lùi lại!」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:smile,silvy,-300,-120,0.5,0.5,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Swarmalain</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Ồ, cuối cùng thì bạn ổn chứ?Thực sự tôi đã chờ đợi một cách nôn nóng」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:normal,silvy,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>「Vậy Gizelle, bạn có thể nhanh chóng bắt được tất cả những hình ảnh ảo này không?」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:anger,gizel,300,-120,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Được rồi, giữ nó cho tôi!\nClausolath——Hãy sử dụng sự thông minh của bạn để quét sạch kẻ thù!」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy2,-370,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy3,270,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-50,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Shine,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+playse,/download/sound/se/se_011.mp3
+shake,0.2,4,50,50
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>kẻ thù</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「――,……………」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy2,-370,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy3,270,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-50,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Shine,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+playse,/download/sound/se/se_011.mp3
+shake,0.2,4,50,50
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「――――――――――,……………」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+stopbgm,0.5
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:surprise,silvy,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Swarmalain</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「噢噢噢……居然真的只用一擊就消滅了所有敵人，吉澤爾果然厲害。\n“<ruby>以光自傲之劍</ruby>”的名號真不是蓋的」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:unique,gizel,300,-120,0.5,0.5,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Thôi, tôi vẫn mong bạn đừng gọi tôi như vậy...\nTôi không thích lắm...」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:smile,silvy,-300,-120,0.5,0,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Swarmalain</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Hừm, có chuyện gì vậy.Tôi nghĩ nó hay」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:normal,silvy,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>「Được rồi, từ bắt chước "Clausolus" ở đâu... À, tôi tìm thấy rồi. Tôi đã tìm thấy nó.\nBridget, nhìn này, cuốn ma đạo thư quan trọng của bạn đã về rồi.」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,gizel,0
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:normal,bligit,300,-120,0.5,0.5,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「…」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,silvy,0
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:smile,gizel,-300,-120,0.5,0.5,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Cái đó, cái đó...chị Brigitte.\nThật tuyệt vời khi nhận lại được cuốn sách thần kỳ!」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:normal,bligit,300,-120,0.5,0,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「...ừm...ừ」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,gizel,0
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:normal,silvy,-300,-120,0.5,0.5,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Swarmalain</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Tôi cũng rất vui khi nhận lại được bản sao Clausuras.」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「Suy cho cùng, với tư cách là một nhà sản xuất, sẽ rất khó để chứng kiến ​​một tác phẩm cuối cùng đã hoàn thành bị thất lạc\n」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,bligit,0
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:normal,gizel,300,-120,0.5,0.5,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Nhà sản xuất...hả?!\nClausolas, bạn đã tạo bản sao chưa?!」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101902/adv/atlas/stand_b,body:normal,silvy,-300,-120,0.5,0,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Swarmalain</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Vâng, chẳng phải tôi vừa kể cho bạn nghe về cuộc gặp gỡ của tôi với Brigitte sao?」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「Yêu cầu của cô ấy lúc đó là yêu cầu tôi làm cuốn sách ma thuật này——」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,733 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,2,,,,,,,,
+endwait
+bg,download/bg/bg_10010300.jpg,1,,,,,,,,
+playse,/download/sound/se/se_029.mp3
+endwait
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:unique,asaka,-225,-120,0.5,1,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,1,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vâng, cảm ơn bạn đã đến thăm bác sĩ. Cảm ơn bạn đã làm việc chăm chỉ.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_01.mp3
+clickwait,,,,,,,,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Điều gì tuyệt vời ở bạn...」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:smile,norn,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Nhắc đến việc thăm bệnh nhân, em yêu!」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_02.mp3
+clickwait,,,,,,,,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Không... Làm sao tôi có thể lấy được dưa ngọt ở cơ sở dưới nước như thế này?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tôi nghĩ đến một trang trại nhân tạo thường là ổn, phải không?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-225,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Có một điều như vậy??」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_03.mp3
+clickwait,,,,,,,,,,,
+select,選項1　「Tôi sẽ lấy một cái」,選項2　「蜜瓜好吃嗎？」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-225,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Bây giờ bạn có đi không...?Nhân tiện, bạn có biết vị trí của trang trại nhân tạo không?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:smile,norn,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vậy hãy để tôi dẫn đường」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_04.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-225,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ơ...ah, có thể nói như vậy,\nBạn nói rằng bạn bị mắc kẹt ở Lalayeri, phải không...」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-225,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Tôi thậm chí còn không biết mùi vị của dưa ngọt…」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:surprise,norn,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Mất đi một nửa cuộc đời!Bây giờ hãy đi ăn dưa mật nhé!」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_05.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-225,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Họ đều bảo bệnh nhân nằm trên giường!」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_07.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ahaha... Ờ, trò đùa thế là kết thúc rồi」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:smile,norn,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Thực ra, quả dưa ngọt tôi vừa hái đang ở ngay đây.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_07.mp3
+clickwait,,,,,,,,,,,
+shake,0.2,1,20,20
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-225,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vì vậy, các bệnh nhân hãy thành thật với tôi nhé!?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_08.mp3
+clickwait,,,,,,,,,,,
+endwait
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:sad,norn,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Thực ra tôi chỉ nghỉ ngơi đề phòng chứ không cần phải nghỉ ngơi tuyệt đối.\nKhông cần phải đến đây khám bác sĩ?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chuyện lớn như vậy, chắc hẳn mọi người đều rất bận phải không?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_09.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-225,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Có vẻ như những người khác đã điều tra khắp nơi kể từ ngày hôm qua,\nvì anh ấy và tôi hoàn toàn không quen với Raleye...」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Thành thật mà nói, tôi không thể làm được gì nhiều để giúp đỡ.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:unique,norn,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Lười biếng là không tốt đâu」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_10.mp3
+clickwait,,,,,,,,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Điều đó thật đáng xấu hổ đối với chúng tôi... đối với anh ấy còn hơn thế nữa.\nRốt cuộc, anh ấy thậm chí còn không biết kinh nghiệm sống của chính mình.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_11.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Hơn nữa, sau khi điều tra một chút, có vẻ như ngoại chất của anh ta thậm chí không thể sử dụng phép thuật thông thường,\nNó hoàn toàn thiên về khả năng của những giấc mơ.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Hừ, đúng vậy...nhưng đối với chúng ta bây giờ, đây là một khả năng rất đáng tin cậy và mạnh mẽ.\nNgoài ra, tôi nghĩ anh ấy là một người đáng tin cậy.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-225,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「...Tôi nghĩ tôi đã nói điều đó khi chúng ta gặp nhau lần đầu tiên, Noen, tại sao bạn lại ưu ái anh ấy một cách bất ngờ?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_13.mp3
+clickwait,,,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Hmm... thực ra tôi không còn nhớ gì về bốn năm trước.\nKỷ niệm đầu tiên là khi tôi tỉnh dậy ở Lovecraft Foundation.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「好像是，確認了突然異常的<ruby>魔素</ruby>的上升情況並進行了調查，\n結果我倒在了那個地方」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-225,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Trong trường hợp đó, bạn có liên quan đến một sự cố nào đó không...?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:sad,norn,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vậy thì ai biết được... có lẽ tôi biết rằng tôi là người duy nhất khác biệt.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:sad,norn,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Tôi có một cảm giác khác thường về ác ý của mọi người.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_15.mp3
+clickwait,,,,,,,,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ừm, điều này có nghĩa là gì...?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_15.mp3
+clickwait,,,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Thế giới đầy rẫy sự ác độc.Nói cách khác, ngay cả khi bạn không có suy nghĩ,\n cũng không có gì lạ khi có một khối u ác tính vô thức ẩn náu trong tim bạn.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Lời nói của tôi có thể nhìn thấu và nghe thấy ác ý của những người đó.\nNgay cả bây giờ, tôi vẫn có thể cảm nhận được ác ý đến từ Asaka.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-225,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Đợi đã, chờ một chút, tôi không có ý ác ý gì cả...!」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:sad,norn,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「“Tôi không thể tự mình làm được việc gì”, “Chắc chắn sẽ có người giúp tôi giải quyết”.\nĐổ trách nhiệm cho người khác và lười biếng quan sát tình hình... cũng là ác tâm của con người.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-225,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Gì……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Nhưng đây là ác ý đáng yêu.Bất cứ ai cũng có thể có mức độ ác ý này.\nCó thể hơi cường điệu một chút, nhưng tôi nghĩ bạn là một người tốt bụng, Asaka.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_19.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:smile,norn,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Tuy nhiên, anh ta không hề có ác ý gì cả.Thật tươi.\nSạch sẽ đến thất vọng.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_20.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-225,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「...Không hề đâu, ác ý?Điều đó có thể được không?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ít nhất đây là lần đầu tiên tôi gặp nó.Nói cách khác, đơn giản là có một số lý do khiến khả năng của tôi không thể ảnh hưởng đến anh ấy. Anh ta thực sự có thể có một hoặc hai ý định xấu.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_21.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Nhưng nó không quan trọng.Lần đầu tiên, tôi không cảm thấy ác ý... Tôi không có bất kỳ ý định ích kỷ nào,\nTôi là người mà tôi có thể thành thật với.đối với tôi đó là tất cả」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_22.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:smile,norn,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Đây là lý do tại sao tôi ủng hộ anh ấy.Ngoài ra, tôi không ngờ lại thích khuôn mặt đó」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_23.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-225,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tại sao lại thêm một câu thừa như vậy!?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_19.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ahaha, tôi thực sự không giỏi trong những tình huống nghiêm trọng.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_24.mp3
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0
+endwait,
+playse,/download/sound/se/se_029.mp3
+endwait
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,-300,-180,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,dana,255_255_255,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana Dalelu Daomingsi |</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Anh ấy trông thực sự hạnh phúc」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_1_01_01.mp3
+clickwait,,,,,,,,,,,
+anm,tint,dana,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「À, Dana.Có chuyện gì thế?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_25.mp3
+clickwait,,,,,,,,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,dana,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Dana Dalelu Daomingsi |</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tôi đến đây để gọi cho Yasaka」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_1_01_02.mp3
+clickwait,,,,,,,,,,,
+spriteoff,norn,0
+endwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,375,-120,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tôi...?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_20.mp3
+clickwait,,,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,dana,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Dana Dalelu Daomingsi |</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Đúng.Mặc dù cuộc điều tra nội bộ của R'lye đang được tiến hành nhưng vẫn không có tiến triển gì.\n...Vì thế Zero đề xuất tiếp tục khám phá bên trong vùng đất mộng mơ.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_1_01_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Phải nói rằng,\nit sẽ quá mạo hiểm nếu mọi người đi sâu vào Vùng đất mộng mơ lúc này.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_1_01_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vì vậy, tôi hy vọng rằng, kể cả anh ấy, người có thể giảm bớt gánh nặng cho người khác\n, trước tiên tôi sẽ cử một vài người đến suy nghĩ.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_1_01_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,-300,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Nếu có thể, tôi mong cô Asaka cũng có thể tham gia lặn sâu」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_1_01_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,375,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「……Tôi hiểu rồi」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_21.mp3
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+endawait
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:surprise,norn,-300,-120,0.5,0.5.,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ồ, ngạc nhiên thay tôi lại chấp nhận nó một cách dễ dàng?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_26.mp3
+clickwait,,,,,,,,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Bởi vì đây là trường hợp.Nếu có điều gì tôi có thể làm được, tôi muốn thử nó bằng mọi giá.\nKhông phải tự nhiên mà nghĩ vậy sao?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_22.mp3
+clickwait,,,,,,,,,,,
+spriteoff,norn,0
+endwait
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,-300,-180,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,dana,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Dana Dalelu Daomingsi |</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ừm, bạn vẫn chưa quen với nơi này nên nếu bạn cảm thấy khó chịu\nLần này bạn không đi cũng không sao...」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_1_01_07.mp3
+clickwait,,,,,,,,,,,
+anm,tint,dana,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Không sao đâu, xin đừng lo lắng quá.\nNó không có ích gì khi điều tra cơ sở nên tôi chỉ có thể giúp đỡ việc này.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_23.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,-300,-180,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,dana,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Dana Dalelu Daomingsi |</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「...Thật sự?Trong trường hợp đó, tôi sẽ để nó cho bạn.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_1_01_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tuy tôi cũng muốn đi cùng cậu,\nnhưng tôi vẫn phải chịu trách nhiệm tiếp tục điều tra nội bộ của Raleye...」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_1_01_09.mp3
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+anm,tint,norn,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chà, Dana đã đến Raleye lâu như vậy rồi, đó là điều đương nhiên.\n...Asahua, bạn cũng phải làm việc chăm chỉ nhé」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_1_01_27.mp3
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:smile,asaka,-225,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vâng, cảm ơn bạn」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_24.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-225,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Vậy chúng ta cũng đi nhé?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_25.mp3
+clickwait,,,,,,,,,,,
+stopbgm,0.5
+spriteoff,all,0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,1.5,right
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010400.jpg,0,,,,,,,,
+endwait
+slideoutblack,1.5,right
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+spriteatlas,download/character/102601/adv/atlas/stand_a,body:normal,zero,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,bri,300,-190,0.5,0.5,,,,
+anm,tint,zero,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>không</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Nào chúng ta bắt đầu...」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_01.mp3
+clickwait,,,,,,,,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,zero,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Đúng là... bạn trông rất thoải mái,\nBạn có biết bây giờ chuyện gì đang xảy ra không?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_1_01_01.mp3
+clickwait,,,,,,,,,,,
+spriteoff,zero,0
+endwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-225,-120,0.5,0.5,,,,
+anm,tint,bri,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Có vẻ như tôi đến muộn, tôi xin lỗi...Ừm, tên bạn là Brigitte, bạn có ở đây không?\nBạn có định lặn cùng tôi không?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_26.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:anger,bri,300,-190,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,bri,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tôi hy vọng bạn sẽ không gọi tôi bằng tên một cách tùy tiện.Trước tiên hãy để tôi nói rõ với bạn,\nCô gái này không hề muốn có mối quan hệ tốt đẹp với bạn chút nào.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_1_01_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tôi chỉ muốn làm những điều cần thiết」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_1_01_03.mp3
+clickwait,,,,,,,,,,,
+anm,tint,bri,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「À... ừ, không cần phải nói thế đâu nhỉ?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_27.mp3
+clickwait,,,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,bri,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「…………」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_1_01_04.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102601/adv/atlas/stand_a,body:normal,zero,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>không</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Bạn thực sự bất lực.Thực sự,\nChúng ta đều là những người bạn đồng hành sẽ cùng nhau hành động trong tương lai. Tôi nghĩ sẽ tốt hơn nếu chúng ta hòa hợp với nhau hơn một chút.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「đừng bận tâm.Điều tôi muốn đi sâu vào lần này là, bạn và...」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_03.mp3
+clickwait,,,,,,,,,,,
+spriteoff,zero,0
+endwait
+spriteatlas,download/character/100301/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0.5,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,gizel,300,-120,0.5,0.5,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,gizel,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Katia Bruntswa</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Đó...tôi cũng vậy...ah!」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_1_01_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,gizel,300,-120,0.5,0,,,,
+anm,tint,gizel,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「vô cùng xin lỗi.Cô Katya, tôi hy vọng lần này cô có thể tránh được...」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_007_1_01_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100301/adv/atlas/stand_a,body:sad,catia,-300,-100,0.5,0,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,gizel,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Bruntswa</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「...Đó là vì tôi là thành viên của Holy Order và có mối quan hệ không tốt với tổ chức, phải không?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_1_01_02.mp3
+clickwait,,,,,,,,,,,
+spriteoff,gizel,0
+endwait
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,bri,300,-190,0.5,0.5,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ngoài ra, khi Jingmen nổi điên ngày hôm qua, anh ấy cũng là người thân thiết nhất với Jingmen\nQuả thực là đáng nghi.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_1_01_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vì có thể hiểu rằng chính bạn đã khiến Kinh Môn nổi điên,\nvì bạn đã gây ra thảm họa này, tất nhiên chúng tôi phải cảnh giác với bạn?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_1_01_06.mp3
+clickwait,,,,,,,,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Bruntswa</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chuyện đó chỉ xảy ra là... Không, nói thế cũng chẳng ích gì.\nDường như dù có rạn nứt cũng chẳng thể làm gì được...」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_1_01_03.mp3
+clickwait,,,,,,,,,,,
+spriteoff,catia,0
+endwait
+spriteatlas,download/character/102601/adv/atlas/stand_a,body:normal,zero,-300,-120,0.5,0.5,,,,
+anm,tint,zero,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>không</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「...Mặc dù cơn thịnh nộ của Jingmen có lẽ không liên quan nhiều đến cô ấy, nhưng sẽ rất rắc rối nếu tìm hiểu sâu hơn\n. Tóm lại có thể hòa giải được là tốt rồi.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vì vậy, chính anh ấy, tôi, Asaka, Brigitte và Gizelle đang lặn sâu\nCó được không?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_05.mp3
+clickwait,,,,,,,,,,,
+spriteoff,bri,0
+endwait
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,gizel,300,-120,0.5,0.5,,,,
+anm,tint,gizel,255_255_255,0.0001,0
+anm,tint,zero,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Đúng」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_007_1_01_02.mp3
+clickwait,,,,,,,,,,,
+spriteoff,gizel,0
+endwait
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,bri,300,-190,0.5,0.5,,,,
+anm,tint,bri,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Nhân tiện, tại sao bạn lại phụ trách vấn đề này?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_1_01_07.mp3
+clickwait,,,,,,,,,,,
+anm,tint,zero,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>không</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tôi nghĩ người quen thuộc nhất với thế giới giấc mơ nên chịu trách nhiệm?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,bri,300,-190,0.5,0s,,,,
+anm,tint,zero,150_150_150,0.0001,0
+anm,tint,bri,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「...Muốn nghi ngờ thì cô và người đàn ông đó đều nghi ngờ như nhau.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_1_01_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102601/adv/atlas/stand_a,body:smile,zero,-300,-120,0.5,0,,,,
+anm,tint,zero,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>không</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vì vậy, sẽ không sao nếu bạn không đến, phải không?\nXin hãy theo dõi cẩn thận những thay đổi trong hoàn cảnh của Raleye.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_07.mp3
+clickwait,,,,,,,,,,,
+anm,tint,zero,150_150_150,0.0001,0
+anm,tint,bri,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「…………khịt mũi」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_1_01_09.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102601/adv/atlas/stand_a,body:normal,zero,-300,-120,0.5,0,,,,
+anm,tint,zero,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>không</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chỉ cần đồng ý với nó.Vậy chúng ta hãy xuất phát ngay thôi」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_08.mp3
+clickwait,,,,,,,,,,,
+spriteoff,bri,0
+endwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,375,-120,0.5,0,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,zero,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chà, tại sao bạn không chuẩn bị trước...?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_28.mp3
+clickwait,,,,,,,,,,,
+anm,tint,zero,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>không</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Sức mạnh là do anh ta ban cho, bởi vì bạn không biết điều gì sẽ xảy ra trong xứ mộng mơ,\nChuẩn bị một nửa cũng vô nghĩa.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chỉ cần chuẩn bị tinh thần」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_10.mp3
+clickwait,,,,,,,,,,,
+stopbgm,0.5
+name,
+msg,0,
+endwait
+spriteoff,all,0.5
+endwait
+spine,download/adv/spine/gate,gate0,default,0_lp,1,0,0,1,1,0.3
+playse,/download/sound/se/se_015.mp3
+endwait
+spriteatlas,download/character/102601/adv/atlas/stand_a,body:anger,zero,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>không</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vậy thì đi thôi」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_11.mp3
+clickwait,,,,,,,,,,,
+spriteoff,zero,0.1
+endwait
+name,,
+msg,0,,,,,,,,,,,
+msgwin,off
+endwait
+bg,color_0_0_0,1,255
+spine,download/adv/spine/gate,gate1,default,0_out,0,0,0,1,1,0
+playse,/download/sound/se/se_1_out.mp3
+wait,5.4
+endwait
+spineoff,gate0
+spineoff,gate1
+playse,/download/sound/se/none.mp3
+endwait
+msgwin,on
+endwait
+bg,color_0_0_0_0,2.5
+endwait
+msg,0,<size=30><outline width=2 color=black>……。</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………。</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>………………。</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+bg,download/bg/bg_10020100.jpg,2,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm024.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,375,-220,0.5,0.5,,,,
+anm,move,asaka,375_-120,0.5,0
+endwait
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ở đây, nó vẫn giống như ngày hôm qua…」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_29.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:surprise,gizel,-300,-220,0.5,0.5,,,,
+anm,move,gizel,-300_-120,0.5,0
+endwait
+anm,tint,gizel,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Lộn ngược, Luân Đôn...?\nVà bộ trang phục này...đây có phải là sức mạnh mà người khác đã nói với tôi trước đây không...」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_007_1_01_03.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0,
+endwait,
+spriteatlas,download/character/102601/adv/atlas/stand_a,body:normal,zero,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,bri,300,-190,0.5,0.5,,,,
+anm,tint,zero,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>không</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Có vẻ như đây là một không gian liên quan đến hình ảnh tinh thần của ai.\nRốt cuộc thì khung cảnh này có mối liên hệ mật thiết với ai?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_12.mp3
+clickwait,,,,,,,,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,zero,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>đường Brigitte Badway</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「…………」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_1_01_10.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,375,-120,0.5,0.5,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:sad,gizel,-300,-120,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,gizel,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Làm thế nào bạn nói điều này có liên quan đến hình ảnh tinh thần?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_30.mp3
+clickwait,,,,,,,,,,,
+anm,tint,gizel,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Giấc mơ bộc lộ những suy nghĩ sâu kín nhất của con người dưới nhiều hình thức khác nhau」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_007_1_01_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Không gian này phản ánh tấm lòng của một ai đó...\nNó chắc chắn sẽ bộc lộ những điều ẩn giấu trong lòng một cách vô lý.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_007_1_01_05.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102601/adv/atlas/stand_a,body:anger,zero,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>không</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Đó thực sự là một mùi vị tồi tệ... Người bị nhắm đến biết mình đang tìm kiếm điều gì\nXin hãy cẩn thận hơn.」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「...Người ta nói rằng trước tiên chúng ta sẽ nhận được sự chào đón nồng nhiệt,\nChúng ta hãy tận hưởng nó nhé?」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_026_1_01_14.mp3
+clickwait,,,,,,,,,,,
+stopbgm,0.5
+spriteoff,zero,0
+endwait
+playbgm,/download/sound/bgm/bgm007.mp3,0.5,,,
+endwait
+sprite,download/monster/20010101/adv/image/20010101.png,magician,-30,-170,1.35,1
+endwait
+name,<size=27><outline width=2 color=black>kẻ thù</outline></size>,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「―――――――――――――!」</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+shake,0.2,4,15,15
+endwait
+clickwait,,,,,,,,,,,
+spriteoff,magician,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:anger,asaka,65,-120,0.5,0.5,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ờ...!」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_31.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,65,-120,0.5,0,,,,
+playse,/download/sound/se/se_032.mp3
+endwait
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Không sao đâu... Tôi vẫn có thể chiến đấu... Kể cả tôi vẫn có thể...!」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_1_01_32.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

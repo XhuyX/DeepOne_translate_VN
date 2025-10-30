@@ -1,0 +1,324 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10020400.jpg,0
+endwait
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm008.mp3,0,
+endwait
+mask,bg1,-300,0,300,720,0,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,asaka1,-300,0,300,720,0,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,0,0,0,0,,,,
+imgconf,asaka,asaka1,-140,-650,200,,0,1.5,1.5,0.5
+mask,bg2,300,0,300,720,0,,,,
+sprite,download/adv/image/black.jpg,bg3,0,0,0,0
+imgconf,bg3,bg2,0,0,,,0,1,1,0.5
+mask,tabasa1,300,0,300,720,0,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,0,0,0,0,,,,
+imgconf,tabasa,tabasa1,0,-370,200,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Yashahua|／Tabasha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Haha——!」</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0.5
+endwait
+sprite,download/monster/20010102/adv/image/20010102.png,magician,-50,-250,1.35,0.5
+endwait
+spine,download/adv/spine/Fire1,em1,default,animation,0,0,0,0.65,0.8,0
+spine,download/adv/spine/Dark,em2,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_038.mp3
+wait,0.1
+playse,/download/sound/se/se_039.mp3
+shake,0.1,6,100,100
+wait,0.5
+flash,255,255,255,2,0.2,0
+endwait
+spineoff,em1,1
+spineoff,em2,1
+endwait
+anm,fade,magician,0,1,1
+playse,/download/sound/se/se_025.mp3
+endwait
+spriteoff,magician,0
+endwait
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:normal,tabasa,300,-100,0.5,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Hừ...Đây là kết thúc sao?」</outline></size>,,,,,,,,,
+clickwait
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,tabasa,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ngay cả với sự hỗ trợ của anh ấy, sức mạnh này thực sự đáng kinh ngạc…」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Có gì đáng ngạc nhiên về điều này.Đúng không anh trai?」</outline></size>,,,,,,,,,
+clickwait
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ối... Bây giờ người trợ giúp đã đến rồi, tiếp tục quấy rầy cũng chẳng ích gì.\nTốt nhất là tôi nên đối đầu với kẻ xấu và bỏ chạy trong xấu hổ.」</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>「Nhưng, Tabatha...bạn có thực sự tin tưởng họ không?\nBạn có nghĩ họ thực sự có thể chấp nhận bạn và anh trai bạn không?」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:normal,tabasa,300,-100,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Rory thật thô lỗ... vậy thì sao?Dù sao thì nó cũng không quan trọng với tôi.\nTôi chưa bao giờ muốn họ chấp nhận ngay từ đầu.」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Này... đừng lúc nào cũng nói những điều trẻ con như vậy, hãy nhìn kỹ thế giới bên ngoài đi.\nĐây là gợi ý cuối cùng của tôi dành cho bạn」</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>「---Những người bạn yêu quý cũng mong bạn làm điều tương tự」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-100,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「à……?Bạn đã nói gì?」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Norn Narvinot</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Hừm... Dù không muốn nói lời tạm biệt nhưng hôm nay tôi sẽ xin nghỉ.\nHẹn gặp lại lần sau, tạm biệt.」</outline></size>,,,,,,,,,
+clickwait
+stopbgm,0.5
+endwait
+flash,255,255,255,2,0.2,0
+anm,fade,norn,0,1,1
+playse,/download/sound/se/se_015.mp3
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Đợi một chút……!」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「…Vô ích thôi, phản ứng ma thuật của cô ấy không còn có thể tìm thấy trên thực địa nữa.\nMặc dù rất miễn cưỡng nhưng tốc độ trốn thoát của cô ấy có vẻ là hàng đầu.」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「…………Norn」</outline></size>,,,,,,,,,
+clickwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Có vẻ như bạn biết người phụ nữ đó... Bạn có phải là người muốn kiện không?\nCó lẽ bạn cũng biết cách quay lại R'lyeh?」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:normal,asaka,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「À, à... tôi có thể quay lại miễn là anh ấy kết nối được với cuốn sách gốc của Nacht...」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:sad,tabasa,300,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Và cuốn sách gốc của Nakter...?Quên đi, không cần phải kể chi tiết cho tôi.\nBây giờ chỉ cần tôi biết thì tôi có thể quay lại...à...ah——」</outline></size>,,,,,,,,,
+clickwait
+playse,/download/sound/se/se_020.mp3
+shake,0.1,2,100,100
+anm,fade,tabasa,0,1,1
+endwait
+spriteoff,tabasa,0
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,-300,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Này, xin chào!Tại sao bạn lại đột ngột suy sụp... Không, bạn ổn chứ?!」</outline></size>,,,,,,,,,
+clickwait
+stopbgm,0.5
+endwait
+slideinblack,1,right
+endwait
+spriteoff,all,0,
+name,
+msg,0,
+bg,color_0_0_0,0,255
+endwait
+slideoutblack,1,left
+endwait
+msg,0,<size=30><outline width=2 color=black>……。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>…………。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>………………。</outline></size>,,,,,,,,,
+clickwait
+roombg,1020,1
+endwait
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,gizel,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,-300,-120,0.5,0.5,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana Dalelu Daomingsi |</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Xin lỗi...tôi nên xin lỗi thế nào đây...」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,gizel,300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Gizelle Badway</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chúng tôi không để ý,\nkhông ngờ bạn lại thức dậy nhanh như vậy」</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-250,-120,0.5,0.5,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:anger,tabasa,250,-100,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Hừm, bạn không cần phải xin lỗi.」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-250,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Được rồi, được rồi... Tóm lại, tôi đã nói rõ với bạn về Raleye và tình hình hiện tại của chúng ta\n」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,250,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ban đầu tôi nghe có vẻ khó tin...\nNhưng nhìn vào tình hình hiện tại thì tôi phải tin vào điều đó.」</outline></size>,,,,,,,,,
+clickwait
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,-300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana Dalelu Daomingsi |</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vì vậy, điều đó...nếu có thể,\nchúng tôi cũng mong nhận được sự giúp đỡ của bạn trong tương lai...」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,250,-100,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「...Đúng」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:normal,tabasa,250,-100,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Vốn dĩ tôi không có hứng thú hợp tác với người khác, nhưng giờ tôi không còn lựa chọn nào khác...\nAnh trai tôi cũng yêu cầu tôi làm điều đó.」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:smile,dana,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Dana Dalelu Daomingsi |</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tabatha...cảm ơn bạn」</outline></size>,,,,,,,,,
+clickwait
+spriteoff,dana,0
+endwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:smile,asaka,-250,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tuyệt vời, giờ bạn đã có một người bạn đồng hành đáng tin cậy」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:surprise,tabasa,250,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「……bạn đồng hành?」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-250,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chà, trận chiến mà bạn vừa trải qua ở vùng đất mộng mơ thực sự rất mạnh mẽ và đáng tin cậy.」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:shy,tabasa,250,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Huh... đừng nói lời tử tế để người ta vui nữa」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-250,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Hả?Ý tôi không phải là...」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-250,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Bướng bỉnh quá - thôi nào」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:surprise,tabasa,250,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「...đây là?」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:smile,asaka,-250,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chúng ta là những đối tác sẽ sát cánh chiến đấu trong tương lai nên bắt tay cũng được, phải không?」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:surprise,tabasa,250,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「――――」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,250,-100,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「...Xin lỗi, tôi vẫn cảm thấy không khỏe.Hãy để tôi nghỉ ngơi một lát」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-250,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tabatha...」</outline></size>,,,,,,,,,
+clickwait
+spriteoff,tabasa,0
+endwait
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana Dalelu Daomingsi |</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「...Tình huống này xảy ra đột ngột và có thể bạn vẫn chưa nhận ra.\nBạn cần chút thời gian ở một mình, phải không?Đi thôi Asahua」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-250,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai|Asaka|</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「À...nếu có chuyện gì xảy ra thì cứ gọi cho chúng tôi ngay nhé?\nChỉ cần chúng tôi có thể làm được bất cứ điều gì có thể, chúng tôi sẽ giúp đỡ.」</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0.5
+endwait
+playse,/download/sound/se/se_029.mp3
+wait,0.5
+endwait
+stopbgm,0.5
+endwait
+playbgm,/download/sound/bgm/bgm026.mp3,0,
+endwait
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:sad,tabasa,0,-100,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>xoắn tabatha</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「…」</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>「Huh... hình như họ đi rồi anh ơi」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:normal,tabasa,0,-100,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Cuối cùng đã trở lại thành công.Tất cả là nhờ có anh trai tôi...」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:sad,tabasa,0,-100,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Nhưng tại sao anh trai tôi lại mang Tabatha đến Dreamland...?\nCó phải là để tôi gặp người phụ nữ tên Norn đó không?」</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>「...Hay bạn muốn tôi gặp người đàn ông đó?」</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>「Tabatha có anh trai là đủ rồi」</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>「---Nhưng nếu tôi có thể nắm tay anh ấy, có lẽ mọi chuyện sẽ thay đổi?\nCho dù đó là Tabatha... hay anh trai tôi」</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:normal,tabasa,0,-100,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Quên đi...những điều tôi vừa nói quá khó hiểu.\nCó lẽ là do tôi mệt. Tốt nhất là tôi nên ngủ một giấc.」</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>「Hãy ở bên Tabatha từ bây giờ nhé anh trai.」</outline></size>,,,,,,,,,
+clickwait
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,1,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
