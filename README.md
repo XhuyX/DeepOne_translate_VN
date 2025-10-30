@@ -37,10 +37,10 @@ Chọn 1 trong 2 extension sau:
 
 ```
 ^https:\/\/tonofura-r-cdn-client\.deepone-online\.com\/client\/[0-9]+\.[0-9]+\.[0-9]+\/src\/project\.js,regex,redirect
-url:https://xhuy.github.io/DeepOne_translate_VN/js/project.js
+url:https://xhuyx.github.io/DeepOne_translate_VN/js/project.js
 
 ^https:\/\/tonofura-w-cdn-client\.deepone-online\.com\/client\/[0-9]+\.[0-9]+\.[0-9]+\/src\/project\.js,regex,redirect
-url:https://xhuy.github.io/DeepOne_translate_VN/js/project.js
+url:https://xhuyx.github.io/DeepOne_translate_VN/js/project.js
 ```
 
 3. Click **Save**
@@ -292,6 +292,7 @@ Chỉ dùng cho mục đích học tập và nghiên cứu. Không thương mạ
 [⬆️ Back to Top](#-deepone-bản-dịch-tiếng-việt)
 
 </div>
+
 
 
 
