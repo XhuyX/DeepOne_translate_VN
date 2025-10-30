@@ -1,15 +1,101 @@
 {
   "createdBy": "Redirector v3.5.3",
-  "createdAt": "2024-01-01T00:00:00.000Z",
+  "createdAt": "2025-01-01T00:00:00.000Z",
   "redirects": [
     {
-      "description": "DeepOne Vietnamese - Font",
+      "description": "DeepOne VN - project.js (R-CDN)",
+      "exampleUrl": "https://tonofura-r-cdn-client.deepone-online.com/client/1.244.0/src/project.js",
+      "exampleResult": "https://xhuyx.github.io/DeepOne_translate_VN/js/project.js",
+      "includePattern": "^https://tonofura-r-cdn-client\\.deepone-online\\.com/client/[^/]+/src/project\\.js",
+      "excludePattern": "",
+      "patternDesc": "Redirect project.js từ R-CDN",
+      "redirectUrl": "https://xhuyx.github.io/DeepOne_translate_VN/js/project.js",
+      "patternType": "R",
+      "processMatches": "noProcessing",
+      "disabled": false,
+      "grouped": false,
+      "appliesTo": [
+        "main_frame",
+        "xmlhttprequest",
+        "script"
+      ]
+    },
+    {
+      "description": "DeepOne VN - project.js (W-CDN)",
+      "exampleUrl": "https://tonofura-w-cdn-client.deepone-online.com/client/1.273.0/src/project.js",
+      "exampleResult": "https://xhuyx.github.io/DeepOne_translate_VN/js/project.js",
+      "includePattern": "^https://tonofura-w-cdn-client\\.deepone-online\\.com/client/[^/]+/src/project\\.js",
+      "excludePattern": "",
+      "patternDesc": "Redirect project.js từ W-CDN",
+      "redirectUrl": "https://xhuyx.github.io/DeepOne_translate_VN/js/project.js",
+      "patternType": "R",
+      "processMatches": "noProcessing",
+      "disabled": false,
+      "grouped": false,
+      "appliesTo": [
+        "main_frame",
+        "xmlhttprequest",
+        "script"
+      ]
+    },
+    {
+      "description": "DeepOne VN - Text Files (R-CDN)",
+      "exampleUrl": "https://tonofura-r-cdn-client.deepone-online.com/client/1.244.0/download/adv/text/tutorial/adultr/600010001.txt",
+      "exampleResult": "https://xhuyx.github.io/DeepOne_translate_VN/download/adv/text/tutorial/adultr/600010001.txt",
+      "includePattern": "^https://tonofura-r-cdn-client\\.deepone-online\\.com/client/[^/]+/(download/adv/text/.+\\.txt)",
+      "excludePattern": "",
+      "patternDesc": "Redirect file .txt từ R-CDN sang GitHub",
+      "redirectUrl": "https://xhuyx.github.io/DeepOne_translate_VN/$1",
+      "patternType": "R",
+      "processMatches": "noProcessing",
+      "disabled": false,
+      "grouped": false,
+      "appliesTo": [
+        "main_frame",
+        "xmlhttprequest"
+      ]
+    },
+    {
+      "description": "DeepOne VN - Text Files (W-CDN)",
+      "exampleUrl": "https://tonofura-w-cdn-client.deepone-online.com/client/1.273.0/download/adv/text/quest/10001/100101001.txt",
+      "exampleResult": "https://xhuyx.github.io/DeepOne_translate_VN/download/adv/text/quest/10001/100101001.txt",
+      "includePattern": "^https://tonofura-w-cdn-client\\.deepone-online\\.com/client/[^/]+/(download/adv/text/.+\\.txt)",
+      "excludePattern": "",
+      "patternDesc": "Redirect file .txt từ W-CDN sang GitHub",
+      "redirectUrl": "https://xhuyx.github.io/DeepOne_translate_VN/$1",
+      "patternType": "R",
+      "processMatches": "noProcessing",
+      "disabled": false,
+      "grouped": false,
+      "appliesTo": [
+        "main_frame",
+        "xmlhttprequest"
+      ]
+    },
+    {
+      "description": "DeepOne VN - Override lisanjin redirect (if exists)",
+      "exampleUrl": "https://lisanjin.github.io/DeepOne_translate_CN/download/adv/text/tutorial/adultr/600010001.txt",
+      "exampleResult": "https://xhuyx.github.io/DeepOne_translate_VN/download/adv/text/tutorial/adultr/600010001.txt",
+      "includePattern": "^https://lisanjin\\.github\\.io/DeepOne_translate_CN/(download/.+)",
+      "excludePattern": "",
+      "patternDesc": "Override nếu project.js redirect về trang CN",
+      "redirectUrl": "https://xhuyx.github.io/DeepOne_translate_VN/$1",
+      "patternType": "R",
+      "processMatches": "noProcessing",
+      "disabled": false,
+      "grouped": false,
+      "appliesTo": [
+        "main_frame",
+        "xmlhttprequest"
+      ]
+    },
+    {
+      "description": "DeepOne VN - Font",
       "exampleUrl": "https://tonofura-r-cdn-client.deepone-online.com/client/1.205.0/res/raw-assets/c6/c6fd2960-337d-47ea-8e1b-95e6e4fe38ee/Humming-D.ttf",
       "exampleResult": "https://xhuyx.github.io/DeepOne_translate_VN/assets/fonts/Humming-D.ttf",
-      "error": null,
       "includePattern": ".+Humming-D\\.ttf$",
       "excludePattern": "",
-      "patternDesc": "",
+      "patternDesc": "Redirect font tiếng Việt",
       "redirectUrl": "https://xhuyx.github.io/DeepOne_translate_VN/assets/fonts/Humming-D.ttf",
       "patternType": "R",
       "processMatches": "noProcessing",
@@ -18,50 +104,10 @@
       "appliesTo": [
         "main_frame",
         "xmlhttprequest",
-        "script",
-        "stylesheet"
-      ]
-    },
-    {
-      "description": "DeepOne Vietnamese - Project.js (R-CDN)",
-      "exampleUrl": "https://tonofura-r-cdn-client.deepone-online.com/client/1.244.0/src/project.js",
-      "exampleResult": "https://xhuyx.github.io/DeepOne_translate_VN/js/project.js",
-      "error": null,
-      "includePattern": "https://tonofura-r-cdn-client\\.deepone-online\\.com/client/.+?/src/project\\.js",
-      "excludePattern": "",
-      "patternDesc": "",
-      "redirectUrl": "https://xhuyx.github.io/DeepOne_translate_VN/js/project.js",
-      "patternType": "R",
-      "processMatches": "noProcessing",
-      "disabled": false,
-      "grouped": false,
-      "appliesTo": [
-        "main_frame",
-        "xmlhttprequest",
-        "script",
-        "stylesheet"
-      ]
-    },
-    {
-      "description": "DeepOne Vietnamese - Project.js (W-CDN)",
-      "exampleUrl": "https://tonofura-w-cdn-client.deepone-online.com/client/1.273.0/src/project.js",
-      "exampleResult": "https://xhuyx.github.io/DeepOne_translate_VN/js/project.js",
-      "error": null,
-      "includePattern": "https://tonofura-w-cdn-client\\.deepone-online\\.com/client/.+?/src/project\\.js",
-      "excludePattern": "",
-      "patternDesc": "",
-      "redirectUrl": "https://xhuyx.github.io/DeepOne_translate_VN/js/project.js",
-      "patternType": "R",
-      "processMatches": "noProcessing",
-      "disabled": false,
-      "grouped": false,
-      "appliesTo": [
-        "main_frame",
-        "xmlhttprequest",
-        "script",
         "stylesheet"
       ]
     }
   ]
-
 }
+
+
