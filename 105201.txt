@@ -1,0 +1,182 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_01.mp3
+name,<outline width=2 color=black>Kukuru Y Trecena</outline>,
+msg,1,<outline width=2 color=black>「Chào đằng ấy。Gặp được cậu ở đây đúng là may thật。\nThật ra tớ đang muốn nói chuyện với cậu này」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_02.mp3
+msg,1,<outline width=2 color=black>「Phía trước là phòng tập nhỉ?\nChẳng lẽ、cậu đang định đi vận động chân tay sao？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_03.mp3
+msg,1,<outline width=2 color=black>「Tớ đã nghĩ tướng người cậu rất rắn rỏi、quả là khỏe mạnh。\nNgười ta nói sữc khoẻ là vàng, tớ nghĩ điều đó rất đúng」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_04.mp3
+msg,1,<outline width=2 color=black>「Vừa đi vừa nói cũng được、mình nói chuyện chút nhé」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_05.mp3
+msg,1,<outline width=2 color=black>「À、 cậu có muốn sờ ngực tớ không？　Coi như quà cảm ơn dành thời gian cho tớ。\nCủa tớ to lắm nên sướng tay lắm đó nhaー？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_06.mp3
+msg,1,<outline width=2 color=black>「――……A、xin lỗi、tớ đùa thôi mà。\nĐừng nhìn tớ với ánh mắt kiểu 「cái j v tr」」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_07.mp3
+msg,1,<outline width=2 color=black>「Ư ư……Tự tớ cũng thấy vừa rồi hơi lố……Quả nhiên là、\nhơi kỳ cục nhỉ……đột ngột quá mà」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_08.mp3
+msg,1,<outline width=2 color=black>「Thì là……Tớ nghĩ có lẽ cậu sẽ thích kiểu con gái\nbạo dạn và cởi mở thế này ……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1　「Sao lại đùa kiểu đó？」,選択肢2　「lịch sự!」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_09.mp3
+name,<outline width=2 color=black>Kukuru Y Trecena</outline>,
+msg,1,<outline width=2 color=black>「Ư……ch-chuyện đó、thì là」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_10.mp3
+msg,1,<outline width=2 color=black>「……T-tại tớ muốn gây sự chú ý thôi mà？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_11.mp3
+name,<outline width=2 color=black>Kukuru Y Trecena</outline>,
+msg,1,<outline width=2 color=black>「Nhưng mà、cậu có quan hệ đó với nhiều cô gái mà nhỉ？\nChỉ nhìn tình hình thì trông cậu cũng khá phóng túng đấy……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:surprise,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_12.mp3
+msg,1,<outline width=2 color=black>「A、tất nhiên tớ biết là có nhiều lý do riêng mà、\nvới lại、mấy chuyện đó quan trọng nhất là cảm xúc đôi bên」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_13.mp3
+msg,1,<outline width=2 color=black>「Thế nên、tớ không có ý định phàn nàn gì đâu nhưng mà」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_14.mp3
+msg,1,<outline width=2 color=black>「……Có điều、cách tiếp cận này thất bại rồi ha」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_15.mp3
+name,<outline width=2 color=black>Kukuru Y Trecena</outline>,
+msg,1,<outline width=2 color=black>「À、này nhé……Thật ra、tớ có chuyện muốn nói」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_16.mp3
+msg,1,<outline width=2 color=black>「……Chính bản thân tớ cũng không hiểu rõ cảm xúc này、nhưng mà」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_17.mp3
+msg,1,<outline width=2 color=black>「Có lẽ là……yêu từ cái nhìn đầu tiên」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_18.mp3
+msg,1,<outline width=2 color=black>「C、cảm giác cứ nhìn thấy cậu là tim lại đập thình thịch\nmà với người khác thì không thế……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_19.mp3
+msg,1,<outline width=2 color=black>「Lần đầu tiên tớ có cảm giác này đấy……！　N-nên là\nphải nói ra ……mà đầu óc tớ cứ rối tung lên……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_20.mp3
+msg,1,<outline width=2 color=black>「……x-xin lỗi、coi như tớ chưa nói gì nhé！\nTớ cũng đang loạn lắm……để lần sau bình tĩnh rồi nói nhé！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_21.mp3
+msg,1,<outline width=2 color=black>「V-vậy thì、tớ đi đây！　À ừm、tập luyện cố lên nhé！\nCẩn thận chấn thương nha! Với lại nhớ bổ sung nước thường xuyên！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_01_22.mp3
+msg,1,<outline width=2 color=black>「Bái bai」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_016.mp3
+anm,move,kukuru,1200_-130,0.7,0
+endwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,kukuru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:unique,kukuru2,0,0,0,0,,,,
+imgconf,kukuru2,kukuru1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
