@@ -1,0 +1,439 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11770300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm129.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Tabasa giận lắm rồi bỏ đi đâu đó、 không biết có sao không nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 cũng phải thôi nhỉ…… Với Tabasa mà nói、 chuyện này thật phũ phàng mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100307/adv/atlas/stand_a,body:sad,catia,300,-100,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng…… Dù không thể nói là hiểu được cảm xúc của Tabasa-san、 nhưng nếu là em、 em có lẽ sẽ cảm thấy như tình cảm dành cho người quan trọng nào đó của mình bị phủ nhận。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 đây là một vấn đề khó、 nhưng Tabasa nếu có chút thời gian、 em ấy sẽ tự sắp xếp được cảm xúc của mình thôi、 giờ thì cứ để em ấy yên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:normal,raz,300,-110,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy ạ…… Dù nói vậy、 nhưng chắc chắn đã có người không thể bỏ mặc trong tình huống như thế này、 và đã đuổi theo rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Hôm nay có vẻ không đến lượt mình。,……Hả？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:surprise,raz,300,-110,0.5,0,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？ Ơ？ Sao anh vẫn còn ở đây？ Anh của mọi khi thì phải đuổi theo Tabasa-san ngay lập tức rồi chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100307/adv/atlas/stand_a,body:surprise,catia,-300,-100,0.5,0.5,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hơn nữa、 anh nói 'không đến lượt mình' là sao…… Ý anh là gì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,raz,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:surprise,norn,-300,-120,0.5,0,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,raz,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100307/adv/atlas/stand_a,body:surprise,catia,300,-100,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:surprise,raz,-300,-110,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A、 anh trai？ Sao anh vẫn còn ở đây……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,raz,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:surprise,norn,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu là anh của mọi khi、 chắc chắn sẽ đuổi theo không chút do dự、 rốt cuộc là tại sao……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À、 không、 tất nhiên em cũng hiểu ý muốn để Tabasa một mình、 nhưng mà、 anh cũng biết quan tâm như thế sao……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100307/adv/atlas/stand_a,body:sad,catia,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nói thế thì hơi thất lễ quá……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ…… mà nói mới nhớ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Maria、 biến mất từ lúc nào rồi……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:surprise,norn,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>――Tabasa thật tuyệt vời。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Anh ấy luôn mỉm cười dịu dàng và nói với tôi như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Những lời đó、 thật vui sướng…… thật sự、 rất vững tâm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Chỉ cần có lời của anh ấy、 tôi không cần gì khác。Chỉ bấy nhiêu thôi、 tôi đã có thể tự tin vào bản thân。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Vì vậy―― khi anh ấy biến mất、 vào khoảnh khắc đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Dù cho điều đó không được ai công nhận。Dù cho chính anh ấy cũng không mong muốn điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tôi…… không thể không ước muốn được ở bên anh ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11770300.jpg,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm051.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:anger,tabasa,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có đùa chứ、 cái Vùng Hư Vô này！ Tại sao người mà tôi gửi gắm tình cảm lại không thể là anh ấy chứ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:anger,tabasa,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:sad,tabasa,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ôi、 thôi rồi…… Em xin lỗi、 anh。Tabasa rất tủi thân。Em muốn bày tỏ tình cảm với anh、 nhưng vì cái Vùng Hư Vô này mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tủi thân à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Mày！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Gì vậy、 đuổi theo à？ Cứ tưởng cái tên đó đến chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:normal,tabasa,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chắc không phải là định an ủi tôi đâu nhỉ、 mày đâu có nghĩ đến chuyện cao cả như thế đâu、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Không biết nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tao cũng không biết tại sao mình lại đuổi theo。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà…… có một điều tao biết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cái cảm giác tủi thân mà Tabasa đang có、 là sai rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:sad,tabasa,300,-120,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ý mày là sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bởi vì、 gọi một ma đạo thư là anh、 nếu nghĩ theo lẽ thường thì là chuyện bất thường mà。Hầu hết mọi người sẽ không chấp nhận điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Lần này、 Dreamlands cũng vậy thôi。Chỉ có thế thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mày…… mày đuổi theo là để chọc tức tao à？ Mày nghĩ tao sẽ im lặng nghe cái chuyện vớ vẩn đó sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu mày dám coi thường tình cảm của tao dành cho anh ấy、 dù là ai、 tao cũng sẽ không tha――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu đã có tình cảm mạnh mẽ đến thế、 thì những lời người khác nói có liên quan gì đâu、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ý mày là sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đối với Tabasa、 có điều gì quan trọng hơn việc mày yêu quý anh ấy không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù không được ai khác công nhận、 thì cũng chẳng liên quan gì、 phải không？ Tao nghĩ mày chẳng cần phải tủi thân một chút nào cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Bởi vì、 dù không được ai công nhận、 thì chỉ cần bản thân mày biết tình cảm của mình là thật、 là đủ rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_044.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:surprise,tabasa,300,-120,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:surprise,tabasa,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Mày、 cái hộp đó……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ờ、 chị không có ở đây。Thôi thì、 cũng chẳng còn cách nào khác。Chọn bừa vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chị cho em、 Tabasa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+fadeinwhite,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,196 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm163.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,tabasa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:sad,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-220,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/102054/adv/sound/fav102054_01_01.mp3
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À… bị mưa thế này xui xẻo thật。May là tìm được chỗ trú mưa nhanh、 chứ thế này thì tìm tòi gì nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:sad,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-220,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/102054/adv/sound/fav102054_01_02.mp3
+msg,1,<outline width=2 color=black>Mưa thế này thì cũng không đến nỗi、 nhưng mà để ướt người rồi cảm lạnh thì phiền phức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:sad,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-220,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/102054/adv/sound/fav102054_01_03.mp3
+msg,1,<outline width=2 color=black>Nếu mày mà đổ bệnh thì đám người lắm chuyện kia lại rùm beng lên cho xem。Với lại、 ảnh hưởng đến việc tìm tòi sau này thì tao cũng không gánh nổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:normal,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-220,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/102054/adv/sound/fav102054_01_04.mp3
+msg,1,<outline width=2 color=black>Vậy nên、 cứ ngoan ngoãn trú mưa một lát đã— ừm？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:surprise,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-220,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/102054/adv/sound/fav102054_01_05.mp3
+msg,1,<outline width=2 color=black>Này。Mưa có vẻ nhẹ hạt đi rồi？ Chuyện này chẳng lẽ là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11240300.jpg,1,255
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:normal,tabasa,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_06.mp3
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…Tự dưng tạnh luôn rồi。Chắc là mưa rào thôi。Dù sao thì tạnh nhanh thế này cũng tốt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:normal,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_07.mp3
+msg,1,<outline width=2 color=black>Tao không muốn bị trễ nải mãi、 với lại、 nếu cứ ở riêng với mày thì tao cũng không biết mày sẽ làm trò gì nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: 'Mày đang ám chỉ gì vậy？,Lựa chọn 2: 'Nói oan cho tao đấy
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:anger,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_08.mp3
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Mày… mày đang muốn tao phải nói gì đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:anger,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_09.mp3
+msg,1,<outline width=2 color=black>Hừm。Mày thử nhìn lại những gì đã làm xem。Cứ đặt tay lên ngực mà nghĩ thì kiểu gì cũng hiểu thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:sad,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_10.mp3
+msg,1,<outline width=2 color=black>…——Sao mày ngơ ra thế kia？ Mày thật sự không nhớ gì à？ Nếu vậy thì tao còn thấy sợ nữa đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:anger,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_11.mp3
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hừ、 nói oan cái gì。Mày xem lại những gì mày đã làm đi。Nếu mày vẫn nói thế thì tao cũng chịu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:anger,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_12.mp3
+msg,1,<outline width=2 color=black>Chẳng lẽ、 mày không nhớ thật à…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:sad,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_13.mp3
+msg,1,<outline width=2 color=black>…Mày không phải là không nhớ gì đấy chứ？ Nếu vậy thì mày nên đi khám não đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:sad,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_14.mp3
+msg,1,<outline width=2 color=black>Không、 trường hợp này là giám định tâm thần thì đúng hơn…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:normal,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_15.mp3
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cứ nói chuyện với mày、 tao lại càng thắc mắc tại sao anh trai tao và đám kia lại thích cái thằng này đến thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:normal,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_16.mp3
+msg,1,<outline width=2 color=black>…Mà thôi、 khác với đám kia、 mày có vẻ hiểu rõ sự tuyệt vời của tao、 cũng coi như là có mắt nhìn、 tao cũng công nhận。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:shy,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_17.mp3
+msg,1,<outline width=2 color=black>Với lại… thì… ở cạnh mày cũng không khó chịu、 mà… ngược lại、 thấy lòng bình yên lạ thường、 kiểu…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:surprise,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_18.mp3
+msg,1,<outline width=2 color=black>Ực… k-không có gì！ Tao có nói gì đâu、 đừng để ý…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:sad,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_19.mp3
+msg,1,<outline width=2 color=black>Ch-chết tiệt… Tại mày cả đấy。Tại tao quen với mấy cái cuộc nói chuyện vớ vẩn với mày、 nên tao cũng bắt đầu nghĩ mấy chuyện kỳ quặc…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:anger,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_20.mp3
+msg,1,<outline width=2 color=black>Này、 mày cười cái gì đấy。Khó chịu quá！ Đừng có nhìn tao、 đồ lolicon、 biến thái！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:anger,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_21.mp3
+msg,1,<outline width=2 color=black>A、 chết tiệt、 nói thế mà mày vẫn còn cười…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102054/adv/atlas/stand_a,body:anger,tabasa,0,-120,0.5,0,,,,
+playvoice,1,download/character/102054/adv/sound/fav102054_01_22.mp3
+msg,1,<outline width=2 color=black>Mày đúng là đồ vô dụng hết thuốc chữa！ Hừ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

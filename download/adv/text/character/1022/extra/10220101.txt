@@ -1,0 +1,101 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0.5,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừm、 cái gió ở cái gọi là vườn nhân tạo chẳng ra sao cả nhỉ。。。Phành phạch phành phạch。。。Tự mình quạt vẫn khá hơn một chút。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:surprise,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Hửm。Ngươi à。Thật trùng hợp khi lại gặp ngươi ở nơi thế này。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Cái này ư？ Trong mắt ngươi、 thứ này trông giống cái gì ngoài một chiếc quạt vậy？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Vừa nãy、 ta mới thử dùng cái thứ gọi là 'vòi sen' phun nước nóng từ ống ra。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:sad,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Người ta hơi nóng một chút、 nên tính đi hóng mát。Mới đến cái vườn nhân tạo mà người ta bảo có gió thổi、 nhưng mà、 cái đó thì。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái gió thổi dưới đáy biển này、 sao mà âm u đến thế。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đây không phải chuyện không khí có trong lành hay không。Thật là、 ngươi chẳng hiểu gì cả。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_07.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>So với cái đó thì。。。Này、 thế nào？ Cái gió do quạt này tạo ra có dễ chịu hơn không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_08.mp3
+clickwait,,,,,,,,,,,
+select,Gật đầu,Lắc đầu
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Hả、 không ngờ ngươi lại hiểu chuyện đến vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Phải vậy。Ở thời đại này、 nơi này、 việc máy móc tạo ra gió chắc cũng dễ dàng thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 cái đó thì có gì là thi vị chứ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_11.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:unique,vi,-20,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chà chà。。。Đúng là lũ người chẳng hiểu gì về cái gọi là 'thi vị' cả。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hay là do thời đại nhỉ。Bây giờ、 người ta lại coi trọng sự tiện lợi hay đơn giản hóa hơn là những cái thi vị đó sao。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Gió do máy móc tạo ra、 hay gió do tự tay quạt một chút thế này、 với các ngươi thì cũng như nhau sao。。。Thật là vô vị và khô khan。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_14.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không biết ngươi có đồng cảm không、 nhưng chính trong những thứ vô dụng、 cái thi vị mới trú ngụ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu vì tiện lợi mà giao phó mọi thứ cho máy móc、 thì con người còn ý nghĩa gì để tồn tại nữa chứ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bởi vậy、 trong mắt ta、 cái 'R'lyeh' này trông thật đáng sợ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Một cái hộp bằng thép chìm sâu dưới đáy biển。。。Nơi đây không có thiên nhiên、 mọi thứ đều được máy móc bù đắp。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_18.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế thì con người có tồn tại hay không cũng chẳng quan trọng nữa。Con người tự mình hạ thấp giá trị sự tồn tại của chính mình。。。Không phải sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_19.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta không thể không tự hỏi các ngươi đang hướng về đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_20.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù sao thì、 đối với ta、 thế giới thực tại cũng chỉ là chuyện bên kia bờ mà thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_03_21.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,1134 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/adv_000030.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,0,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+anm,tint,enemy1,0_0_0,0.5,0
+endwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_b,body:normal,rozet,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Vậy là xong rồi、 phải không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:normal,kyuka,300,-100,0.5,0.5,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:normal,kasumi,-300,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không thể nào、 cô ta thật sự một mình tiêu diệt hết sao…… Rốt cuộc là ai vậy chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:normal,kyuka,300,-100,0.5,0,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 đã giúp chúng ta thì chắc chắn không phải người xấu đâu ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:normal,kasumi,-300,-150,0.5,0,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có thấy người ta giúp một lần mà dễ dàng tin tưởng đối phương như thế。Ít nhất cũng phải nhét chút cảnh giác vào cái đầu rỗng tuếch đó đi chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:sad,kyuka,300,-100,0.5,0,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đâu cần nói nặng lời đến vậy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kasumi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:normal,saya,-300,-100,0.5,0.5,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinamori Saya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tấm lòng muốn tin tưởng người khác cũng là nhờ sự bao dung trong trái tim của Konoka-sama。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:normal,saya,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mọi ác ý hướng về Konoka-sama、 thân này sẽ thay mặt Tông chủ gánh chịu、 xin người cứ yên tâm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kyuka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:anger,kasumi,300,-150,0.5,0.5,,,,
+anm,tint,saya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có mà nuông chiều cái cục thịt ba chỉ đó nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kasumi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:unique,kyuka,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em、 em sẽ bị biến thành món thịt kho tàu ngon lành sao ạ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:normal,saya,-300,-100,0.5,0,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinamori Saya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi nào、 lại nói những lời khó nghe như vậy…… Dù hơi khó chịu khi bị đoạt mất nhiệm vụ bảo vệ Konoka-sama、 nhưng Yuuki-sama à。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kyuka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:anger,kasumi,300,-150,0.5,0.5,,,,
+anm,tint,saya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhiệm vụ gì chứ、 đừng có nói mấy lời ngớ ngẩn như vậy。Tôi đâu có bận tâm mấy chuyện đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:normal,kasumi,300,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi chỉ nói là không muốn bị mấy kẻ ngây thơ kéo chân thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:normal,saya,-300,-100,0.5,0,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinamori Saya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi hiểu rồi、 cứ coi như là vậy đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:normal,kasumi,300,-150,0.5,0,,,,
+anm,tint,saya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái đồ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Xin lỗi đã làm phiền cuộc trò chuyện của mọi người、 nhưng những người đó sắp đến rồi、 xin hãy chuẩn bị rút lui。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:normal,kyuka,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Những người đó……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin lỗi đã để cậu đợi、 Rosette。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>May quá、 mọi người、 không sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Rosette không sao là tốt rồi。,Các cô ấy không sao là tốt rồi。
+if,select_===_1,,,,,,,,,
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:sad,rozet,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không lẽ、 tôi đã khiến mọi người lo lắng sao ạ？ Để một kẻ hèn mọn như Rosette này khiến mọi người phải bận tâm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 cấm nói mấy lời đó。Là đồng đội thì lo lắng là chuyện đương nhiên mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà nói đúng hơn thì、 xin lỗi Rosette。Tấn công từ khoảng cách đó、 tôi sợ làm liên lụy đến người khác nên đã để sót khá nhiều…… Cậu không sao chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Dù vậy、 Asaka-sama đã tiêu diệt một nửa số đó rồi、 nên tôi hoàn toàn có thể đối phó được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải rồi…… Vì quá đột ngột nên tôi hơi hoảng、 nhưng may mà có Rosette ở cùng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà nói đúng hơn thì、 xin lỗi Rosette。Tấn công từ khoảng cách đó、 tôi sợ làm liên lụy đến người khác nên đã để sót khá nhiều…… Cậu không sao chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Dù vậy、 Asaka-sama đã tiêu diệt một nửa số đó rồi、 nên tôi hoàn toàn có thể đối phó được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ra vậy。Thôi thì、 có lẽ Rosette vẫn xoay sở được dù không có sự giúp đỡ của tôi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không dám đâu ạ。Hơn nữa、 chính Rosette này mới là người…… đã để Asaka-sama một mình lo cho Frau-sama và mọi người……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trong tình huống đó thì đành chịu thôi。Rosette đi một mình chắc chắn sẽ nhanh hơn mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:normal,kasumi,300,-150,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khoan đã…… Đến lúc này thì tôi muốn các cô giải thích rõ ràng。Rốt cuộc các cô là ai？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… Dù có nói là Người Truy Tìm hay Ma thuật sư thì các cô cũng không hiểu đâu nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:normal,kasumi,300,-150,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Người Truy Tìm thì tôi không biết、 nhưng Ma thuật sư thì nhìn là biết ngay。Ma thuật lửa vừa nãy là của cô phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:normal,kasumi,300,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù có vẻ đã phát triển khá nhiều、 nhưng đó là sự mở rộng từ nền tảng ma thuật cổ điển phải không？ Việc cô sử dụng Thuật thức chính thống như vậy、 có nghĩa là cô thuộc về <ruby>Tháp Chuông-Diogenes Garden</ruby> sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,-300,-120,0.5,0,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:normal,kasumi,300,-150,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,-300,-120,0.5,0,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 cái đó…… Này、 Frau。Tôi đến đây vì cô nói 'có người lạc từ một nơi khác đến' mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Những người này、 không phải họ lạc từ thế giới khác đến như lần trước sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kasumi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… nơi khác……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cùng một thế giới、 nhưng…… khác、 thời gian。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hảảả……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm031.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:surprise,kyuka,-300,-100,0.5,0.5,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:sad,kasumi,300,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đùa nhau à…… Cái quái gì thế này…… Đây chẳng phải là thế giới khoa học viễn tưởng sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:surprise,kyuka,-300,-100,0.5,0,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Oa、 oa、 oa、 tuyệt vời quá、 Saya-chan。Nhìn ra ngoài cửa sổ này。Tuy tối đen như mực、 nhưng đây là đáy biển sâu phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kyuka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:surprise,saya,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinamori Saya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật khó tin。Liệu có thật một cơ sở như thế này tồn tại dưới đáy biển sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,saya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm、 với cái này thì câu chuyện vừa nãy、 mọi người tin rồi…… chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:sad,kasumi,300,-150,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng là một trò đùa ác ý。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:sad,kasumi,300,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đây là khu phức hợp dưới đáy biển sao？ Có thiết bị can thiệp vào Bảy Nguyên Thư ư？ Rồi chúng ta lại bị cuốn vào Dreamlands bên trong Nguyên thư Pnakotic từ lúc nào không hay？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:sad,kasumi,300,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>—Hơn nữa、 chúng ta còn nhảy vọt thời gian mấy chục năm？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:anger,kasumi,300,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nghĩ thử xem、 mấy người nghĩ tôi tin được sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải rồi nhỉ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà…… không phải nói dối đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:anger,kasumi,300,-150,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì đưa ra bằng chứng đi、 cái đồ trắng bóc này！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải trắng bóc、 mà là Frau。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:sad,kyuka,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Yuuki-san này、 chị nói mạnh quá thì tội nghiệp Frau lắm……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:sad,kyuka,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Với lại、 em không nghĩ Frau-chan và mọi người đang nói dối đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kyuka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:normal,saya,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinamori Saya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ít nhất thì、 nếu nói về bằng chứng、 sự tồn tại của cơ sở này đã đủ để gọi là bằng chứng rồi chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:anger,kasumi,300,-150,0.5,0,,,,
+anm,tint,saya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Ôi、 thôi đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:anger,kasumi,300,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mấy người cứ ru rú ở Viễn Đông có thể không hiểu rõ đâu、 nhưng đó là Bảy Nguyên Thư đó、 Bảy Nguyên Thư！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:anger,kasumi,300,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tột đỉnh của bảy phép màu mà con người hoàn toàn không thể chạm tới！ Vậy mà lại dính líu đến thứ đó theo cái kiểu này thì……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:anger,kasumi,300,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà nói thật chứ、 can thiệp vào Nguyên thư Pnakotic là cái quái gì vậy？ Làm sao mà có thể nghĩ ra cái ý tưởng điên rồ như vậy được chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:anger,kasumi,300,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu không cẩn thận、 không chỉ đảo lộn cân bằng thế giới、 mà còn có thể gây ra sự kết thúc của lịch sử nhân loại nữa chứ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:anger,kasumi,300,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mấy người ở thời đại này đang nghĩ cái quái gì vậy……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,saya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ừm…… sao tự nhiên lại xin lỗi nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:anger,kasumi,300,-150,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mày xin lỗi cũng chẳng ích gì đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:surprise,kyuka,-300,-100,0.5,0.5,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Yu-Yuuki-san、 bình tĩnh một chút đi……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:sad,kasumi,300,-150,0.5,0,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khụ…… Ôi、 thôi đi。Chỉ có mình tôi mất bình tĩnh、 trông thật ngốc nghếch……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kyuka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:normal,saya,-300,-100,0.5,0.5,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinamori Saya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Yuuki-sama、 tức giận vì chuyện đã xảy ra cũng vô ích thôi。Bây giờ、 hơn thế nữa、 chúng ta nên nói về việc cần làm gì để trở về như cũ thì hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:anger,kasumi,300,-150,0.5,0,,,,
+anm,tint,saya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi biết điều đó mà……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,saya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:sad,kyuka,-300,-100,0.5,0.5,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ừm…… Nao-kun không đến đây đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kasumi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…… bây giờ、 ở đây chỉ có Konoka và mọi người thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kyuka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:sad,saya,-300,-100,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinamori Saya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nên vui vì Tông chủ không bị cuốn vào、 hay nên hối tiếc vì chúng ta đã bị chia cắt đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:sad,kyuka,300,-100,0.5,0.5,,,,
+anm,tint,saya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Nao-kun、 chắc chắn sẽ lo lắng khi chúng ta đột ngột biến mất đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ừm…… Frau。Việc họ trở về thời đại cũ thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nơi thời đại kết nối…… đã bị chặn lại rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu giải quyết được điều đó…… thì sau đó、 nếu có Konoka、 chắc là sẽ ổn thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:surprise,kyuka,-300,-100,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？ Em sao……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kyuka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:normal,kasumi,-300,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ý là sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kasumi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:normal,saya,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinamori Saya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Konoka-sama có liên quan đến tình huống này sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,saya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ừm…… nếu có Konoka、 mọi người sẽ trở về nơi mình thuộc về。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,saya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:surprise,kyuka,-300,-100,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kyuka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:normal,saya,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinamori Saya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lẽ nào…… Thần Lý trong Konoka-sama có liên quan sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:normal,kasumi,300,-150,0.5,0.5,,,,
+anm,tint,saya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải là không thể đâu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:normal,kasumi,300,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thứ có thể gây ảnh hưởng đến Bảy Nguyên Thư、 hiện tại chỉ có ma đạo thư chính tông thôi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,saya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:normal,kyuka,-300,-100,0.5,0.5,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ừm…… tức là……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:unique,kasumi,300,-150,0.5,0,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Việc chúng ta có trở về được hay không、 dù không muốn nhưng hình như là phụ thuộc vào mày đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:unique,kyuka,-300,-100,0.5,0,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Áp lực……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:sad,kasumi,300,-150,0.5,0,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Haa…… Nghĩ đến việc số phận của mình lại nằm trong tay một đứa ngốc như vậy、 thật bất an quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:unique,kyuka,-300,-100,0.5,0,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thịt ba chỉ nguyên khối với đồ ngốc thì cái nào đỡ hơn ạ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kyuka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ừm…… trước mắt thì、 chỉ cần đưa Konoka và mọi người đến nơi thời đại kết nối là được đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy thì muốn bắt tay vào ngay lập tức…… nhưng mà、 trước mắt thì hôm nay cũng muộn rồi、 tối nay nghỉ ngơi rồi mai hành động có được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kasumi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:surprise,kyuka,300,-100,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ừm…… mọi người sẽ giúp đỡ bọn em sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:smile,asaka,-300,-120,0.5,0,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tất nhiên rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:normal,rozet,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rosette đây、 dù sức mọn cũng xin góp sức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:smile,kyuka,300,-100,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em cảm ơn rất nhiều……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kyuka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:sad,kasumi,300,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giúp chúng tôi thì mấy người được lợi gì chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,kasumi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ…… được lợi gì ư…… Thấy người gặp khó khăn trước mắt thì giúp đỡ、 đó chẳng phải là chuyện bình thường sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:sad,kasumi,300,-150,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ngay cả dưới đáy biển sâu thế này cũng có người tốt bụng nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kasumi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:sad,kyuka,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đ-đừng mà、 Yuuki-san。Người ta đã tốt bụng giúp đỡ rồi、 sao chị lại nói thế chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:unique,kyuka,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em xin lỗi、 Asaka-san……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-300,-120,0.5,0,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị không để bụng đâu、 không sao mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà nói thật、 em không cần phải khách sáo đến thế đâu。Chắc chị với Konoka cũng không cách biệt tuổi tác nhiều đâu nhỉ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:surprise,kyuka,300,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 nhưng mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-300,-120,0.5,0,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đã có duyên gặp gỡ thế này rồi、 chúng ta làm bạn nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:normal,kyuka,300,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ừm…… Vậy thì、 em xin được làm quen lại nhé、 Asaka-san。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-300,-120,0.5,0,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gọi trống không cũng được、 nhưng thôi bỏ qua đi…… Rất vui được làm quen nhé、 Konoka。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:smile,kyuka,300,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì chị sẽ dẫn em đến phòng nhé…… Ơ、 mà nhắc mới nhớ、 chị còn phải chuẩn bị bữa tối。Rosette、 em có thể dẫn họ đi thay chị được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kyuka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 tôi đã rõ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:normal,kyuka,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 nếu có chuẩn bị bữa tối thì em cũng xin giúp một tay。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-300,-120,0.5,0,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ…… nhưng mà、 em chắc là đang mệt lắm mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:normal,kyuka,300,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em thì không thể chiến đấu đàng hoàng được…… nên em muốn đền đáp ân tình ở những việc như thế này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:sad,kyuka,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không được…… sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Được rồi。Nếu đã vậy thì chị sẽ nhờ em giúp vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:normal,saya,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinamori Saya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì tôi cũng xin……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:normal,kyuka,300,-100,0.5,0,,,,
+anm,tint,saya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu Saya-chan cũng giúp thì em sẽ chẳng còn việc gì để làm mất。Nên Saya-chan và Yuuki-san cứ nghỉ ngơi đi nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:normal,saya,-300,-100,0.5,0,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinamori Saya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Nếu cô đã nói vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kyuka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+anm,tint,saya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 tôi sẽ dẫn Itsukino-sama đi sau、 trước hết tôi xin phép đưa Hinamori-sama và Yuuki-sama về phòng ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:normal,saya,-300,-100,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinamori Saya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin nhờ cô giúp đỡ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:sad,kasumi,0,-150,0.5,0.5,,,,
+anm,tint,saya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Haizz…… Ngủ lại dưới đáy biển một đêm ư、 thật sự thì cái tình huống này là cái quái gì vậy chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190804/adv/atlas/stand_a,body:sad,kasumi,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cứ như thể mình đang gặp ác mộng vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

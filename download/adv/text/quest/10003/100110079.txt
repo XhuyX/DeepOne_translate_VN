@@ -1,0 +1,471 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10020400.jpg,0,,,,,,,,
+endwait
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm007.mp3,0.5,
+endwait,,,,,,,,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,magician,-530,-170,1.35,0.5
+sprite,download/monster/20010101/adv/image/20010101.png,magician2,470,-170,1.35,0.5
+sprite,download/monster/20010101/adv/image/20010101.png,magician3,-30,-170,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>——————————！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait
+spine,download/adv/spine/Dark,em1,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_039.mp3
+shake,0.2,4,10,10
+endwait
+spineoff,em1,0
+endwait
+anm,fade,magician,0,1,1
+anm,fade,magician2,0,1,1
+anm,fade,magician3,0,1,1
+playse,/download/sound/se/se_025.mp3
+endwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101002/adv/atlas/stand_b,body:sad,jya,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:sad,ily,-300,-220,0.5,0.5,,,,
+anm,tint,jya,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Khụ！ Hộc…… hộc……！</outline></size>,,,,,,,,,
+clickwait
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,jya,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sắp rồi…… sắp tới được cánh cửa đó rồi……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/101002/adv/atlas/stand_b,body:normal,jya,300,-120,0.5,0,,,,
+anm,tint,jya,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng…… chỉ một chút nữa thôi。Vượt qua cánh cửa đó、 cuối cùng thì……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/101002/adv/atlas/stand_b,body:anger,jya,300,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đến bên Katia-sama……！</outline></size>,,,,,,,,,
+clickwait
+stopbgm,0.5
+spriteoff,all,0.5,,,,,,,,,
+endwait
+name,
+msg,0,
+bg,color_0_0_0,0.5,255
+endwait
+msg,1,<size=30><outline width=2 color=black>—Katia-sama là ánh sáng hy vọng của tôi。Người còn là ngọn hải đăng luôn soi rọi lối đi。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Tôi luôn được Katia-sama cứu giúp。Thế mà…… vẫn chưa báo đáp được chút ân tình nào。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Tôi đã thề。Rằng khi chết、 sẽ là vì Katia-sama…… thế nên——。</outline></size>,,,,,,,,,
+clickwait
+msg,0,
+bg,download/bg/bg_10020400.jpg,0.5,,,,,,,,
+endwait
+mask,bg1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,jya1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101002/adv/atlas/stand_b,body:anger,jya,0,0,0,0,,,,
+imgconf,jya,jya1,0,-650,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi không thể gục ngã ở đây…… được……！</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0.5
+endwait
+name,
+msg,0,
+bg,color_255_255_255,0.5,255
+endwait
+playse,/download/sound/se/se_047.mp3
+endwait
+wait,0.5
+endwait
+bg,download/bg/bg_10020300.jpg,0.5,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,
+endwait,,,,,,,,,,,
+mask,bg1,400,0,300,720,0,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,jya1,400,0,300,720,0,,,,
+spriteatlas,download/character/101002/adv/atlas/stand_b,body:anger,jya,0,0,0,0,,,,
+imgconf,jya,jya1,0,-850,200,,0,1.5,1.5,0.5
+mask,bg2,-400,0,300,720,0,,,,
+sprite,download/adv/image/black.jpg,bg3,0,0,0,0
+imgconf,bg3,bg2,0,0,,,0,1,1,0.5
+mask,ily1,-400,0,300,720,0,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:anger,ily,0,0,0,0,,,,
+imgconf,ily,ily1,0,-1000,200,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Khụ！</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0.5,
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_b,body:smile,catia,-300,-100,0.5,0.5,,,,
+spriteatlas,download/character/101002/adv/atlas/stand_b,body:normal,jya,300,-120,0.5,0.5,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,jya,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Jamila！ Cả Irina nữa…… hai người đều bình an vô sự sao！</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/101002/adv/atlas/stand_b,body:surprise,jya,300,-120,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Katia-sama……！ Sao người lại ở đây……！？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/101002/adv/atlas/stand_b,body:normal,jya,300,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không、 quan trọng hơn là Katia-sama cũng bình an vô sự…… thật may quá、 thật sự。Tôi không biết chuyện gì đang xảy ra nên rất lo lắng……</outline></size>,,,,,,,,,
+clickwait
+spriteoff,jya,0
+endwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:normal,ily,300,-220,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Frau và cậu ta cũng không có vẻ gì là bị thương nặng nhỉ。</outline></size>,,,,,,,,,
+clickwait
+spriteoff,ily,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm…… nhờ Katia……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100302/adv/atlas/stand_b,body:surprise,catia,-300,-100,0.5,0,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>K-không、 tôi chẳng làm gì cả…… chỉ là cố hết sức chạy trốn cùng họ khỏi vô số hư ảnh thôi……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100302/adv/atlas/stand_b,body:normal,catia,-300,-100,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù tôi đã đến đây để giúp Jamila và mọi người…… nhưng nói thật、 tôi cũng không biết phải làm gì nữa……</outline></size>,,,,,,,,,
+clickwait
+spriteoff,frau,0
+anm,tint,catia,150_150_150,0.0001,0
+endwait
+spriteatlas,download/character/101002/adv/atlas/stand_b,body:surprise,jya,300,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không lẽ、 vì chúng tôi mà người đã đến tận nơi này……！？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/101002/adv/atlas/stand_b,body:normal,jya,300,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ôi、 thật không biết nói gì…… Katia-sama。Chỉ riêng tấm lòng của người thôi、 đã là niềm vui lớn nhất đối với tôi rồi。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100302/adv/atlas/stand_b,body:normal,catia,-300,-100,0.5,0,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,jya,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi đâu có làm gì đáng để được khen ngợi đến thế、 tôi——</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100302/adv/atlas/stand_b,body:surprise,catia,-300,-100,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Khụ！？ Jamila、 đằng sau！</outline></size>,,,,,,,,,
+clickwait
+stopbgm,0.5
+spriteoff,all,0.5
+endwait
+playbgm,/download/sound/bgm/bgm007.mp3,0.5,
+endwait,,,,,,,,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,magician,-30,-170,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>————！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait
+spriteoff,all,0.5
+endwait
+spriteatlas,download/character/101002/adv/atlas/stand_b,body:surprise,jya,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>C-chết tiệt——！</outline></size>,,,,,,,,,
+clickwait
+spriteoff,jya,0.5
+endwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:unique,ily,0,-220,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chậc、 thật phiền phức……！</outline></size>,,,,,,,,,
+clickwait
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1,0
+playse,/download/sound/se/se_039.mp3
+shake,0.3,2,10,10
+endwait
+spineoff,em1,1
+endwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:sad,ily,0,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khụ……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:anger,ily,0,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Làm đi、 Focallor！</outline></size>,,,,,,,,,
+clickwait
+spriteoff,ily,0.5
+endwait
+mask,bg1,0,0,1280,300,0,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,foka1,0,0,1280,300,0,,,,
+sprite,download/character/100902/adv/image/dragon.png,foka,0,0,0,0
+imgconf,foka,foka1,0,-250,,,0,0.4,0.4,0
+endwait
+name,<size=27><outline width=2 color=black>フォカロル</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>——————！！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_051.mp3
+clickwait
+spriteoff,all,0
+endwait
+sprite,download/monster/20010101/adv/image/20010101.png,magician,-30,-170,1.35,0.5
+endwait
+spine,download/adv/spine/Slash1_Blue,em5,default,animation,0,0,0,1,0.8,0
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+shake,0.3,2,10,10
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>————……</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_025.mp3
+clickwait
+anm,fade,magician,0,1,1
+endwait
+spriteoff,magician,0,,,,,,,,,
+endwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:sad,ily,-300,-220,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khụ…… ư…… hộc、 hộc……！</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:sad,catia,300,-100,0.5,0.5,,,,
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Irina！？ Em có sao không！ Vừa rồi em đã đỡ đòn tấn công của kẻ địch để che chắn cho Jamila……！</outline></size>,,,,,,,,,
+clickwait
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ồn ào quá、 nhỉ…… im lặng đi、 mà…… Đâu có…… gì đâu、 chứ……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:anger,catia,300,-100,0.5,0,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đừng nói dối nữa！ Sắc mặt em tệ lắm、 lại còn đổ mồ hôi đầm đìa nữa…… Làm sao có thể nói là không sao được chứ！</outline></size>,,,,,,,,,
+clickwait
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật tình…… tôi đã bảo là im lặng rồi mà…… Vết thương có đáng gì đâu…… chỉ là dùng quá nhiều sức mạnh của ma đạo thư thôi、 mà。</outline></size>,,,,,,,,,
+clickwait
+spriteoff,catia,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:normal,ily,-300,-220,0.5,0,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đừng có làm cái mặt sắp khóc như thế。Với lại、 cậu nữa…… nếu là đàn ông thì những lúc như thế này phải giữ bình tĩnh、 đứng thẳng lên chứ。</outline></size>,,,,,,,,,
+clickwait
+spriteoff,frau,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+spriteatlas,download/character/101002/adv/atlas/stand_a,body:sad,jya,300,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………Tại sao。</outline></size>,,,,,,,,,
+clickwait
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,jya,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Gì vậy？</outline></size>,,,,,,,,,
+clickwait
+anm,tint,jya,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tại sao…… người lại cứu tôi？ Người đâu có nghĩa vụ phải giúp tôi đâu、 phải không……？</outline></size>,,,,,,,,,
+clickwait
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ mặc kệ tôi đi có phải tốt hơn không。Thế mà、 tại sao……</outline></size>,,,,,,,,,
+clickwait
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,jya,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À…… tại sao nhỉ。Tôi chỉ có thể nói là、 khi nhận ra thì cơ thể đã tự động rồi……</outline></size>,,,,,,,,,
+clickwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi đúng là ngốc mà、 nhỉ…… Rốt cuộc là đang nghĩ cái quái gì vậy chứ——</outline></size>,,,,,,,,,
+clickwait
+flash,255,255,255,3,0.7,0
+endwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:unique,ily,-300,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khụ、 a…… ư……！ Hộc、 hộc……</outline></size>,,,,,,,,,
+clickwait
+spriteoff,jya,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:surprise,catia,300,-100,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Irina！</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:anger,ily,-300,-220,0.5,0,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi đi…… không cần phải lo lắng đâu……！ Hơn nữa、 nhìn xung quanh xem……</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0.5
+endwait
+sprite,download/bg/bg_10020300.jpg,bg1,0,0,1.2,0,
+sprite,download/bg/bg_10020200.jpg,bg2,1536,0,1.2,0,
+bg,color_0_0_0,0,255
+endwait
+anm,move,bg1,-1536_0,1,0
+anm,move,bg2,0_0,1,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,magician,-30,-170,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>——————————！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait
+spriteoff,magician,0.5
+endwait
+anm,move,bg2,1536_0,1,0
+anm,move,bg1,0_0,1,0
+endwait,,,,,,,,,,,
+spriteoff,bg1,0
+spriteoff,bg2,0
+bg,download/bg/bg_10020300.jpg,0,,,,,,,,
+endwait
+sprite,download/monster/20010101/adv/image/20010101.png,magician,-30,-170,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>——————————！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait
+spriteoff,magician,0.5
+endwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:normal,ily,-300,-220,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Rõ ràng là chúng ta không có thời gian để chần chừ nữa rồi。</outline></size>,,,,,,,,,\n私のことはいいから……お前たちだけで、逃げなさい」
+clickwait
+spriteatlas,download/character/100302/adv/atlas/stand_b,body:anger,catia,300,-100,0.5,0.5,,,,
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sao có thể…… Làm sao tôi có thể làm vậy được chứ！</outline></size>,,,,,,,,,
+clickwait
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:anger,ily,-300,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừm…… chuyện của mình…… tôi sẽ tự mình xoay sở。……Tôi không muốn trở thành gánh nặng đâu。</outline></size>,,,,,,,,,
+clickwait
+spriteoff,catia,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+spriteatlas,download/character/101002/adv/atlas/stand_b,body:anger,jya,300,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,
+clickwait
+shake,0.5,2,10,10
+playse,/download/sound/se/se_045.mp3
+endwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:surprise,ily,-300,-220,0.5,0,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,jya,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khoan đã…… cô định làm gì……？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/101002/adv/atlas/stand_b,body:normal,jya,300,-120,0.5,0,,,,
+anm,tint,jya,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Như cô thấy đấy、 tôi đang cho cô mượn vai。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:normal,ily,-300,-220,0.5,0,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,jya,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái đó thì tôi biết rồi mà。Tôi đang hỏi tại sao cô lại cho tôi mượn vai cơ chứ……</outline></size>,,,,,,,,,
+clickwait
+anm,tint,jya,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không có gì đặc biệt…… Chỉ là、 tôi thấy khó chịu khi vẫn còn nợ cô một ân huệ。</outline></size>,,,,,,,,,
+clickwait
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn nữa…… việc kết liễu cô là nhiệm vụ của tôi。Tôi không thể nhường nhiệm vụ đó cho bất kỳ ai khác được。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:sad,ily,-300,-220,0.5,0,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,jya,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cô nói cái gì vậy chứ……</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0.5
+endwait
+sprite,download/monster/20010101/adv/image/20010101.png,magician,-530,-170,1.35,0.5
+sprite,download/monster/20010101/adv/image/20010101.png,magician2,470,-170,1.35,0.5
+sprite,download/monster/20010101/adv/image/20010101.png,magician3,-30,-170,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>――――！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait
+spriteoff,all,0.5
+endwait
+spriteatlas,download/character/101002/adv/atlas/stand_a,body:anger,jya,0,-120,0.5,0.5,,,,
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Có vẻ chúng ta không còn thời gian để nói chuyện vớ vẩn nữa rồi。Hãy rời khỏi đây càng sớm càng tốt。</outline></size>,,,,,,,,,
+clickwait
+spriteoff,jya,0.5
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:anger,catia,-300,-100,0.5,0.5,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng。Frau-san và mọi người cũng hãy theo sát Jamila và những người khác、 đừng để bị tụt lại nhé！</outline></size>,,,,,,,,,
+clickwait
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm…… tôi hiểu rồi……</outline></size>,,,,,,,,,
+clickwait
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,1,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

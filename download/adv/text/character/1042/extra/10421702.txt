@@ -1,0 +1,225 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11050300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm040.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_01.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khu vực này、 quả nhiên là biển mùa hè nên nhiệt độ cao、 nắng cũng gắt nữa。Uống nước là đương nhiên rồi、 nhưng thỉnh thoảng nên nghỉ ở chỗ râm mát một chút</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_02.mp3
+msg,1,<outline width=2 color=black>Nếu bị say nắng thì khổ lắm、 ba ơi、 nếu thấy trong người không khỏe thì đừng ngại nói nha？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_03.mp3
+msg,1,<outline width=2 color=black>Con muốn tạo thật nhiều kỷ niệm với ba、 nhưng nếu vì thế mà làm ba phải cố quá sức thì lại thành ra không hay</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:surprise,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_04.mp3
+msg,1,<outline width=2 color=black>――Hả、 con á？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_05.mp3
+msg,1,<outline width=2 color=black>Quả thật là hơi nóng thật、 nhưng chừng này thì vẫn ổn――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:unique,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_06.mp3
+msg,1,<outline width=2 color=black>……A</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_07.mp3
+msg,1,<outline width=2 color=black>Chắc là nên uống nước sớm thôi。Dù là pháp sư cường hóa thì cũng không được chủ quan、 ừm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:shy,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_08.mp3
+msg,1,<outline width=2 color=black>Con có mang nước theo rồi、 ba、 cho con uống với được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Tự uống được mà……？,Uống mớm được không？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_09.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À、 sao thấy rã rời quá……Chẳng lẽ、 không biết chừng nào đã bị say nắng mất rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:unique,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_10.mp3
+msg,1,<outline width=2 color=black>Cái này、 phải uống nước nhanh thôi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:shy,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_11.mp3
+msg,1,<outline width=2 color=black>Này、 ba……không được sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:surprise,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_12.mp3
+msg,1,<outline width=2 color=black>――Hả？ Sao ba lại uống nước vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:shy,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_13.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ê……b、 ba、 như vậy hơi táo bạo quá……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:shy,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_14.mp3
+msg,1,<outline width=2 color=black>Nếu ba muốn như vậy、 thì con cũng không ghét、 mà đúng hơn là、 cảm giác như là xin ba làm vậy luôn ấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:shy,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_15.mp3
+msg,1,<outline width=2 color=black>Cho nên……cách ba cho con uống、 con xin phép phó thác cho ba vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:surprise,soka,0,-160,0.7,0.5,,,,
+endwait
+playvoice,1,download/character/104217/adv/sound/fav104217_02_16.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>A……b、 ba……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,soka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:shy,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104217/adv/sound/fav104217_02_17.mp3
+msg,1,<outline width=2 color=black>Ưm、 ứ、 ưm……ư、 ph、 chụt、 chụt…ưm、 ưk、 ực、 ực…ưm、 phù、 ba ơi、 ưm…ưk、 ư、 ư…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104217/adv/sound/fav104217_02_18.mp3
+msg,1,<outline width=2 color=black>Rơi、 nước、 trào ra…chụt、 chụt、 à、 ư、 ực…ưm、 chừ…ực、 ứ…ư、 phắt</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:shy,soka,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_19.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>B、 ba……ghê、 quá</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:shy,soka,0,-160,0.7,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_20.mp3
+msg,1,<outline width=2 color=black>Quả thật là đã uống nước rồi、 nhưng người con lại càng nóng hơn……Với lại、 đầu óc cứ quay cuồng、 cứ như là……cứ tưởng là bị say nắng thật rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:shy,soka,0,-160,0.7,0,,,,
+playvoice,1,download/character/104217/adv/sound/fav104217_02_21.mp3
+msg,1,<outline width=2 color=black>Này……ba cũng vậy phải không？ Nếu vậy、 phải uống nước cho đủ。Lần này con sẽ cho ba uống</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,soka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:normal,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104217/adv/sound/fav104217_02_22.mp3
+msg,1,<outline width=2 color=black>Ưm、 ừ…………ưm、 chụt、 ứ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:shy,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104217/adv/sound/fav104217_02_23.mp3
+msg,1,<outline width=2 color=black>Ưm、 chụt、 chừ…ưm、 phù、 chừ、 rừ…ưm、 ư、 chụt、 ha、 ba ơi、 ưm、 chụt、 chừ、 rừ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:shy,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104217/adv/sound/fav104217_02_24.mp3
+msg,1,<outline width=2 color=black>A、 lại、 trào ra、 ưm…ha、 à……vậy thì、 hoàn toàn、 không đủ nước rồi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104217/adv/atlas/stand_a,body:shy,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104217/adv/sound/fav104217_02_25.mp3
+msg,1,<outline width=2 color=black>Cho nên……thêm một ngụm nữa……nào、 ba。Cứ yên lặng đi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

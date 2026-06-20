@@ -1,0 +1,169 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11340300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm094.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_01.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Mấy cái… vui vẻ khi vận động cơ thể、 đại loại thế。Thành thật mà nói、 tôi không hiểu cảm giác đó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_02.mp3
+msg,1,<outline width=2 color=black>Với tôi、 vận động… hay đúng hơn là tập luyện、 chỉ là công việc để nâng cao năng lực của bản thân…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_03.mp3
+msg,1,<outline width=2 color=black>Phải làm là đương nhiên、 không làm được thì là đồ bỏ… Gần như bị ép buộc、 nên tôi không có cảm xúc vui vẻ gì</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_04.mp3
+msg,1,<outline width=2 color=black>Nếu không vì lý do đó、 tôi nghĩ mình đã không rèn luyện thân thể đến mức khổ sở như vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_05.mp3
+msg,1,<outline width=2 color=black>Thật ra、 đến R'lyeh、 tôi có thêm chút thời gian tự do、 nhưng thành thật mà nói、 tôi không muốn làm gì hơn mức tập luyện tối thiểu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_06.mp3
+msg,1,<outline width=2 color=black>……Nghĩ vậy、 anh đúng là người khác thường nhỉ。Không cần chiến đấu、 cũng chẳng ai bảo、 vậy mà ngày nào cũng rèn luyện thân thể</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_07.mp3
+msg,1,<outline width=2 color=black>Hỏi để tham khảo thôi、 anh thấy vui khi vận động ở điểm nào？ Tập luyện chẳng phải chỉ có mệt thôi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Thấy được thành quả,Vì mệt nên vui
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_08.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cái kiểu tăng dần trọng lượng nâng được、 hay chạy được xa hơn、 kiểu vậy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_09.mp3
+msg,1,<outline width=2 color=black>Có lẽ tìm thấy giá trị trong việc tích lũy những thành quả nhỏ nhặt đó cũng là một loại tài năng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_10.mp3
+msg,1,<outline width=2 color=black>……Rốt cuộc thì、 tôi có vẻ không đồng cảm được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:unique,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_11.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>……M？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:smile,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_12.mp3
+msg,1,<outline width=2 color=black>Phu… Sao anh lại cuống lên thế？ Nói đùa thôi mà</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_13.mp3
+msg,1,<outline width=2 color=black>Tức là、 vì khổ sở nên cảm giác đạt được và vui sướng khi vượt qua được khó khăn sẽ lớn hơn、 ý là vậy phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_14.mp3
+msg,1,<outline width=2 color=black>À thì、 tôi hiểu những gì anh nói。Chỉ là、 có đồng cảm được hay không lại là chuyện khác</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_15.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tôi luôn sống hời hợt với mọi thứ。Một con người như tôi、 sao có thể nếm trải những cảm giác như anh nói được chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_16.mp3
+msg,1,<outline width=2 color=black>……Nhưng gần đây、 tôi đã muốn thay đổi bản thân mình</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_17.mp3
+msg,1,<outline width=2 color=black>Aika và Souka cũng đã thay đổi kể từ khi sống ở R'lyeh</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:smile,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_18.mp3
+msg,1,<outline width=2 color=black>Tôi không biết liệu điều đó có tốt hay không。Nhưng、 những đứa trẻ đó bây giờ vui vẻ hơn trước… và tôi thấy vui vì điều đó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_19.mp3
+msg,1,<outline width=2 color=black>Thế mà、 nếu chỉ có mình tôi không thay đổi、 thì sẽ bị hai người họ bỏ lại mất？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_20.mp3
+msg,1,<outline width=2 color=black>Tôi muốn là chỗ dựa cho những đứa trẻ đó。Nếu chúng gặp khó khăn、 tôi muốn giúp đỡ… Tôi cũng có những cảm xúc như vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_21.mp3
+msg,1,<outline width=2 color=black>Tôi không chắc phải làm gì cụ thể、 nhưng ít nhất、 tôi muốn là một người có thể tự hào mà ở bên cạnh chúng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:smile,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_22.mp3
+msg,1,<outline width=2 color=black>Vậy nên… phải rồi。Để biết được điều gì đó mà mình không có、 tôi sẽ thử tập luyện cùng anh、 và cả chơi thể thao nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:smile,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_02_23.mp3
+msg,1,<outline width=2 color=black>Có lẽ、 thử những trải nghiệm khác với trước giờ、 cũng không tệ đâu nhỉ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

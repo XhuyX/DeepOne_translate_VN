@@ -1,0 +1,1083 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10020400.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm032.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100880/adv/atlas/stand_b,body:anger,holy_s,0,-160,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phù――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:anger,zizel_s,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:anger,zizel_s,0,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…！ Tên…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100280/adv/atlas/stand_a,body:anger,blizit_s2,0,0,0,0,,,,
+imgconf,blizit_s2,blizit_s1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+//「鍍金が剥がれる」の方がブリジットらしいかなと思います。
+name,<outline width=2 color=black>Bridget</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bộc lộ hết rồi、 lộ rõ vẻ chẳng còn chút dư dả nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:anger,zizel_s,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100280/adv/atlas/stand_d,body:anger,blizit_s,-1200,-190,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+anm,move,blizit_s,-300_-190,0.2,0
+endwait
+
+
+spine,download/adv/spine/Slash5_Blue,em1,default,animation,0,200,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+anm,move,zizel_s,1200_-120,0.2,0
+playse,/download/sound/se/conA.mp3
+flash,255,255,255,2,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:anger,zizel_s,-1200,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+anm,move,zizel_s,300_-120,0.3,1
+endwait
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:anger,zizel_s,300,-120,0.5,0,,,,
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái này… cơ thể nặng trịch… rốt cuộc là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100280/adv/atlas/stand_d,body:normal,blizit_s,-300,-190,0.5,0.5,,,,
+anm,tint,zizel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù sao thì、 chúng ta vốn không nên ở đây… Hơn nữa、 so với chúng ta、 thì chúng ta ở thế giới này mạnh hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100280/adv/atlas/stand_d,body:normal,blizit_s,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chỉ có vậy thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:anger,zizel_s,300,-120,0.5,0,,,,
+anm,tint,blizit_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện… chuyện như vậy、 làm sao… có thể… chứ…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:anger,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi、 người còn chưa chạm đến cái chết của ai、 lại mạnh hơn <ruby>Tuyệt Vọng-tôi</ruby> sao？ Không thể nào có chuyện đó được… Không được phép có chuyện đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:anger,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Bởi vì、 như vậy thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,blizit_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100880/adv/atlas/stand_b,body:normal,holy_s,-300,-160,0.5,0.5,,,,
+anm,tint,zizel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giselle-sama… Chúng ta ở thế giới này、 xét về thực lực thì vẫn còn non nớt。Trước lưỡi đao được mài giũa bằng oán hận và hối hận、 có lẽ sẽ thấy Mari kia yếu ớt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:anger,zizel_s,300,-120,0.5,0,,,,
+anm,tint,holy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đương nhiên rồi。Vì vậy――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100880/adv/atlas/stand_b,body:normal,holy_s,-300,-160,0.5,0,,,,
+anm,tint,zizel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Chính vì vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100880/adv/atlas/stand_b,body:normal,holy_s,-300,-160,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì không có oán hận、 cũng chẳng hối hận、 mà chỉ hướng thẳng đến tương lai… nên chúng ta ở thế giới này mới mạnh mẽ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100880/adv/atlas/stand_b,body:normal,holy_s,-300,-160,0.5,0,,,,
+msg,0,<outline width=2 color=black>Có thể đạt đến tương lai được bao bọc bởi ánh sáng thật sự、 nơi chúng ta không thể chạm tới… Tôi tin là vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:normal,zizel_s,300,-120,0.5,0,,,,
+anm,tint,holy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Thật ngớ ngẩn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:anger,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ngớ ngẩn！ Thật vô lý！ Đừng có đùa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:anger,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tương lai được bao bọc bởi ánh sáng thật sự！？ Làm gì có thứ đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:anger,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu có thứ đó… tại sao、 tôi lại… như thế này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:anger,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại sao――chỉ có kết cục này… Tôi không được sao！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,holy_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100280/adv/atlas/stand_d,body:normal,blizit_s,-300,-190,0.5,0.5,,,,
+anm,tint,zizel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không được rồi。Chúng ta là những cái bóng được triệu hồi từ kết cục tuyệt vọng… chẳng làm được gì、 chẳng có được gì、 mất tất cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100280/adv/atlas/stand_d,body:normal,blizit_s,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>Sự thật chỉ có vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:normal,zizel_s,300,-120,0.5,0,,,,
+anm,tint,blizit_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…！ Chuyện đó… không thể nào… chấp nhận được… Tôi、 tôi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:sad,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vàng hoàn mỹ… Vì đã mất tất cả、 nên sẽ không bao giờ bị tổn thương nữa、 ánh sáng tăm tối… Vậy mà、 lời nói của các người lại cứa vào tim tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:sad,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Giá mà không có lấy một tia hy vọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:sad,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Có một khả năng khác… Thật… tàn nhẫn với Mari…！ Tôi đã… vẽ ra một thế giới tàn nhẫn như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:sad,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Trái tim tôi、 lại… có vẻ như sắp có hình hài trở lại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:sad,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vô dụng… Nếu không phải là tôi、 một kẻ trống rỗng、 không thiếu thứ gì、 thì tôi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_b,body:sad,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>――…Sẽ không chịu nổi nỗi buồn này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,blizit_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100880/adv/atlas/stand_b,body:sad,holy_s,-300,-160,0.5,0.5,,,,
+anm,tint,zizel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giselle-sama…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,holy_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100280/adv/atlas/stand_d,body:normal,blizit_s,-300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Chị biết em còn có những lời muốn nói với con bé、 nhưng không muốn nói ra sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100280/adv/atlas/stand_d,body:normal,blizit_s2,0,0,0,0,,,,
+imgconf,blizit_s2,blizit_s1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Bridget</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị đã nói rồi。Việc cất lời là việc của em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10020400.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm036.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:sad,zizel_s,300,-120,0.5,0.5,,,,
+anm,tint,zizel_s,150_150_150,0.0001,0
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật là… Tùy tiện làm sao。Hai đứa thật sự nên cố gắng thể hiện cảm xúc của mình một cách chân thật hơn một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Dù là chị nói thì cũng không đúng cho lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:sad,zizel_s,300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,blizit,-300,-190,0.5,0,,,,
+anm,tint,zizel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao lại còn làm mặt như sắp khóc thế kia？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Nếu không có ý nghĩa thì không cần tìm kiếm。Nếu không có giá trị thì không cần tiếc nuối。Mất đi những thứ như vậy、 thì sẽ không hối hận。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đó là cách em bảo vệ trái tim mình、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:sad,zizel_s,300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+anm,tint,zizel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 Giselle。Em đã thực sự mạnh mẽ hơn rồi。Vì chỉ có thể sống một mình、 nên có lẽ là điều đương nhiên…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>Là một người chị、 khi em gái trở nên giỏi giang quá mức、 thì chị cũng khó mà giữ được vẻ ngoài、 nên cũng hơi phiền phức một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:sad,zizel_s,300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Chị đang nói… gì vậy？ Tôi không phải em gái của chị。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+anm,tint,zizel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải rồi。Chị cũng không phải chị của em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng… chị hiểu những lời mà chị em muốn nói với em。Vì chị là em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:smile,blizit,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Em đã làm rất tốt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:sad,zizel_s,300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,blizit,-300,-190,0.5,0,,,,
+anm,tint,zizel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin lỗi vì đã để em một mình。Xin lỗi vì đã không thể nói rằng chị yêu em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,blizit,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>Giá mà chị ở bên em nhiều hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,blizit,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng、 chị không thể ôm em được nữa… Ít nhất、 chị chỉ có một điều ước。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,blizit,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đừng làm cái mặt buồn đó nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,blizit,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chị biết là đang nói điều vô lý。Nhưng… chị muốn em cười。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:sad,zizel_s,300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị… đang… nói… gì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:sad,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>笑顔… Em…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:sad,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em… Em không mạnh mẽ đến thế…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:sad,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Với lại… rốt cuộc thì、 mọi thứ đều muộn mất rồi。Giờ thì、 tôi ở thế giới này cũng đã chạm vào tuyệt vọng rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:sad,zizel_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Giselle Bawdwin không thể thắng nổi tuyệt vọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,blizit,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104002/adv/atlas/stand_a,body:normal,clau,-300,-130,0.5,0.5,,,,
+anm,tint,zizel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không có chuyện đó đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:normal,zizel_s,300,-120,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Claiomh Solais……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104002/adv/atlas/stand_a,body:normal,clau,-300,-130,0.5,0,,,,
+anm,tint,zizel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thưa chủ nhân。Tôi đã dõi theo người… và dòng máu nhà Bawdwin của người、 rất lâu、 thật lâu rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104002/adv/atlas/stand_a,body:normal,clau,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì vậy、 tôi hiểu rõ hơn ai hết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104002/adv/atlas/stand_a,body:normal,clau,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhà Bawdwin được yêu mến bởi bi kịch và tuyệt vọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104002/adv/atlas/stand_a,body:normal,clau,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Và、 bằng cách ngạo mạn tô điểm cho tâm hồn mình、 thể hiện rõ hơn số mệnh đẫm máu、 họ sẽ càng trở nên mạnh mẽ hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104002/adv/atlas/stand_a,body:normal,clau,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng――nhưng、 Giselle Bawdwin。Người thì khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104002/adv/atlas/stand_a,body:normal,clau,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Suốt、 suốt、 đã kháng cự lại sự ngạo mạn của tôi、 hướng đến những ký ức vàng son tươi đẹp của ngày xưa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104002/adv/atlas/stand_a,body:normal,clau,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Và… đã vươn tay ra、 cố gắng chạm vào nó bằng đầu ngón tay。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104002/adv/atlas/stand_a,body:normal,clau,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Claiomh Solais này sẽ chứng minh điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104002/adv/atlas/stand_a,body:normal,clau,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Người… các người、 giờ đây đang cố gắng vượt qua số mệnh của nhà Bawdwin。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104002/adv/atlas/stand_a,body:normal,clau,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Bị tình yêu vần vũ、 bị tình yêu phản bội、 bị tình yêu giết chết… Với kết cục như thế、 người sẽ vượt qua、 và cho thấy một ánh sáng khác hẳn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104002/adv/atlas/stand_a,body:normal,clau,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi muốn nhìn thấy ánh sáng đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm069.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tương lai tuyệt vọng thật đáng sợ。Nỗi buồn、 khổ đau、 tôi không thể nào chịu đựng nổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nếu vậy、 có lẽ cứ đắm chìm trong ánh sáng u tối、 vô nghĩa、 vô giá và vô cảm thì hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Những suy nghĩ ấy lướt qua trong đầu――như thể đang ăn mòn sâu vào tận đáy lòng――。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nhưng――… Thật sự là như vậy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black><ruby>Tôi-hiện tại</ruby> và <ruby>Tôi-khả năng</ruby>。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Liệu chúng ta có cùng chung một kết cục không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tôi-khả năng đã không gặp gỡ。Người… và cả chị gái đã thay đổi tôi、 anh ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Với một trái tim nhút nhát、 thật dễ dàng để trốn vào ánh sáng vàng u tối này。Nhưng、 điều đó có nghĩa là… quay lưng lại với anh ấy、 với họ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>――Tôi thật sự rất ghét điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Đúng vậy。Tôi ghét điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Thay vì sợ hãi khả năng tồi tệ nhất và tự nhốt mình trong ánh vàng u tối、 tôi thà từ bỏ tương lai có thể cười cùng với những người đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Rõ ràng là chuyện đơn giản như vậy、 vậy mà tôi lại do dự vì điều gì chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black><ruby>Tôi-hiện tại</ruby> và <ruby>Tôi-khả năng</ruby> khác nhau。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tôi không còn sợ phải vươn tay ra nữa。Tôi cũng sẽ không lạc mất chị、 cũng không lạc mất Holly。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Dù có lỡ sai lầm và đánh mất điều gì、 vẫn luôn có những người ủng hộ tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Vì vậy、 tôi――giống như người、 sẽ không đánh mất。Tương lai của tôi sẽ không bị bao phủ bởi ánh sáng u tối。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,zizel_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:normal,zizel_s2,0,0,0,0,,,,
+imgconf,zizel_s2,zizel_s1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――… Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:normal,zizel_s2,0,0,0,0,,,,
+imgconf,zizel_s2,zizel_s1,0,-375,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>À、 cuối cùng thì… tôi đã… sai lầm tất cả rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:normal,zizel_s2,0,0,0,0,,,,
+imgconf,zizel_s2,zizel_s1,0,-375,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Buồn bã。Đau khổ。Khổ sở、 khổ sở、 chỉ toàn là khổ sở…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:normal,zizel_s2,0,0,0,0,,,,
+imgconf,zizel_s2,zizel_s1,0,-375,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù vậy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100780/adv/atlas/stand_a,body:normal,zizel_s2,0,0,0,0,,,,
+imgconf,zizel_s2,zizel_s1,0,-375,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu người đó bảo tôi cười… thì tôi――…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10020400.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm031.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0.5,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:normal,zizel,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em tỉnh dậy trễ quá đấy、 Giselle。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:normal,zizel,300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dạ、 dạ、 chị… hình như đã làm phiền chị rồi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện này chẳng phiền gì đâu。Nhưng… nếu chị đã thể hiện được một chút gì đó giống chị gái…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:shy,blizit,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Mà、 cũng vui đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,blizit,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103509/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đến cuối cùng lại ngại ngùng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103407/adv/atlas/stand_a,body:normal,ruiez,300,-100,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngại rồi kìa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104002/adv/atlas/stand_a,body:normal,clau,300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngại rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:anger,blizit,-300,-190,0.5,0.5,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Im đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,clau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100880/adv/atlas/stand_a,body:smile,holy_s,300,-160,0.5,0.5,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,1,1,2
+spriteoff,holy_s,0.2
+spriteatlas,download/character/100802/adv/atlas/stand_a,body:smile,holy,300,-160,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly Hargreaves</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mừng là Giselle-sama bình an vô sự ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,blizit,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:normal,zizel,-300,-120,0.5,0.5,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Holly…… mọi người cũng vậy、 cảm ơn rất nhiều。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100802/adv/atlas/stand_a,body:smile,holy,300,-160,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly Hargreaves</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù em chẳng làm được gì…… nhưng có lời đó、 thì một Holly khác trong em cũng sẽ vui lòng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100280/adv/atlas/stand_d,body:normal,blizit_s2,0,0,0,0,,,,
+imgconf,blizit_s2,blizit_s1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Bridget</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi nào…… tôi cũng sẽ trở về đáy sâu ý thức đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100280/adv/atlas/stand_d,body:normal,blizit_s2,0,0,0,0,,,,
+imgconf,blizit_s2,blizit_s1,0,-661,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Sẽ tốt hơn nếu chúng ta không cần phải nhúng tay vào nữa、 những cái bóng tuyệt vọng như chúng tôi đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Rõ ràng là tự mình xông ra、 mà vẫn còn lắm lời nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10020400.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 không được đâu。Đã lỡ xuất hiện rồi、 ta sẽ không để ngươi thoát。Bởi chúng ta đã gặp nhau ở tận cùng của những khả năng thế này mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash4_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,color_255_0_0,1,255
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10020400.jpg,1,255
+endwait
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khụ……！？ Ư… ực、 khụ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_068.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100802/adv/atlas/stand_a,body:surprise,holy,300,-160,0.5,0.5,,,,
+anm,tint,holy,150_150_150,0.0001,0
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:surprise,zizel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——……Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100802/adv/atlas/stand_a,body:surprise,holy,300,-160,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly Hargreaves</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tiểu thư……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,silvy_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:normal,silvy_s2,0,0,0,0,,,,
+imgconf,silvy_s2,silvy_s1,0,-300,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngươi không cần thiết。Mau chóng biến đi được không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Red,em2,default,animation,0,0,0,-1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spineoff,em2,0
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>————A……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,-1,1.0,0
+playse,/download/sound/se/se_068.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A、 a…… aaaaaa…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>——Chị、 sama？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

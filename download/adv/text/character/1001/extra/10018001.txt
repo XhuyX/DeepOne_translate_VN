@@ -1,0 +1,160 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100180/adv/sound/fav100180_01_01.mp3
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――Dậy đi… Nào、 dậy thôi。Đến giờ rồi đấy。Hay là hôm nay em muốn lười một chút？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100180/adv/sound/fav100180_01_02.mp3
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nếu anh muốn vậy thì em cũng không cản… Tiếc thật。Rõ là có cơ hội để nói chuyện với anh mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+
+
+bg,download/bg/bg_10010300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.65,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_03.mp3
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À、 anh dậy rồi à… May quá。Chào buổi sáng、 anh thấy thế nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,alt,0.5_0.5,0.5,0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_04.mp3
+msg,1,<outline width=2 color=black>Sao vậy？ Sao anh lại bật dậy nhanh thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Chọn 1 'Sao em lại ở đây？,Chọn 2 'Gần mặt quá
+if,select_===_1,,,,,,,,,
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:sad,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_05.mp3
+msg,1,<outline width=2 color=black>Ồ、 em xuất hiện trước mặt anh、 có phải là điều không tốt với anh không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_06.mp3
+msg,1,<outline width=2 color=black>À… Hay là anh đang hỏi、 bao gồm cả việc em đang dùng thân xác của Asaka？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_07.mp3
+msg,1,<outline width=2 color=black>Hừm、 anh nghĩ sao？ Ví dụ như、 em đã gạt bỏ ý chí của Asaka、 giành quyền kiểm soát cơ thể、 rồi muốn làm gì thì làm… chẳng hạn？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_08.mp3
+msg,1,<outline width=2 color=black>…Đâu có chuyện đó、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_09.mp3
+msg,1,<outline width=2 color=black>Là vì em định hôn anh。Em nghĩ làm thế thì anh sẽ tỉnh lại như trong truyện cổ tích…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_10.mp3
+msg,1,<outline width=2 color=black>Chỉ cần thêm vài giây nữa thôi là em đã có thể cướp lấy môi anh rồi… Hừm、 tiếc thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_11.mp3
+msg,1,<outline width=2 color=black>Nhưng có lẽ làm vậy là đúng。Nếu Asaka biết em tự tiện hôn anh、 chắc cô ấy sẽ giận lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_12.mp3
+msg,1,<outline width=2 color=black>Ồ… Sao thế、 tự nhiên anh lại véo má mình。Chẳng lẽ anh nghĩ đây là mơ sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_13.mp3
+msg,1,<outline width=2 color=black>Mà thôi、 em xuất hiện đột ngột thế này thì anh hiểu lầm cũng phải。Để em giải thích rõ ràng đã。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_14.mp3
+msg,1,<outline width=2 color=black>Em là ý chí của Bản thảo Pnakotic、 luôn ở bên Asaka。Nói thật thì、 nếu muốn、 em có thể giành quyền kiểm soát thể xác bất cứ lúc nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_15.mp3
+msg,1,<outline width=2 color=black>Nhưng em sẽ không bao giờ làm điều gì đi ngược lại với mong muốn của Asaka、 cướp đi sự tự do của cô ấy、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_16.mp3
+msg,1,<outline width=2 color=black>Lần này là do Asaka tốt bụng đấy。Cô ấy nghĩ chỉ nhìn thôi thì buồn、 nên đã nhường ngày hôm nay cho em。Anh thấy cô ấy dễ thương không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_17.mp3
+msg,1,<outline width=2 color=black>Bình thường thì ngược lại、 bây giờ Asaka đang ngủ bên trong em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_18.mp3
+msg,1,<outline width=2 color=black>Vì thế… Hôm nay、 em muốn ở bên anh、 nên mới đến đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_19.mp3
+msg,1,<outline width=2 color=black>Em là một phần của Asaka。Vì vậy、 em chịu ảnh hưởng rất lớn từ tình cảm của cô ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100180/adv/sound/fav100180_01_20.mp3
+msg,1,<outline width=2 color=black>Với cả em nữa… Anh là một người em luôn muốn ở bên、 một người em yêu thương、 một người không thể thay thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

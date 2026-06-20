@@ -1,0 +1,203 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11560300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm105.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:normal,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100211/adv/sound/fav100211_02_01.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ồ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:normal,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-160,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100211/adv/sound/fav100211_02_02.mp3
+msg,1,<outline width=2 color=black>Chị thấy anh vẫn vậy、 à mà、 phải nói sao đây…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_03.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――Nhìn chằm chằm quá đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_04.mp3
+msg,1,<outline width=2 color=black>Dù chị ăn mặc thế này、 không bảo anh đừng để ý thì cũng hơi quá、 nhưng bình thường người ta sẽ tế nhị mà nhìn đi chỗ khác chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Tôi có nhìn đâu。,Xin lỗi…
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_05.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Haizz… Chị cũng phải công nhận là anh có khí phách khi nói vậy đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_06.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 vừa nói vậy mà mắt vẫn cứ nhìn xuống ngực thì chịu rồi。Muốn đánh trống lảng thì ít ra cũng phải cố gắng hơn chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_07.mp3
+msg,1,<outline width=2 color=black>Mà thôi、 mấy cái ý đồ đen tối của anh thì giờ cũng thành chuyện thường rồi… Thật ra chị cũng quen rồi… Dù chẳng muốn quen tí nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_08.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Xin lỗi thì cũng tốt、 nhưng xin lỗi thì phải sửa đổi chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_09.mp3
+msg,1,<outline width=2 color=black>Anh định có hướng giải quyết gì cho mấy chuyện đó chưa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_10.mp3
+msg,1,<outline width=2 color=black>…Chị cũng chẳng biết nên coi việc anh không trả lời cho có là thành thật hay không nữa。Biết rõ tính mình thì cũng tốt、 nhưng nội dung thì chẳng có gì đáng khen cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_11.mp3
+msg,1,<outline width=2 color=black>Mà thôi、 chị cũng hiểu anh là người thế nào、 và cũng hiểu là không phải chỉ có vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_12.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chị cũng già rồi。Cứ tưởng sẽ không có ngày chị đặt niềm tin vào một người như anh chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_13.mp3
+msg,1,<outline width=2 color=black>…Gì chứ？ Sao anh lại nhìn chị đến năm lần vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:anger,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_14.mp3
+msg,1,<outline width=2 color=black>Đừng có véo má mình。Đây không phải mơ đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_15.mp3
+msg,1,<outline width=2 color=black>Hừm… Chị cũng biết là mình đang nói những điều không giống mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_16.mp3
+msg,1,<outline width=2 color=black>…Suốt thời gian qua、 chị luôn phải chọn lọc lời nói để bảo vệ trái tim mình。Để mình trông mạnh mẽ hơn、 để che giấu sự yếu đuối。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_17.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 chị đã nói rồi。Chị cũng không muốn cứ mãi như vậy。Chị muốn bước tiếp、 dù phải chấp nhận trái tim mình bị tổn thương。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_18.mp3
+msg,1,<outline width=2 color=black>Và… ít nhất là vào Giáng Sinh、 chị muốn nói những lời không cần phải chọn lọc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:shy,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_19.mp3
+msg,1,<outline width=2 color=black>…Nh、 nhưng！ Chị không có nghĩa là chấp nhận cái thái độ chỉ chực chờ của anh đâu đấy。Chuyện này với chuyện kia khác nhau…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_20.mp3
+msg,1,<outline width=2 color=black>Chỉ vì vậy mà chị từ bỏ niềm tin vào anh thì không đâu、 nhưng mà… hãy là người xứng đáng với niềm tin của chị nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100211/adv/sound/fav100211_02_21.mp3
+msg,1,<outline width=2 color=black>…Hừm。Chị cũng không mong đợi gì nhiều đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100211/adv/atlas/stand_a,body:shy,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100211/adv/sound/fav100211_02_22.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――…Chị cũng không lo lắng đến thế đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,101 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+roombg,1013,0
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/101301/adv/atlas/stand_b,body:smile,mil,-10,-120,0.5,0.5,,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ồ、 em pha cà phê cho chị à？ Chắc chắn là nhiều đường rồi、 nhỉ？ Hì hì、 cảm ơn em。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_b,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Em ngồi xuống đó、 đợi chị một chút。Chị sắp xong rồi……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em hỏi chị đang làm gì à…… Như em thấy đấy、 chị đang bảo dưỡng vũ khí。Nếu không làm cẩn thận、 đến lúc cần thì sẽ hỏng mất。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mài giũa cẩn thận、 đánh bóng…… Cứ thế này、 cho nó thật sáng bóng。Ưm…… Được rồi、 xong……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_04.mp3
+clickwait,,,,,,,,,,,
+select,Chăm sóc cẩn thận thật đấy。,Sao vũ khí lại là dao dĩa vậy？
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_b,body:normal,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hì hì、 đương nhiên rồi。Bởi vì、 để thưởng thức vị ngọt mà trái tim con người tạo ra、 đây là công cụ quan trọng không thể thiếu mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_b,body:smile,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Dùng chúng、 chị đã nếm trải rất nhiều cảm xúc ngon lành。Sợ hãi、 lo âu、 hối hận、 đau đớn tột cùng…… và cả sự tuyệt vọng trong khoảnh khắc từ bỏ sinh mạng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_b,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>——Mà、 lý do chị trân trọng chúng không chỉ có vậy đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_07.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_b,body:smile,mil,-10,-120,0.5,0,,,,,
+spine,download/adv/spine/Mark1,em1,default,animation,0,100,200,0.65,0.8,0.5
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hì hì、 em vẫn tò mò à？ Bình thường thì có dao găm hay súng、 những vũ khí dễ dùng hơn nhiều、 phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_08.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà này、 giết người là một bữa tiệc đối với chị。Một bữa tiệc ngọt ngào vô cùng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Để thưởng thức ngon lành bằng dao và dĩa…… Hì hì、 xin lỗi em、 lý do vừa rồi chỉ là nửa đùa thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_10.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_b,body:normal,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Gần cơ sở nơi chị em mình lớn lên ấy、 có một gia đình giàu có。Hai chị em nhà đó luôn tận hưởng trà chiều trong vườn。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_b,body:smile,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Lúc đầu thì…… chị chỉ nhìn mà nghĩ、 mấy món bánh trông ngon quá…… Chắc chắn là đắt lắm và ngọt lắm đây……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_b,body:sad,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ nhìn mãi như vậy、 không hiểu sao…… chị lại bắt đầu hình dung chị và chị gái mình ở hai người đó……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_b,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Trên bộ bàn ghế trong vườn、 vừa ăn những món ngọt ngào、 ngon lành、 hai người hạnh phúc cười đùa bên nhau。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ở đó không có người đáng ghét、 không có người đáng sợ、 cũng không có người mà mình phải giết。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Chị đã ghen tị với buổi trà chiều như vậy…… Nên chắc chắn、 chị đã chọn dao dĩa làm vũ khí。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chị muốn đến gần hơn với niềm khao khát ấy……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_b,body:sad,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nhưng…… nghĩ lại thì、 chị cảm thấy mình đã đi rất xa khỏi khung cảnh đó rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_b,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 không sao đâu。Bởi vì thế giới của chị tràn ngập những vị ngọt tuyệt vời mà。Bây giờ chị vẫn đủ hạnh phúc…… vẫn có thể mỉm cười…… Nên chị cứ như bây giờ là được rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_11_19.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

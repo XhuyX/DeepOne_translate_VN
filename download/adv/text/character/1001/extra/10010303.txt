@@ -1,0 +1,106 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,　,
+stopbgm,,,,,,,,,,
+fadeinblack,0,,,,,,,,,
+endwait,,,,,,,,,,
+bg,download/bg/bg_10020100.jpg,0.0,,,,,,,,
+endwait,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,
+endwait,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,65,-120,0.5,0,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ơ？</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_01.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 không có gì đâu…… Chỉ là、 em có cảm giác như ai đó đang nhìn mình。……Khi truy tìm trong Dreamlands、 thỉnh thoảng lại có chuyện này。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_02.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hay là、 Nguyên thư Pnakotic đang nhìn em chăng……</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_03.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nói đùa thôi。Chắc là em tưởng tượng ra thôi。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_04.mp3
+clickwait
+select,Thật ra là ánh mắt của tôi……,Để tôi thử tìm hiểu xem。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:unique,asaka,65,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu là ánh mắt của anh、 em sẽ nhận ra ngay là anh đang nhìn em mà。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_05.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu hỏi là ánh mắt thế nào、 thì hơi khó diễn tả bằng lời。Ừm…… Ánh mắt em vừa cảm nhận được、 nói sao nhỉ、 nó vô tri vô giác、 kiểu vậy……</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_06.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Còn nếu là ánh mắt của anh…… ừm、 nói sao nhỉ、 nó có sức sống hơn chăng？ Kiểu như thỉnh thoảng anh nhìn vào ngực em、 ánh mắt lại mạnh mẽ hơn ấy……</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_07.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:unique,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Sao anh lại ngạc nhiên thế。Chẳng lẽ anh nghĩ là em không nhận ra sao？ Con gái bọn em rất nhạy cảm với những ánh mắt như vậy đấy。Nhớ lấy nhé。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_08.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Mà、 ánh mắt em vừa cảm nhận được thì không hề có sự 'con người' đó、 hay là sự tò mò với người khác。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_09.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 em lại thấy một cảm giác lạnh lẽo rợn sống lưng…… Hay là、 thật sự là Nguyên thư Pnakotic đã nhìn em chăng。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_10.mp3
+clickwait,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,65,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Anh không cần phải làm quá lên thế đâu。Em đã bảo là em tưởng tượng ra thôi mà？</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_11.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Trong Dreamlands、 không ai biết chuyện gì sẽ xảy ra、 nên đừng hành động thiếu suy nghĩ。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_12.mp3
+clickwait,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nguyên thư Pnakotic、 à。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_13.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nghĩ lại thì、 em đã có chút liên hệ với Pnakotic từ trước khi đến R'lyeh rồi。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_14.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tổ chức Lovecraft có một Ma Đạo Thư-Grimoire được tạo ra từ thành quả truy tìm và nghiên cứu、 và em đã từng tham gia thử nghiệm khởi động nó。Hình như là lúc em khoảng tám tuổi。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_15.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Kết quả thì thất bại rồi。Dù việc khởi động thì thành công、 nhưng em đã bất tỉnh suốt một tháng、 rồi Ma Đạo Thư lại biến mất vào trong cơ thể em nữa……</outline></size>,,,,,,,,,.
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_16.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 không có di chứng hay ảnh hưởng xấu gì đâu、 nên anh đừng lo lắng về chuyện đó。Ma Đạo Thư trong cơ thể em cũng đang ở trạng thái ngừng hoạt động rồi。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_17.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 ngay sau khi tỉnh dậy、 em đã hơi khó chịu。Những người lớn xung quanh nhìn em rồi thi nhau nói…… rằng kế hoạch thất bại rồi。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_18.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trong khi em chỉ tham gia theo lời họ、 lại bị nói như thể đó là lỗi của em、 khiến một đứa trẻ như em cũng cảm thấy có lỗi、 và rất tủi thân。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_19.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 giờ cũng là chuyện quá khứ rồi…… Nhưng mà、 cứ dính dáng đến Nguyên thư Pnakotic、 dù là chuyện lần này hay lần trước、 thì chẳng có gì tốt đẹp cả。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100103/adv/sound/fav100103_10_20.mp3
+clickwait,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,
+endwait,,,,,,,,,,
+endif,,,,,,,,,,
+name,,,,,,,,,,
+msg,0,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,
+endwait,,,,,,,,,,
+bgoff,1.0,,,,,,,,,
+endwait,,,,,,,,,,

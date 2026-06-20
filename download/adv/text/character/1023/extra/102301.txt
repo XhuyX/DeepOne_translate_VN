@@ -1,0 +1,99 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:normal,bea,-10,-200,0.5,0.5,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ồ、 là bạn sao。Chào bạn。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:smile,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Fufu、 một câu trả lời thật dễ chịu。Lời chào là khởi đầu của một ngày…… nên trân trọng nó。Bạn không nghĩ vậy sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:sad,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 có lẽ vì nơi đây、 R'lyeh、 luôn nằm sâu dưới đáy biển、 nên chẳng biết là sáng hay tối…… ranh giới giữa ngày và đêm dường như trở nên mơ hồ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi đã sống trong Dreamlands suốt một thời gian dài、 chưa từng để tâm đến dòng chảy thời gian…… nên có lẽ tôi đặc biệt kém nhạy cảm với những cảm giác như vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_04.mp3
+clickwait,,,,,,,,,,,
+select,Thời gian trong Dreamlands thế nào？,Không bận tâm đến thời gian thật đáng ghen tị。
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:normal,bea,-10,-200,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi cũng không nắm rõ tất cả về Dreamlands、 nhưng nếu có những vùng mà đêm kéo dài vĩnh viễn、 thì có lẽ cũng có những vùng mà thời gian quay ngược lại。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ít nhất theo những gì tôi biết、 thì không có nhiều cơ hội để cảm nhận dòng chảy thời gian như ở thế giới thực。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu bữa ăn ở đây có Blini mới nướng hay trà Nga、 thì có lẽ tôi cũng sẽ cảm nhận được một buổi sáng tốt lành đã đến…… chỉ là nghĩ vậy thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_07.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:normal,bea,-10,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Vậy sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù không thể nhận biết được、 thời gian vẫn trôi đi。Vậy thì、 chẳng phải sẽ lành mạnh hơn nếu mỗi ngày ta đều cảm nhận và trân trọng từng khoảnh khắc sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi nghĩ đó chính là ý nghĩa của việc 'sống'。Sống trọn vẹn từng ngày…… đó mới là điều vô giá。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_10.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:sad,bea,-10,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nhưng mà、 việc tôi mong muốn những điều như vậy thật là tham lam。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:normal,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi chỉ là một ảo ảnh sinh ra từ tàn dư của một con người tên Beatrice、 người lẽ ra đã tan biến vào Dreamlands…… bản thân tôi còn chẳng phải là con người。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ cần được ban cho khoảng thời gian giao tiếp với ai đó như thế này thôi、 tôi đã phải cảm thấy hạnh phúc rồi……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:sad,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Tôi có thể hỏi một điều không？ Bạn có thấy tôi đáng sợ không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù tôi có cố gắng giống con người đến đâu、 tôi vẫn là một dị dạng。Bạn không thấy điều đó thật ghê tởm sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:normal,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Fufu、 bạn thật là một người tốt bụng。Đến cả một người như tôi mà bạn cũng chấp nhận。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ một lời nói ấy thôi cũng khiến trái tim tôi ấm áp và tràn ngập niềm vui。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Tôi vẫn còn băn khoăn liệu một người như tôi có thực sự nên giao thiệp với con người không、 nhưng tôi nghĩ mình muốn ở lại đây thêm một chút nữa……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_18.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu được、 bạn có thể trò chuyện với tôi như thế này lần nữa không？ Tôi muốn được nói chuyện với bạn nhiều hơn。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_19.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:smile,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng、 hứa nhé？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_01_20.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

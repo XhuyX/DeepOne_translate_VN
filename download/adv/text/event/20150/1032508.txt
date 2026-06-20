@@ -1,0 +1,452 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11700301.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm096.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 đến đây thì chắc sẽ không bị đuổi kịp đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chán thật、 cứ dính dáng đến Milva là y như rằng… Mà cô ta、 hình như càng ngày càng tệ hơn thì phải…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cái vụ của Milva、 một phần trách nhiệm cũng là của anh nữa đấy。Thật sự… rốt cuộc sẽ đi về đâu đây…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>―― Khoan đã、 sao anh cứ ngẩn ra thế kia？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hình như anh không hiểu tình hình rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Làm ơn có chút ý thức về nguy hiểm đi、 có ý thức vào。Giờ anh đang bị em bắt cóc đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:anger,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À mà em đang rất、 rất、 VÔ CÙNG giận đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Anh biết vì sao không？ Anh trai thông minh của em♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,norn,0.6_0.6,0.5,0
+anm,move,norn,0_-130,0.5,0
+endwait
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:unique,norn,0,-130,0.6,0,,,,
+msg,0,<outline width=2 color=black>Không có em gái nào không nổi điên khi thấy anh tình tứ với người khác đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:anger,norn,0,-130,0.6,0,,,,
+msg,0,<outline width=2 color=black>Chết tiệt、 Milva、 Souka、 Julia…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:anger,norn,0,-130,0.6,0,,,,
+msg,0,<outline width=2 color=black>Mà này anh！ Là anh trai thì phải cưng chiều em gái nhất chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:anger,norn,0,-130,0.6,0,,,,
+msg,0,<outline width=2 color=black>Nếu Vùng này là nơi liên quan đến sự chấp niệm、 thì em cũng không khách sáo đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,norn,0.7_0.7,0.5,0
+anm,move,norn,0_-160,0.5,0
+endwait
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:anger,norn,0,-160,0.7,0,,,,
+msg,0,<outline width=2 color=black>Em đã phải để ý đến anh và mọi người、 phải kìm nén cảm xúc của mình đến nhường nào… Nhân cơ hội này、 em sẽ cho anh biết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,norn,0.8_0.8,0.5,0
+anm,move,norn,0_-200,0.5,0
+endwait
+wait,0.5
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:normal,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chụt… chụt、 chụt… ưm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:normal,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ha… chỉ có thế này thì chưa đủ đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:normal,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chụt、 chụt、 chụt… ưm、 ư… chụt、 chụt…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:normal,norn,0,-200,0.8,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―― Em thích anh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:normal,norn,0,-200,0.8,0,,,,
+msg,0,<outline width=2 color=black>Em muốn anh để ý đến em hơn、 muốn chiếm hữu anh。Không muốn nhường anh cho bất kỳ ai khác dù chỉ một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:normal,norn,0,-200,0.8,0,,,,
+msg,0,<outline width=2 color=black>Ham muốn、 khát khao、 cả việc loại trừ người khác nữa… Tất cả đều là ác ý của con người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:normal,norn,0,-200,0.8,0,,,,
+msg,0,<outline width=2 color=black>Chấp niệm ư？ Đừng có đùa、 anh nghĩ em là ai chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:normal,norn,0,-200,0.8,0,,,,
+msg,0,<outline width=2 color=black>Người chấp niệm với tình cảm này、 với suy nghĩ này、 và với cả ác ý này hơn bất kỳ ai khác、 không ai khác ngoài em cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:normal,norn,0,-200,0.8,0,,,,
+msg,0,<outline width=2 color=black>Riêng sự thật đó、 nhất định em sẽ không nhường cho ai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:normal,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>―― Chụt、 chụt… ưm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:unique,norn,0,-200,0.8,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>… Sao nào、 anh hiểu chưa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:unique,norn,0,-200,0.8,0,,,,
+msg,0,<outline width=2 color=black>Em、 thật ra rất muốn độc chiếm、 là một đứa em gái khó chiều。AnMari、 đừng làm những chuyện khiến em ghen tị nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:sad,norn,0,-200,0.8,0,,,,
+msg,0,<outline width=2 color=black>… Hay là、 một đứa em gái ghen tuông thế này、 anh thấy phiền？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 「愛する妹だ,選択肢2 「仕返ししていい？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:shy,norn,0,-200,0.8,0,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ph… Phụt…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:shy,norn,0,-200,0.8,0,,,,
+msg,0,<outline width=2 color=black>A、 không… Tự dưng… bất ngờ thế này、 thật là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:shy,norn,0,-200,0.8,0,,,,
+msg,0,<outline width=2 color=black>Nói bằng vẻ mặt nghiêm túc… ư、 ư…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:surprise,norn,0,-200,0.8,0,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:shy,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ư…！？ Ư、 chụt、 chụt… ư、 chụt、 chụt…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:shy,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chụt、 chụt… ha…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:shy,norn,0,-200,0.8,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trả đũa、 tự dưng lại… ư…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm134.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181506/adv/atlas/stand_a,body:shy,julia,300,-120,0.5,0.5,,,,
+anm,tint,julia,150_150_150,0.0001,0
+spriteatlas,download/character/104210/adv/atlas/stand_a,body:unique,soka,-300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181506/adv/atlas/stand_a,body:shy,julia,300,-120,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hai người đang tình tứ kìa… ghê gớm thật…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101359/adv/atlas/stand_a,body:normal,milva,-300,-120,0.5,0.5,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufu… Norn-chan、 dù gì thì cũng có vẻ vui vẻ lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181506/adv/atlas/stand_a,body:normal,julia,300,-120,0.5,0.5,,,,
+anm,tint,julia,150_150_150,0.0001,0
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:shy,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>N… Này、 mấy người đứng đó từ bao giờ…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181506/adv/atlas/stand_a,body:normal,julia,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái Norn đó mà lại không hề nhận ra、 đến mức mất cảnh giác thế này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181506/adv/atlas/stand_a,body:unique,julia,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chắc là say mê lắm đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:shy,norn,-300,-120,0.5,0,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừ… Ồn ào quá！ Được thôi、 là anh trai của em mà！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,julia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101359/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A、 độc chiếm thì thật là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104210/adv/atlas/stand_a,body:normal,soka,-300,-110,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Với em thì là ba mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,soka,0.7_0.7,0.6,0
+anm,move,soka,-200_-160,0.6,0
+endwait
+
+
+spriteatlas,download/character/104210/adv/atlas/stand_a,body:smile,soka,-200,-160,0.7,0,,,,
+msg,0,<outline width=2 color=black>Đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101359/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+endwait
+anm,scale,milva,0.7_0.7,0.6,0
+anm,move,milva,200_-160,0.6,0
+endwait
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em không phải là anh trai hay ba、 nhưng mà… ở bên cạnh như thế này、 cũng được đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101359/adv/atlas/stand_a,body:smile,milva,200,-160,0.7,0,,,,
+msg,0,<outline width=2 color=black>Vì anh cũng chấp niệm với em mà、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181506/adv/atlas/stand_a,body:shy,julia,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A、 hai người thật là quá đáng。Bám dính lấy anh ấy như thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181506/adv/atlas/stand_a,body:shy,julia,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em cũng――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/103518/adv/atlas/stand_a,body:anger,norn,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đứa nào cũng được tự do thế à！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,down
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11730300.jpg,0,255
+endwait
+slideoutblack,0.5,down
+endwait,,,,,,,,,,,
+
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Anh là của em mà——！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

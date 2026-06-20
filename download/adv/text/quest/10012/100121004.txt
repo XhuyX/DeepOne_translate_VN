@@ -1,0 +1,923 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10120100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm097.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090110/adv/image/28090110.png,enemy,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28090110_raiging_in.mp3
+endwait
+name,<outline width=2 color=black>銀穹顛颱す翼天</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——————————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_b,body:anger,zakuro,300,-120,0.5,0.5,,,,
+anm,tint,zakuro,150_150_150,0.0001,0
+spriteatlas,download/character/103511/adv/atlas/stand_b,body:anger,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_11_04_01.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cái thứ này…… Xuyên thủng nó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_b,body:anger,zakuro,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_043_11_04_01.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>—Bích Thủy Liên！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+slideinblack,0.1,right,
+endwait,
+sprite,download/adv/image/sla3.jpg,sla1,0,0,1,0,,,,
+playse,/download/character/103511/se/se_c03511_ef_hit.mp3
+slideoutblack,0.2,right,
+endwait,
+slideinblack,0.1,right,
+endwait,
+spriteoff,all,0,
+fadeoutblack,0.2,
+endwait,,,,,,,,,,,
+slideinblack,0.1,left,
+endwait,
+sprite,download/adv/image/sla3.jpg,sla2,0,0,1,0,,,,
+anm,scale,sla2,-1_1,0,
+playse,/download/character/103511/se/se_c03511_skill_08.mp3
+slideoutblack,0.2,right,
+endwait,
+slideinblack,0.1,right,
+endwait,
+spriteoff,all,0,
+fadeoutblack,0.2,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090110/adv/image/28090110.png,enemy,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_green,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/character/104306/se/se_c04302_def_skill.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090110/adv/image/28090110.png,enemy,0,-50,0.55,0,,,,
+sprite,download/monster/28090110/adv/image/28090110.png,enemy2,0,-50,0.55,0,,,,
+sprite,download/monster/28090110/adv/image/28090110.png,enemy3,0,-50,0.55,0,,,,
+playse,/download/sound/se/se_28090110_raiging_in.mp3
+endwait
+name,<outline width=2 color=black>銀穹顛颱す翼天</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>———————、 —————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+playse,/download/sound/se/se_046.mp3
+anm,move,enemy2,200_-50,0.7,0
+anm,move,enemy3,-200_-50,0.7,0
+anm,fade,enemy,0,0.7,0
+anm,fade,enemy2,0,0.7,0
+anm,fade,enemy3,0,0.7,0
+endwait,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_b,body:surprise,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_11_04_02.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cái…… biến mất……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash4_green,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,2,0.3,1.0
+shake,0.2,4,15,15
+anm,move,norn,-1200_-120,0.4,0
+endwait
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_b,body:anger,zakuro,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_043_11_04_02.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khụ…… Cái này、 vẫn còn nhanh quá……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash4_green,em1,default,animation,0,0,0,-1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,2,0.3,1.0
+shake,0.2,4,15,15
+anm,move,zakuro,1200_-120,0.4,0
+endwait
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+
+spriteoff,zakuro,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090110/adv/image/28090110.png,enemy1,200,-50,0.55,0.5,,,,
+sprite,download/monster/28090110/adv/image/28090110.png,enemy2,-200,-50,0.55,0.5,,,,
+playse,/download/sound/se/se_046.mp3
+anm,move,enemy1,0_-50,0.6,0
+anm,move,enemy2,0_-50,0.6,0
+endwait,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,
+
+
+sprite,download/monster/28090110/adv/image/28090110.png,enemy,0,-50,0.55,0,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28090110_raiging_in.mp3
+endwait
+name,<outline width=2 color=black>銀穹顛颱す翼天</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—————————————————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,soka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:anger,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_042_11_04_01.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hự、 aaaaaaaaaaaaaa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+sprite,download/monster/28090110/adv/image/28090110.png,enemy,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playse,/download/character/104202/se/se_c04204_skill_06.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:anger,soka,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_042_11_04_02.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>—Xé ra、 Thanh Tsubaki！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Ice1,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_021.mp3
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playse,/download/character/104202/se/se_c04204_skill_02.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+wait,0.2
+bg,download/bg/bg_10120100.jpg,1,255
+endwait
+
+
+sprite,download/monster/28090110/adv/image/28090110.png,enemy,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28090110_raiging_in.mp3
+endwait
+name,<outline width=2 color=black>銀穹顛颱す翼天</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—————、 ——————</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/character/104202/se/se_c04204_skill_06.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,-1,1.0,0
+playse,/download/character/104202/se/se_c04204_skill_07.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090110/adv/image/28090110.png,enemy,0,-50,0.55,0,,,,
+playse,/download/sound/se/se_28090110_skill_normal.mp3
+endwait
+name,<outline width=2 color=black>銀穹顛颱す翼天</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>———————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+spine,download/adv/spine/Wind2,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_046.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:sad,soka,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash3_green,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_068.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:sad,soka,0,-110,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_042_11_04_03.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khụ、 ực…… Tấn công cỡ này…… mình chịu được……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:anger,soka,0,-110,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_042_11_04_04.mp3
+msg,1,<outline width=2 color=black>—Daphne！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,dahune1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104402/adv/atlas/stand_g,body:unique,dahune2,0,0,0,0,,,,
+imgconf,dahune2,dahune1,0,-970,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_044_11_04_01.mp3
+name,<outline width=2 color=black>ダフネ</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chỉ vì tôi thiếu một mắt một tay mà các người quá đỗi lơ là với tôi rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104402/adv/atlas/stand_g,body:anger,dahune2,0,0,0,0,,,,
+imgconf,dahune2,dahune1,0,-970,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_044_11_04_02.mp3
+msg,1,<outline width=2 color=black>Cả sự ô uế đó、 sức mạnh của ngươi、 ta xin nhận lấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090110/adv/image/28090110.png,enemy,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28090110_raiging_in.mp3
+endwait
+name,<outline width=2 color=black>銀穹顛颱す翼天</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>———————————！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_b,body:surprise,zakuro,300,-120,0.5,0.5,,,,
+anm,tint,zakuro,150_150_150,0.0001,0
+spriteatlas,download/character/103511/adv/atlas/stand_b,body:sad,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_11_04_03.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cái、 cái gì thế……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_b,body:surprise,zakuro,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_043_11_04_03.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cái này…… khí tức của Variant…… mật độ tồn tại、 đang loãng dần……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_b,body:anger,zakuro,300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_043_11_04_04.mp3
+msg,1,<outline width=2 color=black>Daphne、 cô đang làm gì vậy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104402/adv/atlas/stand_g,body:unique,dahune,-300,-270,0.5,0.5,,,,
+anm,tint,zakuro,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_044_11_04_03.mp3
+name,<outline width=2 color=black>ダフネ</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đừng có mà la làng lên thế。Thậm chí、 các người còn phải cảm ơn tôi mới phải。Vì tôi đang định kết thúc mọi chuyện thay cho lũ chậm chạp các người đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,
+
+
+sprite,download/monster/28090110/adv/image/28090110.png,enemy,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28090110_raiging_in.mp3
+endwait
+name,<outline width=2 color=black>銀穹顛颱す翼天</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>————、 —……、 —！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104402/adv/atlas/stand_g,body:unique,dahune,-300,-270,0.5,0.5,,,,
+anm,tint,dahune,150_150_150,0.0001,0
+spriteatlas,download/character/104302/adv/atlas/stand_b,body:anger,zakuro,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_043_11_04_05.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Sức mạnh、 đang chảy vào Daphne……？ Cô、 chẳng lẽ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104402/adv/atlas/stand_g,body:unique,dahune,-300,-270,0.5,0,,,,
+anm,tint,zakuro,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_044_11_04_04.mp3
+name,<outline width=2 color=black>ダフネ</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hừ…… Cái nhìn gì thế。Uống bùn độc thì có gì mà phải ngạc nhiên nữa？ Với cái này、 tôi sẽ——！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104402/adv/atlas/stand_g,body:anger,dahune,-300,-270,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_044_11_04_05.mp3
+msg,1,<outline width=2 color=black>Khụ、 ực、 ực…… Khụ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+shake,0.2,4,15,15
+anm,move,dahune,-300_-320,0.3,0
+endwait
+spine,download/adv/spine/blood,em1,default,animation,0,-300,0,1,1.0,0
+playse,/download/sound/se/se_068.mp3
+endwait,,,,,,,,,,,
+flash,230,20,60,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+spriteoff,zakuro,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:anger,soka,300,-110,0.5,0.5,,,,
+anm,tint,dahune,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_042_11_04_05.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Daphne……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104402/adv/atlas/stand_g,body:anger,dahune,-300,-320,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait
+anm,move,dahune,-300_-270,0.4,0
+endwait
+name,<outline width=2 color=black>ダフネ</outline>,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_044_11_04_06.mp3
+msg,1,<outline width=2 color=black>Hộc…… hộc、 khụ…… Nó chỉ còn là bã thôi。Souka、 kết liễu nó đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:anger,soka,300,-110,0.5,0,,,,
+anm,tint,dahune,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_042_11_04_06.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khụ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090110/adv/image/28090110.png,enemy,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28090110_raiging_in.mp3
+endwait
+name,<outline width=2 color=black>銀穹顛颱す翼天</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—、…………、……—！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash4_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/character/104202/se/se_c04204_skill_07.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10120100.jpg,1,255
+endwait
+
+
+sprite,download/monster/28090110/adv/image/28090110.png,enemy,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090110/adv/image/28090110.png,enemy,0,-50,0.55,0,,,,
+playse,/download/sound/se/se_28090110_raiging_in.mp3
+endwait
+name,<outline width=2 color=black>銀穹顛颱す翼天</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………、……………………！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+anm,tint,enemy,0_0_0,1.2,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+stopbgm,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104702/adv/atlas/stand_a,body:normal,terutia,300,-140,0.5,0.5,,,,
+anm,tint,terutia,150_150_150,0.0001,0
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:surprise,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_11_04_04.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đánh bại rồi sao……？ Sao cuối cùng nó lại biến mất dễ dàng như vậy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104702/adv/atlas/stand_a,body:normal,terutia,300,-140,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_094_11_04_01.mp3
+name,<outline width=2 color=black>Tertia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đó là một thực thể trôi dạt trong Dreamlands、 bị bóp méo bởi sự ô uế。Cô ta đã hút sự ô uế đó vào chính sự ô uế bên trong mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,terutia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_11_04_05.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chuyện đó、 chẳng lẽ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104402/adv/atlas/stand_g,body:normal,dahune,-300,-270,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_044_11_04_07.mp3
+name,<outline width=2 color=black>ダフネ</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tôi gieo hạt、 tôi gặt quả…… Đó là quyền lợi hiển nhiên của tôi mà、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,terutia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro,300,-120,0.5,0.5,,,,
+anm,tint,dahune,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_043_11_04_06.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Thật là ngu ngốc…… Nếu hấp thụ thứ đó vào cơ thể người、 làm sao mà bình an vô sự được chứ——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104402/adv/atlas/stand_g,body:unique,dahune,-300,-270,0.5,0,,,,
+anm,tint,zakuro,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_044_11_04_08.mp3
+name,<outline width=2 color=black>ダフネ</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cô mới là kẻ ngốc。Tôi chưa từng một lần ước mình được bình an。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104402/adv/atlas/stand_g,body:normal,dahune,-300,-270,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_044_11_04_09.mp3
+msg,1,<outline width=2 color=black>Điều tôi luôn tìm kiếm、 chính là sự thống khổ của những kẻ phủ nhận tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zakuro,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:normal,soka,300,-110,0.5,0.5,,,,
+anm,tint,dahune,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_042_11_04_07.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Daphne muốn gì thì tôi cũng chẳng quan tâm đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:normal,soka,300,-110,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_042_11_04_08.mp3
+msg,1,<outline width=2 color=black>Hơn nữa、 cô phải giữ đúng lời hứa đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104402/adv/atlas/stand_g,body:smile,dahune,-300,-270,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_044_11_04_10.mp3
+name,<outline width=2 color=black>ダフネ</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đương nhiên rồi。Miễn là điều cô muốn đi cùng hướng với cơn giận của tôi thôi nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,alt1,0,0,1280,250,0.5,,,,
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:normal,alt2,0,0,0,0,,,,
+imgconf,alt2,alt1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_099_11_04_01.mp3
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>—Ồ。Không biết mũi nhọn cơn giận của cô đang hướng về đâu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10120100.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_099_11_04_02.mp3
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Mà thôi、 tất cả những thứ đó、 chắc cũng chỉ là sự oán hờn vặt vãnh hay ghen tị vô cớ mà thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_099_11_04_03.mp3
+msg,1,<outline width=2 color=black>Mất mát hay phản bội、 hoặc thậm chí là cảm giác bất lực mà cô đang chịu đựng、 tất cả đều chỉ là kết quả từ hành động của chính cô mà thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_11_04_06.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khụ、 ASAKA……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_099_11_04_04.mp3
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đương nhiên、 đứa bé này cũng ở đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,-300,-120,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_041_11_04_01.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,alt,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:sad,soka,300,-110,0.5,0.5,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_042_11_04_09.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Aika……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_a,body:anger,zakuro,-300,-120,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_043_11_04_07.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đúng như dự đoán、 phải không。Perfe không có ở đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:normal,alt,300,-120,0.5,0.5,,,,
+anm,tint,zakuro,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_099_11_04_05.mp3
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Phải。Cô ta định lợi dụng tôi và Aika đến cùng để tiêu hao càng nhiều người trong số các người càng tốt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zakuro,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_11_04_07.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Biết rõ điều đó mà em vẫn hợp tác với Perfe sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:normal,alt,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_099_11_04_06.mp3
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Phải。Xin lỗi nhé、 Norn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:smile,alt,300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_099_11_04_07.mp3
+msg,1,<outline width=2 color=black>Tôi bây giờ、 không có lựa chọn nào để chống lại cô ấy đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_099_11_04_08.mp3
+name,
+msg,1,<outline width=2 color=black>Đúng vậy。Tôi thậm chí không thể giữ vững ý chí của mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_099_11_04_09.mp3
+name,
+msg,1,<outline width=2 color=black>Thế nên、 tôi tin tưởng các bạn đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_099_11_04_10.mp3
+name,
+msg,1,<outline width=2 color=black>Niềm tin này chẳng có lý lẽ nào cả。Nhưng mà、 tôi hoàn toàn tin chắc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_099_11_04_11.mp3
+name,
+msg,1,<outline width=2 color=black>Các bạn lúc nào cũng vượt qua、 ngay cả những toan tính của tôi――và cả Nguyên thư Pnakotic、 để giành lấy tương lai mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_099_11_04_12.mp3
+name,
+msg,1,<outline width=2 color=black>Thế nên、 xin hãy đáp lại niềm tin này của tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_099_11_04_13.mp3
+name,
+msg,1,<outline width=2 color=black>Hãy chứng minh rằng chính những tâm tư của con người sẽ dệt nên tương lai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_099_11_04_14.mp3
+name,
+msg,1,<outline width=2 color=black>Nếu vậy thì、 tôi sẽ yên lòng――……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,143 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11410300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_01.mp3
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khu vực này… phải nói sao nhỉ、 sao mà thấy… chán đời quá</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_02.mp3
+msg,1,<outline width=2 color=black>Đồ đạc thấp lè tè、 đồ chơi trẻ con… Chắc là、 cơ sở trông trẻ… nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_03.mp3
+msg,1,<outline width=2 color=black>Nếu vậy thì bộ dạng này của tôi、 chẳng phải là bảo tôi trông trẻ sao。Thật là… Chuyện này không hợp với tôi chút nào</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_04.mp3
+msg,1,<outline width=2 color=black>Không phải là tôi ghét trẻ con。Mà là、 tôi còn chưa từng tiếp xúc sâu với trẻ con đến mức phải phán xét là thích hay không thích</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_05.mp3
+msg,1,<outline width=2 color=black>Tôi đã không thể dễ dàng rời khỏi dinh thự Liubia。Làm gì có cơ hội chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_06.mp3
+msg,1,<outline width=2 color=black>Trẻ con ư、 dù có hình dung trong đầu đi chăng nữa、 thì cũng chỉ có vậy… Vậy mà tôi lại phải ăn mặc thế này、 thật là buồn cười</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,CHỌN: Chọn 1 「Chị sẽ là một người mẹ tốt đấy,CHỌN: Chọn 2 「Tôi nghĩ đó là thiên chức của chị
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:surprise,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_07.mp3
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…Anh đang nói cái gì vậy、 tên khốn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_08.mp3
+msg,1,<outline width=2 color=black>Hay là、 anh… có hiểu ý nghĩa của những lời mình nói không？ Trở thành một người mẹ、 có nghĩa là phải…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_09.mp3
+msg,1,<outline width=2 color=black>…Không、 không có gì。Tôi không nghĩ một tên khốn như anh lại có thể suy nghĩ sâu xa đến vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_10.mp3
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chà、 anh nói chuyện thú vị đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_11.mp3
+msg,1,<outline width=2 color=black>Một kẻ mang sức mạnh đáng nguyền rủa như đôi mắt Tohil này、 lại đi thong thả chơi với trẻ con… Anh nghĩ tôi làm được sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_12.mp3
+msg,1,<outline width=2 color=black>…Này。Sao anh lại làm cái mặt tội lỗi đó chứ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_13.mp3
+msg,1,<outline width=2 color=black>Ha… Tôi vừa nói lời cay nghiệt rồi。Tôi rút lại、 đừng có làm mặt đó nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_14.mp3
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nhưng mà… rốt cuộc、 tôi trông trẻ、 đúng là không thực tế</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_15.mp3
+msg,1,<outline width=2 color=black>Trẻ con thì vô tri、 vì vậy chúng mới thuần khiết。Với một kẻ quỷ quyệt như tôi、 tôi không thể đối diện với chúng một cách ngay thẳng được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_16.mp3
+msg,1,<outline width=2 color=black>Hơn nữa… đôi mắt này、 đã nhuốm quá nhiều máu và oán hận、 cùng với những dục vọng xấu xa。Không thích hợp để tiếp xúc với những đứa trẻ chưa biết đến sự ô uế</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_17.mp3
+msg,1,<outline width=2 color=black>Vì vậy、 phải rồi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_18.mp3
+msg,1,<outline width=2 color=black>Nếu sau này、 tôi rơi vào tình huống phải tiếp xúc với trẻ con、 tôi sẽ giao cho anh</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103309/adv/sound/fav103309_01_19.mp3
+msg,1,<outline width=2 color=black>Dù là tên khốn、 thì anh cũng phải trông trẻ được chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

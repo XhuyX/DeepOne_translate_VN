@@ -1,0 +1,100 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,1.0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:surprise,maruta,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_01.mp3
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ô… Cái mới、 tớ có rồi… Giờ thì――</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_02.mp3
+msg,0,<size=30><outline width=2 color=black>Cái này？ Bánh socola có kèm quà。Hình quả trứng、 bên trong có viên nang。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_03.mp3
+msg,0,<size=30><outline width=2 color=black>Trong viên nang đó có mấy món đồ chơi đi kèm。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_04.mp3
+msg,0,<size=30><outline width=2 color=black>Hồi trước được Milva cho、 vừa ngon vừa vui、 nên tớ ăn nhiều、 sưu tập nhiều…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:anger,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_05.mp3
+msg,0,<size=30><outline width=2 color=black>Giờ thì tớ đang sưu tập 'Bộ lính va chạm với đủ loại phương tiện'… Lúc nãy vừa có phiên bản va chạm với máy bay chiến đấu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_06.mp3
+msg,0,<size=30><outline width=2 color=black>Diễn tả cú va chạm với tốc độ Mach、 cái dáng người vặn vẹo này thật tuyệt vời。Chín mươi điểm trên thang điểm một trăm。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_07.mp3
+msg,0,<size=30><outline width=2 color=black>Giờ thì chỉ còn một loại nữa thôi… Nếu có phiên bản bí mật thì sẽ hoàn thành bộ sưu tập。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_08.mp3
+msg,0,<size=30><outline width=2 color=black>Lydia với Milva còn chưa có、 nên tớ sẽ đem ra khoe。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,選択肢1 「実は……,選択肢2 「Edelgardも集めてる
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_09.mp3
+msg,0,<size=30><outline width=2 color=black>…？ Trong túi có gì vậy？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:surprise,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_10.mp3
+msg,0,<size=30><outline width=2 color=black>Ơ… Cái đó、 chẳng lẽ nào… bí mật sao…？ Cậu cũng sưu tập à…？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_11.mp3
+msg,0,<size=30><outline width=2 color=black>T、 phiên bản va chạm với khủng long bạo chúa… Khoan、 cái này là phương tiện á？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_12.mp3
+msg,0,<size=30><outline width=2 color=black>Ừm… Bỏ qua mấy chi tiết nhỏ nhặt、 cái này đỉnh thật、 khoảnh khắc người lính cam chịu khi bị khủng long bạo chúa táp、 thể hiện rõ sự vô thường。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_13.mp3
+msg,0,<size=30><outline width=2 color=black>Cái này、 một trăm điểm…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_14.mp3
+msg,0,<size=30><outline width=2 color=black>Mà nói mới nhớ、 Lydia với Milva cũng bảo là vì biết Edelgard sưu tập nên mới bắt đầu sưu tập。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_15.mp3
+msg,0,<size=30><outline width=2 color=black>Tớ không biết Edelgard là ai…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:surprise,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_16.mp3
+msg,0,<size=30><outline width=2 color=black>…！ Edelgard、 đã hoàn thành bộ sưu tập này rồi sao？ Mấy bộ khác cũng gần hết rồi à…？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_17.mp3
+msg,0,<size=30><outline width=2 color=black>Ghê thật… Thật ngưỡng mộ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_18.mp3
+msg,0,<size=30><outline width=2 color=black>Tớ cũng không thể thua được… Phải hoàn thành sớm rồi sưu tập bộ tiếp theo。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_19.mp3
+msg,0,<size=30><outline width=2 color=black>Hồi giờ tớ quy định một ngày chỉ được ba cái… Giờ thì、 năm cái。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:surprise,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_20.mp3
+msg,0,<size=30><outline width=2 color=black>… Chán à？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_21.mp3
+msg,0,<size=30><outline width=2 color=black>Cậu đang nói gì tớ không hiểu。Ăn socola thì làm gì có chuyện chán。Ăn bao nhiêu cũng được。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playvoice,1,download/character/102700/adv/sound/fav102703_02_22.mp3
+msg,0,<size=30><outline width=2 color=black>Ăn nhiều quá thì sâu răng… Chỉ có điều đó là tớ để ý thôi… Không sao、 tớ vẫn đánh răng đầy đủ mà。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,291 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_01.mp3
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>……Chào buổi sáng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,maria,0.6_0.6,0.5,0
+anm,move,maria,0_-150,0.5,0
+endwait
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-150,0.6,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_02.mp3
+msg,1,<outline width=2 color=black>…………Đứng yên đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,maria,0.7_0.7,0.5,0
+anm,move,maria,0_-170,0.5,0
+endwait
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-170,0.7,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_03.mp3
+msg,1,<outline width=2 color=black>Này、 đứng yên！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maria1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria2,0,0,0,0,,,,
+imgconf,maria2,maria1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104903/adv/sound/fav104903_02_04.mp3
+msg,1,<outline width=2 color=black>Khịt、 khịt khịt…… ưm、 hít hà…… khịt khịt khịt……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm112.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0.5,,,,
+endwait
+playvoice,1,download/character/104903/adv/sound/fav104903_02_05.mp3
+msg,1,<outline width=2 color=black>——Đêm qua、 chị ấy không về phòng dù đã khuya rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_06.mp3
+msg,1,<outline width=2 color=black>Và…… từ anh、 em ngửi thấy mùi của chị ấy…… dù mới sáng sớm。Mùi của chị ấy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_07.mp3
+msg,1,<outline width=2 color=black>K-k-k-không、 không lẽ nào…… đêm qua、 anh đã ở cùng chị ấy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_08.mp3
+msg,1,<outline width=2 color=black>K-k-không thể nào、 nhưng mà、 anh đã ngủ cùng giường với chị ấy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_09.mp3
+msg,1,<outline width=2 color=black>E-em muốn anh nói là không、 không phải vậy…… anh có mặc quần áo、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Sao mà……,Em nhầm thôi。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_10.mp3
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nhìn em này！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_11.mp3
+msg,1,<outline width=2 color=black>Không phải vậy、 đúng không？ Không phải vậy、 đúng không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_12.mp3
+msg,1,<outline width=2 color=black>Anh không…… làm gì quá đáng với chị ấy、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_13.mp3
+msg,1,<outline width=2 color=black>——……Sao anh không nói gì hết？ Anh đang trêu em à？ Anh trả đũa vì thỉnh thoảng em dùng từ bậy bạ sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_14.mp3
+msg,1,<outline width=2 color=black>Em xin lỗi、 xin hãy tha thứ cho em、 em xin lỗi、 em sẽ làm bất cứ điều gì、 nên làm ơn hãy nói cho em sự thật đi……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_15.mp3
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>——Cởi ra！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,maria,0.6_0.6,0.5,0
+anm,move,maria,0_-150,0.5,0
+endwait
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-150,0.6,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_16.mp3
+msg,1,<outline width=2 color=black>Cứ cởi ra đi。Ít nhất thì vén áo lên、 đến ngực thôi cũng được…… À、 thôi rồi。Để em làm！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+anm,scale,maria,0.7_0.7,0.5,0
+anm,move,maria,0_-170,0.5,0
+endwait
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maria1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:surprise,maria2,0,0,0,0,,,,
+imgconf,maria2,maria1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104903/adv/sound/fav104903_02_17.mp3
+msg,1,<outline width=2 color=black>Khịt khịt khịt khịt khịt、 hít hà hà hà……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0.5,,,,
+endwait
+playvoice,1,download/character/104903/adv/sound/fav104903_02_18.mp3
+msg,1,<outline width=2 color=black>Mùi của chị ấy còn vương cả trong áo…… mà、 mà còn có vết hôn trên ngực nữa chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_19.mp3
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Quả nhiên、 đêm qua、 chị ấy đã ở cùng anh…… à、 à、 à……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_20.mp3
+msg,1,<outline width=2 color=black>Chị ấy、 với một người đàn ông…… đến mức mùi của cả hai thấm đẫm vào nhau、 nhiều như vậy…… đã、 đã làm chuyện đó…… à、 ư、 à、 àà</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_21.mp3
+msg,1,<outline width=2 color=black>Ôi、 làm sao đây、 em không thích chuyện này…… không thích、 nhưng mà…… khi em tưởng tượng chị ấy sẽ làm thế nào、 thì tự nhiên em lại thấy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_22.mp3
+msg,1,<outline width=2 color=black>Đ-đầu em、 sắp điên rồi…… như thể não em sắp nhũn ra vậy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_23.mp3
+msg,1,<outline width=2 color=black>Hộc、 à、 hộc…… Chị ơi、 chị ơi……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_02_24.mp3
+msg,1,<outline width=2 color=black>Khụ…… E-em、 em về phòng đây！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_016.mp3
+anm,move,maria,-1200_-120,0.7,0
+endwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+playbgm,/download/sound/bgm/bgm005.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maria1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:shy,maria2,0,0,0,0,,,,
+imgconf,maria2,maria1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104903/adv/sound/fav104903_02_25.mp3
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Sao、 sao em lại…… người em nóng ran…… ưm、 ưm…… Nhanh、 về phòng…… trong phòng……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

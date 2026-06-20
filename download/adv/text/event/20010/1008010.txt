@@ -1,0 +1,485 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11040300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm031.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:sad,jamila,0,-180,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À… Katia-sama…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,move,jamila,300_-180,0.8,1
+endwait
+anm,scale,jamila,-0.5_0.5,0,0
+endwait
+anm,move,jamila,-300_-180,0.8,1
+endwait
+anm,scale,jamila,0.5_0.5,0,0
+endwait
+anm,move,jamila,300_-180,0.8,1
+endwait
+anm,scale,jamila,-0.5_0.5,0,0
+endwait
+anm,move,jamila,-300_-180,0.8,1
+endwait
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:sad,ilyna,300,-220,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Này、 em có thể chịu khó ngồi yên một chút được không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:sad,jamila,-300,-180,0.5,0,,,,
+anm,scale,jamila,-0.5_0.5,0,0
+endwait
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chị không lo sao chứ！？ Katia-sama một mình vào bếp cơ mà…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:sad,jamila,-300,-180,0.5,0,,,,
+anm,scale,jamila,-0.5_0.5,0,0
+endwait
+msg,0,<size=30><outline width=2 color=black>Lỡ người bị bỏng thì sao…！ Em、 em phải giúp người mới được…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Katia đã bảo không cần giúp rồi。Chị thấy em hơi làm quá đấy？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ilyna,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:anger,jamila,300,-180,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chị im đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Haizz… Nói chuyện với cô ta toàn đâm chọt vào lòng tự ái、 thôi thì nhờ hai đứa em vậy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Bánh của Katia、 thích quá。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ô、 Frau chỉ quan tâm đến chuyện này thôi à。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,Chọn 1 'Tin tưởng Katia,Chọn 2 'Cũng hiểu nỗi lo của em
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Xem kìa、 cậu ta cũng nói vậy đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:sad,jamila,300,-180,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng mà…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Giả sử bây giờ em xông vào giúp、 Katia có vui không mới là vấn đề。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ilyna,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:sad,jamila,300,-180,0.5,0.5,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Phiền phức thật。Em biết thừa chứ sao。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:sad,jamila,300,-180,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+msg,0,<size=30><outline width=2 color=black>Đúng rồi…！ Nếu chị cũng lo cho Katia-sama、 thì cùng em vào giúp…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À、 cậu ta tin lời Katia、 cố nhịn không vào giúp và ngoan ngoãn đứng đợi ở đây này。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Hành động của em chẳng khác nào không tin lời chủ nhân Katia cả。Như vậy có được không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:sad,jamila,300,-180,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Thì là…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Giờ cứ ngoan ngoãn đợi đi。Với lại、 chắc cũng sắp rồi――…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100305/adv/atlas/stand_a,body:sad,catia,-300,-100,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À… xin lỗi mọi người vì đã để mọi người đợi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:normal,jamila,300,-180,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Katia-sama… Người không sao chứ ạ！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100305/adv/atlas/stand_a,body:surprise,catia,-300,-100,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À… ừm、 không sao cả、 chỉ là em làm bánh thôi mà。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chuyện đó không cần để tâm đâu。Quan trọng là… cái bánh quy đó là thứ em muốn thử nghiệm sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100305/adv/atlas/stand_a,body:sad,catia,-300,-100,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vâng… Nhưng mà、 một mình thì vẫn thất bại thôi… Em cứ nghĩ làm bánh quy thì dễ、 nhưng mà vẫn còn non tay quá。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cũng ra hình thù rồi đấy…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ilyna,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Màu…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ưm、 hơi khét rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:surprise,jamila,300,-180,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>C、 chị nói gì vậy！ Là bánh quy Katia-sama làm đấy！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:normal,jamila,300,-180,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Dù có hơi khét hay hình thù không được đẹp thì sao chứ！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:smile,jamila,300,-180,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Katia-sama、 cái này có phải là chúng ta được phép ăn không ạ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:smile,jamila,300,-180,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Nếu người cho phép chúng em được nếm thử món bánh tuyệt vời này、 thì không có niềm vui nào hơn…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:sad,ilyna,300,-220,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sao em lại làm quá lên thế…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100305/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0.5,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thôi nào、 Jamila… Đừng làm quá lên thế…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100305/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Tất nhiên、 nếu thích thì cứ ăn đi。Về vị thì… em không dám chắc đâu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ilyna,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:smile,jamila,300,-180,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Em cảm ơn…！ Vậy thì、 em xin phép… ừm。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:sad,ilyna,300,-220,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Thôi thì、 phí của nếu bỏ đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không chịu thừa nhận gì cả… Thôi、 chúng ta cũng ăn thôi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ilyna,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>A、 ừm… ưm―</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Đắng。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:sad,ilyna,-300,-220,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Hay là bột làm chưa được、 ăn không ngon miệng nhỉ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:surprise,jamila,300,-180,0.5,0.5,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>C、 chị nói gì vậy…！ Không hiểu được hương vị sâu sắc này sao！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ilyna,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100305/adv/atlas/stand_a,body:sad,catia,-300,-100,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không sao đâu、 Jamila。Em cũng tự nếm thử rồi。Em biết là không nên cho người khác ăn mà…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:sad,jamila,300,-180,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không đâu、 Katia-sama… Em được ăn bánh quy này、 em cảm thấy hạnh phúc vô bờ…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À、 mà so với lần đầu thì cũng được đấy chứ。…Với lại、 ăn bánh quy này、 tự nhiên lại nhớ về quá khứ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100305/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Vâng。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chỉ là、 thế này thì Norn không hài lòng rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cũng không hẳn。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:surprise,ilyna,300,-220,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ý anh là sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Này、 Katia。Đây là một thất bại tuyệt vời đấy… À、 về phần bánh、 như em nói、 có lẽ không nên đem cho người khác ăn。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>……Nhưng cũng không tệ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Thực ra、 Jamila và Irina、 ai cũng có vẻ vui vẻ mà。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ilyna,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:normal,jamila,300,-180,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đương nhiên rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chờ đã nào。Tôi thì không có…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,-300,-120,0.5,0.5,,,,
+anm,scale,frau,-0.5_0.5,0,0
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Lúc nãy、 khi ăn bánh… có cười một chút。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:sad,ilyna,300,-220,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:anger,jamila,-300,-180,0.5,0.5,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hừm、 chẳng lẽ không thể vui vẻ đón nhận ý tốt của Katia-sama sao？ Đáng lẽ phải cảm tạ vạn lần mới đúng chứ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:sad,ilyna,300,-220,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cô im miệng một chút đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:normal,jamila,-300,-180,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hừ hừ、 bây giờ tôi còn rộng lượng tha thứ cho sự khó chịu của cô nữa。Vì giờ đây、 ngực tôi tràn ngập niềm vui。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:normal,jamila,-300,-180,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Với lại、 cái bánh này… có lẽ nào、 là công thức ngày xưa tôi làm cho Katia-sama không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hả？ Không phải đâu。Đây là công thức bánh tôi làm cho Katia hồi còn bé đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:anger,jamila,-300,-180,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sao lại vu khống tôi chứ？ Ghen tị à？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:anger,ilyna,300,-220,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi chỉ nói sự thật thôi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100305/adv/atlas/stand_a,body:surprise,catia,-300,-100,0.5,0.5,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À、 à thì、 cái bánh này là của ai、 không phải vậy đâu… ừm、 quả thật là tôi có tham khảo cái bánh đã ăn trước đó、 nhưng…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100305/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng tôi đã tham khảo cả bánh của Irina và Jamila làm。Đúng là liều lĩnh khi một người mới như tôi lại muốn kết hợp những điểm tốt của cả hai。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100305/adv/atlas/stand_a,body:smile,catia,-300,-100,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi đều thích bánh của Irina và Jamila。Tôi chỉ nghĩ、 liệu mình có làm ngon được không…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:surprise,ilyna,300,-220,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Katia。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ilyna,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:surprise,jamila,300,-180,0.5,0.5,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Katia-sama…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Lấy cái ngon kết hợp với cái ngon、 rồi lại càng ngon hơn… Đúng là một ý nghĩ đơn giản。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101401/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng mà、 hay đấy… Hai chiếc bánh chứa đầy kỷ niệm。Tôi cũng muốn ăn thử。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100305/adv/atlas/stand_a,body:normal,catia,300,-100,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vâng… Tôi cũng muốn ăn thử。Cùng với tôi、 Irina、 và Jamila… Cả ba cùng làm、 cùng ăn vui vẻ… Tôi nghĩ chắc chắn sẽ rất hạnh phúc。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101005/adv/atlas/stand_a,body:normal,jamila,-120,-180,0.5,0.5,,,,
+spriteatlas,download/character/100905/adv/atlas/stand_a,body:normal,ilyna,-470,-220,0.5,0.5,,,,
+spriteatlas,download/character/100305/adv/atlas/stand_a,body:normal,catia,300,-100,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait
+msg,0,<size=30><outline width=2 color=black>Vì vậy、 Irina、 Jamila、 tôi xin phép được nhờ vả lần nữa。Hai người có thể cùng tôi làm bánh được không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100305/adv/atlas/stand_a,body:smile,catia,300,-100,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Có lẽ tôi sẽ phải dựa dẫm vào hai người đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

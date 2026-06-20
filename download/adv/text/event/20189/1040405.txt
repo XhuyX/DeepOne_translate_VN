@@ -1,0 +1,671 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11410300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm115.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104255/adv/atlas/stand_a,body:unique,soka,-300,-40,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:unique,aika,300,-40,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104255/adv/atlas/stand_a,body:unique,soka,-300,-40,0.5,0,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……À thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104255/adv/atlas/stand_a,body:unique,soka,-300,-40,0.5,0,,,,
+msg,0,<outline width=2 color=black>Khối xếp hình đã cao tới trần nhà rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,300,-40,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đục một lỗ trên trần nhà không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104255/adv/atlas/stand_a,body:sad,soka,-300,-40,0.5,0,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chắc trò xếp hình đến đây là đủ rồi nhỉ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103712/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 chị hỏi một chút nhé… Aika、 Souka。Hai đứa đang làm gì vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104255/adv/atlas/stand_a,body:normal,soka,-300,-40,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chơi xếp hình。Tụi em nghĩ là trẻ con thì nên chơi vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,-300,-40,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bọn em thử xem có thể xếp cao đến đâu、 nhưng mà dễ quá nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103712/adv/atlas/stand_a,body:unique,frau,300,-120,0.5,0,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……À、 ừm、 đúng vậy。Chắc xếp hình không hợp với hai đứa đâu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,-300,-40,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì trò chơi nào hợp với bọn em？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: Chơi đồ hàng nào,Lựa chọn 2: Chơi bóng
+if,select_===_1,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104311/adv/atlas/stand_a,body:sad,zakuro,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chơi đồ hàng á、 trẻ con bây giờ có đứa nào chơi trò đó nữa đâu chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103712/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,zakuro,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy sao？ Em thì thấy có vẻ vui mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104311/adv/atlas/stand_a,body:unique,zakuro,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104311/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù có nhỏ lại đi chăng nữa、 Aika và Souka từng được gọi là hình mẫu hoàn hảo của Ma thuật sư cường hóa đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104311/adv/atlas/stand_a,body:sad,zakuro,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu lỡ tay dùng sai lực、 dù chỉ là một quả bóng bình thường、 nếu trúng thì sẽ ra sao chứ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104311/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Huống hồ bây giờ cơ thể của họ không ở trạng thái bình thường、 nên càng nguy hiểm hơn。Nếu muốn chơi trò nguy hiểm thì anh không cấm đâu、 nhưng mà…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103712/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0,,,,
+anm,tint,zakuro,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 anh ơi、 thôi đừng chơi bóng nữa。Chơi gì đó hòa bình hơn đi… Đúng rồi、 như đồ hàng chẳng hạn！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104311/adv/atlas/stand_a,body:unique,zakuro,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đồ hàng à…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,300,-40,0.5,0.5,,,,
+anm,tint,aika,150_150_150,0.0001,0
+spriteatlas,download/character/104255/adv/atlas/stand_a,body:normal,soka,-300,-40,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì em sẽ làm mẹ nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,300,-40,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em cũng vậy。Anh sẽ làm bố nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104311/adv/atlas/stand_a,body:unique,zakuro,-300,-120,0.5,0.5,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khoan、 bình thường thì vai mẹ chỉ có một người thôi chứ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,300,-40,0.5,0,,,,
+anm,tint,zakuro,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Zakuro sẽ làm con nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104311/adv/atlas/stand_a,body:surprise,zakuro,-300,-120,0.5,0,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zakuro,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104255/adv/atlas/stand_a,body:normal,soka,-300,-40,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Frau sẽ là… mẹ chồng？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103712/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11210300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm161.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,tabasa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-220,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 cái trò vớ vẩn này、 đủ rồi đấy—</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,milva1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva2,0,0,0,0,,,,
+imgconf,milva2,milva1,0,130,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khà khà、 đi nào！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,tabasa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-220,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Áaaaaa！？ Này、 đã bảo đừng đẩy xích đu nữa mà！ Nó không dừng lại đâu chứ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-220,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chắc chắn là mày định cứ thế đẩy tiếp để tao xoay một vòng luôn đúng không！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,milva1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva2,0,0,0,0,,,,
+imgconf,milva2,milva1,0,130,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Én！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,tabasa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-220,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nghe tao nói đi chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm110.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khà khà、 Tabasa-sama、 người thật là vui vẻ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Hồi đó、 người luôn giữ vẻ mặt đáng sợ trước mặt mọi người、 trừ Lyca-sama。Tabasa-sama cũng đã thay đổi rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thật sự là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11730300.jpg,0.5,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không nên dễ dàng thốt ra từ 'thật tốt' đâu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chắc chắn rằng、 từ khi Lyca-sama qua đời cho đến nay、 Tabasa-sama đã vượt qua vô vàn gian khó để đạt được điều này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Bởi vì、 chỉ vì kết quả tốt đẹp、 không có nghĩa là những đau khổ trên chặng đường đã không tồn tại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chỉ nhìn cảnh tượng này mà nói 'thật tốt' thì… huống chi、 việc tôi thốt ra lời như vậy là quá vô trách nhiệm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+bg,download/bg/bg_11210300.jpg,1,255
+endwait
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Chính vì vậy、 từ nay về sau、 tôi sẽ ở bên cạnh Tabasa-sama。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không phải vì quá khứ không thể cứu vãn、 mà là để trở thành sức mạnh của người trong tương lai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm088.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:surprise,julia,-300,-120,0.5,0.5,,,,
+anm,tint,julia,150_150_150,0.0001,0
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mày đang lẩm bẩm mấy lời khoa trương quá đấy、 nhưng nếu vậy thì trước hết mày phải ngăn Milva lại đi chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:surprise,julia,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ồ、 Tabasa-sama。Không phải người đang chơi xích đu với Milva-san sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:unique,tabasa,300,-120,0.5,0,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì nó cứ đẩy xích đu mãi không chịu dừng、 nên tôi đã nhảy ra giữa chừng đấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:unique,tabasa,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà nói thật、 trẻ con có chơi mấy cái trò nguy hiểm như vậy không chứ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:normal,julia,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 tôi nghĩ đó chỉ là cách chơi của hai người khác thường thôi、 chứ nó không phải là một món đồ chơi nguy hiểm đến vậy đâu…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,julia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>He he、 Tabasa-chan bay xa thật đấy。Chị cứ tưởng em sẽ ngã khi tiếp đất chứ、 nhưng đúng là Tabasa-chan có khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa,300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Với cái đà đó mà ngã thì bị thương là chuyện bình thường đấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tabasa-chan giỏi mà、 không sao đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa,300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái từ 'giỏi' đó không phải là cái cớ để muốn làm gì thì làm đâu đấy！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,milva,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:smile,julia,-300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>He he、 hai người thật sự là thân thiết nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:unique,tabasa,300,-120,0.5,0,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cậu、 thị lực có ổn không vậy。。。？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:surprise,julia,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thị lực ạ？ Cả hai bên đều hoàn hảo mà。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:surprise,julia,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Ơ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:normal,julia,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Milva-san、 tay của chị。。。có vẻ như bị thương một chút rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,300,-40,0.5,0.5,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À。。。ừm、 chắc là bị xước khi đẩy xích đu ấy mà。Chỉ là vết xước nhỏ thôi、 không cần bận tâm đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:normal,julia,-300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù là vết thương nhỏ cũng không được bỏ mặc đâu ạ。Xin hãy đợi một chút――Puchi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,puti1,0,0,1280,250,0.5,,,,
+sprite,download/character/181504/image/adv1.png,puti2,0,0,0,0,,,,
+imgconf,puti2,puti1,0,0,,,0,1,1,0.5
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_gacha_012.mp3
+name,<outline width=2 color=black>プチ</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:normal,julia,-300,-120,0.5,0.5,,,,
+anm,tint,julia,150_150_150,0.0001,0
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:surprise,tabasa,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đó là。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:normal,julia,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em đã nhờ Puchi điều tra tòa nhà này。Trên đường đi、 nó đã tìm thấy băng cá nhân và thuốc sát trùng nên thật đúng lúc ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:normal,tabasa,300,-120,0.5,0,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vẫn như mọi khi、 đúng là một golem xuất sắc nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:smile,julia,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em cảm ơn ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:normal,julia,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy thì Milva-san、 em sẽ băng bó cho chị nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:sad,milva,300,-40,0.5,0.5,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181510/adv/atlas/stand_a,body:surprise,julia,-300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Milva-san？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,300,-40,0.5,0,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À。。。ừm、 cảm ơn em、 Julia-chan。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

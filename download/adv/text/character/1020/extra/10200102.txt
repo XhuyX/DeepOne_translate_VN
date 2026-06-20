@@ -1,0 +1,104 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:anger,tabasa,-10,-100,0.5,0.5,,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Mày nhìn chằm chằm cái gì đấy？ Dạo này tao cứ có cảm giác mày nhìn tao nhiều một cách bất thường。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái kiểu nhìn xấc xược đó thật khó chịu。。。Hừ。Tao đi đây、 đừng có đi theo tao đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_02.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,
+slideinblack,1.0,right
+endwait,,,,,,,,,,,
+slideoutblack,1.0,right
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:normal,tabasa,-10,-100,0.5,0.5,,,,,
+endwait
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Anh hai、 hôm nay chúng ta sẽ làm gì trong phòng đây？ Như mọi khi――</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:anger,tabasa,-10,-100,0.5,0,,,,,
+spine,download/adv/spine/Mark6,em1,default,animation,0,130,100,0.65,0.8,0.5
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>――Khoan đã！ Mày không hiểu tao nói đừng có đi theo à？ Đồ bám đuôi hả？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_04.mp3
+clickwait,,,,,,,,,,,
+select,Một chút chuyện muốn nói。,Anh hai à。。。？
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:anger,tabasa,-10,-100,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tao chẳng có gì để nói với mày cả。Nên đừng có bắt chuyện với tao nữa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Với lại、 tao đoán được mày muốn nói gì rồi。Chắc là chuyện về anh hai。。。Chắc chắn đó là chuyện khó chịu đối với bọn tao。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_06.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:anger,tabasa,-10,-100,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mày đừng có gọi tên anh hai một cách tùy tiện như thế。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừ。。。Chắc mày cũng nghĩ tao đang nói chuyện với ảo giác、 đúng không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:sad,tabasa,-10,-100,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Trước giờ vẫn vậy。Ai cũng thế。。。Ngay cả những kẻ chung dòng máu cũng đối xử thô lỗ với tao、 cứ như tao bị điên vậy。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_09.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:anger,tabasa,-10,-100,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Anh hai là người quan trọng đối với tao。Dù không ai chấp nhận、 thì chỉ có tao biết anh hai vẫn ở đây。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Phải、 đúng vậy。Anh hai đang ở trong chiếc quan tài này。Trong cuốn ma đạo thư mà tao đã tạo ra、 thứ kết nối tao và anh hai。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:sad,tabasa,-10,-100,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Cơ thể của anh hai。。。đã hỏng mất rồi。Thay vào đó、 tao đã chuẩn bị một vật chứa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Giờ đây、 chỉ còn tao có thể trò chuyện với anh hai、 nhưng ý thức của anh hai vẫn chưa chết。。。Chắc chắn là vẫn ở đây。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:anger,tabasa,-10,-100,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Mày đang nghĩ 'làm gì có chuyện đó'、 đúng không？ Nhưng người ngoài。。。mày、 không có quyền xen vào chuyện của tao。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:normal,tabasa,-10,-100,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù bọn mày không tin、 thì sự thật về tao và anh hai vẫn ở đây。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:anger,tabasa,-10,-100,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Mày có vẻ lo lắng rằng tao đang nhìn thấy ảo giác do gánh nặng từ Dreamlands hay gì đó、 nhưng mày đã sai hoàn toàn rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:normal,tabasa,-10,-100,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu đã hiểu rồi、 thì đừng bao giờ hỏi những câu vô ích nữa。Đừng làm phiền thời gian của tao và anh hai。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_04_17.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

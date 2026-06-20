@@ -1,0 +1,573 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11090300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20140201/adv/image/20140201.png,enemy1,-350,-100,1,0.5,,,,
+sprite,download/monster/20140201/adv/image/20140201.png,enemy2,350,-100,1,0.5,,,,
+sprite,download/monster/20140201/adv/image/20140201.png,enemy3,0,-100,1,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+anm,tint,enemy1,0_0_0,0.5,0
+anm,tint,enemy2,0_0_0,0.5,0
+anm,tint,enemy3,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20140201/adv/image/20140201.png,enemy1,-350,-100,1,0.5,,,,
+sprite,download/monster/20140201/adv/image/20140201.png,enemy2,350,-100,1,0.5,,,,
+sprite,download/monster/20140201/adv/image/20140201.png,enemy3,0,-100,1,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+anm,tint,enemy1,0_0_0,0.5,0
+anm,tint,enemy2,0_0_0,0.5,0
+anm,tint,enemy3,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm075.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101052/adv/atlas/stand_a,body:anger,jamila,-300,-180,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:anger,rlin,300,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>anger: Chuyện… gì vậy chứ！ Mới đó mà… tất cả đã…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101052/adv/atlas/stand_a,body:anger,jamila,-300,-180,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>anger: Dù chỉ là đùa giỡn、 nhưng dám cản đường Katia-sama và Beatrice-sama là không thể tha thứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101052/adv/atlas/stand_a,body:unique,jamila,-300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>unique: Cứ yên tâm、 tôi sẽ không dùng kiếm đâu— Hãy chuẩn bị tinh thần đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: Khoan đã、 nghiêm túc vậy sao… Với lại、 Katia-chi thì không nói、 nhưng Beato-chi thì…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101052/adv/atlas/stand_a,body:anger,jamila,-300,-180,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>anger: Không cần nhiều lời！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_043.mp3
+anm,move,rlin,450_-60,0.5,0
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:surprise,rlin,450,-60,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>surprise: Chờ đã—！？ Đợi đã！ Dù là tay không、 nhưng nếu bị đấm bằng nắm đấm đầy Ma Tố như vậy thì không xong đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101052/adv/atlas/stand_a,body:unique,jamila,-300,-180,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>unique: Tôi cũng không có ý định để yên đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:sad,rlin,450,-60,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: Đ…đâu… ai đó…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100906/adv/atlas/stand_a,body:normal,ilyna,-300,-220,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Tự làm tự chịu thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:sad,rlin,450,-60,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: Không thể nào…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101052/adv/atlas/stand_a,body:normal,jamila,-300,-180,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+spriteatlas,download/character/102306/adv/atlas/stand_a,body:surprise,weat,300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>surprise: Jamila-san、 đợi một chút đã…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101052/adv/atlas/stand_a,body:normal,jamila,-300,-180,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Vâng、 thưa Beatrice-sama。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,weat,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>surprise: Ồ、 ồ… ngoan ngoãn nghe lời thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101052/adv/atlas/stand_a,body:normal,jamila,-300,-180,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Vì là mẫu thân của Katia-sama。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Tạm thời thì… được cứu rồi… Cảm ơn、 Beato-chi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102306/adv/atlas/stand_a,body:normal,weat,-300,-240,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Không có gì、 vì người đánh bại Rin-san là tôi và Katia-san mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rlin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100310/adv/atlas/stand_a,body:surprise,catia,300,-100,0.5,0.5,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>surprise: Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102306/adv/atlas/stand_a,body:anger,weat,-300,-240,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>anger: Chúng ta cùng nhau đánh bại Rin-san、 người đã bị thao túng bởi yêu thuật gia、 và giải phóng cô ấy khỏi sự tẩy não。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100310/adv/atlas/stand_a,body:normal,catia,300,-100,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: À、 vâng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100310/adv/atlas/stand_a,body:normal,catia,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,weat,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Katia-chi、 lại đây nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100310/adv/atlas/stand_a,body:surprise,catia,300,-100,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>surprise: Hả？ À、 vâng…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+anm,move,catia,50_-100,0.7,0
+endwait
+
+
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Chạm vào vai tớ đi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100310/adv/atlas/stand_a,body:normal,catia,50,-100,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Vai á？ Như này… phải không…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+anm,move,rlin,-1200_-60,0.5,0
+endwait
+
+
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+playse,/download/sound/se/expA.mp3
+endwait,,,,,,,,,,,
+spriteoff,rlin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100310/adv/atlas/stand_a,body:surprise,catia,50,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>surprise: Hể…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rlin1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:sad,rlin2,0,0,0,0,,,,
+imgconf,rlin2,rlin1,0,-255,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: Tớ… tớ… thua rồi…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101052/adv/atlas/stand_a,body:sad,jamila,-300,-180,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+spriteatlas,download/character/100906/adv/atlas/stand_a,body:sad,ilyna,300,-220,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: …Tự mình bay đi luôn rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101052/adv/atlas/stand_a,body:sad,jamila,-300,-180,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: Giả tạo thật…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102306/adv/atlas/stand_a,body:surprise,weat,0,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>surprise: À、 ừm… đến lượt Shino…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rlin1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:sad,rlin2,0,0,0,0,,,,
+imgconf,rlin2,rlin1,0,-255,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: A…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100310/adv/atlas/stand_a,body:surprise,catia,300,-100,0.5,0.5,,,,
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:sad,rlin,-300,-1200,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+anm,move,rlin,-300_-60,1.2,0
+endwait
+
+
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:sad,rlin,-300,-60,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: Hừ… hừm… T…tuyệt vời、 Katia-chi。Và、 Beato-chi nữa。Tình mẫu tử của hai người đã giải được tẩy não cho tớ rồi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100310/adv/atlas/stand_a,body:surprise,catia,300,-100,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>surprise: Ờ… à… vâng？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102306/adv/atlas/stand_a,body:surprise,weat,300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>surprise: Ờ、 ừm？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:sad,rlin,-300,-60,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: Tớ đã thua trước tình cảm của hai người rồi…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rlin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100310/adv/atlas/stand_a,body:sad,catia,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: T…thì ra là vậy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100310/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Ừm… chúng ta đã làm được rồi、 phải không、 Beatrice-san！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102306/adv/atlas/stand_a,body:surprise,weat,300,-240,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>surprise: À… v…vâng？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102306/adv/atlas/stand_a,body:normal,weat,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Chúng ta đã làm được rồi… Phải không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100310/adv/atlas/stand_a,body:smile,catia,-300,-100,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>smile: Chúng ta đã làm được rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102306/adv/atlas/stand_a,body:smile,weat,300,-240,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>smile: V…vậy sao。Tốt quá！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Ưm… hừm… Vì bị tẩy não nên tớ sẽ không cử động được một lúc、 nên tớ sẽ nghỉ ngơi ở đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Dù sắp tới、 tớ nghĩ yêu thuật gia sẽ lại giở trò、 nhưng tớ tin Katia-chi và Beato-chi sẽ vượt qua được thôi… Cố gắng lên nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,150,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ilyna1,0,150,1280,200,0.5,,,,
+spriteatlas,download/character/100906/adv/atlas/stand_a,body:sad,ilyna2,0,0,0,0,,,,
+imgconf,ilyna2,ilyna1,0,-1000,,,0,1.5,1.5,0
+
+
+mask,black3,0,-50,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black4,0,0,0,0,,,,
+imgconf,black4,black3,0,0,,,0,1,1,0.5
+mask,jamila1,0,-50,1280,200,0.5,,,,
+spriteatlas,download/character/101052/adv/atlas/stand_a,body:sad,jamila2,0,0,0,0,,,,
+imgconf,jamila2,jamila1,0,-875,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: Ê、 cứ để yên vậy luôn hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: Có lẽ vậy… Dù sao thì、 hai người kia có vẻ rất hào hứng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100310/adv/atlas/stand_a,body:smile,catia,-300,-100,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+spriteatlas,download/character/102306/adv/atlas/stand_a,body:normal,weat,300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Chúng ta hãy cùng nhau giúp họ nhé、 Katia-san！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100310/adv/atlas/stand_a,body:smile,catia,-300,-100,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>smile: Vâng！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rlin1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103952/adv/atlas/stand_a,body:sad,rlin2,0,0,0,0,,,,
+imgconf,rlin2,rlin1,0,-255,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: Katia-chi… Cứu trợ、 cố lên…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

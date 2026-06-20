@@ -1,0 +1,332 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10960101.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm006.mp3,0,,,
+endwait
+sprite,download/monster/20060101/adv/image/20060101.png,golem,0,-125,1,0.5,,,,,,,,,,
+endwait
+name,<size=27><outline size=8 color=black>訓練用ゴーレム</outline></size>,,,,,,,,,,
+msg,1,<size=31><outline size=8 color=black>——————————！</outline></size>,,,,,,,,,,
+playse,/download/sound/se/se_022.mp3
+clickwait,,,,,,,,,,,
+spriteoff,golem,0
+endwait
+spriteatlas,download/character/100705/adv/atlas/stand_b,body:anger:weapon_black,gizel,0,-120,0.5,0.5,,,,,,,,,
+endwait
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hãy dùng lưỡi kiếm quang huy chém tan kẻ thù của ta、 Claiomh Solais！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+sprite,download/monster/20060101/adv/image/20060101.png,golem,0,-125,1,0.5,,,,,,,,,,
+endwait
+spine,download/adv/spine/Slash4_Blue,em4,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_037.mp3
+endwait
+name,<size=27><outline size=8 color=black>訓練用ゴーレム</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>——————、 ……</outline></size>,,,,,,,,,
+endwait
+playse,/download/sound/se/se_025.mp3
+endwait
+shake,0.2,5,20,0,golem,,,
+anm,fade,golem,0,1,0
+endwait
+clickwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:surprise,asaka,-220,-120,0.5,0.5,,,,,,,,,
+spriteatlas,download/character/100805/adv/atlas/stand_b,body:smile,holy,300,-120,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,holy,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tuyệt vời quá…… Cứ thế chém đôi từng con một、 nhưng đó là kim loại thật mà、 phải không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+anm,tint,holy,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tiểu thư Giselle là người gánh vác tương lai của gia tộc Bawdwin mà。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:sad,asaka,-220,-120,0.5,0,,,,,,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,holy,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nhưng mà、 liệu có ổn không nhỉ？ Cứ phá hỏng mấy con Golem thế này…… có phải bồi thường không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,holy,0
+endwait
+spriteatlas,download/character/100705/adv/atlas/stand_b,body:normal:weapon_black,gizel,280,-120,0.5,0.5,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Asaka-san。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:surprise,asaka,-220,-120,0.5,0,,,,,,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,gizel,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Á、 không、 xin lỗi！ Không phải em sợ phải bồi thường nên lười đâu nhé！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100705/adv/atlas/stand_b,body:smile:weapon_black,gizel,280,-120,0.5,0,,,,,,,,,
+anm,tint,gizel,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải vậy đâu。Tổ chức Lovecraft chắc sẽ không đòi hỏi từng chút một thế này đâu、 nhưng nếu có lỡ thì chi phí cứ để tôi lo。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Cứ yên tâm、 đừng ngại ngùng gì cả。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:sad,asaka,-220,-120,0.5,0,,,,,,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,gizel,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Đó có phải là số tiền có thể trả bằng cá nhân không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,gizel,0
+endwait
+spriteatlas,download/character/100805/adv/atlas/stand_b,body:unique,holy,300,-120,0.5,0.5,,,,
+anm,tint,holy,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tiểu thư Asaka không nên biết số tiền mà tiểu thư Giselle có thể tùy ý sử dụng thì hơn。</outline></size>,,,,,,,,,
+clickwait
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,holy,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 ừm。Em cũng nghĩ vậy。Nếu biết thì chắc sẽ để ý lung tung mất…… Vì em là dân thường mà。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:normal,asaka,-220,-120,0.5,0,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+sprite,download/monster/20060101/adv/image/20060101.png,golem,0,-125,1,0.5,,,,,,,,,,
+endwait
+name,<size=27><outline size=8 color=black>訓練用ゴーレム</outline></size>,,,,,,,,,,
+msg,1,<size=31><outline size=8 color=black>——————————！</outline></size>,,,,,,,,,,
+playse,/download/sound/se/se_022.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:normal,asaka,80,-120,0.5,0.5,,,,,,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu đã vậy thì em xin nhận lời…… Em sẽ cố gắng！</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,0.8,0
+wait,0.3
+playse,/download/sound/se/se_039.mp3
+endwait
+name,
+msg,0,
+sprite,download/bg/bg_white.jpg,bg,0,0,2,0.5,,,,
+bg,download/bg/bg_white.jpg,0.5,,,,,,,,
+endwait
+spriteoff,all,1
+bg,download/bg/bg_10010100.jpg,1,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,sil,-300,-120,0.5,0.5,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,sil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng là Giselle-san có khác…… Holly-san cũng vậy、 năng lực chiến đấu không thể tin được là một người hầu gái……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Với lại、 Asaka-san nữa。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+anm,tint,sil,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khụ khụ、 có vẻ như bộ trang bị kia cũng đang phát huy hiệu quả tối đa nhỉ。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,sil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À mà、 liệu có chuẩn bị những bộ trang bị đó cho những người khác ngoài họ không？ Nếu có thì em nghĩ sẽ tăng cường sức mạnh đáng kể đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+anm,tint,sil,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Rất tiếc、 chỉ có ba bộ đó thôi。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn nữa、 những thứ đó không thể sử dụng được trừ khi được điều chỉnh riêng biệt như của Giselle-kun và Holly-kun。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bởi vì chúng chiết xuất và vận hành sức mạnh từ Nguyên thư Pnakotic。Mặc dù có công suất lớn、 nhưng số người có thể sử dụng lại rất hạn chế。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:surprise,dana,300,-120,0.5,0,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,sil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sức mạnh của Nguyên thư Pnakotic ư…… Họ đang sử dụng những thứ như vậy sao！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+anm,tint,sil,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi phải nói trước là tôi đã giải thích đầy đủ rồi。Chính họ đã quyết định sử dụng、 nên Dana-kun không có quyền gì để nói đâu nhé。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:anger,dana,300,-120,0.5,0,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,sil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đó là…… nhưng mà……！ Em không nghĩ con người có thể dễ dàng điều khiển sức mạnh của Nguyên thư Pnakotic được！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+anm,tint,sil,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nên chúng ta mới phải thử nghiệm trước khi đưa vào thực chiến thế này đây。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,sil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ư…… Dù sao thì、 hãy tạm dừng thử nghiệm đã……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,sil,0
+endwait
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,bri,-300,-120,0.5,0.5,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ồn ào quá。Nếu không thể yên lặng mà xem thì đi chỗ khác đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bridget-san không nghĩ gì sao！？ Giselle-san là――</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:anger,bri,-300,-120,0.5,0,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cả ba người đều tự mình quyết định và cầm lấy vũ khí。Cô thấy họ giống những đứa trẻ cần phải bị tước vũ khí chỉ vì 'nó nguy hiểm' sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,bri,0
+endwait
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,sil,-300,-120,0.5,0.5,,,,
+anm,tint,sil,255_255_255,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Quả nhiên là Bridget-kun。Cô hiểu chuyện đấy。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,sil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ư…… Dù sao thì、 nếu thấy có bất kỳ dấu hiệu nguy hiểm nào、 tôi sẽ dùng vũ lực để dừng thử nghiệm lại。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+anm,tint,sil,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chắc chắn rồi。Tôi cũng không có sở thích lãng phí nhân tài quý giá đâu。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,sil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nhưng mà、 vừa nãy cô nói rằng bộ trang bị đó không thể sử dụng được trừ khi được điều chỉnh riêng、 vậy tại sao Asaka-san lại……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+anm,tint,sil,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Điều đó cũng khiến tôi ngạc nhiên。Có ba bộ trang bị…… một bộ được điều chỉnh riêng cho Giselle-kun、 một bộ cho Holly-kun、 và bộ cuối cùng là máy thử nghiệm để phát triển。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đó là một món đồ không được điều chỉnh cho bất kỳ cá nhân nào。Tôi nghĩ sẽ không có ai phù hợp dù chỉ là một phần nhỏ、 nhưng dù sao tôi cũng đã kiểm tra thử。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Và rồi、 chỉ có Asaka-kun đạt đến mức có thể sử dụng…… hơn nữa、 cô bé còn đạt được giá trị phù hợp cao đến mức khiến tôi nghi ngờ rằng nó có phải được điều chỉnh riêng cho cô bé không。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi không thích từ 'định mệnh'、 nhưng sự kết hợp giữa bộ trang bị đó và Asaka-kun thì đúng là một cách diễn đạt sáo rỗng như vậy đấy。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,sil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thà rằng không phù hợp thì em đã yên tâm hơn rồi……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>…………Nhưng mà、 em cũng đã hiểu rồi。Sự cải thiện năng lực đến mức đó、 thật không bình thường chút nào。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu đang sử dụng sức mạnh của Nguyên thư Pnakotic thì điều đó lại hợp lý。Đặc biệt、 trận chiến của Giselle-san thật đáng kinh ngạc。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:surprise,sil,-300,-120,0.5,0,,,,
+anm,tint,sil,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hửm……？ À、 tôi đã giải thích chưa đủ nhỉ。Đúng là bộ trang bị đó hỗ trợ người sử dụng với công suất cao、 nhưng của Giselle-kun thì lại khác biệt so với hai người còn lại。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,sil,-300,-120,0.5,0,,,,
+endwait
+msg,1,<size=30><outline width=2 color=black>Asaka-kun và Holly-kun được tăng cường năng lực một cách thuận lợi、 nhưng trường hợp của Giselle-kun…… thì lại ngược lại。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Toàn bộ công suất của trang bị đều được dùng để kiểm soát sức mạnh。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:surprise,dana,300,-120,0.5,0,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,sil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hả？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,dana,0
+endwait
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:anger,bri,300,-120,0.5,0.5,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Phản lực của Claiomh Solais。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+anm,tint,sil,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Quả nhiên、 Bridget-kun rất am hiểu nhỉ。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Giselle-kun luôn không thể phát huy hết thực lực của mình vì lo ngại phản lực mà Claiomh Solais、 một ma đạo thư được gia tộc Bawdwin truyền lại qua nhiều thế hệ、 mang lại。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tuy nhiên、 đó là cái giá phải trả để mượn sức mạnh của ma đạo thư、 đỉnh cao của sự thần bí、 và không thể lừa dối hay thay thế được。Về cơ bản、 không có cách nào để đối phó cả。</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng nếu đã là cùng một ma đạo thư。。。Huống hồ、 nếu có thể lợi dụng sức mạnh của ma đạo thư mạnh nhất thế giới、 cái được gọi là Bảy Nguyên Thư thì sao chứ。。。？</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,sil,-300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Có thể quỵt cái giá của một ma đạo thư。。。tôi đã nghĩ vậy đấy。Khà、 khà khà khà khà！</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái ma đạo thư ngạo mạn đã chống đỡ gia tộc ma thuật danh giá suốt ba trăm năm ấy、 khi bị dùng vũ lực đè đầu xuống、 sẽ cảm thấy thế nào nhỉ。。。？</outline></size>,,,,,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,,,,,
+endwait,,,,,,,,,,,,,,,,
+endif,,,,,,,,,,,,,,,,
+name,,,,,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,,,,,
+endwait,,,,,,,,,,,,,,,,
+bgoff,1,,,,,,,,,,,,,,,
+endwait,,,,,,,,,,,,,,,,

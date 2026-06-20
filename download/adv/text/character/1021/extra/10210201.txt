@@ -1,0 +1,131 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+mask,bg1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,uru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:sad,uru,0,0,0,0,,,,
+imgconf,uru,uru1,0,-850,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Ursula Arkhart</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khụ…… khụ khụ……！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Hơi tệ rồi nhỉ…… Gần đây em không tham gia Truy Tìm nhiều、 nên đang có ảnh hưởng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhanh chóng…… phải lặn vào Dreamlands thôi……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_03.mp3
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,
+slideinblack,1.0,right
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+slideoutblack,1.0,right
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:anger,uru,-20,-200,0.5,0.5,,,,
+endwait,,
+name,<size=27><outline width=2 color=black>Ursula Arkhart</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Hừ、 cuối cùng cũng tìm thấy rồi đấy。</outline></size>,,,,,,,,,,
+endwait
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Gần đây em cảm thấy mình thường xuyên bị loại khỏi các đợt Truy Tìm、 rốt cuộc là có ý gì vậy？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:sad,uru,-20,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Khụ…… Để các Thuật sĩ khác tích lũy kinh nghiệm sao？ À ra thế、 cũng có lý do hợp lý đấy chứ……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng em mà cứ tiếp tục thế này thì cơ thể sẽ trì trệ mất。Lần tới…… khụ、 khụ…… lần lặn tiếp theo、 hãy đưa em theo。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_07.mp3
+clickwait,,,,,,,,,,,
+select,Nói trong lúc ho khù khụ thế thì,Em không khỏe sao？
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:sad,uru,-20,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Ursula Arkhart</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cơn ho này…… đừng bận tâm。Thỉnh thoảng cổ họng em bị sưng thôi…… Kiểu như cơ địa vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải là em không khỏe đâu―― khụ！ Ư、 ực…… khụ！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_09.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:sad,uru,-20,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Ursula Arkhart</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái này không phải là…… em bị ốm đâu。Vốn dĩ cơ thể em yếu、 nên ho thế này là chuyện thường thôi……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sẽ không ảnh hưởng đến chiến đấu đâu。Nên đừng bận tâm、 hãy đưa em theo trong đợt Truy Tìm tiếp theo…… khụ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_11.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:sad,uru,-20,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Ursula Arkhart</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù sao thì em cũng ổn thôi…… Cũng không phải là em đang giấu giếm gánh nặng gì cả。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vốn dĩ em còn chưa tham gia Truy Tìm một cách đàng hoàng、 thì làm sao có thể tích lũy gánh nặng được chứ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật sự chỉ là ho thôi、 không có vấn đề gì khác đâu。Nên――</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_14.mp3
+clickwait,,,,,,,,,,,
+anm,scale,uru,1_1,0.75,0
+anm,move,uru,-20_-700,0.75,0
+endwait
+spine,download/adv/spine/Mark3,em1,default,animation,0,190,240,0.8,1.0,0.5
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Hả！？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_15.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+anm,scale,uru,0.5_0.5,0.3,0
+anm,move,uru,-20_-200,0.3,0
+shake,0.1,4,20,20
+endwait
+msg,1,<size=30><outline width=2 color=black>Tự dưng lại áp trán vào như thế、 anh đang làm gì vậy……！ Khụ、 khụ……！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:surprise,uru,-20,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Không sốt sao…… Chẳng lẽ、 là để đo nhiệt độ……？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:sad,uru,-20,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Anh này…… Anh nên học cách đối xử tế nhị với phụ nữ một chút đi…… Thật là hết nói nổi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:normal,uru,-20,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 giờ thì anh hiểu rồi chứ。Em không sốt、 cũng không có vấn đề gì về sức khỏe…… Nên、 hãy đưa em theo trong đợt Truy Tìm tiếp theo。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_19.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thậm chí、 nếu anh lo lắng cho em、 thì cái đó…… khụ、 khụ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_20.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:sad,uru,-20,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Không、 không có gì đâu。Dù sao thì、 nhất định phải nhờ anh đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102102/adv/sound/fav102102_05_21.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

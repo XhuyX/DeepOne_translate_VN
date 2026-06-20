@@ -1,0 +1,234 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:smile,norn,100,-120,0.5,0.5,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+wait,1.5
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,aika1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:surprise,aika2,0,0,0,0,,,,
+imgconf,aika2,aika1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,255
+endwait
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:surprise,aika,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_01.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>A…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_02.mp3
+msg,1,<outline width=2 color=black>Chào。Vậy thì、 tạm biệt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,aika,-450_-120,0.7,0
+endwait
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-450,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_03.mp3
+msg,1,<outline width=2 color=black>……Sao lại gọi tôi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-450,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_04.mp3
+msg,1,<outline width=2 color=black>Chuyện… Anh thấy nói chuyện với tôi vui sao？ Ít nhất thì tôi không thể kể chuyện gì vui được đâu？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-450,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_05.mp3
+msg,1,<outline width=2 color=black>…………Nếu anh thấy vậy cũng được…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,aika,-0_-120,0.8,0
+endwait
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_06.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 ở đằng kia có mấy cô Frau、 chắc anh ở cùng họ sẽ vui hơn、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_07.mp3
+msg,1,<outline width=2 color=black>Họ là… gia đình quan trọng của anh、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_08.mp3
+msg,1,<outline width=2 color=black>Vậy mà anh lại chọn tôi… thật là người kỳ lạ。Hay là anh có chuyện gì muốn hỏi tôi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 「家族は？,選択肢2 「出身は？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:surprise,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_09.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ý anh là… gia đình của tôi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_10.mp3
+msg,1,<outline width=2 color=black>…………Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_11.mp3
+msg,1,<outline width=2 color=black>Vì là lần đầu có người hỏi tôi chuyện này nên hơi bất ngờ một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_12.mp3
+msg,1,<outline width=2 color=black>Tôi có người thân… nhưng mà、 cách nói 'gia đình' có vẻ hơi… khác thường。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_13.mp3
+msg,1,<outline width=2 color=black>Chắc là… cái gọi là gia đình mà anh nói、 tôi không có đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:surprise,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_14.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Quê quán？ Ý anh là nơi tôi sinh ra sao…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_15.mp3
+msg,1,<outline width=2 color=black>Nếu là vậy thì… trong một tấm kính trong suốt、 có lẽ vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_16.mp3
+msg,1,<outline width=2 color=black>――Không、 không có gì đâu。Vừa rồi chỉ là nói đùa một chút thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_17.mp3
+msg,1,<outline width=2 color=black>Tôi không biết mình sinh ra ở đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_18.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cũng không có chuyện gì to tát… Với tôi、 nó đã không tồn tại ngay từ đầu… Nên tôi cũng không thấy buồn vì không có nó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_19.mp3
+msg,1,<outline width=2 color=black>Nếu ngay từ đầu đã không có gì、 thì cũng sẽ không có nỗi buồn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_20.mp3
+msg,1,<outline width=2 color=black>Vì vậy、 tôi không muốn có gì cả、 AnMari。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_21.mp3
+msg,1,<outline width=2 color=black>Nếu tôi chạm vào thứ gì đó、 cảm nhận được điều gì đó、 rồi có được thứ gì đó… thì không chừng… tôi sẽ sợ phải mất nó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_22.mp3
+msg,1,<outline width=2 color=black>Ước gì tôi có thể ở một mình cho đến khi biến mất…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_23.mp3
+msg,1,<outline width=2 color=black>……Còn anh thì khác、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_24.mp3
+msg,1,<outline width=2 color=black>Tôi cũng không mong anh hiểu。Cũng không muốn anh đến gần。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_25.mp3
+msg,1,<outline width=2 color=black>Anh có thế giới của anh、 tôi có thế giới của tôi。Tôi nghĩ chỉ có vậy thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_26.mp3
+msg,1,<outline width=2 color=black>Nhưng… đừng có cố gắng thay đổi thế giới của tôi bằng thế giới của anh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_02_27.mp3
+msg,1,<outline width=2 color=black>Tôi muốn tan vào thế giới trắng xóa… nên、 xin anh…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

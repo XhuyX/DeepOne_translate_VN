@@ -1,0 +1,654 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_046_13_04_01.mp3
+name,
+msg,1,<outline width=2 color=black>Trái tim con người、 chỉ cần một chút lực đẩy nhẹ từ phía sau、 là có thể dễ dàng lạc lối。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_046_13_04_02.mp3
+msg,1,<outline width=2 color=black>Trái tim con người、 một khi đã lạc lối、 thì cứ thế tự mình rơi mãi vào bóng tối。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_046_13_04_03.mp3
+msg,1,<outline width=2 color=black>Thế nên tôi、 chỉ cần khuấy động những cảm xúc vốn đã tồn tại và bị che giấu sâu trong cô ấy là đủ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_046_13_04_04.mp3
+msg,1,<outline width=2 color=black>Thế nên tôi、 lợi dụng sự dao động cảm xúc ấy、 chỉ cần giành quyền kiểm soát cơ thể trong vài giây、 hay thậm chí chỉ là quyền điều khiển một cánh tay thôi cũng đã đủ rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_046_13_04_05.mp3
+msg,1,<outline width=2 color=black>Chỉ cần bấy nhiêu thôi、 mọi thứ sau đó sẽ lệch lạc。Không thể dừng lại được nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_046_13_04_06.mp3
+msg,1,<outline width=2 color=black>Này、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_046_13_04_07.mp3
+msg,1,<outline width=2 color=black>Tôi đã bắt chước anh một chút đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_046_13_04_08.mp3
+msg,1,<outline width=2 color=black>—Thể tiếp nhận ác ý。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10130301.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm071.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,soka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:sad,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_068.mp3
+endwait,,,,,,,,,,,
+flash,240,20,20,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100121/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_001_13_04_01.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hức、 Souka！ Sao lại。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:sad,soka,300,-300,0.5,0.3,,,,
+anm,move,soka,300_-110,1.3,0
+wait,0.01
+anm,tint,asaka,150_150_150,0.0001,0
+wait,0.01
+playvoice,1,download/adv/voice/quest/main_042_13_04_01.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…Em không sao đâu… Chỉ là、 cơ thể bị thủng một lỗ nhỏ thôi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100121/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_001_13_04_02.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ngốc、 chuyện đó thì làm sao mà bình thường được chứ！ Ngoan、 đứng yên đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_043_13_04_01.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>—À…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_043_13_04_02.mp3
+msg,1,<outline width=2 color=black>Chuyện này… Cơ thể bị điều khiển… Làm Souka bị thương… À… à à…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_067.mp3
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:unique,aika_s,-300,-120,0.5,0.5,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+spriteatlas,download/character/103705/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_13_04_01.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chuyện này… Những cảm xúc đen tối trong Zakuro đang dâng trào…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:unique,aika_s,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_093_13_04_01.mp3
+name,<outline width=2 color=black>AIKA</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À、 ra vậy… Lần này lại chơi chiêu đó à。Thật sự là nghĩ ra đủ thứ trò ghê。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:smile,aika_s,-300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_093_13_04_02.mp3
+msg,1,<outline width=2 color=black>—Bị giành mất vai chính rồi nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103507/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_13_04_01.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hừ、 ra là vậy…！ Mọi người、 tránh xa Zakuro ra！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103507/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_014_13_04_02.mp3
+msg,1,<outline width=2 color=black>Ác ý của Zakuro đang tràn ra…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_067.mp3
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_043_13_04_03.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hức…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,zero1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102601/adv/atlas/stand_a,body:sad,zero2,0,0,0,0,,,,
+imgconf,zero2,zero1,0,-520,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_026_13_04_01.mp3
+msg,1,<outline width=2 color=black>Cái đồ ngốc đó、 làm ra chuyện này… tát cho một cái thôi thì không đủ đâu… hức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10130301.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_042_13_04_02.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Zakuro…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100121/adv/atlas/stand_a,body:anger,asaka,-1200,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,asaka,-50_-120,0.5,0
+endwait
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_001_13_04_03.mp3
+msg,1,<outline width=2 color=black>Souka、 nguy hiểm！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_067.mp3
+flash,0,0,0,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100121/adv/atlas/stand_a,body:sad,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_001_13_04_04.mp3
+msg,1,<outline width=2 color=black>Khụ…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103705/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/103507/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_13_04_03.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Asaka、 Souka…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103705/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_13_04_02.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Norn！ Ác ý của Zakuro đang lan rộng… Vùng này…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:normal,aika_s,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_093_13_04_03.mp3
+name,<outline width=2 color=black>AIKA</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Từ nãy đến giờ、 mọi người cứ thoải mái làm đủ thứ chuyện rồi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:smile,aika_s,300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_093_13_04_04.mp3
+msg,1,<outline width=2 color=black>Đây vốn chỉ là nơi được chuẩn bị để tôi nở rộ thôi、 nên chắc là nó đã trở nên mong manh lắm rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103507/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_13_04_04.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Sao lại thản nhiên như vậy chứ— Khụ、 hức！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_067.mp3
+flash,0,0,0,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,aika_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:smile,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_093_13_04_05.mp3
+name,<outline width=2 color=black>AIKA</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Diễn biến này tôi cũng không ngờ tới、 không biết sẽ ra sao đây nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:smile,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_093_13_04_06.mp3
+msg,1,<outline width=2 color=black>Em muốn gì… Zakuro。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+slideinblack,0.5,up
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.5,up
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm026.mp3,0,
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_04.mp3
+name,
+msg,1,<outline width=2 color=black>Tôi、 có lẽ、 so với mấy đứa nhỏ đó thì vẫn còn may mắn hơn nhiều。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_05.mp3
+msg,1,<outline width=2 color=black>Tôi、 được tạo ra như một bản sao của những pháp sư ưu tú trong quá khứ、 có giới hạn trong việc duy trì cơ thể。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_06.mp3
+msg,1,<outline width=2 color=black>Thế nhưng— không đến mức như Aika hay Souka。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_07.mp3
+msg,1,<outline width=2 color=black>Mấy đứa nhỏ đó、 với tư cách là hình thái cuối cùng của pháp sư cường hóa、 đã được nhồi nhét tất cả những gì cần thiết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_08.mp3
+msg,1,<outline width=2 color=black>Type Venatio là một vũ khí、 không phải con người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_09.mp3
+msg,1,<outline width=2 color=black>Đúng vậy… Những mẫu cũ như chúng tôi、 những người đặt mục tiêu thành thạo năng lực thông qua việc tích lũy kinh nghiệm như con người、 thì hoàn toàn xa rời lý tưởng của pháp sư cường hóa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_10.mp3
+msg,1,<outline width=2 color=black>Năng lực vượt trội。Khả năng điều khiển Bản thảo Pnakotic。Và hơn hết— là khả năng thúc đẩy tăng trưởng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_11.mp3
+msg,1,<outline width=2 color=black>Nếu hỏng thì có thể tạo ra cái tiếp theo để bù đắp。Thế nên、 không cần phải bàn về giới hạn chịu đựng của một cá thể。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_12.mp3
+msg,1,<outline width=2 color=black>Chỉ cần duy trì được vài tháng thôi、 là đã có thể sản xuất cá thể tiếp theo rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_13.mp3
+msg,1,<outline width=2 color=black>Một câu chuyện vô lý đến tận cùng、 đáng thương đến tận cùng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_14.mp3
+msg,1,<outline width=2 color=black>Thế nên、 ít nhất tôi cũng phải bảo vệ họ—…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,color_255_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_15.mp3
+name,
+msg,1,<outline width=2 color=black>—Với những lời lẽ hoa mỹ như vậy、 tôi đã che giấu bản chất thật của mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_16.mp3
+msg,1,<outline width=2 color=black>Type Venatio đã khiến tất cả các pháp sư cường hóa từ trước đến nay trở nên vô giá trị。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_17.mp3
+msg,1,<outline width=2 color=black>Giới hạn sinh mệnh ngắn ngủi ư？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_18.mp3
+msg,1,<outline width=2 color=black>Ngược lại、 đó hẳn là một điều may mắn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_19.mp3
+msg,1,<outline width=2 color=black>Tôi đã chứng kiến。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_20.mp3
+msg,1,<outline width=2 color=black>Có gần một trăm pháp sư cường hóa cùng loại với tôi。Thế mà、 giờ đây chỉ còn lại mình tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_21.mp3
+msg,1,<outline width=2 color=black>Trong quá trình nghiên cứu、 thí nghiệm、 không ít người đã bỏ mạng。Nhưng số người chết vì tuổi thọ còn nhiều hơn thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_24.mp3
+msg,1,<outline width=2 color=black>Người mà hôm qua còn chào hỏi、 một ngày bỗng nhiên biến mất。Nỗi sợ hãi không khỏi nghĩ rằng、 mình có thể là người tiếp theo。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_25.mp3
+msg,1,<outline width=2 color=black>Cũng có những người chết đi、 vừa lặp đi lặp lại những lời nguyền rủa như nôn ra máu trước cơ thể và số phận đang mục ruỗng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_26.mp3
+msg,1,<outline width=2 color=black>Ngược lại、 cũng có những người kết thúc cuộc đời với niềm vui từ tận đáy lòng、 rằng 'thế là hết'。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_27.mp3
+msg,1,<outline width=2 color=black>Tất cả những gì họ đã dày công vun đắp、 đều chìm vào bóng tối của Type Venatio。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_28.mp3
+msg,1,<outline width=2 color=black>Chúng ta đã sống。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_29.mp3
+msg,1,<outline width=2 color=black>Đã sống qua。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_30.mp3
+msg,1,<outline width=2 color=black>Dù trong thế giới lố bịch này、 dù vậy…… chúng ta vẫn cứ sống sót。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_31.mp3
+msg,1,<outline width=2 color=black>Thế mà、 cái cảm giác bị nói rằng 'không còn cần nữa'、 rằng 'chỉ là đồ bỏ đi lỗi thời'、 thì ai có thể hiểu được chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_32.mp3
+msg,1,<outline width=2 color=black>――Mạng sống của mình chẳng có giá trị。Lối sống của mình chẳng có tự do。Chủ nghĩa、 niềm tin、 hy vọng hay kỳ vọng、 chẳng có lấy một thứ gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_33.mp3
+msg,1,<outline width=2 color=black>Nếu không lặp đi lặp lại những lời đó、 không tự nhủ、 không tiếp tục lừa dối trái tim mình、 thì dường như nó sẽ tràn ra mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_043_13_04_34.mp3
+msg,1,<outline width=2 color=black>Cái sự căm ghét xấu xí này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10110100.jpg,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103705/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/100121/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_001_13_04_05.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>……Vừa rồi là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103705/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_13_04_03.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ký ức của Zakuro…… sự ác ý đã bị kìm nén bấy lâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103507/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_13_04_05.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Có vẻ như Perfe đã khơi dậy sự ác ý trong lòng Zakuro、 rồi lợi dụng kẽ hở đó để làm điều gì đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103507/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_014_13_04_06.mp3
+msg,1,<outline width=2 color=black>Cẩn thận đấy…… tôi cũng không biết sự ác ý của Zakuro sẽ gây ra hậu quả tồi tệ đến mức nào đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100121/adv/atlas/stand_a,body:anger,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_001_13_04_06.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――Souka và mọi người đâu rồi！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103705/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_13_04_04.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ở đây、 hình như chỉ có mỗi chúng ta thôi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100121/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_001_13_04_07.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Không thể nào…… Souka còn đang bị thương nữa chứ…… Với lại、 cậu ấy bây giờ cũng không thể dựa vào sức mạnh của Tertia được…… Phải tìm thấy mọi người ngay lập tức！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100121/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_001_13_04_08.mp3
+msg,1,<outline width=2 color=black>Mọi người phải bình an nhé……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,173 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11660300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:sad,yue,0,-160,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_01.mp3
+name,<outline width=2 color=black>Yue</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Haa。。。Rin-san。Anh đang nghĩ gì vậy、 tự dưng lại gọi em ra thế này？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:anger,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_02.mp3
+msg,1,<outline width=2 color=black>Hơn nữa、 nơi hẹn lại ở nước ngoài。。。Ít nhất thì anh cũng nên đến nước em mới phải phép chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:sad,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_03.mp3
+msg,1,<outline width=2 color=black>Thôi thì、 em cũng nghe nói anh vừa gây chuyện với một tổ chức phiền phức cách đây không lâu、 nên em hiểu là giờ anh khó mà lộ diện ở Trung Quốc được。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:normal,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_04.mp3
+msg,1,<outline width=2 color=black>。。。Nhưng em nói trước nhé、 đừng có mong em đứng ra hòa giải hay gì。Em đây cũng có chút xích mích với bên đó đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:normal,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_05.mp3
+msg,1,<outline width=2 color=black>Thôi được rồi、 chúng ta mau chóng giải quyết công việc đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Nhân tiện、 trang phục của em đẹp thật đấy。,Hơn nữa、 quà lưu niệm đâu rồi？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:surprise,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_06.mp3
+name,<outline width=2 color=black>Yue</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Vậy sao。。。？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:normal,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_07.mp3
+msg,1,<outline width=2 color=black>Đúng là、 đằng nào cũng đã đến một thị trấn cổ kính ở Nhật Bản rồi、 có lẽ em nên ăn mặc cho phù hợp hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:normal,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_08.mp3
+msg,1,<outline width=2 color=black>Em cũng rất hứng thú với kimono Nhật Bản。Có lẽ sau khi nói chuyện xong、 chúng ta có thể ghé qua vài cửa hàng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:normal,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_09.mp3
+msg,1,<outline width=2 color=black>Để làm được điều đó、 em mong chúng ta mau chóng giải quyết xong chuyện phiền phức này。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:sad,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_10.mp3
+name,<outline width=2 color=black>Yue</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Haa。。。Anh vẫn cứ thong dong、 hay nói đúng hơn là vô tư lự như mọi khi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:normal,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_11.mp3
+msg,1,<outline width=2 color=black>Đây。Thuốc cấm anh đã dặn。Ở đất nước này、 chỉ cần bị phát hiện tàng trữ thôi là đã rắc rối lớn rồi、 nên anh hãy cẩn thận nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:normal,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_12.mp3
+msg,1,<outline width=2 color=black>Nào。Em đã đưa quà cho anh rồi、 giờ đến lượt anh chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:surprise,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_13.mp3
+name,<outline width=2 color=black>Yue</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――Ồ。Tài liệu này là。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:smile,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_14.mp3
+msg,1,<outline width=2 color=black>À。。。Ra là vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:sad,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_15.mp3
+msg,1,<outline width=2 color=black>Gần đây、 em đang cố gắng mở rộng kinh doanh、 vươn tay sang cả Nhật Bản、 nhưng quả nhiên、 những lúc có động thái lớn như thế này thì lại dễ phát sinh chuyện không hay。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:normal,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_16.mp3
+msg,1,<outline width=2 color=black>Kẻ phản bội nhiều đến thế này。。。Em biết là một vài tổ chức bên phía Nhật Bản đang cảnh giác với em、 nhưng chắc là họ đã bị những kẻ đó lợi dụng rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:smile,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_17.mp3
+msg,1,<outline width=2 color=black>Dù sao thì、 đây cũng là một tài liệu điều tra chi tiết đấy。Quả nhiên là Confiserie。Em đã đánh giá thấp anh rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:surprise,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_18.mp3
+msg,1,<outline width=2 color=black>Khoản thanh toán lần này là。。。Hả？ Không có tiền nên là 'siêu tốc' à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:sad,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_19.mp3
+msg,1,<outline width=2 color=black>…………Anh đúng là cái đồ、 lại cứ toàn 'thanh toán đặc biệt' mà chẳng nghĩ trước nghĩ sau、 rồi có nhận được đồng thù lao nào ra hồn đâu chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:smile,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_20.mp3
+msg,1,<outline width=2 color=black>Được rồi。Vì anh đã điều tra tỉ mỉ đến mức này、 em sẽ giúp anh một tay。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:normal,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_21.mp3
+msg,1,<outline width=2 color=black>Nhưng sau này anh hãy cẩn thận hơn một chút nhé。Cứ toàn 'thanh toán đặc biệt' như thế thì tiền hoạt động chẳng mấy chốc mà cạn kiệt đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:sad,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_22.mp3
+msg,1,<outline width=2 color=black>Thôi được rồi、 em sẽ đi gọi điện một lát。Có nhiều thứ cần phải sắp xếp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:normal,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_23.mp3
+msg,1,<outline width=2 color=black>Sau đó。。。nếu anh muốn、 chúng ta cùng đi tham quan một chút nhé？ Đằng nào cũng đã đến đây rồi、 về ngay mà chẳng làm gì thì hơi phí。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181704/adv/atlas/stand_a,body:smile,yue,0,-160,0.5,0,,,,
+playvoice,1,download/character/181704/adv/sound/fav181704_01_24.mp3
+msg,1,<outline width=2 color=black>Anh mà。Chắc là anh đã lên sẵn một kế hoạch du lịch ngắn ngày cực kỳ vui vẻ rồi chứ gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

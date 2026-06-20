@@ -1,0 +1,970 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10080100.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm170.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash3_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:anger,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_01.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Chết tiệt… à、 thôi đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:anger,norn,0,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_02.mp3
+msg,1,<outline width=2 color=black>anger: 「Lôi thứ này ra、 đúng là không nương tay gì cả…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0.3,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Threebeams_purple,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.3
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.3
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.4
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10080100.jpg,1,255
+endwait
+
+
+playse,/download/sound/se/se_28090108_stage_04.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,enemy1,0,0,1280,250,0.5,,,,
+sprite,download/monster/28070106/adv/image/28070106.png,enemy,2,0,0,0,0,,,,
+imgconf,enemy,enemy1,0,-1000,,,0,2.0,2.0,0.5
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28070106_entry_06.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: 「――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:sad,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_03.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>sad: 「Khốn kiếp、 đến mức này mà còn không làm bị thương được nó sao…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_01.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Norn！ Em cũng…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_04.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Kh— không được、 Frau！ Cứ để <ruby>ác ý|anh</ruby> chiến đấu đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_02.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Em không sao。Em cũng đã được dạy ý nghĩa của việc chiến đấu rồi。Em cũng có sức mạnh để đối đầu nữa…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_05.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>sad: 「Dù vậy、 em chỉ là cái bình、 là thứ để chứa đựng thôi、 không phải là thứ để sử dụng！ Nếu dùng sức mạnh vượt quá vai trò của mình…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_03.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>normal: 「Không phải vai trò của mình… Em không muốn lấy chuyện đó ra làm lý do</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_06.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>sad: 「Frau…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_04.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>normal: 「Em biết Norn lo cho em。Thật ra、 em không muốn Norn phải lo lắng như vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_05.mp3
+msg,1,<outline width=2 color=black>anger: 「Nhưng… bây giờ、 dù có làm Norn buồn、 em vẫn sẽ bảo vệ Norn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_06.mp3
+msg,1,<outline width=2 color=black>anger: 「Vì nếu không thì――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,enemy1,0,0,1280,250,0.5,,,,
+sprite,download/monster/28070106/adv/image/28070106.png,enemy,2,0,0,0,0,,,,
+imgconf,enemy,enemy1,0,-1000,,,0,2.0,2.0,0.5
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28070106_entry_06.mp3
+name,<outline width=2 color=black>悠久に揺蕩う夢片</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>anger: 「――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_07.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Ch—！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:anger,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_07.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Frau、 nguy hiểm！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,0,-120,0.5,0.5,,,,
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:anger,norn,-1200,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,norn,-50_-120,0.7,0
+endwait
+spine,download/adv/spine/Slash1_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:anger,norn,-50,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_08.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Cái thứ…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:sad,frau,0,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_08.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>sad: 「Norn！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:anger,norn,-50,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_09.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Không sao đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28070106/adv/image/28070106.png,enemy1,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>悠久に揺蕩う夢片</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>anger: 「――――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:anger,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_10.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Thật là、 đúng là chuyện vớ vẩn… Lại phải đối đầu với nó nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:anger,norn,-300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_11.mp3
+msg,1,<outline width=2 color=black>anger: 「Lúc đó cũng vậy、 cuối cùng vẫn phải nhờ vào sức mạnh của mọi người mới xong…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_09.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Nhưng chúng ta bây giờ đã khác rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_10.mp3
+msg,1,<outline width=2 color=black>anger: 「Trong chúng ta、 có nhiều thứ hơn so với lúc đó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_12.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>normal: 「…Ừm。Phải、 đúng là vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:anger,norn,-300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_13.mp3
+msg,1,<outline width=2 color=black>anger: 「Được rồi、 Frau。Anh sẽ không bảo em lùi lại nữa。Cùng chiến đấu nào</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_11.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>normal: 「Vâng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_14.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Ngay bây giờ、 chỉ cần một khoảnh khắc thôi cũng được。Em có thể làm chậm chuyển động của nó được không？ Anh biết là anh đang nói những điều khó khăn。Nhưng…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:smile,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_12.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>smile: 「Em hiểu rồi。Cứ giao cho em</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_15.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>normal: 「Ừm、 anh tin tưởng em</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28070106/adv/image/28070106.png,enemy1,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28070106_entry_06.mp3
+name,<outline width=2 color=black>悠久に揺蕩う夢片</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: 「――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,1,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,0,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_13.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Vì Norn đã tin tưởng và giao cho em…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Threebeams_yellow,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/chaA.mp3
+wait,0.3
+playse,/download/sound/se/chaA.mp3
+wait,0.3
+playse,/download/sound/se/chaA.mp3
+wait,0.4
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10080100.jpg,1,255
+endwait
+
+
+sprite,download/monster/28070106/adv/image/28070106.png,enemy1,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>悠久に揺蕩う夢片</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: 「――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+spine,download/adv/spine/blow_Blue,em1,default,animation,0,0,-200,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em2,default,animation,0,0,-200,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+endwait
+spine,download/adv/spine/blow_Blue,em1,default,animation,0,70,-50,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em2,default,animation,0,70,-50,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+endwait
+spine,download/adv/spine/blow_Blue,em1,default,animation,0,0,100,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em2,default,animation,0,0,100,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spineoff,em2,0
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_14.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Dù không có mọi người、 em vẫn mạnh mẽ hơn、 cùng với mọi người</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,0,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_15.mp3
+msg,1,<outline width=2 color=black>anger: 「Vì vậy、 hơn nữa… hơn nữa nữa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28070106/adv/image/28070106.png,enemy1,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28070106_entry_06.mp3
+name,<outline width=2 color=black>悠久に揺蕩う夢片</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>anger: 「――――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,1,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,0,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_16.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Ư、 kh…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,0,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_17.mp3
+msg,1,<outline width=2 color=black>anger: 「Ch—… vẫn chưa xong đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0.3,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Threebeams_yellow,em1,default,animation,0,0,0,1,1.0,0
+anm,scale,em1,-1_1,0,
+playse,/download/sound/se/chaA.mp3
+wait,0.3
+playse,/download/sound/se/chaA.mp3
+wait,0.3
+playse,/download/sound/se/chaA.mp3
+wait,0.4
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10080100.jpg,1,255
+endwait
+playse,/download/sound/se/se_28090108_stage_04.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28070106/adv/image/28070106.png,enemy1,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28070106_entry_06.mp3
+name,<outline width=2 color=black>悠久に揺蕩う夢片</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: 「――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_b,body:anger,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_18.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Dù không với tới… Em chỉ muốn đáp lại Norn đã tin tưởng em thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103511/adv/atlas/stand_b,body:normal,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_014_16_08_16.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>normal: 「Cảm ơn em、 Frau。Nhờ có em mà anh đã chuẩn bị xong</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,,,
+sprite,download/character/103511/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_014_16_08_17.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>normal: 「Đây là tất cả những gì anh có thể làm bây giờ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_014_16_08_18.mp3
+msg,1,<outline width=2 color=black>normal: 「Đi thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+spriteoff,all,1
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Threebeams_yellow,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.3
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.3
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.4
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Threebeams_yellow,em2,default,animation,0,0,0,1,1.0,0
+anm,scale,em2,-1_1,0,
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.3
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.3
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.4
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+bg,download/bg/bg_10080100.jpg,1,255
+endwait
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,enemy1,0,0,1280,250,0.5,,,,
+sprite,download/monster/28070106/adv/image/28070106.png,enemy,2,0,0,0,0,,,,
+imgconf,enemy,enemy1,0,-1000,,,0,2.0,2.0,0.5
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28070106_entry_06.mp3
+name,<outline width=2 color=black>悠久に揺蕩う夢片</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: 「――――――――――、――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em1,default,animation,0,-300,0,1.2,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em2,default,animation,0,0,0,1.2,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em3,default,animation,0,300,0,1.2,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait
+spineoff,em1,0
+spineoff,em2,0
+spineoff,em3,0
+endwait,,,,,,,,,,,
+
+spine,download/adv/spine/Smoke,em1,default,animation,1,0,0,1,1,0
+spriteatlas,download/character/103710/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/103511/adv/atlas/stand_b,body:anger,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_19.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>anger: 「Nếu là thế này thì…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_19.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>sad: 「Không được、 Norn！ Phòng thủ đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_b,body:surprise,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_20.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>surprise: 「Hả――！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0.3,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_068.mp3
+endwait,,,,,,,,,,,
+flash,240,20,20,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10080100.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_21.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ối…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_20.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Norn！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_22.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À、 chết tiệt… Đùa chắc？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28070106/adv/image/28070106.png,enemy1,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>悠久に揺蕩う夢片</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_23.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…Thế này thì không hạ được sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103710/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_21.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Norn、 anh bị thương…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_24.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Không sao đâu、 ổn cả。Mà này Frau… Nói thật、 căng đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_25.mp3
+msg,1,<outline width=2 color=black>Quả nhiên là sức mạnh của Nguyên thư Pnakotic。Chắc phải tính đến chuyện chạy trốn thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_26.mp3
+msg,1,<outline width=2 color=black>Mà… Tao cũng không nghĩ nó sẽ để yên cho mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28070106/adv/image/28070106.png,enemy1,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28070106_entry_06.mp3
+name,<outline width=2 color=black>悠久に揺蕩う夢片</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/103710/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_22.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Norn！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_27.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Frau、 em cứ chạy đi—</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,nowa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:anger,nowa2,0,0,0,0,,,,
+imgconf,nowa2,nowa1,0,-500,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_053_16_08_01.mp3
+name,<outline width=2 color=black>ノワ・ヴァラード</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Có vẻ như hai người đang gặp rắc rối nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10080100.jpg,1,255
+endwait
+flash,255,255,255,1,0.3,1.0
+playse,/download/sound/se/conA.mp3
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28070106/adv/image/28070106.png,enemy1,0,-50,0.55,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>悠久に揺蕩う夢片</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――、――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:surprise,norn,-300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/103710/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_006_16_08_23.mp3
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103511/adv/atlas/stand_a,body:surprise,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_014_16_08_28.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đòn vừa rồi là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:normal,nowa,300,-130,0.5,0.5,,,,
+anm,tint,nowa,150_150_150,0.0001,0
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:normal,kukuru,-300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_08_01.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hai người không sao chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:normal,nowa,300,-130,0.5,0,,,,
+anm,tint,kukuru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_053_16_08_02.mp3
+name,<outline width=2 color=black>ノワ・ヴァラード</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hai người tránh ra đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_032.mp3
+spriteatlas,download/character/105300/adv/atlas/stand_b,body:anger,nowa,300,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_053_16_08_03.mp3
+msg,1,<outline width=2 color=black>Để tôi lo cho nó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

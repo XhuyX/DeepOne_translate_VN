@@ -1,0 +1,819 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/adv/image/black.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hôm đó、 tôi đến cơ sở của Tổ chức để hỗ trợ kích hoạt Grimoire theo lời người lớn。</outline>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_5_05_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Giữa căn phòng đầy những thiết bị chưa từng thấy、 Grimoire được đặt ở đó lại là một đóa hồng đỏ sẫm。</outline>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_5_05_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khi tôi nghiêng đầu tự hỏi liệu đây có phải là Grimoire không、 rồi vô tình chạm vào nó、 một ảo giác như thể mọi thứ dưới chân đang sụp đổ ập đến。</outline>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_5_05_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Một bóng tối kéo dài vô tận。Cứ như thể tôi đang ở đáy biển sâu lạnh lẽo、 bị áp lực nước khổng lồ nghiền nát。</outline>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_5_05_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>浅い場所でしか生きられない私の魂が、\n抵抗も出来ずに深淵の底に引きずり込まれ、ぐちゃぐちゃになっていく。
+</outline>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_5_05_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Không。Tôi không muốn biến mất。Không muốn tan biến chút nào。</outline>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_5_05_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Như để đáp lại khao khát ấy、 một luồng nhiệt lớn bao trùm lấy tôi。</outline>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_5_05_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Được sưởi ấm bởi ngọn lửa nghiệp chướng bùng cháy từ vô vàn sinh mạng、 linh hồn tôi đã được tái tạo thành một 'thứ' có thể tồn tại trong vực sâu đó。</outline>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_5_05_08.mp3
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+stopbgm,0.5
+endwait
+bg,download/bg/bg_10060300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm006.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,0,-120,0.5,0.5,,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khụ……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_01.mp3
+clickwait
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_053.mp3
+anm,move,xeno,500_-120,0.5,1
+endwait
+anm,move,xeno,0_-120,0.5,1
+endwait
+wait,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>Đủ rồi、 ngã xuống đi chứ！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_02.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:anger,qui,0,-100,0.5,0.5,,,,
+endwait
+spine,download/adv/spine/Slash4_Blue,em4,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_037.mp3
+endwait
+wait,0.5
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khụ―――</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_01.mp3
+clickwait
+spine,download/adv/spine/blood,em3,default,animation,0,0,0,1,0.8,0
+playse,/download/character/101302/se/se_c01303_skill_08.mp3
+endwait
+wait,1
+spriteoff,em3,0.2
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Dù có bị chém bao nhiêu nhát、 tôi cũng sẽ không dừng lại。Xin hãy buông kiếm ra。Như vậy tôi sẽ không phải bắn anh thêm nữa。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_02.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,0,-120,0.5,0.5,,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngươi còn chưa bắn trúng ta một phát nào ra hồn、 mà sao lại tự tin đến thế？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_03.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:anger,qui,0,-100,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khác với tôi、 người có sức mạnh tuôn trào không ngừng chừng nào còn ở trong Vùng Hư Vô này、 anh lại có giới hạn。Thời gian đang đứng về phía tôi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_03.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,0,-120,0.5,0.5,,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừ、 vô tận đúng là phiền phức vô cùng…… Nhưng dù thân thể ngươi có tái tạo、 thì tinh thần cũng đâu có bất khả chiến bại。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_04.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Nếu ta bẻ gãy được nó、 ta sẽ thắng。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_05.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,0,-100,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Anh sẽ không bỏ cuộc sao。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_04.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,0,-120,0.5,0.5,,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Kẻ nào phá vỡ sự bình yên của Dreamlands đều là kẻ thù của ta。Huống hồ、 ta không đời nào buông kiếm trước một kẻ ngốc mang đến chiến loạn vô ích chỉ để trốn tránh sự yếu đuối của bản thân。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_06.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Ta đã thề sẽ bảo vệ Dreamlands này và những đồng bào của ta khỏi những kẻ như vậy。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_07.mp3
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,0,-120,0.5,0,,
+msg,1,<size=30><outline width=2 color=black>Ngươi không có sao？ Một điều gì đó không thể từ bỏ、 một khao khát phải kiên trì theo đuổi？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_08.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:normal,qui,0,-100,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nhìn lại thì、 có lẽ tôi đã luôn ngưỡng mộ và chạy theo một ai đó、 mà chưa từng tự mình chọn con đường bằng ý chí rõ ràng của bản thân。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_05.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Người đầu tiên tôi ngưỡng mộ là ông nội。Nghe những câu chuyện về chiến công hiển hách của ông、 tôi đã ước mình cũng có thể trở thành một pháp sư mạnh mẽ、 bảo vệ mọi người như ông。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_06.mp3
+clickwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,0,-100,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng tôi lại không có tài năng đến mức đó。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_07.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,0,-120,0.5,0.5,,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy nên、 là khẩu súng đó sao？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_09.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:normal,qui,0,-100,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng、 đó là thứ tôi nhận được từ người thầy đáng kính、 để tôi có thể chiến đấu dù không đủ tài năng ma thuật。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_08.mp3
+clickwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,0,-100,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ngưỡng mộ ông nội、 rồi chạy theo bóng lưng người thầy đáng kính…… Rốt cuộc、 có lẽ tôi chưa từng có một khao khát nào của riêng mình。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_09.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Chắc vì thế nên tôi mới yếu đuối đến vậy。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_10.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,0,-120,0.5,0.5,,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngốc nghếch…… Ngươi có mà。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_10.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:surprise,qui,0,-100,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hả？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_11.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,0,-120,0.5,0.5,,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Muốn trở thành người mà mình ngưỡng mộ…… đó cũng là một con đường。Kẻ coi thường khao khát đó nhất、 chính là bản thân ngươi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_11.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Đừng lấy đó làm cái cớ cho sự yếu đuối。Sự yếu đuối của ngươi chỉ gói gọn ở một điểm duy nhất: không thể tin tưởng vào con đường của chính mình。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_12.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,0,-100,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù anh có nói vậy…… thì làm sao tôi có thể tự tin vào con đường đẫm máu này được chứ？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_12.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,0,-120,0.5,0.5,,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đừng bắt ta nói đi nói lại。Đó không phải là điều ai khác ngoài ngươi có thể quyết định。Dù ta có nói bao nhiêu lời đi chăng nữa、 nếu trái tim ngươi không chấp nhận thì cũng vô nghĩa。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_13.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Và việc đường hoàng bước đi trên con đường của chính mình、 đó chẳng phải là sức mạnh sao？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_14.mp3
+clickwait
+name,
+msg,0,
+spriteoff,all,0.5
+stopbgm,0.5
+bg,download/adv/image/black.jpg,1,,,,,,,,
+endwait,,,,,,,,,,,
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,norn1,0,0,1280,300,0.5,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,0,0,0,0,,,,
+imgconf,norn,norn1,0,-400,,,0,1.5,1.5,0
+endwait
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng vậy…… Và người đang đứng trước mặt cậu、 là người đã kiên trì theo đuổi điều đó、 cả bây giờ và 'trong quá khứ'。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_5_05_01.mp3
+clickwait
+name,
+msg,0,
+spriteoff,all,0.5
+endwait
+bg,download/bg/bg_10050100.jpg,0.5,255
+endwait
+bg,download/bg/bg_10060300.jpg,1,255
+endwait
+flash,255,255,255,3,0.2,0.2
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:surprise,qui,-400,-100,0.5,0.5,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:surprise,xeno,400,-120,0.5,0.5,,
+anm,tint,qui,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái gì……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_15.mp3
+clickwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:anger,qui,-400,-100,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đây là…… sách sao？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_13.mp3
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:surprise,xeno,400,-120,0.5,0,,
+anm,tint,qui,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sách Ký Ức…… Sao lại ở đây…… Đây là của ai……！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_16.mp3
+clickwait
+name,
+msg,0,
+spriteoff,all,0.5
+stopbgm,0.5
+bg,download/adv/image/white.jpg,1,,,,,,,,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>………………。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>…………。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>……。</outline></size>,,,,,,,,,
+clickwait
+msg,0,
+bg,download/adv/image/black.jpg,0.5,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm026.mp3,0,
+endwait,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Kỹ thuật của con người ngày càng tiến bộ chóng mặt。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Từ quyền đấu đến kiếm đấu、 rồi súng đạn…… Cùng với kỹ thuật、 chiến tranh cũng thay đổi。Không、 nói rằng chính vì có chiến tranh mà kỹ thuật được mài giũa cũng không ngoa。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Chỉ cần suy nghĩ một chút là có thể thấy được điểm đến。Sức mạnh sẽ trở nên không thể kiểm soát、 và sẽ biến thành ngọn lửa thiêu rụi thế giới。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Vì vậy、 ít nhất thì phải kiểm soát nó。Nếu sức mạnh không được trao cho tất cả mọi người mà nằm trong tay một số ít、 thì sự phát triển quá mức cần thiết sẽ bị kìm hãm。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Những người có tài năng ma thuật sẽ thống trị、 cai quản những người yếu đuối khác、 tránh con đường tự hủy diệt。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Và kết quả của việc hướng tới một thế giới như vậy…… tôi đã bị bài trừ như một kẻ điên cuồng theo chủ nghĩa ma thuật tối thượng。Bị gài bẫy、 tôi bị đẩy xuống Dreamlands mà không có lối thoát。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Rồi thân xác này sẽ bị nghiền nát bởi gánh nặng của Dreamlands、 và tan biến。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Tôi không hối tiếc về tương lai mình đã hướng tới。Chỉ là、 có chút tiếc nuối。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Tôi muốn giữ cho thế giới bình yên。Dù biết điều đó sẽ tước đoạt tự do và dẫn đến trì trệ、 tôi vẫn tin rằng bằng cách đó、 nhiều hạnh phúc hơn sẽ được bảo vệ。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Từ giờ、 thế giới sẽ bước vào một cuộc hỗn loạn lớn。Giống như những cuộc đại chiến trước đây、 những cuộc đại chiến thứ hai、 thứ ba cuốn cả thế giới vào vòng xoáy sẽ tiếp tục bùng nổ。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Sự phát triển của công nghệ đã vươn tới cả thế giới ma thuật、 và cuộc giằng co giữa chúng có thể dẫn đến một tương lai tồi tệ nhất、 đẩy nhanh sự hủy diệt。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Tôi đã không thể mang lại bình yên…… Vậy nên、 ít nhất tôi sẽ cầu nguyện。Cầu mong những người sống tiếp sau có thể chọn được một tương lai hạnh phúc hơn。</outline></size>,,,,,,,,,
+clickwait
+name,
+msg,0,
+bg,download/bg/bg_10060300.jpg,1,255
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:surprise,qui,-400,-100,0.5,0.5,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:surprise,xeno,400,-120,0.5,0.5,,
+anm,tint,qui,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ký ức vừa rồi là…… Chẳng lẽ là của tôi sao……？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_17.mp3
+clickwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,-400,-100,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Tại sao。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_14.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Tại sao người vừa rồi lại không hối hận…… Dù con đường của mình bị người khác phủ nhận、 vậy mà cuối cùng vẫn không hối tiếc、 vẫn có thể nghĩ cho người khác sao……？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_15.mp3
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,400,-120,0.5,0,,
+anm,tint,qui,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Đó là vì tin vào con đường của chính mình đấy。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_18.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Nếu đã đối mặt thẳng thắn với trái tim mình、 thì dù kết quả có thế nào đi nữa、 bản thân mình vẫn có thể tự hào về chính mình。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_19.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Tôi tin đó là như vậy…… Không。'Ai đó' trong quá khứ đã tin vào điều đó。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_20.mp3
+clickwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,-400,-100,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ riêng mình、 về chính mình……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_16.mp3
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,400,-120,0.5,0,,
+anm,tint,qui,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Quincy…… Ngươi nhìn lại con đường mình đã đi cho đến giờ、 có thật là chỉ thấy hối hận、 hoang mang、 hay phủ nhận trong lòng không？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_21.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Ta bây giờ vẫn có thể đường đường chính chính tự hào về con đường của mình đấy。Bởi vì――……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_22.mp3
+clickwait
+flash,0,0,0,5,0.2,0.2
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:surprise,xeno,400,-120,0.5,0,,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái gì……！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_23.mp3
+clickwait
+name,
+msg,0,
+stopbgm,0.5,
+spriteoff,all,0.5
+endwait
+mask,bg3,0,-110,1280,200,0,1,,,
+sprite,download/adv/image/black.jpg,bg2,0,0,0,0
+imgconf,bg2,bg3,0,0,,,0,1,1,1
+mask,beat1,0,-110,1280,200,0,1,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:surprise,beat,0,0,0,0,,,,
+anm,tint,beat,150_150_150,0.000000001,0,
+imgconf,beat,beat1,0,-930,,,0,-1.5,1.5,1,
+mask,bg1,0,110,1280,200,0,1,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,1
+mask,vi1,0,110,1280,200,0,1,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:surprise,vi,0,0,0,0,,,,
+imgconf,vi,vi1,0,-1000,,,0,1.5,1.5,1
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hả……！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_01.mp3
+clickwait,,,,,,,,,,,
+anm,tint,vi1,150_150_150,0.0001,0
+anm,tint,beat1,255_255_255,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chỗ này là…… Á á！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_5_05_01.mp3
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0.5
+endwait
+playbgm,/download/sound/bgm/bgm001.mp3,0,
+endwait,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:surprise,xeno,0,-120,0.5,0.5,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:surprise,beat,300,1500,0.5,0.5,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:surprise,vi,-300,1500,0.5,0.5,,,,
+endwait
+anm,move,xeno,0_-1500,1.3,1
+anm,move,vi,-300_-1200,1,1
+anm,move,beat,300_-1200,1,1
+endwait
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,xeno1,0,0,1280,300,0.5,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:sad,xeno,0,0,0,0,,
+imgconf,xeno,xeno1,0,-350,,,0,1.5,1.5,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ư、 hộc……！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_24.mp3
+clickwait
+spriteoff,bg1,0.2
+spriteoff,xeno1,0.2
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,beat,300,-1200,0.5,0,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,-300,-1200,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+endwait
+anm,move,vi,-300_-190,1,1
+anm,move,beat,300_-190,1,1
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ tưởng nãy giờ đóng chặt、 vậy mà lại đột ngột mở ra、 cái Vùng này rốt cuộc là cái gì vậy……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,beat,300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 cuối cùng cũng vào được rồi。Hãy nhanh chóng tìm Zeno-san thôi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_5_05_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:anger,beat,300,-190,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ tưởng đột nhiên biến mất khỏi Dreamlands、 rồi lại xuất hiện trở lại…… Chắc chắn đã bị cuốn vào một chuyện gì đó bất thường。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_5_05_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:anger,vi,-300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_03.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,xeno1,0,0,1280,300,0.5,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,0,0,0,0,,
+imgconf,xeno,xeno1,0,-350,,,0,1.5,1.5,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ở dưới đây。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_25.mp3
+clickwait
+spriteoff,all,0.2
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:surprise,beat,300,-190,0.5,0.5,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:surprise,vi,-300,-190,0.5,0.5,,,,
+anm,tint,beat,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hả？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:surprise,beat,300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vừa rồi、 giọng của Zeno-san……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_5_05_04.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,xeno1,0,0,1280,300,0.5,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,0,0,0,0,,
+imgconf,xeno,xeno1,0,-350,,,0,1.5,1.5,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vì thế ta mới bị các ngươi đè bẹp đây này―― Ê này、 tránh ra！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_26.mp3
+clickwait
+spriteoff,bg1,0.2
+spriteoff,xeno1,0.2
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:surprise,beat,300,-190,0.5,0.5,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:surprise,vi,-300,-190,0.5,0.5,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,0,-2000,0.5,0.5,,
+endwait
+anm,move,vi,-500_-190,0.5,1
+anm,move,beat,500_-190,0.5,1
+anm,move,xeno,0_-120,0.5,1
+shake,0.2,6,10,10
+endwait
+anm,tint,beat,150_150_150,0.0001,0
+anm,tint,vi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Các ngươi、 nếu xuất hiện thì không thể xuất hiện một cách đàng hoàng hơn sao！ Nhờ thế mà hỏng bét hết rồi！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_27.mp3
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,-500,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Gì vậy、 tự nhiên lại nổi giận…… Trong khi bọn ta lo lắng cho ngươi mà đến tận cái Vùng không rõ nguồn gốc này đây。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,beat,500,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 anh không sao là tốt rồi。Rốt cuộc đã có chuyện gì vậy ạ？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_5_05_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,0,-120,0.5,0,,
+anm,tint,beat,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Có nhiều chuyện cần nói…… nhưng、 chuyện đó để sau đi。Bây giờ có chuyện cần giải quyết trước đã。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_28.mp3
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,-500,-190,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừm…… Đó là về người đang ở đó sao？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_06.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+stopbgm,0.5
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:normal,qui,0,-100,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………Họ là ai。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_17.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,0,-120,0.5,0.5,,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Là lý do tại sao ta bây giờ không lạc lối。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_29.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Họ đã lo lắng mà cố công đuổi theo đến tận nơi này。Có những người bạn như vậy、 thì cần gì phải lạc lối nữa？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_30.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Ta hỏi lại lần nữa、 Quincy…… Trên con đường của ngươi、 không có gì sao？ Không có lấy một điều gì mà ngươi có thể tự hào sao？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_31.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,0,-100,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi thì…………</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_18.mp3
+clickwait
+spriteoff,all,0.5
+stopbgm,0.5
+name,
+msg,0,
+bg,download/adv/image/black.jpg,1,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm026.mp3,0,
+endwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Viên đạn của tôi tồn tại để bắn cái ác。Nhưng dù là cái ác hay gì đi nữa、 mạng sống vẫn là mạng sống、 và tôi là một kẻ giết người。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_19.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Dù vậy、 vẫn có những người đã được cứu。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_20.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Được giải thoát khỏi sự phũ phàng、 chỉ có hình ảnh những người đã tìm lại được nụ cười là thứ duy nhất đã nâng đỡ trái tim tôi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_21.mp3
+clickwait
+msg,0,
+bg,download/bg/bg_10060300.jpg,1,255
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,-400,-100,0.5,0.5,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,400,-120,0.5,0.5,,
+anm,tint,qui,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngươi đã nói muốn xóa bỏ tất cả phải không。Nhưng…… điều đó có nghĩa là、 ngay cả những gì ngươi vừa hình dung trong lòng cũng sẽ bị xóa bỏ。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_32.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Xóa bỏ những điều đó đi、 ngươi thật sự nghĩ là được sao？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_33.mp3
+clickwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,-400,-100,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Điều đó、 thì…… nhưng mà……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_22.mp3
+clickwait
+spriteoff,xeno,0
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,beat,400,-190,0.5,0.5,,,,
+anm,tint,qui,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Tôi thì、 bây giờ mới xuất hiện、 nên không phải đã nghe hết mọi chuyện。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_5_05_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng nếu cô đang đau lòng vì những sai lầm trong quá khứ của mình、 thì tôi nghĩ không nên xóa bỏ chúng。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_5_05_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sai lầm là thứ cần phải chuộc lỗi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_5_05_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Xóa bỏ chúng đi、 chẳng khác nào chỉ là đang trốn tránh…… Như vậy、 chẳng phải quá thất lễ với người mà mình đã gây ra lỗi lầm sao？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_5_05_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi cũng、 từng phạm phải một sai lầm lớn…… một lỗi lầm không thể cứu vãn được…… Vì vậy、 tôi vẫn luôn muốn chuộc lỗi、 vẫn nghĩ như vậy。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_5_05_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:normal,qui,-400,-100,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Vậy thì、 cô sẽ chuộc lỗi bằng cách nào？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_23.mp3
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,beat,400,-190,0.5,0,,,,
+anm,tint,qui,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi vẫn chưa biết phải làm thế nào。Trước tiên、 tôi sẽ bắt đầu từ việc tìm kiếm điều đó。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_5_05_11.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0.5
+endwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:unique,vi,0,-190,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái gì vậy chứ。Nói nghe có vẻ to tát vậy mà chẳng có chút thuyết phục nào cả。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_07.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0.5
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:normal,qui,-400,-100,0.5,0.5,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,beat,400,-190,0.5,0.5,,,,
+anm,tint,qui,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ư…… có、 có thật vậy sao ạ……？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_5_05_12.mp3
+clickwait,,,,,,,,,,,
+spriteoff,beat,0
+endwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,400,-190,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 ta không nói những chuyện phức tạp như Zeno hay Bea đâu…… Nhưng mà、 ta nghĩ đây vốn dĩ là một chuyện đơn giản thôi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Con đường mà ngươi đang đi bây giờ、 có phải là một con đường gập ghềnh và đau khổ không？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu bước trên con đường đó quá đau khổ、 thì hãy rẽ lối đi。Cố chịu đựng、 cam chịu、 rồi lại chồng chất thêm đau đớn thì có nghĩa lý gì？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ mãi dâng hiến bản thân cho con đường đau khổ thì chẳng có giá trị gì đâu。Nó chỉ khiến những người xung quanh cũng bất hạnh thôi…… chắc chắn là vậy。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_11.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bước tiếp theo、 tốt hơn hết là hãy đi về phía dễ dàng hơn。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,-400,-100,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Giờ này rồi、 làm sao mà…… làm sao có thể thay đổi con đường đã một lần bước đi chứ？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_24.mp3
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,400,-190,0.5,0,,,,
+anm,tint,qui,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đừng có trưng ra cái vẻ mặt như thể mọi thứ đều đã quá muộn rồi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Con đường không phải là thứ đã được định sẵn。Chỉ là em đang tự cho rằng mình không thể thay đổi nó mà thôi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Những gì em đã gánh vác trên con đường cũ sẽ không mất đi、 những gì em đã vứt bỏ sẽ không trở lại。Dù vậy、 em vẫn đang ở đây…… Vậy thì、 con đường phía trước có thể làm bất cứ điều gì em muốn。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Điều cần thiết、 chỉ là một ý chí mong muốn mà thôi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,-400,-100,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Con đường phía trước của em……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_25.mp3
+clickwait
+spriteoff,vi,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,400,-120,0.5,0.5,,
+anm,tint,qui,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Lời nói của bọn ta、 chẳng lẽ không chút nào chạm đến ngươi sao？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_34.mp3
+clickwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,-400,-100,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………Em không hiểu。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_26.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Em không thể phủ nhận bản thân…… nhưng mà、 cứ thế mà cắt đứt với quá khứ、 rồi hướng mắt về phía trước、 em thấy nó cứ thuận tiện quá mức……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_27.mp3
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,400,-120,0.5,0,,
+anm,tint,qui,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì、 hãy trút hết mọi giằng xé đó vào ta đi…… Ta sẽ đón nhận、 và chứng minh cho ngươi thấy。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_35.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Chẳng có gì có thể giải quyết được bằng cách vứt bỏ tất cả。Nếu ngươi không tự mình quyết định sự đúng đắn của con đường mình đang bước đi、 thì sự hoang mang của ngươi sẽ không bao giờ tan biến đâu。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_36.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,beat,400,-190,0.5,0.5,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:unique,vi,-400,-190,0.5,0.5,,,,
+anm,tint,beat,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ tưởng hiếm khi ngươi lại nói nhiều đến thế、 nhưng rốt cuộc vẫn là dùng đến kiếm thôi nhỉ。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,beat,400,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu nói là đúng kiểu Zeno-san thì cũng đúng thật、 nhưng mà……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_5_05_13.mp3
+clickwait,,,,,,,,,,,
+spriteoff,beat,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,400,-120,0.5,0.5,,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Im đi、 bọn ngươi。Đã xuất hiện sau mà còn dám phá đám à。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_37.mp3
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,-400,-190,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng là lời lẽ khó nghe。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_5_05_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,400,-120,0.5,0,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừm…… Đừng bận tâm đến mấy kẻ ngoài cuộc、 Quincy。Ngươi chỉ cần nhìn mỗi ta là được。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_38.mp3
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,400,-120,0.5,0,,
+msg,1,<size=30><outline width=2 color=black>Kể cả cái sự yếu đuối ngu ngốc đó、 ta cũng sẽ sửa cho ngươi đến tận gốc rễ！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_39.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:anger,qui,0,-100,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………Em hiểu rồi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_28.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Lời nói của anh…… của mọi người có thật hay không、 xin hãy để em dùng viên đạn chứa đựng tất cả bản thân mình để xác nhận。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_017_5_05_29.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,0,-120,0.5,0.5,,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đến đây。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_5_05_40.mp3
+clickwait
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

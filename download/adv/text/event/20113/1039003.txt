@@ -1,0 +1,715 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11430300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm114.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau,300,-130,0.5,0.5,,,,
+anm,tint,clau,150_150_150,0.0001,0
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù sao thì、 bộ đồng phục này dễ thương thật đấy nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau,300,-130,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Nếu phải nói về sở thích、 tôi nghĩ có lẽ nên trang trí lộng lẫy hơn một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:unique,rlin,-300,-60,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng là đồ vàng chóe、 gu thẩm mỹ cũng y chang vậy luôn à。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:surprise,clau,300,-130,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm、 không có gì đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:smile,rlin,-300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hơn nữa、 anh hai à…… À mà、 anh vẫn chưa khen em trong bộ đồng phục này đàng hoàng đâu nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau,300,-130,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Từ góc nhìn của Thiếu chủ、 trông thế nào ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau,300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi chưa từng tưởng tượng mình sẽ mặc đồng phục học sinh、 nên có hơi lo lắng không biết có hợp không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 em biết anh hai sẽ khen là hợp rồi。Nhưng chỉ những lời dịu dàng như mọi khi thì có lẽ hơi thiếu thiếu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:smile,rlin,-300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 anh hai à、 anh thích điểm nào、 ở chỗ nào của em hay của Claiomh Solais、 nói cho em biết đi nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:smile,rlin,-300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không được chọn cả hai đâu nhé？ Ưm-fufu~♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: Ngực của Claiomh Solais,Lựa chọn 2: Váy của Rin
+if,select_===_1,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,clau1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau2,0,0,0,0,,,,
+imgconf,clau2,clau1,0,-300,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngực、 sao ạ…… Quả thật、 với thiết kế của bộ đồng phục này、 có lẽ trông sẽ hơi bị nhấn mạnh một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:unique,rlin,-300,-60,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:smile,clau,300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu điều đó làm Thiếu chủ vui lòng、 thì đừng chỉ nhìn thôi、 trực tiếp chạm vào cũng không sao đâu ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:unique,rlin,-300,-60,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này này、 đừng có đẩy nhanh chuyện đó quá chứ。Lỡ anh hai mà nghiêm túc thật thì sao hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:unique,rlin,-300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hừ、 cái đồ ngực vàng chóe này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:unique,clau,300,-130,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 cái cách gọi đó thì hơi quá rồi ạ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rlin1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin2,0,0,0,0,,,,
+imgconf,rlin2,rlin1,0,600,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Váy ư？ Không phải đâu。Anh hai quan tâm đâu phải là cái váy、 mà là thứ ở bên dưới nó cơ mà、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:surprise,clau,300,-130,0.5,0.5,,,,
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+shake,0.5,2,30,0,rlin
+endwait
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:smile,rlin,-300,-60,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nè anh hai、 xòe xòe…… Nếu em cứ vung váy thế này、 có khi anh sẽ thấy được đó♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:surprise,clau,300,-130,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu muốn cho Thiếu chủ xem thì cứ vén lên là được mà？ Nếu muốn、 tôi vén giúp nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+anm,move,clau,-50_-130,0.5,0
+endwait
+
+
+playse,/download/sound/se/se_057.mp3
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:shy,rlin,-300,-60,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Áaaaaa！？ Khoan、 đừng có túm váy em！ Đừng có cố vén lên chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:unique,rlin,-300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Claiomh Solais…… Trên đời này có cái gọi là nghệ thuật hé lộ đấy！ Chính cái việc không nhìn thấy mới có giá trị chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:sad,clau,-50,-130,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>H-hả、 vậy sao ạ…… Quả nhiên、 cảm xúc của con người vẫn có những phần mà một ma đạo thư không phải người như tôi khó mà nắm bắt được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,0,-60,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 anh hai、 nhìn kìa、 đằng kia。Có phải cửa hàng phụ kiện không nhỉ？ Mình ghé xem một chút đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:smile,rlin,0,-60,0.6,0,,,,
+msg,0,<outline width=2 color=black>Cứ thế này khoác tay、 người sát vào nhau、 đi mua sắm。Đúng là cảm giác hẹn hò sau giờ học phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:sad,clau,1200,-130,0.6,0,,,,
+endwait
+anm,move,clau,-100_-150,1.3,0
+wait,1
+anm,move,rlin,-400_-80,0.3,0
+endwait
+wait,0.2
+endwait
+anm,move,rlin,-200_-80,0.6,0
+wait,0.2
+anm,move,clau,200_-150,0.4,0
+endwait
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau,200,-150,0.6,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu là vậy、 tôi cũng xin phép……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:unique,rlin,-200,-80,0.6,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… Anh hai lại đang tận hưởng sự mềm mại của ngực Claiomh Solais rồi。Khụ、 em ghét cái thân mình không có được vũ khí đó quá đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:anger,rlin,-200,-80,0.6,0,,,,
+msg,0,<outline width=2 color=black>Đã vậy thì、 em sẽ ôm chặt hơn nữa cho xem！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,rlin,0.7_0.7,0.5,0
+anm,move,rlin,-200_-100,0.5,0
+endwait
+
+
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau,200,-150,0.6,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ra vậy、 tức là tôi nên ép mạnh hơn nữa sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,clau,0.7_0.7,0.5,0
+anm,move,clau,200_-180,0.5,0
+endwait
+
+
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:sad,rlin,-200,-100,0.7,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khụuu、 không thắng nổi、 trận này bất lợi cho em quá đi mất……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau,200,-180,0.7,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+slideinblack,0.5,down
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11730300.jpg,0,255
+endwait
+slideoutblack,0.5,down
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11730301.jpg,2,255
+endwait
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,up
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11430301.jpg,0,255
+endwait
+slideoutblack,0.5,up
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm106.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau,300,-130,0.5,0.5,,,,
+anm,tint,clau,150_150_150,0.0001,0
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:smile,rlin,-300,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm-fufu~♪ Hẹn hò sau giờ học với anh hai、 vui quá đi mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đi mua sắm、 xem phim、 chơi game ở trung tâm giải trí、 mình đã đi khắp nơi rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Danh sách phim thì khá là cổ điển nhỉ。Cứ như toàn những tác phẩm kinh điển vang bóng một thời vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau,300,-130,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dreamlands là không gian bị ảnh hưởng bởi ý thức của con người、 nên việc các tác phẩm kinh điển được trích dẫn cũng là điều dễ hiểu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau,300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi đã khá là thích thú。Cảm giác như được nhận thức lại giá trị của thứ gọi là giải trí do con người tạo ra vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:smile,clau,300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng thành thật mà nói、 tôi thích trung tâm giải trí hơn là xem phim。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:smile,rlin,-300,-60,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 anh hai bắn zombie siêu đỉnh luôn nhỉ。Còn Claiomh Solais thì bị hạ gục trong nháy mắt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:sad,clau,300,-130,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Súng ống thì tôi chịu rồi…… Nếu được dùng kiếm thì loại zombie đó、 tôi đã có thể quét sạch trong một nốt nhạc rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đó là game mà、 nên đành chịu thôi chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:smile,rlin,-300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>——À、 nhìn kìa、 đằng đó。Xe bán bánh crepe kìa。Đã đến đây rồi thì mình ăn chút gì đó đi…… Khoan đã。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:unique,rlin,-300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không có nhân viên。À、 phải rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>À、 nhưng mà có nguyên liệu và dụng cụ、 vậy thì mình tự làm thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:surprise,clau,300,-130,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rin-sama biết làm bánh crepe sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừ thì…… Trái cây cũng có nhiều loại、 nếu có yêu cầu gì thì em nghe đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau,300,-130,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm…… Vậy thì。Tôi sẽ chọn món giống Thiếu chủ――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:unique,rlin,-300,-60,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Claiomh Solais ngốc nghếch thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:surprise,clau,300,-130,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lúc này、 mình phải chọn mỗi đứa một vị khác nhau。Rồi、 muốn ăn cả vị của đứa kia nữa、 cho đến khi đút cho nhau ăn mới là chuẩn bài。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:surprise,clau,300,-130,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:surprise,clau,300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thâm sâu thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:unique,rlin,-300,-60,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ờ thì、 làm quá lên thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rồi sao？ Anh trai、 Claiomh Solais、 gọi món đi nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+slideinblack,0.5,down
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11730301.jpg,0,255
+endwait
+slideoutblack,0.5,down
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+slideinblack,0.5,up
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11430301.jpg,0,255
+endwait
+slideoutblack,0.5,up
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:smile,clau,300,-180,0.7,0.5,,,,
+anm,tint,clau,150_150_150,0.0001,0
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:smile,rlin,-300,-100,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nào、 anh trai。A~</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-100,0.7,0,,,,
+msg,0,<outline width=2 color=black>Ưm… Hừm hừm♪ Sao nào、 bánh crepe Rin-chan tự làm đó。Ngon lắm đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:smile,clau,300,-180,0.7,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thưa ngài、 bánh crepe của tôi、 xin mời ngài… A~</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau,300,-180,0.7,0,,,,
+msg,0,<outline width=2 color=black>Hừm hừm、 tự tay đút bánh crepe cho ngài、 phải nói sao nhỉ、 cảm giác cứ như có ai chọc lét trong lòng vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-100,0.7,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm、 mình đang tận hưởng buổi hẹn hò với anh trai đây này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-100,0.7,0,,,,
+msg,0,<outline width=2 color=black>Muốn được ở bên anh trai nhiều hơn nữa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:unique,rlin,-300,-100,0.7,0,,,,
+msg,0,<outline width=2 color=black>—— Muốn nói vậy là Maya đó。Anh có nhận ra không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:normal,clau,300,-180,0.7,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đến mức này mà không nhận ra thì tôi cũng quá đần rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:smile,clau,300,-180,0.7,0,,,,
+msg,0,<outline width=2 color=black>Cho đến khi ngài và Rin-sama lên tiếng、 tôi cũng định cứ mặc kệ tình hình này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:smile,rlin,-300,-100,0.7,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ya、 tôi cũng nghĩ đây là một cơ hội tốt、 nhưng mà、 chắc cũng đến lúc không thể làm ngơ được nữa rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:normal,rlin,-300,-100,0.7,0,,,,
+msg,0,<outline width=2 color=black>—— Từ lúc chiều tà đến giờ、 đã bốn tiếng trôi qua rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:anger,clau,300,-180,0.7,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù là trong Dreamlands đi nữa、 thì cũng hơi kỳ lạ đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:anger,clau,300,-180,0.7,0,,,,
+msg,0,<outline width=2 color=black>Nếu xét đến việc thời gian trôi qua như bình thường từ trưa đến chiều、 thì có lẽ、 khu vực này đang bị ngưng đọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:sad,rlin,-300,-100,0.7,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hoàng hôn vĩnh cửu sao…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:sad,rlin,-300,-100,0.7,0,,,,
+msg,0,<outline width=2 color=black>Cũng mong chờ được giải cứu từ bên ngoài、 nhưng đã trôi qua nhiều thời gian như vậy rồi、 có vẻ hơi khó nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:anger,clau,300,-180,0.7,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng… Nếu cho rằng khu vực này đang ngưng đọng、 thì có lẽ thời gian bên ngoài và bên trong khác nhau。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104053/adv/atlas/stand_a,body:anger,clau,300,-180,0.7,0,,,,
+msg,0,<outline width=2 color=black>Có lẽ、 chúng ta sẽ mãi mãi ở trong khu vực ngưng đọng này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:sad,rlin,-300,-100,0.7,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 chắc chắn mình phải tự tìm điều kiện để thoát ra thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:sad,rlin,-300,-100,0.7,0,,,,
+msg,0,<outline width=2 color=black>…Nhưng mà…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:sad,rlin,-300,-100,0.7,0,,,,
+msg,0,<outline width=2 color=black>Không biết có kỳ lạ không nữa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103956/adv/atlas/stand_a,body:sad,rlin,-300,-100,0.7,0,,,,
+msg,0,<outline width=2 color=black>Chỉ một chút thôi… mình thấy cứ như này cũng được…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

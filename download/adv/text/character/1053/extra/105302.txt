@@ -1,0 +1,179 @@
+﻿// machine translate -- gemini-2.5-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_01.mp3
+name,<outline width=2 color=black>ノワ・ヴァラード</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cuộc gặp gỡ với Kukuru ư？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_02.mp3
+msg,1,<outline width=2 color=black>Một ngày nọ、 cô ta đột nhiên xuất hiện。Đề nghị tôi hợp tác với Tổ chức Lovecraft。。。Tôi từ chối thì cô ta cứ bám riết không tha。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_03.mp3
+msg,1,<outline width=2 color=black>Dù chẳng mạnh mẽ gì、 cô ta cứ lảng vảng quanh tôi。。。Thật tình、 tôi thấy lạ vì sao cô ta còn sống được。Lẽ ra phải bị cuốn vào rắc rối rồi chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_04.mp3
+msg,1,<outline width=2 color=black>Khả năng nhận thức nguy hiểm、 hay khả năng né tránh。。。À、 nói là 'dai dẳng' thì hợp nhất nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_05.mp3
+msg,1,<outline width=2 color=black>Dù là lệnh từ cấp trên hay gì đi nữa、 tôi chẳng có chút hứng thú nào với việc gia nhập cái tổ chức đó cả、 đúng là phiền phức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Cậu ghét tổ chức？,Cậu không ưa Kukuru？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_06.mp3
+name,<outline width=2 color=black>ノワ・ヴァラード</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tôi chẳng thích hay ghét gì cả。Tôi không quan tâm đến những thứ gọi là tổ chức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_07.mp3
+msg,1,<outline width=2 color=black>Thứ duy nhất có thể khiến tôi hành động là Nguyên thư Avon、 còn những chuyện khác đều không ưu tiên。Ngược lại、 một người như tôi mà gia nhập tổ chức thì chỉ thêm phiền phức thôi、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_08.mp3
+msg,1,<outline width=2 color=black>Mà、 Tổ chức có liên quan đến Bảy cuốn Nguyên thư、 có lẽ họ muốn nghiên cứu tôi hay gì đó、 nhưng tôi đương nhiên là không muốn làm chuột bạch rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_09.mp3
+msg,1,<outline width=2 color=black>Thôi thì、 làm ơn thu hồi Kukuru lại cho tôi đi。Hãy nghĩ cho tôi xem、 người cứ bị cô ta bám theo thế nào chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_10.mp3
+msg,1,<outline width=2 color=black>Lúc nào cũng cười toe toét、 rồi lại thân mật rút ngắn khoảng cách。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_11.mp3
+name,<outline width=2 color=black>ノワ・ヴァラード</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Không phải là không ưa、 mà là phiền phức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_12.mp3
+msg,1,<outline width=2 color=black>Cứ bám theo mãi。。。Tôi vẫn nhớ。Ngay sau lần đầu gặp、 cô ta nói là 'skinship' rồi đột nhiên xông vào lúc tôi đang tắm。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:unique,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_13.mp3
+msg,1,<outline width=2 color=black>Để tôi giúp cậu tắm cho'、 cái đồ ngốc đó。Cô ta cứ chạm vào tôi như thể đang lục lọi khắp nơi。。。Đó là quấy rối tình dục đấy。Nếu kiện thì chắc chắn tôi thắng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:surprise,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_14.mp3
+msg,1,<outline width=2 color=black>A！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:shy,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_15.mp3
+msg,1,<outline width=2 color=black>K-không、 chuyện lúc nãy。。。Quên nó đi！ Chẳng có gì hết！ Đừng có tưởng tượng bậy bạ đấy nhé、 rõ chưa！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:unique,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_16.mp3
+msg,1,<outline width=2 color=black>À、 chán thật。Toàn là tại Kukuru。。。Thật tình、 cái đồ ngốc đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:surprise,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_17.mp3
+name,<outline width=2 color=black>ノワ・ヴァラード</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ha。。。Tự nhiên tôi nhận ra。Cậu và Kukuru có vẻ giống nhau。Cách xông xáo vào chuyện của người khác、 khá giống đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_18.mp3
+msg,1,<outline width=2 color=black>Chính vì thế mà tôi cũng bị loạn cả cảm giác về khoảng cách。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_19.mp3
+msg,1,<outline width=2 color=black>Với cái tiền lệ xấu là Kukuru、 tôi xin khẳng định lại lần nữa、 tôi không đến đây để kết bạn bè thân thiết gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_20.mp3
+msg,1,<outline width=2 color=black>Đừng có tùy tiện bắt chuyện、 hay bám víu gì tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_21.mp3
+msg,1,<outline width=2 color=black>Tôi thấy thoải mái hơn khi ở một mình、 nên nếu không có việc gì thì hãy để tôi yên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_22.mp3
+msg,1,<outline width=2 color=black>。。。Này、 trông cậu có vẻ muốn nói gì đó？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_23.mp3
+msg,1,<outline width=2 color=black>Tôi nói trước nhé、 tôi không phải kiểu người thích cô đơn、 hay cô đơn、 hay kém giao tiếp đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_24.mp3
+msg,1,<outline width=2 color=black>Không phải đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105304/adv/sound/fav105304_02_25.mp3
+msg,1,<outline width=2 color=black>Vì vậy、 đừng có nhìn tôi bằng ánh mắt có vẻ dịu dàng kỳ lạ đó nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

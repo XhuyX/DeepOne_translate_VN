@@ -1,0 +1,173 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11650300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm141.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:sad,zero,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_01.mp3
+name,<outline width=2 color=black>Zero</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Này… Em nên đối xử với Aika và Souka thế nào đây…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:sad,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_02.mp3
+msg,1,<outline width=2 color=black>Này。Bọn trẻ đó、 chúng như con của chị và Asaka vậy。Cứ nghĩ đến mối liên kết giữa chị và em、 thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:unique,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_03.mp3
+msg,1,<outline width=2 color=black>Em có khi nào là bà―― à、 không！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:unique,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_04.mp3
+msg,1,<outline width=2 color=black>Hơ、 hơn nữa này！ Zakuro！ Zakuro là kiểu người bảo hộ cho Aika và Souka、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:sad,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_05.mp3
+msg,1,<outline width=2 color=black>Em lại còn chia sẻ cơ thể với Zakuro nữa、 nên em cũng tự hỏi là、 Zakuro nghĩ gì về em…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:sad,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_06.mp3
+msg,1,<outline width=2 color=black>Nghĩ đến mấy chuyện đó、 em chẳng biết phải giữ khoảng cách thế nào、 hay nên đối xử ra sao nữa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,6: Lựa chọn 1: 「Bà――,7: Lựa chọn 2: 「Cứ từ từ tìm hiểu vậy
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:anger,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_07.mp3
+name,<outline width=2 color=black>Zero</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nếu còn lôi chuyện đó ra、 thì chị cũng không nể nang đâu đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:anger,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_08.mp3
+msg,1,<outline width=2 color=black>Được chứ？ Ví dụ、 giả sử、 lỡ như em thật sự ở vào vị trí đó đi。Vẫn có những chuyện em không thể chấp nhận được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:smile,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_09.mp3
+msg,1,<outline width=2 color=black>Chị sẽ không làm điều gì khiến người khác ghét bỏ、 đúng không？ Ngoan lắm cơ mà、 phải không？ Hừm hừm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:normal,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_10.mp3
+name,<outline width=2 color=black>Zero</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cứ từ từ、 à… Ừm。Em nói đúng đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:normal,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_11.mp3
+msg,1,<outline width=2 color=black>Dù là vị trí hay mối quan hệ gì đi nữa、 hay là những mối liên kết phức tạp、 thì đó chỉ là chuyện nhỏ nhặt thôi、 có để tâm cũng chẳng có ý nghĩa gì</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:sad,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_12.mp3
+msg,1,<outline width=2 color=black>Thế này thì em cũng không thể nói nặng lời với Zakuro được rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:sad,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_13.mp3
+msg,1,<outline width=2 color=black>Cứ để ý mấy chuyện vớ vẩn rồi lại tự mình khổ sở、 thì ra em và Zakuro giống nhau ở điểm này、 đều có chung một nguồn gốc là con người。Dù em không muốn thừa nhận đâu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:normal,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_14.mp3
+msg,1,<outline width=2 color=black>Trước hết、 phải tìm hiểu về Aika và Souka đã。Cứ giậm chân tại chỗ thì chẳng thể nào đến gần nhau được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:surprise,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_15.mp3
+name,<outline width=2 color=black>Zero</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――Hả？ Lần tới、 mình sẽ có cơ hội nói chuyện với nhau sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:normal,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_16.mp3
+msg,1,<outline width=2 color=black>Ừm… Nếu chị nói vậy、 thì em có thể giao việc chuẩn bị cho chị được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:sad,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_17.mp3
+msg,1,<outline width=2 color=black>…Trước khi đó、 em phải giải thích rõ ràng với Zakuro đã</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:sad,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_18.mp3
+msg,1,<outline width=2 color=black>Này、 Zakuro cứ thấy Asaka thân thiết với Aika và Souka là lại lải nhải kiểu như là bị cướp mất hai đứa vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:sad,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_19.mp3
+msg,1,<outline width=2 color=black>Aika và Souka、 dù cùng chung một cơ thể、 chắc chắn sẽ không xem em và Zakuro là một、 nhưng chính Zakuro lại có vẻ lo lắng về chuyện đó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:sad,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_20.mp3
+msg,1,<outline width=2 color=black>Em không muốn bị nói là Aika và Souka bị Zero cướp mất đâu…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:sad,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_21.mp3
+msg,1,<outline width=2 color=black>Dù người khác có thấy ổn đi chăng nữa、 thì em vẫn cứ thấy bất an。Đó chính là Zakuro、 một người phụ nữ phiền phức</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:normal,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_22.mp3
+msg,1,<outline width=2 color=black>Tuy nhiên、 em cũng không muốn cãi nhau với cô ấy một cách vô ích</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:normal,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_23.mp3
+msg,1,<outline width=2 color=black>Nói cho cùng、 chúng ta là đồng loại、 hay… có thể nói là một gia đình cũng không sai。Em sẽ cố gắng hết sức để mọi chuyện diễn ra tốt đẹp</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104381/adv/atlas/stand_a,body:smile,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104381/adv/sound/fav104381_02_24.mp3
+msg,1,<outline width=2 color=black>Thật là、 một người phụ nữ phiền phức</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

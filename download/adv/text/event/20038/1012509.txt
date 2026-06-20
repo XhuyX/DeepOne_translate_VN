@@ -1,0 +1,542 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11240300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:surprise,rise,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:sad,rise,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mọi người thì…… à…… chết rồi。Rise-chan chạy nhanh quá rồi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:normal,rise,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ưm、 đợi các anh đuổi kịp thì tốt hơn nhỉ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,0,-170,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rise1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:anger,rise2,0,0,0,0,,,,
+imgconf,rise2,rise1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phiền phức thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,0,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash4_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――、……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:unique,rise,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phiền、 phiền、 phiền…… Thật sự rất phiền。Em chỉ muốn lấy lại thứ đã bị cướp đi thôi。Em không muốn đối phó với mấy con tép riu đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,0,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+wait,0.1,
+playse,/download/sound/se/se_039.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――、…………、……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:unique,rise,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy mà sao chứ、 gì đây？ Trông em bây giờ có vẻ vui vẻ lắm sao？ Không đời nào、 làm gì có chuyện đó chứ、 em đang cảm thấy tệ hại nhất、 tệ đến mức muốn bật cười luôn đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,0,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/blow_Red,em1,default,animation,0,100,100,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em1,default,animation,0,-50,-60,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――、…………、……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:unique,rise,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đập nát、 xé toạc、 xuyên thủng、 rồi nghiền nát và chà đạp chúng đi… Làm vậy thì tâm trạng có khá hơn chút nào không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,0,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_068.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……、…………、……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+
+anm,tint,enemy1,0_0_0,0.5,0
+endwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:sad,rise,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ài、 biến mất rồi。Hư ảnh thật mong manh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:surprise,rise,-300,-100,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nàng đang nổi giận đấy à。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:surprise,rise,-300,-100,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vee-chan……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:sad,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>À… chắc là đã bị nhìn thấy cảnh tượng đáng xấu hổ rồi nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ký ức bị cướp đi của nàng、 hẳn là một thứ vô cùng quan trọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:sad,rise,-300,-100,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì đó là người đã ở bên em từ khi còn nhỏ… Em không biết mình đã cảm nhận người đó là một sự tồn tại như thế nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:sad,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thế nhưng、 cái cảm giác như mất đi một nửa cơ thể này đang mách bảo em。Em đã đánh mất thứ không được phép đánh mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:normal,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì vậy em muốn lấy lại nó thật nhanh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tuy nhiên、 cứ mãi ưu tiên quá khứ như vậy、 nàng có đang bỏ lỡ hiện tại không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:normal,rise,-300,-100,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Nàng muốn nói gì vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phớt lờ tình cảm của những người bạn quan tâm đến nàng、 thậm chí còn đẩy bản thân vào nguy hiểm、 việc theo đuổi ký ức quá khứ như vậy có ổn không、 ta chỉ nghĩ vậy thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cứ một mình xông lên như vậy… Giờ này、 chắc hẳn những người đàn ông đó đang lo lắng lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:normal,rise,-300,-100,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Đúng vậy、 em thấy mình sai rồi。Em đang tự kiểm điểm đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì nàng có thể dừng chân một lát không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:normal,rise,-300,-100,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em không thể。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,300,-240,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Nàng không chịu nghe lời người khác gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:normal,rise,-300,-100,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin lỗi nhé… Nhưng mà này、 Vee-chan。Nàng đâu có biết thứ em đã mất lớn đến mức nào、 vậy mà cứ nói lung tung nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:normal,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em thích các anh、 thích mọi người、 Vee-chan dù mới gặp nhưng em nghĩ chắc cũng sẽ thích nàng thôi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:normal,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì vậy、 đừng làm em ghét nàng nhé。Mà nói thật、 Vee-chan là kiểu người hay cằn nhằn bất ngờ đấy nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngay cả ta cũng thấy、 ta vốn không phải là kẻ hay lo chuyện bao đồng của người khác。Thật là kỳ lạ làm sao… Không hiểu sao khi đối diện với nàng、 lời nói cứ tự nhiên tuôn ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:anger,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rise này。Thứ thúc đẩy nàng không chỉ là sự nôn nóng đâu。Ở đó còn có sự tự phụ vào sức mạnh của bản thân nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:anger,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tự phụ sẽ biến thành kiêu ngạo。Kiêu ngạo sẽ hóa thành ngạo mạn。Và ngạo mạn sẽ khiến lời nói trở nên vô giá trị、 rồi đẩy nàng vào cô độc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:anger,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì những người bạn của nàng、 và vì chính bản thân nàng nữa… Đừng đi con đường đó。Con đường đó chỉ dành cho kẻ ngu muội hoặc tu la mà thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+name, 
+msg,0,<outline width=2 color=black>Dù mang thân phận phi nhân loại、 vẫn có những giấc mộng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Gần đây、 'cô gái' xuất hiện trong giấc mộng、 thật kỳ lạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Trong lòng cô ấy ẩn chứa một sự tự phụ gần như là niềm tin chắc chắn rằng sức mạnh của mình không thua kém bất kỳ ai。Thế nhưng、 cô ấy chưa từng một lần phô trương uy thế đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Dù cảm thấy bị gò bó trong những ràng buộc như tục lệ và tập quán của gia tộc、 đồng thời、 cô ấy cũng mang trong mình sự cam chịu rằng cuộc đời con người chỉ đến thế mà thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Dưới sự bất công của tư tưởng trọng nam khinh nữ、 chỉ vì là phụ nữ mà bị lợi dụng một cách dễ dàng。Đối với người trong gia tộc、 đó là lẽ thường tình từ khi sinh ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Trong môi trường như vậy、 sự ngờ vực rằng những người xung quanh sẽ không thay đổi suy nghĩ hay hành động của họ đã khiến cô ấy từ bỏ mọi kỳ vọng vào người khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Thế nhưng、 cô gái không hề cố gắng phá vỡ những ràng buộc、 mà chỉ răm rắp hoàn thành những nhiệm vụ được giao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Những nhiệm vụ bị ép buộc、 tất cả đều là những việc mà một thuật giả bình thường khó lòng gánh vác nổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Nếu lùi lại một bước mà nhìn、 sẽ hiểu được cô gái đó đã hiện lên đáng sợ đến mức nào trong mắt những người xung quanh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Chắc chắn cô ấy sẽ nghe lời họ。Thế nhưng họ lại không thể hiểu tại sao cô ấy lại nghe lời。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Vì vậy、 nỗi lo sợ rằng một ngày nào đó sức mạnh ấy sẽ chĩa vào họ là điều không thể xóa bỏ。Sự nghi kỵ ngày càng lớn dần。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Chính vì cô gái không kỳ vọng gì vào người khác、 nên cô ấy không nói gì cả。Từ bỏ việc thấu hiểu lẫn nhau、 đối với cô gái đã chấp nhận cuộc đời mình、 lời nói chỉ là thứ vô dụng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Rốt cuộc cô gái đó、 là một kẻ ngu muội đã từ bỏ bản thân、 hay là một tu la vô tâm cứ mãi bước đi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Đối với thiếp、 kẻ chỉ đang nhìn một giấc mộng、 làm sao có thể nhìn thấu nội tâm của cô gái đó được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Chỉ là、 cuối cùng cô gái ấy、 bị tất cả mọi thứ bỏ rơi、 không thể bấu víu vào bất cứ điều gì、 chỉ còn lại sự thật rằng cô ấy đã biến mất một mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Tại sao vậy nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Dáng vẻ Rise lúc này、 trông hệt như cô gái đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11240300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0.5,,,,
+anm,tint,vi,150_150_150,0.0001,0
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì tôi ư？ Kẻ khờ ư？ Hay Tu La？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:unique,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>——Gì thế、 đừng làm tôi buồn cười chứ。Chẳng hiểu gì cả nên thành ra lại thấy hay ho、 mà ngay từ đầu、 tại sao Vee-chan lại có quyền quyết định chuyện đó là vì tôi hay không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:unique,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi muốn lấy lại những gì quan trọng。Tôi muốn nhớ lại người lẽ ra phải quan trọng với tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:unique,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu còn cản đường tôi nữa…… thì có lẽ sẽ phải nếm trải chút đau đớn đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm、 điều đó đáng sợ thật nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tuy nhiên、 mà này…… ngươi có làm được điều đó không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:unique,rise,-300,-100,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——…………Hả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_b,body:anger,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi sẽ nghiền nát ngươi。Đừng có mà hận tôi đấy nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:anger,vi,300,-240,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phiền phức thật đấy、 nhưng ta sẽ đấu với ngươi。Đến đây đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

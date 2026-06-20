@@ -1,0 +1,386 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10030100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm006.mp3,0,
+endwait
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>——————————！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_b,body:anger,watorisa,0,-240,0.5,0.5,,,,
+anm,tint,vye,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Khụ！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Wind2,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_046.mp3
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>————……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:anger,vye,0,-240,0.5,0.5,,,,
+anm,tint,watorisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chậc……！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Fire1,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>————……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playse,/download/sound/se/se_025.mp3
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+wait,1,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>——————————！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:anger,vye,-320,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hừ、 vô tận！ Cứ đánh đổ con này thì con khác lại tạo ra hư ảnh mới……！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_b,body:sad,watorisa,320,-240,0.5,0.5,,,,
+anm,tint,vye,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sức mạnh của từng con không đáng kể、 nhưng số lượng nhiều thế này thì…… E là chúng ta sẽ bị áp đảo mất。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0.5,,,,
+anm,tint,watorisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=4 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Fufu…… Hai cô nên chấp nhận đi thôi？ Nếu cả hai cùng gục ngã、 chi bằng chọn con đường để ít nhất một người sống sót thì hơn。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Này、 một con nữa tới đấy？ Nếu định đưa ra quyết định、 thì nên làm sớm đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+anm,scale,enemy1,1.5_1.5,0.1,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>——————————！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:anger,vye,0,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+shake,0.2,4,50,50
+playse,/download/sound/se/se_037.mp3
+spine,download/adv/spine/Slash2_Red,em1,default,animation,0,-250,0,1,1.0,0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,1,1.0,0
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:sad,vye,0,-240,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Khụ……！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,move,vye,320_-240,0.5,1
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_b,body:sad,watorisa,-320,-240,0.5,0.5,,,,
+anm,tint,vye,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vee-san……！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:anger,vye,320,-240,0.5,0,,,,
+anm,tint,watorisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hừ…… vết thương nhỏ nhặt thế này……！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,watorisa,0
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0.5,,,,
+anm,tint,vye,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=4 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cứng cỏi hơn tôi nghĩ đấy。Vậy thì、 cái này thì sao nhỉ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+anm,scale,enemy1,1.5_1.5,0.1,0
+anm,scale,enemy2,1.5_1.5,0.1,0
+anm,scale,enemy3,1.5_1.5,0.1,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>——————————！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:anger,vye,0,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+shake,0.2,4,50,50
+spine,download/adv/spine/Slash2_Red,em1,default,animation,0,-250,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+wait,0.42
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Red,em2,default,animation,0,0,-50,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+wait,0.28
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Red,em3,default,animation,0,-450,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+wait,0.7
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spineoff,em2,0
+spineoff,em3,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:sad,vye,0,-240,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Gừ、 aaaa……！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,vye,1
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0.5,,,,
+anm,tint,vye,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=4 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Fufu…… Cứ tưởng là một con cáo xấc xược、 nhưng tiếng kêu cũng hay phết đấy chứ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi nhớ hình như ở đâu đó có loại nhạc cụ làm từ da chó mèo、 vậy…… không biết da cáo có dùng được không nhỉ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Dùng cô thì chắc sẽ ra một âm thanh tuyệt vời―― À、 nói thế này thì có vẻ hơi quá đáng、 đúng không nhỉ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_b,body:sad,watorisa,320,-240,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>—Thôi đi mà！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_b,body:anger,watorisa,320,-240,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Nếu mục tiêu của cô là tôi、 thì cứ nhắm vào một mình tôi thôi。Vậy nên、 Vee-san thì、 làm ơn……！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:surprise,norn,-300,-120,0.5,0,,,,
+anm,tint,watorisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=4 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hề…… Một Debris giả mạo lại làm ra cái trò bảo vệ người khác như thế này cơ đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Lòng dũng cảm và sự hy sinh bản thân trong lúc nguy nan…… Một hành động đạo đức giả đầy dối trá。Cứ như thể là con người thật vậy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_b,body:anger,watorisa,320,-240,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cô muốn nói gì thì nói。Vee-san là…… một trong số ít bạn bè của tôi。Chỉ riêng điều đó thôi、 đã đủ để tôi liều mạng bảo vệ rồi……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:sad,vye,-320,-240,0.5,0.5,,,,
+anm,tint,watorisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Beato……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,vye,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0.5,,,,
+anm,tint,vye,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=4 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Fufu…… Lời nói đó cũng thật đậm chất con người nhỉ。Cái này、 dù thế nào đi nữa、 tôi cũng phải điều tra cho tường tận mới được――</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/Fire1,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+wait,0.02
+anm,move,norn,-480_-120,0.11,1
+endwait,,,,,,,,,,,
+wait,2.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spriteoff,watorisa,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:anger,vye,320,-240,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đừng có tự tiện nói tiếp như thế、 con nhóc kia。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:anger,norn,-480,-120,0.5,0,,,,
+anm,tint,vye,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=4 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Cô dai dẳng thật đấy。Vai diễn của cô kết thúc rồi、 nên làm ơn ngoan ngoãn lui vào cánh gà đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+stopbgm,0.5
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+bg,download/bg/bg_10030101.jpg,1,255
+playse,/download/sound/se/se_011.mp3
+endwait
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm007.mp3,0,
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_b,body:surprise,watorisa,-320,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cái gì…… Bầu trời、 đang nứt ra……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:surprise,vye,320,-240,0.5,0.5,,,,
+anm,tint,watorisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đây là…… Rốt cuộc、 chuyện gì đang xảy ra vậy……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,vye,0
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=4 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ôi chao、 cái này…… fufu、 có vẻ như một chuyện cực kỳ thú vị đang bắt đầu xảy ra rồi。Tôi phải tìm một chỗ ngồi đặc biệt để xem mới được。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:smile,norn,300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Thôi được rồi、 trận đấu này tạm thời giao lại cho các cô vậy。Coi như là phần thưởng cho tình bạn đáng rơi lệ này―― đại loại thế、 nhỉ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hẹn gặp lại lần sau nhé、 những Debris giỏi giả vờ làm người。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+spriteoff,norn,0.5
+playse,/download/sound/se/se_015.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_b,body:sad,watorisa,-320,-240,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Cô ta đi rồi、 có vẻ vậy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:sad,vye,320,-240,0.5,0.5,,,,
+anm,tint,watorisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À…… Rốt cuộc con nhóc đó là ai vậy nhỉ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:sad,vye,320,-240,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng mà、 ta đã sống ở Dreamlands lâu như vậy rồi…… bầu trời này là sao đây？ Lại còn cái cảm giác rợn người、 như kim châm vào da thịt này nữa……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_b,body:normal,watorisa,-320,-240,0.5,0,,,,
+anm,tint,vye,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chuyện này、 liệu có liên quan gì đến những Người Truy Tìm đó không ạ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:normal,vye,320,-240,0.5,0,,,,
+anm,tint,watorisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Xét tình hình thì、 có lẽ là vậy…… Nhưng hai chúng ta cứ đứng đây vò đầu bứt tóc cũng chẳng ích gì。Giờ thì rời khỏi đây là ưu tiên hàng đầu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nếu bị cuốn vào một cách bất cẩn、 ta không biết chuyện gì sẽ xảy ra với chúng ta bây giờ。Việc đánh giá bọn chúng cũng đã xong、 không có lý do gì để ở lại đây nữa。Đi thôi、 Beato。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_b,body:normal,watorisa,-320,-240,0.5,0,,,,
+anm,tint,vye,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vâng…… Chúng ta cũng phải báo cáo chuyện này càng sớm càng tốt ạ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+stopbgm,0.5
+endwait
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,watorisa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_b,body:normal,watorisa2,0,0,0,0,,,,
+imgconf,watorisa2,watorisa1,0,-950,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm026.mp3,0,
+endwait
+msg,0,<size=30><outline width=2 color=black>……Trước ý chí của con quái vật khổng lồ mang tên Nguyên thư Pnakotic、 sự tồn tại của tôi chẳng khác gì bụi bặm。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ở nơi không thể với tới này、 có gì đó、 một thứ gì đó lớn lao đang bắt đầu chuyển động。……Tôi có cảm giác như vậy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi không thể bảo vệ đứa trẻ ấy、 cũng không có tư cách ở bên cạnh con bé。Dù vậy、 tôi vẫn không thể ngừng cầu nguyện cho hạnh phúc của con bé là vì……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Làm ơn、 ai cũng được。Tôi biết lời cầu nguyện này quá đỗi ích kỷ và nửa vời、 nhưng……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Xin hãy chăm sóc cho đứa trẻ ấy giúp tôi――</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

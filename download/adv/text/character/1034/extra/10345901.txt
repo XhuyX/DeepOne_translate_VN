@@ -1,0 +1,168 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11200301.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm114.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ruiez1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:normal,ruiez2,0,0,0,0,,,,
+imgconf,ruiez2,ruiez1,0,-390,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103459/adv/sound/fav103459_01_01.mp3
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>—— Phép thuật dò tìm đã kiểm tra ba lần、 thuật thức dò xét và bẫy đã được đặt cách nhau hai mươi mét、 thành phần không khí cũng không có vấn đề gì</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:normal,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_02.mp3
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Với chừng này thì chắc là không sao đâu nhỉ… Không、 để chắc ăn… mình nên cẩn thận hơn một chút…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1 「Cô lo lắng chuyện gì vậy？,Lựa chọn 2 「…Hay là mình đi ngắm hoa sớm một chút nhỉ？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:anger,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_03.mp3
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chẳng lẽ không được lo lắng sao。Chứ không phải là đi ngắm hoa à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:anger,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_04.mp3
+msg,1,<outline width=2 color=black>Tôi mà có thể thong thả ngắm hoa anh đào được sao…！？ Theo kinh nghiệm từ trước đến giờ、 những lúc thế này thì chắc chắn sẽ có chuyện gì đó xảy ra！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:normal,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_05.mp3
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À、 anh cứ thong thả đi。Trong lúc đó、 tôi sẽ đặt thêm vài thuật thức dò xét nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:normal,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_06.mp3
+msg,1,<outline width=2 color=black>Với lại、 phải kiểm tra và đảm bảo đường thoát hiểm trong trường hợp xấu nhất nữa… Bẫy thì phải ngụy trang thật kỹ để người thường không phát hiện ra… Nhiều việc quá</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:normal,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_07.mp3
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…Chắc là anh nghĩ tôi lo xa nhỉ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:anger,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_08.mp3
+msg,1,<outline width=2 color=black>Nhưng biết làm sao… Vì… Vì là tôi mà？ Tự nói ra thì hơi ngại、 nhưng tôi không nghĩ là mình có thể dễ dàng có được bình yên đâu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:unique,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_09.mp3
+msg,1,<outline width=2 color=black>Ví dụ như、 trước đây、 khi tôi tình cờ ở trong một khách sạn、 tôi đã đi dạo trong công viên gần đó、 rồi đột nhiên bị cuốn vào cuộc chiến giữa các tổ chức ma thuật！ Đấu súng của mafia！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:unique,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_10.mp3
+msg,1,<outline width=2 color=black>Dù đã xoay sở thoát khỏi tình huống đó、 nhưng sau đó không hiểu sao lại bị giao cho việc xử lý hậu quả…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:unique,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_11.mp3
+msg,1,<outline width=2 color=black>Đúng vậy、 nhắc đến ngắm hoa thì khi tôi đến Nhật Bản、 dưới những tán hoa anh đào nở rộ、 không hiểu sao tôi lại đứng giữa vòng vây của xã hội đen、 công an và tổ chức ma thuật nữa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:unique,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_12.mp3
+msg,1,<outline width=2 color=black>Một người như tôi mà có thể ngắm hoa một cách bình yên ư？ Tôi không hề mơ mộng đến thế đâu…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:sad,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_13.mp3
+msg,1,<outline width=2 color=black>Nói ra càng thấy bất an hơn… Chẳng lẽ hoa anh đào này sẽ đột nhiên di chuyển và tấn công mình、 hay là có sinh vật bí ẩn nào đó chui ra từ gốc cây…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:sad,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_14.mp3
+msg,1,<outline width=2 color=black>Ư… Trong đầu tôi biết là mình lo lắng thái quá… Nhưng dù vậy… trái tim đã nhiều lần bị phản bội không thể nào tin vào sự bình yên được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:anger,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_15.mp3
+msg,1,<outline width=2 color=black>Này、 anh đang cười gì vậy… Anh có thể thấy vui、 nhưng với tôi thì là một vấn đề lớn đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:anger,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_16.mp3
+msg,1,<outline width=2 color=black>Nếu có chuyện gì xảy ra、 tôi sẽ bắt anh chịu trách nhiệm đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:normal,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_17.mp3
+msg,1,<outline width=2 color=black>Tôi không bảo anh phải đối phó với vấn đề đâu。Tôi không thể để anh làm những việc nguy hiểm đó được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:smile,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_18.mp3
+msg,1,<outline width=2 color=black>Thay vào đó… Nếu lần này、 lại có chuyện gì đó không liên quan đến việc ngắm hoa xảy ra、 thì lúc đó、 hãy đưa tôi đến đây vào một dịp khác nhé</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:smile,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_19.mp3
+msg,1,<outline width=2 color=black>Cho đến khi mình có thể ngắm hoa bình thường… Được chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:unique,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_20.mp3
+msg,1,<outline width=2 color=black>Mà、 có khi lại rơi vào vòng lặp vô tận cũng nên。Ha ha</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:sad,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103459/adv/sound/fav103459_01_21.mp3
+msg,1,<outline width=2 color=black>À、 dù là mình tự nói ra、 nhưng sao lại có cảm giác khó chịu quá… Tôi sợ là nó sẽ thành sự thật mất</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

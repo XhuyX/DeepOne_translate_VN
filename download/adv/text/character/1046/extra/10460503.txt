@@ -1,0 +1,179 @@
+﻿// machine translate -- gemini-2.5-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11430302.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:sad,perufe,0,-170,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_01.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>……Mari thật phiền phức。Chẳng lẽ không có cách nào với cô ta sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_02.mp3
+msg,1,<outline width=2 color=black>Không hiểu sao、 cứ mỗi đêm lại rủ tôi đi ngủ cùng。Ngoài ra còn rủ xem phim、 đi ăn nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_03.mp3
+msg,1,<outline width=2 color=black>Đúng là giờ tôi là <ruby>Ma Đạo Thư|Cổ Thần</ruby> của Mari。Tôi đã tự chọn、 nên giờ cũng không định nói gì về chuyện đó nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_04.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 chỉ vì vậy mà không cần phải ở bên cạnh tôi suốt ngày đêm chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:sad,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_05.mp3
+msg,1,<outline width=2 color=black>Vậy mà cô ta cứ bám riết lấy tôi…… Anh nói với Mari đi、 bảo cô ta đừng có làm vậy nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Chắc là vì Perfe thích Mari。,Tự mình nói đi。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_06.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tôi không hề thích Mari。Cô ta thật phiền phức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_07.mp3
+msg,1,<outline width=2 color=black>Nói chung、 tôi cũng không hiểu tại sao mình lại được thích。Chẳng lẽ anh nhầm sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_08.mp3
+msg,1,<outline width=2 color=black>Đúng là tôi có ban sức mạnh cho Mari。Nếu vì thế mà cô ta coi trọng tôi thì tôi có thể hiểu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:sad,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_09.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 cái kiểu của Mari…… có gì đó không đúng nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:anger,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_10.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đã nói rồi còn gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:sad,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_11.mp3
+msg,1,<outline width=2 color=black>Nhưng mỗi lần như vậy、 cô ta lại hỏi tôi có ghét cô ta không、 hay là sẽ sửa những lỗi lầm、 rồi lại khóc lóc、 ủ rũ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_12.mp3
+msg,1,<outline width=2 color=black>Cái kiểu đó là sao chứ。Tôi nên đối xử với cô ta thế nào đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_13.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>……Với lại này、 nếu tôi miễn cưỡng ngủ cùng Mari、 cô ta sẽ ôm chặt lấy tôi khi ngủ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_14.mp3
+msg,1,<outline width=2 color=black>Đó mới là chuyện phiền phức nhất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:sad,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_15.mp3
+msg,1,<outline width=2 color=black>Khi tôi cố gỡ tay cô ta ra、 dù đang ngủ nhưng trông cô ta lại có vẻ khổ sở、 hay là cô đơn……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:sad,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_16.mp3
+msg,1,<outline width=2 color=black>Đến mức tôi phải nghi ngờ liệu cô ta có thật sự ngủ say không、 vì Mari biểu lộ cảm xúc ngay cả trong giấc ngủ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:sad,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_17.mp3
+msg,1,<outline width=2 color=black>……Sao thế、 cái vẻ mặt đó là sao？ Trông như có điều muốn nói vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:sad,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_18.mp3
+msg,1,<outline width=2 color=black>Việc tôi quan tâm đến Mari lại khiến anh ngạc nhiên đến vậy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_19.mp3
+msg,1,<outline width=2 color=black>Ừm、 chắc là vậy rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_20.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 đây cũng là trách nhiệm của tôi、 nên tôi không thể giả vờ như không biết hay bỏ mặc được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_21.mp3
+msg,1,<outline width=2 color=black>Chính tôi đã yêu cầu Mari、 người luôn hiểu chuyện、 biết lẽ phải、 và hành xử đúng mực、 hãy bộc lộ sự bất toàn của một con người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_22.mp3
+msg,1,<outline width=2 color=black>Trước mặt tôi、 Mari có thể bất toàn hơn bất kỳ ai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_23.mp3
+msg,1,<outline width=2 color=black>Tôi không thể phủ nhận trách nhiệm của những lời nói đó được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_24.mp3
+msg,1,<outline width=2 color=black>……Tuy nhiên thì、</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104605/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104605/adv/sound/fav104605_03_25.mp3
+msg,1,<outline width=2 color=black>Mari thật sự…… không thể nào thay đổi một chút nào sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

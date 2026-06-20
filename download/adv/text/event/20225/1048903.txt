@@ -1,0 +1,407 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11230300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+playse,/download/sound/se/se_020.mp3
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rise1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103612/adv/atlas/stand_a,body:surprise,rise2,0,0,0,0,,,,
+imgconf,rise2,rise1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ối、 ơ、 ơ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103612/adv/atlas/stand_a,body:sad,rise2,0,0,0,0,,,,
+imgconf,rise2,rise1,0,-410,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>――Ự、 ứ、 aaaaa…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103612/adv/atlas/stand_a,body:sad,rise2,0,0,0,0,,,,
+imgconf,rise2,rise1,0,-410,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Đau muốn chết… Ư… Dù không gian kỳ lạ có vẻ đã bị phá tan rồi、 nhưng toàn thân như muốn nổ tung từ bên trong…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103612/adv/atlas/stand_a,body:sad,rise,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà này、 đây là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103612/adv/atlas/stand_a,body:surprise,rise,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>A… Phải rồi。Nhớ ra rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103612/adv/atlas/stand_a,body:surprise,rise,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chúng ta vừa đến khu vực này đã bị hút vào không gian đó phải không</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103612/adv/atlas/stand_a,body:surprise,rise,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà nói mới nhớ、 Ajisai thì――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm178.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,,,
+sprite,download/character/181109/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Có vẻ như Rii-chan cũng đã thoát ra an toàn rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thật tình。Dùng vũ lực để phá tan thì được đấy、 nhưng mà lại dồn lực một cách bừa bãi như thế… Toàn thân đau nhức hết cả lên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,,,
+sprite,download/character/103612/image/main.png,card2,0,0,2,0,,,,
+anm,fade,card2,0,0,0
+anm,scale,card2,1_1,1,0
+anm,fade,card2,255,1,0
+endwait,,,,,,,,,,,
+spriteoff,card1,0
+endwait,,,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ờ、 thì đó là câu tôi định nói đấy。Không thể điều chỉnh lực một chút sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Suýt chút nữa là toàn thân nổ tung từ bên trong rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+sprite,download/character/181109/image/main.png,card1,0,0,1,0.5,,,,
+endwait,,,,,,,,,,,
+spriteoff,card2,0
+endwait,,,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hai ta đều vậy… Thật tình。Bị hành hạ thế này thì、 những hối hận cũng bay biến hết cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+sprite,download/character/103612/image/main.png,card2,0,0,1,0.5,,,,
+endwait,,,,,,,,,,,
+spriteoff,card1,0
+endwait,,,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Nhưng mà、 ra đòn cùng lúc、 ăn ý thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Quả là chúng ta。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+sprite,download/character/181109/image/main.png,card1,0,0,1,0.5,,,,
+endwait,,,,,,,,,,,
+spriteoff,card2,0
+endwait,,,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì tôi đã quen với việc đáp ứng những yêu cầu vô lý của tiểu thư rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+sprite,download/character/103612/image/main.png,card2,0,0,1,0.5,,,,
+endwait,,,,,,,,,,,
+spriteoff,card1,0
+endwait,,,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 thì cứ coi là sợi dây liên kết chủ tớ vượt qua cả không gian ngăn cách đi。Đồ hầu gái khó chiều。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103612/adv/atlas/stand_a,body:normal,rise,300,-100,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+spriteatlas,download/character/181109/adv/atlas/stand_a,body:surprise,azi,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà nói mới nhớ、 bộ váy này là sao nhỉ。Trước khi bị hút vào không gian đó、 tôi không mặc thế này đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103612/adv/atlas/stand_a,body:normal,rise,300,-100,0.5,0,,,,
+anm,tint,azi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chà…？ Đặc quyền khi thoát ra chăng？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181109/adv/atlas/stand_a,body:sad,azi,-300,-120,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao lại có lý do gì chứ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103612/adv/atlas/stand_a,body:sad,rise,300,-100,0.5,0,,,,
+anm,tint,azi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi nghĩ cố gắng tìm lý do cho những gì đã xảy ra trong Dreamlands còn sai hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181109/adv/atlas/stand_a,body:sad,azi,-300,-120,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm、 có lẽ là vậy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181109/adv/atlas/stand_a,body:normal,azi,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Tạm thời、 có vẻ như chúng ta đã lạc mất họ rồi、 nên chắc là nên nhanh chóng tập hợp lại thôi。Chắc chắn họ đang lo lắng lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103612/adv/atlas/stand_a,body:smile,rise,300,-100,0.5,0,,,,
+anm,tint,azi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103612/adv/atlas/stand_a,body:normal,rise,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Nhưng mà、 Ajisai。Trước đó、 cho tôi hỏi chút được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181109/adv/atlas/stand_a,body:surprise,azi,-300,-120,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện gì vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+sprite,download/character/6060/image/606011.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――…Sao lại nhào đến ôm tôi đột ngột thế。Cứ tưởng là sẽ bị tấn công nên tôi đã đề phòng rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 lại nói thế nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi chỉ muốn chắc chắn Ajisai đang ở đây thôi。Ajisai cũng có cảm giác tương tự phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chà、 tôi cũng không biết nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không chịu thành thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu đã vậy、 thì là mệnh lệnh của tiểu thư đây。Hãy trả lời thật lòng đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm… Ừm、 đúng là vậy。Vì tôi vừa mới tỉnh dậy từ giấc mơ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Để có thể chắc chắn rằng đây không còn là giấc mơ nữa、 việc xác nhận xem Rii-chan có phải là thật hay không、 bằng cách ở gần như thế này、 cũng không tệ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật tình、 là một hầu gái không chịu thành thật mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi chỉ là người hay ngại thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nói dối。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>…Hừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm hừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi tuyệt đối không nói là mọi hối hận đã tan biến hết。Nhưng mà… Tôi nghĩ hối hận chỉ là chuyện nhỏ thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chỉ cần một cú đấm là bay biến。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy… Thật là khó chịu khi người ta nghĩ rằng có thể ngăn chặn được nó bằng những thứ như thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>So với những thứ đó、 việc vươn tới tương lai còn khó khăn hơn、 và quan trọng hơn nhiều。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>…Nhân tiện、 tương lai đó là tương lai như thế nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ồ。Tôi thấy rõ dã tâm muốn bắt tôi phải nói những điều đáng xấu hổ rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hãy khai thật đi。Là mệnh lệnh của tiểu thư đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu đã nói vậy thì tôi không thể thắng được rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>…Nhưng mà、 cũng không có gì đặc biệt cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Là tương lai cùng Rii-chan vươn tới。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ồ、 đã nói rồi đó？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>……Nếu cậu nuốt lời thì đừng trách tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi sẽ không nuốt lời。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi tuyệt đối không nuốt lời đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi tin cậu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

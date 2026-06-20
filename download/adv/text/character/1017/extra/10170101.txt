@@ -1,0 +1,106 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm031.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:surprise,qquinecy,1000,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,qquinecy,0_-120,2,0
+endwait
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_01.mp3
+msg,1,<outline width=2 color=black>Ơ、 cái này…… em tưởng là lối này cơ mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,move,qquinecy,-1000_-120,2,0
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:shy,qquinecy,1000,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,qquinecy,0_-120,2,0
+endwait
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_02.mp3
+msg,1,<outline width=2 color=black>C-cái này…… không lẽ nào、 em lại lạc đường nữa rồi sao……？ Ôi trời…… em ghét mấy tòa nhà phức tạp lắm…… R'lyeh rộng quá đi mất……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:surprise,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_03.mp3
+msg,1,<outline width=2 color=black>——Khoan đã、 cái cảm giác này…… ai đó đang nhìn em à？ Ừm、 người ở đó là………… à。Ra là anh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:shy,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_04.mp3
+msg,1,<outline width=2 color=black>Ừm…… không phải vậy đâu ạ？ Cái này、 ừm…… không hẳn là lạc đường、 mà là em đang khám phá bên trong R'lyeh thì đúng hơn là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:shy,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_05.mp3
+msg,1,<outline width=2 color=black>……Xin lỗi、 em lạc đường rồi。Nếu được、 anh có thể chỉ đường cho em không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,Đã cài định vị vào thiết bị chưa？,Sao không nhìn bảng chỉ dẫn？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:smile,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_06.mp3
+msg,1,<outline width=2 color=black>À、 cái đó em có cài rồi ạ。Tiện lợi thật đấy nhỉ、 nó chỉ đường ngắn nhất đến mọi nơi trong cơ sở。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_07.mp3
+msg,1,<outline width=2 color=black>Nhưng mà nếu em để quên thiết bị trong phòng thì cũng vô dụng thôi、 phải không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:shy,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_08.mp3
+msg,1,<outline width=2 color=black>Em không bao giờ quên mang theo súng lục、 vậy mà không hiểu sao cứ ba lần thì lại quên thiết bị một lần…… À ha ha、 ha ha ha…… haizz。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_09.mp3
+msg,1,<outline width=2 color=black>Người mà có thể nhìn bảng chỉ dẫn một cách đàng hoàng thì、 chắc là sẽ không lạc đường thường xuyên như vậy đâu ạ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_10.mp3
+msg,1,<outline width=2 color=black>Từ xưa đến nay em vẫn vậy đó…… Ở ngoài phố thì không sao、 nhưng cứ vào trong tòa nhà là tự nhiên mất phương hướng vậy đó……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_11.mp3
+msg,1,<outline width=2 color=black>Cứ lang thang thế này、 em lại nhớ đến lần trước đi Nhật công tác…… Shinjuku、 Shibuya、 Akihabara…… Tokyo đúng là một nơi đáng sợ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_12.mp3
+msg,1,<outline width=2 color=black>Thật sự may mắn khi gặp được anh…… Em cứ nghĩ、 mình sẽ cứ thế này mà lang thang mãi mãi trong R'lyeh mất thôi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_13.mp3
+msg,1,<outline width=2 color=black>Anh có nghĩ là em đang làm quá không……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_14.mp3
+msg,1,<outline width=2 color=black>Hồi trước、 khi lạc trong một viện bảo tàng ở Mỹ、 cuối cùng em đã không thể thoát ra cho đến khi đóng cửa và bảo vệ tìm thấy em đó？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_15.mp3
+msg,1,<outline width=2 color=black>Với cái sự rộng lớn của R'lyeh、 và tình hình không có nhân viên nào ở đây、 thì khả năng chết đói cũng…… không phải là không có……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_16.mp3
+msg,1,<outline width=2 color=black>V-vậy nên、 tuy là sẽ làm phiền anh rất nhiều、 nhưng làm ơn hãy chỉ đường cho em được không ạ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_17.mp3
+msg,1,<outline width=2 color=black>Nói thẳng ra thì、 nếu anh dẫn đường cho em thì sẽ giúp em rất nhiều、 nếu không thì em lại sẽ lạc đường mất thôi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:shy,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101701/adv/sound/fav101701_03_18.mp3
+msg,1,<outline width=2 color=black>Làm ơn đi ạ。Anh là hy vọng duy nhất của em đó……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,1,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

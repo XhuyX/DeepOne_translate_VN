@@ -1,0 +1,118 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,1,255
+endwait
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:unique,miliam,0,-220,0.5,0.5,,,,
+playse,/download/sound/se/se_046.mp3
+endwait
+wait,1
+endwait
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:anger,miliam,0,-220,0.5,0,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_01.mp3
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Này、 chờ đã。Anh có biết bây giờ là mấy giờ rồi không？ Kim đồng hồ sắp chỉ đến giữa trưa rồi đấy？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:anger,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_02.mp3
+msg,0,<size=30><outline width=2 color=black>Này… với tư cách là người có trách nhiệm giữ gìn an ninh cho R'lyeh、 tôi hỏi anh、 anh định đi đâu vào giờ này？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,選択肢1 「……資料室,選択肢2 「知り合いの部屋
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:anger,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_03.mp3
+msg,0,<size=30><outline width=2 color=black>Phòng tư liệu… ừm、 phòng tư liệu？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:anger,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_04.mp3
+msg,0,<size=30><outline width=2 color=black>Xem ra anh đúng là mù đường。Nếu là phòng tư liệu、 lẽ ra anh phải rẽ phải ở lối đi trước rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:anger,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_05.mp3
+msg,0,<size=30><outline width=2 color=black>Hay là tôi dẫn anh đi nhé？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:sad,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_06.mp3
+msg,0,<size=30><outline width=2 color=black>Haizz… Nếu anh xin lỗi với vẻ mặt tội lỗi như vậy、 thì ngay từ đầu đừng có mà nói dối。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:anger,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_07.mp3
+msg,0,<size=30><outline width=2 color=black>Người quen của anh ở R'lyeh、 chắc chắn là phụ nữ、 đúng không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:anger,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_08.mp3
+msg,0,<size=30><outline width=2 color=black>Tại sao anh lại né tránh ánh mắt tôi、 lại còn trả lời một cách mập mờ như thế？ Chẳng phải là vì anh có gì đó giấu diếm sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:anger,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_09.mp3
+msg,0,<size=30><outline width=2 color=black>Giờ thì vẫn còn kịp、 nếu anh thành thật khai báo、 tôi sẽ bỏ qua chuyện phải vào phòng kiểm điểm đấy？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:normal,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_10.mp3
+msg,0,<size=30><outline width=2 color=black>…Ra là、 đi rình mò。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:surprise,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_11.mp3
+msg,0,<size=30><outline width=2 color=black>Hả、 đi rình mò…！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:shy,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_12.mp3
+msg,0,<size=30><outline width=2 color=black>Đ、 đ、 đ…đồ…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:anger,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_13.mp3
+msg,0,<size=30><outline width=2 color=black>Bẩn thỉu！ Bất thuần！ Anh nghĩ R'lyeh này là cái gì chứ！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:anger,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_14.mp3
+msg,0,<size=30><outline width=2 color=black>Nơi này là nơi quy tụ của những người bạn đồng hành trong ma thuật、 để thực hiện tâm nguyện to lớn là thách thức những điều sâu xa nhất của ma thuật… Khụ、 kh…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:anger,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_15.mp3
+msg,0,<size=30><outline width=2 color=black>Để sau nói chuyện！ Giờ thì phải nhanh chóng tống cổ một kẻ như anh vào phòng kiểm điểm… Khoan đã、 anh cười cái gì chứ！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:surprise,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_16.mp3
+msg,0,<size=30><outline width=2 color=black>Ơ、 cái này… bình nước á？ Gì… cà phê？ Đồ tiếp tế？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:surprise,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_17.mp3
+msg,0,<size=30><outline width=2 color=black>Nhưng mà anh、 anh còn đi rình mò nữa… sao lại mang theo thứ này… ơ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:surprise,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_18.mp3
+msg,0,<size=30><outline width=2 color=black>Chẳng lẽ… ngay từ đầu là để đưa cái này cho tôi sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:surprise,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_19.mp3
+msg,0,<size=30><outline width=2 color=black>…À、 ừm。Không cần những lời động viên đâu。Đi tuần là một trong những nhiệm vụ của tôi mà—ý tôi là không phải！ Không cần phải nói những chuyện như vậy！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:shy,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_20.mp3
+msg,0,<size=30><outline width=2 color=black>À、 anh、 chẳng lẽ ngay từ đầu là anh chọc ghẹo tôi sao…？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:shy,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_21.mp3
+msg,0,<size=30><outline width=2 color=black>Khụ、 ư…！？ Tôi rất vui vì được cho đồ tiếp tế、 và tôi cũng rất biết ơn vì anh đã động viên、 nhưng mà bị trêu chọc như vậy thì tôi không thể nào cảm ơn một cách chân thành được…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:shy,miliam,0,-220,0.5,0,,,,
+playvoice,1,download/character/102800/adv/sound/fav102803_01_22.mp3
+msg,0,<size=30><outline width=2 color=black>Nếu vậy thì cứ nói thẳng ra ngay từ đầu có phải tốt hơn không！ Sao lại đi trêu chọc tôi chứ、 thật là… Cảm ơn anh！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,300 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11690300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm101.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_01.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đây quả là… một vườn Nhật Bản、 phải không？ Với cả trăng rằm đẹp nữa、 anh thấy phong cảnh này có tuyệt không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:surprise,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_02.mp3
+msg,1,<outline width=2 color=black>Bộ kimono này、 có phải cũng là để hợp với không khí của vùng này không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_03.mp3
+msg,1,<outline width=2 color=black>Phần vai lại hở ra、 có vẻ táo bạo hơn kimono thông thường… Chắc chắn anh cũng thích kiểu này、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_04.mp3
+msg,1,<outline width=2 color=black>――Phù、 không cần vội vàng vậy đâu。Em có trách móc gì đâu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_05.mp3
+msg,1,<outline width=2 color=black>Việc anh là người hơi… hư hỏng…――chỉ hơi thôi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:surprise,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_06.mp3
+msg,1,<outline width=2 color=black>Ưm… có lẽ không phải 'hơi' đâu、 nhưng việc anh là người hư hỏng thì em biết rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_07.mp3
+msg,1,<outline width=2 color=black>Về phần em、 nếu mặc bộ đồ này mà không được ai để ý thì buồn lắm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_08.mp3
+msg,1,<outline width=2 color=black>Nếu anh thấy em quyến rũ hơn một chút、 thì em vui hơn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:unique,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_09.mp3
+msg,1,<outline width=2 color=black>Cho nên… những chỗ khiến anh tò mò、 cứ nhìn thoải mái đi、 được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1 「Vậy thì không khách sáo nữa,Lựa chọn 2 「Đâu phải lúc nào tôi cũng nghĩ về chuyện đó…
+if,select_===_1,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,julia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:unique,julia2,0,0,0,0,,,,
+imgconf,julia2,julia1,0,-300,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/181511/adv/sound/fav181511_01_10.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ê、 ừm… quả thật em đã bảo anh nhìn thoải mái、 nhưng bị nhìn chằm chằm thế này thì em hơi ngại</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/181511/adv/sound/fav181511_01_11.mp3
+msg,1,<outline width=2 color=black>Hay là、 anh đang cố nhìn trộm quá đấy？ Từ khe hở của bộ đồ vào ngực… Ờm、 em nghĩ thế thì hơi quá đáng…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:shy,julia,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_12.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Thôi nào… cái tính dễ dãi、 thích đùa giỡn thế này、 em lại nghĩ đến anh Norn rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_13.mp3
+msg,1,<outline width=2 color=black>Mà、 em cũng không ghét những điểm đó…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:unique,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_14.mp3
+msg,1,<outline width=2 color=black>Nhưng、 anh không được làm thế với ai khác đâu đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_15.mp3
+msg,1,<outline width=2 color=black>Chỉ vì người em thích là anh nên em mới cho phép thôi、 chứ xét theo lẽ thường thì đây là quấy rối tình dục đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_16.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Phù、 sao giờ anh lại cố chấp thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_17.mp3
+msg,1,<outline width=2 color=black>Em đâu có ghét anh vì anh hư hỏng đâu？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_18.mp3
+msg,1,<outline width=2 color=black>Thay vào đó… nếu anh cho em thấy con người thật của anh、 thì em cũng có thể táo bạo hơn một chút、 nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:unique,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_19.mp3
+msg,1,<outline width=2 color=black>――Nói vậy thôi。Phù、 chỉ là nói đùa thôi… đùa thôi、 đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,puti1,0,0,1280,250,0.5,,,,
+playse,/download/sound/se/se_gacha_012.mp3
+sprite,download/character/181504/image/adv1.png,puti2,0,0,0,0,,,,
+imgconf,puti2,puti1,0,0,,,0,1,1,0.5
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:surprise,julia,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_01_20.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…A？ Puchi、 tự dưng lại xuất hiện、 có chuyện gì sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm124.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,puti1,0,0,1280,250,0.5,,,,
+playse,/download/sound/se/se_gacha_012.mp3
+sprite,download/character/181504/image/adv1.png,puti2,0,0,0,0,,,,
+imgconf,puti2,puti1,0,0,,,0,1,1,0.5
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+anm,move,puti2,-100_0,0.3,0
+endwait
+wait,0.2
+endwait,,,,,,,,,,,
+anm,move,puti2,100_0,0.3,0
+endwait
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,julia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:surprise,julia2,0,0,0,0,,,,
+imgconf,julia2,julia1,0,-280,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,julia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:shy,julia2,0,0,0,0,,,,
+imgconf,julia2,julia1,0,-430,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/181511/adv/sound/fav181511_01_21.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Kyah！ P、 Puchi、 chui vào đâu thế… a、 ư、 không được、 đừng có quậy… n、 này、 Puchi… a、 ưm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:shy,julia2,0,0,0,0,,,,
+imgconf,julia2,julia1,0,-430,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/181511/adv/sound/fav181511_01_22.mp3
+msg,1,<outline width=2 color=black>C、 có chuyện gì vậy、 tự dưng lại… ưm、 n、 này、 thật là、 bao nhiêu là không khí tốt đẹp、 lại phá đám… y、 a…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:shy,julia2,0,0,0,0,,,,
+imgconf,julia2,julia1,0,-430,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/181511/adv/sound/fav181511_01_23.mp3
+msg,1,<outline width=2 color=black>Hya、 thế này、 động đậy thì、 đồ sẽ bung ra mất… ư、 a…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:shy,julia2,0,0,0,0,,,,
+imgconf,julia2,julia1,0,-430,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/181511/adv/sound/fav181511_01_24.mp3
+msg,1,<outline width=2 color=black>A、 anh cũng đừng có nhìn thích thú nữa、 hãy ngăn Puchi lại đi… ưm、 a、 thôi nào、 em、 xin anh、 giúp em với… ya、 ưm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

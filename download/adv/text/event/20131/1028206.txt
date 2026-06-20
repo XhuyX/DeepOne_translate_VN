@@ -1,0 +1,598 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>――Mỗi sáng、 nhìn vào mắt mình trong gương là một nỗi buồn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Lời nguyền hy sinh bản thân、 ngự trị trong dòng máu của kẻ cướp bóc xấu xa。Tôi ghét、 cực kỳ ghét màu mắt、 minh chứng cho lời nguyền đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Chắc chắn rồi、 tôi、 kẻ bị nguyền rủa、 sẽ chẳng bao giờ có thể mở lòng với ai、 và rồi sẽ mục nát dần theo thời gian… Tôi đã nghĩ vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nhưng… từ khi được khen là có đôi mắt đẹp、 tôi đã sinh lòng tham。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Không dựa vào sức mạnh của đôi mắt này、 chỉ vì lời khen của anh、 tôi chắc chắn đã được cứu rỗi đến mức không thể nào khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Và rồi、 tôi muốn nghe anh nói nhiều hơn nữa… Tôi đã nghĩ vậy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nhưng trái ngược với mong muốn đó、 sao tôi lại không thể thành thật được。Lại thốt ra những lời đi ngược với cảm xúc của mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Thật là chán ghét bản thân。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Vì vậy… tôi nghĩ、 có lẽ mình nên thuận theo ý muốn của cô ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nếu là cô ấy、 một tôi không phải là tôi、 ở một thế giới xa xôi nào đó、 người đã dâng hiến tất cả、 thì có lẽ… tôi có thể để mình bị cuốn theo…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11090300.jpg,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm125.mp3,0,
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11530300.jpg,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 「逃げ切った……？,選択肢2 「ここまでくれば大丈夫だろう,選択肢3 「もう少し役得を味わってもよかったかも,選択肢4 「……やっぱり戻ろうかな
+if,select_===_1,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+elseif,select_===_3,,,,,,,,,
+elseif,select_===_4,,,,,,,,,
+endif,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,elica1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica2,0,0,0,0,,,,
+imgconf,elica2,elica1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Đồ hèn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ồ、 sao lại kích động đến thế… Chẳng lẽ có chuyện gì mờ ám à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>À、 hay là đang sợ hãi nhỉ… Tối nay、 có vẻ như là một đêm có nhiều dã thú lắm đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,elica,0.6_0.6,0.5,0
+endwait
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:unique,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Sao thế、 lại đề phòng làm gì… Chẳng lẽ、 ngươi nghĩ ta cũng sẽ mê mệt ngươi như những kẻ khác sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:unique,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Giả sử ta là dã thú đi… Sao ngươi lại nghĩ ta sẽ thích chọn một con mồi hèn mọn như ngươi chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Ngươi cho rằng mình là một con mồi ngon sao？ Lầm to rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Ta không thích ăn tạp đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,elica,0.7_0.7,0.5,0
+anm,move,elica,0_-130,0.5,0
+endwait
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:smile,elica,0,-130,0.7,0,,,,
+msg,0,<outline width=2 color=black>À、 nhưng… đôi khi、 đồ ăn tạp lại có vị ngon bất ngờ nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:unique,elica,0,-130,0.7,0,,,,
+msg,0,<outline width=2 color=black>Hừm。Trong tình huống này mà còn lơ là、 thật là ngu ngốc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:unique,elica,0,-130,0.7,0,,,,
+msg,0,<outline width=2 color=black>Ở đâu ra có con cừu nào lại thật sự thả lỏng khi được sói bảo rằng nó sẽ không ăn chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:smile,elica,0,-130,0.7,0,,,,
+msg,0,<outline width=2 color=black>Hay là、 trên đời này cũng có những con cừu kỳ lạ thích bị ăn thịt nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:smile,elica,0,-130,0.7,0,,,,
+msg,0,<outline width=2 color=black>Nếu là ai đó say mê đôi mắt bị nguyền rủa đáng nguyền rủa kia、 thì có lẽ nghĩ ra những chuyện kỳ quặc như vậy cũng không có gì lạ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,0,-130,0.7,0,,,,
+msg,0,<outline width=2 color=black>Này、 đồ hèn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,0,-130,0.7,0,,,,
+msg,0,<outline width=2 color=black>Ngươi hôm nay、 và cả sau này nữa、 có còn nói những điều kỳ quặc như là、 ta có đôi mắt đẹp không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,0,-130,0.7,0,,,,
+msg,0,<outline width=2 color=black>Có còn… nói như vậy với ta không…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,elica1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:surprise,elica2,0,0,0,0,,,,
+imgconf,elica2,elica1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>A…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:surprise,elica,0,-130,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:shy,elica,0,-130,0.7,0,,,,
+msg,0,<outline width=2 color=black>…Tự nhiên hôn lên má、 thật là vô duyên。Thật sự là đồ hèn hết thuốc chữa。Tồi tệ thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:shy,elica,0,-130,0.7,0,,,,
+msg,0,<outline width=2 color=black>…Đồ ngốc、 ta。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,elica,0.5_0.5,0.5,0
+anm,move,elica,0_-100,0.5,0
+endwait
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thôi đủ rồi。Ta đã quá chán ngấy với đồ hèn ngươi rồi… Đi chỗ khác đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:unique,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hay là… ngươi muốn bị bắt kịp bởi tiếng bước chân đang đến gần kia？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ta sẽ cầm chân Raiha… Nào、 đi đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11530300.jpg,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0.5,,,,
+anm,tint,elica,150_150_150,0.0001,0
+spriteatlas,download/character/101908/adv/atlas/stand_a,body:unique,silvy,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Gì vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101908/adv/atlas/stand_a,body:unique,silvy,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cậu、 giả vờ ăn bánh quy、 nhưng thật ra là không ăn đúng không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngươi nghĩ ta là một người phụ nữ ngu ngốc đến mức mắc bẫy đã rõ mười mươi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101908/adv/atlas/stand_a,body:smile,silvy,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi chỉ nghĩ cô là một người phụ nữ vụng về、 nếu không có một cái cớ như vậy thì sẽ không thể hành động được thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101908/adv/atlas/stand_a,body:normal,silvy,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng、 không ngờ lại bị nhìn thấu ngay lập tức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cậu đang nói về bánh quy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:unique,elica,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hay là、 về diễn xuất của cậu？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101908/adv/atlas/stand_a,body:unique,silvy,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――…Thật sự chịu thua rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm102.mp3,0,
+endwait,,,,,,,,,,,
+
+
+flash,255,255,255,1,1,2
+spriteoff,silvy,0.2
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:normal,silvy_s,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao cô biết được？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô mang khí tức của Đôi Mắt Tohil quá đậm đặc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:normal,silvy_s,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ra vậy。Dù thế giới có khác biệt、 đôi mắt của ta sẽ không nhầm lẫn người mà nó đã ban ân sủng、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù vậy、 tại sao cô lại bày trò nghịch ngợm như vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:smile,silvy_s,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đêm Halloween quý giá này mà。Một kẻ giống như vong linh như ta bày trò nghịch ngợm thì chẳng có gì lạ lùng、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:normal,silvy_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 đó là một câu đùa thôi…… Đây là một cơ hội hiếm có。Nhân tiện thì、 ta chỉ nghĩ là sẽ thúc đẩy một chút cho cái lưng vụng về của em thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gì thế、 cái sự lắm chuyện đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:normal,silvy_s,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì ta thiên vị em mà…… Erica Liubia。Ta nghĩ rằng vì em、 ta sẵn sàng đối đầu với cả thế giới đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:normal,silvy_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>——Dĩ nhiên、 với điều kiện là ta không làm trái ý Bridget-kun。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:sad,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật là không thành thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:normal,silvy_s,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đó là sự khác biệt trong quan điểm thôi。Nói rõ tiền đề là vị trí thứ hai、 và tuân thủ nó。Đó là thành ý theo cách của ta đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:unique,silvy_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À mà này、 tại sao em lại nhượng bộ vậy？ Đã giả vờ đến nửa chừng rồi mà…… Có phải em đã sợ hãi rồi không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:unique,silvy_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu vậy thì lần này、 dù có hơi cưỡng ép một chút、 ta cũng phải nghĩ đến việc cho em uống thuốc để em nói ra sự thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:sad,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Thật là không thành thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:unique,silvy_s,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ta nghĩ là ta hiểu rõ trái tim thật sự của em hơn cả em đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu vậy thì、 đừng tự ý hành động với mức độ hiểu biết chỉ đủ để hỏi 'tại sao' nữa。Sau này、 xin hãy kiềm chế những trò như thế này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Với lại、 hãy mau chóng trả Louise và mọi người về trạng thái bình thường đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:normal,silvy_s,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đằng nào thì cứ để một lát là、 họ sẽ tự——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngay lập tức、 đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:smile,silvy_s,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——Ta đã nghĩ em sẽ nói vậy、 nên đã xử lý rồi。Mọi người đã tỉnh táo lại và đang run rẩy vì xấu hổ ở một nơi cách đây không xa rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:sad,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật là、 đồ xấu tính……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:normal,silvy_s,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À mà này、 Asaka-kun không có ở đây sao？ Không phải cậu ấy ở đây sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:surprise,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:surprise,silvy_s,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hửm？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Nhắc mới nhớ、 Souka đâu rồi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:normal,silvy_s,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cảm thấy có trách nhiệm vì bánh quy của mình là một phần nguyên nhân gây ra náo loạn、 cô ấy đã dũng cảm chạy đi trước để bảo vệ cậu ấy、 em chưa gặp sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:normal,silvy_s,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103352/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+anm,tint,silvy_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi không biết đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101980/adv/atlas/stand_a,body:unique,silvy_s,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Asaka-kun trong tình trạng đó、 lại còn Souka-kun nữa chứ…… Cậu ấy cũng vất vả thật nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

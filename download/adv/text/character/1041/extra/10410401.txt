@@ -1,0 +1,183 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10050100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,100,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,2,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+shake,0.2,3,10,10
+anm,tint,enemy1,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_b,body:normal,aika,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_01.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>——Tôi nghĩ là đám địch xung quanh đã biến mất hết rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_b,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_02.mp3
+msg,1,<outline width=2 color=black>Ừm、 không có mệt mỏi gì nên ổn…… thậm chí còn thấy khá hơn bình thường。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,aika1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104102/adv/atlas/stand_b,body:normal,aika2,0,0,0,0,,,,
+imgconf,aika2,aika1,600,300,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104104/adv/sound/fav104104_03_03.mp3
+msg,1,<outline width=2 color=black>Quả nhiên、 Dreamlands gần với Nguyên thư Pnakotic nên…… Bạch Anh、 một trong những Bản thảo Pnakotic、 chắc cũng chịu ảnh hưởng gì đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_04.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ừm…… cậu quan tâm đến Bạch Anh à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_05.mp3
+msg,1,<outline width=2 color=black>Cũng chẳng có gì đáng giải thích…… chỉ là một trong năm cuốn Bản thảo Pnakotic do Tổ chức Lovecraft tạo ra。Chỉ vậy thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_06.mp3
+msg,1,<outline width=2 color=black>Dù vậy、 nó không còn giống Bản thảo Pnakotic mà cậu biết – Hắc tường vi của Akai Asaka。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_07.mp3
+msg,1,<outline width=2 color=black>Hắc tường vi của Akai Asaka đã tiếp xúc sâu với Nguyên thư Pnakotic một lần và thức tỉnh nhân cách…… nó đã biến chất、 tôi nghĩ nó gần với <ruby>Ma đạo thư-Old One</ruby> hơn là <ruby>Ma đạo thư-Grimoire</ruby> 。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_08.mp3
+msg,1,<outline width=2 color=black>Bạch Anh、 dù mạnh đến đâu、 cũng không vượt khỏi khuôn khổ của một ma đạo thư。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_09.mp3
+msg,1,<outline width=2 color=black>Không biết nếu cứ tiếp tục tham gia Truy tìm Dreamlands thế này thì sẽ ra sao。……có lẽ、 nhân cách sẽ nảy sinh giống như Hắc tường vi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Không biết là tính cách thế nào nhỉ？,Cậu không thích à？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_10.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ai biết……？ Nhân tiện、 tôi nghe nói Hắc tường vi có lòng trung thành mạnh mẽ với Akai Asaka。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_11.mp3
+msg,1,<outline width=2 color=black>Bạch Anh…… không biết thế nào。Hy vọng nó không thành ra vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_12.mp3
+msg,1,<outline width=2 color=black>Vì trung thành kiểu đó…… bị ai đó hướng tình cảm về mình、 có vẻ nặng nề lắm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:surprise,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_13.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>……Hơi bất ngờ。Sao cậu lại nghĩ vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:surprise,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_14.mp3
+msg,1,<outline width=2 color=black>Đúng là như cậu nói…… Bạch Anh mà có nhân cách thì hơi khó lường、 tôi thấy không thích。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_15.mp3
+msg,1,<outline width=2 color=black>Tôi thường bị bảo là khó đoán、 nhưng bị nói trúng suy nghĩ như vậy có lẽ là lần đầu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_16.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Dù sao cũng chỉ là giả định…… chuyện lúc đó thế nào thì thực tế phải đợi xảy ra mới biết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_17.mp3
+msg,1,<outline width=2 color=black>Hơn nữa、 giả sử Bạch Anh bị sức mạnh Nguyên thư Pnakotic ảnh hưởng mà biến chất、 thì lúc đó có lẽ tôi không còn nắm giữ Bạch Anh nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_18.mp3
+msg,1,<outline width=2 color=black>……Không có ý nghĩa sâu xa gì đâu。Chỉ là tự nhiên nghĩ vậy thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_03_19.mp3
+msg,1,<outline width=2 color=black>Không thể cứ nói mãi chuyện này được。Nào、 đi tiếp thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,154 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10020200.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm022.mp3,0.5,,
+endwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:anger,asaka,35,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thiêu rụi hết đi……！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_01.mp3
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+sprite,download/monster/20010101/adv/image/20010101,enemy1,-30,-250,1.35,0.5,,,,
+endwait
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,0.8,0
+shake,0.2,4,10,10
+playse,/download/sound/se/se_038.mp3
+endwait
+anm,tint,enemy1,0_0_0,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――――――――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+playse,/download/sound/se/se_025.mp3
+spriteoff,all,1
+endwait
+wait,1.5
+endwait
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:surprise,asaka,35,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ôi、 chà…… dù là đòn tấn công của mình、 nhưng uy lực thật đáng sợ……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cộng thêm sự cường hóa của cậu、 rồi cả trang bị này nữa、 mọi thứ thành ra quá sức rồi nhỉ……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:sad,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Mà nói đúng hơn là、 phép thuật mình tung ra chỉ để thử sức、 vậy mà kẻ địch tan tành thành trăm mảnh…… ngược lại lại quá mạnh、 khó mà dùng được ấy chứ……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vì uy lực quá vô lý、 nếu cứ thế này thì sẽ chẳng thể phối hợp với đồng đội được mất……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_05.mp3
+clickwait,,,,,,,,,,,
+select,Hỏi Sylvie,Hỏi Giselle
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:normal,asaka,35,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng vậy nhỉ…… Vì Sylvie là người đã điều chỉnh cuối cùng cho trang bị này、 nếu nói thì có lẽ cô ấy sẽ giảm công suất xuống。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:sad,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Nhưng mà、 với Sylvie thì、 liệu cô ấy có dễ dàng nghe lời mình không nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_07.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:normal,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ngược lại còn bị tăng công suất、 hoặc bị thêm mấy chức năng thừa thãi vào…… Nhưng mà、 Sylvie cũng sẽ không làm thế với một món đồ mà mình phải giao phó tính mạng đâu……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_08.mp3
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/Mark12,em2,default,animation,0,180,180,0.7,0.8,0
+endwait
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_09.mp3
+clickwait,,,,,,,,,,,
+spineoff,em2,0
+endwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:sad,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hay là mình từ bỏ việc dùng trang bị này đi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_10.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:surprise,asaka,35,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hỏi Giselle ư……？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:normal,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 phải rồi。Giselle có thể sử dụng thành thạo những phép thuật mạnh mẽ mà。Nếu được chỉ cho vài mẹo thì……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:smile,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À…… nhưng nếu mình thân thiết với Giselle quá、 Bridget sẽ ghen mất nhỉ。―― Đùa thôi mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:normal,asaka,35,-120,0.5,0,,,,
+spine,download/adv/spine/Mark12,em2,default,animation,0,180,180,0.7,0.8,0
+endwait
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_14.mp3
+clickwait,,,,,,,,,,,
+spineoff,em2,0
+endwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:unique,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Không、 vì cô ấy là một kẻ cuồng chị gái ngầm mà、 có khi không phải là đùa đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_15.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:normal,asaka,35,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù sao thì、 nó mạnh thì không sai rồi、 nhưng nếu không kiểm soát được thì cũng vô nghĩa、 phải làm gì đó thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:sad,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Cho đến khi làm được điều đó、 việc đưa vào thực chiến sẽ phải hoãn lại thôi nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:normal,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Dù hơi tiếc một chút、 nhưng nếu làm tổn thương đồng đội thì sẽ không thể cứu vãn được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:sad,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Hơn nữa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_19.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật ra thì、 mình cảm thấy bất an thế nào ấy…… khi dùng vũ khí này。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_20.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mình không thể giải thích cụ thể là tại sao、 nhưng mà……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_21.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mình cảm thấy sức mạnh từ vũ khí này quá đỗi quen thuộc、 cứ như thể mình chưa từng dùng nó lần nào。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_22.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đương nhiên rồi、 mình chưa từng dùng loại vũ khí này dù chỉ một lần。Vậy mà…… ngay cả khi lần đầu cầm nó、 mình lại có cảm giác thân thuộc đến lạ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_23.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Mình rơi vào cảm giác như có một phần nào đó trong bản thân mà mình không hề hay biết。Và cái tôi mà mình không biết đó、 cứ như thể đang vung thứ sức mạnh này vậy……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_24.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:normal,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Mà nói mấy chuyện này đột ngột thế này thì cậu cũng khó xử nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_25.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đứng nói chuyện mãi ở đây cũng chẳng ích gì、 chúng ta về thôi nhỉ…… Nào、 đi thôi？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_01_26.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1,,,,,,,,,,
+endwait,,,,,,,,,,,

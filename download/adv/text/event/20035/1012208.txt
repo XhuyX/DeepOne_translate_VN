@@ -1,0 +1,494 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11210300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm060.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20030101/adv/image/20030101.png,enemy1,0,-200,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>———、 —……、 …………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+anm,tint,enemy1,0_0_0,0.5,0
+endwait
+
+
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+spriteatlas,download/character/100907/adv/atlas/stand_b,body:anger,ilyna,-300,-220,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cẩn thận đấy、 Milva đã lẫn vào kẻ địch rồi biến mất rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi、 trời ơi、 đúng là lanh lẹ thật mà。。。！ Người đã nhỏ、 lại còn lẫn vào kẻ địch thì khó mà tìm ra được。。。！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ilyna,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101651/adv/atlas/stand_a,body:sad,patrisia,-300,-150,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngay từ đầu、 tại sao Milva-san lại làm những chuyện thù địch như vậy chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đối với Milva、 một đứa trẻ ngoan là như vậy đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102706/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đứa trẻ ngoan hay đứa trẻ hư。。。Milva cứ nói mãi từ nãy đến giờ。Chắc đó là ký ức tuổi thơ của Milva。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102706/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Khi chịu ảnh hưởng của Vùng Hư Vô này、 không hiểu sao tôi lại nhớ về những chuyện ngày bé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,patrisia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_b,body:anger,tabasa,-300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừ。Tôi thì chẳng nhớ gì mấy chuyện đó cả。Chẳng phải vì lơ là nên mới bị ảnh hưởng kỳ lạ sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,milva1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva2,0,0,0,0,,,,
+imgconf,milva2,milva1,0,150,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có thật là như vậy không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+
+
+bg,download/bg/bg_11210300.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,200,-40,0.5,0.5,,,,
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa,0,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hay chỉ là đang cố che mắt、 không muốn nhìn thấy mà thôi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa,0,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—ッ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,tabasa,300_-120,0.3,0
+anm,move,milva,-300_-40,0.3,0
+spine,download/adv/spine/Slash3_Blue,em1,default,animation,0,0,-100,0.5,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufu、 lại định đánh người như vậy nữa rồi、 thật là độc ác mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa,300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là tại cô đột nhiên xuất hiện từ phía sau rồi nói mấy lời kỳ quặc đó chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi、 tôi cứ tưởng cô giận vì bị nói trúng tim đen chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đối với cô、 gia đình là gì vậy？ Cô là đứa trẻ hư？ Hay là đứa trẻ ngoan？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa,300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,endwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Gia đình đã ruồng bỏ tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Một kẻ thất bại、 không thể dùng nổi ma thuật tử tế、 chứ đừng nói đến ma thuật mà gia tộc đã truyền lại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Và rồi、 kể từ khi tôi tự mình xây dựng ma thuật riêng、 vượt qua cả ma thuật của gia tộc、 tôi bị đối xử như một thứ không tồn tại、 một sự ghê tởm phủ nhận lịch sử đã được vun đắp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Khi còn rất nhỏ — cho đến khi mọi chuyện rõ ràng rằng tôi không thể dùng ma thuật bình thường — có lẽ tôi đã nhận được một tình yêu thương tương xứng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Thế nhưng、 dù mối quan hệ có tồi tệ đến mức nào、 việc tình yêu thuở ấu thơ vẫn còn đọng lại sâu thẳm trong tim — chuyện đó chỉ có trong những câu chuyện đẹp đẽ mà thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Tôi vẫn nhớ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Những lời nói rằng tôi là đứa trẻ không cần thiết。Những lời phủ nhận rằng lẽ ra tôi không nên được sinh ra。Vô vàn lời nguyền rủa chất chồng không đếm xuể。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Hơn hết thảy、 tôi nhớ ánh mắt của lũ người đó、 những kẻ đã chế nhạo và khinh thường anh trai tôi — người duy nhất đã công nhận và yêu thương tôi — như một sản phẩm lỗi kém cỏi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Không đời nào tôi tha thứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Vì vậy、 tôi sẽ làm đến cùng。Tôi sẽ chứng minh kết quả、 nắm lấy thành công、 và dùng vinh quang của riêng mình để xóa nhòa toàn bộ lịch sử của gia tộc Twining。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Tôi sẽ khiến lũ chúng nhận ra rằng tất cả sự xấu xa mà chúng đã vun đắp đều vô giá trị。Lý do tôi không từ bỏ cái tên Twining chỉ gói gọn trong một điểm đó mà thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait
+
+
+bg,download/bg/bg_11210300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm060.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi là đứa trẻ hư hay đứa trẻ ngoan ư？ Chuyện đó thì rõ như ban ngày rồi còn gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đối với lũ người không công nhận tôi và anh trai、 tôi chính là đứa trẻ hư nhất trần đời！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:surprise,milva,-300,-40,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>ッ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Dark,em1,default,animation,0,-300,0,0.8,1,0
+playse,/download/sound/se/se_023.mp3
+endwait
+wait,0.2
+endwait,,,,,,,,,,,
+anm,move,milva,-1000_-40,0.3,0
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-100,-10,0.5,0.5,,,,
+anm,move,milva,-300_-40,0.5,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufu、 Tabasa-chan chẳng hề dao động chút nào nhỉ。Dù tự nhận mình là đứa trẻ hư。。。nhưng sức mạnh đó、 hoàn toàn không phải của một 'đứa trẻ hư' đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102706/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Milva、 cô muốn làm gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi đã nói rồi mà。Tôi là một đứa trẻ ngoan。Và để là một đứa trẻ ngoan、 thì không thể thiếu những đứa trẻ hư được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100907/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Một lý thuyết khó mà hiểu nổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufu。。。nhưng đây lại là điều bình thường đối với tôi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:unique,milva,-300,-40,0.5,0,,,,
+msg,0,<outline width=2 color=black>À、 nhưng mà。。。nếu nhìn từ phía các cô、 thì tôi mới là đứa trẻ hư phải không nhỉ？ Nếu vậy、 các cô sẽ làm gì với một đứa trẻ hư đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100907/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tạm thời、 hay là chúng ta cho cô một trận đòn đến khi nào cô biết hối lỗi thì thôi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi、 vậy thì。。。tuyệt vời quá đi chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ilyna,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái tính biến thái của cô vẫn y như cũ nhỉ。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Độc ác quá。Tôi sẽ bị tổn thương đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa,300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô còn sẽ nói là cô vui vì điều đó nữa chứ gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufu。。。chính xác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102706/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Việc tìm kiếm đứa trẻ hư gì đó、 cô nên dừng lại đi。Milva chỉ đang bị ký ức điều khiển mà thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng là tôi bây giờ không bình thường。Bị ký ức điều khiển。。。Phải、 đúng là như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102008/adv/atlas/stand_a,body:anger,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu đã hiểu thì ngoan ngoãn mà—</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng kết thúc ở đây thì tôi không đồng ý đâu。Bởi vì、 vẫn còn mục tiêu chính mà。。。phải không、 Patricia-chan？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101651/adv/atlas/stand_a,body:surprise,patrisia,300,-150,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giống như tôi、 cô cũng chịu ảnh hưởng của Vùng Hư Vô này đến mức cơ thể có sự thay đổi。Chắc chắn cô khác với Martha-chan và Tabasa-chan。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thực ra、 cô hẳn cũng bị những ký ức tuổi thơ điều khiển nhiều như tôi、 nhưng lại đang cố gắng hết sức để kìm nén chúng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101352/adv/atlas/stand_a,body:normal,milva,-300,-40,0.5,0,,,,
+msg,0,<outline width=2 color=black>Này。。。cô là đứa trẻ hư？ Hay là đứa trẻ ngoan？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

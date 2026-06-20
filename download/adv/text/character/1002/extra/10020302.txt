@@ -1,0 +1,117 @@
+﻿// machine translate -- gemini-2.5-flash
+stopbgm,,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0.5,,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ôi？ Đó là bàn cờ vua mà。Hừm、 lâu lắm rồi nhỉ……</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_01.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Có một thời、 tôi chơi rất nhiều…… Hồi nhỏ、 có một đứa trẻ hiếu thắng ở gần、 tôi phải chơi cùng nó suốt…… Nhờ vậy mà tay nghề tôi được rèn giũa hẳn。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_02.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì？ Mang thứ đó ra đây định làm gì？ Hay là muốn tôi đấu một ván？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_03.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:surprise,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Hả？ Không biết luật cờ vua sao…… À、 phải rồi。Em bị giam giữ ở R'lyeh suốt mà。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_04.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật là…… Này、 xếp quân cờ đi、 tôi sẽ dạy cho。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_05.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Không có gì、 chỉ là ngẫu hứng thôi。Với lại tôi cũng rảnh。Hơn nữa、 tôi không ghét cờ vua、 nên sẽ chơi cùng em。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_06.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng đã dạy thì tôi sẽ nghiêm khắc đấy、 nên hãy chuẩn bị tinh thần đi。Rõ chưa？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_07.mp3
+clickwait,,,,,,,,,,,,
+select,Đã hiểu。,Xin hãy nhẹ tay。
+if,select_===_1,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy là em đã chuẩn bị tinh thần rồi nhỉ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_08.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ là、 xem cái khí thế đó của em giữ được bao lâu thôi。Tôi nói trước nhé、 vì tôi dạy nên không có chuyện nửa vời đâu。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_09.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cho đến khi em có thể chơi một ván đàng hoàng、 tôi sẽ rèn giũa em thật kỹ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_10.mp3
+clickwait,,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù là chuyện cờ vua đi nữa、 em nghĩ tôi sẽ nương tay sao？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_11.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu muốn được đối xử nhẹ nhàng、 thì em đã nhờ nhầm người rồi。Ngược lại、 tôi sẽ còn nghiêm khắc hơn nhiều。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_12.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ôi、 em đang lo lắng gì thế？ Tôi không nghĩ vậy đâu、 nhưng em sẽ không từ chối thiện ý của tôi chứ？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_13.mp3
+clickwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì、 bắt đầu ngay thôi。Trước hết、 hãy học các kiến thức cơ bản。Như đặc điểm và cách sử dụng của từng quân cờ ấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_14.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sau đó、 hãy ghi nhớ các nước cờ khai cuộc、 và cứ thế tích lũy kinh nghiệm thực chiến。Rồi thua nhiều lần、 phân tích lý do và biến chúng thành kinh nghiệm。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_15.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu làm vậy、 tay nghề của em chắc chắn sẽ tiến bộ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_16.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Hoặc có lẽ những thiên tài、 họ có thể bỏ qua những giai đoạn như vậy nhỉ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_17.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nỗ lực là điều tuyệt vời ư、 đó chỉ là ảo tưởng thôi。Rốt cuộc、 thành quả và kết quả mới là tất cả。Ưu thế、 liệt thế、 thắng bại đều hiển hiện rõ ràng……</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_18.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Và tôi、 chỉ có thể phô trương khí thế trên bàn cờ này là hết sức。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_19.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Hừm、 không có gì đâu。Hơn nữa、 này、 tập trung vào。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_20.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À mà nói mới nhớ、 có một thời tôi đi du lịch、 và thường chơi cờ vua cá cược。Vì nó rất tiện để kiếm tiền lộ phí。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_21.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vì đây là trò chơi ít yếu tố may rủi、 nên nếu giỏi thì sẽ không thua đâu。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_22.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đặc biệt là ở các quán rượu、 có rất nhiều kẻ say xỉn thích cá cược、 tôi đã kiếm được kha khá đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_23.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đằng nào cũng vậy、 thử chơi cờ vua cá cược không？ Dù là cá cược、 nhưng điều kiện chỉ cần là em thắng được tôi thôi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_24.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu tôi thua thì…… Để xem nào。Tôi sẽ làm bất cứ điều gì em yêu cầu、 một điều thôi、 được không？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_25.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 cứ cố gắng hết sức đi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_09_26.mp3
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+name,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,,
+endwait,,,,,,,,,,,,

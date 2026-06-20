@@ -1,0 +1,139 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_01_01.mp3
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chào、 Nihao、 Bonjour♪ Rin đây、 tay buôn tin tức thoắt ẩn thoắt hiện đâyー♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_01_02.mp3
+msg,1,<outline width=2 color=black>Anh trai、 giờ rảnh không？ Rảnh đúng không？ Chán thật、 đành làm bạn chém gió cho em vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:smile,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_01_03.mp3
+msg,1,<outline width=2 color=black>Ưm hừm hừm♪ Sao lại nhăn nhó thế kia？ Được mà、 anh cũng chẳng có gì làm。Chơi với em một chút đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_01_04.mp3
+msg,1,<outline width=2 color=black>Vậy thì、 đặc biệt em sẽ cho anh biết điều gì đó anh muốn。Ví dụ như màu đồ lót của cô bé kia chẳng hạn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_01_05.mp3
+msg,1,<outline width=2 color=black>À、 mà anh trai không cần hỏi em、 tự mình đi mà xem。Đồ dê xồm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_01_06.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 những thông tin anh muốn biết、 liệu còn gì khác không nhỉ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:surprise,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_01_07.mp3
+msg,1,<outline width=2 color=black>——Hả？ Về em á？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_01_08.mp3
+msg,1,<outline width=2 color=black>Ể… Sao thế、 anh trai、 anh thích em đến vậy sao？ Muốn biết đến mức không thể chịu nổi nữa à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 「ぜひ教えて欲しい,選択肢2 「そうでもない
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:smile,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_01_09.mp3
+msg,1,<outline width=2 color=black>Hiểu rồiー、 ra là vậy♪ Nếu anh đã năn nỉ thế、 em cũng có thể kể cho anh nghe những bí mật của em… Nhưng mà…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_01_10.mp3
+msg,1,<outline width=2 color=black>Chuyện đó thì、 chắc chắn cần thêm phí rồi？ Dù sao thì、 bí mật của con gái mà？ Còn quan trọng hơn cả bí mật quốc gia đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:unique,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_01_11.mp3
+msg,1,<outline width=2 color=black>Này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:anger,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_01_12.mp3
+msg,1,<outline width=2 color=black>Em sẽ tung hê dữ liệu về việc anh trai đã vào phòng bao nhiêu cô gái trong một tuần qua、 và đã ở đó bao lâu đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_01_13.mp3
+msg,1,<outline width=2 color=black>Muốn đại náo không、 được không được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:unique,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_01_14.mp3
+msg,1,<outline width=2 color=black>Chán thật、 thà đừng làm ngay từ đầu còn hơn。Chán thật là chán。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_01_15.mp3
+msg,1,<outline width=2 color=black>Mà thôi、 em cũng hiểu cái cảm giác anh thích em đến phát điên mà không dám thừa nhận。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_01_16.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 với một người không dám thành thật lại còn nói vòng vo như anh、 cho không em cũng thấy hơi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_01_17.mp3
+msg,1,<outline width=2 color=black>Phải rồi… Thay vào đó、 em sẽ nhờ anh làm gì đó。Nói thì nói vậy、 nhưng em cũng chưa nghĩ ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_01_18.mp3
+msg,1,<outline width=2 color=black>Tạm thời、 cứ để em nghĩ ra đã、 rồi em sẽ kể cho anh nghe sau nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:smile,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_01_19.mp3
+msg,1,<outline width=2 color=black>A ha ha、 đừng có vẻ mặt tiếc nuối thế chứー。Em sẽ không để anh phải đợi lâu đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_01_20.mp3
+msg,1,<outline width=2 color=black>Chỉ là、 thông tin em sắp kể là thông tin đặc biệt mà？ Anh phải chuẩn bị trả giá xứng đáng đấy… Ưm hừm hừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,882 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash3_purple,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Red,em2,default,animation,0,-200,0,-1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spineoff,em2,0
+endwait,,,,,,,,,,,
+
+
+bg,download/bg/bg_11680300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm060.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29080105/adv/image/29080105.png,enemy1,0,-50,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:anger,rozet,-300,-100,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:anger,nanaba,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm…… Dù lặp lại bao nhiêu lần thì vẫn vậy thôi sao。Rosette、 em cũng cảm thấy thế chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:anger,rozet,-300,-100,0.5,0,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Đòn tấn công của chúng ta không có tác dụng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:anger,nanaba,300,-100,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải là không chạm được。Vẫn có cảm giác va chạm。——Thế mà đáng lẽ đã chém trúng、 nhưng nó lại không hề hấn gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tái tạo cấp tốc ư？ Không、 không phải。Ngay từ đầu nó đã không hề bị thương。Thật khó hiểu làm sao。Chạm tới、 tiếp xúc được、 vậy mà lại không thể tác động。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em nghĩ có cơ chế nào ở đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:normal,rozet,-300,-100,0.5,0,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Tôi được biết rằng những cây chổi mà Yuzuriha-sama và Akina-sama sử dụng làm vũ khí、 là thứ có mối liên kết với linh hồn của người sở hữu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm…… À、 ra vậy。Thứ đó có sức mạnh can thiệp vào linh hồn。Vậy thì、 nói ngược lại…… là thế sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:normal,rozet,-300,-100,0.5,0,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Nếu việc gây tổn hại vật chất là vô nghĩa、 thì có lẽ chúng ta cần một phương pháp khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ra vậy、 đáng để thử đấy。Vấn đề là——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:smile,nanaba,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ta lại không giỏi mấy lĩnh vực đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:sad,rozet,-300,-100,0.5,0,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rosette đây…… nếu như đã chuẩn bị nghi thức trước rồi thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ồ。Cái sự chuẩn bị đó của em tốn bao lâu？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:sad,rozet,-300,-100,0.5,0,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Nếu có thể tập hợp vài tế cụ và cho tôi khoảng nửa ngày、 tôi có thể thiêu rụi toàn bộ khu vực xung quanh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không có tế cụ、 thì ngay cả các Norn cũng không thể duy trì phong tỏa khu vực trong nửa ngày được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hơn nữa、 nếu là toàn bộ khu vực xung quanh…… thì chúng ta không nói làm gì、 nhưng có khả năng sẽ liên lụy đến cả Akina và Yuzuriha。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:sad,rozet,-300,-100,0.5,0,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không giúp được gì、 tôi thành thật xin lỗi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:unique,nanaba,300,-100,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gì chứ。Vô dụng thì cả hai ta đều như nhau thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu đã đến nước này、 thì kẻ vô dụng cũng phải có cách của kẻ vô dụng、 dốc hết sức mình để đối mặt thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không thể vì có thể vô ích mà bỏ cuộc được。Vậy thì、 cứ chém nó hàng ngàn hàng vạn nhát xem sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:sad,akina,-300,-120,0.5,0.5,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akina Randall</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 này…… có khi nào、 bây giờ chúng ta đang gặp nguy hiểm không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+anm,tint,akina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm。Cái đó thì không biết nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đòn tấn công của chúng ta không có tác dụng、 chỉ có đòn tấn công của chúng mới xuyên thủng được。Giới hạn thời gian đang đến gần từng khắc、 và những biện pháp hiệu quả mà ta nghĩ ra cũng không thể thực hiện được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Liệu có ai gọi mức độ này là khủng hoảng không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,akina,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/194004/adv/atlas/stand_a,body:sad,yuzuriha,-300,-100,0.5,0.5,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuzuriha Sarval</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em thấy đây hoàn toàn là một tình thế nguy hiểm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,nanaba,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:sad,akina,300,-120,0.5,0.5,,,,
+anm,tint,yuzuriha,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akina Randall</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hay là chúng ta nên rút lui một lần thì hơn……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,yuzuriha,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:normal,rozet,-300,-100,0.5,0.5,,,,
+anm,tint,akina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không thể làm vậy được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:sad,akina,300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akina Randall</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tại sao……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:normal,rozet,-300,-100,0.5,0,,,,
+anm,tint,akina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lần này、 nó đã biết chúng ta có thuật phong tỏa khu vực rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,akina,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Từ trước đến nay、 kẻ địch đó vẫn luôn coi thường và đùa giỡn với chúng ta。Suy cho cùng、 điều đó có nghĩa là nó đã đánh giá thấp chúng ta。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng、 dù đòn tấn công vẫn chưa có tác dụng、 chúng ta vẫn có cách để chặn đường thoát của nó…… Liệu nó có đủ ngu ngốc để mãi coi thường một đối thủ như vậy không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Bây giờ…… nếu để nó thoát khỏi đây、 viễn cảnh tồi tệ nhất sẽ hiện ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:normal,rozet,-300,-100,0.5,0,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu nó có một mức độ trí tuệ nhất định、 cùng với sự xảo quyệt và cẩn trọng、 thì có lẽ nó sẽ không bao giờ xuất hiện trước Rosette và mọi người nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:normal,rozet,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Khi đó、 việc giải lời nguyền cho Yuzuriha-sama và Akina-sama、 cũng như đưa họ trở về thế giới cũ、 sẽ trở nên khó khăn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:anger,rozet,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù có bao nhiêu điều nằm ngoài dự liệu đi chăng nữa…… thì ở đây、 chúng ta phải tiêu diệt kẻ địch này。Chỉ riêng điều đó thôi、 nhất định phải hoàn thành。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29080105/adv/image/29080105.png,enemy1,0,-50,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:anger,rozet,-300,-100,0.5,0.5,,,,
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:anger,nanaba,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash1_Red,em1,default,animation,0,300,0,1,1.0,0
+spine,download/adv/spine/Slash1_Red,em2,default,animation,0,-300,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+anm,move,nanaba,1200_-100,0.5,0
+anm,move,rozet,-1200_-100,0.5,0
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spineoff,em2,0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:anger,rozet,1200,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,rozet,0_-100,0.5,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29080105/adv/image/29080105.png,enemy1,0,-50,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:anger,rozet,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash1_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:sad,akina,300,-120,0.5,0.5,,,,
+anm,tint,akina,150_150_150,0.0001,0
+spriteatlas,download/character/194004/adv/atlas/stand_a,body:anger,yuzuriha,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuzuriha Sarval</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rosette……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:sad,akina,300,-120,0.5,0,,,,
+anm,tint,yuzuriha,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akina Randall</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khụ、 đây là trận chiến vì chúng ta vậy mà…… lại chỉ có thể đứng nhìn thế này……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/194004/adv/atlas/stand_a,body:sad,yuzuriha,-300,-100,0.5,0,,,,
+anm,tint,akina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuzuriha Sarval</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giá như không có lời nguyền này……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:anger,akina,300,-120,0.5,0,,,,
+anm,tint,yuzuriha,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akina Randall</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Không phải。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/194004/adv/atlas/stand_a,body:unique1,yuzuriha,-300,-100,0.5,0,,,,
+anm,tint,akina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuzuriha Sarval</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Akina？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:anger,akina,300,-120,0.5,0,,,,
+anm,tint,yuzuriha,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akina Randall</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cho dù không có chổi、 cho dù không thể dùng phép thuật…… mà lại đẩy trận chiến này cho bạn bè、 chỉ đứng nhìn họ bị thương thế này thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:anger,akina,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Như vậy、 thật sự là sai rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/194004/adv/atlas/stand_a,body:surprise,yuzuriha,-300,-100,0.5,0,,,,
+anm,tint,akina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuzuriha Sarval</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:anger,akina,300,-120,0.5,0,,,,
+anm,move,akina,-1200_-120,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash2_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Red,em1,default,animation,0,0,0,-1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11680300.jpg,1,255
+endwait
+
+
+sprite,download/monster/29080105/adv/image/29080105.png,enemy1,0,-50,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:anger,akina,1200,-120,0.5,0,,,,
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:anger,rozet,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khụ…… Nếu cứ thế này、 thì……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,akina,300_-120,0.5,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:anger,akina,300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akina Randall</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không để ngươi làm gì thêm nữa đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:surprise,rozet,-300,-100,0.5,0,,,,
+anm,tint,akina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Akina-sama……！？ Không được！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:anger,akina,300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akina Randall</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Cầu xin người。Prometheus！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29080105/adv/image/29080105.png,enemy1,0,-50,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:anger,akina,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akina Randall</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ch… Bùng cháy lên đi、 Prometheus！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.5,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,1.0
+endwait
+spineoff,em1,0
+endwait,,,,,,,,,,,,,,
+bg,download/bg/bg_11680300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm074.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29080105/adv/image/29080105.png,enemy1,0,-50,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Fire1,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――、――――――…………！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0.5,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:surprise,rozet,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Chuyện… này là sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm… Ngọn lửa vừa rồi、 có vẻ như phát ra từ bên trong…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:surprise,akina,-300,-120,0.5,0.5,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akina Randall</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ… Cái gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:surprise,akina,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vừa rồi… là… của Prometheus sao…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+anm,tint,akina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ra là vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:surprise,akina,-300,-120,0.5,0,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akina Randall</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nanaba……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+anm,tint,akina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngọn lửa vừa rồi là lời nguyền。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:surprise,akina,-300,-120,0.5,0,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akina Randall</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 nguyền rủa á… Tớ、 tớ á？ Khoan đã、 tớ có biết dùng nguyền rủa đâu…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+anm,tint,akina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cậu không cần dùng đâu。Cậu và nó、 đã bị trói buộc bởi lời nguyền rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ý chí của cậu、 sự gắn kết linh hồn với Prometheus、 sức mạnh và ánh sáng của nó、 đã đảo ngược lời nguyền và thiêu đốt nó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29080105/adv/image/29080105.png,enemy1,0,-50,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/194004/adv/atlas/stand_a,body:anger,yuzuriha,-300,-100,0.5,0.5,,,,
+anm,tint,yuzuriha,150_150_150,0.0001,0
+spriteatlas,download/character/193904/adv/atlas/stand_a,body:anger,akina,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akina Randall</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ch、 Nanaba、 cẩn thận！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/194004/adv/atlas/stand_a,body:anger,yuzuriha,-300,-100,0.5,0,,,,
+anm,tint,akina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuzuriha Sarval</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Aegir！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Ice1,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_040.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11680300.jpg,1,255
+endwait
+
+
+sprite,download/monster/29080105/adv/image/29080105.png,enemy1,0,-50,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Ice1,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_040.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――、…………、……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:smile,nanaba,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kukuk、 ph、 ha ha ha… ha ha ha ha ha ha！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29080105/adv/image/29080105.png,enemy1,0,-50,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bị trả lại lời nguyền thật nực cười――ta sẽ không nói thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tình cảm của Akina và Yuzuriha đã vượt qua lời nguyền của ngươi。Không phải ai cũng làm được。Tuyệt đối không dễ dàng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Sức mạnh của họ、 ánh sáng rực rỡ của ngôi sao mới、 đã xua tan sự chế nhạo của ngươi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đây không phải là kết quả hiển nhiên。Đó là điều kỳ diệu mà Akina và mọi người đã cho thấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29080105/adv/image/29080105.png,enemy1,0,-50,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:anger,rozet,-300,-100,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kuk… Này。Với việc bị tổn thương từ bên trong như bây giờ、 đòn tấn công của chúng ta có lẽ sẽ có tác dụng、 nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:anger,rozet,-300,-100,0.5,0,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cơ hội tốt này、 do Yuzuriha-sama và Akina-sama mang lại。Nhất định không được lãng phí。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102917/adv/atlas/stand_b,body:anger,rozet,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Chúng ta sẽ đánh bại hắn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103810/adv/atlas/stand_b,body:normal,nanaba,300,-100,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chúng ta hãy dốc toàn lực chiến đấu thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29080105/adv/image/29080105.png,enemy1,0,-50,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

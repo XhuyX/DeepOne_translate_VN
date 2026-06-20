@@ -1,0 +1,216 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11490301.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+sprite,download/bg/bg_11490301.jpg,bg,200,150,2.5,1
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm163.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_01.mp3
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À mà này、 mình đã nói về việc mình nghĩ gì về cậu rồi、 nhưng chưa nghe cậu nói ngược lại nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_02.mp3
+msg,1,<outline width=2 color=black>Đối với cậu、 mình là người thế nào？ Kể cho mình nghe xem ấn tượng của cậu về mình có thay đổi gì từ lúc gặp nhau đến giờ không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:smile,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_03.mp3
+msg,1,<outline width=2 color=black>Ni hi hi、 đừng ngại chứ。Cứ nói thật đi。Thậm chí là 'thật ra mình đã thích cậu rồi' cũng được luôn đó nha？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Thật ra、 thật sự là……,Mít ướt hơn mình nghĩ
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:surprise,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_04.mp3
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:shy,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_05.mp3
+msg,1,<outline width=2 color=black>À、 ừm… Cậu、 cậu làm cái mặt nghiêm túc đó làm gì… Bị nhìn thẳng như vậy、 mình ngại chết đi được ấy… Cảm、 cảm thấy lạ lạ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:shy,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_06.mp3
+msg,1,<outline width=2 color=black>Ơ… Chẳng、 chẳng lẽ là thật sao？ Thật sự、 thật sự là diễn biến như vậy à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:shy,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_07.mp3
+msg,1,<outline width=2 color=black>Khoan、 khoan đã！ Mấy chuyện như vậy、 mình cần chuẩn bị tâm lý thêm một chút đã―― Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:surprise,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_08.mp3
+msg,1,<outline width=2 color=black>À、 ừm、 sao cậu lại đột nhiên cười… Ơ、 ơ？ Chẳng lẽ、 không thể nào là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:unique,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_09.mp3
+msg,1,<outline width=2 color=black>――Trêu chọc kiểu đó là không tốt đâu nha！ Mình đã thật sự hồi hộp、 lo lắng đến mức đầu óc trống rỗng luôn đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:shy,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_10.mp3
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Uầy！？ À、 ừm、 cái đó thì… mình… không thể phủ nhận được。Nhưng biết làm sao được、 dễ khóc là do thể chất mà…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:unique,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_11.mp3
+msg,1,<outline width=2 color=black>Khoan、 chẳng lẽ mít ướt là phiền phức sao！？ Cậu thấy phiền à！？ Lời vừa rồi thật ra là yêu cầu mình phải sửa đổi sao！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:unique,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_12.mp3
+msg,1,<outline width=2 color=black>Xin lỗi、 đúng rồi ha、 con gái mà khóc lóc thì đàn ông sẽ thấy phiền phức mà…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:surprise,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_13.mp3
+msg,1,<outline width=2 color=black>――Không、 không phải sao？ Chỉ là nhận xét thôi à？ Ra vậy… May quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:shy,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_14.mp3
+msg,1,<outline width=2 color=black>Nhưng mà… Từ giờ mình sẽ cố gắng hết sức để không khóc nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:sad,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_15.mp3
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Huhu… Chỉ là một chủ đề mình khơi ra bâng quơ thôi、 mà không ngờ lại bị tổn thương đến mức này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:anger,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_16.mp3
+msg,1,<outline width=2 color=black>Hừm、 không được、 không được、 không được！ Cứ mãi vương vấn với cảm xúc này thì chẳng ích gì！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:smile,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_17.mp3
+msg,1,<outline width=2 color=black>Vậy nên、 để thay đổi tâm trạng―― Ni hi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_18.mp3
+msg,1,<outline width=2 color=black>Ừm、 được rồi！ Đã chuyển trạng thái！ Chắc vậy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:sad,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_19.mp3
+msg,1,<outline width=2 color=black>Mà nói đi thì cũng phải nói lại、 mưa mãi không tạnh nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_20.mp3
+msg,1,<outline width=2 color=black>Hay là、 mình cứ lao ra giữa cơn mưa này luôn nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_21.mp3
+msg,1,<outline width=2 color=black>Để cơn mưa cuốn trôi những cảm xúc u ám và sảng khoái―― Dù có thể không được như vậy đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:smile,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_22.mp3
+msg,1,<outline width=2 color=black>Vừa ướt sũng vừa chạy hết sức、 chuyện đó nghe cũng vui mà nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_23.mp3
+msg,1,<outline width=2 color=black>Vậy nêêên… Này、 đưa tay ra đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,mari,0.6_0.6,0.5,0
+anm,move,mari,0_-140,0.5,0
+endwait
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:normal,mari,0,-140,0.6,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_24.mp3
+msg,1,<outline width=2 color=black>Ừm、 được rồi。Vậy thì――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105106/adv/atlas/stand_a,body:smile,mari,0,-140,0.6,0,,,,
+playvoice,1,download/character/105106/adv/sound/fav105106_02_25.mp3
+msg,1,<outline width=2 color=black>Chạy hết tốc lực nào！ Yeah！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mari,0
+endwait,,,,,,,,,,,
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

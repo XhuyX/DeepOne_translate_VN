@@ -1,0 +1,203 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010102.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm106.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_01.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À… tớ có làm chocolate Valentine…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_02.mp3
+msg,1,<outline width=2 color=black>Nhưng… cậu thì chắc chắn cũng nhận được nhiều chocolate khác、 đúng không？ Tớ cũng nghĩ là… có khi cho nhiều quá lại làm phiền…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_03.mp3
+msg,1,<outline width=2 color=black>Với lại、 thật ra tớ vẫn muốn cố gắng hơn một chút、 nếu có thời gian thì tớ nghĩ mình sẽ làm ngon hơn、 nên nếu đã tặng thì tớ muốn cái ngon nhất…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1 「Tớ muốn ăn ngay,Lựa chọn 2 「…Cậu… không cho tớ sao
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_04.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>E、 e、 nói vậy thì… à、 ư… nếu cậu nói vậy thì、 tất nhiên là được…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_05.mp3
+msg,1,<outline width=2 color=black>V、 vậy thì… ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_06.mp3
+msg,1,<outline width=2 color=black>…Của cậu、 xin mời</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_07.mp3
+msg,1,<outline width=2 color=black>…À、 mà tớ hỏi hơi thừa、 sao cậu cứ há miệng ra rồi đứng im vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:surprise,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_08.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chờ、 chờ chút、 đừng có buồn bã đến thế chứ…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_09.mp3
+msg,1,<outline width=2 color=black>T、 tớ hiểu rồi、 tớ cho cậu mà…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_10.mp3
+msg,1,<outline width=2 color=black>――Phì！？ T、 tớ đút cho cậu ăn á… ơ、 ơ ơ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_11.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ư… v、 vậy thì… ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,asaka,0.6_0.6,0.7,0
+endwait
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_12.mp3
+msg,1,<outline width=2 color=black>…Nào、 aー</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:sad,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_13.mp3
+msg,1,<outline width=2 color=black>Chờ chút、 sao cậu không ăn…？ T、 tại sao cứ nhìn chằm chằm… ơ、 ơ ơ ơ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:sad,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_14.mp3
+msg,1,<outline width=2 color=black>…Nghĩ sao vậy chứ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100115/adv/sound/fav100115_02_15.mp3
+msg,1,<outline width=2 color=black>Hết cách rồi… ưm… chụt</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100115/adv/sound/fav100115_02_16.mp3
+msg,1,<outline width=2 color=black>Chụt… r、 ư… chụt、 rừ… ưm、 phù… chụt、 rừ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:sad,asaka,0,-120,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_17.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ưm… trao đổi bằng miệng、 thế này… ha… ư…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:sad,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_18.mp3
+msg,1,<outline width=2 color=black>Sao…？ Chocolate、 ngon…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:sad,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_19.mp3
+msg,1,<outline width=2 color=black>Vậy sao… tớ、 có lẽ hơi hối hận một chút</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:sad,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_20.mp3
+msg,1,<outline width=2 color=black>Giá mà tớ làm chocolate đắng hơn một chút…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_21.mp3
+msg,1,<outline width=2 color=black>Vì、 thế này… cả lưỡi、 cả sâu trong lồng ngực、 đều như tê dại vì ngọt ngào、 …tớ như muốn phát điên vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_22.mp3
+msg,1,<outline width=2 color=black>Nên、 giá mà tớ giảm bớt độ ngọt thì tốt hơn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_23.mp3
+msg,1,<outline width=2 color=black>…Nhưng、 dù có giảm ngọt đến đâu thì chắc cũng vô ích</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_24.mp3
+msg,1,<outline width=2 color=black>Dù có đắng đến đâu… với tớ、 nó vẫn sẽ là thứ ngọt ngào nhất</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100115/adv/atlas/stand_a,body:shy,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100115/adv/sound/fav100115_02_25.mp3
+msg,1,<outline width=2 color=black>Này… chocolate ngọt ngào nhất、 cậu có muốn ăn thêm một miếng nữa không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

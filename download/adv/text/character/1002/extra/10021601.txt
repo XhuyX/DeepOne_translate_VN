@@ -1,0 +1,167 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11570300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm107.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_01.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nghĩ lại thì、 gặp được bản thân mình ở một thế giới khác、 đi trên một con đường khác、 đúng là chuyện không tưởng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_02.mp3
+msg,1,<outline width=2 color=black>Quả là Dreamlands、 quả là Nguyên thư Pnakotic</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_03.mp3
+msg,1,<outline width=2 color=black>……Nhưng mà nói thật、 chuyện đó cũng khá là khó chịu đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_04.mp3
+msg,1,<outline width=2 color=black>Trong hầu hết các trường hợp、 cái bóng của bản thân từ thế giới khác rơi xuống là biểu tượng của sự tuyệt vọng、 khi đối diện với nó sẽ có cảm giác như bị vạch trần sự yếu đuối và ngu ngốc của bản thân</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Bridget đã vượt qua,Ở thế giới này thì khác
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_05.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Mày nói chuyện thật là lạc đề</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_06.mp3
+msg,1,<outline width=2 color=black>Tao đã chọn một con đường khác với con đường mà tao đã đi、 một con đường mà tao sẽ cô độc với thanh kiếm trên tay trong tương lai</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_07.mp3
+msg,1,<outline width=2 color=black>Thay vì dùng lưỡi kiếm để chém giết、 tao muốn nỗ lực giao tiếp bằng lời nói。。。Đó là con đường của tao</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_08.mp3
+msg,1,<outline width=2 color=black>Nhưng、 đó chỉ là việc mỗi người chọn một con đường khác nhau mà thôi。Tao không thể nào nói là tao đã vượt qua được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_09.mp3
+msg,1,<outline width=2 color=black>Con đường của tao cũng có thể dẫn đến bóng tối。。。Vì tao có thể vấp ngã bất cứ lúc nào</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_10.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đúng vậy。Quả thật、 tao chưa đến được cái kết của sự tuyệt vọng。Đang đi trên một con đường khác</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_11.mp3
+msg,1,<outline width=2 color=black>――Ít nhất là cho đến hiện tại</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_12.mp3
+msg,1,<outline width=2 color=black>Cho đến bây giờ thì là một con đường khác、 nhưng khả năng tao vấp ngã trong tương lai là vô hạn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_13.mp3
+msg,1,<outline width=2 color=black>Tao không tin vào bản thân mình đến mức có thể khẳng định rằng tao sẽ không thất bại</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_14.mp3
+msg,1,<outline width=2 color=black>Nhưng、 nếu cứ chậm bước lại、 tao sẽ không thể đến được tương lai mà tao thực sự muốn đến</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_15.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Vấp ngã、 thật là đáng sợ。。。Khi đối diện với cái bóng của bản thân、 cảm giác đó càng trở nên mạnh mẽ hơn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_16.mp3
+msg,1,<outline width=2 color=black>Nhưng、 vì vậy mà từ bỏ tương lai mà tao đang hướng tới trên con đường này、 chắc chắn tao sẽ trở thành bản thân đã chọn con đường tồi tệ nhất trong số vô vàn khả năng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_17.mp3
+msg,1,<outline width=2 color=black>Nếu tao làm một việc đáng thương hại như vậy、 thì chính cái <ruby>bóng-cô ấy</ruby> đang ở trong tao bây giờ cũng không biết sẽ làm gì tao nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_18.mp3
+msg,1,<outline width=2 color=black>Hơn nữa。。。Khi tao thực sự không còn cách nào khác、 khi tao sắp vấp ngã、 chắc chắn sẽ có người đưa tay ra giúp đỡ。。。Tao tin là vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_19.mp3
+msg,1,<outline width=2 color=black>Vì vậy、 dù tương lai có đáng sợ đến đâu、 tao vẫn có thể bước tiếp mà không sợ hãi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_20.mp3
+msg,1,<outline width=2 color=black>――。。。Mày đang nói về ai vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_21.mp3
+msg,1,<outline width=2 color=black>Nếu mày biết mà vẫn nói、 thì đúng là có sở thích tồi tệ、 còn nếu mày không biết thì đúng là quá đần độn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_22.mp3
+msg,1,<outline width=2 color=black>Haizz。。。Thật là</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100216/adv/atlas/stand_a,body:smile,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100216/adv/sound/fav100216_01_23.mp3
+msg,1,<outline width=2 color=black>Tao sẽ không bao giờ nói những chuyện như này ra đâu、 đồ ngốc</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,165 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:smile,rlin,0,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_01.mp3
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Anh ơi♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_02.mp3
+msg,1,<outline width=2 color=black>He he he、 anh ngạc nhiên quá。Chỉ đổi cách gọi xíu thôi mà anh đã giật mình rồi à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_02_03.mp3
+msg,1,<outline width=2 color=black>Mà này、 anh nhớ lần trước mình có nói là sẽ nhờ anh làm gì đó không？ Nên là… em định nhờ anh làm anh trai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_02_04.mp3
+msg,1,<outline width=2 color=black>Cũng giống như chơi trò đóng vai thôi。Em muốn cảm nhận một chút、 xem nếu có anh trai thì sẽ thế nào…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Anh trai đây！,Thật ra thì anh muốn em làm chị gái hơn。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:smile,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_05.mp3
+msg,1,<outline width=2 color=black>Hoan hô、 anh ơi♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:shy,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_06.mp3
+msg,1,<outline width=2 color=black>Này anh ơi、 Rin thấy hôm nay ngủ một mình buồn quá。Nên là、 hôm nay Rin muốn ngủ cùng anh… Không được sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:smile,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_07.mp3
+msg,1,<outline width=2 color=black>He he he、 hoan hô、 Rin yêu anh trai quá đi mất！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:unique,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_08.mp3
+msg,1,<outline width=2 color=black>—Cứ thấy sai sai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:unique,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_09.mp3
+msg,1,<outline width=2 color=black>À không、 em không cần một đứa em trai to xác như thế đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_10.mp3
+msg,1,<outline width=2 color=black>…À thì？ Em đã hiểu rõ mong muốn được làm nũng chị gái của anh rồi。Chuyện đó、 sau này chúng ta sẽ xem xét。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_02_11.mp3
+msg,1,<outline width=2 color=black>Nhưng bây giờ、 anh phải làm anh trai。Đây là quyết định cuối cùng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_12.mp3
+msg,1,<outline width=2 color=black>Anh không cần phải gồng mình làm anh trai đâu。Trước mắt thì、 chỉ cần thay đổi cách gọi thôi nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_02_13.mp3
+msg,1,<outline width=2 color=black>Anh có tò mò tại sao em lại làm vậy không？ Thật ra thì、 nó có liên quan đến điều anh muốn biết lần trước đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:smile,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_14.mp3
+msg,1,<outline width=2 color=black>Em sẽ kể cho anh nghe bí mật đặc biệt của em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_02_15.mp3
+msg,1,<outline width=2 color=black>—Em này、 em không sống được lâu đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_16.mp3
+msg,1,<outline width=2 color=black>Chẳng có gì đặc biệt cả。Chỉ là cơ thể em đã rệu rã từ khi sinh ra thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_02_17.mp3
+msg,1,<outline width=2 color=black>Người ta nói、 cứ ba mươi người trên thế giới thì có một người không may mắn khi sinh ra。Nếu nghĩ vậy thì、 đây chắc chắn chỉ là một trong những điều phũ phàng nằm rải rác khắp nơi thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_18.mp3
+msg,1,<outline width=2 color=black>Anh thấy không、 em vẫn hay ăn kẹo dẻo ở thắt lưng đấy phải không？ Thật ra thì、 đó là thuốc đấy。Đắng chát、 lại còn dở tệ nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_02_19.mp3
+msg,1,<outline width=2 color=black>Cái này là để sống bình thường。Cái này là để ăn trước khi chiến đấu。Còn cái cuối cùng là khi tim sắp ngừng đập。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_02_20.mp3
+msg,1,<outline width=2 color=black>Nhờ có chúng mà em mới có thể sống sót lay lắt được。…Chính vì ở trong tình trạng như vậy、 nên em muốn làm thật nhiều điều khi còn sống。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_02_21.mp3
+msg,1,<outline width=2 color=black>Vì muốn biết nhiều thứ nên em mới làm nghề thu thập thông tin、 vì muốn chạm vào nhiều điều nên em đã đi khắp thế giới。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_02_22.mp3
+msg,1,<outline width=2 color=black>Và bây giờ thì… em lại tò mò không biết có anh trai thì sẽ thế nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:smile,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_23.mp3
+msg,1,<outline width=2 color=black>Này anh ơi、 đừng có làm cái vẻ mặt nghiêm trọng như thế chứ。Đây không phải là một câu chuyện buồn đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:smile,rlin,0,-60,0.5,0,,,,
+playvoice,1,download/character/103903/adv/sound/fav103903_02_24.mp3
+msg,1,<outline width=2 color=black>Dù với cơ thể như thế này、 em vẫn có thể cười thật nhiều、 sống theo ý mình。Đây là một câu chuyện hạnh phúc mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103903/adv/sound/fav103903_02_25.mp3
+msg,1,<outline width=2 color=black>Nên là、 anh cứ thoải mái mà cưng chiều em nhé、 anh ơi♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

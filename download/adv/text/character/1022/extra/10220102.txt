@@ -1,0 +1,130 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0.5,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ồ、 là ngươi sao。Gặp ngươi đúng lúc lắm。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 ta có chuyện muốn hỏi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngươi thấy căn phòng kia không？ Nhưng mà、 tên lại viết bằng tiếng nước ngoài、 ta không biết nó dùng để làm gì。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bên trong có nhiều vách ngăn、 còn có một cái gì đó như cái bồn lớn có nước chảy、 rốt cuộc chỗ đó là gì vậy？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:surprise,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……'Toilet' sao？ Chẳng lẽ là nhà vệ sinh sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thì ra là vậy。Khác xa với những gì ta biết nên không nhận ra。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:unique,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu đúng là vậy thì không viết thế này…… Thật là、 cái gì cũng Tây hóa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_07.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,,,,,,,,,,
+select,選択肢1 「日本語表記もあっていいかも,選択肢2 「仕方がないんじゃないか
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Phải không？ Những chỗ khác cũng vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:anger,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Chứ không phải 'kitchen' mà là nhà bếp、 'training room' thì phải là võ đường mới đúng！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_09.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ngay từ đầu、 'R'lyeh' này cũng nên đổi thành 'Yêu Hồ Thành' thì sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:smile,vi,-20,-220,0.5,0,,,,
+spine,download/adv/spine/Mark1,em2,default,animation,0,85,300,0.7,0.8,0.5
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Coco。À、 chuyện đó chỉ là nói đùa thôi……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_11.mp3
+clickwait,,,,,,,,,,,
+spineoff,em2,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:surprise,vi,-20,-220,0.5,0,,,,
+spine,download/adv/spine/Mark3,em3,default,animation,0,80,280,0.65,0.8,0.5
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái gì…… Người Nhật cũng không mấy ai gọi là nhà vệ sinh、 sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_12.mp3
+clickwait,,,,,,,,,,,
+spineoff,em3,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:sad,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ngay từ đầu、 'R'lyeh' này là do một tổ chức phương Tây tạo ra sao。Ngu… Thời đại này đã bị văn minh phương Tây nuốt chửng rồi sao……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật là cay nghiệt……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_14.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ồ…… Phải rồi。Ta còn một chuyện muốn hỏi về cái nhà vệ sinh này。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Tại sao lại phải phân biệt nam nữ ở chỗ này？ Nếu chỉ là nhà vệ sinh thì không cần thiết phải làm vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:unique,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Hửm？ Sao ngươi lại có vẻ mặt phức tạp thế？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:surprise,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Bồn tiểu nam sao？ Là cái gì vậy…… Nữ giới không có thứ gì chuyên dụng như vậy！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:anger,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Chết tiệt…… Rốt cuộc、 ngay cả ở những nơi như thế này、 đàn ông vẫn được đối xử đặc biệt sao…… Thật đáng buồn……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_19.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:unique,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Mù… Không vừa ý chút nào。Với lại、 bây giờ trong 'R'lyeh' này chỉ có ngươi là đàn ông thôi mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_20.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Phải rồi、 ngươi cũng dùng nhà vệ sinh bên này với ta đi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_21.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta biết mà。Trong thế giới hiện tại、 bình đẳng giới đang thịnh hành phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_22.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:smile,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải là tốt sao。Tức là、 mọi người đều được đối xử như nhau。Thật là bình đẳng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_23.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu đã quyết định vậy…… Nào、 vào đi。Không có việc gì trong toilet sao？ Ê、 đừng để ý mấy chuyện nhỏ nhặt。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_24.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102201/adv/atlas/stand_a,body:surprise,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>A、 này…… Đừng có chạy trốn！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102201/adv/sound/fav102201_04_25.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

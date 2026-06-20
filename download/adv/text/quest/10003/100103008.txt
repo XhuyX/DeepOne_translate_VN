@@ -1,0 +1,464 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm026.mp3,0.5,,,
+endwait
+msg,0,<size=30><outline width=2 color=black>Bởi vì tôi đã ở đó。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Bởi vì tôi đã ôm ấp một khao khát không xứng đáng như vậy、 khao khát được trở thành người như cô ấy、 được đứng cạnh cô ấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Bởi vì tôi đã kéo chân cô ấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thế nên、 cô ấy――……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+stopbgm,0.5
+msg,0,
+endwait
+bg,download/bg/bg_10040400.jpg,1,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm003.mp3,0.5,
+endwait,,,,,,,,,,,
+sprite,download/monster/20030101/adv/image/20030101.png,robo,0,-100,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――――――――――――！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_022.mp3
+shake,0.2,2,15,15
+endwait
+clickwait
+spriteoff,robo,0
+endwait
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bri,0,-190,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chết tiệt、 hết cái này đến cái khác…… không có giới hạn nào sao！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_08_01.mp3
+clickwait
+spriteoff,bri,0
+endwait
+sprite,download/monster/20030101/adv/image/20030101.png,robo,-30,-100,1.35,0.5
+endwait
+spine,download/adv/spine/Slash3_Blue,em1,default,animation,0,0,0,1,1.2,0
+shake,0.1,3,20,20
+playse,/download/sound/se/se_037.mp3
+endwait
+spineoff,em1,0.5
+endwait
+spriteoff,robo,1
+playse,/download/sound/se/se_025.mp3
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,-300,-120,0.5,0.5
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,365,-120,0.5,0.5,,,,
+anm,tint,xeno,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù có nghiền nát bao nhiêu con tép riu cũng vô nghĩa thôi…… phải đập tan cái gốc rễ đã sinh ra chúng。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_3_08_01.mp3
+clickwait
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,xeno,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù nói là gốc rễ thì……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_08_01.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100503/adv/atlas/stand_a,body:anger,edel,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Không tha thứ…… không、 tha thứ……！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_01.mp3
+clickwait,,,,,,,,,,,
+sprite,download/monster/20030101/adv/image/20030101.png,robo,-1000,-100,1.35,0
+anm,move,robo,-400_-100,0.5,0
+playse,/download/sound/se/se_022.mp3
+endwait
+sprite,download/monster/20030101/adv/image/20030101.png,robo2,1000,-100,1.35,0
+anm,move,robo2,400_-100,0.5,0
+playse,/download/sound/se/se_022.mp3
+endwait
+sprite,download/monster/20030101/adv/image/20030101.png,robo3,0,-1000,1.35,0
+anm,move,robo3,0_-100,0.5,0
+playse,/download/sound/se/se_022.mp3
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――――――――――――！</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:sad,dana,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,-235,-120,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Mà nói gì thì nói、 kẻ địch nhiều quá、 tôi không thể đến chỗ Edel được。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_08_02.mp3
+clickwait,,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ thế này thì chỉ có hao mòn thôi…… có lối thoát nào không nhỉ……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_3_08_01.mp3
+clickwait,,,,,,,,,,
+spriteoff,dana,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:sad,mil,300,-180,0.5,0.5,,,,
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ưm。Có vẻ、 hơi lạ thì phải。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_08_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,-235,-120,0.5,0,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,mil,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Lạ là sao、 cái gì cơ？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_08_03.mp3
+clickwait,,,,,,,,,,,
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trái tim cô ấy ngọt ngào、 nhưng…… hơi khác。Cái ngọt ngào lúc đó、 nó khác hơn nhiều……</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_08_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nói sao cho đúng nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_08_03.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:sad,bri,-300,-190,0.5,0.5,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cô hỏi chúng tôi thì làm sao mà biết được。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_08_02.mp3
+clickwait,,,,,,,,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Lydia nói đúng、 quả thật có gì đó bất thường。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_08_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù có thảm hại đến mức đó、 con thỏ kia không phải là người sẽ chiến đấu theo kiểu này。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_08_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cảm nhận được sự sống qua những trận chiến sinh tử…… cô ta là kiểu người giống chúng ta。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_08_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chứ không phải kiểu lén lút trốn sau lưng ai đó như vậy……</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_08_04.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100503/adv/atlas/stand_a,body:anger,edel,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Im đi！ Mấy kẻ đã cướp đi trận chiến của tôi thì đừng có mà nói năng tùy tiện！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mấy người biết gì về tôi chứ！ Tôi、 lúc đó、 thật ra、 không phải là người sẽ thua mấy người đâu……！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu không có ‘kẻ đó’ thì……！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_04.mp3
+clickwait,,,,,,,,,,,
+spriteoff,edel,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,-235,-120,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Kẻ đó’、 là ai……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_08_04.mp3
+clickwait,,,,,,,,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chắc là cấp dưới đã ở bên cô ấy trong trận chiến trước。Để bảo vệ người đó、 cô ấy đã di chuyển rất chậm chạp。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_08_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:smile,lid,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Người phải bảo vệ kẻ yếu thật là vất vả nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_08_06.mp3
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:smile,mil,-300,-180,0.5,0.5,,,,
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 trông cô ấy rất ngầu đấy chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_08_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn nữa、 người được bảo vệ cũng vậy、 mỗi khi cô ấy bị thương、 lại tự khóc thầm trong lòng rằng đó là lỗi của mình、 lỗi của mình……</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_08_05.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+mask,bg1,400,0,300,720,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,lid1,400,0,300,720,0.5,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:surprise,lid,0,0,0,0,,,,
+imgconf,lid,lid1,0,-340,,,0,1.5,1.5,0.5
+mask,bg3,-400,0,300,720,0.5,,,,
+sprite,download/adv/image/black.jpg,bg2,0,0,0,0
+imgconf,bg2,bg3,0,0,,,0,1,1,0.5
+mask,mil1,-400,0,300,720,0.5,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:surprise,mil,0,0,0,0,,,,
+imgconf,mil,mil1,0,-380,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Lydia</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……À。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_08_07.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0.5
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:normal,mil,-300,-180,0.5,0.5,,,,
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ra vậy…… cái vị ngọt của sự tuyệt vọng mà tôi cảm nhận được từ cô ấy、 nói đúng hơn、 nó gần với cô thỏ con đó……</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_08_07.mp3
+clickwait,,,,,,,,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,mil,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đây chính là nguồn gốc của sự bất thường sao…… Ít nhất、 hình ảnh cô bảo vệ kẻ yếu dù có buồn cười、 nhưng không hề thảm hại。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_08_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:smile,lid,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng cô bây giờ――thật là thảm hại。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_08_09.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100503/adv/atlas/stand_a,body:surprise,edel,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>―――――――……Cái gì。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100503/adv/atlas/stand_a,body:anger,edel,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>M、 mày…… dám sỉ nhục tao、 Edelgard Einstein、 đến mức nào nữa…… đồ khốn！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật ra、 tôi…… nếu không có kẻ đó thì đã thắng rồi…… Như mọi khi、 một cách hiển nhiên……！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chắc chắn、 phải là như vậy！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_08.mp3
+clickwait,,,,,,,,,,,
+spriteoff,edel,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:normal,mil,-300,-180,0.5,0.5,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật ra’…… ‘chắc chắn’…… ‘phải là như vậy’…… Cô không hiểu tôi đang nói những lời đó thật thảm hại sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_08_10.mp3
+clickwait,,,,,,,,,,,
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn nữa、 mỗi khi cô thốt ra những lời đó、 tại sao cô lại để trái tim mình quặn thắt trong nỗi đau tự phủ nhận bản thân？</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_08_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Lời nói và trái tim không nhất quán…… Tôi rất vui khi cảm nhận và nếm trải được trái tim đang gào khóc của cô。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_08_09.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:anger,mil,-300,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng、 vẫn thật lạ…… Này、 cô là ‘ai’？</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_08_10.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100503/adv/atlas/stand_a,body:surprise,edel,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái、 gì……？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_09.mp3
+clickwait,,,,,,,,,,,
+spriteoff,edel,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:anger,lid,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:anger,mil,-300,-180,0.5,0.5,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù thế nào đi nữa、 cô diễn quá tệ đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_08_11.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100503/adv/atlas/stand_a,body:surprise,edel,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>T、 tôi là…… tôi、 là……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_10.mp3
+clickwait,,,,,,,,,,,
+spriteoff,edel,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,-235,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:sad,bri,300,-190,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Gì vậy？ Chuyện này là sao……？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_08_05.mp3
+clickwait,,,,,,,,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Edelgard không phải là Edelgard sao？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_08_03.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:sad,dana,-300,-120,0.5,0.5,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Khao khát。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_3_08_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:surprise,dana,-300,-120,0.5,0,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Frau-san？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_3_08_02.mp3
+clickwait
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôn kính…… mục tiêu…… tin tưởng…… ban đầu、 hẳn là một cảm xúc lấp lánh、 nhưng…… một thứ gì đó tối tăm、 lạnh lẽo đang che giấu nó……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_3_08_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Edelgard thật sự…… thì hơn thế nữa…… ừm、 nói sao cho đúng nhỉ……？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_3_08_03.mp3
+clickwait,,,,,,,,,,,
+select,Tuyệt vời,Thật cuốn hút
+if,select_===_1,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+endif,,,,,,,,,,
+stopbgm,0.5
+spriteoff,all,0.2
+name,
+msg,0,
+bg,color_0_0_0,0.2,255
+endwait
+mask,edel1,0,0,1280,300,0,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_a,body:normal,edel,0,0,0,0,,,,
+imgconf,edel,edel1,0,-290,,,0,1.5,1.5,0.2
+endwait
+wait,0.2
+endwait
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Này này、 đừng có khen quá、 tôi ngại đấy。Mà、 tôi ngầu thật thì cũng là sự thật thôi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_11.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+name,
+msg,0,
+endwait
+bg,download/bg/bg_10040400.jpg,0.5,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm013.mp3,0.5,
+endwait,,,,,,,,,,,
+sprite,download/monster/20030101/adv/image/20030101.png,robo,-430,-100,1.35,0.5
+sprite,download/monster/20030101/adv/image/20030101.png,robo2,370,-100,1.35,0.5
+sprite,download/monster/20030101/adv/image/20030101.png,robo3,-30,-100,1.35,0.5
+endwait
+spine,download/adv/spine/Thunder1_yellow,em1,default,animation,0,0,0,1,0.8,1
+wait,0.4
+playse,/download/sound/se/se_024.mp3
+shake,0.3,5,20,20
+endwait
+name,<size=27><outline size=8 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline size=8 color=black>————————、 ……、 …………！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,1
+playse,/download/sound/se/se_025.mp3
+endwait
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edel,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100503/adv/atlas/stand_a,body:surprise,edel2,300,-120,0.5,0.5,,,,
+anm,tint,edel,255_255_255,0.0001,0
+anm,tint,edel2,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Yo、 mấy đứa、 đang làm trò vui vẻ gì thế hả？ Tụ tập mấy gương mặt quen thuộc để diễn kịch à？ Cho tôi tham gia với chứ。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù sao thì、 tôi mới là bản gốc mà。Vai đó tôi sẽ nhận、 được chứ？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100503/adv/atlas/stand_a,body:sad,edel2,300,-120,0.5,0,,,,
+anm,tint,edel2,255_255_255,0.0001,0
+anm,tint,edel,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À…………</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_011_3_08_01.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,65,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Gì chứ、 chuyện này là sao vậy…… Sao lại có đến hai Edelgard！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_08_06.mp3
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:anger,edel,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100503/adv/atlas/stand_a,body:sad,edel2,300,-120,0.5,0.5,,,,
+anm,tint,edel,255_255_255,0.0001,0
+anm,tint,edel2,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừ…… Đừng có nhầm tôi với cái thứ chỉ biết trau chuốt vẻ ngoài như thế chứ。Hoàn toàn không、 nó là một diễn viên dở tệ、 chẳng thể hiện được dù chỉ một chút sức hút của tôi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edel,-300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Này、 ngay cả cậu cũng nghĩ vậy mà、 phải không――Kyrie。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_005_3_08_15.mp3
+clickwait,,,,,,,,,,,
+anm,tint,edel2,255_255_255,0.0001,0
+anm,tint,edel,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_011_3_08_02.mp3
+clickwait,,,,,,,,,,,
+endwait
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

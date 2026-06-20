@@ -1,0 +1,227 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11050302.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm106.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_01.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Trời tối hẳn rồi nhỉ…… đúng là gió biển bắt đầu thấy lạnh thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:shy,asaka,0,-130,0.6,0.5,,,,
+endwait
+playvoice,1,download/character/100122/adv/sound/fav100122_03_02.mp3
+msg,1,<outline width=2 color=black>A……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:smile,asaka,0,-130,0.6,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_03.mp3
+msg,1,<outline width=2 color=black>……Ừm。Cứ áp sát vào nhau thế này、 ấm áp quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-130,0.6,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_04.mp3
+msg,1,<outline width=2 color=black>Nếu dùng ma thuật thì có thể chống chọi được cái lạnh…… nhưng dù thế、 trong sâu thẳm trái tim này…… đến tận tâm hồn thì chẳng thể nào ấm lên được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-130,0.6,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_05.mp3
+msg,1,<outline width=2 color=black>Nên là…… thêm một chút nữa、 siết chặt hơn、 được không anh？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,asaka,0.7_0.7,0.5,0
+anm,move,asaka,0_-170,0.5,0
+endwait
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:smile,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_06.mp3
+msg,1,<outline width=2 color=black>Phù…… à、 hạnh phúc quá đi mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_07.mp3
+msg,1,<outline width=2 color=black>Hạnh phúc đến mức、 cứ như thể ngoài anh ra em chẳng còn thấy gì nữa ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Anh cũng hạnh phúc,Có muốn anh làm gì nữa không？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:smile,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_08.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Trời ơi、 lại nói những lời khiến em vui như thế nữa rồi。Nghe anh nói thế、 chẳng hiểu sao niềm vui cứ dâng trào mãi không ngừng nổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_09.mp3
+msg,1,<outline width=2 color=black>Em mong anh được hạnh phúc…… đó cũng là hạnh phúc của em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_10.mp3
+msg,1,<outline width=2 color=black>Cho nên、 nếu trái tim anh được khoảnh khắc cùng nhau này lấp đầy、 thì không gì vui hơn điều đó nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:smile,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_11.mp3
+msg,1,<outline width=2 color=black>– Nhưng mà、 em nhất định hạnh phúc hơn。Hơn anh gấp nhiều、 rất nhiều lần…… Em cảm nhận được、 điều đó em không nhường đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_12.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Thêm nữa sao……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_13.mp3
+msg,1,<outline width=2 color=black>Dù có thể dối lòng mà nói rằng 'chẳng cần anh làm gì cũng đủ'……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_14.mp3
+msg,1,<outline width=2 color=black>Nhưng…… hôm nay、 em có thể đòi hỏi thêm、 được không anh？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:shy,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100122/adv/sound/fav100122_03_15.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Mưa、 ưm…… mưa…… ưn……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:smile,asaka,0,-170,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_16.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>– Phù。Em làm rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_17.mp3
+msg,1,<outline width=2 color=black>À、 được hôn nhau thế này、 cảm nhận anh bên cạnh…… tình yêu dâng đầy trong lòng rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_18.mp3
+msg,1,<outline width=2 color=black>Gặp được anh、 trái tim em đã hoàn toàn thay đổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_19.mp3
+msg,1,<outline width=2 color=black>Ví dụ như nhé…… nếu em không đến R'lyeh。Nếu không gặp anh、 có lẽ em đã có nhiều lựa chọn khác nhau。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_20.mp3
+msg,1,<outline width=2 color=black>Biết đâu em đã có thể chọn một con người không phải là pháp sư。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_21.mp3
+msg,1,<outline width=2 color=black>Nhưng số mệnh này、 tình cảm này…… tình yêu dành cho anh、 đã thay đổi trái tim em、 quyết định tương lai của em。Em chẳng thể chọn lối sống nào khác nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_22.mp3
+msg,1,<outline width=2 color=black>……Em vui vì điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_23.mp3
+msg,1,<outline width=2 color=black>Hãy dùng tình yêu của anh để lấp kín tương lai em hơn nữa。Mãi mãi、 hãy độc chiếm con người em、 trói buộc em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100122/adv/sound/fav100122_03_24.mp3
+msg,1,<outline width=2 color=black>À…… em cũng thấy mình lại nói mấy điều nặng nề rồi。Nhưng dù thế…… đây là cảm xúc chân thật nhất của em……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:shy,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100122/adv/sound/fav100122_03_25.mp3
+msg,1,<outline width=2 color=black>Ưm…… mưu、 ưu…… haa、 ưn、 mưu…… chụt、 mưuu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100122/adv/atlas/stand_a,body:normal,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100122/adv/sound/fav100122_03_26.mp3
+msg,1,<outline width=2 color=black>Em yêu anh…… từ giờ cũng thế、 hãy còn mạnh mẽ hơn、 sâu sắc hơn…… hãy biến trái tim em、 thành của anh nhé…… mưu…… chụt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

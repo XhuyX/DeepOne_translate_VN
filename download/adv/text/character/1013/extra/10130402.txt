@@ -1,0 +1,107 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010400.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm026.mp3,0.5,,
+endwait
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,mil,-10,-120,0.5,0.5,,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Haa…… Sao mình lại trở nên thế này nhỉ……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:surprise,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Hả？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ơ、 anh、 sao giờ này lại ở đây…… Anh tìm em sao？ Tại sao……？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_03.mp3
+clickwait,,,,,,,,,,,
+select,Vì em trông có vẻ đang suy tư điều gì đó。,Chỉ là tình cờ thôi。
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ra vậy。Trong mắt anh、 em trông như thế sao。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Suy tư、 ư…… Không biết nữa。Cảm xúc hiện giờ của em、 nên gọi là gì đây nhỉ……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thật ra、 em đang cảm thấy những cảm xúc chưa từng có、 nên mới lo lắng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Em cứ mãi nghĩ xem đây là cảm xúc gì、 nhưng chẳng tìm ra câu trả lời。Thế nên、 em đi dạo một chút để thay đổi không khí。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_07.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng、 có lẽ đó là quyết định đúng đắn…… Vì em đã gặp được anh như thế này。Này…… anh nghe em nói nhé？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_08.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Chỉ là tình cờ thôi、 sao。Vậy là ngẫu nhiên à？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng、 có lẽ đó lại là một điều tuyệt vời cũng nên。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Có chuyện bận lòng、 một mình lang thang suy nghĩ、 rồi lại gặp được anh。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_11.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Là duyên số？ Hay là định mệnh？ Nói đến mức đó thì có vẻ hơi quá lời nhỉ……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Em này、 dạo gần đây、 em cứ thấy mình ngày càng trở nên kỳ lạ。Kiểu như、 em bắt đầu nghĩ đến những điều mà trước đây chưa từng nghĩ tới……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_13.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trong giường、 em bỗng nhiên nghĩ đến。Cái khoảnh khắc phải chia lìa với người mình trân quý、 chắc chắn sẽ đến vào một ngày nào đó……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Con người、 dễ dàng chết đi。Chẳng ai biết được điều gì sẽ cướp đi sinh mạng họ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chị gái、 và cả anh nữa…… Có lẽ nào、 hai người cũng sẽ bỏ em mà đi mất…… Điều đó、 thật cô đơn。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì、 trước khi bị cái chết chia lìa、 nếu chúng ta cùng chết đi、 chắc chắn sẽ chẳng có gì cô đơn cả…… Phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 khi em thực sự tưởng tượng ra cảnh tượng đó…… thật kỳ lạ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_18.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khi em hình dung ra khoảnh khắc tự tay giết chết chị gái、 và cả anh nữa…… Trước đây、 đáng lẽ em phải cảm thấy ngọt ngào mới phải…… Vậy mà tối nay、 nước mắt cứ tuôn rơi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_19.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:shy,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Em、 từ khi đến đây…… gặp được anh…… hình như đã trở thành một đứa mít ướt rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_20.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngày xưa、 em vẫn nhớ chị gái từng khen nụ cười của em thật dễ thương…… Vì thế、 em muốn luôn mỉm cười…… Vậy mà…… tại sao chứ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_21.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Em không biết nữa。Dù là chuyện của chính mình、 nhưng em、 chẳng còn hiểu gì nữa rồi……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_12_22.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

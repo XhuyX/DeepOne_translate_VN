@@ -1,0 +1,647 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm026.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Ý thức dần trỗi dậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Cứ như đang trôi nổi trong làn nước ấm、 hay mơ màng trên chiếc giường êm ái vậy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Cảm giác đường nét bản thân dần mờ nhạt đi、 liệu có phải là khoảnh khắc tỉnh giấc từ một giấc mộng？ Hay là đang chìm sâu vào một giấc mộng khác？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>—À……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nếu đây là một giấc mộng、 thì chắc chắn nó sẽ rất—……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11020300.jpg,2,255
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này…… Này、 dậy đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dậy đi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rusa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:sad,rusa2,0,0,0,0,,,,
+imgconf,rusa2,rusa1,0,-320,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm、 ư…… ưm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 đủ rồi đấy。Có biết tình hình thế nào không hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rusa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:sad,rusa2,0,0,0,0,,,,
+imgconf,rusa2,rusa1,0,-320,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ưm…… hô、n……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rusa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:sad,rusa2,0,0,0,0,,,,
+imgconf,rusa2,rusa1,0,-320,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hôn、 nếu anh hôn em…… có lẽ em sẽ dậy…… mơ màng……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_055.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+flash,255,255,255,1,0.3,1.0
+playse,/download/sound/se/se_043.mp3
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:shy,rusa,-300,-850,0.5,0,,,,
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:sad,loto,300,-260,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+anm,move,rusa,-300_-120,1,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:shy,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đau quá！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:anger,rusa,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Này！ Tự dưng lại cốc vào đầu con gái nhà người ta、 anh nghĩ gì thế hả、 Lothos！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:sad,loto,300,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Im đi。Cô đúng là Anna mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:anger,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này！ Đừng có dùng tên người khác với cái giọng điệu 'cô đúng là đồ ngốc' như thế chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:sad,loto,300,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô đúng là đồ ngốc mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:anger,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em lột sạch đồ anh bây giờ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:normal,loto,300,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dừng lại đi、 ánh mắt cô nghiêm túc thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:sad,loto,300,-260,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thiệt tình…… Cô không có chút cảnh giác nào sao？ Nhìn xung quanh xem。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:normal,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xung quanh á……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:surprise,rusa,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>—Ơ、 đây là đâu？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:normal,loto,300,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô thật sự không nhận ra sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:normal,loto,300,-260,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thoáng chốc、 tôi còn nghĩ cô bị đánh thuốc mê rồi bắt cóc、 nhưng có vẻ không phải vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:anger,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Anh nghĩ em là loại người gì vậy！ Em chỉ bám theo anh trên đường đêm và lẻn vào giường thôi mà！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:sad,loto,300,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô thật sự đáng sợ đấy、 ở mấy khoản đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:normal,loto,300,-260,0.5,0,,,,
+msg,0,<outline width=2 color=black>Haizz…… Thôi thì、 dù sao cô tỉnh dậy là tốt rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:normal,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Anh lo cho em sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:normal,loto,300,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tất nhiên là phải lo rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:normal,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải vì không có cái khiên lúc nguy cấp thì anh sẽ gặp rắc rối đấy chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:normal,loto,300,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi không cần cái khiên vô dụng như cô đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:normal,loto,300,-260,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 giờ phải làm sao đây…… Vừa nãy tôi đã đi quanh xem xét một chút、 nhưng không có dấu hiệu của ai cả……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:normal,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù vậy、 cứ đứng đây cũng chẳng giải quyết được gì đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:normal,loto,300,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thì、 đúng là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:normal,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nào、 đi thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:normal,loto,300,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 ít nhất cũng phải đi sau tôi chứ。Cô thật sự không có chút cảnh giác nào sao？ Hay là cô muốn tự mình làm mồi nhử để phát hiện bẫy hay kẻ địch？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:anger,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ai là mồi nhử chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:normal,rusa,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Nhưng mà、 đúng là không có cảm giác nguy hiểm thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:normal,rusa,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Sao lại thế nhỉ。Kiểu như…… dù rõ ràng là tình huống kỳ lạ、 nhưng lại có một phần trong em nghĩ rằng 'chỉ đến thế này thôi'……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:normal,loto,300,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gì thế。Cô phục vụ quán rượu mà cũng ra vẻ quân nhân lão luyện sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:sad,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải vậy đâu。Chỉ là、 không biết nữa…… Kiểu như、 em thấy mơ hồ lắm。Cứ như cảm giác của mình đang lệch khỏi bản thân vậy…… một cảm giác kỳ lạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:anger,loto,300,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô…… có bị đập đầu không đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:anger,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có trưng cái mặt nghiêm trọng ra mà lo cho em chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:sad,rusa,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thiệt tình。Anh lo cho em một cách bình thường hơn chút cũng được mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,bea1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/192004/adv/atlas/stand_a,body:anger,bea2,0,0,0,0,,,,
+imgconf,bea2,bea1,0,-500,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Beatrice Kircheisen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái tên Malleus đó、 xem ra đã trở nên đáng thương hại biết bao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11020300.jpg,0.5,255
+endwait
+
+
+spriteatlas,download/character/191804/adv/atlas/stand_a,body:sad,marie,-300,-120,0.5,0.5,,,,
+anm,tint,marie,150_150_150,0.0001,0
+spriteatlas,download/character/192004/adv/atlas/stand_a,body:normal,bea,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice Kircheisen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cứ tưởng cuối cùng cũng tìm được、 ai ngờ lại phải chứng kiến cảnh tượng này…… Thật lòng mà nói、 tôi thấy rất khó chịu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191804/adv/atlas/stand_a,body:sad,marie,-300,-120,0.5,0,,,,
+anm,tint,bea,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Marie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Linh hồn đang bị mắc kẹt trong Dreamlands thì phải……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,bea,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,marie,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… Nếu không đánh thức khỏi giấc mộng、 cứ thế này thì tâm trí sẽ bị Dreamlands nuốt chửng mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,marie,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đ-đó、 đó chẳng phải là tình huống rất tệ sao……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đâu có gì phải bi quan đến vậy。Chỉ cần tỉnh khỏi giấc mộng là được。Thậm chí còn dễ hiểu hơn ấy chứ…… Tóm lại、 chỉ cần đập tan giấc mộng là xong。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192004/adv/atlas/stand_a,body:normal,bea,300,-100,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice Kircheisen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đập tan giấc mộng、 sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,bea,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Linh hồn lạc từ thế giới của các cô、 ta đã nói là 'còn một' phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tức là、 ở đây có một sự tồn tại không thể có trong thực tại…… Một sự tồn tại là bản thân giấc mộng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192004/adv/atlas/stand_a,body:normal,bea,300,-100,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice Kircheisen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À…… ra là vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:sad,rusa,-300,-100,0.5,0.5,,,,
+anm,tint,bea,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 tự dưng xuất hiện rồi nói cái gì vậy…… mà hình như、 anh、 tôi đã gặp ở đâu đó rồi thì phải……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,bea,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:anger,loto,300,-260,0.5,0.5,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chạy đi、 Anna。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:normal,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lotos……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:anger,loto,300,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bọn chúng、 không ổn đâu…… là sự tồn tại không tốt cho mày。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:anger,rusa,-300,-100,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái đó、 có nghĩa là gì……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:anger,loto,300,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ý nghĩa gì chứ、 làm sao mà giải thích từng li từng tí được！ Dù sao thì tao không thể để mày đến gần bọn chúng……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ren1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/collabo/900017/adv/atlas/stand_a,body:normal,ren2,0,0,0,0,,,,
+imgconf,ren2,ren1,0,-1200,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>ふじいれん</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Diễn biến này thì tôi không ngờ tới。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900017/adv/atlas/stand_a,body:normal,ren,-350,-260,0.5,0.5,,,,
+anm,tint,ren,150_150_150,0.0001,0
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:anger,loto,350,-260,0.5,0.5,,,,
+anm,tint,loto,150_150_150,0.0001,0
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:normal,rusa,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——……Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:sad,rusa,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cái、 gì…… không thể nào、 tại sao……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:sad,rusa,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Lotos、 rõ ràng đang ở đây、 vậy mà……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:anger,loto,350,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ロートス・ライヒハート</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900017/adv/atlas/stand_a,body:normal,ren,-350,-260,0.5,0,,,,
+anm,tint,loto,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ふじいれん</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù là giấc mộng、 nhưng có một khuôn mặt giống hệt mình thì thật không dễ chịu chút nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191904/adv/atlas/stand_b,body:shy,rusa,0,-100,0.5,0,,,,
+anm,tint,ren,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Schwägelin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lotos tăng lên rồi！ Cái nào là của tôi！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900017/adv/atlas/stand_a,body:normal,ren,-350,-260,0.5,0,,,,
+spriteatlas,download/character/collabo/900018/adv/atlas/stand_a,body:normal,loto,350,-260,0.5,0,,,,
+anm,tint,rusa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>蓮＆ロートス</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cả hai đều không phải của mày đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,188 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:normal,yui,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_01.mp3
+name,<outline width=2 color=black>Yui</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Anh yêu ơi！ Anh yêu ơi！ Hôm nay anh định làm gì ạ？ Yui có giúp được gì cho anh không？ Yui làm được mọi thứ đó nha？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:normal,yui,0,-90,0.5,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_02.mp3
+msg,1,<outline width=2 color=black>À、 anh yêu、 tóc anh hơi bị vểnh rồi。。。Không phải bên đó、 mà là bên này cơ。。。Ưm。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,yui,0.6_0.6,0.5,0
+endwait
+
+
+anm,jump,yui,0_-90_20_2,0.5,0
+endwait
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:unique,yui,0,-90,0.6,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_03.mp3
+msg,1,<outline width=2 color=black>K-không với tới。。。！ Hức hức。。。！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:surprise,yui,0,-100,0.7,0.5,,,,
+endwait
+playvoice,1,download/character/105003/adv/sound/fav105003_02_04.mp3
+msg,1,<outline width=2 color=black>À。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:smile,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_05.mp3
+msg,1,<outline width=2 color=black>E hèm、 anh yêu đã chịu khó ngồi xuống nên Yui với tới rồi ạ。Cảm ơn anh nhiều！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Em không cần phải khách sáo đâu。,Đáng yêu quá đi mất。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:surprise,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_06.mp3
+name,<outline width=2 color=black>Yui</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ơ。。。？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:surprise,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_07.mp3
+msg,1,<outline width=2 color=black>À、 không phải đâu ạ？ Yui không phải là đang cố gắng khách sáo hay gì đâu ạ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:sad,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_08.mp3
+msg,1,<outline width=2 color=black>Năng lực của Yui biến người khác thành những con búp bê nghe lời răm rắp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:sad,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_09.mp3
+msg,1,<outline width=2 color=black>Một thế giới mà ai cũng khẳng định mọi điều Yui nói、 một thế giới thuận tiện、 giả tạo。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:normal,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_10.mp3
+msg,1,<outline width=2 color=black>Nhưng năng lực của Yui lại không có tác dụng với anh yêu。。。Anh yêu là người thật sự đối với Yui。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:smile,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_11.mp3
+msg,1,<outline width=2 color=black>Vì vậy。。。Yui muốn anh yêu、 người mà Yui rất yêu quý、 cũng thích Yui。Để làm được điều đó、 Yui sẽ dốc toàn lực để thể hiện！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:shy,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_12.mp3
+name,<outline width=2 color=black>Yui</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hả！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:normal,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_13.mp3
+msg,1,<outline width=2 color=black>A-anh yêu。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:smile,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_14.mp3
+msg,1,<outline width=2 color=black>V-vậy là、 chúng ta sẽ kết hôn phải không ạ！？ Hoan hô、 Yui vui quá！ Anh yêu、 anh yêu、 Yui yêu anh nhiều lắm！ Từ nay về sau、 mãi mãi——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:unique,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_15.mp3
+msg,1,<outline width=2 color=black>——Hả！？ Không phải sao！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:shy,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_16.mp3
+msg,1,<outline width=2 color=black>Yui làm vợ hai trở đi cũng được mà？ Y-Yui có thể chịu đựng đến vợ thứ năm lận đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:shy,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_17.mp3
+msg,1,<outline width=2 color=black>Vậy thì、 anh thấy sao、 đặt trước ngay bây giờ đi！ Chúng ta đặt trước hôn nhân nhé？ Không được sao！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:sad,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_18.mp3
+msg,1,<outline width=2 color=black>Hức。。。Anh yêu đúng là không dễ đối phó chút nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:normal,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_19.mp3
+name,<outline width=2 color=black>Yui</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>。。。Yui đã mơ ước từ khi còn bé。Được kết hôn với một người tuyệt vời、 và trở thành một cô gái hạnh phúc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:sad,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_20.mp3
+msg,1,<outline width=2 color=black>Nhưng。。。năng lực của Yui lại bóp méo trái tim của bất kỳ ai。Ngay cả lời nói 'Yui muốn hạnh phúc cùng anh' cũng sẽ biến thành lời nguyền nếu Yui thốt ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:sad,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_21.mp3
+msg,1,<outline width=2 color=black>Nhưng。。。nếu là với anh yêu、 Yui có thể tìm thấy hạnh phúc thật sự。Yui tin là như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:sad,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_22.mp3
+msg,1,<outline width=2 color=black>Một người như Yui、 có lẽ không nên mong muốn điều này。Có lẽ việc cầu nguyện là sai trái。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:normal,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_23.mp3
+msg,1,<outline width=2 color=black>Thế nhưng。。。thế nhưng、 Yui vẫn。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:normal,yui,0,-100,0.7,0,,,,
+playvoice,1,download/character/105003/adv/sound/fav105003_02_24.mp3
+msg,1,<outline width=2 color=black>Yui muốn được hạnh phúc cùng anh yêu。。。Nói ra những lời như vậy、 có sai không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

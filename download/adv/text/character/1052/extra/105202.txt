@@ -1,0 +1,173 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010600.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:surprise,kukuru,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_01.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――À。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_02.mp3
+msg,1,<outline width=2 color=black>Ứ、 à、 ừm…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 「落ち着いて,選択肢2 「この間の話の続き？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_03.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ư… X、 xin lỗi nhé。Tớ… tớ lại nhớ đến mấy chuyện ngại muốn chết…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_04.mp3
+msg,1,<outline width=2 color=black>……Thật ra thì、 tớ hơi ích kỷ、 nhưng mà trong lòng tớ vẫn chưa rõ ràng。Tớ mong cậu coi như chưa nghe thấy chuyện đó…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_05.mp3
+msg,1,<outline width=2 color=black>――…Ừm、 cảm ơn cậu。Xin lỗi vì đã nói vậy nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_06.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đó là…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_07.mp3
+msg,1,<outline width=2 color=black>Ừm、 nếu tớ sắp xếp xong mọi chuyện、 và cảm thấy chắc chắn về điều đó… thì tớ sẽ nói lại với cậu、 được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_08.mp3
+msg,1,<outline width=2 color=black>Xin lỗi nhé、 vì tớ chưa rõ lòng mình nên đã làm phiền cậu… Cậu cứ quên chuyện này đi cũng được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_09.mp3
+msg,1,<outline width=2 color=black>Đây là vấn đề của riêng tớ thôi… Nếu có thêm thời gian、 tớ nghĩ mình sẽ tìm ra câu trả lời。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_10.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À、 phải rồi… Cậu có muốn uống trà với tớ không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_11.mp3
+msg,1,<outline width=2 color=black>Tớ tự pha đấy、 có hoa、 thảo mộc、 với cả một chút gia vị nữa。Tớ khá tự tin về nó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_12.mp3
+msg,1,<outline width=2 color=black>Hơi khó uống một chút、 có thể không hợp khẩu vị… Cậu thử một ngụm được không？ Vẫn còn nóng đấy――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:surprise,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_13.mp3
+msg,1,<outline width=2 color=black>――…À。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_14.mp3
+msg,1,<outline width=2 color=black>C、 cái này là… hôn gián tiếp sao…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_15.mp3
+msg,1,<outline width=2 color=black>…Th、 thế nào？ Ngon không？ V、 vậy à、 tốt quá。Vậy tớ sẽ rót thêm cho cậu、 cứ uống đi。A、 a ha ha。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_16.mp3
+msg,1,<outline width=2 color=black>…C、 chuyện này có là gì… có là gì đâu。Bình tĩnh、 tớ… phải bình tĩnh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_17.mp3
+msg,1,<outline width=2 color=black>Ừm… Phải rồi、 đến R'lyeh rồi tớ mới nhận ra、 đúng là mọi người <ruby>Người Truy Tìm-Diver</ruby> đều giỏi thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_18.mp3
+msg,1,<outline width=2 color=black>Không chỉ về năng lực… mà còn rất mạnh mẽ về tinh thần。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_19.mp3
+msg,1,<outline width=2 color=black>Ai cũng có mục đích、 có mục tiêu、 có sứ mệnh và trách nhiệm phải hoàn thành…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_20.mp3
+msg,1,<outline width=2 color=black>Tớ ngưỡng mộ họ lắm。Tớ thì sống tự do tự tại quen rồi、 nên không có những thứ đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_21.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 ở đây… ở gần cậu、 có lẽ tớ cũng sẽ tìm thấy điều gì đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_22.mp3
+msg,1,<outline width=2 color=black>…Mong là vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_23.mp3
+msg,1,<outline width=2 color=black>Này… Nếu tớ tìm thấy điều mình muốn làm、 cậu có nghe tớ kể không？ Tớ muốn kể cho cậu nghe đấy。Cứ từ từ、 vừa uống trà、 vừa kể chuyện。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105200/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105204/adv/sound/fav105204_02_24.mp3
+msg,1,<outline width=2 color=black>Phù… Nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

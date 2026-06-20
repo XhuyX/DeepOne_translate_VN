@@ -1,0 +1,470 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10040200.jpg,0,,,,,,,,
+endwait
+fadeoutblack,1.5,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm008.mp3,0,
+endwait,,,,,,,,,,,
+sprite,download/monster/20030101/adv/image/20030101,robo,0,-100,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>――――――――――！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_022.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101802/adv/atlas/stand_b,body:anger,rin,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Với đòn này…… gục xuống đi――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0
+endwait
+sprite,download/monster/20030101/adv/image/20030101,robo3,0,-100,1.35,0.5
+endwait
+spine,download/adv/spine/blow_Blue,em2,default,animation,0,0,0,1,1,0
+anm,tint,robo3,0_0_0,0.1,0.2
+playse,/download/sound/se/se_043.mp3
+wait,0.6
+endwait
+spine,download/adv/spine/Thunder1_yellow,em4,default,animation,0,0,0,1,1,0.2
+playse,/download/sound/se/se_024.mp3
+flash,255,255,255,4,0.2,0.2
+wait,1.2
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>――、 ………………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+shake,0.2,5,20,20,,
+spriteoff,all,1
+playse,/download/sound/se/se_025.mp3
+wait,1.5
+endwait
+stopbgm,0.5
+endwait
+wait,0.5
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:normal,rin,-300,-120,0.5,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Phù…… Vậy là xong rồi、 phải không ạ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,300,-120,0.5,0,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Phải。Xung quanh không còn phản ứng của ảo ảnh nữa…… Dù vậy、 đó là nếu nó không dịch chuyển đột ngột như vừa nãy thôi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,xeno,0
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,300,-200,0.5,0.5,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Dù vậy、 chắc là ổn rồi…… Phải không、 Lynn-san？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:smile,rin,-300,-120,0.5,0.5,,,,
+anm,tint,bea,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng ạ！ Anh trai cũng vậy、 và cả mọi người nữa、 em sẽ bảo vệ tất cả！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,-300,-240,0.5,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chà。Lại còn muốn bảo vệ cả ta nữa chứ、 thật là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,300,-120,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hừm…… Tự thân ai nấy lo。Không cần phải bận tâm thừa thãi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,-300,-240,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Này này、 Zeno。Đừng nói những lời làm mất hứng chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,vi,0
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-300,-200,0.5,0.5,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Vâng。Chúng ta nên thành thật chúc mừng Lynn-san vì đã có thể tiến về phía trước chứ。Dù tôi biết rõ những lời đó chỉ là để che giấu sự ngượng ngùng thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:surprise,xeno,300,-120,0.5,0,,,,
+anm,tint,bea,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cái gì……！ Làm gì có chuyện đó……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,bea,0
+endwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,-300,-240,0.5,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tạm gác lại lời biện hộ của ngươi…… Với việc liên tục chiến đấu với ảo ảnh、 chẳng phải đã đến lúc gánh nặng của Dreamlands có thể gây ảnh hưởng rồi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Dù có người đàn ông đó ở đây、 tốt nhất vẫn nên cẩn trọng mà quay về。Chắc cũng không cần phải huấn luyện đặc biệt gì thêm ở đây nữa đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,xeno,0
+endwait
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:normal,rin,300,-120,0.5,0.5,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng…… Mọi người、 cảm ơn rất nhiều ạ！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,-300,-240,0.5,0,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ta cũng đâu có làm gì đáng để được cảm ơn đến vậy đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:normal,rin,300,-120,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải vậy đâu ạ！ Giống như lần này mọi người đã giúp em、 nếu mọi người gặp khó khăn、 em cũng sẽ giúp đỡ、 nên cứ nói với em bất cứ lúc nào nhé！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,vi,0
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:smile,bea,-300,-200,0.5,0.5,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Fufu…… Chúng tôi cũng vậy、 nếu có điều gì cần hợp tác、 xin cứ nói bất cứ lúc nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:smile,rin,300,-120,0.5,0,,,,
+anm,tint,bea,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cảm ơn ạ！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Anh trai nữa、 hôm nay đã ở bên em、 thật sự cảm ơn anh rất nhiều。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Từ giờ trở đi…… em sẽ cố gắng thật nhiều ạ！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0.5
+stopbgm,0.5
+endwait
+bg,color_0_0_0,1,255,,,,
+endwait
+msg,1,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>………………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,0,
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+mask,black1,0,0,1280,250,0,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-430,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ghét sức mạnh của mình、 thứ chỉ biết gây tổn thương、 phá hủy―― Với tâm trạng như vậy、 làm sao có thể sử dụng sức mạnh một cách thuần thục được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Và sức mạnh ấy、 dùng để phá hủy hay để bảo vệ、 tất cả đều do bản thân quyết định。Rốt cuộc、 điều quan trọng là mình muốn làm gì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Để bảo vệ…… À、 Lynn。Tôi rất thấu hiểu cảm xúc đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải。Không có mong muốn nào mạnh mẽ hơn ước nguyện bảo vệ người mình yêu thương――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+stopbgm,0.5
+spriteoff,all,0.2
+endwait
+msg,1,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>………………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,0,
+bg,download/bg/bg_10010100.jpg,1,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:normal,mil,300,-220,0.5,0.5,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-235,-120,0.5,0.5,,,,
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 xem ra đã về mà không bị thương gì cả nhỉ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:normal,mil,300,-220,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Có vẻ như đã lặn khá lâu rồi、 vậy buổi huấn luyện đặc biệt có hiệu quả không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:normal,rin,-300,-120,0.5,0.5,,,,
+anm,tint,mil,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng！ Dù vẫn còn phải cố gắng nhiều、 nhưng em nghĩ mình đã trưởng thành hơn một chút rồi ạ！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:surprise,mil,300,-220,0.5,0,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừm、 có vẻ tự tin ghê nhỉ、 vậy em đã làm những gì？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,mil,0
+endwait,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,365,-120,0.5,0.5,,,,
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 nếu muốn kể chuyện、 sao chúng ta không vừa ăn vừa nói nhỉ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trong lúc Lynn và mọi người ở Dreamlands、 chị đã chuẩn bị sẵn rồi、 có thể dọn ra ngay đó。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:smile,rin,-300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật sao ạ！？ Em đói meo cả bụng rồi！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:normal,mil,300,-220,0.5,0.5,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì、 chúng ta di chuyển sang phòng ăn nhé。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+anm,move,mil,1000_-220,1,0
+anm,move,rin,0_-120,1,0
+endwait
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:normal,rin,0,-120,0.5,0,,,,
+anm,tint,mil,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng！ Anh trai cũng đi thôi――、 ôi！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:surprise,rin,0,-120,0.5,0,,,,
+anm,move,rin,0_-1000,0.4,0
+endwait
+flash,255,255,255,4,0.2,0.2
+shake,0.2,5,25,25,,
+playse,/download/sound/se/se_043.mp3
+endwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:sad,mil,300,-220,0.5,0.5,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,-235,-120,0.5,0.5,,,,
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Này…… Sao lại vấp ngã ở chỗ không có gì thế！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:sad,mil,300,-220,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nói sao nhỉ、 đúng là kịch bản quen thuộc mà。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:sad,rin,0,-1000,0.5,0,,,,
+anm,move,rin,0_-120,1,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ôi、 đau quá。Em xin lỗi、 hôm nay có nhiều chuyện vui quá、 nên bước chân cứ nhẹ bẫng đi mất……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,rin,0
+endwait
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:sad,mil,300,-220,0.5,0.5,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-235,-120,0.5,0.5,,,,
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chị chưa từng nghe chuyện bước chân nhẹ bẫng thì sẽ bị vấp ngã đâu đấy……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:sad,mil,300,-220,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mà này、 Lynn…… lúc em ngã vừa rồi…… cái ghế đó……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,mil,0,
+endwait,
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:surprise,rin,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ơ……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-235,-120,0.5,0,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Lúc ngã…… em đã bẻ cong cái lưng ghế một cách hoàn hảo đấy nhỉ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:sad,rin,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>K-không phải vậy đâu ạ！ Không phải cố ý mà…… chỉ là em hơi lơ đễnh một chút…… ôi、 ừm…… dù sao thì、 em xin lỗi！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:sad,mil,-300,-220,0.5,0.5,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Haizz…… Lát nữa tôi sẽ dọn dẹp…… Thật tình、 đồ dùng đâu phải là vô hạn đâu、 nên em phải cẩn thận hơn đấy nhé。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:sad,rin,300,-120,0.5,0,,,,
+anm,tint,mil,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:normal,mil,-300,-220,0.5,0,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Đừng có buồn bã thế chứ。Em đã nắm được điều gì đó rồi mà、 phải không？ Vậy thì cứ từ từ cải thiện dần là được thôi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu có gì bọn chị có thể giúp được、 bọn chị sẽ hợp tác。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:sad,rin,300,-120,0.5,0,,,,
+anm,tint,mil,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 như thế sẽ làm phiền và gây rắc rối cho mọi người mất……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:normal,mil,-300,-220,0.5,0,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đã là đồng đội thì việc giúp đỡ lẫn nhau là đương nhiên、 làm sao mà chị em lại nghĩ là phiền phức được chứ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,rin,0
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,365,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng vậy đó。Đừng có ngại ngùng vô cớ thế chứ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:surprise,rin,0,-120,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:smile,rin,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng…… Vâng ạ！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:smile,mil,-300,-220,0.5,0.5,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:smile,asaka,365,-120,0.5,0.5,,,,
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Fufu…… Lynn cứ vui vẻ tươi tắn như thế này mới hợp với em chứ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:smile,mil,-300,-220,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng vậy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:normal,rin,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Được rồi！ Từ giờ em sẽ cố gắng hơn nữa、 mọi người cứ chờ xem nhé！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+wait,0.2
+endwait
+spine,download/adv/spine/blow_Blue,em2,default,animation,0,0,0,1,1,0
+playse,/download/sound/se/se_043.mp3
+wait,0.6
+endwait
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:sad,rin,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,365,-120,0.5,0.5,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Này Lynn、 sao tự dưng em lại tung cú đấm móc vào cái ghế thế hả！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:sad,rin,-300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>X-x-xin lỗi ạ！ Em chỉ là hơi hăng hái quá mức…… Vừa vung tay lên thì tình cờ có cái ghế ở đó……！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:smile,mil,300,-220,0.5,0.5,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Lynn……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:sad,rin,-300,-120,0.5,0,,,,
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hự……！ X-xin lỗi Miriam-san。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,all,0.2
+endwait
+mask,black1,0,0,1280,250,0,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,vi1,0,0,1280,250,0,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:unique,vi2,0,0,0,0,,,,
+imgconf,vi2,vi1,0,-880,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chị vừa nói bao nhiêu lời rồi mà…… Lại đây、 mười bản kiểm điểm trong phòng tự kiểm điểm！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+mask,vi1,0,0,1280,250,0,,,,
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:sad,vi2,0,0,0,0,,,,
+imgconf,vi2,vi1,-10,-380,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hức…… X-xin lỗi màaaaa！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,1,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

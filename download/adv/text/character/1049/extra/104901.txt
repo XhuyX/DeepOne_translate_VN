@@ -1,0 +1,190 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_01.mp3
+name,<outline width=2 color=black>Maria</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――Này。Anh có biết chị tôi đang ở đâu không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_02.mp3
+msg,1,<outline width=2 color=black>Chị。。。Không biết chị đã tháo thiết bị phát tín hiệu từ lúc nào nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_03.mp3
+msg,1,<outline width=2 color=black>Tạm thời thì、 tôi lần theo mùi hương。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1 '…Mùi hương？,Lựa chọn 2 'Maria thích Marta nhỉ。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_04.mp3
+name,<outline width=2 color=black>Maria</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>。。。？ Sao anh lại nhìn tôi bằng ánh mắt kỳ lạ thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_05.mp3
+msg,1,<outline width=2 color=black>Nếu là mùi hương của chị tôi thì anh phải biết chứ？ Mùi ngọt ngào、 thoang thoảng mùi sô cô la trong sữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_06.mp3
+msg,1,<outline width=2 color=black>Tôi muốn ngửi mãi không thôi。。。Đặc biệt là khi ngủ cùng nhau、 vùi mặt vào khe ngực của chị。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_07.mp3
+msg,1,<outline width=2 color=black>Ưm、 ha、 ha。。。Phải làm sao đây、 mới nghĩ đến thôi đã。。。Ưm、 ư。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_08.mp3
+name,<outline width=2 color=black>Maria</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đó là điều đương nhiên。Tôi yêu chị hơn bất cứ ai trên thế giới này、 hơn bất cứ thứ gì。Nếu có thể、 tôi muốn ở bên chị mãi mãi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_09.mp3
+msg,1,<outline width=2 color=black>Lúc ăn thì tôi muốn đút cho chị、 lúc tắm thì tôi muốn gội đầu cho chị。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_10.mp3
+msg,1,<outline width=2 color=black>Thậm chí là cả lúc đi vệ sinh。。。Hay đúng hơn là tôi muốn trở thành nhà vệ sinh luôn cũng được。。。À、 hay đấy。。。Ha、 ha。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_11.mp3
+name,<outline width=2 color=black>Maria</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chị、 chị。。。A、 em yêu chị quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_12.mp3
+msg,1,<outline width=2 color=black>――Sao anh lại nhìn tôi bằng ánh mắt như nhìn kẻ biến thái vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_13.mp3
+msg,1,<outline width=2 color=black>Trước mặt người chị xinh đẹp và tuyệt vời nhất thế giới、 ai mà không bị sự quyến rũ của chị ấy hạ gục cơ chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:smile,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_14.mp3
+msg,1,<outline width=2 color=black>Đúng vậy。Đây là tình yêu、 tình yêu không ngừng dành cho chị、 chỉ hơi trào ra một chút thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_15.mp3
+msg,1,<outline width=2 color=black>Aaa、 không được、 nhắc đến chị là em lại thấy buồn。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maria1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria2,0,0,0,0,,,,
+imgconf,maria2,maria1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104903/adv/sound/fav104903_01_16.mp3
+msg,1,<outline width=2 color=black>Hít、 hít、 hít hà、 haaa。。。Mùi của chị đậm đặc quá。Ưm、 hít hà、 ha、 phù。。。Ưm ư。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_17.mp3
+name,<outline width=2 color=black>Maria</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>。。。Sao lại cứ nhìn chằm chằm thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_18.mp3
+msg,1,<outline width=2 color=black>Cái này á？ Là chiếc ruy băng chị dùng để buộc tóc。Nó cũ rồi nên tôi đã thay bằng cái mới。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_19.mp3
+msg,1,<outline width=2 color=black>Nói trước là tôi không cho đâu。Nếu muốn lấy thì cứ chuẩn bị mà chiến đấu đến cùng đi、 tôi sẽ nghiền nát mày đấy、 thằng khốn nạn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_20.mp3
+msg,1,<outline width=2 color=black>――A。Khoan đã、 bỏ qua chuyện vừa rồi đi。Chị đã nhắc tôi là dùng từ ngữ không hay。Vì vậy、 chuyện vừa rồi cứ coi như tôi chưa nói gì với chị đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_21.mp3
+msg,1,<outline width=2 color=black>Nếu mà tôi nói ra、 thì khi đó――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_22.mp3
+msg,1,<outline width=2 color=black>――Thôi thì、 nếu không nói gì thì sẽ không có gì xảy ra。Chỉ có vậy thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104903/adv/sound/fav104903_01_23.mp3
+msg,1,<outline width=2 color=black>Vậy thì tôi đi tìm chị đây。Tạm biệt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_016.mp3
+anm,move,maria,-1200_-120,1,0
+endwait
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

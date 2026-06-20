@@ -1,0 +1,135 @@
+﻿// machine translate -- gemini-2.5-flash
+stopbgm,,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0.0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+mask,bg1,0,0,1280,250,0,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,kirie1,0,0,1280,250,0,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_b,body:anger,kirie,0,0,0,0,,,,
+imgconf,kirie,kirie1,0,-485,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Kyrie Kirihara</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hộc… hộc… Không ổn rồi… Có lẽ mình đã quá sức một chút… Huấn luyện có chừng đó mà đã thế này… Thật sự thì mình… sao mà thảm hại đến vậy…</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_01.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chết tiệt… không ổn rồi… Chân không còn sức… Ít nhất là cố về đến phòng… Ư… ư…！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_02.mp3
+clickwait,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:surprise,kirie,0,-120,0.5,0.5,,,,,
+endwait
+anm,jump,kirie,0_-120_10_1,0.3,0
+spine,download/adv/spine/Mark3,em1,default,animation,0,150,240,0.65,0.8,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>——Ách！？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_03.mp3
+clickwait,,,,,,,,,,,,
+spineoff,em1,0
+endwait
+msg,1,<size=30><outline width=2 color=black>Hả、 cái cảm giác lạnh lẽo này… A、 bạn là…！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_04.mp3
+clickwait,,,,,,,,,,,,
+select,Đem đồ uống đến。,Đừng cố quá sức。
+if,select_===_1,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Kyrie Kirihara</outline></size>,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:surprise,kirie,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái này、 cho tôi sao…？ Sao lại đúng lúc thế này…？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_05.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:sad,kirie,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Vậy là、 bạn đã quan tâm đến tôi nhiều đến thế sao。Thật sự、 bạn đúng là người hay lo lắng đến tận cùng。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_06.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Được rồi… Tôi xin nhận với lòng biết ơn。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_07.mp3
+clickwait,,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Kyrie Kirihara</outline></size>,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:sad,kirie,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Chỉ vì huấn luyện mà ngã quỵ thế này、 đã để bạn thấy cảnh tượng đáng xấu hổ này rồi…</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_08.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:surprise,kirie,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Đồ uống sao？ Không、 tôi không có lý do gì để bạn phải làm thế——</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_09.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:sad,kirie,0,-120,0.5,0,,,,,
+spine,download/adv/spine/Mark4,em2,default,animation,0,130,220,0.65,0.6,0.2
+endwait
+msg,1,<size=30><outline width=2 color=black>——Đừng、 đừng có thúc giục tôi như thế。Tôi hiểu rồi、 tôi sẽ nhận、 tôi sẽ nhận mà…！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_10.mp3
+clickwait,,,,,,,,,,,,
+spineoff,em2,0
+endwait
+endif,,,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:sad,kirie,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm… ực、 ực、 ực… Hộc…</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_11.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:smile,kirie,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Cảm ơn bạn。Thật sự là tôi đã được giúp đỡ。Không ngờ bạn lại chu đáo đến thế này。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_12.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:normal,kirie,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Chính vì không có sức mạnh chiến đấu nên bạn muốn hỗ trợ hết mình。Tôi rất cảm kích tấm lòng đó、 nhưng tôi nghĩ bạn không cần phải quá bận tâm đâu。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_13.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhờ có bạn mà chúng tôi mới có thể chiến đấu ở Dreamlands。Nói cách khác、 bạn là sợi dây cứu sinh của chúng tôi、 là một sự tồn tại không thể thay thế。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_14.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ cần bạn ở đó thôi、 chúng tôi đã được giúp đỡ rồi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_15.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tuy nhiên、 khi được quan tâm như thế này…、 thôi thì、 có lẽ cũng không phải là cảm giác tồi tệ gì。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_16.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Từ trước đến nay、 tôi thường đóng vai trò hỗ trợ hơn là được hỗ trợ、 nên cảm giác này thật mới mẻ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_17.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nghĩ lại thì、 ngay cả trong đội lính đánh thuê、 tôi cũng chỉ toàn làm những việc hậu cần phiền phức như đảm bảo đường tiếp tế hay lập kế hoạch tác chiến。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_18.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:sad,kirie,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy mà、 'người đó' thì cứ chiến đấu tùy thích、 lúc nào cũng tự ý hành động hay phớt lờ chiến thuật…</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_19.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:normal,kirie,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Dù vậy、 cũng nhiều lần tôi được cứu nhờ những hành động đó của người ấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_20.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi ngưỡng mộ người đó và đuổi theo… cố gắng hết sức để không thua kém… Thế nhưng、 người đó vẫn cứ tiến xa hơn nữa。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_21.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:shy,kirie,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật sự、 bóng lưng ấy thật chói lóa…</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_22.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:surprise,kirie,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Hả？ Mặt tôi đỏ sao？ Bạn、 bạn đang nói gì vậy、 chỉ là do bạn tưởng tượng thôi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_23.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:sad,kirie,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi không có những cảm xúc bồng bột như thế đâu…</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_24.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101101/adv/atlas/stand_a,body:normal,kirie,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Hôm nay、 tôi sẽ về phòng đây。Cảm ơn bạn vì đồ uống。Vậy thì、 hẹn gặp lại。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/101100/adv/sound/fav101100_02_25.mp3
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+name,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,,
+endwait,,,,,,,,,,,,

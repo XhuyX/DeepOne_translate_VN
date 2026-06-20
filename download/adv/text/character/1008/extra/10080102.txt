@@ -1,0 +1,101 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:normal,holly,0,-160,0.5,0.5,,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em từng nghe nói R'lyeh không chỉ có các thiết bị liên quan đến ma thuật mà cả thiết bị giải trí cũng rất đầy đủ…… nhưng quả thật、 nhạc viện cũng tuyệt vời không kém。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_01.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Các loại nhạc cụ cũng rất phong phú、 từ đại dương cầm、 guitar、 bass、 cho đến những thứ ít phổ biến như marimba cũng có đủ cả。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_02.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hệ thống âm thanh cũng tối tân nhất…… ngoài ra、 còn lưu trữ rất nhiều file nhạc từ cổ chí kim、 đông sang tây、 nên chắc chắn là nơi lý tưởng để thưởng thức âm nhạc。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_03.mp3
+clickwait,,,,,,,,,,,,
+select,Cô có biết chơi nhạc cụ không？,Cô thích loại nhạc nào？
+if,select_===_1,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:normal,holly,0,-160,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đương nhiên rồi。Nếu đã là một người hầu cận thì không biết chơi một hai loại nhạc cụ như guitar hay piano thì còn gì là chuyện。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_04.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không biết lúc nào、 ở đâu、 em có thể được yêu cầu biểu diễn một bản nhạc。Dù rằng、 khả năng xảy ra tình huống bất ngờ như vậy là rất thấp。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_05.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nhưng、 việc chuẩn bị sẵn sàng để ứng phó với tình huống 'một phần vạn' đó mới là điều một người hầu cận hoàn hảo cần làm。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_06.mp3
+clickwait,,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:smile,holly,0,-160,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cá nhân em thì thích nhạc rock hơn là nhạc cổ điển。Đặc biệt là nhạc rock Anh quốc xưa cũ、 nghe lúc nào cũng hay cả。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_07.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vừa mạnh mẽ、 độc đáo、 lại vừa toát lên vẻ tao nhã…… Xứng đáng được yêu mến vượt thời gian。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_08.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ôi、 trông anh ngạc nhiên quá nhỉ。Sở thích của em bất ngờ đến vậy sao？ He he、 sở thích của mỗi người đâu thể chỉ nhìn vẻ bề ngoài mà đoán được。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_09.mp3
+clickwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:normal,holly,0,-160,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu anh cũng có hứng thú với âm nhạc、 chúng ta cùng đến nhạc viện nhé？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_10.mp3
+clickwait,,,,,,,,,,,,
+spriteoff,holly,0
+endwait
+mask,bg1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,holy1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:smile,holy,0,0,0,0,,,,
+imgconf,holy,holy1,0,-730,,,0,1.5,1.5,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>Phòng cách âm cũng rất tốt、 nên dù có tạo ra tiếng động lớn cũng không lo bị lọt ra ngoài đâu……</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_11.mp3
+clickwait,,,,,,,,,,,,
+spriteoff,all,0,,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:normal,holly,0,-160,0.5,0.5,,,,,
+endwait
+msg,1,<size=30><outline width=2 color=black>Ôi…… hình như em vừa nghe thấy tiếng anh nuốt nước bọt thì phải…… He he、 anh đã tưởng tượng ra điều gì vậy？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_12.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em chỉ định đề nghị chúng ta cùng thưởng thức âm nhạc thôi mà。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_13.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhạc viện có cả loa lớn nữa、 chắc chắn sẽ giúp anh tận hưởng âm thanh sống động、 chân thực hơn nhiều…… là em nghĩ vậy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_14.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nhưng hình như anh lại tưởng tượng ra chuyện khác rồi…… Anh đã mong đợi điều gì không phải phép sao？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_15.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:smile,holly,0,-160,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>He he…… mặt anh hơi đỏ rồi đấy？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_16.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù em biết một người hầu cận không nên nói những lời như vậy、 nhưng thật sự anh rất đáng yêu…… hay nói đúng hơn là một người rất đáng để trêu chọc đấy、 anh。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_17.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:normal,holly,0,-160,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ nói chuyện thế này、 em lại có cảm giác như…… mình đang quay về cái thời không vướng bận lo âu hay ràng buộc nào cả。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100801/adv/sound/fav100801_04_18.mp3
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+name,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,,
+endwait,,,,,,,,,,,,

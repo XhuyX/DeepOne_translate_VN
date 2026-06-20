@@ -1,0 +1,381 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10040200.jpg,0,,,,,,,,
+endwait
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+sprite,download/monster/20030101/adv/image/20030101,robo,0,-100,1.35,0.5
+endwait
+spine,download/adv/spine/Slash2_Blue,em2,default,animation,0,-100,0,1,1,0
+playse,/download/sound/se/se_037.mp3
+wait,0.6
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>——、 ………………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,all,1
+playse,/download/sound/se/se_025.mp3
+wait,1.5
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Thật là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.5
+endwait
+sprite,download/monster/20030101/adv/image/20030101,robo,0,-100,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>————————</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_022.mp3
+endwait
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:normal,vi,-300,-240,0.5,0.5,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,300,-120,0.5,0.5,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đánh mãi mà không dứt。Cứ như số lượng chúng đang tăng lên ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:normal,vi,-300,-240,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Thực tế là số lượng chúng đang tăng lên đấy。Ta không rõ vì sao nhiều ảo ảnh lại xuất hiện đến thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,300,-120,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Rốt cuộc、 Lynn Rowen đang gây ra ảnh hưởng gì đó lên Dreamlands sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:normal,vi,-300,-240,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chắc chắn là không phải vậy đâu…… Ta chưa từng nghe nói Dreamlands hay ảo ảnh lại bị thu hút hay phản ứng với một người hậu đậu cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>……À mà này、 Zeno。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:sad,xeno,300,-120,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À、 ta biết rồi。Yêu cầu con bé thiền định trong tình cảnh này、 e là đã quá sức rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+slideinblack,0.5,left
+endwait
+spriteoff,all,0
+name,
+msg,0,
+endwait
+slideoutblack,0.5,left
+endwait
+mask,black1,0,0,1280,250,0,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,vi1,0,0,1280,250,0,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:sad,vi2,0,0,0,0,,,,
+imgconf,vi2,vi1,-10,-380,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bồn chồn、 bồn chồn……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ư、 ư ư……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+slideinblack,0.5,left
+endwait
+spriteoff,all,0
+name,
+msg,0,
+endwait
+slideoutblack,0.5,left
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:unique,xeno,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Haizz…… Thôi đành vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,0,-120,0.5,0,,,,
+msg,1,<outline width=2 color=black>Lynn Rowen。Tạm dừng thiền định。Trước hết、 chúng ta sẽ dọn dẹp đám địch này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_b,body:smile,rin,-300,-120,0.5,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng、 em chờ mãi！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,300,-120,0.5,0,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ngươi cứ ở đó bảo vệ người đàn ông kia。Ta、 Vee và Beatrice sẽ tiêu diệt kẻ địch xung quanh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_b,body:surprise,rin,-300,-120,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ơ？ Em cứ nghĩ mình sẽ xông lên đánh bại kẻ địch cơ mà…… Em giỏi mấy vụ đó hơn đó nha？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,300,-120,0.5,0,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ngươi mà làm thế rồi lại gây ra sai lầm kỳ quặc nữa thì phiền phức lắm。Ngươi chỉ cần hạ gục những kẻ mà chúng ta bỏ sót thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Rõ chưa、 Vee、 Beatrice？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-300,-200,0.5,0.5,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:normal,vi,300,-240,0.5,0.5,,,,
+anm,tint,bea,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ta cũng muốn được ở phía sau như vậy lắm chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-300,-200,0.5,0,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Vee-san、 đừng nói vậy chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,vi,0,
+anm,tint,bea,150_150_150,0.0001,0
+endwait
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:sad,rin,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>………………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-300,-200,0.5,0,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Lynn-san、 có lẽ nào em đang không hài lòng vì không được chiến đấu sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:surprise,rin,300,-120,0.5,0,,,,
+anm,tint,bea,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không、 không phải vậy đâu ạ……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:sad,rin,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ là、 cứ thấy mình vô dụng thế này、 em lại ghét bản thân mình…… Em nghĩ nếu không giúp ích được cho ai、 thì em tồn tại cũng chẳng có ý nghĩa gì。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em lúc nào cũng chỉ gây phiền phức cho mọi người…… Nên ít nhất、 em muốn dùng sức mạnh này trong chiến đấu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-300,-200,0.5,0,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Phiền phức ư…… Quả thật、 vụ nổ vừa rồi đã khiến chúng tôi giật mình đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:sad,rin,300,-120,0.5,0,,,,
+anm,tint,bea,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng、 đúng rồi ạ…… Em xin lỗi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-300,-200,0.5,0,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nhưng tôi không hề nghĩ đó là phiền phức đâu。Vì tôi biết em không hề cố ý làm vậy mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Zeno-san và Vee-san cũng nghĩ vậy thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:surprise,rin,300,-120,0.5,0,,,,
+anm,tint,bea,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật、 thật vậy sao……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:smile,bea,-300,-200,0.5,0,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Phải。Chỉ cần nói chuyện một chút thôi là tôi đã biết em có một trái tim trong sáng rồi。Đó là lý do Zeno-san cũng đang giúp em luyện tập đó thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-300,-200,0.5,0,,,
+msg,1,<outline width=2 color=black>Tôi nghĩ ngay cả các Người Truy Tìm cũng biết đến nỗ lực của em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chắc chắn、 mọi người xung quanh công nhận em là đồng đội、 hơn cả những gì em nghĩ đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:sad,rin,300,-120,0.5,0,,,,
+anm,tint,bea,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nhưng em lúc nào cũng chỉ kéo chân mọi người thôi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,Lynn là đồng đội quan trọng。,Em chẳng phiền phức chút nào。
+if,select_===_1,,,,,,,,,,,,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:surprise,rin,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Anh……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:smile,bea,-300,-200,0.5,0,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Fufu…… Xem ra phản ứng của cậu ấy cho thấy suy nghĩ của tôi không sai rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:sad,rin,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Đó là vì anh tốt bụng nên mới nghĩ vậy thôi——</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:surprise,rin,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu phiền phức thì sẽ không lo lắng sao？ Vậy là sao……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0.5
+stopbgm,0.5
+endwait
+bg,color_0_0_0,1,255,,,,
+endwait
+msg,1,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>………………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,0,
+bg,download/bg/bg_10010100.jpg,1,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-235,-120,0.5,0.5,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:sad,mil,300,-220,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Haizz。Không biết Lynn có ổn không nữa。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-235,-120,0.5,0,,,,
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cậu ấy cũng ở đó mà、 cô không cần phải lo lắng đến vậy đâu chứ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:sad,mil,300,-220,0.5,0,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đáng lẽ ra、 tôi phải lo cho cậu ấy、 người không có sức mạnh chiến đấu、 nhưng thế thì thật là mâu thuẫn quá……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-235,-120,0.5,0,,,,
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi nào、 thôi nào……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nhưng mà、 Lynn、 mong mọi chuyện sẽ suôn sẻ với em ấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102801/adv/atlas/stand_a,body:sad,mil,300,-220,0.5,0,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Miriam Riffler</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng…… Nếu em ấy bớt hậu đậu đi một chút、 thì tôi sẽ không phải nhìn thấy khuôn mặt buồn bã đó nữa。Lúc đó、 tôi、 người đang tức giận、 lại cảm thấy như mình vừa làm điều gì sai trái vậy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0.5
+stopbgm,0.5
+endwait
+bg,color_0_0_0,1,255,,,,
+endwait
+msg,1,<size=30><outline width=2 color=black>………………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,0,
+bg,download/bg/bg_10040200.jpg,1,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-300,-200,0.5,0.5,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:surprise,rin,300,-120,0.5,0.5,,,,
+anm,tint,bea,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Asaka-san và Miriam-san… hai người luôn lo lắng cho con sao… Thật sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-300,-200,0.5,0,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tôi không rõ lắm về việc Lynn-san đến đây để tập luyện… Nhưng tôi nghĩ、 lo lắng là vì người ta quan tâm đến nhau。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,,,,,,
+spriteatlas,download/character/101802/adv/atlas/stand_a,body:sad,rin,300,-120,0.5,0,,,,
+anm,tint,bea,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lynn Rowen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mọi người… dù con vô dụng thế này、 vẫn xem con là bạn sao？ Con… chẳng thể báo đáp gì cả…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-300,-200,0.5,0,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nếu tình bạn là thứ toan tính、 cần được báo đáp、 thì có lẽ tôi đã không thể ở bên Zeno-san và những người khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,bea,-300,-200,0.5,0,,,
+msg,1,<outline width=2 color=black>Bởi vì… chúng ta、 những Debris、 vốn chẳng có gì。Chẳng có gì để toan tính、 hay được ban cho…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Vả lại、 Zeno-san hầu như có thể tự mình làm mọi thứ。Tôi cũng chẳng cần phải chăm sóc anh ấy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:smile,bea,-300,-200,0.5,0,,,
+msg,1,<outline width=2 color=black>Vì vậy、 tôi nghĩ tình bạn không phải là thứ như vậy… mà là thứ được gắn kết bằng một trái tim tuyệt vời hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:normal,vi,-300,-240,0.5,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――Nàng nói vậy đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,300,-120,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:normal,vi,-300,-240,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Gì chứ、 ngại ngùng à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:surprise,xeno,300,-120,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>N… Không có！ Hơn nữa、 tập trung vào kẻ địch trước mặt đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:normal,vi,-300,-240,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ko-ko-ko、 thật là dễ thương làm sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,1,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

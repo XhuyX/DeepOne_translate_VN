@@ -1,0 +1,355 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11200300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm112.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,yui_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105081/adv/atlas/stand_a,body:normal,yui_s2,0,0,0,0,,,,
+imgconf,yui_s2,yui_s1,0,-190,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Yui</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: K、 fu、 a… ha、 h、 a… ha ha ha ha ha！ Cứ ăn đi、 ăn cho béo tốt、 rồi thành heo thì hay biết mấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/slaB.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,sasya1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104807/adv/atlas/stand_a,body:anger,sasya2,0,0,0,0,,,,
+imgconf,sasya2,sasya1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>anger: A、 là cô đấy！ Không được phép làm thế chứ！？ Đừng có đùa nữa được không！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm114.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:smile,ruiez,300,-100,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:smile,ruiez,300,-100,0.5,0,,,,
+anm,tint,elica_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>smile: ……Phù phù。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: ……Cô đang cười gì vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:normal,ruiez,300,-100,0.5,0,,,,
+anm,tint,elica_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Ừm？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:normal,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Cứ bảo 'chuyện không liên quan đến chúng ta' hay 'cần gì phải bận tâm'、 'kệ xác nó đi'、 mà lại để ý mới tài</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:sad,elica_s,-300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: ……Chỉ là、 tôi muốn tản bộ dưới tán anh đào một chút thôi。Rồi tình cờ thấy họ ở đó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:sad,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>sad: Tôi không còn muốn dính dáng gì đến cô ta nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:normal,ruiez,300,-100,0.5,0,,,,
+anm,tint,elica_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Vậy sao… Cô vẫn không tha thứ được à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:anger,elica_s,-300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>anger: Đương nhiên。Dù có chuyện gì đi nữa、 tôi cũng không tha thứ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:anger,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>anger: Vì cô ta、 bạn thân tôi đã không còn nữa。Sự thật đó không thể thay đổi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:anger,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>anger: ……Nhưng、 việc không tha thứ、 với hận thù、 căm ghét、 muốn làm tổn thương người khác、 không nhất thiết phải đi đôi với nhau</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:anger,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>anger: Trong đôi mắt xanh biếc này、 tôi sẽ không để nó phản chiếu sự trả thù hay bóng tối của tuyệt vọng。Mà là một ngày mai tươi sáng、 như bạn tôi mong muốn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:anger,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>anger: Tôi sẽ không bao giờ nhìn lại、 để rồi cứ mãi đứng yên một chỗ mà khóc lóc nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:sad,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>sad: Nhưng… tôi cũng có chút thương cảm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Này、 Louise… Phải chăng sự bảo hộ của Tohil、 thật sự sẽ mang lại hạnh phúc cho những người được ban cho nó？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:normal,ruiez,300,-100,0.5,0,,,,
+anm,tint,elica_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:sad,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>sad: Ừm… Sự bảo hộ của Tohil、 có thể mang lại thành công、 vinh quang nhờ vào vận may、 hoặc là tăng cường những phẩm chất vốn có？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:sad,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>sad: Đã có không ít người đạt được thành công nhờ Tohil…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:sad,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>sad: Dĩ nhiên、 tôi không chấp nhận bản chất cần phải hy sinh</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:sad,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>sad: Nhưng、 nếu bỏ qua quá trình đó、 thì việc có được hạnh phúc nhờ sự bảo hộ、 cũng không hẳn là sai、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Đó là suy nghĩ của con người、 những kẻ có thể thất bại</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Tôi đã giết không ít người có được sự bảo hộ của Tohil。……Nhưng、 ai nấy đều có đôi mắt đục ngầu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Thành công đã được đảm bảo、 vinh quang chắc chắn、 hạnh phúc không đổi thay。Điều đó… chắc chắn sẽ khiến con người mục rữa từ từ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:sad,ruiez,300,-100,0.5,0,,,,
+anm,tint,elica_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: Ừm… quả thật là như vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Nếu làm gì cũng có kết quả tốt nhất、 thì cần gì phải nỗ lực。Nếu không nỗ lực、 thì dù có được gì cũng chẳng có niềm vui</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Con người、 chắc chắn là vì nỗ lực、 vì thử thách、 cố gắng vươn tay ra、 nên khi đầu ngón tay chạm vào thành công、 mới cảm thấy vui sướng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Có vẻ như Nữ hoàng đã sớm bị mục rữa tâm hồn hơn người khác、 nhưng kết cục của những kẻ được ban cho sự bảo hộ của Tohil、 chắc chắn sẽ giống nhau</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Thế giới phản chiếu trong đôi mắt ấy sẽ mất đi màu sắc、 mất đi giá trị、 rồi dần dần không muốn nhìn thấy gì nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Đó chính là、 lời nguyền Tohil、 thứ đã cướp đi tín ngưỡng từ một vùng đất xa xôi、 hy sinh tính mạng của những người phụ nữ Liubia、 rồi được sinh ra、 thật xấu xí và ghê tởm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Thực ra、 lẽ ra đã có người có thể ngăn cản Nữ hoàng trước khi mọi chuyện trở nên tồi tệ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Như anh ta、 như Sasha、 chắc chắn trên thế giới rộng lớn này、 sẽ có những người mà sức mạnh của cô ta không thể phát huy được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Nhưng――vận may tuyệt đối không gặp được những đối tượng đối kháng như vậy。Đó cũng là số phận của lời nguyền đã giáng xuống cô ta</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:sad,ruiez,300,-100,0.5,0,,,,
+anm,tint,elica_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: ……Nghe thật đáng sợ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:sad,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>sad: Thương cảm Yui、 là như vậy đấy。Cô ta cũng là một trong những nạn nhân của lời nguyền Tohil</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:anger,elica_s,-300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>anger: Vì là nạn nhân、 thì không có nghĩa là được phép làm tổn thương người khác。Đã làm thế、 thì đương nhiên là bị nguyền rủa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:sad,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>sad: Dù vậy… hành động của Yui、 không phải là ý muốn của cô ta。Về điểm đó、 tôi cũng không phải là không đồng cảm… chỉ một chút thôi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: ――Nhưng、 tôi sẽ không tha thứ、 cũng sẽ không chìa tay ra giúp đỡ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Vì ở thế giới này、 tôi cũng không cần phải làm những việc đó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:normal,ruiez,300,-100,0.5,0,,,,
+anm,tint,elica_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: ……Vậy à</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:normal,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Này。Erica</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:normal,elica_s,-300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Sao vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103459/adv/atlas/stand_a,body:normal,ruiez,300,-100,0.5,0,,,,
+anm,tint,elica_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: Tôi tự hào về con người của cô bây giờ。Tôi khẳng định。Vì bạn thân của cô、 là tôi mà</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:surprise,elica_s,-300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:smile,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>smile: ……Đừng nói nữa。Dưới tán hoa anh đào đẹp đẽ thế này、 mà tôi sắp khóc mất</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:smile,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>smile: Cảnh đẹp thế này、 mà lại để nước mắt làm mờ đi thì thật đáng tiếc。Vì vậy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103355/adv/atlas/stand_a,body:smile,elica_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>smile: ――A、 đừng nói những lời như thế nữa mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,644 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:normal,rin,-1200,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_016.mp3
+anm,move,rin,0_-120,1,0
+endwait
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:normal,rin,0,-120,0.5,0,,,,
+name,<outline width=2 color=black>Lynn Rowen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Yui-san、 chào buổi sáng ạ！ Sáng rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Yui</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm、 ừm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:sad,rin,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lynn Rowen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hôm nay chúng ta cùng đi Truy Tìm mà、 Asaka-san đã chuẩn bị bữa sáng rồi、 mau đi ăn thôi ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:sad,rin,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À、 Yui-san thích ăn cơm hay bánh mì vào buổi sáng hơn ạ？ Còn em thì――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,yui1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105000/adv/atlas/stand_a,body:sad,yui2,0,0,0,0,,,,
+imgconf,yui2,yui1,0,-190,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Yui</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm ưm ưm…… Yui buồn ngủ quá nên…… cho Yui ngủ thêm chút nữa đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_025.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:smile,rin,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lynn Rowen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 em hiểu rồi ạ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_016.mp3
+anm,move,rin,-1200_-120,1,0
+endwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,255
+endwait
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010600.jpg,0,255
+endwait
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:normal,rin,1200,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_016.mp3
+anm,move,rin,300_-120,1,0
+endwait
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 Lynn、 em đã đánh thức Yui dậy chưa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:smile,rin,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lynn Rowen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 Yui-san nói muốn ngủ thêm một chút nên em đã để Yui-san ngủ tiếp rồi ạ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Haizzz…… Chắc là do còn ngái ngủ thôi、 nhưng xem ra là đã dùng sức mạnh ám thị rồi đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ra vậy。Khi còn ngái ngủ thì lý trí cũng chẳng hoạt động tốt、 vậy là sức mạnh vốn dĩ đã khó kiểm soát lại càng mất kiểm soát hơn sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Đến lượt mình rồi sao？,Chỉ có mình đi thôi sao……
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 đó là cách chắc chắn nhất rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Trừ khi anh không có ý đồ gì đen tối với Yui đang ngủ thì mới nói。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:unique,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhìn chằm chằm…… Anh hai、 mau quay lại nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu anh mà chậm trễ quá、 bọn em sẽ ăn sáng trước đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cả món tráng miệng em cũng sẽ lén ăn hết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ha ha。Nghe vậy đấy、 nên anh mau lên nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ…… Sao lại có phản ứng bất ngờ thế này……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 chắc là không phải ghét bỏ gì đâu、 nhưng mà nghĩ đến phản ứng của Yui khi vừa tỉnh dậy đã thấy anh thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chắc chắn Yui sẽ vui mừng vì anh đã đến đánh thức、 tâm trạng sẽ phấn khích và sẽ cầu hôn anh với khí thế còn mạnh mẽ hơn mọi khi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:unique,asaka,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Hừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Asaka cũng ghen tị với chuyện đó của Yui sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:unique,asaka,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đâu có、 không phải là ghen tị gì đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu cái vẻ mặt bất mãn đó không phải là ghen tị thì là gì nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khà khà…… Anh hai。Để Asaka không ghen tị thêm nữa、 anh mau quay lại nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:shy,asaka,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cả、 cả Frau nữa……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ha ha。Nghe vậy đấy、 nên anh mau lên nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.8,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.8,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――……Thôi thì、 chắc là anh sẽ không quay lại sớm đâu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>K、 không sao đâu…… chắc vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngay cả Frau cũng có vẻ không tự tin lắm nhỉ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Thôi thì、 nếu Yui mà thiếu ngủ hay không khỏe、 thì việc Truy Tìm hôm nay tôi đi thay cũng được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Asaka。Ý đồ lộ liễu quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:shy,asaka,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả、 k、 không phải vậy đâu……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,0,1200,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,maruta,0_-90,0.7,0
+playse,/download/sound/se/se_055.mp3
+endwait
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hoảng hốt là bằng chứng cho thấy đã bị nói trúng tim đen…… Asaka、 tự mình nói ra rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Martha、 đừng có tự nhiên rơi từ trần nhà xuống nữa được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi không phải rơi mà là đi xuống、 nên không có vấn đề gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải chuyện đó đâu mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà nói thật、 tôi đã cố gắng ẩn giấu khí tức để lẻn đến rồi、 nên muốn mọi người phản ứng nhiệt tình hơn một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi cũng đã quen với cách xuất hiện kỳ lạ của Martha rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:surprise,maruta,300,-90,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,silvy,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khà khà、 Martha-kun。Lần tới thử giăng màn khói xem sao？ Tôi có sẵn thứ có thể làm thành bom khói đấy――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cậu cũng vậy、 tự nhiên xuất hiện rồi định đưa thứ nguy hiểm cho người khác sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,silvy,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không không、 tuy người hít phải khói sẽ có chút tác dụng phụ、 nhưng không có vấn đề gì về sức khỏe đâu nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tịch thu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:smile,silvy,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khà khà、 tiếc thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,silvy,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À mà nói mới nhớ、 hôm nay Martha và Sylvie cũng cùng đi Truy Tìm phải không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:normal,rin,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lynn Rowen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng ạ！ Là em với Yui-san、 Martha-san、 Sylvie-san ạ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Này、 em thấy hơi bất an rồi、 hay là để em đi thay nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nghe có vẻ là một đề nghị rất hấp dẫn đấy、 nhưng Asaka chỉ muốn lấy cớ để ở lại với anh trai thôi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có tôi ở đây thì chẳng có gì phải lo lắng cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,silvy,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hơn nữa、 Asaka-kun。Em đừng nên cướp đi vai trò của Yui-kun。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,silvy,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đối với con bé、 việc tham gia Truy Tìm hay giúp ích cho ai đó、 chắc chắn có ý nghĩa rất quan trọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,silvy,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Con bé vẫn còn bất ổn lắm、 có lẽ nó cần một lý do để cảm thấy mình có thể ở đây、 phải không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… đúng là vậy rồi…… Xin lỗi、 em đã không suy nghĩ kỹ、 nói lời thừa thãi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không cần phải bận tâm đến mức đó đâu。Nếu em quá bận tâm thì Yui cũng sẽ khó xử thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,silvy,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trước hết、 ăn lót dạ trong lúc chờ Yui。Để hôm nay cũng có thể cố gắng cả ngày、 tôi muốn có sô cô la cho bữa sáng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:unique,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không được đâu。Chỉ sô cô la thôi thì làm sao đủ sức chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:anger,maruta,300,-90,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải vậy đâu……！ Chỉ cần có sô cô la thì tôi có thể cố gắng bao nhiêu cũng được、 thậm chí、 thiếu sô cô la mới là vấn đề nghiêm trọng hơn……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi được rồi、 sô cô la em sẽ chuẩn bị làm món tráng miệng。Nếu chị ăn hết bữa chính trước đó thì em sẽ đưa cho。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đành vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:smile,asaka,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gì mà 'đành vậy' chứ、 thôi đi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

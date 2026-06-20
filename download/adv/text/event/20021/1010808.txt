@@ -1,0 +1,313 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11110300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy1,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――、……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/Slash4_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+anm,tint,enemy1,0_0_0,0.5,0
+endwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+stopbgm,0.2,,,,,,,,,,
+endwait
+wait,0.2
+endwait
+playbgm,/download/sound/bgm/bgm049.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:normal,zizel,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giờ thì xong rồi。Nào、 đi tiếp thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0.5,,,,
+anm,tint,vi,150_150_150,0.0001,0
+spriteatlas,download/character/101605/adv/atlas/stand_a,body:sad,patrisia,-300,-200,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chúng ta… thật sự chẳng làm gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Được thảnh thơi cũng tốt chứ sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù sao đi nữa、 hăng hái đến thế… Chắc là thèm khát manh mối về Nguyên thư Pnakotic lắm đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Zeno mà thấy được bộ dạng đó thì phiền phức to。Gã không thích Người Truy Tìm đến gần Nguyên thư Pnakotic đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,xeno1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno2,0,0,0,0,,,,
+imgconf,xeno2,xeno1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——Nghe có vẻ thú vị đấy、 Vee。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:sad,vi,300,-240,0.5,0.5,,,,
+anm,tint,vi,150_150_150,0.0001,0
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kể chi tiết hơn cho ta nghe xem。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:sad,vi,300,-240,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Quả nhiên、 nhắc Tào Táo、 Tào Táo đến。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:sad,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không cấm ngươi xuất hiện、 nhưng mà… làm ơn cho màn ra mắt có chút thú vị được không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:sad,xeno,-300,-120,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngươi tưởng ta là diễn viên xiếc hay gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,xeno,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Zeno-san、 hôm nay anh đã hứa với Vee-san là giữ bí mật、 vậy mà… lại xông ra ngay lập tức…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 Beatrice cũng ở đây à。Với lại、 bí mật gì với ta cơ chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ờ… à、 thì… là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,weat,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Beatrice nhờ ta。Để tạ ơn、 trong lúc ngươi tận hưởng cái nhà trọ này、 ta sẽ giúp ngươi tránh bị ảo ảnh quấy rầy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,vi,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:surprise,weat,300,-240,0.5,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Zeno-san、 sao anh lại nói ra chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,-300,-120,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù sao thì cũng đã lộ diện rồi、 giấu nữa làm gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,weat,300,-240,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thì… đúng là vậy、 nhưng… đâu cần phải nói cả lý do ra chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:anger,xeno,-300,-120,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hơn là chuyện đó、 nói về chuyện lúc nãy đi。Ta nghe nói là manh mối về Nguyên thư Pnakotic？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101605/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0.5,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:sad,vi,300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Chuyện này… có nên nói ra không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101605/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Đến nước này mà không nói gì thì chỉ thêm rắc rối thôi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101605/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tuy chưa thể khẳng định là có liên quan đến Nguyên thư Pnakotic、 nhưng nếu đúng là vậy thì cũng không thể tách rời với Zeno-san được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101605/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thật ra——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name, 
+msg,0,<outline width=2 color=black>…………………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+endwait
+bg,download/bg/bg_11110300.jpg,1,255
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,-300,-120,0.5,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:surprise,weat,300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ký ức của anh trai cô trong khu vực này ư？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,-300,-120,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Một lá bài sở hữu sức mạnh như thần… Quả là thông tin bất ổn。Liệu thứ ghê gớm như vậy có thật sự tồn tại ở nơi này không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,weat,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101605/adv/atlas/stand_a,body:normal,patrisia,300,-200,0.5,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu tin lời anh trai tôi… thì là vậy、 dù tôi không rõ chi tiết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,-300,-120,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy à… Vậy thì ta cũng đi cùng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,patrisia,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:surprise,weat,300,-240,0.5,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đi cùng… sao？ Anh không bảo chúng ta ngừng tìm lá bài nữa sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,-300,-120,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ta còn chưa biết lá bài đó là gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Bên kia đã thành thật nói ra、 còn bên này cứ đưa ra những yêu cầu vô lý thì… không hợp lý chút nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà、 giả sử lá bài đó thật sự là thứ nguy hiểm có liên quan đến Nguyên thư Pnakotic、 thì lúc đó… có lẽ sẽ phải giao chiến thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,weat,300,-240,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,-300,-120,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Beatrice、 cô có thể về rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:anger,weat,300,-240,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Không、 tôi cũng sẽ đi cùng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,weat,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:sad,zizel,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À… Xin lỗi vì đã ngắt lời、 nhưng… tôi nghĩ lá bài lần này không liên quan đến Nguyên thư Pnakotic đâu、 nên… không cần phải làm quá lên thế đâu…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,-300,-120,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô đang nói gì vậy？ Chẳng lẽ cô định nói thế để qua mặt chúng ta sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:surprise,zizel,300,-120,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi không có ý đó… À、 vâng、 đúng là tôi định qua mặt thật、 nhưng mà… không phải vì tôi muốn Nguyên thư Pnakotic đâu、 hay nói đúng hơn là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:normal,xeno,-300,-120,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tóm lại、 chúng ta cũng sẽ đi cùng。Nếu cô thấy phiền、 thì cứ dùng vũ lực mà loại bỏ chúng ta đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:sad,zizel,300,-120,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ư…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,zizel1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:sad,zizel2,0,0,0,0,,,,
+imgconf,zizel2,zizel1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thêm đối thủ rồi… Phải làm sao để lấy được lá bài mà không bị ai để ý đây… Nhưng mà、 làm thế nào đây…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+mask,zizel1,0,0,1280,250,0,,,,
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:anger,zizel2,0,0,0,0,,,,
+imgconf,zizel2,zizel1,0,-375,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 nhất định tôi phải lấy được。Vì tôi là người kế thừa nhà Bawdwin。Giselle Bawdwin――<ruby>Gươm Kiêu Hãnh Ánh Sáng-Nevan Claiomh</ruby> mà！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhất định phải lấy được lá bài xem được tất cả các kênh trả phí――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

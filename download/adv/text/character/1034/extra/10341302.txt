@@ -1,0 +1,175 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11510300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm100.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:normal,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_01.mp3
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tôi chưa từng thử chơi casino riêng tư lần nào cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:sad,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_02.mp3
+msg,1,<outline width=2 color=black>Cũng có lúc tôi nghĩ thử một chút xem sao、 nhưng mà… nhìn này、 tôi chẳng cảm thấy mình sẽ thắng nổi trò chơi may rủi đâu… tôi đấy nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:sad,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_03.mp3
+msg,1,<outline width=2 color=black>Về cơ bản thì casino đã chẳng tốt đẹp gì rồi。Tôi với mấy chỗ tụ tập tiền bạc hay quyền lực chẳng hợp nhau tẹo nào…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:unique,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_04.mp3
+msg,1,<outline width=2 color=black>Thực tế、 không biết tôi đã bị cuốn vào bao nhiêu vụ rắc rối liên quan đến casino rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:normal,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_05.mp3
+msg,1,<outline width=2 color=black>Ví dụ nhé、 có lần tôi làm việc ở sảnh chính chỉ một ngày thôi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm115.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:unique,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_06.mp3
+msg,1,<outline width=2 color=black>Đúng hôm đó、 một băng trộm tập hợp toàn cao thủ đột nhập vào casino nhằm vào két sắt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:unique,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_07.mp3
+msg,1,<outline width=2 color=black>Chúng cúp điện toàn bộ cơ sở、 tưởng phục hồi được thì hệ thống quản lý đã bị chiếm quyền、 camera giám sát lẫn thang máy đều không dùng được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:unique,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_08.mp3
+msg,1,<outline width=2 color=black>Trong khi lực lượng bảo vệ phe ta chẳng hoạt động tử tế、 tôi phải một mình vượt qua bẫy của bọn tội phạm để chạy đến bảo vệ két sắt… kiểu thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:unique,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_09.mp3
+msg,1,<outline width=2 color=black>Thật đấy、 sao lần nào tôi cũng bị cuốn vào mấy vụ náo loạn kỳ lạ thế này không biết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Chỉ thế thôi à？,Đó là số phận đấy。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:sad,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_10.mp3
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ừ nhỉ、 chỉ thế thôi。Không phải trong két chứa vũ khí sinh học、 cũng chẳng có hoàng tử nước nào bị bắt cóc đằng sau vụ cướp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:sad,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_11.mp3
+msg,1,<outline width=2 color=black>Không có mạng sống của nhiều người hay mầm mống chiến tranh giữa các quốc gia、 nên nó nhàn hơn thường lệ nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:surprise,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_12.mp3
+msg,1,<outline width=2 color=black>– Nói gì mà nhàn、 tôi bị ngốc chắc！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:surprise,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_13.mp3
+msg,1,<outline width=2 color=black>Suýt thì tôi cũng bị thuyết phục luôn rồi、 nhưng này、 chỉ là do tiêu chuẩn của tôi lệch thôi chứ bình thường bị cuốn vào vụ trộm lớn thế này là chuyện trọng đại đấy nhé！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:sad,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_14.mp3
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đúng thế nhỉ… tôi biết chứ、 tôi biết nhưng mà này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:unique,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_15.mp3
+msg,1,<outline width=2 color=black>Đầu óc hiểu rồi mà trái tim chẳng theo kịp kìa！ Sao cứ nghĩ mãi là sao chỉ có mỗi tôi thế này！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:sad,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_16.mp3
+msg,1,<outline width=2 color=black>Đi trừ tà hay đuổi quỷ cũng chẳng ăn thua、 thế này thì biết làm sao đây……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:sad,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_17.mp3
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Kết cục hồi đó ấy à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:sad,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_18.mp3
+msg,1,<outline width=2 color=black>Tóm lại、 tôi bảo vệ được két sắt、 rồi rượt đuổi bằng xe hơi trên phố Las Vegas với đám tội phạm tẩu thoát。Kết thúc là không chiến giữa trực thăng với nhau đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:normal,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_19.mp3
+msg,1,<outline width=2 color=black>À、 nhưng lúc đó tôi cho nổ hai cái trực thăng、 phía casino chịu bồi thường。Khoản đó tôi hên đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:sad,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_20.mp3
+msg,1,<outline width=2 color=black>……Nhưng thật ra、 không bị cuốn vào mấy chuyện đó mới là hạnh phúc nhất nhỉ。Tôi biết、 tôi biết mình bất thường mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:anger,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_21.mp3
+msg,1,<outline width=2 color=black>Nhưng có cách nào đâu！ Đâu phải tôi cố tình muốn bị cuốn vào！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:sad,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_22.mp3
+msg,1,<outline width=2 color=black>A…… Ước gì được sống yên bình……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103413/adv/atlas/stand_a,body:anger,ruiez,0,-100,0.5,0,,,,
+playvoice,1,download/character/103413/adv/sound/fav103413_02_23.mp3
+msg,1,<outline width=2 color=black>– Này、 đừng có nhìn mặt tội nghiệp rồi vỗ vai tôi thế chứ！ T、 tôi vẫn chưa từ bỏ đâu… chưa từ bỏ đấy nhé！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

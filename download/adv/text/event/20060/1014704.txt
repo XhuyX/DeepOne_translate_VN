@@ -1,0 +1,450 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11120300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm007.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102909/adv/atlas/stand_b,body:anger,rozet,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kẻ ác hãy về với tro tàn、 với đất cát――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20170201/adv/image/20170201.png,enemy1,0,-200,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash2_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,tint,enemy1,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102909/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chúng ta đã hạ hết ảo ảnh xung quanh rồi、 nhưng vé Norn-chan làm vẫn chưa thấy đâu nhỉ。Có vẻ toàn là vé trật rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102909/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 chúng ta hãy đi tiếp thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102909/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Mà nói đi cũng phải nói lại、 hệ thống đèn trang trí của vùng này thật lộng lẫy、 nhưng liệu ở thế giới thực、 mọi người cũng trang hoàng như thế này sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,milva,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy。Tất nhiên、 cách trang trí sẽ khác nhau tùy từng quốc gia、 nhưng cậu có thể thấy cảnh tượng này ở nhiều nơi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rosette ít khi có dịp nhìn thấy những thứ như thế này nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102909/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Tôi ít khi ra ngoài vào dịp Giáng sinh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm…… Tôi thì đã từng thấy Giáng sinh ở nhiều quốc gia rồi đấy。Quả nhiên là nhiều nơi rất đẹp nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À mà nói mới nhớ、 nhà Patricia-chan giàu có phải không？ Vậy thì、 chắc hẳn Giáng sinh sẽ được trang hoàng lộng lẫy lắm nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy。Không chỉ đèn trang trí、 mà để chuẩn bị cho các bữa tiệc tại dinh thự、 những đồ đạc chuyên dụng cũng được vận chuyển đến nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đối với những người thuộc tầng lớp đó、 việc có thể chuẩn bị một địa điểm hoành tráng đến mức nào cũng là một điều quan trọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,milva,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:surprise,norn,300,-120,0.5,0.5,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chà、 đúng là chuyện của người giàu có nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:sad,patrisia,-300,-200,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù được trang hoàng lộng lẫy đến đâu、 thì niềm vui cũng chẳng liên quan gì đến tôi cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100606/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Patricia？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:sad,patrisia,-300,-200,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 không…… xin lỗi。Không có gì đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Patricia-chan đã cắt đứt quan hệ với gia đình rồi phải không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「ちょっともったいないわね。そんな家だったら、生活に困ることもないし、\n欲しいものだって、なんでも手に入ったんじゃないの？」
+</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:smile,milva,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hơn nữa、 chắc là được ăn thỏa thích bánh kẹo ngọt ngào nữa chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:sad,patrisia,-300,-200,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì tôi đã bất chấp tất cả để rời khỏi nhà…… nên chắc hẳn cha mẹ cũng đã chán nản với tôi lắm rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng có những thứ mà dù ở lại căn nhà đó、 tôi cũng không thể có được。Vì vậy、 tôi mới đến R'lyeh như thế này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:sad,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>À、 và、 thật đáng tiếc là、 chuyện ăn bánh kẹo thỏa thích thì không có đâu。Ngược lại、 để quản lý sức khỏe、 việc ăn vặt hay ăn uống đều bị hạn chế rất nhiều。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy sao……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:sad,patrisia,-300,-200,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Ở căn nhà đó、 cơ thể của tôi、 người kế nhiệm tiếp theo、 không phải là của riêng tôi。Ngoài chuyện ăn uống、 còn rất nhiều ràng buộc khác nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm。Tôi đã nghĩ là đáng ghen tị、 nhưng nếu vậy thì tôi thà ở hiện tại còn hơn。Vì còn được ăn nhiều bánh kẹo nữa chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:smile,milva,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Hơn hết、 được biết bao điều mới mẻ thật vui nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102909/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:smile,milva,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này。Rosette-chan cũng nghĩ vậy phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102909/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là Rosette ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,-300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừ。Vì Rosette-chan cũng giống tôi mà、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Trước khi đến R'lyeh、 tôi có rất nhiều điều không biết…… nhưng giờ đây、 tôi đã biết nhiều thứ và muốn thay đổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:smile,milva,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thấy chưa、 giống tôi mà phải không？ Nên tôi nghĩ Rosette-chan bây giờ cũng đang rất vui。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102909/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Việc Rosette tôi nói ra điều này thì có chút e ngại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+playbgm,/download/sound/bgm/bgm034.mp3,0.5,
+wait,0.1
+
+
+spriteatlas,download/character/102909/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cuộc sống ở R'lyeh đã dạy cho Rosette tôi rất nhiều điều。Đến mức tôi ước rằng những ngày như thế này sẽ tiếp tục mãi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102909/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ước muốn lẽ ra là thứ không cần thiết đối với Rosette tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,milva,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi không nghĩ vậy đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi cũng vậy、 khi còn ở nhà、 tôi không thể bày tỏ suy nghĩ của mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Trong trường hợp của tôi、 tôi đã tự ý chấp nhận rằng con đường của mình đã được định sẵn、 và chỉ trở nên bi quan mà thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù vậy、 dù mất thời gian、 tôi vẫn có thể thể hiện ý chí của mình。Nhờ đó mà tôi mới đến được R'lyeh như thế này、 và cũng có những cuộc gặp gỡ quý giá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Có ước muốn、 có thể thay đổi、 nên mới có ngày hôm nay。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu không phải vậy、 tôi chắc hẳn đã sống như một con búp bê、 chỉ biết hành động theo lời người khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì vậy、 việc ấp ủ ước muốn、 và hành động để biến ước muốn đó thành hiện thực、 tôi nghĩ đó là điều rất quan trọng đối với một con người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102909/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Patricia-sama……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101608/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bây giờ có thể cô vẫn chưa quen、 nhưng…… xin đừng phủ nhận việc mình có hy vọng、 có ước muốn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102909/adv/atlas/stand_a,body:smile,rozet,300,-100,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Vâng。Lời của Patricia-sama、 tôi sẽ khắc ghi thật sâu trong lòng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phì cười。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trông cậu có vẻ vui vẻ quá nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừ。Vì Rosette-chan có vẻ muốn sống như một con người từ bây giờ trở đi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Điều đó có nghĩa là、 Rosette-chan cũng giống tôi、 muốn trở nên bình thường phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nên tôi thích nhìn Rosette-chan dần trở nên giống con người。Tôi rất mong chờ xem cô bé sẽ thay đổi như thế nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Thật tình、 cậu đúng là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ít nhất vào một ngày tuyệt vời như thế này、 tôi muốn tận hưởng mà không chút lo âu。Đừng làm gì kỳ quặc đấy nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101353/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 cái đó thì không chắc đâu nhỉ…… Khà khà、 ừm khà khà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

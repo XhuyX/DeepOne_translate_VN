@@ -1,0 +1,186 @@
+﻿// machine translate -- gemini-2.5-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11060301.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm130.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_01.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Bộ đồ này、 hình như gọi là 'haregi' thì phải。Dù cũng là đồ Nhật、 nhưng khác hẳn yukata nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_02.mp3
+msg,1,<outline width=2 color=black>Họa tiết với hoa văn thì đẹp thật、 nhưng hơi nặng và khó cử động。Mà cũng không đến mức không chiến đấu được đâu。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_03.mp3
+msg,1,<outline width=2 color=black>Với lại。。。nếu ba thích bộ này thì em cũng chịu khó được thôi、 dù hơi khó cử động một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_04.mp3
+msg,1,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_05.mp3
+msg,1,<outline width=2 color=black>Nếu ba thích bộ này thì em cũng chịu khó được thôi、 dù hơi khó cử động một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Ừm？,Em hợp lắm đấy。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:anger,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_06.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nếu ba thích bộ này thì em cũng chịu khó được thôi、 dù hơi khó cử động một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_07.mp3
+msg,1,<outline width=2 color=black>Hừm。。。ba cố tình giả vờ không hiểu đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:shy,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_08.mp3
+msg,1,<outline width=2 color=black>。。。Ý em là muốn được khen đó。Hay là ba thấy bộ này không hợp với em？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_09.mp3
+msg,1,<outline width=2 color=black>Nếu ba phủ nhận một cách tuyệt vọng như vậy thì ngay từ đầu đừng có trêu chọc em nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_10.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ừm。Em vui。。。nhưng lại có cảm giác như bị ép phải nói ra、 nên hơi phức tạp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:smile,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_11.mp3
+msg,1,<outline width=2 color=black>Em đã muốn ba khen em nhiều hơn、 trước khi em phải làm gì đó。Ba bị trừ điểm rồi nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:smile,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_12.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>— Fufu。Thôi thì、 ánh mắt của ba dễ nhận ra lắm、 em biết là ba thích bộ này mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:smile,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_13.mp3
+msg,1,<outline width=2 color=black>Nhưng em muốn ba nói ra rõ ràng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_14.mp3
+msg,1,<outline width=2 color=black>。。。Chỉ là、 đồ kimono cũng có vài vấn đề nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:sad,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_15.mp3
+msg,1,<outline width=2 color=black>Khó cởi。Với lại、 cách mặc cũng phức tạp、 một khi đã cởi ra rồi、 em không tự tin là mình có thể mặc lại cho đúng nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_16.mp3
+msg,1,<outline width=2 color=black>Hử。。。ba nhìn như kiểu 'chỉ có vậy thôi sao'。Ba à。Đây là vấn đề lớn đấy。Ba hiểu rõ chưa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_17.mp3
+msg,1,<outline width=2 color=black>À、 mà đúng rồi。Ba khéo tay mà、 chắc ba cũng biết cách mặc kimono các thứ phải không。。。Nếu vậy thì dạy em với。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_18.mp3
+msg,1,<outline width=2 color=black>Em nghĩ như vậy sẽ tiện hơn cho nhiều việc sau này。Nhiều việc lắm。Ừm、 nhiều việc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:smile,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_19.mp3
+msg,1,<outline width=2 color=black>Vì vậy。。。ừm。Trước hết、 cởi giúp em đi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:surprise,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_20.mp3
+msg,1,<outline width=2 color=black>— Sao ba lại đơ ra vậy？ Ba cũng thấy có lợi hơn nếu em tự mặc được mà、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_21.mp3
+msg,1,<outline width=2 color=black>À。。。nhưng mà、 đúng là chỗ này không hợp lắm nhỉ。Nhân tiện、 mình đi tìm chỗ nào yên tĩnh hơn đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_22.mp3
+msg,1,<outline width=2 color=black>Em thì không sao、 nhưng ở một nơi còn sót nhiều tuyết thế này chắc ba sẽ bị lạnh、 mình vào một tòa nhà nào đó tiện đường đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,aika,0.6_0.6,0.5,0
+anm,move,aika,0_-140,0.5,0
+endwait
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:normal,aika,0,-140,0.6,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_23.mp3
+msg,1,<outline width=2 color=black>Có torii nghĩa là trên con dốc này chắc cũng có đền thờ。Tạm thời leo lên đã。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:smile,aika,0,-140,0.6,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_24.mp3
+msg,1,<outline width=2 color=black>Ba cố gắng cũng vô ích thôi。Dù ba có cố gắng thế nào cũng không địch lại em、 một cường hóa ma thuật sư、 điều này ba đã trải qua không biết bao nhiêu lần rồi còn gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104117/adv/atlas/stand_a,body:smile,aika,0,-140,0.6,0,,,,
+playvoice,1,download/character/104117/adv/sound/fav104117_01_25.mp3
+msg,1,<outline width=2 color=black>Nào、 đi thôi。Ba。Luyện tập mặc kimono、 với cả tiện thể làm nhiều việc khác nữa。Ừm、 tiện thể thôi。Nhân tiện、 vì là tiện thể nên là tiện thể thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

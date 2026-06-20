@@ -1,0 +1,354 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11050300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+sprite,download/monster/20100202/adv/image/20100202.png,enemy1,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――――――――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+shake,0.2,3,15,15
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102405/adv/atlas/stand_a,body:anger,xeno,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nổ tung đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/bg/bg_11050300.jpg,bg,0,0,1.2,0,,,,
+spine,download/adv/spine/Slash3_Red,em1,default,animation,0,-100,0,1,0.8,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.4
+endwait
+mask,black1,0,0,1280,250,0,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,enemy1,0,0,1280,250,0,,,,
+sprite,download/monster/20100202/adv/image/20100202.png,enemy,0,-250,1.35,0.5,,,,
+imgconf,enemy,enemy1,0,-140,,,0,2.0,2.0,0.5
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>―――――……、……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playse,/download/sound/se/se_055.mp3
+anm,scale,bg,3.0_3.0,0.3,0
+anm,move,bg,0_-400,0.3,0
+spriteoff,black1,0.5
+spriteoff,enemy1,0.5
+endwait,,,,,,,,,,,
+name,
+msg,0,
+stopbgm,0.5,,,,,,,,,,
+endwait
+slideinblack,0.5,down
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,down
+endwait,,,,,,,,,,,
+wait,0.5
+endwait
+playbgm,/download/sound/bgm/bgm040.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101251/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101351/adv/atlas/stand_a,body:normal,milva,300,-480,0.5,0.5,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hay quá、 bay xa thật đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101251/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Home run… Chơi bóng chày trên biển、 đúng là lạ đời。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,milva,0
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100603/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Em cũng muốn chơi bóng chày。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101251/adv/atlas/stand_a,body:sad,ridia,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Với cánh tay mềm oặt này á？ Chắc còn không nhấc nổi cái gậy ấy chứ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,frau1,0,0,1280,250,0,,,,
+spriteatlas,download/character/100603/adv/atlas/stand_a,body:normal,frau2,0,0,0,0,,,,
+imgconf,frau2,frau1,0,100,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+wait,0.5
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101251/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100603/adv/atlas/stand_a,body:shy,frau,300,-120,0.5,0.5,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ưm… Buồn cười…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101251/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Gì thế、 cưng。Yếu khoản cù lét à。Vậy thì、 thêm nữa――</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ridia,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:unique,blizit,-300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đừng có làm phiền Frau nữa、 thật là。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101251/adv/atlas/stand_a,body:normal,ridia,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ừ ừ… Thiệt tình、 cứ lo cho người khác thế này、 em gái cô lại dỗi bây giờ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:anger,blizit,-300,-190,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Giờ không liên quan gì đến Gisele cả。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ridia,0
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101351/adv/atlas/stand_a,body:normal,milva,300,-480,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi thấy mối quan hệ của hai người thật tuyệt vời。Tình cảm trong lòng và thái độ khác nhau、 điều đó khiến hai người vừa ngọt ngào vừa đau khổ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101351/adv/atlas/stand_a,body:shy,milva,300,-480,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Vị ngọt ngào tinh tế này、 chỉ có hai người là chị em mới cảm nhận được。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:anger,blizit,-300,-190,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cái đầu không cổ mà còn nói gì、 đồ biến thái。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:unique,blizit,-300,-190,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Mà này、 hay là ra khỏi đó luôn đi…？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101351/adv/atlas/stand_a,body:normal,milva,300,-480,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vậy thì、 Bridget-chan giúp tôi ra được không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:unique,blizit,-300,-190,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sao lại là tôi？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101351/adv/atlas/stand_a,body:shy,milva,300,-480,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>A、 lạnh lùng ghê。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:unique,blizit,-300,-190,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nói năng thì phải đi đôi với biểu cảm chứ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:sad,blizit,-300,-190,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Hah… Frau。Ở với lũ này chỉ toàn bị ảnh hưởng xấu thôi。Lại đây với chị。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,milva,0
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100603/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ưm… Bridget、 chơi chung với em nha？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chơi、 à… Chị định đi bơi cho khuây khỏa、 nhưng nếu có Frau thì hơi khó…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100603/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Em muốn chơi bóng chuyền bãi biển。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Bóng chuyền bãi biển à… Theo luật chính thức thì cần hai cặp、 tổng cộng bốn người、 mà thôi、 không cần phải quá chặt chẽ đâu…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>。。。Vee thì không nói làm gì、 còn Zeno có biết gì về bóng chuyền không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102405/adv/atlas/stand_a,body:normal,xeno,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không nắm rõ luật lệ chuyên môn、 nhưng hiểu nó là môn thể thao như thế nào。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vậy thì、 Zeno、 Lydia、 và đội của anh ta。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Chia thành đội của tôi、 Vee và Frau、 được không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,xeno,0
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101351/adv/atlas/stand_a,body:surprise,milva,300,-480,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>A、 còn tôi thì sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:unique,blizit,-300,-190,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hình như cô muốn chôn mình dưới cát một lúc、 cứ làm trọng tài đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101351/adv/atlas/stand_a,body:shy,milva,300,-480,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không được vào vòng bạn bè、 bị bỏ rơi rồi、 tôi… Fufu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,milva,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101251/adv/atlas/stand_a,body:normal,ridia,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Được không đấy？ Bên kia là con cáo ngu ngốc không biết gì về vui chơi trên biển、 với một đứa vô dụng rõ ràng…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101251/adv/atlas/stand_a,body:normal,ridia,300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Còn người mất trí bên này thì cũng biết bóng chuyền bãi biển、 tuy anh ta có yếu hơn chúng ta、 nhưng dù sao vẫn là đàn ông。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101251/adv/atlas/stand_a,body:normal,ridia,300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Thế、 cô nghĩ cô có cửa thắng à？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:normal,blizit,-300,-190,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>。。。Tôi nghĩ、 dù là chơi đi nữa thì thắng thua cũng phải công bằng。Nên việc chọn người này là không sai đâu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101251/adv/atlas/stand_a,body:anger,ridia,300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hể…？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101251/adv/atlas/stand_a,body:normal,ridia,300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Được thôi。Khi thua、 có thể viện cớ là đồng đội kéo chân cũng được。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:anger,blizit,-300,-190,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hah… Nói nhiều quá、 lát nữa lại tự làm nhục mình đấy？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,blizit,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102405/adv/atlas/stand_a,body:unique,xeno,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ê、 tự tiện quyết định luôn rồi kìa。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ridia,0
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102205/adv/atlas/stand_a,body:unique,vi,300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tóm lại、 bắt đầu thôi？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,vi,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100603/adv/atlas/stand_a,body:anger,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Trận chiến nảy lửa、 bắt đầu…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101351/adv/atlas/stand_a,body:smile,milva,0,-480,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Mọi người ơi、 cố lên nhaー</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+name, 
+msg,0,<size=30><outline width=2 color=black>Sau khi trốn khỏi nhà Boardwin、 tôi lang thang khắp nơi trên thế giới。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Phải chăng là khi tôi đến một thị trấn ven biển ở California。Tôi đang tìm việc để kiếm tiền、 vì số tiền mang theo đã vơi dần。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Lúc đó、 tôi biết đến trò bóng chuyền cá cược trên bãi biển。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Từ một sự tình cờ、 tôi tham gia với tư cách là một vận động viên、 trải qua những buổi huấn luyện khắc nghiệt、 và phải đối đầu với nhiều đối thủ mạnh。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>——Tôi đã rất ngạc nhiên、 không ngờ lại có nhiều pháp sư tập trung ở nơi đó。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng sau khi vượt qua vô số trận chiến sinh tử、 tôi đã giành chiến thắng。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhớ lại những ngày tháng đó、 trong lòng tôi trào dâng nhiệt huyết。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0,,,,
+spriteatlas,download/character/100206/adv/atlas/stand_a,body:normal,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Để chiến thắng hôm ấy không thành vô nghĩa、 tôi không được phép thua。Xin lỗi、 nhưng đừng mong tôi sẽ nương tay đâu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

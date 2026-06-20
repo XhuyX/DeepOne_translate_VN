@@ -1,0 +1,162 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11430300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm126.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,azi1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:normal,azi2,0,0,0,0,,,,
+imgconf,azi2,azi1,0,-480,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/181105/adv/sound/fav181105_01_01.mp3
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Này、 Ri-chan。Cứ thong thả thế này thì phí thời gian lắm đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:normal,azi,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_02.mp3
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đã cùng nhau diện đồ đẹp rồi、 hãy tận hưởng hôm nay cho xứng đáng nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:surprise,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_03.mp3
+msg,1,<outline width=2 color=black>Ủa。Sao lại mặt mày ủ rũ thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:normal,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_04.mp3
+msg,1,<outline width=2 color=black>Hay là em lo bị người nhà chính nói gì vì tụi mình đi chơi thế này？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:normal,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_05.mp3
+msg,1,<outline width=2 color=black>Cứ yên tâm chuyện đó。Việc công tác xong sớm một ngày tôi đã sắp xếp không để nhà chính biết rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:normal,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_06.mp3
+msg,1,<outline width=2 color=black>Bình thường thì người ta sẽ bảo xong việc về ngay、 nhưng lần này người giao nhiệm vụ có chút nợ tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:smile,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_07.mp3
+msg,1,<outline width=2 color=black>Có một hầu gái tài giỏi、 Ri-chan thật hạnh phúc nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:normal,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_08.mp3
+msg,1,<outline width=2 color=black>Thế nên hôm nay hãy xả láng vui chơi đi。Thỉnh thoảng có ngày thế này cũng tốt mà、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:normal,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_09.mp3
+msg,1,<outline width=2 color=black>Nào、 Ri-chan。Cười lên、 cười lên。Đã diện đồ đẹp và rất dễ thương mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:smile,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_10.mp3
+msg,1,<outline width=2 color=black>– Dĩ nhiên là không bằng tôi rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Quả thật hôm nay Ajisai dễ thương thật nhỉ。,Rise-chan mới dễ thương hơn chứ！
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:surprise,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_11.mp3
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hự！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:shy,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_12.mp3
+msg,1,<outline width=2 color=black>À、 không、 vì là Ri-chan nên tôi tưởng em sẽ đáp trả lại、 ai ngờ phản ứng ngoài tưởng tượng……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:shy,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_13.mp3
+msg,1,<outline width=2 color=black>Ừm、 cảm ơn em……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:smile,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_14.mp3
+msg,1,<outline width=2 color=black>Nhưng Ri-chan cũng rất dễ thương đấy。Rất hợp với em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:smile,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_15.mp3
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Phì、 nếu em nghĩ vậy thì chắc là vậy nhỉ。Ít nhất là trong lòng Ri-chan。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:surprise,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_16.mp3
+msg,1,<outline width=2 color=black>Ớt、 hôm nay không được đánh lộn đâu nhé？ Vì sẽ hỏng mất bộ đồ đẹp đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:normal,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_17.mp3
+msg,1,<outline width=2 color=black>Cơ bản nếu em muốn khăng khăng mình chưa thua、 thì ít nhất hãy cười đi chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:smile,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_18.mp3
+msg,1,<outline width=2 color=black>Con gái cười là dễ thương nhất mà。Ngay khi Ri-chan chưa cười vui vẻ là tôi thắng áp đảo rồi。Yeah。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:normal,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_19.mp3
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nào……Rise tiểu thư。Người hầu gái này đã chuẩn bị sẵn kế hoạch hẹn hò、 hôm nay hãy chuẩn bị tinh thần tận hưởng trọn vẹn nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181105/adv/atlas/stand_a,body:normal,azi,0,-120,0.5,0,,,,
+playvoice,1,download/character/181105/adv/sound/fav181105_01_20.mp3
+msg,1,<outline width=2 color=black>Tôi sẽ biến Ri-chan thành nụ cười rạng rỡ nhất đó♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

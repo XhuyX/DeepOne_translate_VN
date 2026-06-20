@@ -1,0 +1,621 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11240300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Explosion,em1,default,animation,0,-300,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,300,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:anger,maria,0,-1200,0.5,0,,,,
+endwait
+anm,move,maria,0_-120,0.7,0
+endwait
+
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chết tiệt、 đòn vừa rồi mà trúng thì không chỉ có thế đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:surprise,maria,-300,-120,0.5,0.5,,,,
+anm,tint,maria,150_150_150,0.0001,0
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:anger,maruta,300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tao không có ý định dừng lại ở đó đâu。Maria phải nếm mùi đau khổ một chút mới được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:surprise,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Một chút á？ Nếu trúng đòn vừa rồi thì em phải nằm liệt giường cả tuần đấy？ Chị nói một chút là sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:unique,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì yêu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rốt cuộc、 chị ghét em đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm117.mp3,0,
+endwait,,,,,,,,,,,
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừ、 ghét。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:surprise,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rốt cuộc là vậy… Miệng thì nói lời dịu dàng、 nhưng thật ra…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:anger,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:anger,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em cũng ghét… Ghét chị nói dối…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maria,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102452/adv/atlas/stand_a,body:sad,xeno,-300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 bình tĩnh lại đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102452/adv/atlas/stand_a,body:sad,xeno,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hai người bây giờ rõ ràng không bình thường。Trước hết、 hãy bình tĩnh lại đã—</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tao biết cảm xúc này đang dâng trào vì ảnh hưởng của Giấc Mộng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102452/adv/atlas/stand_a,body:surprise,xeno,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tao biết、 nhưng không phải tất cả đều là giả tạo。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tao ghét Maria。Ghét。Rất ghét。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tao biết rõ cảm xúc này là giả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:anger,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>—Nhưng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:anger,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tao ghét đứa em ngu ngốc nói muốn biến mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:anger,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ghét。Ghét。Rất ghét。Nhưng、 tao yêu。Yêu hơn thế nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,xeno,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:surprise,maria,-300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù trong lòng có gào thét ghét bỏ đến đâu、 tao vẫn yêu Maria。Dù trong tiếng mưa rơi thế nào、 tao cũng không lạc mất sự thật đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Maria cũng vậy。Tình cảm thật sẽ không dễ dàng mất đi đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Chị tự cao quá đấy。Vì chị yêu em、 nên chị nghĩ em cũng yêu chị sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:anger,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em ghét chị。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:anger,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ghét、 ghét、 rất ghét。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—Em ghét chị vì chị yêu một đứa như em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừ… Nhưng、 yêu thì vẫn cứ yêu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:anger,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chết tiệt、 em cũng vậy！ Em yêu chị！ Em muốn chị hạnh phúc！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:anger,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nên em luôn nghĩ về chuyện này！ Nên em luôn dằn vặt！ Có phải chính em đang cản trở hạnh phúc của chị không！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:anger,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Kết cục biến mất、 có lẽ là tốt hơn…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Em là một gánh nặng đối với chị。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tao ghét Maria nói thế。Đến bao giờ mới thôi đắm chìm trong bất hạnh？ Chỗ của mày không còn ở đó nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em ghét chị。Sao chị không chịu nghe em nói？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng hơn thế nữa、 em ghét chính mình。Em ghét bản thân không thể tin lời chị nói。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Maria</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chỗ của mày là ở đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tao không muốn nghĩ mình ghét Maria。Vì vậy… AnMari、 đừng nói những lời xem nhẹ bản thân。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hãy cứ hạnh phúc đi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Nhưng、 chừng nào chị còn giữ Lời nguyện của Rừng Đen、 chị sẽ mãi tiến gần đến kết thúc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nói vậy mà chị vẫn cứ như thế này、 rồi chị cũng sẽ sớm rời xa em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu em tưởng tượng đến thế giới sau khi chị đi… Em sẽ—</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mày không cần nghĩ đến chuyện đó đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em ghét chị。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tao thích Maria。Tao yêu mày。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em ghét chị。Trước khi quan tâm đến em、 hãy tự lo cho mình đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tao đang làm mà。Tao thấy hạnh phúc với mỗi ngày hiện tại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em rất ghét chị。Chị làm em bất an thế này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin lỗi nhé。Nhưng em đừng thấy bất an。Nếu lo lắng、 em cứ làm nũng thoải mái đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:shy,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ôm em đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm141.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+anm,move,maruta,-100_-90,0.5,0
+endwait
+
+
+playse,/download/sound/se/se_020.mp3
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:shy,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng bao giờ rời xa em nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,-100,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cứ để chị lo。Chị sẽ lo liệu mọi thứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:shy,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cho em xem bằng chứng đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:unique,maruta,-100,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị sẽ nỗ lực hết sức、 và rồi sẽ báo cáo kết quả nào đó cho em sau。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Chị đang trì hoãn vấn đề。Em ghét chị gấp ba lần rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:surprise,maruta,-100,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi、 em gái mình khó tính ghê。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:shy,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì đổi lại、 chị hứa với em đi。Khi chị biến mất、 hãy đưa em đi cùng với nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:unique,maruta,-100,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 cái đó chị không thể đảm bảo được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị chẳng nghe lời làm nũng của em gì cả！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:normal,maruta,-100,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em có thể làm nũng、 nhưng chị không hứa sẽ nghe theo đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:anger,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngụy biện！ Em ghét chị！ Ghét gấp mười lần！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:normal,maruta,-100,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ba lần nhân mười lần、 vậy là chị bị ghét gấp ba mươi lần rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,-100,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng không sao đâu…… Sau này、 chị sẽ khiến em thích chị gấp trăm lần。Nếu không thể khiến em gái mê mẩn mình、 thì còn ra thể thống gì nữa chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:shy,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 dù ghét chị gấp ba mươi lần、 nhưng em cũng thích chị gấp năm mươi lần rồi nên không sao đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,-100,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chỉ còn hai lần nữa thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,-100,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>——Maria。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:smile,maruta,-100,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tối nay、 chúng ta cứ ở bên nhau đi。Hẹn với bạn trai thì hủy。Coi như là ngày chị em quấn quýt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104906/adv/atlas/stand_a,body:unique,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thích gấp bốn lần！ ♡</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102714/adv/atlas/stand_a,body:unique,maruta,-100,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tổng cộng hai trăm lần。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm115.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102452/adv/atlas/stand_a,body:unique,xeno,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……………………Chúng ta đang chứng kiến cái gì thế này？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: 'Ghét ghét lừa đảo,Lựa chọn 2: 'Tình chị em đẹp đẽ
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/102452/adv/atlas/stand_a,body:unique,xeno,0,-120,0.5,0,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cuối cùng thì yếu tố 'ghét' đã biến đi đâu mất rồi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/102452/adv/atlas/stand_a,body:unique,xeno,0,-120,0.5,0,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 cô nói thật đấy à…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/102452/adv/atlas/stand_a,body:unique,xeno,0,-120,0.5,0,,,,
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 thôi thì… So với việc cứ bắn nhau thật sự cho đến cuối cùng、 thì cái này chắc là đỡ hơn một chút…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102452/adv/atlas/stand_a,body:unique,xeno,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,127 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10030300.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Mark13,em1,default,animation,0,110,210,0.65,0.6,0.5
+endwait
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khụ、 hức。。。ư、 ư。。。ư ư ư ư。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_01.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,0,,,,,,,,
+endwait
+msg,1,<size=30><outline width=2 color=black>Hức。。。à、 cái đó。。。k-không、 không phải em thấy không khỏe đâu ạ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:shy,zizeru,0,-120,0.5,0,,,,
+spine,download/adv/spine/Mark4,em2,default,animation,0,110,210,0.65,0.6,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>À、 cái đó、 ừm。。。n-nói sao đây ạ。。。chỉ là。。。cái đó。。。em muốn đi hái hoa một chút。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_03.mp3
+clickwait,,,,,,,,,,,
+select,Sao lại hái hoa。。。？,Là đi vệ sinh à？
+if,select_===_1,,,,,,,,,,
+spineoff,em2,0,,,,,,,,
+endwait
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 không。。。không phải là em thực sự muốn đi hái hoa đâu ạ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:shy,zizeru,0,-120,0.5,0,,,,
+spine,download/adv/spine/Mark4,em3,default,animation,0,110,210,0.65,0.6,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>Cái này là、 ừm、 một kiểu nói ẩn dụ thôi ạ。。。t-tức là sao nhỉ？ À。。。em、 em muốn đi tiểu ạ。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_05.mp3
+clickwait,,,,,,,,,,,
+spineoff,em3,0,,,,,,,,,
+endwait
+elseif,select_===_2,,,,,,,,,,
+spineoff,em2,0,,,,,,,,
+endwait
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:surprise,zizeru,0,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 cái đó。。。anh nói thẳng quá、 em thấy hơi ngại ạ。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không、 đúng là em muốn đi vệ sinh thật。。。nhưng em cũng là con gái mà。。。vâng。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_07.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật ra。。。em đã nhịn từ nãy giờ。Nhưng。。。đâu thể giải quyết ở ngoài trời được。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:normal,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nên、 em cứ nghĩ là sẽ có nhà vệ sinh ở đâu đó chứ。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_09.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:smile,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À ha ha、 sao lại thế nhỉ。。。Cứ đúng lúc này thì chẳng thấy chỗ nào giống như vậy cả。。。Đ-Đây có phải là ác ý của Nguyên thư Pnakotic không nhỉ。。。？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:surprise,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>K-Không。。。em không thể bỏ anh lại để đi tìm nhà vệ sinh được。。。Em còn có nhiệm vụ bảo vệ anh nữa mà。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ôi、 nhưng mà。。。ư、 ư ư。。。k-không thể chịu nổi nữa rồi。。。Sắp ra mất。。。ư、 ưm。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:unique,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>T-To thế này rồi mà còn tè dầm ư。。。Nếu ai đó biết được、 em、 em――Á！？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:smile,zizeru,0,-120,0.5,0,,,,
+spine,download/adv/spine/Mark1,em5,default,animation,0,110,210,0.65,0.6,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>N-Nhìn kìa！ Chỗ đó。。。chỗ đó có một ký hiệu quen thuộc。。。K-Không lẽ đó là nhà vệ sinh sao。。。？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_14.mp3
+clickwait,,,,,,,,,,,
+spineoff,em5,0,,,,,,,,,
+endwait
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ôi、 nhưng mà chạy thì lại sợ bị són mất。。。C-Chúng ta hãy đi nhanh hết sức có thể、 nhưng cố gắng đừng để bị kích thích nhé！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>A a a a。。。May quá、 không phải tè dầm rồi。。。ư、 ư ư、 nhưng mà vẫn hơi xa đó。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:surprise,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ơ。。。anh sao thế、 sao lại làm vẻ mặt ngạc nhiên vậy？ Em khác mọi khi à？ À。。。x-xin lỗi、 tại em hơi cuống một chút。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:shy,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Vì quá muốn đi vệ sinh nên có lẽ em đã mất bình tĩnh。。。Thật là xấu hổ quá đi mất。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_18.mp3
+clickwait
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:normal,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 phải rồi。。。Trong lúc em vào nhà vệ sinh、 anh cũng nhớ đừng đi đâu xa nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_19.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không biết lúc nào thì nguy hiểm sẽ ập đến đâu――nhưng、 nhưng mà！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_20.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:shy,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Anh làm ơn đừng cố nghe tiếng động gì nhé。Dù sao thì、 em cũng thấy ngại mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_03_21.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

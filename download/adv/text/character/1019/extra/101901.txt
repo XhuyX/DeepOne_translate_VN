@@ -1,0 +1,129 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010300.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm004.mp3,0,,
+endwait
+playse,/download/sound/se/se_029.mp3
+endwait
+wait,1
+endwait
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật ngại quá。Đêm hôm thế này mà tôi lại đột ngột ghé phòng cậu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:shy,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thật ra thì…… tôi không thể chịu đựng thêm được nữa rồi。Dù ngủ hay thức、 lúc nào tôi cũng chỉ nghĩ về cậu…… không thể ngừng lại được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đây là lần đầu tiên tôi có những cảm xúc mạnh mẽ đến vậy…… nên… làm ơn、 cậu có thể lắng nghe mong muốn của tôi được không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:sad,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi cầu xin cậu。Nếu là điều tôi có thể làm、 bất cứ điều gì tôi cũng sẽ làm！ Thế nên……！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_04.mp3
+clickwait,,,,,,,,,,,
+select,Hãy bình tĩnh đã。,Cậu nói vậy thì tôi biết làm sao。
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:sad,siruvi,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Điều đó là không thể。Tôi đâu phải là một con thú không có lý trí。Tôi biết không nên hành động theo bản năng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:shy,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nhưng、 tôi không thể nào kìm hãm được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:anger,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Sự dâng trào cảm xúc này、 tuyệt đối không thể kìm nén được…… Không、 mà đúng hơn là không nên kìm nén mới phải！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_07.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:sad,siruvi,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm、 tôi hiểu cậu đang bối rối。Nhưng mà、 tôi cũng đang bối rối giống cậu vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:shy,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Bởi vì đã lâu lắm rồi tôi mới có cảm xúc dâng trào đến mức này…… nên tôi không thể kiểm soát tốt được……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_09.mp3
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/Mark9,em1,default,animation,0,120,160,0.65,0.8,0
+msg,1,<size=30><outline width=2 color=black>Cứ nghĩ đến cậu là những ham muốn lại cứ dâng trào lên。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_10.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,0,
+endwait,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:shy,siruvi,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Việc kìm nén sự dâng trào của tôi、 chỉ có cậu mới có thể làm được……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_11.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Những ham muốn đã tích tụ bấy lâu này、 tôi muốn trút bỏ hết ra ngoài……！ Tôi nhất định phải、 của cậu――</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_12.mp3
+clickwait,,,,,,,,,,,
+stopbgm,0
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,siruvi,25,-120,0.5,0,,,,
+spine,download/adv/spine/Mark11,em2,default,animation,0,140,130,0.65,0.8,0
+endwait,,,
+msg,1,<size=30><outline width=2 color=black>――Tôi muốn nghiên cứu về mối liên kết kỳ lạ giữa cậu và Nguyên thư Pnakotic！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_13.mp3
+clickwait,,,,,,,,,,,
+spineoff,em2,0,
+endwait,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:surprise,siruvi,25,-120,0.5,0,,,,
+spine,download/adv/spine/Mark10,em3,default,animation,0,140,110,0.65,0.8,0
+endwait,,,
+msg,1,<size=30><outline width=2 color=black>Hửm？ Cậu sao vậy、 sao lại làm cái mặt ngơ ngác như chim bị bắn trúng thế kia？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_14.mp3
+clickwait,,,,,,,,,,,
+spineoff,em3,0
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,
+endwait
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hừm…？ À、 có lẽ nào cậu đã hiểu lầm điều gì đó kỳ lạ không nhỉ。Ra vậy、 ra vậy…… Chà chà、 cậu cũng là con trai mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:smile,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi nào、 không cần phải xấu hổ đến thế đâu。Là đàn ông thì đó là phản ứng bình thường mà。Cậu không cần bận tâm đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì quay lại chuyện chính nhé…… Mối liên kết giữa cậu và Nguyên thư Pnakotic、 rốt cuộc là gì nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……À、 không、 tôi biết chính cậu cũng không biết câu trả lời。Chính vì thế、 tôi đây sẽ giúp cậu tìm hiểu bí mật đó！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_18.mp3
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/Mark9,em1,default,animation,0,120,160,0.65,0.8,0
+endwait,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng vậy、 khắp cơ thể cậu…… không、 phải là cả 'bên trong' nữa…… khụ khụ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_19.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,0
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:surprise,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ôi、 sao cậu lại lùi lại vậy？ Chẳng lẽ cậu lại tưởng tôi nói thật sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_20.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Cậu là đối tượng nghiên cứu quan trọng của tôi。Làm sao tôi có thể đối xử thô bạo như vậy được chứ。Ít nhất thì hãy tin tưởng tôi ở điểm đó đi…… khụ、 khụ khụ khụ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_01_21.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,354 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10030100.jpg,0,255
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm026.mp3,0.5,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_b,body:smile,holy,0,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Em không thể ở bên cạnh hai người được nữa、 nhưng… em cầu mong mối quan hệ của hai người sẽ trở lại như xưa……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait,,,,,,,,,,,
+stopbgm,0.5
+name, 
+msg,0, 
+spriteoff,all,0
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1,0.5,0
+playse,/download/sound/se/se_041.mp3
+wait,1.0
+endwait,,,,,,,,,,,
+bg,download/adv/image/black.jpg,0.5,255
+spineoff,em1,0
+endwait,,,,,,,,,,,
+mask,holy1,0,0,1280,200,0.5,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_b,body:normal,holy,0,0,0,0,,,,
+imgconf,holy,holy1,0,-750,,,0,1.5,1.5,0.5
+wait,0.5
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+mask,holy1,0,0,1280,200,0,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_b,body:sad,holy,0,0,0,0,,,,
+imgconf,holy,holy1,0,-750,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name, 
+msg,0, 
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+sprite,download/bg/bg_10030100.jpg,bg2,1536,0,1.2,0.5,,,,
+sprite,download/bg/bg_10030100.jpg,bg1,0,0,1.2,0.5,,,,
+endwait,,,,,,,,,,,
+stopbgm,,,,,,,,,,,
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+playbgm,/download/sound/bgm/bgm010.mp3,0.5,
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+mask,black1,0,0,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,bligit1,0,0,1280,200,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bligit,300,-190,0,0,,,,
+imgconf,bligit,bligit1,0,-675,,,0,1.5,1.5,0.5
+wait,0.3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hừ――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name, 
+msg,0, 
+spriteoff,bligit,0
+spriteoff,bligit1,0
+spriteoff,black,0
+spriteoff,black1,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+spineoff,em1,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,enemy1,1.0
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bligit,-300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Này、 mày định nằm ườn ra đó đến bao giờ hả？ Đủ rồi đó、 dậy ngay đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_b,body:anger,holy,300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>B-Bridget tiểu thư？ Cả anh nữa… Sao hai người lại ở đây… Em đã bảo hai người hãy chạy trốn đi rồi mà！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tiểu thư phải ở bên Giselle-sama…！ Hơn nữa、 anh cũng là người không thể thiếu cho cuộc Truy Tìm sắp tới。Vậy mà、 sao hai người lại quay lại chứ！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,holy,150_150_150,0.0001,0
+anm,tint,bligit,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:normal,bligit,-300,-190,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hừm… Tại sao tôi phải nghe lời cô chỉ đạo từng li từng tí chứ。Tôi đâu phải con nít、 tôi tự quyết định được mình phải làm gì。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+anm,tint,holy,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đây không phải là vấn đề đó！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,holy,150_150_150,0.0001,0
+anm,tint,bligit,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bligit,-300,-190,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ồn ào quá đi… Mà nói thật、 tôi cũng chẳng muốn quay lại đâu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:shy,bligit,-300,-190,0.5,0,,,,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thế mà đột nhiên、 cái tên này lại nói là không thể bỏ mặc được… Nên là、 ừm… tôi đành phải miễn cưỡng đi cùng thôi…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tóm lại、 đây không phải ý muốn của tôi đâu。Hiểu chưa？ Không hề có chuyện tôi lo lắng gì đâu nhé。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+anm,tint,holy,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sao lại thế… Tại sao vậy、 Bridget tiểu thư。Em thì cứ mặc kệ là được rồi mà…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thế này thì… dù bao lâu đi nữa、 em cũng không thể nào chuộc lại lỗi lầm với tiểu thư được…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,holy,150_150_150,0.0001,0
+anm,tint,bligit,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bligit,-300,-190,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi không cần cái sự chuộc lỗi đó、 cũng chẳng mong muốn gì cả。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hơn nữa、 Giselle thì sao chứ。Nếu cô hy sinh、 con bé sẽ đau lòng đến mức nào…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,holy,0
+spriteoff,bligit,0
+endwait
+mask,black1,0,0,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,bligit1,0,0,1280,200,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:normal,bligit,0,0,0,0,,,,
+imgconf,bligit,bligit1,0,-675,,,0,1.5,1.5,0.5
+wait,0.3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Cô đừng có làm cái chuyện khiến con bé phải khóc đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,bligit,0
+spriteoff,bligit1,0
+spriteoff,black,0
+spriteoff,black1,0
+endwait
+spriteatlas,download/character/100802/adv/atlas/stand_b,body:normal,holy,300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Bridget、 tiểu thư…？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,holy,150_150_150,0.0001,0
+anm,tint,bligit,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:shy,bligit,-300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>G-Gì chứ、 nhìn chằm chằm vào mặt người ta làm gì… …Này、 anh cũng đừng có cười tủm tỉm như thế chứ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…H-Hả！？ Anh đang nói cái gì vậy chứ。Tôi đâu có ngại ngùng gì đâu…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bligit,-300,-190,0.5,0,,,,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Mà nói thật、 đây đâu phải lúc để buôn chuyện vớ vẩn chứ。Nhìn xung quanh đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,holy,0
+spriteoff,bligit,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,-400,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,400,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,enemy3,0.5
+spriteoff,enemy1,0.5
+spriteoff,enemy2,0.5
+endwait,,,,,,,,,,,
+anm,move,bg1,-1536_0,0.5,0
+anm,move,bg2,0_0,0.5,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,-400,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,400,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,enemy1,0
+spriteoff,enemy2,0
+spriteoff,enemy3,0
+endwait,,,,,,,,,,,
+anm,move,bg1,0_0,0.5,0
+anm,move,bg2,1536_0,0.5,0
+endwait
+bg,download/bg/bg_10030100.jpg,0,255
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:sad,bligit,-300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhìn đâu cũng thấy địch、 địch、 địch… Cảnh tượng này khiến tôi hối hận tận đáy lòng vì đã quay lại。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+anm,tint,holy,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_b,body:anger,holy,300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Xin hãy đợi đã… Em cũng sẽ chiến đấu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,holy,150_150_150,0.0001,0
+anm,tint,bligit,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:normal,bligit,-300,-190,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Người đang trọng thương thì im lặng đi。…Còn anh、 hãy đỡ Holly đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Dù không có sức chiến đấu、 thì ít nhất cũng đỡ được một người phụ nữ chứ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+anm,tint,holy,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không、 em thật sự ổn mà… Em không thể để Bridget tiểu thư gánh vác mọi thứ một mình ở đây được。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_b,body:anger,holy,300,-180,0.5,0,,,,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Xin hãy cho em cùng chiến đấu。Em không muốn phải hối hận thêm nữa đâu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,holy,150_150_150,0.0001,0
+anm,tint,bligit,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Vậy sao。Thế thì、 muốn làm gì thì làm đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+anm,tint,holy,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Em xin lỗi、 Bridget tiểu thư。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,holy,150_150_150,0.0001,0
+anm,tint,bligit,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bligit,-300,-190,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi nghe lời xin lỗi chán tai rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+anm,tint,holy,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_b,body:smile,holy,300,-180,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Đúng vậy、 nhỉ。Vậy thì… em cảm ơn、 Bridget tiểu thư。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhất định chúng ta sẽ sống sót trở về R'lyeh、 và đoàn tụ với Giselle-sama。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,holy,150_150_150,0.0001,0
+anm,tint,bligit,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Hừm。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,holy,0
+spriteoff,bligit,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,-400,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,400,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait,,,,,,,,,,,
+spriteoff,enemy1,0
+spriteoff,enemy2,0
+spriteoff,enemy3,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,bligit1,0,0,1280,200,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bligit,0,0,0,0,,,,
+imgconf,bligit,bligit1,0,-675,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Có vẻ như màn nói chuyện đến đây là hết rồi nhỉ… Nghe đây、 nhất định phải sống sót thoát ra ngoài đấy！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,holy1,0,0,1280,200,0.5,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_b,body:anger,holy,0,0,0,0,,,,
+imgconf,holy,holy1,0,-750,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vâng… Em sẽ bảo vệ phía sau lưng Bridget tiểu thư！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

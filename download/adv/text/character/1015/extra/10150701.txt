@@ -1,0 +1,161 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11270300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_01.mp3
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hừm… Treo giấy Tanzaku lên cây tre… Đúng là không khí lễ Thất Tịch。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_02.mp3
+msg,1,<outline width=2 color=black>Đúng là Dreamlands chẳng có quy tắc gì、 muốn tạo ra gì cũng được。Giá mà tạo ra mấy chỗ hoành tráng、 thú vị hơn thì tốt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_03.mp3
+msg,1,<outline width=2 color=black>Mà、 tại sao lại là Thất Tịch nhỉ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 「七夕は嫌い？,選択肢2 「なにか思い入れでも？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_04.mp3
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Không、 không phải vậy。Chỉ là、 treo điều ước lên cây tre thì được tích sự gì、 tôi nghĩ vậy thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_05.mp3
+msg,1,<outline width=2 color=black>Tôi cũng không thích hay ghét Thất Tịch gì đâu… Chỉ là、 ký ức khác cũng bị lôi kéo theo…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_06.mp3
+msg,1,<outline width=2 color=black>……Hình ảnh thằng ngốc nào đó vác cây tre từ đâu đến cứ hiện lên trong đầu tôi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_07.mp3
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ừm… Mà nói không có thì có lẽ là nói dối。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_08.mp3
+msg,1,<outline width=2 color=black>Không biết là gì nữa、 cái cảm giác này。Vừa hoài niệm、 vừa ngột ngạt、 kiểu vậy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_09.mp3
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đội lính đánh thuê của tôi cũng tham gia vào việc điều hành cô nhi viện。Thỉnh thoảng、 tôi cũng đến xem tình hình của lũ nhóc ở đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_10.mp3
+msg,1,<outline width=2 color=black>Rồi、 có lần thằng đó… Đội trưởng trước đây bảo sẽ tổ chức Thất Tịch。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_11.mp3
+msg,1,<outline width=2 color=black>Treo điều ước lên giấy Tanzaku… Chuyện này đâu phải việc của lính đánh thuê。Lũ nhóc cũng ngơ ngác lúc đầu…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_12.mp3
+msg,1,<outline width=2 color=black>Nhưng… Kỳ lạ là、 cuối cùng đứa nào đứa nấy cũng cười。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_13.mp3
+msg,1,<outline width=2 color=black>Mà nói mới nhớ、 mấy cái trang trí trên cây tre đó、 được vài ngày thì bị đạn pháo từ đâu bay tới thổi bay mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_14.mp3
+msg,1,<outline width=2 color=black>Lũ nhóc khóc ầm lên… Rồi、 mày biết nó làm gì không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:smile,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_15.mp3
+msg,1,<outline width=2 color=black>Lại vác tre về、 bảo là may mắn vì có thể ước thêm lần nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_16.mp3
+msg,1,<outline width=2 color=black>Đúng là、 thằng đó… Về mấy chuyện đó、 nó không bao giờ chịu thua、 vì nụ cười của người khác mà làm trò hề。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_17.mp3
+msg,1,<outline width=2 color=black>Nếu không phải kiểu người như thế、 thì đã không chuẩn bị lễ Thất Tịch、 một sự kiện của châu Á làm gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_18.mp3
+msg,1,<outline width=2 color=black>Đúng là… Nó tốt bụng đến mức không hợp với công việc lính đánh thuê。Chắc là muốn bù đắp những gì lũ nhóc đã mất trong chiến tranh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_19.mp3
+msg,1,<outline width=2 color=black>Vì vậy、 tôi muốn trở thành thanh kiếm cho nó。Nhưng――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_20.mp3
+msg,1,<outline width=2 color=black>――Thôi、 nói nữa thì lại sướt mướt mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:smile,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_21.mp3
+msg,1,<outline width=2 color=black>Chuyện này kết thúc ở đây。Kể chuyện ngày xưa không phải phong cách của tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_01_22.mp3
+msg,1,<outline width=2 color=black>Thôi nào、 đi tiếp thôi。Mau tìm thấy kẻ địch rồi tiễn chúng lên đường、 thì tâm trạng tồi tệ này cũng tiêu tan thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

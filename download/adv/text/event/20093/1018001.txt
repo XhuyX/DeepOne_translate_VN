@@ -1,0 +1,515 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm088.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,255
+endwait
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:anger,rlin,300,-60,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:anger,rise,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lúc nào cũng gây sự、 rốt cuộc là sao？ Muốn ăn đấm à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:anger,rlin,300,-60,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Câu đó tao mới nên hỏi。Được thôi、 nhào vô。Tao sẽ 'phẫu thuật' cho cái mặt mày bớt 'khó coi' đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:anger,rise,-300,-100,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rise-chan xinh xắn thế này mà mày dám nói gì cơ chứ、 thằng lính thây ma kia…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:anger,rlin,300,-60,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Công nhận là mặt mày cũng dễ thương so với một con khỉ đột đấy…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:unique,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,-300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Haizz… Vẫn như mọi khi、 không biết phải nói sao nữa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:unique,frau,300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rise với Rin là bạn thân…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:surprise,dana,-300,-180,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ồ、 bất ngờ đấy。Cứ tưởng Frau-san sẽ đứng ra can ngăn chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hai người chúng nó dùng ngôn ngữ cơ thể thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,dana,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em gái tôi lại học thêm mấy kiến thức kỳ quặc rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 「これも成長……,選択肢2 「交友関係の見直しを……
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có lẽ là vậy thật…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,300,-180,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị hiểu là anh lo、 nhưng đôi khi cứ để mặc kệ cũng tốt。Tự chủ là vậy mà、 cứ thế mà lớn lên thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rồi khi tính tự chủ đó phát triển theo hướng sai lệch、 người ta sẽ tự mở rộng thế giới của mình、 đôi khi lại có những hành động đau lòng――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A… Không nghe、 không nghe、 không hiểu gì hết。Hành động đau lòng là sao cơ chứ？ A… a… a…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:unique,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái đó gọi là 'không quan tâm' đó、 anh trai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A、 anh trai bị lời nói phũ phàng của Frau làm tổn thương rồi…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em thấy hơi quá rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,-300,-180,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufu。Frau-san lúc nào cũng dính lấy anh、 vậy mà giờ lại nói thế này、 có lẽ Frau-san cũng đang trưởng thành hơn rồi chăng？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rise1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:anger,rise2,0,0,0,0,,,,
+imgconf,rise2,rise1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ăn đấm nàoooooooo――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rlin1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:anger,rlin2,0,0,0,0,,,,
+imgconf,rlin2,rlin1,0,-255,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>*Khụ*！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:anger,rlin,1200,-60,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+anm,move,rlin,-1200_-60,0.7,0
+endwait
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+playse,/download/sound/se/se_069.mp3
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103101/adv/atlas/stand_a,body:normal,mamiya,300,-180,0.5,0.5,,,,
+anm,tint,mamiya,150_150_150,0.0001,0
+spriteatlas,download/character/103401/adv/atlas/stand_a,body:normal,ruiez,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ố、 Rin lại bay rồi kìa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103101/adv/atlas/stand_a,body:normal,mamiya,300,-180,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A、 nhưng có vẻ vẫn chưa xong đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:anger,rlin,-1200,-60,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+anm,move,rlin,1200_-60,1,0
+endwait
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rlin1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103901/adv/atlas/stand_a,body:anger,rlin2,0,0,0,0,,,,
+imgconf,rlin2,rlin1,0,-255,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đập đầu vào tường đau chết đi được！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rise1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:anger,rise2,0,0,0,0,,,,
+imgconf,rise2,rise1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>*Khạc*！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:anger,rise,1200,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,rise,-1200_-100,0.7,0
+endwait
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+playse,/download/sound/se/se_069.mp3
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:sad,jamila,-300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À… Tôi nghĩ việc đánh nhau đến mức thân thể người ta nát bét thì… hơi quá đáng đấy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,300,-120,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Jamila… Sao giờ chị mới nói…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không sao đâu。Một lát nữa hai người sẽ lại làm lành với nhau thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,dana,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103101/adv/atlas/stand_a,body:normal,mamiya,300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chỉ có thế mà lo thì không sống nổi đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:sad,jamila,-300,-180,0.5,0,,,,
+anm,tint,mamiya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 vậy là tôi là thiểu số vì lo lắng sao…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mamiya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103401/adv/atlas/stand_a,body:normal,ruiez,300,-100,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà、 Jamila nói đúng đấy、 nhưng với hai người đó thì… quen rồi、 phải nói là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:sad,jamila,-300,-180,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Mà、 lần này đánh nhau vì chuyện gì vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lúc nãy ăn bánh quy、 rồi thấy Frau-san tự tay đút cho anh、 thế là hai người muốn được như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103401/adv/atlas/stand_a,body:normal,ruiez,-300,-100,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À。Thế là lại như mọi khi。Mày được ăn thì tao cũng phải được ăn、 kiểu vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:sad,jamila,-300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Cả hai cùng được đút thì không được sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hình như không được。Ai cũng không chịu nhường ai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103101/adv/atlas/stand_a,body:normal,mamiya,-300,-180,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng là không biết là bạn hay thù nữa、 hai người đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù sao thì、 cũng nên dừng lại thôi… Cứ thế này thì không tốt cho việc giáo dục tình cảm của Frau đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 nói chuyện bình thường thì có vẻ khó… Ưm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Được rồi。Quyết định vậy đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Để phân định thắng thua、 chúng ta sẽ không dùng nắm đấm nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11510300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm100.mp3,0,
+endwait
+spriteatlas,download/character/103405/adv/atlas/stand_a,body:sad,ruiez,300,-100,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+spriteatlas,download/character/103509/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Và thế là、 chúng ta đã đến với sòng bạc trong Dreamlands！ Giờ đây、 cuộc chiến cá cược vì lòng tự trọng của mỗi người sẽ bắt đầu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103405/adv/atlas/stand_a,body:sad,ruiez,300,-100,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 này、 này。Sao lại thành ra thế này chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

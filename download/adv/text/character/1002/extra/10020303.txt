@@ -1,0 +1,101 @@
+﻿// machine translate -- gemini-2.5-flash
+stopbgm,,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm005.mp3,0,,
+endwait
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0.5,,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Có người bảo nhìn biển thì lòng bình yên lắm、 nhưng mà… em chẳng thể nào hiểu được cảm giác đó。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_01.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Với một thứ khổng lồ và sâu không đáy thế này、 em chẳng cảm thấy chút bình yên nào cả。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_02.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Càng xuống sâu、 bóng tối càng lan rộng、 nơi ánh sáng không thể chạm tới… Điều em cảm nhận được ở đây、 chỉ là sự ngột ngạt và tuyệt vọng mà thôi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_03.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Ngốc thật、 mình… Mình đang nói cái gì thế này chứ。Chắc là mình bị làm sao rồi。Chẳng giống mình chút nào cả。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_04.mp3
+clickwait,,,,,,,,,,,,
+select,Hãy kể thêm nhiều điều nữa。,Tôi không nghĩ vậy。
+if,select_===_1,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Không đâu。Chúng ta suy cho cùng、 cũng chỉ là những người xa lạ đã thiết lập quan hệ hợp tác… Phải không？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_05.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không cần thiết phải thân thiết hơn mức cần thiết。Em không ở đây để dựa dẫm vào bất cứ ai。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_06.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em sẽ trở nên mạnh mẽ để chứng minh giá trị của bản thân。Vì điều đó… chỉ với suy nghĩ đó、 em đã đi đến tận đây。Giờ thì không thể thay đổi được nữa đâu。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_07.mp3
+clickwait,,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Anh biết gì về em chứ。Cái gọi là 'con người thật' của em… không phải để bất cứ ai khác đánh giá đâu。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_08.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hay là、 đối với anh、 em chỉ là một người nông cạn đến mức dễ dàng bị nhìn thấu như vậy sao？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_09.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Đùa thôi。Lời lẽ vừa rồi có hơi quá đáng。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_10.mp3
+clickwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ở cạnh anh、 em thực sự bị mất kiểm soát… Khó chịu lắm。Cái thái độ cứ thế xông thẳng vào、 cố gắng xâm nhập vào em ấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_11.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em không tin người khác。Không dựa dẫm ai。Dù có là máu mủ ruột thịt、 con người vẫn phản bội nhau… Em đáng lẽ phải hiểu rõ điều đó rồi chứ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_12.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vì thế、 em đã sống một mình。Điều đó đã giúp em mạnh mẽ hơn。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_13.mp3
+clickwait,,,,,,,,,,,,
+spriteoff,brizit,0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+mask,bg1,0,0,1280,250,0.2,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,brizit1,0,0,1280,250,0.2,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,0,0,0,0,,,,
+imgconf,brizit,brizit1,90,-660,,,0,1.5,1.5,0
+endwait
+msg,1,<size=30><outline width=2 color=black>…Đáng lẽ ra là phải như vậy chứ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_14.mp3
+clickwait,,,,,,,,,,,,
+spriteoff,all,0.5
+endwait
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0.5,,,,,
+endwait
+msg,1,<size=30><outline width=2 color=black>Thế mà、 em lại cảm thấy khoảng cách giữa chúng ta ngày càng gần hơn。Dù em hiểu rằng điều đó sẽ phá vỡ tất cả những gì em đã gây dựng bấy lâu nay。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_15.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái cảm giác này là gì chứ… Đây là cảm xúc của em mà、 vậy thì hãy nghe theo ý em đi chứ…</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_16.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đáng lẽ em phải mạnh mẽ hơn khi ở một mình chứ… Nếu cứ thế này、 em sẽ lại trở về là con người yếu đuối trước kia mất。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_17.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy nên đừng bước sâu hơn vào em nữa… Xin anh đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_10_18.mp3
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+name,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,,
+endwait,,,,,,,,,,,,

@@ -1,0 +1,416 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255,,,,
+endwait,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cơ thể、 trái tim、 linh hồn――nóng rực。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sức nóng hóa thành sức mạnh、 lan tỏa khắp cơ thể tôi…… Cảm giác này là gì đây？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sức mạnh của anh ấy ư？ Hay thực lực của chính tôi đã tăng trưởng？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chắc chắn、 tôi nghĩ cũng có phần đó。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng、 tại sao nhỉ？ Chỉ vậy thôi thì vẫn thấy không ổn。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đây có phải là thứ mình vừa mới có được không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――Hay đây đã là thứ vốn dĩ 'ở đây' từ rất lâu rồi？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cảm giác đủ đầy khi thứ còn thiếu được lấp đầy、 nỗi hoài niệm khi được tái hợp với thứ từng bị chia cắt。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Có lẽ nào――……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,
+stopbgm,0,
+endwait
+bg,download/bg/bg_10050100.jpg,1,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm007.mp3,0,,,
+endwait
+sprite,download/monster/20040106/adv/image/20040106.png,enemy3,-30,-170,1.35,0.5
+playse,/download/sound/se/se_023.mp3
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――――――――――――！</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,65,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cháy rụi đi！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_01.mp3
+clickwait,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0
+endwait
+sprite,download/monster/20040106/adv/image/20040106.png,enemy3,-30,-170,1.35,0.5
+endwait
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1.5,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait,,,,,,,,,,,
+wait,1
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――――、 ……</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,1.3
+playse,/download/sound/se/se_025.mp3
+endwait
+wait,0.5
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:normal,asaka,65,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Phù…… vậy là xong rồi chứ？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_02.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101602/adv/atlas/stand_b,body:surprise,pato,0,-200,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Không ngờ cô lại thực sự một mình đánh bại nhiều đến thế、 tôi rất bất ngờ đấy</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_016_4_04_01.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:anger,xeno,300,-120,0.5,0.5,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,-300,-120,0.5,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Asaka…… mạnh？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_04_04_01.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_a,body:anger,xeno,300,-120,0.5,0,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Mạnh thì không sai。Nhưng、 cái gì đây……？ So với lần trước ta thấy、 cái này、 quá sức……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_4_04_01.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Akai Asaka…… rốt cuộc ngươi đã làm gì？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_4_04_02.mp3
+clickwait
+spriteoff,frau,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,-235,-120,0.5,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hả？ 'Làm gì' là sao……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_03.mp3
+clickwait,,,,,,,,,,
+shake,0.2,3,5,0,asaka,,,,,,,,,,,
+endwait
+anm,move,asaka,-235_-180,0.5,0,,,
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,-235,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Chậc…… ơ、 kìa…… Chân、 không còn sức――</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_04.mp3
+clickwait,,,,,,,,,,
+select,Lựa chọn 1: Ôm lấy cô ấy,Lựa chọn 2: Nắm lấy tay để đỡ cô ấy
+if,select_===_1,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,0,-400,1,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>A……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_05.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:shy,asaka,0,-400,1,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ơ、 à…… Khoan…… Sao、 sao tự dưng lại ôm……！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_06.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>K-Không sao đâu！ Chỉ là hơi loạng choạng một chút thôi！ Cái này、 ừm…… k-không cần phải ôm thế này、 em tự đứng được mà……！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_07.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưư…… Thôi đi mà、 tự dưng thế này…… hại tim chết mất thôi……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_08.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:shy,asaka,-235,-120,0.5,0.5,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,300,-120,0.5,0.5,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………Nếu thể lực không cho phép thì lui xuống đi。Phần còn lại ta sẽ lo</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_4_04_03.mp3
+clickwait
+elseif,select_===_2,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,0,-200,0.7,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chậc…… Cảm ơn đã đỡ em。Chắc em đã cố gắng quá sức rồi、 có vẻ em mệt hơn mình nghĩ……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_09.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hăng hái đến thế mà giờ thành ra thế này thì mất mặt quá nhỉ…… À ha ha</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_10.mp3
+clickwait,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:normal,asaka,-235,-120,0.5,0.5,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,300,-120,0.5,0.5,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………Nếu thể lực không cho phép thì lui xuống đi。Phần còn lại ta sẽ lo</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_4_04_03.mp3
+clickwait
+endif,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:normal,asaka,-235,-120,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không đâu、 em ổn mà…… Xin lỗi vì đã khiến anh lo lắng。Em sẽ làm được thôi</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_11.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,300,-120,0.5,0,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhìn bộ dạng hiện tại của ngươi、 ngươi nghĩ ta sẽ tin lời đó sao？ Lần nào cũng định để tên đàn ông đó đỡ ngươi à？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_4_04_04.mp3
+clickwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,-235,-120,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu nói thế thì……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_12.mp3
+clickwait,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/101602/adv/atlas/stand_b,body:normal,pato,-300,-200,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Debris…… là những thực thể được tái tạo từ linh hồn của những kẻ từng thách thức Dreamlands và tan biến、 phải không？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_016_4_04_02.mp3
+clickwait
+spriteatlas,download/character/101602/adv/atlas/stand_b,body:anger,pato,-300,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Về phần tôi、 dù đối thủ là cô、 hay là cả hai người cùng lúc thì cũng không thành vấn đề đâu？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_016_4_04_03.mp3
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,300,-120,0.5,0,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mới nãy còn trốn sau ảo ảnh mà giờ đã mạnh miệng thế rồi</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_4_04_05.mp3
+clickwait
+spriteatlas,download/character/101602/adv/atlas/stand_b,body:anger,pato,-300,-200,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mục đích của tôi không phải là thắng các người、 mà chỉ là cầm chân thôi</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_016_4_04_04.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Dù các người có mạnh đến đâu、 tôi tự tin rằng nếu tập trung phòng thủ thì sẽ không dễ dàng bị vượt qua đâu</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_016_4_04_05.mp3
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,300,-120,0.5,0,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Được thôi。Vậy thì、 cái gọi là phòng thủ đó của ngươi…… để ta xem nó có chịu nổi một đòn của ta không</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_024_4_04_06.mp3
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-245,-120,0.5,0.5,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>A……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_04_04_02.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,-245,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hửm？ Sao thế、 Frau？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_13.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ổn không？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_04_04_03.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,-245,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ổn không' á…… Em hỏi ai thế――</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_14.mp3
+clickwait,,,,,,,,,,
+stopbgm,0.5
+name,
+msg,0,
+spriteoff,all,0.5
+bg,color_0_0_0,1,255
+endwait
+mask,bg1,0,0,1280,200,0,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,dana1,0,0,1280,200,0,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:normal,dana,,0,0,0,,,,
+imgconf,dana,dana1,0,-760,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em không sao đâu、 Frau-san。Xin lỗi vì đã khiến em lo lắng</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_4_04_01.mp3
+clickwait
+spriteoff,all,0.2
+endwait
+bg,download/bg/bg_10050100.jpg,1,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,,,
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,-245,-120,0.5,0.5,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:normal,dana,300,-120,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mọi người cũng bình an vô sự là tốt rồi。Dù em không ngờ Zeno-san lại ở đây……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_4_04_02.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,-245,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dana……！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_4_04_15.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:normal,dana,300,-120,0.5,0,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chuyện trò để sau。Hơn hết bây giờ…… em có thể hỏi về người kia không？ Em vừa mới đến nên chưa nắm được tình hình</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_4_04_03.mp3
+clickwait,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/101602/adv/atlas/stand_b,body:anger,pato,-300,-200,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Dana</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_016_4_04_06.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Phải…… cô chính là、 Dana Darrell Dojoji……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_016_4_04_07.mp3
+clickwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Chúng ta đã từng gặp nhau ở đâu đó sao？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_4_04_04.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_b,body:anger,pato,-300,-200,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không。Lần đầu gặp mặt…… Và rồi、 tôi phải chào cô một tiếng。Chắc hẳn 'người đó' đã gây cho cô rất nhiều phiền phức、 nên tôi cũng nhân tiện xin lỗi luôn</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_016_4_04_08.mp3
+clickwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Người đó……？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_4_04_05.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_b,body:anger,pato,-300,-200,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chào cô、 tôi là Patricia――Patricia Portman。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_016_4_04_09.mp3
+clickwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>――……Hả？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_4_04_06.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_b,body:anger,pato,-300,-200,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Jin Portman、 người mà cô từng bỏ mặc cho chết、 là anh trai tôi。Tôi đã luôn muốn gặp cô。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_016_4_04_10.mp3
+clickwait
+stopbgm,0
+name,
+msg,0,
+spriteoff,all,0.5
+bg,color_0_0_0,1,255
+endwait
+wait,0.5
+endwait
+playbgm,/download/sound/bgm/bgm024.mp3,0,,,
+endwait
+msg,0,<size=30><outline width=2 color=black>Ấn tượng đầu tiên của tôi về đơn vị được điều đến ngay sau khi tới R'lyeh、 gần như là tệ nhất。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Một gã đàn ông vô lễ bất ngờ chạm vào mông tôi、 rồi buông những lời lẽ có thể xem là sỉ nhục、 kiểu như 'Cái đứa nhóc ranh chưa ráo máu đầu này thì đánh đấm gì được？'。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Đối với chuyện đó、 chắc hẳn chẳng mấy ai có thể có ấn tượng tốt được。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Nhưng rồi、 khi ở bên anh ấy――ở bên họ、 những cảm giác đó dần dần thay đổi。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Tôi đã biết được cảm giác dễ chịu khi chia sẻ thời gian với mọi người。Đã biết được sự an tâm khi có thể giao phó lưng mình。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Tôi đã biết niềm vui được cùng nhau cười đùa qua những câu chuyện ngớ ngẩn、 và cả cảm giác lâng lâng khi say rượu。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Tôi đã biết được có đồng đội tuyệt vời đến nhường nào。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Adela Fontaine。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Casey Elvyu。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Lena Keitler。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Marina O'Donnell。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Và、 Jin Portman。</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>Những ngày tháng đó…… những kỷ niệm cùng đồng đội、 vẫn đang tiếp tục tỏa sáng rõ ràng、 sâu thẳm trong lồng ngực này。</outline></size>,,,,,,,,,
+clickwait
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,300,0.5,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,0,0,0,0,,,,
+imgconf,norn,norn1,0,-400,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Và、 nỗi tuyệt vọng của sự mất mát vẫn đang níu giữ trái tim cô không rời――phải không？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_4_04_01.mp3
+clickwait
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,112 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:normal,bea,-10,-200,0.5,0.5,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chúng ta、 những Debris、 là những người không phải con người、 được tái cấu trúc và có nhân cách mới sau khi trôi dạt đến Dreamlands…… Tôi nghĩ điều này mọi người đều biết rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ở giai đoạn tái cấu trúc、 ký ức ban đầu sẽ biến mất…… đó là lẽ thường、 nhưng thực ra、 tôi đã kế thừa gần như toàn bộ ký ức mà không bị thiếu hụt。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thay vì nói là giữ lại ký ức…… thì đúng hơn là。Tôi đã đọc cuộc đời của một người xa lạ trong một cuốn sách。Diễn đạt như vậy có dễ hiểu hơn không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Và từ 'ghi chép' của tôi ngày trước、 tôi đã biết được một điều。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_04.mp3
+clickwait,,,,,,,,,,,
+stopbgm,0
+msg,1,<size=30><outline width=2 color=black>——Rằng mình có một đứa con đã bỏ lại ở thế giới thực。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_05.mp3
+clickwait,,,,,,,,,,,
+select,Ngạc nhiên thật。,Là bé trai hay bé gái？
+if,select_===_1,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:sad,bea,-10,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Quả nhiên、 là vậy rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vì tôi và anh…… có lẽ sẽ có lúc cùng nhau trải qua đêm tối。Nên tôi nghĩ、 việc này nên nói trước thì hơn……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tuy nhiên、 trải nghiệm đó chỉ có một lần…… thôi。Hơn nữa、 đó là hành động của một tôi khác、 không phải tôi của bây giờ……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_08.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:sad,bea,-10,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chuyện đó…… thì……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………Đúng phần đó thì ký ức lại bị thiếu hụt。Tôi không biết được cả giới tính hay tên của con。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tự mình nói ra rồi lại bỏ dở giữa chừng…… Tôi xin lỗi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_11.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:sad,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Nghe chuyện này、 anh có lẽ sẽ vẫn đề phòng tôi sao……？ Mọi người khác đều còn trẻ、 chỉ có tôi là thế này thôi mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Với anh、 tôi là một bà cô、 đúng không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không、 không sao đâu。Lời an ủi như vậy…… Hơn nữa、 nếu tính cả thời gian tôi đã sống ở Dreamlands、 thì việc bị coi là bà cô cũng là điều đương nhiên thôi mà……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ư…… Tự mình nói ra mà lòng…… Sao chỉ vì tuổi tác mà lại đau đớn đến thế này……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_15.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:surprise,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Ể？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải vậy…… ư、 đó là…… lời nói thật lòng sao？ Nếu đó là lời an ủi、 thì anh không cần phải bận tâm đâu……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:shy,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>——Phì、 không có đâu、 xinh đẹp gì chứ。Bị nói như vậy、 tôi thấy hơi ngượng một chút……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:normal,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Anh đúng là một người tốt bụng。À、 tôi thật biết ơn cuộc gặp gỡ này。Thật may vì anh đã ở đây……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_19.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:smile,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu…… nếu mà nói đến chuyện nếu。Nếu anh có cơ hội gặp con của tôi、 thì lúc đó…… xin hãy đối xử tốt với đứa bé nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_20.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:sad,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Tôi thì không được đâu。Với đứa bé đó、 tôi là người mẹ đáng ghét đã bỏ rơi nó mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_21.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù vậy…… việc vẫn còn bận tâm、 có lẽ là tình mẫu tử chăng？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_22.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật kỳ lạ phải không…… Dù đó là con của con người nguyên bản、 không phải con của chính tôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102300/adv/sound/fav102300_02_23.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

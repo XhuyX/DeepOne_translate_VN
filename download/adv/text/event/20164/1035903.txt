@@ -1,0 +1,824 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11110300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm101.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,anna1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103006/adv/atlas/stand_a,body:normal,anna2,0,0,0,0,,,,
+imgconf,anna2,anna1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…… cái phòng rộng lúc nãy…… là ở đây à。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11280300.jpg,0,255
+endwait
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20160202/adv/image/20160202.png,enemy2,350,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy3,0,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy1,-350,-370,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>虚像たち</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:sad,rise,-350,-220,0.5,0.5,,,,
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:sad,mamiya,0,-300,0.5,0.5,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,350,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>想索者たち</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,anna1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103006/adv/atlas/stand_a,body:sad,anna2,0,0,0,0,,,,
+imgconf,anna2,anna1,0,-650,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng là、 ngồi cạnh mấy cái Hư Ảnh thế này、 cảnh tượng thật kỳ lạ mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103006/adv/atlas/stand_a,body:sad,anna2,0,0,0,0,,,,
+imgconf,anna2,anna1,0,-650,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thôi thì、 chúng nó cũng chỉ ngồi yên thôi、 coi như không có vấn đề gì、 mình báo cho Louise biết vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103006/adv/atlas/stand_a,body:surprise,anna2,0,0,0,0,,,,
+imgconf,anna2,anna1,0,-650,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>――――Hử？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20160202/adv/image/20160202.png,enemy2,350,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy3,0,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy1,-350,-370,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+anm,jump,enemy2,350_-370_50_1,0.7,0
+anm,jump,enemy3,0_-370_50_1,0.7,0
+anm,jump,enemy1,-350_-370_50_1,0.7,0
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>虚像たち</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――、――……、……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:sad,mamiya,300,-180,0.5,0.5,,,,
+anm,tint,mamiya,150_150_150,0.0001,0
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:surprise,rise,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 này、 hình như từ nãy đến giờ、 mấy cái Hư Ảnh cứ bồn chồn sao ấy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:sad,mamiya,300,-180,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng là、 cảm giác như chúng đang mất bình tĩnh dần。Chẳng lẽ đây là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mamiya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Hình như chúng chán chờ rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:sad,rise,-300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hảảả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20160202/adv/image/20160202.png,enemy2,350,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy3,0,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy1,-350,-370,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+anm,jump,enemy2,350_-370_50_1,0.7,0
+anm,jump,enemy3,0_-370_50_1,0.7,0
+anm,jump,enemy1,-350_-370_50_1,0.7,0
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>虚像たち</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――……、…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:sad,mamiya,0,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>K-Không ổn rồi、 cái này không ổn chút nào đâu……？ Nếu chúng mà nổi điên hay tấn công thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20160202/adv/image/20160202.png,enemy2,350,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy3,0,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy1,-350,-370,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+anm,jump,enemy2,350_-370_50_1,0.7,0
+anm,jump,enemy3,0_-370_50_1,0.7,0
+anm,jump,enemy1,-350_-370_50_1,0.7,0
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>虚像たち</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――…………、………………、……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,anna1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103006/adv/atlas/stand_a,body:anger,anna2,0,0,0,0,,,,
+imgconf,anna2,anna1,0,-650,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chết tiệt…… phải bảo Louise nhanh lên mới được……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11110300.jpg,0,255
+endwait
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103006/adv/atlas/stand_a,body:surprise,anna,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――Hử？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103006/adv/atlas/stand_a,body:unique,anna,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Có cảm giác như mình quên mất gì đó…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103006/adv/atlas/stand_a,body:anger,anna,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không、 bây giờ hơn hết、 phải báo cho Louise chuyện lúc nãy mới được！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11280300.jpg,0,255
+endwait
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20160202/adv/image/20160202.png,enemy2,350,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy3,0,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy1,-350,-370,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>虚像たち</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:sad,rise,-300,-220,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:sad,mamiya,300,-300,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Làm sao đây、 không thể bình tĩnh được……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:sad,rise,-300,-220,0.5,0,,,,
+anm,tint,mamiya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái này、 rõ ràng là không khí càng lúc càng tệ đi、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mamiya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-240,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… A、 chân em bị tê rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:surprise,rise,-300,-220,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>K-Không được đâu Frau-chan！ Nếu em bỏ tư thế quỳ seiza、 chúng có thể sẽ khó chịu hơn đấy！ Cố lên、 cố lên nhé……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-240,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm ưm ưm ưm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:surprise,rise,-300,-220,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>L-Làm sao đây！ Nếu cứ thế này、 món ăn của Louise-chan không kịp thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:sad,mamiya,300,-300,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bên đó chắc cũng đang cố gắng lắm rồi…… Đến nước này thì、 bằng mọi cách、 chúng ta phải thu hút sự chú ý của mấy cái Hư Ảnh này để câu giờ thôi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:surprise,rise,-300,-220,0.5,0,,,,
+anm,tint,mamiya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>H-Hảảả……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:normal,mamiya,300,-300,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rise、 em có ý gì không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:surprise,rise,-300,-220,0.5,0,,,,
+anm,tint,mamiya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vô lý quá đi……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: ……Chơi Yakyuuken thì sao？,Lựa chọn 2: Hát thử một chút xem sao。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:anger,mamiya,300,-300,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>E-Em đang nói cái gì thế……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:shy,rise,-300,-220,0.5,0,,,,
+anm,tint,mamiya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rise-chan thì、 nếu chỉ có hai người với anh trai thì được、 chứ bị người khác nhìn mà chơi Yakyuuken thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mamiya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:unique,frau,300,-240,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Với anh trai thì được à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:sad,rise,-300,-220,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ…… à、 thì…… Này Frau-chan？ Bị nhìn bằng ánh mắt đó、 Rise-chan hơi buồn đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:normal,rise,-300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà…… ừm、 ryokan…… tiệc tùng…… cái gì đó để câu giờ、 nối tiếp không khí một cách ổn thỏa nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:surprise,rise,-300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>……A！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-240,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rise、 em nghĩ ra gì rồi à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:sad,rise,-300,-220,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ư-Ưm…… trong tình huống này mà hát à…… đó đúng là một ý tưởng khá táo bạo đấy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:sad,mamiya,300,-300,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải rồi…… trong cái không khí này mà đột nhiên hát lên thì có khi lại bị ghét thêm đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:sad,mamiya,300,-300,0.5,0,,,,
+msg,0,<outline width=2 color=black>Có lẽ nên chọn cái gì đó an toàn hơn một chút thì hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:normal,rise,-300,-220,0.5,0,,,,
+anm,tint,mamiya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà…… ừm、 ryokan…… tiệc tùng…… cái gì đó để câu giờ、 nối tiếp không khí một cách ổn thỏa nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:surprise,rise,-300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>……A！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mamiya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-240,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rise、 em nghĩ ra gì rồi à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:normal,rise,-300,-220,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Maya-chan、 cậu có chơi được nhạc cụ truyền thống Nhật Bản không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:normal,mamiya,300,-300,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 cũng chút chút thôi。Nói là chơi thì cũng chỉ là giết thời gian、 chạm vào cây shamisen có sẵn ở nhà Mamiya thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:smile,rise,-300,-220,0.5,0,,,,
+anm,tint,mamiya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật ra thì、 lúc nãy Rise-chan tìm thấy nhạc cụ trong phòng kho đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:smile,rise,-300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rise-chan cũng chơi được koto、 chúng ta cùng biểu diễn thì sao？ Biểu diễn nhạc cụ truyền thống Nhật Bản thì ở ryokan hay tiệc chiêu đãi cũng không có gì lạ、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:sad,mamiya,300,-300,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 có thể là vậy nhưng mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20160202/adv/image/20160202.png,enemy2,350,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy3,0,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy1,-350,-370,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+anm,jump,enemy2,350_-370_50_1,0.7,0
+anm,jump,enemy3,0_-370_50_1,0.7,0
+anm,jump,enemy1,-350_-370_50_1,0.7,0
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>虚像たち</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――、……、………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:sad,mamiya,300,-300,0.5,0.5,,,,
+anm,tint,mamiya,150_150_150,0.0001,0
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:normal,rise,-300,-220,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù sao cứ thế này、 chẳng mấy chốc sự bất mãn của các Debris sẽ bùng nổ mất。Em thấy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:sad,mamiya,300,-300,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Haa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:normal,mamiya,300,-300,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em hiểu rồi、 em sẽ làm…… Thật lòng thì em không tự tin lắm、 nhưng con gái phải có dũng khí chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:smile,rise,-300,-220,0.5,0,,,,
+anm,tint,mamiya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Được rồi、 vậy thì、 cùng làm thôi、 Maya-chan。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11280300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm130.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,150,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rise1,0,150,1280,200,0.5,,,,
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:normal,rise2,0,0,0,0,,,,
+imgconf,rise2,rise1,0,-410,,,0,1.5,1.5,0
+
+
+mask,black3,0,-50,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black4,0,0,0,0,,,,
+imgconf,black4,black3,0,0,,,0,1,1,0.5
+mask,mamiya1,0,-50,1280,200,0.5,,,,
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:normal,mamiya2,0,0,0,0,,,,
+imgconf,mamiya2,mamiya1,0,-740,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20160202/adv/image/20160202.png,enemy2,350,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy3,0,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy1,-350,-370,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>虚像たち</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,0,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>May quá…… Có vẻ như chúng đang say sưa với màn trình diễn của Rise và Maya。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,0,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hơn nữa、 cả hai cũng có vẻ hơi vui。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,0,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Mình cũng muốn được dạy chơi nhạc cụ quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_017.mp3
+endwait,,,,,,,,,,,
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,0,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ơ……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,0,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cái gì thế nhỉ…… Âm thanh này…… Tiếng bước chân？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11110300.jpg,0,255
+endwait
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,anna1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103006/adv/atlas/stand_a,body:anger,anna2,0,0,0,0,,,,
+imgconf,anna2,anna1,0,-650,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ooooooo！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103454/adv/atlas/stand_a,body:surprise,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 này Anna、 chạy như thế nguy hiểm lắm đấy……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11280300.jpg,0,255
+endwait
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,anna1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103006/adv/atlas/stand_a,body:smile,anna2,0,0,0,0,,,,
+imgconf,anna2,anna1,0,-650,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 món ăn đã sẵn sàng！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20160202/adv/image/20160202.png,enemy2,350,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy3,0,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy1,-350,-370,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>虚像たち</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:sad,rise,-300,-100,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+spriteatlas,download/character/103108/adv/atlas/stand_a,body:surprise,mamiya,300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm122.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103610/adv/atlas/stand_a,body:sad,rise,-300,-100,0.5,0,,,,
+anm,tint,mamiya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Anna-chan、 cậu phá hỏng hết không khí rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20160202/adv/image/20160202.png,enemy2,350,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy3,0,-370,1.35,0.5,,,,
+sprite,download/monster/20160202/adv/image/20160202.png,enemy1,-350,-370,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+anm,move,enemy2,350_-250,0.3,0
+anm,move,enemy3,0_-250,0.3,0
+anm,move,enemy1,-350_-250,0.3,0
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>虚像たち</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

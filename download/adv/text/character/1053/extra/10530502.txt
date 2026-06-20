@@ -1,0 +1,185 @@
+﻿// machine translate -- gemini:gemini-2.5-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105305/adv/sound/fav105305_02_01.mp3
+name,<outline width=2 color=black>Noa Valard</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>— À、 thôi đi。Tệ thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11490301.jpg,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm189.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_02.mp3
+name,<outline width=2 color=black>Noa Valard</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>— Haa…… Thôi thì、 chúng ta trú mưa ở đây đã。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_03.mp3
+msg,1,<outline width=2 color=black>— Dreamlands tái hiện cả sự thay đổi thời tiết sao。Mưa rơi đột ngột thế này…… Không có ô hay gì cả、 đành phải đợi tạnh mưa ở đây thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_04.mp3
+msg,1,<outline width=2 color=black>— Mà、 mưa thế này cũng không ảnh hưởng lắm đến hành động。Chỉ là nếu ai đó bị cảm thì phiền phức lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_05.mp3
+msg,1,<outline width=2 color=black>— ……Với lại、 tôi không thích tóc bị ướt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_06.mp3
+msg,1,<outline width=2 color=black>— Nó bết lại、 dính vào da…… Rồi sau đó、 khi khô một nửa cũng tệ không kém…… vừa xơ rối、 lại còn bị hư tổn nếu để mặc kệ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_07.mp3
+msg,1,<outline width=2 color=black>— Chẳng có gì tốt đẹp cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,— 'Cô có coi trọng mái tóc của mình không？,— 'Không dùng phép thuật để làm khô sao？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_08.mp3
+name,<outline width=2 color=black>Noa Valard</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>— Gì chứ。Một người phụ nữ như tôi quan tâm đến tóc thì có gì sai à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_09.mp3
+msg,1,<outline width=2 color=black>— Tôi cũng quan tâm đến những chuyện đó ở mức người bình thường mà。Cô nghĩ tôi là loại người nào chứ、 thật tình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_10.mp3
+msg,1,<outline width=2 color=black>— …………Ừm、 có lẽ…… có lẽ là tôi có mang nhiều đồ chăm sóc tóc hơn người khác một chút thôi…… Nhưng đó là sai số、 sai số thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_11.mp3
+name,<outline width=2 color=black>Noa Valard</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>— Cô có lẽ không hiểu đâu vì không dùng được phép thuật đàng hoàng、 nhưng tóc rất mỏng manh。Muốn làm khô an toàn đòi hỏi khả năng kiểm soát phép thuật cao cấp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_12.mp3
+msg,1,<outline width=2 color=black>— Tôi không khéo léo đến mức đó……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_13.mp3
+msg,1,<outline width=2 color=black>— Nói trước cho cô biết、 không phải tôi vụng về đâu。Ở mức trung bình thôi。Đúng hơn là、 người có thể làm những chuyện đó dễ dàng mới là bất thường。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_14.mp3
+msg,1,<outline width=2 color=black>— Nói chung、 tôi nghĩ dùng phép thuật vào mấy chuyện thừa thãi như vậy cũng không ổn、 mà nếu lỡ sai sót làm tổn thương tóc thì phiền lắm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_15.mp3
+msg,1,<outline width=2 color=black>— ……Đã tốn công chăm sóc cẩn thận rồi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:surprise,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_16.mp3
+name,<outline width=2 color=black>Noa Valard</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>— —Hả？ Muốn chạm vào…… vào tóc tôi ấy hả……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:shy,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_17.mp3
+msg,1,<outline width=2 color=black>— Kh、 Khùng à！ Sao lại đột nhiên thế！ Tại sao tôi lại phải để cô chạm vào tóc mình chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:shy,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_18.mp3
+msg,1,<outline width=2 color=black>— V、 Với lại、 giờ nó đang ướt mà、 nếu muốn chạm thì phải là sau khi chăm sóc rồi chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:unique,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_19.mp3
+msg,1,<outline width=2 color=black>— —Không phải cái đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:unique,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_20.mp3
+msg,1,<outline width=2 color=black>— Phụ nữ không dễ dàng để người khác chạm vào tóc mình như vậy đâu！ Thật thất lễ！ Cái kiểu vô lễ、 vô tâm、 vô phép của cô tôi thấy thật đáng chê trách！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:shy,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_21.mp3
+msg,1,<outline width=2 color=black>— —Hức！ Dù cô có nói là đẹp hay gì đi nữa thì cũng không phải lý do đâu！ Khùng thật đấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:shy,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_22.mp3
+msg,1,<outline width=2 color=black>— ………………Cô、 cô muốn chạm vào đến vậy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:unique,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_23.mp3
+msg,1,<outline width=2 color=black>— —Kh、 không có nghĩa là tôi vui khi được cô khen đẹp hay gì đâu。Nhưng nếu cô nghĩ tóc tôi không thể cho người khác chạm vào thì tôi cũng thấy bực mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:unique,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_24.mp3
+msg,1,<outline width=2 color=black>— Vì vậy、 nếu cô thực sự muốn、 thì…… hôm nay thì không được！ Nhưng、 từ ngày mai trở đi…… ừm、 chỉ một chút thôi thì cũng không hẳn là không cho phép。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:unique,nowa,0,-130,0.5,0,,,,
+playvoice,1,download/character/105305/adv/sound/fav105305_02_25.mp3
+msg,1,<outline width=2 color=black>— ……Hừ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

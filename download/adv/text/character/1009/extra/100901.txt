@@ -1,0 +1,112 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:normal,irina,-20,-220,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không ngờ một kẻ như ngươi lại ở R'lyeh。Xem ra Tổ chức Lovecraft cũng có những góc khuất không mấy hay ho nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù không rõ lai lịch của ngươi、 nhưng sức mạnh đó chắc chắn hữu dụng。Để thoát khỏi R'lyeh、 ta sẽ cần ngươi hợp tác đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tất nhiên、 với ngươi thì chuyện này quá đột ngột、 chắc hẳn cũng có lời phàn nàn kiểu 'tự tiện làm gì thế' phải không。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng xét về tình thế hiện tại、 chúng ta không còn lựa chọn nào khác…… cả hai ta đều vậy。Ta không có ý định thân thiết、 nhưng ít nhất sẽ thể hiện thái độ hợp tác。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:surprise,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Về ta ư？ Cứ tưởng ngươi sẽ hỏi gì、 ai dè lại quan tâm chuyện đó sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:normal,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ngươi thật kỳ lạ nhỉ。Thôi thì…… dù sao ta cũng là người đề nghị hợp tác trước mà。Nếu là câu hỏi đơn giản、 ta có thể trả lời cho ngươi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_06.mp3
+clickwait,,,,,,,,,,,
+select,Lựa chọn 1 'Vì sao lại đến R'lyeh？,Lựa chọn 2 'Đã làm gì ở thế giới bên ngoài？
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:normal,irina,-20,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Để ngăn Thánh Lễ Giáo đoạt được Nguyên thư Pnakotic đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_07.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:anger,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ta không biết lý do Tổ chức Lovecraft chấp nhận bọn chúng。Nhưng kết quả là Thánh Lễ Giáo đã tiến gần hơn đến việc đoạt Nguyên thư Pnakotic、 đó là điều không thể chối cãi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu Thánh Lễ Giáo lỡ tay đoạt được Nguyên thư Pnakotic、 thì việc vô số người phải chịu khổ đau là điều hiển nhiên như nhìn thấy lửa vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bọn chúng、 vì để đạt được mục đích、 sẵn sàng lợi dụng lòng tốt của người khác rồi chà đạp lên nó、 không chút do dự……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chuyện đó thì ta…… biết rõ hơn ai hết。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_11.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:normal,irina,-20,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta đã đi khắp nơi để phá hủy các cứ điểm của Thánh Lễ Giáo đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:anger,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Không thể nào để cái lũ cuồng tín đó tự do được。Chừng nào Thánh Lễ Giáo còn tồn tại、 chừng đó những người bất hạnh sẽ cứ thế tăng lên。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bề ngoài thì chúng chỉ nói toàn lời hay ý đẹp、 nhưng bọn chúng hoàn toàn không có ý định ban phước lành cho ai đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta sẽ làm bất cứ điều gì để tiêu diệt Thánh Lễ Giáo。Để cứu những người bị chúng áp bức。Và……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_15.mp3
+clickwait,,,,,,,,,,,
+spriteoff,irina,0,,,,,,,,,
+endwait,,,,,,,,,,,
+mask,bg1,0,0,1280,250,0,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,irina1,0,0,1280,250,0,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:anger,irina,0,0,0,0,,,,
+imgconf,irina,irina1,-10,-750,,,0,1.5,1.5,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>——Cũng là vì sự trả thù của chính ta。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_16.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteoff,all,0,,,,,,,,,
+endwait
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:normal,irina,-20,-220,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Chuyện của ta đến đây là đủ rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta không cần phải nói thêm gì cho ngươi、 cũng chẳng có nghĩa vụ gì cả。Ta đã nói rồi mà？ Ta không hề muốn thân thiết đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_18.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thành thật mà nói、 không đời nào ta có thể đặt trọn niềm tin vào một kẻ bí ẩn như ngươi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_19.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta sẽ không đối địch、 nhưng đừng nghĩ ta là đồng đội。……Khoảng cách giữa chúng ta là như vậy đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_20.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta muốn ngươi phải hiểu rõ điều đó đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_01_21.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

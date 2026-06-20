@@ -1,0 +1,167 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11340300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm143.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:unique,zakuro,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_01.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>……Mình bắt đầu quen với việc bị bắt mặc mấy bộ kỳ quặc này rồi、 hơi ghét bản thân một chút</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:unique,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_02.mp3
+msg,1,<outline width=2 color=black>Hay là、 nhìn chằm chằm gì chứ… Nếu có gì muốn nói thì cứ nói thẳng ra đi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Cô mặc gì vậy,Hợp đấy
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_03.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chắc chắn là do ảnh hưởng từ Dreamlands quen thuộc rồi。Mấy người nghĩ tôi muốn mặc thế này à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_04.mp3
+msg,1,<outline width=2 color=black>Không ngờ lại là đồ thể dục… Không、 có lẽ nên nghĩ là may mà không bị bắt mặc mấy bộ đồ thiết kế kỳ quặc</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:unique,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_05.mp3
+msg,1,<outline width=2 color=black>……Mà、 có vẻ cũng có những kẻ vô duyên cứ nhìn chằm chằm vào tay chân của tôi từ nãy đến giờ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_06.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À、 vậy sao。Ừm ừm、 cảm ơn、 tôi vui vì được khen… Haizz</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_07.mp3
+msg,1,<outline width=2 color=black>Thật tình。Tại sao đến cả Dreamlands tôi cũng phải mặc đồ thể dục chứ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_08.mp3
+msg,1,<outline width=2 color=black>Cảm giác không có chút căng thẳng nào、 hoặc là buông lỏng… Nếu đây là một chiến lược để dẫn đến sự chủ quan thì thành công thật đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_09.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tuy còn nhiều điều muốn nói、 nhưng điều tôi quan tâm nhất bây giờ là cái bảng tên này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_10.mp3
+msg,1,<outline width=2 color=black>Sao lại phải viết tên to đùng ra như vậy chứ？ Tên cũng là thông tin cá nhân quan trọng mà</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_11.mp3
+msg,1,<outline width=2 color=black>Tôi không nghĩ việc công khai nó cho nhiều người là một điều tốt</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_12.mp3
+msg,1,<outline width=2 color=black>Hơn nữa、 việc phô trương tên mình to đùng ra như vậy、 có vẻ như là một sự thể hiện bản thân quá mức、 thật là xấu hổ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:unique,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_13.mp3
+msg,1,<outline width=2 color=black>……Với lại、 tiện thể nói về tên、 cũng có người nhìn vào ngực tôi nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_14.mp3
+msg,1,<outline width=2 color=black>Haizz… Mà、 về chuyện đó thì giờ nói gì cũng vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_15.mp3
+msg,1,<outline width=2 color=black>……Nói đi cũng phải nói lại、 nếu có người cùng họ thì sao nhỉ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_16.mp3
+msg,1,<outline width=2 color=black>Chẳng hạn như Aika và Souka là chị em、 vậy thì có phải viết cả tên vào không nhỉ… Không đủ chỗ mất？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_17.mp3
+msg,1,<outline width=2 color=black>……Mà、 đồ thể dục của Aika và Souka nhỉ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:shy,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_18.mp3
+msg,1,<outline width=2 color=black>…………Ừm。Cũng được đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm115.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:surprise,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_19.mp3
+msg,1,<outline width=2 color=black>À、 không… Này、 đồ thể dục thì dễ vận động、 mặc kiểu này khi tập luyện cũng tốt đấy… hể、 tôi không nói gì kỳ lạ chứ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:shy,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_20.mp3
+msg,1,<outline width=2 color=black>Đương nhiên、 mặc đồ tập luyện bình thường cũng hoàn thành vai trò của nó、 nhưng mà… ừm… à thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_21.mp3
+msg,1,<outline width=2 color=black>…Mày cũng nghĩ Aika và Souka mặc đồ thể dục thì hợp đấy chứ！？ Muốn thấy đúng không！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_01_22.mp3
+msg,1,<outline width=2 color=black>Thế nên、 tôi phải chuẩn bị đủ thứ、 phải nhanh chóng kết thúc việc Truy Tìm ở khu vực này rồi mau chóng quay về R'lyeh thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

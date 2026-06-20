@@ -1,0 +1,615 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/adv_000020.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+sprite,download/bg/bg_white.jpg,bg_white,0,0,1.0,0.5,,,,
+anm,fade,bg_white,128,0.5,0
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-50,-170,1.35,0.5,,,,
+anm,tint,enemy1,0_0_0,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——————、 —……、 …………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,10,10
+spriteoff,enemy1,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900001/adv/atlas/stand_a,body:anger,kanu,300,-120,0.5,0.5,,,,
+anm,tint,kanu,150_150_150,0.0001,0
+spriteatlas,download/character/103452/adv/atlas/stand_a,body:normal,ruiez,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Được rồi、 vậy là xong nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900001/adv/atlas/stand_a,body:anger,kanu,300,-120,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>関雲長</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Để ta hỏi lại。Các ngươi là ai？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900001/adv/atlas/stand_a,body:anger,kanu,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Các ngươi mạo danh chúng ta、 rốt cuộc âm mưu gì？ Mà cách chiến đấu vừa rồi… không phải võ nhân tầm thường。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900001/adv/atlas/stand_a,body:anger,kanu,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hơn nữa、 những kẻ vừa tấn công là gì？ Cứ như u linh vậy… rõ ràng không phải động tác của con người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103452/adv/atlas/stand_a,body:normal,ruiez,-300,-100,0.5,0,,,,
+anm,tint,kanu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 em rất muốn giải thích nhiều thứ cho mọi người、 nhưng mà…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900002/adv/atlas/stand_b,body:surprise,koumei,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>諸葛孔明</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ái Sa-san！ Nhìn xem、 kẻ địch bị đánh bại…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,1,0.6,1.2
+endwait
+spriteatlas,download/character/collabo/900001/adv/atlas/stand_b,body:surprise,kanu,300,-120,0.5,0,,,,
+anm,tint,koumei,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>関雲長</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gì thế này… cứ như tan chảy mà biến mất…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kanu,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102952/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Louise-sama、 sương mù đang mỏng dần ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,koumei,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103452/adv/atlas/stand_a,body:sad,ruiez,-300,-100,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không có thời gian để nói chuyện từ tốn rồi… Rosette、 đi thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102952/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 đã rõ ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900001/adv/atlas/stand_b,body:surprise,kanu,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>関雲長</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khoan đã！ Chuyện còn chưa—！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900002/adv/atlas/stand_b,body:sad,koumei,-300,-120,0.5,0.5,,,,
+anm,tint,kanu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>諸葛孔明</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ái Sa-san、 đuổi theo nữa rất nguy hiểm！ Làn sương này、 có gì đó không bình thường…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900001/adv/atlas/stand_b,body:surprise,kanu,300,-120,0.5,0,,,,
+anm,tint,koumei,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>関雲長</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng、 không thể để họ chạy thoát thế này…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,koumei,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103452/adv/atlas/stand_a,body:normal,ruiez,-300,-100,0.5,0.5,,,,
+anm,tint,kanu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 đúng rồi。Em muốn gửi lời chào thay Asaka và mọi người、 nhưng có vẻ không gặp được、 nên… Momoka— gọi tên đó có thất lễ không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103452/adv/atlas/stand_a,body:normal,ruiez,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Xin hãy gửi lời hỏi thăm đến Ryubi-san nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900001/adv/atlas/stand_b,body:surprise,kanu,300,-120,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>関雲長</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gì…？ Sao ngươi lại biết chân danh của Momoka-sama…？ Hơn nữa、 cái tên Asaka、 ta nhớ không lầm thì trước đây Momoka-sama từng mơ thấy—</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103452/adv/atlas/stand_a,body:normal,ruiez,-300,-100,0.5,0,,,,
+anm,tint,kanu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì tạm biệt nhé！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102952/adv/atlas/stand_a,body:normal,rozet,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chúng tôi xin lỗi vì sự vô lễ khi đã mạo danh。Vậy thì、 xin cáo từ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,rozet,0.5
+spriteoff,kanu,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>関雲長</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khoan…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/adv_000020.jpg,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm031.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900001/adv/atlas/stand_a,body:anger,kanu,300,-120,0.5,0.5,,,,
+anm,tint,kanu,150_150_150,0.0001,0
+spriteatlas,download/character/collabo/900002/adv/atlas/stand_b,body:surprise,koumei,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>諸葛孔明</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sương mù、 tan rồi… đột ngột thế này sao…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900001/adv/atlas/stand_b,body:surprise,kanu,300,-120,0.5,0,,,,
+anm,tint,koumei,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>関雲長</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hai người đó、 rốt cuộc ở đâu…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900002/adv/atlas/stand_b,body:sad,koumei,-300,-120,0.5,0,,,,
+anm,tint,kanu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>諸葛孔明</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cùng với sương mù、 họ biến mất như ảo ảnh… rốt cuộc là ai vậy nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900001/adv/atlas/stand_a,body:normal,kanu,300,-120,0.5,0,,,,
+anm,tint,koumei,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>関雲長</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Những kẻ chiến đấu trong Dreamlands。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900002/adv/atlas/stand_b,body:surprise,koumei,-300,-120,0.5,0,,,,
+anm,tint,kanu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>諸葛孔明</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900001/adv/atlas/stand_a,body:normal,kanu,300,-120,0.5,0,,,,
+anm,tint,koumei,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>関雲長</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không… không có gì。Dù sao thì、 chúng ta cần trở về chỗ Momoka-sama và truyền lại lời của họ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10030300.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:surprise,ruiez,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 kìa… đây là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có vẻ như chúng ta đã trở về nơi ban đầu rồi ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:normal,ruiez,-300,-100,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Quả nhiên làn sương đó là thứ kết nối thế giới này với thế giới kia nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Sương mù đã tan、 vậy là hai thế giới sẽ không còn kết nối nữa sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:normal,ruiez,-300,-100,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ai mà biết được… ít nhất thì đây cũng là lần thứ hai rồi、 nên em nghĩ không phải là không thể…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chúng ta đột ngột quay về thế này、 nếu có thể、 Rosette đã muốn nói lời tạm biệt với mọi người trong thị trấn…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,frau1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau2,0,0,0,0,,,,
+imgconf,frau2,frau1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kết nối… mỏng manh、 mờ nhạt lắm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/103402/adv/atlas/stand_a,body::normal,ruiez,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lần tới、 khi nào… không biết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Frau-sama…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hai người có sao không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:normal,ruiez,300,-100,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Asaka… xin lỗi、 em làm mọi người lo lắng rồi nhỉ。Tự dưng biến mất mấy ngày liền…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,-300,-120,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ừm… xin lỗi、 cậu đang nói gì vậy？ Chúng ta vừa mới chia tay cách đây ít phút thôi mà？ Vì Frau nói nên quay lại thì tốt hơn、 nên bọn tớ mới quay về。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:surprise,ruiez,300,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ít phút trước、 ư… ơ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Có vẻ như đây là ngay sau khi chúng ta chia tay Asaka-sama và mọi người lúc đó ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Việc Rosette và Louise-sama có cảm nhận thời gian khác với Asaka-sama và mọi người、 có nghĩa là dòng thời gian ở thế giới bên kia và thế giới này đã khác nhau sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:sad,ruiez,-300,-100,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hay là、 tất cả chỉ là một giấc mộng… sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:sad,rozet,300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện đó… à。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Louise-sama。Trong tay người kìa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:surprise,ruiez,-300,-100,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？ À… đây là、 bùa hộ mệnh bằng gỗ mà đứa bé đó đã tặng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Việc nó nằm trong tay em thế này thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tình cảm…… dù ở nơi khác、 vẫn kết nối được với nhau đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:smile,ruiez,-300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……À、 vậy sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À…… em chưa hiểu chuyện gì đang xảy ra、 có thể giải thích được không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:normal,ruiez,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm、 Asaka và mọi người chắc là thấy chuyện này mới xảy ra thôi、 nhưng sau khi chia hai ngả、 bọn chị đã gặp nhiều chuyện lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Louise-sama và Rosette đã lạc vào một nơi không phải ở đây、 một thế giới khác……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ở đó、 Rosette và mọi người đã phải tự xưng là Quan Vân Trường và Gia Cát Khổng Minh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng……？ Khoan đã、 em muốn được giải thích rõ hơn một chút……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:normal,ruiez,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chà、 phản ứng đó cũng đúng thôi。Thôi thì、 chuyện chi tiết để về R'lyeh rồi nói nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:normal,ruiez,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ối、 đúng rồi、 chị quên mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:smile,ruiez,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chào mọi người、 chị về rồi đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:smile,rozet,300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em đã trở về。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…… chào mừng hai người đã về。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

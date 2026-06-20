@@ -1,0 +1,152 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11080300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm126.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:normal,rise,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_01.mp3
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>この領域、花がいっぱいだし、風も気持ちよくて、いい場所だね</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:normal,rise,0,-100,0.5,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_02.mp3
+msg,1,<outline width=2 color=black>Dù là trong Dreamlands、 được đến một nơi thế này với anh、 Rise thấy mãn nguyện lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:smile,rise,0,-100,0.5,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_03.mp3
+msg,1,<outline width=2 color=black>Này、 anh thấy sao？ Đến vườn hoa Reina với một cô bé dễ thương như Rise、 anh thấy có hợp không？ Chắc là hợp nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:smile,rise,0,-100,0.5,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_04.mp3
+msg,1,<outline width=2 color=black>Vậy thì、 anh có gì muốn nói không？ Có đúng không nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 「よく似合ってるよ,選択肢2 「見た目はお嬢様なんだけど……
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:normal,rise,0,-100,0.5,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_05.mp3
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ừm ừm、 đúng là vậy。Hừm hừm、 Rise này、 mặc kiểu váy áo tao nhã thế này cũng rất hợp luôn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:normal,rise,0,-100,0.5,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_06.mp3
+msg,1,<outline width=2 color=black>Nhưng… em muốn nghe anh khen bằng lời của anh hơn là những lời nhận xét xã giao như thế…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:unique,rise,0,-100,0.5,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_07.mp3
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hừm… là tiểu thư đấy、 nhưng là gì nào？ Là gì đây ta？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:unique,rise,0,-100,0.5,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_08.mp3
+msg,1,<outline width=2 color=black>Rise rất… rất… tò mò về ý đồ của anh đó nha？ Đúng không nàoooo？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 「親しみやすくて好きだよ
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:smile,rise,0,-100,0.5,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_09.mp3
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ưm。Vậy có nghĩa là、 anh không thể chịu nổi Rise dễ gần này nữa、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:normal,rise,0,-100,0.5,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_10.mp3
+msg,1,<outline width=2 color=black>Đúng rồi。Em cứ lo anh đang nghĩ mấy chuyện thất lễ chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:unique,rise,0,-100,0.5,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_11.mp3
+msg,1,<outline width=2 color=black>Nếu lỡ có chuyện đó xảy ra… thì sao nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:anger,rise,0,-100,0.5,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_12.mp3
+msg,1,<outline width=2 color=black>Này、 anh？ Vừa rồi hình như anh giật mình phải không？ Vì sao vậy ta、 Rise tò mò quá đi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:anger,rise,0,-120,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+shake,0.5,3,12,0,rise
+playvoice,1,download/character/103608/adv/sound/fav103608_01_13.mp3
+msg,1,<outline width=2 color=black>Hừm。Dù Rise có dễ dãi với anh đến đâu、 thì anh cũng đừng hòng lừa được em chỉ bằng vài cái xoa đầu nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:normal,rise,0,-120,0.6,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_14.mp3
+msg,1,<outline width=2 color=black>Nà、 o、 nên… Ép！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,rise,0.7_0.7,0.5,0
+anm,move,rise,0_-140,0.5,0
+endwait
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:smile,rise,0,-140,0.7,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_15.mp3
+msg,1,<outline width=2 color=black>Cứ ôm nhau thế này、 mình cùng nhau hẹn hò ở vườn hoa thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:normal,rise,0,-140,0.7,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_16.mp3
+msg,1,<outline width=2 color=black>Đã đến được nơi này rồi、 mình phải tận hưởng chứ、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:normal,rise,0,-140,0.7,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_17.mp3
+msg,1,<outline width=2 color=black>Và trong buổi hẹn hò này、 em sẽ cho anh biết Rise dễ thương và đáng yêu đến nhường nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103608/adv/atlas/stand_a,body:smile,rise,0,-140,0.7,0,,,,
+playvoice,1,download/character/103608/adv/sound/fav103608_01_18.mp3
+msg,1,<outline width=2 color=black>Cứ chuẩn bị tinh thần đi nhé、 anh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

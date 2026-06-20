@@ -1,0 +1,100 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+roombg,1012,0
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ai đó？ À、 là cậu à。Thật tình… cậu nghĩ bây giờ là mấy giờ rồi？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đến phòng của một phụ nữ vào giờ này thì thật là thiếu lịch sự đấy chứ。Có tiếng động à？ Vậy sao、 có lẽ tôi đã làm ồn một chút…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 không có gì to tát đâu。Chỉ là tôi đang bảo dưỡng súng như mọi khi thôi。Cái này giống như một thói quen hàng ngày vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:smile,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Trên đời này、 thứ tôi tin tưởng chỉ có Milva và khẩu súng này thôi。Dù Milva thì vẫn ở vị trí cao hơn hẳn đấy nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nên tôi muốn nó luôn ở trạng thái tốt nhất để có thể sử dụng bất cứ lúc nào。Nếu muốn sống sót trên chiến trường thì đó là điều đương nhiên、 phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:surprise,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Khi có chuyện、 thứ có thể bảo vệ bản thân mình là… Khoan đã、 cái mùi này là gì vậy？ Từ lúc cậu vào là nó cứ thoang thoảng mãi đấy…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_06.mp3
+clickwait,,,,,,,,,,,
+select,Mang cà ri ăn đêm đến,Mang đồ ăn liền đến
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cà ri…？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hình như tôi cũng từng ăn món này từ rất lâu rồi thì phải… Cậu cố tình nấu vào giờ này sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:surprise,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Cái gì？ Cái này cũng là đồ ăn liền sao？ Dù có nhiều nguyên liệu đến vậy ư？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_09.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm… hơn nữa、 cái mùi này… cái này kích thích vị giác thật đấy…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_10.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:smile,lid,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ra vậy… vậy ra là đồ ăn khuya cậu mang đến à。Cậu vẫn nhớ tôi từng nói đồ ăn liền của R'lyeh rất ngon đấy nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_11.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Fufu、 với tư cách là thú cưng thì làm tốt lắm đấy chứ。Cái này có lẽ nên thưởng cho cậu cái gì đó nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:smile,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Fufu… đương nhiên là đùa rồi。Thú cưng phục vụ chủ nhân là điều đương nhiên mà、 phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Tuy nhiên… dù sao thì、 mùi thơm thật đấy nhỉ。Quả nhiên đồ ăn liền của R'lyeh thật tuyệt vời…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_14.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:surprise,lid,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ách…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:shy,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Kh-không…！ Dù là nửa đêm đi chăng nữa、 ngửi thấy mùi này thì bụng réo là điều đương nhiên mà！ Đó là phản ứng tự nhiên thôi！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:anger,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ư… cái vẻ mặt đắc thắng đó của cậu… thật là khó chịu mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:shy,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Tuy nhiên、 thôi thì… vì sự quan tâm của thú cưng？ Hay là vì lòng tốt của chủ nhân？ Tạm thời、 tôi sẽ nghỉ bảo dưỡng súng vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_18.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Này、 đừng cứ đứng mãi ở đó nữa、 lại đây đi。Đằng nào thì ngay từ đầu cậu cũng định ăn cùng rồi còn gì？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101202/adv/sound/fav101202_07_19.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,92 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm026.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0.5,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm… Chuyện này không đến lượt em hỏi… Nhưng dạo này、 tình hình của Asaka-san thế nào rồi ạ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:surprise,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 không、 không có gì cụ thể đáng lo ngại cả…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ là… Asaka-san có nhiều điểm giống em、 kể cả xuất thân、 nên em cứ lo lắng… Hay đúng hơn là… cứ để ý…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>…Anh có để ý là Người Truy Tìm được chia làm hai loại lớn không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Một loại là những pháp sư được Tổ chức Lovecraft đào tạo、 như em và Asaka-san。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Loại còn lại là những pháp sư bên ngoài、 được công nhận thực lực hoặc được phép Dị Vực thông qua thỏa thuận giữa các tổ chức。</outline></size>,,,,,,,,,,.
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Không có thống kê rõ ràng… Nhưng trong quá trình Truy Tìm、 những người dễ gục ngã về tinh thần、 hay thậm chí mất mạng、 thường là những người thuộc loại thứ nhất。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_07.mp3
+clickwait,,,,,,,,,,,
+select,選択肢1 「Danaは違う,選択肢2 「Danaが調べたのか？
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em… đã may mắn…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Từ khi đến R'lyeh、 em đã được rất nhiều người giúp đỡ。Nhưng trong nhiều trường hợp、 người ta không được may mắn như vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_09.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,0,-180,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cũng không đến mức phải 'điều tra' đâu ạ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ là… ở R'lyeh lâu… tự nhiên sẽ thấy được thôi。Chỉ có vậy thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_11.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Những pháp sư được nuôi dưỡng trong Tổ chức Lovecraft、 ngay từ đầu đã được định sẵn là sẽ đối mặt với Dreamlands。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Anh nghĩ sao về việc một người phải đi theo con đường đã được định sẵn、 liệu họ có thể có ý chí mạnh mẽ không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Những pháp sư từ bên ngoài đến、 họ trở thành Người Truy Tìm vì những mong muốn riêng… So với họ、 em cứ thấy…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái sự hời hợt trong suy nghĩ của những người đã đi theo con đường đã định sẵn từ trước đến nay…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>…Rốt cuộc、 trong bất kỳ cuộc chiến nào、 thứ cuối cùng nâng đỡ mình、 em nghĩ là những gì sâu thẳm trong trái tim mình。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vì vậy… em mới lo cho Asaka-san。Chắc là em đang lo chuyện bao đồng、 nhưng…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu được、 anh cũng hãy để ý đến cô ấy nhé… …Mong anh giúp đỡ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_04_18.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

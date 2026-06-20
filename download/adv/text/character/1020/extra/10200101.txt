@@ -1,0 +1,113 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm005.mp3,0.5,,,
+endwait
+mask,bg1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,tabasa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:smile,tabasa,0,0,0,0,,,,
+imgconf,tabasa,tabasa1,0,-200,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khà khà…… Anh à、 hôm nay em đã kể được một câu chuyện rất thú vị đó。Lát nữa em sẽ kể anh nghe、 anh nhớ mong chờ nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ôi、 anh của em。Câu chuyện lần trước đã kết thúc rồi mà。Hôm nay、 em sẽ kể một câu chuyện mới…… Cứ kể mãi một chuyện thì làm sao mà tiến bộ được chứ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà…… khà khà、 nếu anh đã thích như vậy thì、 em lại kể anh nghe câu chuyện đó nhé？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đó là câu chuyện dành cho anh mà…… theo đúng ý anh muốn…… Tabasa chưa bao giờ từ chối lời nào của anh đâu、 phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Xưa kia cũng vậy、 bây giờ cũng vậy…… và cả sau này nữa……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_05.mp3
+clickwait,,,,,,,,,,,
+shake,0.1,5,10,10
+endwait
+spriteoff,all,0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:surprise,tabasa,-10,-100,0.5,0.5,,,,,
+endwait
+msg,1,<size=30><outline width=2 color=black>——！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ng、 ngươi、 ngươi ở đó từ khi nào…… Ngươi đã nghe từ đâu vậy……？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_07.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:anger,tabasa,-10,-100,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ngươi nhìn chằm chằm cái gì vậy？ Có gì muốn nói thì nói đi。Ngậm miệng nửa vời như thế còn khó chịu hơn đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_08.mp3
+clickwait,,,,,,,,,,,
+select,Ngươi đang nhìn thấy ảo giác à？,Ngươi đang nói chuyện với cái quan tài à？
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:anger,tabasa,-10,-100,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Tabasa</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>——Đừng có đùa！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta không hề nhìn thấy ảo giác！ Ngươi thử gọi anh ấy là ảo giác thêm lần nữa xem…… Ta sẽ không tha cho ngươi đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_10.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:anger,tabasa,-10,-100,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thì sao？ Đó là chuyện để ngươi phải phàn nàn à？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_11.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta…… ta và 'anh ấy' có hành xử thế nào đi nữa thì cũng chẳng liên quan gì đến ngươi、 phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Huống hồ、 bị nhìn bằng ánh mắt tò mò như thế、 ta thấy vô cùng khó chịu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_13.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:anger,tabasa,-10,-100,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Hừm、 thật ra ta muốn cho ngươi một bài học ngay lập tức、 nhưng dù sao ngươi cũng là đồng minh…… nên ta sẽ nhắm mắt bỏ qua chút vô lễ này。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ riêng lần này、 ta sẽ đặc biệt bỏ qua…… nhưng đừng bao giờ lặp lại những lời đó nữa nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không những không có sức chiến đấu、 mà ngay cả lời nói cũng không hiểu được、 thôi đi。Thật hết thuốc chữa…… Hừm！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta sẽ về phòng đây…… Đáng lẽ ta đã có tâm trạng vui vẻ khi nói chuyện với anh ấy…… nhưng vì ngươi mà mọi thứ tan tành hết rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_17.mp3
+clickwait,,,,,,,,,,,
+spriteoff,tabasa,0.5
+name,
+msg,0,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait
+mask,bg1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,tabasa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:anger,tabasa,0,0,0,0,,,,
+imgconf,tabasa,tabasa1,0,-200,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thật sự rất ghét phải không、 anh à。Ai ai cũng vậy、 chẳng ai hiểu anh…… chẳng ai hiểu chúng ta cả。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102001/adv/sound/fav102001_03_18.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

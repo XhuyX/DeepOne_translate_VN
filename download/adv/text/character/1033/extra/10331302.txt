@@ -1,0 +1,208 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,-900,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_048.mp3
+anm,move,elica,0_-100,1.8,0
+endwait
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_01.mp3
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Này、 đồ ngốc、 em quên máy tính bảng ở phòng tư liệu rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:surprise,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_02.mp3
+msg,1,<outline width=2 color=black>……A、 ngủ rồi à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_03.mp3
+msg,1,<outline width=2 color=black>Thật tình…… Bắt người ta đi trả đồ quên、 mà lại thản nhiên ngủ trưa。Hơn nữa、 còn ngồi trên ghế nữa chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_04.mp3
+msg,1,<outline width=2 color=black>Ngay cạnh có giường mà、 ngủ thì cứ lên đó。Chắc là mệt đến mức không còn sức nữa rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,elica,0.6_0.6,0.5,0
+endwait
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.6,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_05.mp3
+msg,1,<outline width=2 color=black>Ngủ ngon lành thật đấy。Đến gần thế này mà cũng không có dấu hiệu gì là tỉnh cả……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:smile,elica,0,-100,0.6,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_06.mp3
+msg,1,<outline width=2 color=black>…………Đã cất công đi trả đồ rồi。Được đáp lại chút gì cũng phải thôi chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,1,0.3,0.25
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:smile,elica,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_07.mp3
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hừm…… Bị chụp ảnh với bộ dạng lơ đãng thế này、 là tại em đấy nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:smile,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_08.mp3
+msg,1,<outline width=2 color=black>Nhìn trong ảnh、 mặt đúng là bê bối thật…… Nếu bị người khác thấy bộ dạng này、 chắc sẽ thất vọng lắm đây</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1 「……Cười cái gì chứ？,Lựa chọn 2 「……Sao Erica lại ở đây？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:surprise,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_09.mp3
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>A…… Em dậy rồi à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_10.mp3
+msg,1,<outline width=2 color=black>Nhưng có vẻ vẫn còn ngái ngủ nhỉ。Trong tình huống này mà em lại nghĩ là chị đang cười cơ đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_11.mp3
+msg,1,<outline width=2 color=black>Đã phải tốn công đi trả đồ quên、 chị còn đang thấy phiền đây…… Đừng có hiểu lầm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:unique,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_12.mp3
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>……Vừa ngủ dậy đã chào hỏi thế này cơ à</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_13.mp3
+msg,1,<outline width=2 color=black>Trông em có vẻ vẫn chưa nhận ra mình quên gì。Chắc là về phòng rồi ngủ ngay luôn nhỉ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_14.mp3
+msg,1,<outline width=2 color=black>Tại em mà chị mới phải đến tận phòng em đấy…… Phải biết ơn chị đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_15.mp3
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Này、 máy tính bảng、 em quên ở phòng tư liệu đấy。Chăm chỉ học hành là tốt、 nhưng đừng có cố quá mà――Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_16.mp3
+msg,1,<outline width=2 color=black>Không phải、 là sao……A、 cái máy này là của chị？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_17.mp3
+msg,1,<outline width=2 color=black>Chết thật、 vừa xem ảnh、 rồi đưa nhầm luôn、 chắc là bị lây cái vụng về của ai kia rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:surprise,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_18.mp3
+msg,1,<outline width=2 color=black>……A…… Vẫn đang hiện ảnh</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:shy,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_19.mp3
+msg,1,<outline width=2 color=black>――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:shy,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_20.mp3
+msg,1,<outline width=2 color=black>…………T、 tôi…… sao lại phạm sai lầm thế này chứ…… Mà thôi、 chuyện n、 này cũng có thể xảy ra mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:shy,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_21.mp3
+msg,1,<outline width=2 color=black>Vậy、 cái này là của em。Trả lại cái của chị đây</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:shy,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_22.mp3
+msg,1,<outline width=2 color=black>……Ảnh？ Mặt khi ngủ？ Chị không biết gì hết。Em nhìn nhầm đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:shy,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_23.mp3
+msg,1,<outline width=2 color=black>Chắc chắn là nhìn nhầm…… Đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:shy,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_24.mp3
+msg,1,<outline width=2 color=black>Trả máy rồi、 chị về đây…… Em cũng vậy、 muốn nghỉ thì lên giường mà ngủ đàng hoàng vào</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:shy,elica,0,-100,0.5,0,,,,
+playvoice,1,download/character/103313/adv/sound/fav103313_02_25.mp3
+msg,1,<outline width=2 color=black>Vậy nhé</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_016.mp3
+anm,move,elica,-900_-100,1,0
+endwait
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

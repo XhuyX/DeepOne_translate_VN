@@ -1,0 +1,440 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11030300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:anger,yoshino,-300,-240,0.5,0.5,,,,
+sprite,download/monster/20090206/adv/image/20090206.png,enemy1,300,-250,1.35,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>―――――――――――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:anger,yoshino,-300,-240,0.5,0,,,,
+anm,tint,enemy1,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Haa…aaaaa…aaaaa…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:sad,rozet,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+anm,move,rozet,300_-100,0.3,1,,
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,-300,0,1,1.0,0,,
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Rosette</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Kết hợp với… ảo ảnh！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:sad,tabasa,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Này… rốt cuộc là sao đây</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không được、 thế này thì… chiến đấu…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:anger,yoshino,-300,-240,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Mấy người cứ lùi lại đi。Nếu không muốn đánh với người、 thì cứ để một mình tôi lo</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:smile,norn,300,-120,0.5,0.5,,,,
+anm,scale,norn,-0.5_0.5,0,0
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi cũng sẽ giúp nữa</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:sad,tabasa,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:sad,rozet,-300,-100,0.5,0.5,,,,
+anm,scale,rozet,-0.5_0.5,0,0
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đồng đội thì cư xử như kẻ địch、 kẻ địch thì lại như đồng đội… Rối tung rối mù cả lên</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:sad,rozet,-300,-100,0.5,0,,,,
+anm,scale,rozet,-0.5_0.5,0,0
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Rosette</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Xin lỗi。Tại Rosette mà ra nông nỗi này…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:sad,tabasa,300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thật đấy… Sao lại là người của Tu hội Phòng dịch chứ…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:normal,tabasa,300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>…Nhưng mà、 cũng bất ngờ đấy</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:normal,rozet,-300,-100,0.5,0,,,,
+anm,scale,rozet,-0.5_0.5,0,0
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Rosette</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Có gì… ạ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:normal,tabasa,300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cũng có thể nói chuyện được đấy。Tôi nghe nói người của Tu hội Phòng dịch chỉ chăm chăm vào tín ngưỡng của mình、 chẳng thèm nghe ai cả</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:sad,rozet,-300,-100,0.5,0,,,,
+anm,scale,rozet,-0.5_0.5,0,0
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Rosette</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Việc đó… không hẳn là không có người như vậy…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:sad,rozet,-300,-100,0.5,0,,,,
+anm,scale,rozet,-0.5_0.5,0,0
+msg,0,<size=30><outline width=2 color=black>Nhưng Rosette chỉ là công cụ để tiêu diệt mà thôi。Công cụ thì không thể tự ý làm tổn thương người khác…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Gì cơ。Tự coi mình là công cụ á… Cô nghĩ vậy thật sao？ Tôi không hiểu nổi</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Con người… không phải là công cụ、 đâu？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:sad,rozet,-300,-100,0.5,0,,,,
+anm,scale,rozet,-0.5_0.5,0,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Rosette</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng Rosette được định sẵn là như vậy…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:anger,yoshino,-300,-240,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đã không phải là đối tượng có thể lý giải、 thì cũng chẳng thể nào nói chuyện được</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:anger,yoshino,-300,-240,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Nếu cô tự nhận là công cụ、 thì Tu hội Phòng dịch là người sử dụng sao？ Nếu người sử dụng bảo、 thì cô sẽ tàn phá cả người thường sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:sad,rozet,300,-100,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Rosette</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Việc đó…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,yoshino,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thật thà đấy。Không thể phủ nhận được à</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:anger,yoshino,-300,-240,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Mấy người cũng hiểu rồi đấy。Người của Tu hội Phòng dịch không bình thường。Trên đời này、 có những kẻ dù thế nào cũng không thể hiểu nhau được</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:anger,yoshino,-300,-240,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Tuy không muốn thừa nhận… nhưng với những kẻ như vậy、 chỉ còn cách dùng sức mạnh để đối đầu thôi</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Này、 tôi nên đứng về phe nào đây</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Tất nhiên là tôi cũng cảnh giác với Tu hội Phòng dịch、 nhưng… việc cô ta khác thường cũng là sự thật</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Mấy người tính sao đây</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Frau… muốn tin vào… sự dịu dàng… ấm áp nhỏ bé。Dù khó hiểu、 nhưng nó vẫn ở đó…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,Chọn 1: Nắm tay Rosette,Chọn 2: Đứng trước mặt Yoshino
+if,select_===_1,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:sad,tabasa,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:surprise,rozet,-300,-100,0.5,0.5,,,,
+anm,scale,rozet,-0.5_0.5,0,0
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Rosette</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hả… à、 ừm、 là… là sao…！？ Tự dưng lại… như vậy… tay… tay… to quá…！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:sad,tabasa,300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Này、 đừng có nắm tay làm thân vào lúc này chứ…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:anger,yoshino,-300,-240,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Đứng chắn trước mặt tôi、 cô định làm gì、 tôi có thể hỏi không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:sad,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Định làm gì thì… rõ mười mươi rồi còn gì。Cô bây giờ vẫn khác thường。Anh chàng kia cũng cảm thấy vậy đấy</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:sad,yoshino,-300,-240,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Trong tình huống này mà vẫn bình thường được、 tôi có vẻ mạnh mẽ đến vậy sao</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Yoshino…？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:sad,yoshino,-300,-240,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――Giờ chưa hiểu cũng được。Xin lỗi、 nhưng tôi không thể dừng lại được。Dù cô có cản đường、 tôi cũng sẽ làm</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:sad,rozet,300,-100,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Rosette</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>X、 xin lui ra… Không thể để Rosette làm liên lụy đến người khác、 gây phiền phức được…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không được…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Không được、 đâu… đừng… đánh mất trái tim…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,0.5
+playse,/download/sound/se/se_015.mp3
+endwait
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:surprise,yoshino,-300,-240,0.5,0.5,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:surprise,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ánh sáng này là…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:surprise,yoshino,-300,-240,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Dừng lại đi！ Đừng làm vậy――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,0.5
+playse,/download/sound/se/se_015.mp3
+endwait
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:surprise,rozet,0,-100,0.5,1,,,,
+anm,scale,rozet,-0.5_0.5,0,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Rosette</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hả…？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hình dáng này… rồi、 cảm giác bao trùm cơ thể này là…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,rozet,0.2
+endwait
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:surprise,rozet,-300,-100,0.5,0.5,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,.
+anm,scale,rozet,-0.5_0.5,0,0
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ấm áp của anh ấy… đến được rồi？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102902/adv/atlas/stand_a,body:surprise,rozet,-300,-100,0.5,0,,,,
+anm,scale,rozet,-0.5_0.5,0,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Rosette</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ấm áp… Vâng、 đây là… sâu trong tim、 rất là…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:sad,yoshino,-300,-240,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tại sao、 mấy người lại làm vậy…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vì hành động của cô còn khó chấp nhận hơn</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/Dark,em1,default,animation,0,-300,0,1,0.8,0
+playse,download/character/102002/se/se_c02004_ef_hit.mp3
+endwait
+wait,1.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:anger,yoshino,-300,-240,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Cái gì…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tabitha…？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nói chuyện với kẻ máu nóng thì chẳng có nghĩa lý gì cả、 ――anh trai tôi đã bảo thế。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Anh tôi nói thì không sai đâu。Tôi đi đây。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:anger,yoshino,-300,-240,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đợi đã… Không thể để em làm thế được！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,yoshino,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Phu phu、 tình hình thú vị đây… Nhưng đừng quên có cả tôi ở đây nhé？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20090206/adv/image/20090206.png,enemy1,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>―――――――――――――――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102902/adv/atlas/stand_b,body:anger,rozet,-300,-100,0.5,0.5,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0.5,,,,
+anm,scale,rozet,-0.5_0.5,0,0
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ôi trời…！ Này、 con sâu bọ kia、 để mày lo liệu đi！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102902/adv/atlas/stand_b,body:anger,rozet,-300,-100,0.5,0,,,,
+anm,scale,rozet,-0.5_0.5,0,0
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Rosette</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>V-Vâng… Tôi hiểu rồi！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi thì――</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:anger,yoshino,-300,-240,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sự dịu dàng của các em là một đức tính tốt、 nhưng giờ thì anh không thể bỏ qua được。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabitha</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――sẽ đối phó với thằng ngốc này。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

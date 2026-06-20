@@ -1,0 +1,109 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,
+endwait
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:smile,siruvi,25,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khụ khụ… Rụng này、 rụng này。Dựa vào độ dài và màu sắc、 chắc là của Asaka-kun nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_01.mp3
+anm,move,siruvi,100_-250,0.8,1
+endwait,
+clickwait,,,,,,,,,,,
+anm,move,siruvi,-100_-250,0.8,1
+endwait,
+msg,1,<size=30><outline width=2 color=black>Và… đây là của Katia-kun này… Hừm hừm。Còn cái này thì— Ồ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,-100,-250,0.5,0,,,,
+endwait,
+anm,move,siruvi,25_-120,0.8,0.5
+endwait,
+msg,1,<size=30><outline width=2 color=black>Gì vậy、 em nhìn từ nãy giờ sao。Thế thì gọi tôi một tiếng cũng được mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi đang làm gì thì nhìn là biết mà、 phải không？ Thu thập tóc đó。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật ra、 tôi đang bắt tay vào một thí nghiệm mới。Vì thế、 tôi cần tóc của những người có tố chất pháp sư cao。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Em muốn biết nội dung nghiên cứu sao？ Khụ khụ khụ、 cái đó thì không nói được đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_06.mp3
+clickwait,,,,,,,,,,,
+select,Dù vậy vẫn muốn biết,Đây có phải nghiên cứu nguy hiểm không
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi hiểu mà、 cảm giác đó。Khao khát muốn biết、 muốn hiểu chính là bằng chứng con người là sinh vật trí tuệ đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 một nhà nghiên cứu thì sẽ không tiết lộ nội dung nghiên cứu của mình cho người khác、 cho đến khi có kết quả đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thông tin có thể rò rỉ từ bất cứ đâu、 mà nếu thành quả nghiên cứu tốn bao công sức bị cướp mất thì thật không thể chịu nổi đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vì vậy、 dù là với em đi chăng nữa、 nội dung nghiên cứu vẫn là bí mật。Tôi xin lỗi nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_10.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái đó còn tùy vào việc em định nghĩa nguy hiểm là gì… nhưng mà、 đây không phải là nghiên cứu khiến người ta phải chết đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_11.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ riêng điều đó thì em cứ yên tâm。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thôi thì、 những ảnh hưởng khác có thể có… Thôi。Đến đây là bí mật rồi đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:smile,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Khi nghiên cứu kết thúc、 và kết quả thí nghiệm có rồi thì mọi chuyện sẽ rõ thôi… Khụ khụ khụ khụ khụ khụ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_14.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi、 mẫu vật cũng đã thu thập đủ rồi、 tôi nên về phòng thí nghiệm thôi nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thời gian là hữu hạn。Không thể lãng phí dù chỉ một giây đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_16.mp3
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/Mark8,em1,default,animation,0,130,150,0.65,0.5,0.5
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:sad,siruvi,25,-120,0.5,0,,,,
+endwait,
+msg,1,<size=30><outline width=2 color=black>Chắc là từ giờ đến sáng tôi sẽ lại vùi mình trong phòng thí nghiệm mất。Haizz、 bận rộn đến phát ngán luôn。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_17.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,0,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 cứ nghĩ đến khoảnh khắc được tận mắt chứng kiến thành quả nghiên cứu、 tự nhiên tôi lại tràn đầy năng lượng。Thật kỳ lạ làm sao。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_18.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tinh thần tìm tòi và sự tò mò… Hai điều này là thứ không thể tách rời khỏi một nhà nghiên cứu、 phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_19.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:smile,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì tôi xin phép đi trước đây。Khụ khụ khụ khụ khụ…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101900/adv/sound/fav101900_02_20.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

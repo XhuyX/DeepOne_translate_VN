@@ -1,0 +1,113 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,anna1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:smile,anna2,0,0,0,0,,,,
+imgconf,anna2,anna1,0,-400.0,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_01.mp3
+name,<size=27><outline width=2 color=black>Anna Ruskaryuda</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>へ、 へへ……ふ、 ふふふ……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_02.mp3
+msg,1,<size=30><outline width=2 color=black>À… Mấy bé mèo cưng、 dễ thương quá đi à。Muốn xoa xoa bộ lông mềm mại của mấy bé quá đi—hả！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:shy,anna,0,-100,0.5,0.5,,,,
+endwait,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_03.mp3
+msg,1,<size=30><outline width=2 color=black>M、 mày… mày đứng đó từ nãy giờ à！？ T、 tao không có…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:shy,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_04.mp3
+msg,1,<size=30><outline width=2 color=black>Chỉ là、 tao mở thư viện ra、 rồi tình cờ thấy ảnh mèo… Rồi、 tao chỉ xem một chút thôi…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:anger,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_05.mp3
+msg,1,<size=30><outline width=2 color=black>Này、 tao là con gái sống theo phong cách rock mà… Mấy cái vụ thích mèo này nọ là xàm Rise đấy！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,選択肢1 「そうか,選択肢2 「本当は？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:shy,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_06.mp3
+msg,1,<size=30><outline width=2 color=black>Đ、 đúng là vậy… Ừm…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:shy,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_07.mp3
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:anger,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_08.mp3
+msg,1,<size=30><outline width=2 color=black>M、 mày nhìn tao kiểu gì vậy？ Chắc chắn mày không tin rồi！？ Tao nói thật đấy！ Tao với mèo、 tao chẳng có…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:anger,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_09.mp3
+msg,1,<size=30><outline width=2 color=black>Mày hỏi gì vậy？ Tao thật sự không có cảm xúc gì với mèo cả！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:anger,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_10.mp3
+msg,1,<size=30><outline width=2 color=black>Tại vì、 mèo thì hay thay đổi mà、 đúng không？ Tao ghét nhất là cái đó。Tự tiện tự ý、 chẳng thèm để ý đến phiền phức của người khác…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:smile,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_11.mp3
+msg,1,<size=30><outline width=2 color=black>Vậy mà、 tự nhiên lại meo meo rồi dụi đầu vào người、 trời lạnh thì lẻn vào ổ nằm chung、 đòi ngủ cùng…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:shy,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_12.mp3
+msg,1,<size=30><outline width=2 color=black>Cái đó làm tao thấy khó chịu、 kiểu như… tim cứ thắt lại…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:shy,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_13.mp3
+msg,1,<size=30><outline width=2 color=black>…Ư、 ư…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:anger,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_14.mp3
+msg,1,<size=30><outline width=2 color=black>…Á、 thôi được rồi！ Chẳng còn cách nào khác！ Tại vì、 mèo dễ thương chết đi được！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:anger,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_15.mp3
+msg,1,<size=30><outline width=2 color=black>Cái miệng phúng phính、 cái tay bé xíu、 cái mũi、 rồi cả cảm giác khi chạm vào nữa… Tóm lại、 cái gì cũng tuyệt vời hết！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:anger,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_16.mp3
+msg,1,<size=30><outline width=2 color=black>Mà thôi、 có gì sai khi tao thích mèo chứ？ Có luật nào cấm dân rocker thích mèo à？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:anger,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_17.mp3
+msg,1,<size=30><outline width=2 color=black>Không có、 đúng không、 đúng là không có mà！ Vậy thì có vấn đề gì chứ！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:shy,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_18.mp3
+msg,1,<size=30><outline width=2 color=black>…M、 mày cười cái gì？ Hả！？ M、 mày vừa nói dễ thương á！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:shy,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_19.mp3
+msg,1,<size=30><outline width=2 color=black>Tao、 tao có dễ thương gì đâu… Dễ thương là mèo、 chứ không phải tao… À、 mà…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:anger,anna,0,-100,0.5,0,,,,
+playvoice,1,download/character/103003/adv/sound/fav103003_02_20.mp3
+msg,1,<size=30><outline width=2 color=black>~~~~！ T、 tóm lại là không phải vậy đâu！ Đừng có nói mấy lời kỳ cục。Đồ ngốc！ Đồ ngốc、 đồ ngốc！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

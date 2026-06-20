@@ -1,0 +1,856 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm094.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11040300.jpg,1,255
+endwait,,,,,,,,,,,
+spriteatlas,download/character/192104/adv/atlas/stand_b,body:normal,kanon,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20090206/adv/image/20090206.png,enemy1,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/192104/adv/atlas/stand_b,body:smile,kanon,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin lỗi mọi người đã phải chờ。Đây là món bánh theo yêu cầu của mọi người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20090206/adv/image/20090206.png,enemy1,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,enemy1,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010201/adv/image/20010201.png,enemy3,500,-170,1.35,0.5,,,,
+sprite,download/monster/20010201/adv/image/20010201.png,enemy4,-400,-170,1.35,0.5,,,,
+sprite,download/monster/20010201/adv/image/20010201.png,enemy2,50,-170,1.35,0,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+anm,jump,enemy2,50_-170_50_2,0.9,0
+anm,jump,enemy3,500_-170_50_1,0.5,0
+anm,jump,enemy4,-400_-170_50_3,1,0
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/192104/adv/atlas/stand_b,body:unique3,kanon,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Wa… wa… wa…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010201/adv/image/20010201.png,enemy1,-450,-170,1.35,0.5,,,,
+sprite,download/monster/20010201/adv/image/20010201.png,enemy2,450,-170,1.35,0.5,,,,
+sprite,download/monster/20010201/adv/image/20010201.png,enemy3,0,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,jump,enemy1,-450_-170_100_1,0.7,0
+wait,0.2
+anm,jump,enemy3,0_-170_100_1,0.7,0
+wait,0.2
+anm,jump,enemy2,450_-170_100_1,0.7,0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010201/adv/image/20010201.png,enemy1,-450,-170,1.35,0.5,,,,
+sprite,download/monster/20010201/adv/image/20010201.png,enemy2,450,-170,1.35,0.5,,,,
+sprite,download/monster/20010201/adv/image/20010201.png,enemy3,0,-170,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,jump,enemy2,450_-170_100_1,0.7,0
+wait,0.2
+anm,jump,enemy3,0_-170_100_1,0.7,0
+wait,0.2
+anm,jump,enemy1,-450_-170_100_1,0.7,0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192204/adv/atlas/stand_b,body:surprise,usio,300,-120,0.5,0.5,,,,
+anm,tint,usio,150_150_150,0.0001,0
+spriteatlas,download/character/192104/adv/atlas/stand_b,body:unique3,kanon,-300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 ơ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192204/adv/atlas/stand_b,body:surprise,usio,300,-120,0.5,0,,,,
+anm,tint,kanon,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Asaka Ushio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyển động này… là sao…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,usio,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101355/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm、 cái này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kanon,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102753/adv/atlas/stand_a,body:unique,maruta,-300,-90,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vui sao…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+sprite,download/monster/20010201/adv/image/20010201.png,enemy1,-450,-170,1.35,0.5,,,,
+sprite,download/monster/20010201/adv/image/20010201.png,enemy2,450,-170,1.35,0.5,,,,
+sprite,download/monster/20010201/adv/image/20010201.png,enemy3,0,-170,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,jump,enemy2,450_-170_100_1,0.7,0
+wait,0.2
+anm,jump,enemy3,0_-170_100_1,0.7,0
+wait,0.2
+anm,jump,enemy1,-450_-170_100_1,0.7,0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+sprite,download/monster/20010201/adv/image/20010201.png,enemy1,-450,-170,1.35,0.5,,,,
+sprite,download/monster/20010201/adv/image/20010201.png,enemy2,450,-170,1.35,0.5,,,,
+sprite,download/monster/20010201/adv/image/20010201.png,enemy3,0,-170,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,jump,enemy1,-450_-170_100_1,0.7,0
+wait,0.2
+anm,jump,enemy3,0_-170_100_1,0.7,0
+wait,0.2
+anm,jump,enemy2,450_-170_100_1,0.7,0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192304/adv/atlas/stand_b,body:normal,raiha,-300,-160,0.5,0.5,,,,
+anm,tint,raiha,150_150_150,0.0001,0
+spriteatlas,download/character/192451/adv/atlas/stand_b,body:unique1,sasa,300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Misuzu Sasa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cảm giác như có sự đồng nhất kỳ lạ nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192304/adv/atlas/stand_b,body:normal,raiha,-300,-160,0.5,0,,,,
+anm,tint,sasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Raiha Räikkönen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy、 như này là hoàn thành công việc rồi phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,sasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103706/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,raiha,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+playse,/download/character/103707/se/se_c03707_skill_01.mp3
+endwait,,,,,,,,,,,
+spriteatlas,download/character/192104/adv/atlas/stand_b,body:surprise,kanon,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 này、 tờ giấy ghi yêu cầu đang phát sáng kìa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20090206/adv/image/20090206.png,enemy1,0,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.
+playse,/download/character/103707/se/se_c03707_skill_01.mp3
+endwait,,,,,,,,,,,
+anm,tint,enemy1,0_0_0,0.5,0
+anm,tint,enemy2,0_0_0,0.5,0
+anm,tint,enemy3,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192104/adv/atlas/stand_a,body:surprise,kanon,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+stopbgm,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm096.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192451/adv/atlas/stand_a,body:surprise,sasa,300,-130,0.5,0.5,,,,
+anm,tint,sasa,150_150_150,0.0001,0
+spriteatlas,download/character/192104/adv/atlas/stand_a,body:surprise,kanon,-300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ảo ảnh đã… biến mất rồi sao…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192451/adv/atlas/stand_a,body:surprise,sasa,300,-130,0.5,0,,,,
+anm,tint,kanon,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Misuzu Sasa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Với lại、 trang phục của chúng ta cũng đã trở lại như cũ rồi…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,sasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192204/adv/atlas/stand_a,body:normal,usio,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Asaka Ushio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện này、 chẳng lẽ là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kanon,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192304/adv/atlas/stand_a,body:normal,raiha,-300,-160,0.5,0.5,,,,
+anm,tint,usio,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Raiha Räikkönen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có lẽ nào là… họ đã hài lòng rồi chăng？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,usio,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0.5,,,,
+anm,tint,raiha,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm、 có vẻ là vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,raiha,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192104/adv/atlas/stand_a,body:smile,kanon,-300,-130,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy là、 chúng ta có thể trở về thế giới cũ rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0.5,,,,
+anm,tint,kanon,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>May quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kanon,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192204/adv/atlas/stand_a,body:normal,usio,-300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Asaka Ushio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cảm ơn mọi người、 là nhờ có mọi người cả đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192451/adv/atlas/stand_a,body:surprise,sasa,300,-130,0.5,0.5,,,,
+anm,tint,usio,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Misuzu Sasa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Wa、 wa wa、 ánh sáng này là sao vậy…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,usio,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192304/adv/atlas/stand_a,body:surprise,raiha,-300,-160,0.5,0.5,,,,
+anm,tint,sasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Raiha Räikkönen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nó đang bao bọc lấy chúng ta。Không hiểu sao、 cảm giác này… cứ như là… bồng bềnh…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,sasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,raiha,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì không còn lực kéo giữ lại nữa、 nên chúng ta sẽ về nơi mình nên thuộc về。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,raiha,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192104/adv/atlas/stand_a,body:surprise,kanon,-300,-130,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chẳng lẽ、 chúng ta thậm chí còn không có thời gian để nói lời tạm biệt sao！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192104/adv/atlas/stand_a,body:sad,kanon,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mới thân thiết được có chút mà đã phải chia tay đột ngột thế này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,kanon,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị còn người quan trọng ở thế giới bên kia đúng không？ Nếu vậy、 nên nhanh chóng về thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192104/adv/atlas/stand_a,body:sad,kanon,-300,-130,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đã có thể về rồi、 sao không vui lên đi chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đúng là không được ăn bánh của Kanon nữa thì tiếc thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà… kỷ niệm khi cùng nhau ăn bánh lại trở nên buồn bã thì càng tiếc hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nên là、 chị không thích phải chia tay với gương mặt buồn rầu đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:smile,maruta,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì vậy、 mong mọi người hãy mỉm cười đến phút cuối、 để sau này khi nhớ lại、 chúng ta có thể nói rằng đó là một kỷ niệm đẹp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/192304/adv/atlas/stand_a,body:normal,raiha,-300,-160,0.5,0.5,,,,
+anm,tint,raiha,150_150_150,0.0001,0
+spriteatlas,download/character/192104/adv/atlas/stand_a,body:surprise,kanon,300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Martha-chan…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192304/adv/atlas/stand_a,body:normal,raiha,-300,-160,0.5,0,,,,
+anm,tint,kanon,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Raiha Räikkönen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng như Martha nói。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kanon,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192451/adv/atlas/stand_a,body:smile,sasa,300,-130,0.5,0.5,,,,
+anm,tint,raiha,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Misuzu Sasa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Dù toàn là những chuyện không thể tin được、 nhưng mà… thời gian được ở bên mọi người thật vui。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,raiha,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192204/adv/atlas/stand_a,body:normal,usio,-300,-120,0.5,0.5,,,,
+anm,tint,sasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Asaka Ushio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy。Dù thời gian ngắn ngủi… nhưng mà、 có lẽ tôi sẽ không thể quên được trải nghiệm này đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/192104/adv/atlas/stand_a,body:normal,kanon,-300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Em cũng vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192104/adv/atlas/stand_a,body:smile,kanon,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em cũng thấy rất vui vì được gặp mọi người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0,,,,
+anm,tint,kanon,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mọi người、 dù có trở về thế giới cũ thì cũng hãy mạnh khỏe nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/192104/adv/atlas/stand_a,body:normal,kanon,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Frau-chan và mọi người cũng vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/192104/adv/atlas/stand_a,body:smile,kanon,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mọi người、 cảm ơn rất nhiều！ Tạm biệt！ Và rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/192304/adv/atlas/stand_a,body:smile,raiha,-400,-160,0.5,0.5,,,,
+spriteatlas,download/character/192451/adv/atlas/stand_a,body:smile,sasa,400,-130,0.5,0.5,,,,
+spriteatlas,download/character/192104/adv/atlas/stand_a,body:smile,kanon,-150,-130,0.5,0.5,,,,
+spriteatlas,download/character/192204/adv/atlas/stand_a,body:smile,usio,150,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hẹn gặp lại nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+playse,/download/character/103707/se/se_c03707_skill_01.mp3
+spriteoff,all,1
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:normal,milva,-400,-120,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,400,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Đi rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:normal,milva,-400,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hẹn gặp lại nhé、 ư。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:unique,maruta,0,-90,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù sao thì、 tôi nghĩ họ cũng chẳng thể dễ dàng quay lại đâu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:smile,milva,-400,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu nhớ món bánh kẹo của Marshmallow Tree、 sao không thử viết một tờ đơn đặt hàng nhỉ？ Biết đâu、 chúng lại được gửi đến lần nữa đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:smile,maruta,0,-90,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ý hay đấy。Trước mắt thì mười cái Sachertorte đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:unique,frau,400,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi nghĩ như vậy là đặt quá nhiều rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm034.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… ơ、 đây là đâu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Asaka Ushio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là bên trong tiệm Marshmallow Tree、 đúng không……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Raiha Räikkönen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ…… chúng ta ngủ quên à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Misuzu Sasa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chẳng lẽ…… là mơ sao？ Ơ、 nhưng mà…… à、 em muốn xác nhận một chút、 chúng ta đã ở một thế giới khác、 đúng không……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>みやはらりょう</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Mọi người、 sao thế、 sao lại ngẩn người ra vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ryou-kun……！ A、 à ừm à ừm、 em về rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>みやはらりょう</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？ Không、 em nói gì vậy？ Từ lúc đóng cửa tiệm đến giờ có lâu đâu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Hay là trong thời gian ngắn ngủi anh đi đổ rác、 các em đã đi đâu đó à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Asaka Ushio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ…… ừm、 chẳng lẽ…… thời gian không hề trôi đi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Raiha Räikkönen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy là、 chuyện này thật sự chỉ là một giấc mơ thôi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Misuzu Sasa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng nếu vậy、 chúng ta đã cùng mơ một giấc mơ giống hệt nhau、 chuyện đó、 liệu có thể xảy ra sao……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>――Không phải đâu。Không phải là mơ đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Bởi vì、 hương vị của những món bánh kẹo chúng ta cùng làm、 và cả nụ cười khi ăn chúng nữa、 em vẫn nhớ rõ mồn một thế này cơ mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>みやはらりょう</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……？ Em đang nói chuyện gì vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Kasukabe Kanon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À này、 Ryou-kun。Anh nghe em nói được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Đây là một câu chuyện vô cùng kỳ lạ、 em biết anh sẽ khó tin lắm、 nhưng mà――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

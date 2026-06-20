@@ -1,0 +1,556 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010417.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_015.mp3
+bg,download/bg/bg_10010407.jpg,2,255
+endwait
+wait,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,1,255
+endwait
+wait,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:unique2,millicent,300,-160,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Millicent</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù sao thì、 tôi thật sự rất bất ngờ。Không ngờ lại có chuyện mình lạc vào thế giới này lần nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,millicent,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đó mới là lời tôi muốn nói đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tự dưng cô lại xuất hiện ở Dreamlands…… Ban đầu、 tôi cứ ngỡ đó là ảo giác、 hoặc là một cái bẫy nào đó cơ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:sad,millicent,300,-160,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Millicent</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À thì、 khi tôi nhận ra thì đã ở thế giới này rồi…… Chuyện này rốt cuộc là sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,millicent,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu suy nghĩ một cách hợp lý、 thì có lẽ là do mối liên kết từ lần trước cô đến thế giới này vẫn còn sót lại một chút、 và cô đã lần theo nó để quay lại lần nữa…… nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,millicent,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy là ngẫu nhiên thôi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không…… nhưng mà、 có vẻ như có một lực nhỏ đang ngăn cản Millicent quay về thế giới cũ đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,1。Không thể về thế giới cũ sao？,2。Làm sao để hóa giải lực đó？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 vì đó là một lực rất nhỏ thôi、 nên nếu chúng ta mạnh mẽ đẩy cô ấy ra thì có lẽ sẽ quay về thế giới cũ được thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tuy nhiên、 chắc chắn là an toàn hơn nếu giải quyết vấn đề trước、 và dùng vũ lực thì nên để làm phương án cuối cùng thôi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… Đến cả tôi cũng không thể nhìn thấu đến mức đó、 nhưng Frau thì sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có lẽ、 việc Millicent đến thế giới này là vì bản thân Millicent đang tìm kiếm điều gì đó ở một nơi khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cảm giác đó dường như đang ngăn cản Millicent quay về thế giới cũ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:sad,millicent,300,-160,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Millicent</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ở một nơi khác…… sao ạ？ Tôi không nghĩ mình đã từng nghĩ đến chuyện đó……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,millicent,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải là nghĩ cụ thể như vậy、 mà là một cách mơ hồ、 muốn đi đến một nơi nào đó không phải ở đây、 hoặc là、 ừm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ví dụ、 cô có từng nghĩ muốn trốn thoát khỏi nơi mình đang ở không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:normal,millicent,300,-160,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Millicent</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Với sự bận rộn hàng ngày và nhiều tình huống khác nhau、 tôi không thể nói rằng mình chưa từng cảm thấy bực bội hay ngột ngạt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:normal,millicent,300,-160,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 đó là những trách nhiệm mà tôi phải gánh vác、 và tôi chưa từng nghĩ đến chuyện vứt bỏ chúng để trốn đi đâu đó……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,millicent,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… Dù vậy、 nghĩ rằng nhiều thứ đã tích tụ trong những ngày bận rộn mà cô không tự nhận thức được、 rồi chúng bùng nổ…… thì đó là cách giải thích tự nhiên nhất đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:unique1,millicent,300,-160,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Millicent</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……À。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:unique1,millicent,300,-160,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tích tụ…… sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:unique,soka,-300,-110,0.5,0.5,,,,
+anm,tint,millicent,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phản ứng như thể có điều gì đó trong lòng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:surprise,millicent,300,-160,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Millicent</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 không…… Chuyện đó、 ừm…… không、 nhưng mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:surprise,frau,-300,-120,0.5,0.5,,,,
+anm,tint,millicent,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Millicent……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:unique2,millicent,300,-160,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Millicent</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………À thì、 chuyện là、 ngay trước khi tôi đến thế giới này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm150.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Millicent</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—Kai-san。Gần đây、 tôi cảm thấy anh ra ngoài với Sylvie và Heti quá nhiều、 lấy cớ là công việc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chẳng lẽ、 anh lại muốn biến hai người họ thành nhân tình……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu những ham muốn đó đang tích tụ、 thì anh cứ trút hết lên người tôi cũng được mà…… À、 khoan đã、 Kai-san！ Anh có nghe không đấy！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Hả、 anh bảo đi ngủ trước à…… Không、 hôm nay ở phòng tôi、 chúng ta sẽ trọn đêm thật sự―― Á、 khoan đã、 đừng có phớt lờ tôi chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Người yêu đang giận thế này mà anh lại phớt lờ sao…… Vâ、 vâng、 tôi hiểu rồi！ Tôi sẽ nói thật！ Thực ra tôi đang bị dồn nén！ Tôi đang động dục rồi đây này！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Lúc bận rộn、 chẳng phải những ham muốn đó lại càng mạnh mẽ hơn sao？ Có mà。Có đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi đã nói nhiều thứ rồi、 nhưng rốt cuộc thì tôi chỉ muốn được Kai-san ôm vào lòng ngay bây giờ trong phòng ngủ thôi、 —nghe tôi nói đi chứ！ Tôi đã nói thẳng thắn như thế này rồi mà！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Vâ、 vâng、 tôi hiểu rồi。Tệ nhất thì、 chỉ ngủ cùng thôi、 chỉ ngủ cùng thôi cũng được…… Không、 lần này thì！ Lần này tôi sẽ không làm gì cả、 thật đấy！ Thật mà！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thậ、 thật…… đấy nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:unique2,millicent,300,-160,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Millicent</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cuối cùng、 không biết Kai-san có cảm thấy nguy hiểm không mà đã đi về phòng mình ngủ mất rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0,,,,
+anm,tint,millicent,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ếeeee……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tích tụ、 là cái kiểu đó sao……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,millicent,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:shy,frau,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:unique,aika,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Tức là、 vì ham muốn tình dục tích tụ quá nhiều mà cô ấy đã lạc vào thế giới này sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:sad,soka,300,-110,0.5,0.5,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 chuyện đó thì có vẻ không hợp lý cho lắm……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,-300,-120,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 cô ấy bận rộn nên ham muốn tình dục tăng cao đúng không？ Vậy thì、 nếu rời khỏi môi trường bận rộn、 ham muốn tình dục sẽ giảm bớt chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:sad,soka,300,-110,0.5,0,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… Vậy sao nhỉ？ Có vẻ như là một cách giải thích quá gượng ép。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—Ra vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Sau khi nghe câu chuyện、 bộ óc của thiên tài mỹ nữ Norn-chan đây đã tìm ra một đáp án rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À。Millicent…… cô quả thật đã bị dồn vào đường cùng rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:surprise,millicent,300,-160,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Millicent</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em、 bị dồn vào đường cùng ư……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,millicent,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nghe em kể thì、 với địa vị của mình、 em đâu thể dễ dàng tâm sự với người xung quanh、 phải không？ Nhất là chuyện riêng tư、 chuyện tình cảm thì càng không thể。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ngay cả cận vệ、 người ít ỏi em có thể tin tưởng、 cũng bị nghi ngờ là tình nhân。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tất nhiên、 có lẽ em không thực sự nghi ngờ đâu、 nhưng dù vậy、 chẳng phải trong lòng em vẫn có chút mảy may hoài nghi về khả năng đó sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rằng có thể、 tình cảm của người yêu em、 đôi khi sẽ hướng về một người khác……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:sad,millicent,300,-160,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Millicent</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đ-đó、 đó là…… chuyện đó、 không thể nào……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,millicent,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hơn nữa、 người yêu em lại còn bỏ mặc em、 trong khi em đang khao khát và rạo rực。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Trong tình cảnh đó、 em đã mất đi nơi trút bỏ những nỗi bất an chất chứa trong lòng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đúng vậy…… Em muốn người yêu mình quan tâm đến em nhiều hơn。Muốn anh ấy yêu em hơn bất kỳ người phụ nữ nào khác。Và nếu có thể、 em muốn làm chuyện ấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Để đạt được điều đó、 em phải làm gì đây…… Chẳng phải em đã lo lắng vì không thể tự mình tìm ra câu trả lời sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:shy,millicent,300,-160,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Millicent</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,millicent,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Và chính nỗi bất an cùng ham muốn tình dục đó đã tạo ra tình cảnh này！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm112.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:anger,norn,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Line_center,em1,default,animation,1,0,0,1,1.0,0
+msg,0,<outline width=2 color=black>Đúng vậy！ Tức là、 em đến R'lyeh này để tìm cách quyến rũ người yêu mình bằng tình dục đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/195405/adv/atlas/stand_a,body:shy,millicent,0,-160,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Millicent</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>V-vậy、 vậy sao ạ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:unique,asaka,-450,-120,0.5,0.5,,,,
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:unique,frau,-150,-120,0.5,0.5,,,,
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:unique,aika,150,-120,0.5,0.5,,,,
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:unique,soka,450,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trời ơi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,176 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11760300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm126.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_01.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nhân tiện…… gần đây、 tôi toàn thấy Akai Asaka nhìn tôi với ánh mắt đầy áp lực không lời ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_02.mp3
+msg,1,<outline width=2 color=black>Không phải kiểu thù địch hay ác ý gì đâu…… mà là ánh mắt đầy kỳ vọng。Ngày càng rõ rệt、 khiến tôi rất để tâm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_03.mp3
+msg,1,<outline width=2 color=black>Nè…… cách chị gái gọi Akai Asaka ấy…… tôi nghĩ chị ấy cũng muốn tôi gọi như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: 'Gọi thế nào nhỉ？,Lựa chọn 2: 'Tôi cũng muốn được gọi như thế。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_04.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cậu nghĩ tôi sẽ mắc bẫy cái dẫn chuyện lộ liễu như vậy à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_05.mp3
+msg,1,<outline width=2 color=black>Ngay từ đầu、 tôi không nghĩ cậu lại quên cách chị gái gọi Akai Asaka、 dù thế nào cũng vô lý quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_06.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Lại chuyện đó à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_07.mp3
+msg,1,<outline width=2 color=black>Chuyện đó kết thúc rồi mà。Cậu đôi khi dai nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_08.mp3
+msg,1,<outline width=2 color=black>Cậu cũng hay làm Frau giận vì dai quá。……Nếu tôi nói ghét thì cậu sẽ dừng lại sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_09.mp3
+msg,1,<outline width=2 color=black>Nếu không muốn bị nói thì đừng nhắc lại chuyện này nữa nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_10.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cậu cũng vậy…… nhưng Akai Asaka nữa、 sao lại muốn tôi gọi như thế nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_11.mp3
+msg,1,<outline width=2 color=black>Được gọi như vậy、 chị ấy có vui không ta？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:surprise,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_12.mp3
+msg,1,<outline width=2 color=black>– Nhất định sẽ vui…… cậu dám khẳng định chắc nịch như vậy。Cậu hiểu rõ cảm xúc của Akai Asaka đến thế à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_13.mp3
+msg,1,<outline width=2 color=black>Giỏi thật đấy。Có thể hiểu được cảm xúc của người khác như vậy cơ à。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_14.mp3
+msg,1,<outline width=2 color=black>Nhưng…… ra vậy。Chị ấy sẽ vui sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:shy,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_15.mp3
+msg,1,<outline width=2 color=black>…………Ch、 chị…… Asaka…… –……っ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:sad,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_16.mp3
+msg,1,<outline width=2 color=black>Tôi tưởng không có người ở đây thì sẽ ổn、 nhưng hình như không được。Trong lòng bồn chồn、 cổ họng khô khốc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:sad,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_17.mp3
+msg,1,<outline width=2 color=black>Hơn nữa…… tim tôi hình như cũng đập nhanh hơn một chút……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:anger,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_18.mp3
+msg,1,<outline width=2 color=black>……Cậu cười đểu quá đấy。Nhìn cái mặt ấy là tôi thấy bực mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:sad,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_19.mp3
+msg,1,<outline width=2 color=black>Không ngờ mình lại dao động đến thế chỉ vì một cách gọi。Sao lại thế chứ…… tôi không hiểu nổi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:sad,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_20.mp3
+msg,1,<outline width=2 color=black>Rõ ràng đâu có gì to tát…… mà chuyện nhỏ nhặt này lại khiến lòng mình xao động、 đó có phải là chuyện bình thường không……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:sad,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_21.mp3
+msg,1,<outline width=2 color=black>Nếu vậy thì 'bình thường' hóa ra còn khó hơn tôi nghĩ nhiều nhỉ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:unique,aika,0,-140,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_020.mp3
+shake,0.5,3,12,0,aika
+playvoice,1,download/character/104110/adv/sound/fav104110_02_22.mp3
+msg,1,<outline width=2 color=black>Ừm…… nên đừng có vừa cười đểu vừa xoa đầu tôi thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:sad,aika,0,-140,0.6,0,,,,
+playvoice,1,download/character/104110/adv/sound/fav104110_02_23.mp3
+msg,1,<outline width=2 color=black>Không dừng lại đi là tôi sẽ mách chị gái và Akai Asaka rằng cậu làm phiền tôi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,84 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,0,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tiện thể nói luôn、 Asaka-san và em từng ở cùng một cơ sở đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bề ngoài thì là một trại trẻ mồ côi bình thường thôi、 nhưng thực chất lại là nơi Tổ chức Lovecraft tập hợp và đào tạo những đứa trẻ có tài năng ma thuật。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù vậy、 em và Asaka-san cũng không thân thiết đến thế、 chỉ là mối quan hệ thỉnh thoảng gặp mặt thôi。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nên、 có lẽ Asaka-san không nhớ em đâu nhỉ。。。Với lại、 tụi em cũng cách nhau vài tuổi mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 em cũng muốn hỏi thăm về cơ sở sau bao lâu không gặp、 nên em định lần tới sẽ thử nói chuyện với Asaka-san xem sao。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_05.mp3
+clickwait,,,,,,,,,,,
+select,Là nơi như thế nào？,Tuổi thơ của Dana thì。。。
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,0,-180,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Là nơi như thế nào ấy ạ。。。Ngoài việc có đào tạo ma thuật ra、 thì chắc cũng không khác mấy một cơ sở bảo trợ bình thường đâu nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À。Nhưng vì lý do đó、 chắc họ không thể xây cơ sở ở nơi đông người qua lại được。Nó nằm sâu trong núi、 ở một nơi giao thông bất tiện。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hồi nhỏ thì còn đỡ、 nhưng khi lớn hơn một chút、 không còn ở cái tuổi chơi đùa trên núi nữa、 em nhớ là ra phố cũng vất vả lắm。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_08.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:unique,dana,0,-180,0.5,0,,,,
+name,<size=30><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À thì。。。Em nghĩ mình là một đứa trẻ chẳng đáng yêu chút nào đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tự nói ra thì hơi kỳ、 nhưng em thuộc kiểu người khá giỏi giang mọi thứ、 có lẽ vì thế mà em không mấy khi muốn giao thiệp với người khác。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn nữa、 có lẽ thái độ đó không tốt chăng。。。Chuyện là。。。em không hòa hợp với những đứa trẻ khác。。。người ở cơ sở cũng hay bảo em phải chơi thân với các bạn。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:surprise,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ấy！ Nhưng đó là vì mấy đứa khác cứ gây sự thôi、 chứ không phải em chủ động làm gì đâu、 nên xin đừng hiểu lầm chỗ đó nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_12.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:normal,dana,0,-180,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải chỉ toàn kỷ niệm đẹp đâu、 nhưng dù sao đó cũng là nơi em đã trải qua một thời gian dài、 nên vẫn có chút gắn bó。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trước khi bị nhốt ở R'lyeh thế này、 có lẽ em nên ghé thăm một lần thì hơn。。。Dù giờ có hối hận cũng đã muộn rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu có ngày thoát khỏi đây、 thì cùng Asaka-san về thăm quê cũng hay đấy nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:smile,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Vâng、 cũng vì mục đích đó、 chúng ta hãy dốc toàn lực vào việc Truy Tìm ở Dreamlands nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100401/adv/sound/fav100401_03_16.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

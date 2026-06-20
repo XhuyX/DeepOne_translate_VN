@@ -1,0 +1,312 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nó — 'Cô dâu giả' — là một sự tồn tại không thể thiếu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nếu không có nó、 việc chuẩn bị sân khấu này chẳng có ý nghĩa gì。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vì vậy、 Zeno Nazari đã quyết định loại bỏ。……Thế mà、 à、 thật tình。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Trước ánh sáng rực rỡ của một linh hồn không bao giờ gục ngã、 hết lòng tiến bước vì người khác、 một chút mềm yếu lại vô tình trỗi dậy trong lòng。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhìn những người như vậy。。。lại muốn họ tỏa sáng hơn nữa。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,
+wait,0.5
+endwait
+bg,download/bg/bg_10040100.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm008.mp3,0,
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,0,-120,0.5,0.5,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ô、 ôôôôôô！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,xeno,0
+endwait
+sprite,download/monster/20030101/adv/image/20030101.png,robo,-400,-120,1.35,0.5
+sprite,download/monster/20030101/adv/image/20030101.png,robo2,400,-120,1.35,0.5
+sprite,download/monster/20030101/adv/image/20030101.png,robo3,0,-120,1.35,0.5
+endwait
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,0.8,0
+shake,0.1,2,20,20,,,,,,,,,,,,
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+endwait
+spine,download/adv/spine/Thunder1_yellow,em3,default,animation,0,0,0,1,1,0,,,,,,
+wait,0.4
+shake,0.2,4,20,20,,,,,,,,,,,,
+playse,/download/sound/se/se_024.mp3
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>——————……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,1
+playse,/download/sound/se/se_025.mp3
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,300,-120,0.5,0.5,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chỉ có thế này thôi mà ngươi gọi là thử thách để đánh giá ta ư？ Nếu vậy thì quá ư là hời hợt。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……À。Em thật sự rực rỡ và xinh đẹp đấy。Dù có vỡ tan、 vẫn được rèn lại、 trở nên mạnh mẽ hơn、 ư。。。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi đã học được một điều quan trọng。À、 tôi rất kính trọng em。Người như em、 chắc chắn sau này sẽ còn tỏa sáng rực rỡ hơn nữa。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không。。。Tôi không ngừng mong em trở nên như vậy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,300,-120,0.5,0,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Ngươi thay đổi ý kiến nhanh thật đấy。Cứ như một người khác vậy。Hay là、 đằng sau những lời nói đó、 ngươi đang thể hiện sự khinh miệt đối với ta？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nói vậy thì thất lễ quá。Đó là lời thật lòng đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Bởi vì。。。niềm vui khi làm vấy bẩn và hạ thấp một thứ càng rực rỡ sẽ càng lớn。。。Không phải sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,300,-120,0.5,0,,
+anm,tint,norn,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Quả nhiên、 ngươi vẫn méo mó đến tận cùng。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:shy,norn,-300,-120,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Được khen nhiều thế này、 tôi ngại đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,xeno,255_255_255,0.0001,0
+anm,tint,norn,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>———。。。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À、 này này、 đừng có im lặng mà giương kiếm lên chứ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi đã đánh giá em kỹ lưỡng rồi、 và tôi hài lòng。Ừm、 lần này tôi sẽ bỏ qua cho em。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,xeno,255_255_255,0.0001,0
+anm,tint,norn,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Ngươi nói chuyện ra vẻ bề trên thật đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thì đó、 đó là sự thật mà？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À、 dù vậy、 cứ thế mà rời đi thì thật vô vị。Xưa nay、 người hoàn thành thử thách đều có phần thưởng mà。。。Để tôi kể cho em một chuyện thú vị nhé。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Debris là một sự tồn tại của Dreamlands。Họ thích nghi với không khí ở đó、 không phải chịu đựng gánh nặng như Người Truy Tìm。。。nhưng ngược lại、 không thể xuất hiện ở thế giới thực。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Giống như không khí của Dreamlands là chất độc đối với Người Truy Tìm、 thì đối với các em Debris、 thế giới thực chính là biển độc。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,300,-120,0.5,0,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ngươi nói gì mà giờ mới nói。。。Ta chưa từng thực sự kiểm chứng、 nhưng ta biết điều đó。Ngay từ khoảnh khắc sinh ra với tư cách là một Debris、 ta đã biết bằng bản năng rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,norn,255_255_255,0.0001,0
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng mà。。。'Cậu ấy' có thể giảm bớt gánh nặng cho Người Truy Tìm。Thông qua cơ thể mình、 cậu ấy sử dụng sức mạnh của Nguyên thư Pnakotic như một sự che chở。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Nếu Debris nhận được sự che chở đó、 thì sẽ thế nào nhỉ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:surprise,xeno,300,-120,0.5,0,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Điều đó。。。chẳng lẽ。。。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,norn,255_255_255,0.0001,0
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Gần Cổng Giới Hạn nối với Dreamlands — tức là、 nếu ở trong R'lyeh、 thì ngay cả các em cũng có thể ra ngoài được đấy、 có lẽ vậy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,300,-120,0.5,0,,
+anm,tint,norn,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Ngươi nghĩ ta sẽ tin lời ngươi nói sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,norn,255_255_255,0.0001,0
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi nói ra không phải để em tin、 nên em không tin cũng chẳng sao cả。。。Thôi thì、 nếu có cơ hội、 em cứ thử xem sao cũng được nhỉ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Vậy nhé、 Zeno Nazari。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,300,-120,0.5,0,,
+anm,tint,norn,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đợi —！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+stopbgm,0.5,
+endwait
+playse,/download/sound/se/se_015.mp3
+flash,0,0,0,4,0.3,0,,,,,,,,,,
+spriteoff,norn,1
+endwait
+wait,0.5
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,300,-120,0.5,0,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Hơi thở đã biến mất rồi、 sao。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,300,-120,0.5,0,,
+msg,0,<size=30><outline width=2 color=black>Thật sự、 đó là ai chứ。。。Không phải Người Truy Tìm、 cũng không phải Debris。Nhưng lại là một sự tồn tại gần gũi với Nguyên thư Pnakotic đến thế。。。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Giống với cậu ấy và cô bé tên Frau。。。không。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:sad,xeno,300,-120,0.5,0,,
+msg,0,<size=30><outline width=2 color=black>Không thể nói về sự thiện lương của họ giống như nói về người phụ nữ đầy ác ý đó được。。。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,300,-120,0.5,0,,
+msg,0,<size=30><outline width=2 color=black>……Thôi được。Ta đã thu thập được nhiều thông tin。Phải quay về và báo cho Vee và Beatrice biết thôi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cũng phải quyết định những việc sắp tới。。。bao gồm cả việc sẽ đối mặt với họ bằng thái độ như thế nào。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+stopbgm.0.5
+endwait
+msg,0,<size=30><outline width=2 color=black>—À mà nói đến đây。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0.5
+endwait
+bg,color_0_0_0,1,255
+endwait
+bg,download/bg/bg_10040300.jpg,1,255
+mask,bg1,0,360,1280,200,0,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,bg3,0,-360,1280,200,0,,,,
+sprite,download/adv/image/black.jpg,bg2,0,0,0,0
+imgconf,bg2,bg3,0,0,,,0,1,1,0
+endwait
+playbgm,/download/sound/bgm/bgm024.mp3,0.5,
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,-300,-120,0.5,0.5
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,xeno,150_150_150,0.0001,0
+bg,download/bg/bg_10040300.jpg,1,255
+mask,bg1,0,360,1280,200,0,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,bg3,0,-360,1280,200,0,,,,
+sprite,download/adv/image/black.jpg,bg2,0,0,0,0
+imgconf,bg2,bg3,0,0,,,0,1,1,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>May quá、 có vẻ như đã hội ngộ được rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+flash,255,0,0,2,0.7,0.5,,,,,,,,,,
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:surprise,xeno,-300,-120,0.5,0
+anm,tint,asaka,150_150_150,0.0001,0
+bg,download/bg/bg_10040300.jpg,1,255
+mask,bg1,0,360,1280,200,0,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,bg3,0,-360,1280,200,0,,,,
+sprite,download/adv/image/black.jpg,bg2,0,0,0,0
+imgconf,bg2,bg3,0,0,,,0,1,1,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>——————。。。Cái 'đó' là gì vậy。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,300,-120,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+bg,download/bg/bg_10040300.jpg,0,255
+mask,bg1,0,360,1280,200,0,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,bg3,0,-360,1280,200,0,,,,
+sprite,download/adv/image/black.jpg,bg2,0,0,0,0
+imgconf,bg2,bg3,0,0,,,0,1,1,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hả？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0.5
+spriteoff,xeno,0.5
+endwait
+spriteoff,all,0.5
+bg,color_0_0_0,0.5,255
+endwait
+bg,download/bg/bg_10040100.jpg,1,255
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:sad,xeno,0,-120,0.5,0.5,,
+endwait
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hơi thở lúc đó。。。sự sợ hãi khiến linh hồn như muốn vặn vẹo。。。Sau đó ta không cảm thấy nữa、 chẳng lẽ là do ta tưởng tượng ra sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hoặc là、 nó còn sâu sắc và u ám hơn cả những gì ta cảm nhận được từ cô gái có đôi cánh đen đó。。。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,0,-120,0.5,0,,
+msg,0,<size=30><outline width=2 color=black>……Không、 chắc không phải đâu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,xeno,0.5
+endwait
+bg,color_0_0_0,0.5,255
+endwait
+wait,0.5
+endwait
+mask,norn1,0,0,1280,300,0.5,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,0,0,0,0,,,,
+imgconf,norn,norn1,0,-400,,,0,1.5,1.5,0.1
+endwait
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thật tình、 xung quanh cậu ấy toàn là những người thú vị。Chuyện này、 liệu có phải là do Nguyên thư Pnakotic dẫn lối không nhỉ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:sad,norn,0,0,0,0,,,,
+imgconf,norn,norn1,0,-400,,,0,1.5,1.5,0.0
+endwait
+msg,0,<size=30><outline width=2 color=black>Hay là — do em sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,0,0,0,0,,,,
+imgconf,norn,norn1,0,-400,,,0,1.5,1.5,0.0
+endwait
+msg,0,<size=30><outline width=2 color=black>……Thế nào cũng được。Bởi vì tôi、 chỉ là đang gieo rắc ác ý vì mong muốn của mình thôi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

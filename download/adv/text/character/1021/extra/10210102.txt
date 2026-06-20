@@ -1,0 +1,119 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+mask,bg1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,uru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:normal,uru,0,0,0,0,,,,
+imgconf,uru,uru1,0,-850,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Ursula Arkhart</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thật tình。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thật đáng lo ngại。Sức mạnh của cậu ta chắc chắn có giá trị、 nhưng cái sự yếu mềm đó thì……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nếu có chút biến chất thì sẽ dễ điều khiển hơn。Những người như vậy… cứ như là một loài sinh vật khác vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_03.mp3
+clickwait,,,,,,,,,,,
+shake,0.1,5,10,10
+playse,/download/sound/se/se_020.mp3
+endwait,,,,,,,,,,,,
+spriteoff,all,0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:anger,uru,-20,-200,0.5,0.2,,,,
+anm,jump,uru,-20_-200_20_1,0.5,0
+endwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ư、 ai đó！？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:surprise,uru,-20,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À… ra là cậu。Đừng có tự nhiên vỗ vai tôi như thế chứ。Tôi giật mình、 suýt chút nữa thì tấn công rồi đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Đã gọi tôi à？ Thật sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:sad,uru,-20,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì…… tôi xin lỗi、 vì tôi đang mải suy nghĩ một chút。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_07.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:normal,uru,-20,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì、 đã cố tình giữ tôi lại như vậy、 có việc gì sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_08.mp3
+clickwait,,,,,,,,,,,
+select,Vì tôi đang thẫn thờ。,Vì lo lắng cho sức khỏe của cô……
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:normal,uru,-20,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Ursula Arkhart</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi cũng là con người mà。Cũng có lúc lơ đễnh chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Có phải cậu đang lo lắng về gánh nặng của Dreamlands không？ Nếu vậy thì là lo hão rồi。Thật sự không phải chuyện đó đâu、 đừng lo lắng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_10.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:normal,uru,-20,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Ursula Arkhart</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 có lẽ tôi trông mệt mỏi quá chăng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_11.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vì gần đây tôi đều tham gia mọi cuộc Truy Tìm、 nên cậu mới lo lắng phải không。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi không sao đâu。Hơn nữa、 tôi tự nguyện tham gia các cuộc Truy Tìm mà、 thật sự tôi chỉ đang suy nghĩ thôi、 đừng có suy diễn lung tung。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_13.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:normal,uru,-20,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Ursula Arkhart</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng là gánh nặng đang tích tụ、 và tôi cũng mệt mỏi…… Thế nhưng、 đối với tôi、 việc lặn sâu vào Dreamlands không chỉ toàn là bất lợi đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Gánh nặng đó là、 đối với sức mạnh của Nguyên thư Pnakotic đang tràn ngập Dreamlands、 tác động khiến cơ thể con người không thể chịu đựng nổi mà dần tan rã。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Có lẽ là、 Nguyên thư Pnakotic không hề có ý định loại bỏ những người bước vào Dreamlands。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Một con voi lại coi một con côn trùng bò dưới đất là kẻ thù mà ra sức tấn công sao？ Chỉ là một bước chân vô tình giẫm nát con côn trùng đó thôi…… Nói cách khác、 là như vậy đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Gánh nặng của Dreamlands là、 chỉ là con người không thể chịu đựng nổi sức mạnh mà Nguyên thư Pnakotic đang tuôn chảy ra mà thôi…… Sức mạnh của Nguyên thư Pnakotic lớn đến mức đó đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_18.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Tôi đã thành công trong việc chuyển hóa một phần sức mạnh của Nguyên thư Pnakotic đó、 để kích hoạt một Thuật thức nhất định。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_19.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Và để duy trì Thuật thức đó、 việc lặn sâu liên tục vào Dreamlands là điều không thể thiếu。Vì vậy、 tôi phải ở trong Dreamlands nhiều hơn bất cứ ai khác……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_20.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nội dung của Thuật thức ư？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_21.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:smile,uru,-20,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>He he、 tôi không định nói cho cậu biết đến mức đó đâu。Vì đối với một pháp sư、 Thuật thức của bản thân không phải là thứ dễ dàng tiết lộ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_22.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nhưng、 đây là thứ mà chính tôi đã hiện thực hóa bằng cách sử dụng sức mạnh của Bảy Nguyên Thư vĩ đại đấy。Đương nhiên、 đó là một phép màu tuyệt vời mà ai cũng phải ghen tị…… tôi chỉ nói đến thế thôi nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102101/adv/sound/fav102101_04_23.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

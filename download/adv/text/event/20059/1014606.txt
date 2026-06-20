@@ -1,0 +1,1170 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11070300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:anger,enemy1,0,-110,0.5,0.5,,,,
+anm,tint,enemy1,100_100_100,0.0001,0
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.1
+endwait,,,,,,,,,,,
+flash,255,255,255,1,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――、……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,10,10
+anm,tint,enemy1,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:sad,ruiez,300,-100,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+spriteatlas,download/character/191004/adv/atlas/stand_b,body:anger,tubaki,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tốt。。。vậy là đã hạ hết lũ giả mạo rồi。。。！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:sad,ruiez,300,-100,0.5,0,,,,
+anm,tint,tubaki,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mấy con giả mạo y hệt đúng là phiền phức thật đấy。Suýt nữa thì em tấn công nhầm đồng đội mấy lần rồi。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tubaki,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:sad,zizel,-300,-120,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Việc phải luôn tự hỏi liệu đối thủ có thật sự là kẻ ta được phép chém không。。。đã khiến chúng ta vất vả không ít。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_b,body:anger,tubaki,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù sao thì、 phải mau đuổi theo chị Momiji thôi。。。！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,tubaki,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 nếu cứ đuổi theo thế này、 kẻ địch lại tung ra lũ giả mạo nữa thì chẳng phải cứ lặp đi lặp lại sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:normal,milva,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù chắc chắn là chúng ta đã giảm được số lượng của chúng rồi。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tubaki,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191204/adv/atlas/stand_b,body:smile,miyako,-300,-190,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu vậy thì、 xin hãy giao cho em。Sau khi chiến đấu đến đây、 em đã nghĩ ra một cách để đối phó sau khi phân biệt được địch ta。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,miyako,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:surprise,zizel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật sao？ Đó rốt cuộc là。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,milva,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191204/adv/atlas/stand_b,body:normal,miyako,300,-190,0.5,0.5,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thời gian giải thích cũng phí lắm、 chi tiết cụ thể để sau đi。。。Giờ thì chúng ta hãy đến chỗ chị Momiji thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_b,body:sad,tubaki,-300,-100,0.5,0.5,,,,
+anm,tint,miyako,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy。。。Dù là chị Momiji đi nữa、 xông thẳng vào quân địch như vậy cũng quá liều lĩnh rồi、 lỡ có chuyện gì thì。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_b,body:anger,tubaki,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhanh lên、 mọi người！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,1,right
+playse,/download/sound/se/se_018.mp3
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11310300.jpg,0,255
+endwait
+slideoutblack,1,right
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+
+
+sprite,download/character/191104/image/main.png,card,0,0,1.0,0.5,,,,
+endwait
+
+
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ô、 cuối cùng cũng đến rồi。Hơi thở của ảo ảnh giữ hộp vẫn chưa dịch chuyển khỏi phía trước đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù sao thì、 một mình đối mặt với trùm cũng hơi nguy hiểm、 nên chị đã đợi、 nhưng mà nếu chậm thêm chút nữa là chị đã đi trước rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Mà này、 haizz、 mệt quá đi mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:normal,momiji,-300,-110,0.5,0.5,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+spriteatlas,download/character/191004/adv/atlas/stand_a,body:surprise,tubaki,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ch-chị Momiji。。。chị không sao chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:normal,momiji,-300,-110,0.5,0,,,,
+anm,tint,tubaki,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hửm？ Sao cơ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_a,body:surprise,tubaki,300,-100,0.5,0,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 thì tại。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tubaki,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:sad,zizel,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trên đường đến đây、 có khá nhiều kẻ giả mạo đã bị hạ gục rồi mà。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:surprise,ruiez,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tất cả những thứ đó、 Momiji đã tự mình giải quyết hết phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:normal,momiji,-300,-110,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chứ còn ai ngoài chị nữa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:unique2,momiji,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Haizz、 bọn chúng mạnh quá đi mất。Dù là giả mạo thôi nhưng cũng làm chị mệt bở hơi tai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_a,body:sad,tubaki,300,-100,0.5,0.5,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>。。。Đúng là nhìn chị Momiji rồi em lại mất tự tin。Ngay cả khi còn nhỏ hơn em mà chị đã mạnh đến thế này rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:smile,momiji,-300,-110,0.5,0,,,,
+anm,tint,tubaki,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thì、 chị là chị gái mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tubaki,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:smile,milva,300,-120,0.5,0.5,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phì phì、 làm chị gái cũng vất vả nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:normal,momiji,-300,-110,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hửm？ Ý là sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không có gì đâu。。。Cứ coi như vậy thì tốt hơn、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:normal,momiji,-300,-110,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị không hiểu lắm ý em là gì đâu。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:smile,milva,300,-120,0.5,0,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>E hèm、 e hèm hèm hèm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:unique,momiji,-300,-110,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái kiểu cười gì thế。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,milva,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191204/adv/atlas/stand_b,body:normal,miyako,300,-190,0.5,0.5,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi chuyện phiếm đến đây thôi、 chúng ta hãy mau đi tiếp đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191204/adv/atlas/stand_b,body:normal,miyako,300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu cứ mải nói chuyện mà để lọt kẻ địch đã đuổi đến tận đây thì chẳng còn gì để nói nữa đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,1,right
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11270301.jpg,0,255
+endwait
+slideoutblack,1,right
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm029.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_a,body:anger,enemy1,300,-100,0.5,0.5,,,,
+spriteatlas,download/character/191004/adv/atlas/stand_a,body:anger,enemy2,0,-100,0.5,0.5,,,,
+spriteatlas,download/character/191004/adv/atlas/stand_a,body:anger,enemy3,-300,-100,0.5,0.5,,,,
+anm,tint,enemy1,100_100_100,0.0001,0
+anm,tint,enemy2,100_100_100,0.0001,0
+anm,tint,enemy3,100_100_100,0.0001,0
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191204/adv/atlas/stand_a,body:anger,enemy1,300,-190,0.5,0.5,,,,
+spriteatlas,download/character/191204/adv/atlas/stand_a,body:anger,enemy2,0,-190,0.5,0.5,,,,
+spriteatlas,download/character/191204/adv/atlas/stand_a,body:anger,enemy3,-300,-190,0.5,0.5,,,,
+anm,tint,enemy1,100_100_100,0.0001,0
+anm,tint,enemy2,100_100_100,0.0001,0
+anm,tint,enemy3,100_100_100,0.0001,0
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:anger,enemy1,300,-110,0.5,0.5,,,,
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:anger,enemy2,0,-110,0.5,0.5,,,,
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:anger,enemy3,-300,-110,0.5,0.5,,,,
+anm,tint,enemy1,100_100_100,0.0001,0
+anm,tint,enemy2,100_100_100,0.0001,0
+anm,tint,enemy3,100_100_100,0.0001,0
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:anger,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chết tiệt、 chúng lại kéo ra từng đàn nữa rồi。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:anger,enemy1,0,-120,0.5,0.5,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:anger,enemy2,400,-100,0.5,0.5,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:anger,enemy3,-400,-120,0.5,0.5,,,,
+anm,tint,enemy1,100_100_100,0.0001,0
+anm,tint,enemy2,100_100_100,0.0001,0
+anm,tint,enemy3,100_100_100,0.0001,0
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_b,body:anger,tubaki,-300,-100,0.5,0.5,,,,
+anm,tint,tubaki,150_150_150,0.0001,0
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:anger,zizel,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em cứ tưởng là đã giảm được kha khá kẻ địch rồi chứ。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_b,body:anger,tubaki,-300,-100,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi、 phiền phức quá đi mất。。。！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,tubaki,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À phải rồi、 Miyako-chan、 em có nói là có cách gì đó mà phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tubaki,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191204/adv/atlas/stand_b,body:normal,miyako,-300,-190,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy。。。Chúng ta không thể cứ đứng yên ở đây được、 vậy thì để em mở đường đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,milva,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:normal,momiji,300,-110,0.5,0.5,,,,
+anm,tint,miyako,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu vậy thì để chị――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191204/adv/atlas/stand_b,body:sad,miyako,-300,-190,0.5,0,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Haizz。。。Chị Momiji、 em đã định không nói ra rồi、 đừng có nói mấy lời liều lĩnh như vậy nữa―― Ấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,momiji1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:normal,momiji2,0,0,0,0,,,,
+imgconf,momiji2,momiji1,100,0,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+shake,0.2,4,10,10
+playse,/download/sound/se/se_043.mp3
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191204/adv/atlas/stand_b,body:unique,miyako,-300,-190,0.5,0.5,,,,
+anm,tint,miyako,150_150_150,0.0001,0
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:sad,momiji,300,-110,0.5,0.5,,,,	
+endwait,,,,,,,,,,,
+
+
+anm,move,momiji,300_-400,1,0
+endwait,,,,,,,,,,,,,
+spriteoff,momiji,0.5
+playse,/download/sound/se/se_020.mp3
+endwait,,,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ư ư ư。。。！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_b,body:surprise,tubaki,300,-100,0.5,0.5,,,,
+anm,tint,miyako,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 chị Momiji。。。？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191204/adv/atlas/stand_b,body:unique,miyako,-300,-190,0.5,0,,,,
+anm,tint,tubaki,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chỉ chọc nhẹ một cái mà đã thế này rồi。。。Không lẽ、 chị không thật sự bị gãy xương đấy chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,tubaki,0.5
+endwait,,,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:sad,momiji,300,-700,0.5,0.5,,,,
+anm,move,momiji,300_-110,1.5,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:sad,momiji,300,-110,0.5,0,,,,
+anm,tint,miyako,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm。。。chắc là không。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,miyako,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_b,body:surprise,tubaki,-300,-100,0.5,0.5,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị không sao chứ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tubaki,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191204/adv/atlas/stand_b,body:unique,miyako,-300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lúc nãy chị còn làm vẻ mặt như đang đợi bọn em đuổi kịp、 nhưng thật ra là chị chỉ đang nghỉ ngơi vì khó mà cử động nổi thôi đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:unique2,momiji,300,-110,0.5,0,,,,
+anm,tint,miyako,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chà、 em cũng làm được chút chứ bộ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191204/adv/atlas/stand_b,body:normal,miyako,-300,-190,0.5,0,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rồi rồi。Vậy thì cố gắng lên nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:surprise,momiji,300,-110,0.5,0,,,,
+anm,tint,miyako,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,card1,0,0,1280,250,0.5,,,,
+sprite,download/character/191204/image/main.png,card2,0,0,1.0,0.5,,,,
+imgconf,card2,card1,0,0,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Suzakuin Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Thật ra… tôi không muốn phô bày kỹ năng của 'người đó' một cách tệ hại thế này đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+bg,download/bg/bg_11270301.jpg,1,255
+endwait
+
+
+flash,243,1,0,2,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:surprise,ruiez,300,-100,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+spriteatlas,download/character/191004/adv/atlas/stand_b,body:surprise,tubaki,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ư！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:surprise,ruiez,300,-100,0.5,0,,,,
+anm,tint,tubaki,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tubaki,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:anger,zizel,-300,-120,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái này…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:anger,milva,300,-120,0.5,0.5,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash3_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,1,1.0,0
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,tubaki1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/191004/adv/atlas/stand_a,body:sad,tubaki2,0,0,0,0,,,,
+imgconf,tubaki2,tubaki1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đau… á…！？ Ư、 ực…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11270301.jpg,1,255
+endwait
+
+
+flash,243,1,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,-1,1.0,0
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,tubaki1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/191004/adv/atlas/stand_a,body:sad,tubaki2,0,0,0,0,,,,
+imgconf,tubaki2,tubaki1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tại、 sao… Miyako、 chị hai――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_a,body:surprise,tubaki,-300,-100,0.5,0.5,,,,
+anm,tint,tubaki,150_150_150,0.0001,0
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:anger,momiji,300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bình tĩnh nào、 Tsubaki。Mọi người nữa。Không ai bị chém cả… đó chỉ là ảo giác thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_a,body:surprise,tubaki,-300,-100,0.5,0,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――……Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tubaki,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:surprise,zizel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 ơ kìa… Vừa nãy tôi tưởng mình bị chém đứt đầu rồi chứ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,momiji,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:sad,ruiez,300,-100,0.5,0.5,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vừa nãy、 tôi cứ thấy như có thanh kiếm đâm xuyên tim mình vậy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:surprise,milva,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Cái cảm giác nội tạng trào ra vừa rồi… là ảo giác sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:anger,momiji,-300,-110,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy。Cả việc bị chém đứt tay hay bị chặt chân、 tất cả đều là ảo giác。…Nếu tôi không biết trước、 có lẽ tôi cũng đã mắc kẹt trong ảo giác đó rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:anger,momiji,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Miyako…… chị、 cái đó là――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm068.mp3,0,
+sprite,download/character/191204/image/main.png,card,400,150,2.0,0.5,,,,
+endwait,,,,,,,,,,,
+anm,move,card,-400_150,30,0
+
+
+name,<outline width=2 color=black>Suzakuin Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là tuyệt kỹ 'Sát Kiếm Hào'、 liên tục tung ra những đòn giả tinh vi、 phức tạp với tốc độ cao、 phá vỡ mọi đường kiếm của đối thủ và phong tỏa cử động của họ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi vốn muốn lĩnh hội nó một cách hoàn chỉnh、 nhưng không hiểu sao、 khi tôi dùng thì nó lại thành ra thế này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Không hiểu sao、 đòn giả lại quá tinh xảo、 đến mức không chỉ phá vỡ đường kiếm、 mà còn khiến đối thủ ảo giác rằng 'mình đã bị giết' luôn ấy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thôi thì、 nhờ vậy mà―― tôi có thể phân biệt được địch ta。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+bg,download/bg/bg_11270301.jpg,1,255
+endwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191204/adv/atlas/stand_b,body:anger,enemy1,300,-190,0.5,0.5,,,,
+spriteatlas,download/character/191204/adv/atlas/stand_b,body:anger,enemy2,0,-190,0.5,0.5,,,,
+spriteatlas,download/character/191204/adv/atlas/stand_b,body:anger,enemy3,-300,-190,0.5,0.5,,,,
+anm,tint,enemy1,100_100_100,0.0001,0
+anm,tint,enemy2,100_100_100,0.0001,0
+anm,tint,enemy3,100_100_100,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+anm,tint,enemy1,0_0_0,0.5,0
+anm,tint,enemy2,0_0_0,0.5,0
+anm,tint,enemy3,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_b,body:anger,enemy1,-500,-100,0.5,0.5,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:anger,enemy2,-200,-120,0.5,0.5,,,,
+spriteatlas,download/character/191104/adv/atlas/stand_b,body:anger,enemy3,0,-110,0.5,0.5,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:anger,enemy4,200,-120,0.5,0.5,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:anger,enemy5,500,-100,0.5,0.5,,,,
+anm,tint,enemy1,100_100_100,0.0001,0
+anm,tint,enemy2,100_100_100,0.0001,0
+anm,tint,enemy3,100_100_100,0.0001,0
+anm,tint,enemy4,100_100_100,0.0001,0
+anm,tint,enemy5,100_100_100,0.0001,0
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――、 ――…………、 ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+anm,tint,enemy1,0_0_0,0.5,0
+anm,tint,enemy2,0_0_0,0.5,0
+anm,tint,enemy3,0_0_0,0.5,0
+anm,tint,enemy4,0_0_0,0.5,0
+anm,tint,enemy5,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+sprite,download/character/191204/image/main.png,card,0,0,1.0,1,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Những 'người' run rẩy vì nỗi đau mất mạng là thật。Còn những kẻ giả mạo không có sinh mệnh thì chỉ biết đứng yên vì ảo giác bị chém thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chúng chẳng khác gì những bó rơm để thử kiếm、 thật vô vị。Theo nghĩa đó、 tôi cũng không muốn dùng kỹ năng này đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:sad,momiji,300,-110,0.5,0.5,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:surprise,ruiez,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi không hiểu gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:sad,momiji,300,-110,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đứa em gái đáng sợ của mình、 giờ lại càng đáng sợ hơn rồi…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,momiji,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật đáng kinh ngạc… đến mức có thể khiến người ta cảm nhận cái chết rõ ràng như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:sad,zizel,-300,-120,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải đạt đến cảnh giới kiếm thuật nào mới làm được điều đó chứ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_a,body:sad,tubaki,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Chị Miyako、 rốt cuộc giới hạn của chị là ở đâu vậy chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,milva,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:anger,momiji,300,-110,0.5,0.5,,,,
+anm,tint,tubaki,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:anger,momiji,300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tsubaki、 chúng ta đi trước。Mọi người nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tubaki,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:sad,zizel,-300,-120,0.5,0.5,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:anger,momiji,300,-110,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Momiji</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu có ai khác ở đây、 sẽ cản trở Miyako。Chúng ta nên ưu tiên bảo vệ chiếc hộp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191104/adv/atlas/stand_a,body:anger,momiji,300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hay là、 có ai tự tin có thể sánh vai chiến đấu với Miyako giữa luồng kiếm khí đó không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:sad,ruiez,-300,-100,0.5,0.5,,,,
+anm,tint,momiji,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ư、 nếu chị đã nói vậy thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,momiji,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật sự thì、 chiến đấu trong khi cứ ảo giác bị đồng đội chém chết thì khó thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_a,body:sad,tubaki,-300,-100,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191004/adv/atlas/stand_a,body:anger,tubaki,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Chị Miyako。Mau đuổi theo ngay đấy。Em sẽ không nghe bất cứ lời than vãn nào về việc không còn phần ngon đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,card1,0,0,1280,250,0.5,,,,
+sprite,download/character/191204/image/main.png,card2,0,0,1.0,0.5,,,,
+imgconf,card2,card1,0,0,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Suzakuin Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Chuyện đó、 tôi biết rồi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu không phải là em gái、 tôi đã chẳng nhường rồi、 nên phải biết ơn đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,,,,
+
+
+sprite,download/character/191204/image/main.png,card,0,0,1.0,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>…Thôi được rồi。Bọn vô danh tiểu tốt cứ lố nhố thế này thật chướng mắt、 tôi sẽ chém sạch từng đứa một rồi vứt xác chúng đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tinh hoa của Muragaki、 Thiên Nguyên Tề Mệnh Lưu… thật ngại khi phải xưng danh với vẻ ngoài tệ hại thế này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>――Giờ thì、 ra trận thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

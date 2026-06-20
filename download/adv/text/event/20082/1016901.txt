@@ -1,0 +1,832 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11270300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ouka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:anger,ouka2,0,0,0,0,,,,
+imgconf,ouka2,ouka1,0,-472,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chết tiệt、 mày chạy đi đâu rồi！ Tao sẽ chém mày một nhát thôi、 mau ra đây ngay！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-300,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy2,300,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ouka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_b,body:anger,ouka2,0,0,0,0,,,,
+imgconf,ouka2,ouka1,0,-672,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cản đường、 tránh ra！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-300,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy2,300,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Blue,em1,default,animation,0,0,200,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,tint,enemy1,0_0_0,0.5,0
+anm,tint,enemy2,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_b,body:anger,ouka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đâu rồi、 mày chạy đi đâu rồi……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,ouka,-1200_-120,0.5,0
+endwait
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:sad,edel,-300,-120,0.5,0.5,,,,
+anm,tint,edel,150_150_150,0.0001,0
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:surprise,kirie,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kyrie Kirihara</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 Ouka-san、 đợi đã……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:sad,edel,-300,-120,0.5,0,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bỏ đi。Ouka mà đã như thế thì không ai cản được đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kirie,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0.5,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi chà、 Ouka-san ấy mà、 đúng là một khi đã lao đi thì ghê thật đấy nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:unique,edel,-300,-120,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chính mày đã châm ngòi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:smile,rlin,300,-60,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi nào、 thôi nào。Dù sao thì bây giờ chúng ta hãy đuổi theo Ouka-san đi。Cảnh tượng thú vị như thế、 không thể bỏ lỡ được đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:normal,edel,-300,-120,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Cũng phải。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11270300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:normal,kirie,300,-120,0.5,0.5,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:sad,edel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái này là…… kimono sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:normal,kirie,300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kyrie Kirihara</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trông chị có vẻ không hài lòng、 Edelgard-san ghét kimono sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:sad,edel,-300,-120,0.5,0,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 tôi chưa từng mặc bao giờ、 nên cũng chẳng thích hay ghét gì cả…… Nhưng mà khi mặc thử thế này、 kimono bị hạn chế bước chân、 khó di chuyển thật đấy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:normal,kirie,300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kyrie Kirihara</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 trang phục thay đổi tùy theo địa điểm cũng không phải lần đầu、 chúng ta chỉ còn cách làm quen thôi ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,edel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:unique,rlin,-300,-60,0.5,0.5,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà nói thật、 than vãn như thế là quá xa xỉ rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:unique,rlin,-300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ai cũng có đồ mới cả、 sao mỗi mình tôi lại mặc đồ cũ chứ。Thật không công bằng mà。Hừm hừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——Trang phục thì sao cũng được mà。Đừng có mà làm ầm ĩ lên vì mấy chuyện vặt vãnh đó chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:unique,edel,0,-120,0.5,0.5,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô nói thế nhưng mà、 Ouka。Ngay cả cô cũng—— Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:surprise,edel,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>——……Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,edel,0.5
+endwait,,,,,,,,,,,
+wait0.5
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:surprise,rlin,-300,-60,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:surprise,kirie,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kyrie Kirihara</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:surprise,rlin,-300,-60,0.5,0,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ồ、 ồ……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:anger,ouka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Cái phản ứng gì thế kia。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ouka,0.5
+endwait,,,,,,,,,,,
+wait0.5
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:surprise,kirie,300,-120,0.5,0.5,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:surprise,edel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không…… Đành chịu thôi。Bởi vì、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:surprise,kirie,300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kyrie Kirihara</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 vâng…… nói sao nhỉ、 trông chị khác hẳn luôn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kirie,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà nói thật、 đó là Ouka-san phải không？ Thật sao？ Có phải chị bị ai đó hoán đổi rồi không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,edel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,-300,-120,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái phản ứng đó là sao vậy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 bởi vì、 Ouka-san ấy mà、 trông cứ…… nữ tính sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:anger,ouka,-300,-120,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tao là con gái ngay từ đầu rồi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rlin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:unique,edel,300,-120,0.5,0.5,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ăn mặc điệu đà thế này…… Gì thế、 định thu hút sự chú ý của ai sao？ Cái sự giả tạo này đến Edelgard-san cũng phải bất ngờ đấy、 này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:anger,ouka,-300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 cái này tao đâu có muốn mặc đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà nói thật、 ngay cả tao cũng không thoải mái với bộ đồ này、 thà mặc đồ thường còn hơn ấy chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,edel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 trông chị rất hợp mà……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ouka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:unique,edel,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhóc trắng tinh、 không cần phải cố gắng bênh vực đâu nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em là Frau mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:unique,edel,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rồi rồi。Frau cũng giỏi nịnh hót rồi đấy。Tiện thể、 tao sẽ dạy cho một câu hay ho này。Đến cả mặt quỷ cũng phải tô son trát phấn ấy mà——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:unique,edel,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:anger,ouka,-300,-120,0.5,0.5,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mày muốn tao chém không hả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,edel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:sad,kirie,300,-120,0.5,0.5,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kyrie Kirihara</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi nào、 thôi nào…… Edelgard-san cũng không nên nói như thế đâu ạ。Dù có bất ngờ thật、 nhưng đây là một bộ kimono tuyệt đẹp mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,-300,-120,0.5,0,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 vậy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:sad,kirie,300,-120,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kyrie Kirihara</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao chính người trong cuộc lại nói những lời phủ định như thế chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,-300,-120,0.5,0,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 tự nói thì hơi kỳ、 nhưng mấy bộ đồ điệu đà thế này đâu phải phong cách của tao đâu chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kirie,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0.5,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tiện thể、 theo anh thì、 Ouka-san bây giờ trông thế nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Ngầu,Xinh đẹp
+if,select_===_1,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngầu…… Hừm…… Ra vậy。Trông có vẻ điềm đạm hơn mọi khi thì cũng đúng…… nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ouka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:normal,edel,-300,-120,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Điềm đạm ư…… Cái từ đó không hợp với Ouka chút nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:normal,edel,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thứ gì cản đường là đập nát！ Có ý kiến gì thì cứ nhào vô！ Kẻ địch xuất hiện là lao thẳng vào！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:unique,edel,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đó chính là Ouka đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Người được Ouka-san nuôi dạy mà nói thế thì đúng là thuyết phục、 hay nói đúng hơn là rất dễ hiểu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:shy,ouka,0,-120,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>C-cả mày nữa、 đừng có nói mấy lời kỳ cục thế chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:normal,kirie,300,-120,0.5,0.5,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:unique,edel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ouka mà cũng biết ngượng ngùng ra dáng thế đấy、 Kyrie-san。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:normal,kirie,300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kyrie Kirihara</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái giọng điệu gì thế…… Nhưng mà có sao đâu。Em thấy được một khía cạnh bất ngờ của Ouka-san nên cũng hơi vui đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:anger,ouka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đaaah、 im đi！ Quên cái bộ dạng của tao đi、 đừng có bận tâm！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hơn nữa、 cảnh giác xung quanh đi！ Này、 lỡ mà trong lúc mình nói chuyện thế này、 kẻ địch chui ra từ mấy bụi tre kia thì sao hả！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ouka,0.5
+endwait,,,,,,,,,,,
+wait0.5
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:normal,kirie,300,-120,0.5,0.5,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:unique,edel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chạy rồi kìa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:normal,kirie,300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kyrie Kirihara</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khà khà…… Thôi thì、 nhưng mà cũng đúng。Không thể lơ là cảnh giác được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:normal,kirie,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Nhưng mà、 mấy mảnh giấy treo trên khóm tre này là gì thế nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,edel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,-300,-120,0.5,0.5,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là những mảnh giấy ước nguyện Tanabata chứ gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kirie,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0.5,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ouka-san、 chị biết rõ về Tanabata ghê nhỉ。Dù đó là một sự kiện chỉ được biết đến ở châu Á thôi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,-300,-120,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tao có một người quen am hiểu mấy thứ đó。Là do ảnh hưởng từ người đó đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:surprise,rlin,300,-60,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À…… Nhắc mới nhớ、 em từng nghe nói đội trưởng đầu tiên của Mary Warren rất yêu thích Nhật Bản……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,-300,-120,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Thôi thì、 đại khái là vậy đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Với một người mạnh mẽ như Ouka thì chắc sẽ thắc mắc、 viết điều ước lên mảnh giấy này thì được gì chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng mà、 điều ước Tanabata、 vốn dĩ được cho là một nghi thức cầu mong sự tiến bộ trong một lĩnh vực nào đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tất nhiên、 chỉ cầu nguyện thôi thì làm sao mà tiến bộ được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thế nhưng…… việc cầu nguyện có thể là một khởi đầu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Vậy nên ngày mai、 tôi định tổ chức lễ Tanabata cùng các em nhỏ ở trại trẻ mồ côi。Anh cũng sẽ đi cùng tôi chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+bg,download/bg/bg_11270300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:sad,kirie,300,-120,0.5,0.5,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Thật đó、 tự dưng từ đâu mang tre về、 rồi nói sẽ tổ chức Tanabata với đám nhóc ở trại trẻ mồ côi…… Đúng là một người kỳ quặc mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:sad,kirie,300,-120,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kyrie Kirihara</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đến cả Ouka-san cũng nói người khác kỳ quặc được sao……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,-300,-120,0.5,0,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gì chứ、 có gì sai à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nói vậy thôi chứ、 tao không có cái kiểu ước nguyện với ông sao bà trăng đâu。Kẻ địch xuất hiện còn vui hơn mấy mảnh giấy ước nguyện này nhiều。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kirie,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:unique,rlin,300,-60,0.5,0.5,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ouka-san、 đó là một cái flag đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:surprise,ouka,-300,-120,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-400,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy2,300,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy3,-50,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_b,body:normal,ouka,-300,-120,0.5,0.5,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:unique,edel,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái flag gì mà được kích hoạt nhanh chóng và thô thiển thế này……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_b,body:normal,ouka,-300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả…… Gì chứ、 ước nguyện thành hiện thực ngay lập tức rồi này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-400,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy2,300,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy3,-50,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_b,body:normal,ouka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nào、 nhào vô đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:unique,kirie,300,-120,0.5,0.5,,,,
+anm,tint,kirie,150_150_150,0.0001,0
+spriteatlas,download/character/100510/adv/atlas/stand_a,body:unique,edel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Dù ngoại hình có thay đổi、 Ouka vẫn là Ouka nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101109/adv/atlas/stand_a,body:unique,kirie,300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kyrie Kirihara</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy nhỉ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

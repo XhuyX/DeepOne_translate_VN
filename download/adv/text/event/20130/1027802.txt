@@ -1,0 +1,958 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10040400.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm102.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20050201/adv/image/20050201.png,enemy1,0,-100,1,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——————————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:anger,soka,-300,-110,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Là sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:anger,soka,-300,-110,0.5,0,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái ảo ảnh đó…… rõ ràng là đang nghe lời con bé、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em、 em không biết…… Tại sao lại thế này……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:anger,arisu,-300,-120,0.5,0.5,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:sad,yayoi,300,-160,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rốt cuộc đây cũng là một giấc mộng do chị gây rối thôi phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:anger,arisu,-300,-120,0.5,0,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Maia、 mục đích của chị là gì？！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,yayoi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia,300,-120,0.5,0.5,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Naitou Maia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu có mục đích、 liệu chị có chấp nhận không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù có hay không có mục đích、 Routie và Alice đằng nào cũng coi tôi là kẻ xấu。Vậy thì、 giải thích có ý nghĩa gì chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi chỉ là được giấc mộng này yêu thích thôi mà、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Một giấc mộng sâu thẳm và kỳ lạ、 khác với những giấc mộng chúng ta từng biết。Nhưng nơi đây、 dường như đã trở thành giấc mộng của tôi rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì thế、 tôi mới có thể làm được những điều như thế này、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+shake,0.2,4,15,15
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10060300.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:anger,yayoi,300,-160,0.5,0.5,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:surprise,arisu,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ố、 ố ố、 khoan đã、 cái gì thế này、 tự nhiên đổi chỗ rồi！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:anger,yayoi,300,-160,0.5,0,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị lại làm theo ý mình hơn mọi khi rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,arisu,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia,-300,-120,0.5,0.5,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Naitou Maia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy。Dù là giấc mộng khác mọi khi、 nhưng lại thuận tiện hơn。Còn các chị、 có vẻ không được giấc mộng này yêu thích cho lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dreamlands、 phải không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Giá mà giấc mộng thường ngày cũng thuận tiện như thế này thì tốt biết mấy、 nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,yayoi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:anger,arisu,300,-120,0.5,0.5,,,,
+anm,tint,maia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi xin lỗi chứ、 tôi không muốn lúc nào cũng trong cái tình trạng này đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_b,body:normal,aika,-300,-120,0.5,0.5,,,,
+anm,tint,aika,150_150_150,0.0001,0
+spriteatlas,download/character/100502/adv/atlas/stand_a,body:anger,edel,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chậc…… Tôi không hiểu rõ lắm、 nhưng Aika、 Souka！ Rút lui một lần đã。Cứ thế này thì không biết phải làm gì！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_b,body:normal,aika,-300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,edel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:normal,soka,300,-110,0.5,0.5,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không biết là địch hay bạn、 nhưng…… tạm thời、 tôi sẽ không để cô cử động được đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:unique,maia,-300,-120,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Naitou Maia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi đáng sợ quá。Tôi chỉ là một cô gái bình thường thôi mà、 bị chĩa kiếm như thế này thì run rẩy mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:unique,maia,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Phải chạy trước khi bị làm đau chứ、 nhỉ？ Người duy nhất tôi chấp nhận bị đối xử tệ bạc là anh trai tôi thôi…… đùa đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100502/adv/atlas/stand_a,body:anger,edel,300,-120,0.5,0.5,,,,
+anm,tint,maia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị đang nói cái gì――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia,-300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Naitou Maia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufu。Tôi đang nói gì ư、 tôi sẽ không nói cho các chị biết đâu。Những gì các chị muốn biết、 các chị hãy tự nói cho nhau nghe đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,0,0,0,1,0.3,1.0
+spriteoff,maia,1
+playse,/download/sound/se/se_28070106_entry_04.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100502/adv/atlas/stand_a,body:surprise,edel,300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nà――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,-300,-120,0.5,0.5,,,,
+anm,tint,aika,150_150_150,0.0001,0
+spriteatlas,download/character/100502/adv/atlas/stand_a,body:anger,edel,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Biến mất rồi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,-300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ảo ảnh cũng biến mất từ lúc nào rồi…… Nhưng Frau có thể biết con bé đi đâu mà、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,edel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em xin lỗi…… Vùng này đã trở thành giấc mộng của con bé rồi。Em cũng không rõ nữa……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:normal,soka,-300,-110,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trở thành giấc mộng của con bé、 là sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm、 cái đó thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:normal,yayoi,300,-160,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin lỗi nhé、 nhưng nếu các cô không tự mình nói chuyện mà giải thích cho chúng tôi thì tốt hơn đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:normal,arisu,-300,-120,0.5,0.5,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng đó！ Rốt cuộc giấc mộng này là gì？ Tôi đang ở đâu、 tôi là ai、 tôi đang trong trạng thái đó đấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:sad,yayoi,300,-160,0.5,0,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô biết mình là ai mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:unique1,arisu,-300,-120,0.5,0,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Arisu-chan、 cô gái xinh đẹp bí ẩn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:unique1,yayoi,300,-160,0.5,0,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 làm ơn im lặng đi vì cô đang làm gián đoạn cuộc nói chuyện đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100502/adv/atlas/stand_a,body:unique,edel,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mấy cô này là sao vậy、 đúng là những người phụ nữ thú vị mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10060300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:sad,arisu,-300,-120,0.5,0.5,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:sad,yayoi,300,-160,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Không、 thế giới khác ư…… là một giấc mộng có bối cảnh như vậy sao……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:sad,arisu,-300,-120,0.5,0,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không có vẻ là như thế đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:sad,arisu,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù tôi cũng bất ngờ、 nhưng khi được nói、 tôi lại có cảm giác chấp nhận được phần nào、 kiểu như 'À、 ra là vậy'。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:sad,arisu,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nguyên thư Pnakotic？ Là thứ đã tạo ra、 ừm、 một kẻ cuồng game？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:sad,yayoi,300,-160,0.5,0,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dreamlands。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:normal,arisu,-300,-120,0.5,0,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 đúng rồi đó。Nếu nó bị ảnh hưởng bởi ý thức、 suy nghĩ của con người、 thì có lẽ nó giống như một giấc mộng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:normal,arisu,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu vậy、 việc chúng ta lạc vào giấc mộng đó cũng không quá kỳ lạ、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:sad,yayoi,300,-160,0.5,0,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 nhưng mà…… thông qua giấc mộng mà đến một không gian dị giới giống như giấc mộng ở một thế giới khác、 thì…… cô có chấp nhận được cái sự viễn tưởng đó không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,yayoi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100502/adv/atlas/stand_a,body:unique,edel,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 mấy người sống trong cái thế giới quan mà phiêu lưu trong mơ như thế thì cũng nên tự nhận thức được rằng mình cũng là một dạng viễn tưởng đấy chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,arisu,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:normal,soka,-300,-110,0.5,0.5,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải viễn tưởng mà là mơ mộng thì đúng hơn nhỉ？ Phiêu lưu trong mơ nghe có vẻ vui đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,edel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:sad,yayoi,300,-160,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nó không tốt đẹp đến thế đâu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,-300,-120,0.5,0.5,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tóm lại、 tôi đã hiểu tình huống rồi。Các cậu、 những người có thể đi xuyên qua giấc mộng、 đã bất chợt lạc vào Dreamlands。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu có thể đi xuyên qua giấc mộng、 vậy ngay từ đầu các cậu có thể tự mình quay về không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:sad,arisu,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ờ thì、 cái đó có vẻ không được rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:sad,arisu,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Kiểu như、 đã đi qua cánh cửa mà không hay biết、 rồi bị khóa lại luôn vậy đó？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:normal,yayoi,300,-160,0.5,0,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 chìa khóa của cánh cửa đó đâu？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:unique1,arisu,-300,-120,0.5,0,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ở đâu nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:sad,yayoi,300,-160,0.5,0,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,arisu,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100502/adv/atlas/stand_a,body:normal,edel,-300,-120,0.5,0.5,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Frau、 chuyện này không thể làm gì sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,yayoi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm。。。ừm。。。chúng ta không thể làm ra chìa khóa đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cánh cửa đó là cảm xúc mong muốn một nơi xa xôi。。。nên nếu không làm gì với cảm xúc đó thì。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,edel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:sad,arisu,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？ Mong muốn một nơi xa xôi ấy hả。。。Là sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:normal,yayoi,300,-160,0.5,0.5,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À。。。ra vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:surprise,arisu,-300,-120,0.5,0,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả、 thật không？ Không lẽ Yayoi đã hiểu chỉ với câu đó sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:normal,yayoi,300,-160,0.5,0,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu nghĩ về tình hình của chúng ta gần đây、 thì đại khái là vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:sad,arisu,-300,-120,0.5,0,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tình hình。。。？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:normal,yayoi,300,-160,0.5,0,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy。Thor sẽ ra sao。。。giấc mộng sẽ ra sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:sad,arisu,-300,-120,0.5,0,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？ Tôi hơi không hiểu lắm。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:normal,yayoi,300,-160,0.5,0,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vấn đề là、 có muốn biến mất、 hay là không muốn biến mất mà thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:unique1,arisu,-300,-120,0.5,0,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,arisu,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100502/adv/atlas/stand_a,body:unique,edel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 chị thỏ gợi cảm ơi。Mặt của người đi cùng chị đang rất buồn cười đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:normal,yayoi,300,-160,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện thường ngày mà、 đừng bận tâm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,edel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_a,body:normal,aika,-300,-120,0.5,0.5,,,,
+anm,tint,yayoi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là chuyện thường ngày sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,yayoi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:normal,soka,300,-110,0.5,0.5,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lúc nào cũng có vẻ mặt buồn cười hết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:anger,arisu,-300,-120,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật là vô lễ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm thì、 để Arisu và mọi người quay về thế giới cũ。。。quay về giấc mộng cũ thì——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia2,0,0,0,0,,,,
+imgconf,maia2,maia1,0,-340,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Naitou Maia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Điều muốn biết、 đã biết rồi chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia2,0,0,0,0,,,,
+imgconf,maia2,maia1,0,-340,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu vậy thì。。。chúng ta bắt đầu trò đuổi bắt nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia2,0,0,0,0,,,,
+imgconf,maia2,maia1,0,-340,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu bị bắt、 thì mọi chuyện kết thúc。Tôi sẽ không thong thả chờ đợi cho đến khi các người hài lòng đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia2,0,0,0,0,,,,
+imgconf,maia2,maia1,0,-340,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù là trong rừng thì còn đỡ。。。đằng này lại lạc đường trong giấc mộng như thế này、 thật là Alice hư hỏng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10060300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+flash,0,0,0,4,0.3,1.0
+playse,/download/sound/se/se_011.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:surprise,arisu,-300,-120,0.5,0.5,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+spriteatlas,download/character/100502/adv/atlas/stand_a,body:anger,edel,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khựng。。。Cơn rung lắc này。。。！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:surprise,arisu,-300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Oa、 cầu thang đổ sập。。。Rơi、 rơi mất rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,edel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193804/adv/atlas/stand_a,body:anger,yayoi,300,-160,0.5,0.5,,,,
+anm,tint,arisu,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yayoi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Alice、 lại đây。。。！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+playse,/download/sound/se/se_011.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:sad,arisu,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Toriumi Arisu</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khoan。。。dưới chân lại。。。！？ A、 aaaa。。。！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193604/adv/atlas/stand_a,body:sad,arisu,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Oaaaaa！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+anm,move,arisu,0_-900,0.6,0
+endwait
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_b,body:sad,aika,-300,-120,0.5,0.5,,,,
+anm,tint,aika,150_150_150,0.0001,0
+spriteatlas,download/character/100502/adv/atlas/stand_a,body:anger,edel,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard Einstein</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chậc、 hết cách rồi。。。！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104102/adv/atlas/stand_b,body:sad,aika,-300,-120,0.5,0,,,,
+anm,tint,edel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị ơi、 phần còn lại nhờ chị nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100502/adv/atlas/stand_a,body:anger,edel,300,-120,0.5,0,,,,
+anm,jump,edel,300_-120_100_1,0.4,0
+anm,jump,aika,-300_-120_100_1,0.4,0
+wait,0.4
+anm,move,edel,300_-1200,0.5,0
+anm,move,aika,-300_-1200,0.5,0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,up
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.5,up
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,soka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:sad,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Aika。。。！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

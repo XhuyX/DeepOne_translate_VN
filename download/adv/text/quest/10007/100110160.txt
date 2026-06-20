@@ -1,0 +1,325 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,elica1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica2,0,0,0,0,,,,
+imgconf,elica2,elica1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……―――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ưm、 ừm……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm034.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Không được rồi。Sao mình lại có thể ngủ gật ở một nơi như thế này chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:unique,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy thì―― ngươi đang làm cái quái gì ở đây thế、 tên hạ tiện？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:unique,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hay là、 ngươi định lợi dụng lúc ta ngủ để giở trò gì đó phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Dễ thương quá、 nên tôi lỡ tay,Bị phát hiện rồi thì đành chịu
+if,select_===_1,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:unique,elica,0,-100,0.5,0,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngươi nghĩ nịnh nọt như thế thì ta sẽ bỏ qua sao？ Đúng là suy nghĩ nông cạn của một tên hạ tiện。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Và ta cũng ngạc nhiên với sự bất cẩn của mình、 khi không hề tỉnh giấc dù có một kẻ như ngươi ở bên cạnh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu là ta của trước đây、 chuyện này tuyệt đối sẽ không xảy ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:unique,elica,0,-100,0.5,0,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi、 ngươi định làm gì khi cứ trơ tráo như thế hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,elica,0.6_0.6,0.5,0
+endwait
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:surprise,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Ngươi…… định làm gì、 sao tự nhiên lại gần thế…… K-khoan đã……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,elica1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:shy,elica2,0,0,0,0,,,,
+imgconf,elica2,elica1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ưm、 ứm……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Chỉ là chọc má thôi sao…… Trò đùa gì thế này。Ta cứ tưởng mình đã chuẩn bị tinh thần để làm gì đó rồi chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thật là…… Tự tiện chạm vào mặt phụ nữ như thế、 tên hạ tiện các ngươi không có chút phép tắc nào sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hơn nữa…… ta cũng không ngờ mình lại bất cẩn đến thế。Trước đây、 ta chưa từng để ai chạm vào mặt mình như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bởi vì thế giới nhỏ bé của ta、 đôi mắt của ta―― nó tràn ngập nỗi sợ hãi những kẻ ghê tởm、 đắm chìm trong dục vọng、 thèm khát sức mạnh của Đôi mắt của Tohil。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mỗi ngày、 ta đều cảm thấy bị đè nặng bởi sự thật rằng ai đó đang cố gắng hy sinh tất cả của ta để thực hiện mong muốn của họ bằng đôi mắt này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu có ai đó đến gần、 ta sẽ không thể thảnh thơi ngủ gật mà sẽ bật dậy ngay lập tức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy mà bây giờ…… ta đã hoàn toàn mất đi sự cảnh giác vì các ngươi rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:surprise,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>……――Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>À、 ta ngủ không phải vì mệt mỏi đâu nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Haiz、 đúng là một lời biện hộ vụng về、 ngay cả ta cũng thấy thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ở R'lyeh này、 ta đã tìm thấy sự bình yên。Nhưng…… sự bình yên đó、 ta vẫn chưa quen được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ta không quen chấp nhận sự tử tế của người khác…… và cũng không quen với việc trái tim mình rung động vì điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ta muốn đáp lại dù chỉ một chút sự bình yên mà mình đã nhận được、 nên cũng cố gắng gần gũi mọi người…… nhưng điều đó、 vẫn thật xa lạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì vậy…… tuy không phải là đau khổ、 nhưng có lẽ ta hơi mệt một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,elica,0.6_0.6,0.5,0
+endwait
+shake,0.5,3,12,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>……Khoan đã、 sao tự nhiên lại xoa đầu ta？ Ta đâu phải trẻ con……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Haiz…… dù ta có bảo dừng lại、 anh cũng sẽ không dừng đâu nhỉ。Thôi được rồi。Nếu nói cũng vô ích thì cứ làm gì anh muốn đi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>À phải rồi、 Louise hình như bị thương nhẹ trong trận chiến、 nên hãy quan tâm đến cô ấy một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Còn Maya…… cô ấy có vẻ thường tự tạo khoảng cách với người khác vì sức mạnh lời nguyền của mình、 nên đừng để cô ấy một mình quá nhiều。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Ngoài ra、 không chỉ riêng anh đâu、 nhưng mọi người hơi dựa dẫm Asaka quá đấy。Cô ấy có vẻ cũng thích làm vậy、 nhưng dù sao thì cũng nên biết giữ ý một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Nói đến đó、 Lynn thì ngược lại、 lại quá khách sáo。Cơ thể cô ấy đặc biệt là điều không thể tránh khỏi、 nên không cần phải bận tâm nhiều đến vậy đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>À phải rồi…… Giselle nói sẽ cho Bridget ở chung phòng、 không biết có ổn không nhỉ…… Mong là hai chị em hòa thuận。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Nhắc đến chị em、 Rise và những người khác đã ghen tị với Norn và Frau đấy。Không biết sẽ ra sao nếu sự ghen tị đó trở nên quá mạnh、 nên hãy cẩn thận nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Sau đó、 Kyrie…… cô ấy đang cố gắng quá sức、 nên anh có thể ép cô ấy nghỉ ngơi được không？ Hãy dành thời gian cho cô ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:surprise,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>……？ Cái vẻ mặt ngơ ngác đó là sao vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Ta chỉ đang nói chuyện bình thường với mọi người và kể lại cho anh thôi。Chẳng có gì to tát hay đáng ngạc nhiên cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Anh cũng làm điều đó thường xuyên mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>……Và、 ta chắc là không làm tốt được như anh đâu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 ta cũng đâu muốn trở thành anh、 nên như thế cũng không sao cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Chỉ là…… ta chỉ muốn thử gần gũi anh một chút、 vậy thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:unique,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>――Đừng hỏi 'tại sao'。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:unique,elica,0,-100,0.6,0,,,,
+msg,0,<outline width=2 color=black>Ta không muốn nói ra điều đó đâu…… Thật là xấu hổ mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:unique,elica,0,-100,0.5,0.8,,,,
+endwait,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ta sẽ về phòng nghỉ ngơi đây。Tạm biệt nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+anm,move,elica,1200_-100,1.5,0
+playse,/download/sound/se/se_016.mp3
+endwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,elica1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:shy,elica2,0,0,0,0,,,,
+imgconf,elica2,elica1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mình vừa nói cái gì vậy chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

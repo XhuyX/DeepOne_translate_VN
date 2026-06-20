@@ -1,0 +1,141 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Mark13,em1,default,animation,0,110,210,0.65,0.6,0.5
+endwait
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Haizzz…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_01.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,0,,,,,,,,,
+endwait
+msg,1,<size=30><outline width=2 color=black>sad: À、 x… xin lỗi。Tự dưng em lại thở dài…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:smile,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>smile: Fufu… Cảm ơn anh đã lo lắng。Nhưng không có gì phải phiền lòng đâu ạ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Chỉ là… em bị người hầu cấm ăn đồ cay thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_04.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>sad: Ba ngày… Ba ngày không được ăn đồ cay… Haizz。Với em、 đồ cay là động lực sống mỗi ngày…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Anh có món nào thích、 không thể thiếu không？ …Hả？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:surprise,zizeru,0,-120,0.5,0,,,,
+spine,download/adv/spine/Mark3,em2,default,animation,0,110,210,0.65,0.6,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>surprise: W、 w… em á…？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_07.mp3
+clickwait,,,,,,,,,,,
+spineoff,em2,0,,,,,,,,,
+endwait
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:shy,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>shy: À、 à… chuyện đó… có khi nào… mang ý nghĩa người lớn không…？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_08.mp3
+clickwait,,,,,,,,,,,
+select,選択肢1 「そうだ,選択肢2 「違う
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:shy,zizeru,0,-120,0.5,0,,,,
+endwait
+spine,download/adv/spine/Mark3,em3,default,animation,0,110,210,0.65,0.6,0.5
+endwait
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>shy: Ê… ế… ế ế ế！？ Th、 thật ạ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_09.mp3
+clickwait,,,,,,,,,,,
+spineoff,em3,0,,,,,,,,,
+endwait
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:surprise,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>surprise: T、 thôi nào、 ừm… giờ vẫn là ban ngày mà… mấy chuyện đó thì để tối… không、 không phải cứ tối là được đâu…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>sad: À、 ừm…？ Có khi nào anh nói đùa không…？ Em、 em hết hồn… Đừng dọa em nữa mà…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_11.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>sad: V、 vậy sao。A ha ha、 em cứ tưởng bở…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:anger,zizeru,0,-120,0.5,0,,,,
+spine,download/adv/spine/Mark6,em4,default,animation,0,110,210,0.65,0.6,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>anger: Á、 anh vừa cười phải không？ Ơ、 thôi nào… tại anh nói bóng gió nên em mới hiểu lầm đấy！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_13.mp3
+clickwait,,,,,,,,,,,
+spineoff,em4,0,,,,,,,,,
+endwait
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Thôi nào… được anh để ý thì em vui、 nhưng mong anh để ý lời nói hơn… Mà、 anh cố tình đấy à？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_14.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Dạo này em thấy anh nói đùa bỡn nhiều hơn đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:shy,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>shy: Th、 mà… nhiều chuyện xảy ra、 quan hệ của chúng ta cũng thân thiết hơn trước、 nên… có lẽ cũng phải thôi…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Chuyện đi đâu đâu mất rồi… Chúng ta đang nói chuyện gì nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>normal: À、 phải rồi。Chuyện đồ ăn em thích…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Haizz… Nhưng thật sự、 tại sao lại cấm em ăn đồ cay chứ。Em chỉ ăn ớt như ăn vặt thôi mà…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_19.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:surprise,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>surprise: Ơ？ Anh sao thế、 sao mặt nhăn nhó vậy…？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_20.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Món khác em thích á？ Ưm。Ngoài đồ cay ra thì… À、 mà không phải đồ ăn…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_21.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Em thích trà mà chị Bridget――chị em pha từ hồi còn bé。Vị đắng và mùi hương đặc trưng đó khiến em ghiền luôn。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_22.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: À Mari、 chị ấy không có cơ hội pha trà cho em、 nhưng mà、 thỉnh thoảng chị ấy pha cho em thì em vui lắm…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_23.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: …Muốn uống nữa…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_24.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>sad: À、 ơ？ Sao mặt anh méo mó hơn lúc nãy vậy…？ Khẩu vị mỗi người mỗi khác？ Ơ、 ý anh là sao…？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100701/adv/sound/fav100701_04_25.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

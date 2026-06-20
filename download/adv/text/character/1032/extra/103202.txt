@@ -1,0 +1,104 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10040300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_01.mp3
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Phòng bệnh bẩn thỉu nhỉ…… Những nơi thế này làm em nhớ về nơi cũ、 nên em ghét lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,Anh từng nhập viện sao？,Nơi em lớn lên à？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_02.mp3
+msg,1,<outline width=2 color=black>Tiếc là sai rồi。Em chưa từng nhập viện bao giờ đâu。Mà nói thật、 em còn chưa từng đến bệnh viện tử tế nào nữa là。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_03.mp3
+msg,1,<outline width=2 color=black>Nơi em lớn lên không phải là nơi cho phép những chuyện như vậy đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:surprise,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_04.mp3
+msg,1,<outline width=2 color=black>Ngạc nhiên thật đấy…… Sao anh lại biết chuyện đó？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_05.mp3
+msg,1,<outline width=2 color=black>À、 phải rồi。R'lyeh là cơ sở do Tổ chức Lovecraft xây dựng mà。Chắc anh đã xem tài liệu lưu trữ rồi biết về nơi em lớn lên、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:sad,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_06.mp3
+msg,1,<outline width=2 color=black>Chắc hẳn toàn những chuyện chẳng ra gì được viết trong đó、 phải không？ ……Nhưng mà、 thực tế thì、 nơi đó còn tệ hơn rất nhiều so với những gì anh tưởng tượng đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_07.mp3
+msg,1,<outline width=2 color=black>Em đã học được nhiều thứ ở nơi đó。Nhưng cách để học chúng thì toàn là đau đớn và khổ sở。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_08.mp3
+msg,1,<outline width=2 color=black>……Muốn nghe chuyện của em à、 nhỉ。Dù anh có tỏ ra hứng thú như vậy、 em cũng chẳng vui chút nào đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_09.mp3
+msg,1,<outline width=2 color=black>Thôi thì、 cứ lầm lũi đi trong một nơi thế này cũng dễ khiến tâm trạng u ám、 nên em sẽ kể cho anh nghe một chút vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_10.mp3
+msg,1,<outline width=2 color=black>Từ nhỏ、 em đã được nuôi dưỡng trong cùng một tổ chức với các chị。Ở đó、 em bị buộc phải học cách giết người và vô vàn thứ cần thiết cho việc đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_11.mp3
+msg,1,<outline width=2 color=black>Trong các buổi huấn luyện giả định chiến đấu、 không ít những đứa trẻ cùng cảnh ngộ đã chết。Rồi còn phải uống đủ loại thuốc、 tiêm truyền dịch nữa……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_12.mp3
+msg,1,<outline width=2 color=black>Toàn là đau khổ、 nên em ghét cay ghét đắng nơi đó。Đương nhiên rồi、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_13.mp3
+msg,1,<outline width=2 color=black>Nhưng rồi、 một ngày nọ、 sau khi em được giao nhiệm vụ một thời gian。Khi em trở về từ nhiệm vụ、 cả cơ sở đã ngập tràn xác chết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:smile,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_14.mp3
+msg,1,<outline width=2 color=black>Cả nhà nghiên cứu gầy gò đã tiêm cho em những loại thuốc đáng ghét、 cả ông chú râu ria đã quất roi phạt em vì làm không tốt、 tất cả、 tất cả đều nằm lăn lóc với đôi mắt vô hồn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:smile,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_15.mp3
+msg,1,<outline width=2 color=black>Cảnh tượng mọi thứ em ghét cay ghét đắng đều bị phá hủy hoàn toàn…… A ha、 giờ nhớ lại、 em vẫn vui đến mức bật cười luôn đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:smile,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_16.mp3
+msg,1,<outline width=2 color=black>Và người đã làm điều đó chính là Lydia-oneesama và Milva-oneesama。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:smile,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_17.mp3
+msg,1,<outline width=2 color=black>Vì vậy、 em rất yêu quý các chị ấy。Bởi vì các chị ấy đã giải thoát em khỏi cái nơi đáng ghét đó mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_18.mp3
+msg,1,<outline width=2 color=black>Em trở thành Người Truy Tìm cũng là vì nghe nói các chị ấy sẽ đến R'lyeh này。Em chẳng có hứng thú gì với Nguyên thư Pnakotic hay Dreamlands cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_19.mp3
+msg,1,<outline width=2 color=black>Nhưng nếu các chị ấy muốn có nó、 em sẽ làm mọi cách để giúp đỡ。Dù phải giết bất cứ ai、 hay thậm chí là phải chết đi chăng nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103202/adv/atlas/stand_a,body:normal,alma,0,-120,0.5,0,,,,
+playvoice,1,download/character/103203/adv/sound/fav103203_02_20.mp3
+msg,1,<outline width=2 color=black>Đó là điều ít ỏi nhất em có thể làm để đền đáp các chị ấy mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

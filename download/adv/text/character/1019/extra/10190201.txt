@@ -1,0 +1,105 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,
+endwait
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:sad,siruvi,25,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ở đây cũng không có manh mối nào sao。Bên cậu thế nào？ Có tìm thấy gì không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Vậy sao。Thôi thì、 dù đã chuẩn bị tâm lý là thất bại cũng không sao、 nhưng thực sự không có thu hoạch gì thì cũng thấy nản lòng nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>R'lyeh là một cơ sở nằm sâu dưới đáy biển…… Nếu không phải lối ra vào chính thức thì sẽ không thể trở về mặt đất được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thực ra、 chúng ta đã chuẩn bị thuyền thoát hiểm khẩn cấp rồi…… nhưng con đường để đến đó cũng bị kết giới phong tỏa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vẫn chưa biết là do Nguyên thư Pnakotic hay một thế lực nào khác gây ra、 nhưng kẻ đã tạo ra môi trường phong tỏa này quả thực không có sơ hở nào nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù sao thì chúng ta cũng đã tìm kiếm kỹ lưỡng khu vực này rồi、 vậy hãy di chuyển đến một nơi khác thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy、 chúng ta nên tìm kiếm ở đâu đây？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_07.mp3
+clickwait,,,,,,,,,,,
+select,Lựa chọn 1: Sảnh chính,Lựa chọn 2: Phòng của Sylvie
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:sad,siruvi,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sảnh chính sao…… Lần trước khi tôi tự mình tìm kiếm qua loa thì không có gì đặc biệt đáng chú ý cả。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng cũng có thể tôi đã bỏ sót điều gì đó、 nếu tìm kiếm cùng cậu thì liệu có phát hiện mới nào không nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_09.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,siruvi,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừm？ Tôi nghĩ tìm phòng của tôi cũng chẳng ra gì đâu…… Hay là cậu đang rất tò mò về tôi đấy à？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hay là cậu có sở thích lục lọi phòng của phụ nữ？ Có vẻ cậu cũng có một sở thích không được đứng đắn cho lắm nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_11.mp3
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/Mark9,em1,default,animation,0,120,160,0.65,0.8,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>Cậu không cần phải vội vàng che giấu như thế đâu。Nhưng bây giờ điều tra là ưu tiên hàng đầu、 nên hãy để niềm vui đó lại sau nhé…… Khà khà khà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_12.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,0,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 dù có tiếp tục điều tra đi chăng nữa、 có lẽ cũng không thể mong đợi tìm thấy nhiều manh mối đâu。Dù có lạc quan đến mấy thì tình hình cũng không hề đơn giản chút nào。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù vậy、 với tư cách là một nhà nghiên cứu、 tôi không thể từ bỏ việc tìm tòi và làm sáng tỏ được。Hơn nữa、 chính tình huống này đã là một đối tượng nghiên cứu hấp dẫn đến không thể cưỡng lại được rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nguyên thư Pnakotic luôn thu hút tôi như thế này…… Có lẽ tôi không thể thoát khỏi ma lực này được rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_15.mp3
+clickwait,,,,,,,,,,,
+spriteoff,siruvi,0.5,
+endwait
+mask,bg1,0,0,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,siruvi1,0,0,1280,200,0.5,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:anger,siruvi,0,0,0,0,,,,
+imgconf,siruvi,siruvi1,-10,-330,,,0,1.5,1.5,0
+endwait
+msg,1,<size=30><outline width=2 color=black>——Dù tôi có tự biết mình đang đi chệch khỏi mục tiêu ban đầu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_16.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0.5
+endwait
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0.5,,,,
+endwait
+msg,1,<size=30><outline width=2 color=black>……Không、 tôi đã nói những điều vô nghĩa rồi。Chuyện đó không liên quan gì đến cậu đâu、 đừng bận tâm。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi nào、 cứ chần chừ mãi cũng chẳng ích gì。Chúng ta hãy đến địa điểm tiếp theo thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_05_18.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

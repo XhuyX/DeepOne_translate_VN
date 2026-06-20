@@ -1,0 +1,565 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>――Bóc trần tâm can、 rồi biến thành một bức thư tình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Chắc hẳn Rosette của trước kia chẳng hề bận tâm đến đặc tính của cõi này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Rosette của trước khi gặp người ấy chỉ là một công cụ、 một lưỡi gươm diệt trừ、 chỉ là một phần tử nơi tận cùng、 biểu thị ý chí của chủ nhân vĩ đại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Bản thân mình、 còn chẳng tồn tại。Vì thế、 cũng chẳng có tâm can nào để bị bóc trần。Chắc chắn là đã nghĩ vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nhưng rồi gặp được người ấy、 khao khát được sống như một con người trỗi dậy trong lòng、 sâu thẳm trong ngực này、 quả thực có một thứ gì đó khác biệt so với trước kia…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tất cả những điều đó、 nếu là với người ấy、 thì chẳng có gì phải giấu giếm。Phải dâng hiến tất cả mới đúng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>――Ấy vậy mà、 tại sao…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Khi biết được đặc tính của cõi này、 sâu trong ngực lại xao động。Chỉ trong khoảnh khắc… cảm giác kháng cự như vừa mới nảy mầm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Cứ như thể trong Rosette、 có một thứ gì đó mà người ấy không được biết đến…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Muốn báo đáp ân tình đã nhận từ người ấy。Vì điều đó、 lưỡi gươm này、 thậm chí cả tính mạng này、 cũng có thể dâng hiến… lẽ ra đó mới là tấm lòng của Rosette。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Sự chuyển động trong tâm can、 khác xa với hình ảnh bản thân đã vẽ ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Rosette phải làm sao để thấu hiểu được cảm xúc này、 cảm giác này đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11630300.jpg,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20210201/adv/image/20210201.png,enemy1,1200,-130,1.35,0,,,,
+endwait,,,,,,,,,,,
+anm,move,enemy1,0_-130,0.7,0
+endwait
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,enemy1,-1200_-130,0.7,0
+endwait
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100952/adv/atlas/stand_a,body:normal,ilyna,1200,-220,0.5,0,,,,
+spriteatlas,download/character/101053/adv/atlas/stand_a,body:normal,jamila,1200,-180,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_018.mp3
+anm,move,ilyna,300_-220,0.7,0
+anm,move,jamila,-300_-180,0.9,0
+endwait
+
+
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chậc… Chạy nhanh thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101053/adv/atlas/stand_a,body:normal,jamila,-300,-180,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ồ、 đã chịu bỏ cuộc rồi sao？ Vậy thì cứ tự nhiên。Mấy người như cô、 không vướng víu thì tôi còn dễ bắt hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100952/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô thì có vẻ thở hổn hển đấy、 hay là cứ ngủ một giấc ở đâu đó đi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101053/adv/atlas/stand_a,body:anger,jamila,-300,-180,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có đùa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100952/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+playse,/download/sound/se/se_018.mp3
+anm,move,ilyna,-1200_-220,1,0
+anm,move,jamila,-1200_-180,0.9,0
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102313/adv/atlas/stand_a,body:surprise,weat,-300,-240,0.5,0.5,,,,
+anm,tint,weat,150_150_150,0.0001,0
+spriteatlas,download/character/100312/adv/atlas/stand_a,body:normal,catia,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Irina và Jamila đuổi theo mà vẫn không bắt được… Ảo ảnh đó、 khác hẳn vẻ ngoài、 lại nhanh nhẹn đến thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100312/adv/atlas/stand_a,body:normal,catia,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chúng ta ở trong tòa nhà、 nếu đi đường tắt thì may ra…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102313/adv/atlas/stand_a,body:surprise,weat,-300,-240,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A… Khoan đã、 Katia。Kia là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20210201/adv/image/20210201.png,enemy1,-400,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy2,300,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy3,-50,-130,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103711/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/100312/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lại là ảo ảnh đó…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103711/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ư… T-tự dưng、 đứng cạnh nhau、 thấy sợ quá…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102313/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Quả thật… Cảm giác áp đảo… Nói thật thì、 không muốn đến gần chút nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,weat,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102918/adv/atlas/stand_a,body:normal,rozet,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cứ yên tâm。Rosette sẽ bảo vệ mọi người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103711/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。Cậy nhờ cả vào cậu đấy、 Rosette。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102313/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…À、 mà này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102313/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ảo ảnh đó、 hình như cũng cầm một cái phong bì dễ thương、 có khi nào…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103711/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừ、 ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,weat,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100312/adv/atlas/stand_a,body:sad,catia,-300,-100,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không lẽ nào…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20210201/adv/image/20210201.png,enemy1,-400,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy2,300,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy3,-50,-130,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,enemy1,1200_-130,1,0
+anm,move,enemy2,1200_-130,0.6,0
+anm,move,enemy3,1200_-130,0.8,0
+endwait
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20210201/adv/image/20210201.png,enemy1,-1200,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy2,-1200,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy3,-1200,-130,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+anm,move,enemy1,-400_-130,0.8,0
+anm,move,enemy2,300_-130,1,0
+anm,move,enemy3,-50_-130,0.8,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102918/adv/atlas/stand_b,body:anger,rozet,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…！ Không đời nào để ả đến chỗ người ấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102313/adv/atlas/stand_a,body:surprise,weat,-300,-240,0.5,0.5,,,,
+anm,tint,weat,150_150_150,0.0001,0
+spriteatlas,download/character/100312/adv/atlas/stand_a,body:shy,catia,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu nghĩ đến nội dung bức thư của Bridget-san、 thì tôi cũng không thể để người ta xem thư của mình…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100312/adv/atlas/stand_a,body:anger,catia,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Beatrice-san… Không、 thưa mẹ、 xin hãy giúp con！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102313/adv/atlas/stand_a,body:surprise,weat,-300,-240,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Katia-san…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102313/adv/atlas/stand_a,body:smile,weat,-300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Đương nhiên rồi。Con gái đã nói vậy、 thì có người mẹ nào từ chối chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102313/adv/atlas/stand_a,body:shy,weat,-300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Với lại、 nếu nghĩ đến việc thư của mình lọt vào tay anh ấy、 thì tôi cũng không thể làm ngơ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102313/adv/atlas/stand_a,body:anger,weat,-300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tóm lại、 bây giờ phải ngăn chặn ảo ảnh đó、 rồi tiêu hủy bức thư！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100312/adv/atlas/stand_a,body:anger,catia,300,-100,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy1,0,-130,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Red,em1,default,animation,0,-200,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102918/adv/atlas/stand_b,body:normal,rozet,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khá là dai sức nhỉ… Nhưng với đòn kế tiếp…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102918/adv/atlas/stand_b,body:normal,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hãy đánh tan tà ác gieo rắc bóng tối trong lòng mọi người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Không đời nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11630300.jpg,1,255
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102918/adv/atlas/stand_b,body:anger,rozet,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,-200,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+anm,move,rozet,300_-100,0.3,0
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao… Tại sao、 người lại…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100212/adv/atlas/stand_a,body:anger,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đây là câu trả lời mà ta đã tìm thấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100212/adv/atlas/stand_a,body:anger,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu muốn cười nhạo thì cứ cười đi。Nhưng với ta、 giờ chỉ còn con đường này thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100212/adv/atlas/stand_a,body:anger,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ta đã muộn mất rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100212/adv/atlas/stand_a,body:anger,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-861,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì thế… cứ hận ta đi。Ngay lúc này、 ta quyết định trở thành kẻ thù của các ngươi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100212/adv/atlas/stand_b,body:anger,blizit,0,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—Không thể chịu nổi khi chỉ mình tôi phải chịu nhục nhã thế này！ Các người cũng phải nếm trải cảm giác y hệt tôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102313/adv/atlas/stand_a,body:surprise,weat,-400,-240,0.5,0.5,,,,
+spriteatlas,download/character/102918/adv/atlas/stand_b,body:surprise,rozet,100,-100,0.5,0.5,,,,
+spriteatlas,download/character/103711/adv/atlas/stand_a,body:surprise,frau,400,-120,0.5,0.5,,,,
+spriteatlas,download/character/100312/adv/atlas/stand_a,body:surprise,catia,-100,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>みんな</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—――――――――！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

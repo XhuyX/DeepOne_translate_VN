@@ -1,0 +1,202 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10130100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm152.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:surprise,aika,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_01.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――Hả、 cách gọi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_02.mp3
+msg,1,<outline width=2 color=black>Ba muốn được gọi bằng gì ngoài 'Ba' sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1 「Ba,Lựa chọn 2 「Thưa Ba
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:sad,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_03.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ể…？ Shirozakura gọi vậy mà、 có gì không ổn chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:sad,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_04.mp3
+msg,1,<outline width=2 color=black>Này、 Shirozakura bảo sẽ bù đắp những gì con còn thiếu、 nên cứ để con bé lo…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_05.mp3
+msg,1,<outline width=2 color=black>…Ba muốn được gọi như thế sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:sad,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_06.mp3
+msg,1,<outline width=2 color=black>Haizz… chịu thôi。Chỉ một lần thôi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_07.mp3
+msg,1,<outline width=2 color=black>――Ba。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+playse,/download/sound/se/se_020.mp3
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:unique,aika,0,-170,0.7,0.5,,,,
+endwait
+playvoice,1,download/character/104111/adv/sound/fav104111_02_08.mp3
+msg,1,<outline width=2 color=black>Ư… Này、 Ba、 đừng có ôm con bất ngờ thế chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_09.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Sao Ba lại muốn được gọi như thế chứ… Con có phải là người đoan trang gì đâu、 gọi thế này chắc chắn thấy kỳ cục。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_10.mp3
+msg,1,<outline width=2 color=black>…Này、 đừng có cười nữa được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:shy,aika,0,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_11.mp3
+msg,1,<outline width=2 color=black>Ừm… Thưa Ba。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:anger,aika,0,-170,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_12.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Vừa cười đấy。Nhếch mép nữa。Rõ ràng là thấy kỳ cục、 đúng không？ Vậy mà con không muốn làm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:unique,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_13.mp3
+msg,1,<outline width=2 color=black>――Vì thấy dễ thương sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:unique,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_14.mp3
+msg,1,<outline width=2 color=black>…Hừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:sad,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_15.mp3
+msg,1,<outline width=2 color=black>Thôi thì、 lần này con cũng không đến nỗi không tin。Nhưng、 con sẽ không gọi thế này nữa đâu。Ngại chết đi được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:normal,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_16.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chỉ vì cách gọi mà Ba lại để tâm đến thế、 con không hiểu nổi。Mà、 Ba vui là được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:normal,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_17.mp3
+msg,1,<outline width=2 color=black>…Cách gọi sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:normal,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_18.mp3
+msg,1,<outline width=2 color=black>Ba thì có vẻ quen rồi… còn người kia thì vẫn chưa quen。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:unique,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_19.mp3
+msg,1,<outline width=2 color=black>――Ai cơ chứ。Chuyện đến nước này mà Ba còn không biết sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:unique,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_20.mp3
+msg,1,<outline width=2 color=black>Giả vờ ngây thơ… Rõ ràng là Ba biết tỏng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:shy,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_21.mp3
+msg,1,<outline width=2 color=black>Cái đó… Mẹ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:unique,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_22.mp3
+msg,1,<outline width=2 color=black>Ự。Cười gì chứ… Nhìn mặt Ba ngứa cả mắt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:sad,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_23.mp3
+msg,1,<outline width=2 color=black>Haizz… Rồi sẽ quen thôi、 cứ kệ con đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:sad,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_24.mp3
+msg,1,<outline width=2 color=black>…Mẹ cũng、 nếu chịu mạnh dạn như Ba một chút thì、 chắc con cũng quen được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:surprise,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_25.mp3
+msg,1,<outline width=2 color=black>À… Chuyện này、 là bí mật với Mẹ đấy。Đừng có nói cho Mẹ biết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104111/adv/atlas/stand_a,body:anger,aika,0,-170,0.7,0,,,,
+playvoice,1,download/character/104111/adv/sound/fav104111_02_26.mp3
+msg,1,<outline width=2 color=black>Nói ra là con giận đấy、 Ba。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

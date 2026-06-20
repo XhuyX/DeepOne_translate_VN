@@ -1,0 +1,376 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,zero1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102601/adv/atlas/stand_a,body:normal,zero2,0,0,0,0,,,,
+imgconf,zero2,zero1,0,-520,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Norn、 tôi đã chẳng thể làm gì cho em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102601/adv/atlas/stand_a,body:normal,zero2,0,0,0,0,,,,
+imgconf,zero2,zero1,0,-520,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng mà――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:anger,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-660,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có xâm phạm vào trái tim tôi nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11310300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:anger,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Một vùng đáng ghét thật đấy…… Điều khiến tôi bực mình nhất、 là chính bản thân tôi đã bị cái vùng đó mê hoặc dù chỉ trong chốc lát。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:anger,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tiếng nói của người chết、 ư…… Hừ。Thứ này làm gì có chuyện là tiếng nói của người chết chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù vậy、 con người vẫn bị mê hoặc―― Lời biện hộ như vậy、 có lẽ là quá bao che cho bản thân rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Này、 em không nghĩ vậy sao、 Dana？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Norn-san…… Anh đã ở gần đây sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 trong vùng này không thể Dịch chuyển không gian được、 nên không bị tách ra vô ích cũng may mắn đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À mà、 nói thật thì…… việc em vượt qua mà không có chuyện gì xảy ra、 thật bất ngờ đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em không nghe thấy tiếng nói của người chết sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em không nghe thấy gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Những gì em nghe thấy、 chỉ là ảo thanh、 là sự yếu đuối trong lòng em hóa thành tiếng nói thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu cứ thế đi theo tiếng nói đó、 em chắc chắn sẽ tự mình nhảy xuống nước và chết đuối mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ra vậy…… Em đã hiểu rõ rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Người chết trong vùng này、 chính là tấm gương phản chiếu bản thân。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hành động tưởng niệm người chết、 cũng mang ý nghĩa là giúp người sống sắp xếp lại cảm xúc của mình…… người ta vẫn nói vậy mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Bị mê hoặc bởi những suy nghĩ về người chết mà bản thân chưa thể chấp nhận được。Một khi đã hiểu ra thì chẳng có gì đáng sợ、 nhưng đây đúng là một vùng cực kỳ ác ý。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Anh cũng bị mê hoặc sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chỉ một chút thôi、 nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chính em đấy、 đã tự mình thoát khỏi sự mê hoặc một cách đáng ngạc nhiên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Jin và mọi người làm gì có chuyện xuất hiện trước mặt em như thế này。Họ cực kỳ ghét bầu không khí ảm đạm mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hơn nữa、 'Hãy đến đây'、 Jin trong ảo thanh đã nói vậy、 nhưng anh ấy làm gì có chuyện gọi em như thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>Anh ấy không phải là kiểu người chờ đợi。Anh ấy luôn là người tự mình tiến bước。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>Và nếu như anh ấy có nói chuyện với em lúc này、 thì đó phải là lời 'Đừng ngoảnh lại nhìn người chết、 hãy tự mình bước tiếp' mới đúng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ảo thanh đó、 quá đỗi dịu dàng với em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chính vì biết rõ sự yếu đuối trong lòng mình và sức mạnh của những người đồng đội cũ sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Anh có cười em không、 vì em không vượt qua bằng sức mạnh của chính mình？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Làm gì có chuyện đó。Thật đáng nể đấy…… Tôi thật lòng nghĩ vậy。Em đã thật lòng nghĩ về họ nhiều đến thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:normal,dana,300,-180,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trước đây、 những suy nghĩ đó của em đã bị ai đó lợi dụng rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… N-nếu em nói thế thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:normal,dana,300,-180,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 nhờ đó mà em cũng tiến lên được một chút rồi、 nên em sẽ không nói thêm nữa đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:normal,dana,300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chắc chắn、 nếu là em của trước đây、 em đã chiều theo ảo thanh mà gây ra chuyện không thể cứu vãn được rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:normal,dana,300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 Norn-san。Anh có biết những người khác đang thế nào không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Những người bị ảnh hưởng mạnh bởi vùng này、 là em、 Erica、 và Lynn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Erica thì có cậu ấy bên cạnh nên không đáng lo…… nhưng trong vùng này、 sự kết hợp giữa Lynn và Rosette thì không ổn chút nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:anger,dana,300,-180,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Chuyện về pháp sư bị trục xuất khỏi Tu Hội Phòng Dịch phải không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải。Pháp sư đã nuôi dưỡng Rosette、 sau đó đã tập hợp Lynn và nhiều đứa trẻ khác để lặp đi lặp lại các thí nghiệm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thực tế thì tôi không phải là hắn nên không biết、 nhưng không khó để đoán mục đích của hắn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tạo ra Rosette-san thứ hai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hoặc có lẽ hắn muốn tận dụng kinh nghiệm từ Rosette để tạo ra thứ gì đó vượt trội hơn nữa……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Lynn có vẻ không có ý định trách móc Rosette、 nhưng đó chỉ là chuyện của lý trí thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tiếng nói của người chết、 phản chiếu nơi sâu thẳm nhất trong trái tim mỗi người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lynn-san、 trong thâm tâm cô ấy nghĩ gì về Rosette-san……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trên đời này không có ai mà không biết đến sự xấu xí hay sự bài xích người khác。Huống hồ、 với một mối quan hệ phức tạp đến mức đó、 thì càng không thể tránh khỏi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100409/adv/atlas/stand_a,body:anger,dana,300,-180,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Chúng ta hãy nhanh chóng hội quân thôi、 Norn-san。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

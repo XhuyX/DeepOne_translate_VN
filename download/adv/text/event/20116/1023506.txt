@@ -1,0 +1,403 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11240300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm094.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0.5,,,,
+anm,tint,raz,150_150_150,0.0001,0
+spriteatlas,download/character/101708/adv/atlas/stand_a,body:normal,quinecy,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có người ghen tị khi thấy Rise-san và Rin-san tương tác với nhau、 điều đó làm tôi hơi bất ngờ đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 ừm、 không phải vậy đâu ạ？ Tuyệt đối không phải là muốn gây gổ với ai đó hay gì đâu ạ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Thực ra là đang ôm cục tức nào đó……,Nếu là tát một cái thì được、 nhỉ……？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cũng không phải vậy đâu ạ…… Mà ngược lại、 tôi còn cảm thấy có lỗi vì luôn được anh và mọi người đối xử tốt nữa cơ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,quinecy,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103907/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0.5,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Và rồi、 cái cảm giác có lỗi đó cứ chồng chất lên、 cuối cùng lại biến thành sự bực bội và căng thẳng、 phải không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,raz,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không sao đâu Razluka-chan。Không cần phải giấu giếm đâu。Này、 tinh thần giúp đỡ lẫn nhau rất quan trọng mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rise,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 không phải vậy đâu ạ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/101708/adv/atlas/stand_a,body:sad,quinecy,300,-120,0.5,0,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gì mà được với không được vậy ạ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,quinecy,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:unique,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Anh trai、 anh muốn bị tát sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 ừm…… Những sở thích như vậy、 có phải là phổ biến trong thời đại này không ạ……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103907/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0.5,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không không、 làm gì có chuyện đó đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,raz,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:sad,rise,-300,-100,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không ngờ、 anh trai lại có sở thích như vậy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:anger,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng Rise-chan ngoan mà、 dù hơi ngại、 nếu anh trai muốn bị tát、 thì em tát cho cũng được đó？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103907/adv/atlas/stand_a,body:unique,rlin,300,-60,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi đi。Mà ăn cái tát của Rise-cchi thì đầu với thân chia lìa mất thôi…… Này、 anh trai cũng sợ xanh mắt rồi kìa……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:sad,rise,-300,-100,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Làm gì có chuyện em khỏe như khỉ đột đến mức đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rise,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:normal,raz,-300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Phù phù。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:normal,raz,-300,-110,0.5,0,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Điều tôi ghen tị là、 hai người có thể truyền đạt cảm xúc của mình một cách thẳng thắn đến đối phương、 theo cách riêng của mình…… chính là điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm117.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:normal,raz,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Bởi vì đó là điều mà tôi không thể làm được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103907/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện đó、 chẳng lẽ là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:normal,raz,-300,-110,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng…… Trước khi chìm vào giấc ngủ vĩnh hằng、 tôi、 người sở hữu sức mạnh của Người Truy Tìm Giấc Mộng、 là đối tượng được mọi người tôn thờ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng tôi、 tuyệt đối không phải là một tồn tại vĩ đại đến mức được ai đó tôn thờ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù bản thân tôi cũng biết rõ điều đó…… nhưng tôi cứ thế chấp nhận cái vị trí đó、 cứ thế buông thả bản thân theo những gì xung quanh mong muốn、 theo dòng chảy của hoàn cảnh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Và cứ thế trôi dạt…… tôi đã đi đến một kết cục bi thương。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Giá như tôi có thể truyền đạt cảm xúc của mình cho ai đó nhiều hơn một chút。……Giá như tôi có thể giữ vững ý chí của mình hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chắc chắn、 chỉ cần như vậy thôi…… tôi đã có thể bảo vệ được em trai mình rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không chỉ có em trai tôi。Tội lỗi đó của tôi còn là nguyên nhân gây ra nỗi đau mà các Thánh Nữ đời sau、 mang dòng máu của em trai tôi、 phải gánh chịu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Khi nghĩ về những điều đó、 tôi không thể nào ngừng ghen tị được。Với những người có thể kiên định theo đuổi ước muốn của mình……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ngay cả bản thân tôi cũng thấy mình thật đáng xấu hổ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rlin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101708/adv/atlas/stand_a,body:sad,quinecy,300,-120,0.5,0.5,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải vậy đâu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,raz,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0.5,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Cảm giác của Razluka-chan、 có lẽ tôi cũng hiểu phần nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,quinecy,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rise……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi cũng từng mắc sai lầm mà。Bị cuốn theo hoàn cảnh、 từ bỏ việc chống lại môi trường xung quanh…… Vì thế mà tôi đã đánh mất những điều quan trọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi ghét bản thân mình lắm、 nên tôi ghen tị với người khác、 càng ghen tị thì lại càng tự ti về bản thân。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:smile,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà này、 nếu cứ mãi hối hận rồi ủ rũ như thế、 thì sẽ bị đứa bé đó đánh cho tơi bời mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:smile,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thế nên、 tôi quyết định sẽ nhìn về phía trước…… Nếu Razluka-chan nói ghen tị với tôi、 thì tôi nghĩ đó chỉ là một sự khác biệt nhỏ nhặt thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:smile,rise,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù bước chân có nặng nề đến mấy、 thì cứ ngẩng cao đầu mà bước đi…… Chỉ đơn giản là vậy thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rise,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:normal,raz,-300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Thật sự、 Rise-san mạnh mẽ quá。Chỉ một điều đơn giản như vậy thôi、 nhưng thật sự khó khăn biết bao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:normal,rise,300,-100,0.5,0.5,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi chỉ đang cố gắng tỏ ra mạnh mẽ thôi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:smile,rise,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chỉ là、 tôi không muốn trở thành một người mà không thể đối mặt với đứa bé trong ký ức。Chỉ vậy thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:normal,raz,-300,-110,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:normal,rise,300,-100,0.5,0,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em trai của Razluka-chan thì sao nhỉ？ Người đó、 mong muốn Razluka-chan sẽ như thế nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103604/adv/atlas/stand_a,body:smile,rise,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu nhìn lại những ký ức、 chắc chắn、 người đó sẽ ủng hộ Razluka-chan thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:normal,raz,-300,-110,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Rise-san、 quả nhiên là mạnh mẽ thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 tôi…… vẫn sợ hãi ngay cả việc đối mặt với đứa bé trong ký ức……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rise,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103907/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0.5,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù có sợ hãi、 cũng đừng chạy trốn khỏi ký ức…… Đừng chạy trốn khỏi người thân yêu của mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104508/adv/atlas/stand_a,body:sad,raz,-300,-110,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rin-san……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103907/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đồng tình ở những lúc như thế này、 thì tôi với Rise-cchi lại giống như những người cùng cảnh ngộ、 hơi khó chịu một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103907/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 về chuyện này thì tôi cũng đồng ý với Rise-cchi。Raz-cchi nên đối mặt một cách đàng hoàng với người thân yêu của mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

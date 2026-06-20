@@ -1,0 +1,120 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0.5,,,,
+endwait
+playvoice,1,download/character/101400/adv/sound/fav101400_02_01.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À phải rồi、 em vẫn chưa kể cho anh nghe về cuộc sống bên ngoài của em nhỉ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_02.mp3
+msg,1,<outline width=2 color=black>Bốn năm trước khi đến R'lyeh… đó là tất cả những gì em còn nhớ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_03.mp3
+msg,1,<outline width=2 color=black>Tỉnh dậy trong cơ sở của Tổ chức Lovecraft、 chẳng biết mình là ai。Rồi người ta bảo em có tài năng về ma thuật、 nên em đã trở thành một pháp sư…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_04.mp3
+msg,1,<outline width=2 color=black>Em biết、 hỏi anh những điều này、 khi anh bị giam cầm ở R'lyeh mà không có gì trong tay… có lẽ sẽ rất xót xa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_05.mp3
+msg,1,<outline width=2 color=black>— Anh nghĩ bốn năm đó đối với em là gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,選択肢1 「寂しかった？,選択肢2 「新鮮だった？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_06.mp3
+msg,1,<outline width=2 color=black>Phải nhỉ… Trên đời này、 chẳng ai biết em là ai。Em chẳng có mối liên hệ với ai。Ban đầu、 em cảm thấy cô đơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_07.mp3
+msg,1,<outline width=2 color=black>Nhưng、 cảm giác cô đơn ấy đã nhanh chóng biến mất。Vì em cảm thấy bị từ chối còn mạnh mẽ hơn cả mong muốn được gần gũi với người khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_08.mp3
+msg,1,<outline width=2 color=black>Sự mới mẻ、 sao… Đúng là anh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_09.mp3
+msg,1,<outline width=2 color=black>Nếu là anh、 chắc chắn dù ở trong hoàn cảnh của em、 anh vẫn sẽ thấy hào hứng khi được tiếp xúc với mọi người、 với thế giới trước mắt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_10.mp3
+msg,1,<outline width=2 color=black>Nhưng em… lại chỉ muốn nhắm mắt làm ngơ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_11.mp3
+msg,1,<outline width=2 color=black>Em có thể cảm nhận được sự ác ý của con người… Vì vậy、 em biết nhiều điều mà người khác không muốn biết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_12.mp3
+msg,1,<outline width=2 color=black>Ví dụ、 anh nghĩ phản ứng của mọi người khi biết em có tài năng về ma thuật sẽ như thế nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_13.mp3
+msg,1,<outline width=2 color=black>Có những người chúc mừng em。Có những người khen ngợi em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_14.mp3
+msg,1,<outline width=2 color=black>Nhưng đằng sau đó… là sự toan tính。Họ muốn lợi dụng em。Muốn thao túng em theo ý muốn của họ、 một sự ác ý xấu xa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_15.mp3
+msg,1,<outline width=2 color=black>Giờ nghĩ lại、 đó chỉ là những ác ý nhỏ nhặt。Con người mà、 ai cũng vậy。Giá mà em có thể cười trừ cho qua…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_16.mp3
+msg,1,<outline width=2 color=black>Em cũng còn trẻ mà。Hơi bị sạch sẽ quá… Có lúc、 em còn thấy khó chịu khi phải nói chuyện với người khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_17.mp3
+msg,1,<outline width=2 color=black>Tuy nhiên、 đúng là em。Em đã sớm chấp nhận、 và học cách đeo lên một chiếc mặt nạ hiền lành để tránh xa sự ác ý của người khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_18.mp3
+msg,1,<outline width=2 color=black>Cứ thế、 em sống những ngày tháng với một bức tường vô hình、 nhưng dày đặc giữa em và mọi người、 rồi đến R'lyeh… và gặp gỡ mọi người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_19.mp3
+msg,1,<outline width=2 color=black>Này、 anh nghĩ vì sao em lại kể cho anh nghe những chuyện này？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_20.mp3
+msg,1,<outline width=2 color=black>…Đối với em、 thế giới bên ngoài chẳng có gì tuyệt vời、 những ngày tháng đều tẻ nhạt và nhạt nhẽo。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_21.mp3
+msg,1,<outline width=2 color=black>Nhưng… cuộc gặp gỡ với mọi người sau đó、 là kho báu của em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_22.mp3
+msg,1,<outline width=2 color=black>Có thể anh không nhận ra、 nhưng cuộc gặp gỡ này đối với em、 quan trọng đến mức em cảm thấy mọi thứ đều được đền đáp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_23.mp3
+msg,1,<outline width=2 color=black>Vì vậy、 em muốn anh tin。Dù sau này có chuyện gì xảy ra、 nhất định sẽ được đền đáp… Nhất là một người như anh、 không thể nào không được đền đáp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/101400/adv/sound/fav101400_02_24.mp3
+msg,1,<outline width=2 color=black>Em nói ra có thể chỉ là sáo rỗng。Có thể anh sẽ nghi ngờ。Nhưng… xin hãy nhớ những lời này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

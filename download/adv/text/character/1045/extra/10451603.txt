@@ -1,0 +1,185 @@
+﻿// machine translate -- gemini-2.5-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11340300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm143.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104516/adv/atlas/stand_a,body:normal,raz,-1200,-110,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_016.mp3
+anm,move,raz,0_-110,1,0
+endwait
+
+
+spriteatlas,download/character/104516/adv/atlas/stand_a,body:normal,raz,0,-110,0.5,0,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+playvoice,1,download/character/104516/adv/sound/fav104516_03_01.mp3
+msg,1,<outline width=2 color=black>Hít hà。。。Chỉ cần chạy vài vòng quanh sân thôi cũng đủ để tập thể dục rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104516/adv/atlas/stand_a,body:normal,raz,0,-110,0.5,0,,,,
+playvoice,1,download/character/104516/adv/sound/fav104516_03_02.mp3
+msg,1,<outline width=2 color=black>Em chưa từng có cơ hội tự mình vận động nên không biết、 nhưng chỉ cần chạy như thế này thôi cũng cảm thấy một sự mệt mỏi dễ chịu thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104516/adv/atlas/stand_a,body:shy,raz,0,-110,0.5,0,,,,
+playvoice,1,download/character/104516/adv/sound/fav104516_03_03.mp3
+msg,1,<outline width=2 color=black>Ừm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104516/adv/atlas/stand_a,body:sad,raz,0,-110,0.5,0,,,,
+playvoice,1,download/character/104516/adv/sound/fav104516_03_04.mp3
+msg,1,<outline width=2 color=black>À、 ừm…… xin lỗi、 chắc do vừa chạy nên nó hơi…… cái này、 nó cứ cấn vào……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104516/adv/atlas/stand_a,body:sad,raz,0,-110,0.5,0,,,,
+playvoice,1,download/character/104516/adv/sound/fav104516_03_05.mp3
+msg,1,<outline width=2 color=black>Ừm、 em sẽ chỉnh lại ngay thôi、 anh có thể quay đi chỗ khác một chút được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+sprite,download/character/104516/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104516/adv/sound/fav104516_03_06.mp3
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À…… Em đã bảo anh quay đi chỗ khác rồi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104516/adv/sound/fav104516_03_07.mp3
+msg,1,<outline width=2 color=black>Đừng có nhìn chằm chằm vào chỗ này như thế chứ。Thật sự rất xấu hổ mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: Cứ tiếp tục đi、 đừng ngại,Lựa chọn 2: Thật là một yêu cầu khó khăn
+if,select_===_1,,,,,,,,,
+playvoice,1,download/character/104516/adv/sound/fav104516_03_08.mp3
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Không、 không phải là ngại ngùng gì…… thôi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104516/adv/sound/fav104516_03_09.mp3
+msg,1,<outline width=2 color=black>……Anh nhìn ngó như vậy、 có phải là anh thấy cái tư thế này của em làm anh để tâm không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104516/adv/sound/fav104516_03_10.mp3
+msg,1,<outline width=2 color=black>Nếu anh thấy em quyến rũ、 thì chị gái này… dù có hơi xấu hổ một chút cũng sẽ cố chịu đựng thôi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104516/adv/sound/fav104516_03_11.mp3
+msg,1,<outline width=2 color=black>Này…… kéo cái chỗ bị cấn ra như thế này…… ưm、 ừm。Kiểu này… là anh thích、 đúng không……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+playvoice,1,download/character/104516/adv/sound/fav104516_03_12.mp3
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Em… em không nghĩ đó là điều gì quá khó khăn đâu ạ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104516/adv/sound/fav104516_03_13.mp3
+msg,1,<outline width=2 color=black>Nếu anh tò mò đến vậy、 thì… anh có muốn sờ thử mông của chị không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104516/adv/sound/fav104516_03_14.mp3
+msg,1,<outline width=2 color=black>——Hả？ Anh nói sờ thì không đúng… Hả？ Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104516/adv/sound/fav104516_03_15.mp3
+msg,1,<outline width=2 color=black>Vậy ạ… Thành thật mà nói、 em không hiểu lắm… Nhưng nếu anh muốn làm vậy… thì cứ nhìn đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104516/adv/sound/fav104516_03_16.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 nhìn vào những chỗ như thế này của con gái là thất lễ đấy。Những chuyện như thế này chỉ làm với chị gái thôi nhé。Rõ chưa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,,,
+sprite,download/character/104516/image/main.png,card,-600,-200,2,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104516/adv/sound/fav104516_03_17.mp3
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ơ？ Ừm… ánh mắt của anh dường như không chỉ dừng lại ở mông…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,,,
+sprite,download/character/104516/image/main.png,card1,-500,50,2.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+playvoice,1,download/character/104516/adv/sound/fav104516_03_18.mp3
+msg,1,<outline width=2 color=black>À… lúc nãy em có ra mồ hôi nên quần áo… ưm！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,card1,1_1,1,0
+anm,move,card1,0_0,1,0
+endwait
+
+
+playvoice,1,download/character/104516/adv/sound/fav104516_03_19.mp3
+msg,1,<outline width=2 color=black>Thôi mà…… anh đúng là thích mấy chuyện người lớn thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104516/adv/sound/fav104516_03_20.mp3
+msg,1,<outline width=2 color=black>……Nếu bị anh nhìn bằng ánh mắt như vậy、 nhịp tim em sẽ đập nhanh hơn nhiều so với lúc tập thể dục ấy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104516/adv/sound/fav104516_03_21.mp3
+msg,1,<outline width=2 color=black>Ừm… anh thật sự、 chỉ nhìn thôi là được chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104516/adv/sound/fav104516_03_22.mp3
+msg,1,<outline width=2 color=black>Chị gái này… không sao đâu？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104516/adv/sound/fav104516_03_23.mp3
+msg,1,<outline width=2 color=black>Bất cứ lúc nào、 nếu em không thể kiềm chế được nữa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

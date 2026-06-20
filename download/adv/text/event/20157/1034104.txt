@@ -1,0 +1,322 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm110.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khi còn là Lưỡi Gươm Diệt Trừ、 đảm nhiệm việc thanh tẩy khắp nơi、 cắm trại là chuyện thường ngày。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dựng lều、 tạo môi trường dễ nghỉ ngơi。Việc đó lẽ ra chẳng khác gì cái gọi là cắm trại cả……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thế mà…… khi quyết định cắm trại cùng mọi người ở Vùng Hư Vô này、 chẳng hiểu sao Rosette lại có một cảm giác chưa từng có trong những lần dã ngoại trước đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thời gian ở bên người ấy…… cùng mọi người、 không biết sẽ thế nào đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Cảm giác đó…… chắc hẳn người ta sẽ gọi là sự phấn khích。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù hành động không khác mấy、 nhưng chỉ cần có ai đó bên cạnh、 tâm trạng lại thay đổi đến vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu có thể、 Rosette muốn trải nghiệm cảm giác này nhiều hơn nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Rosette nghĩ vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm143.mp3,0,
+endwait,,,,,,,,,,,
+sprite,download/character/102919/image/main.png,card1,100,0,2,1,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phù…… Nơi này nắng hơi gắt nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+sprite,download/character/102919/image/main.png,card2,0,0,2,0,,,,
+anm,fade,card2,0,0,0
+anm,scale,card2,1_1,1,0
+anm,fade,card2,255,1,0
+endwait,,,,,,,,,,,
+spriteoff,card1,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>À…… có chuyện gì vậy？ Sao anh/chị lại thở dốc thế kia。Với lại、 trông anh/chị ướt sũng cả rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: Bị Souka mắng,Lựa chọn 2: Vì Vùng Hư Vô này nóng
+if,select_===_1,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là Souka-sama sao？ Chuyện đó、 Rosette thấy hơi bất ngờ đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng mà、 Souka-sama có vẻ rất quý mến anh/chị、 nên dù có giận một chút、 chắc chắn cô ấy sẽ tha thứ ngay thôi、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>……Không、 lời vừa rồi Rosette nói thật là quá phận rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Rosette vẫn còn quá non nớt。Thế mà lại dám thay người khác nói lên suy nghĩ của họ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Xin lỗi、 anh/chị hãy quên đi nhé……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nắng đúng là gắt thật、 nhiệt độ cũng có vẻ đang tăng dần lên。Vậy là anh/chị làm ướt người để hạ nhiệt độ cơ thể…… phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng mà、 quần áo ướt sẽ làm mất nhiệt cơ thể nhanh hơn anh/chị tưởng đấy。Xin hãy cẩn thận đừng để bị ốm nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu cảm thấy không khỏe chỗ nào、 xin hãy nói cho Rosette biết……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dĩ nhiên、 Rosette không thể làm được nhiều việc、 nhưng nếu anh/chị muốn、 Rosette sẽ làm bất cứ điều gì có thể。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Là Rosette sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Rosette đang bắt cá ở đây。Rosette nghĩ chúng ta sẽ cần thức ăn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng mà、 cá ở đây khá nhanh nhẹn…… Rosette vẫn chưa bắt được đủ để làm hài lòng mọi người…… Rosette thật xấu hổ vì sự kém cỏi của mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng Rosette nhất định sẽ bắt được đủ cá để anh/chị và mọi người hài lòng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ơ…… anh/chị cũng muốn cùng Rosette sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chuyện đó…… Rosette rất cảm kích tấm lòng của anh/chị、 nhưng liệu có thể để Rosette lo việc này được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Đ-dĩ nhiên、 không phải Rosette không muốn ở cùng anh/chị đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng mà。Anh/chị đã dựng lều giúp mọi người rồi。……Với lại、 Rosette cũng muốn giúp ích cho mọi người một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>……Nhưng nếu anh/chị cứ bận tâm mãi thì、 ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu Rosette bắt được thật nhiều cá、 thì…… nếu anh/chị k-khen Rosette、 Rosette sẽ rất vui ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>——Vâng、 Rosette cảm ơn anh/chị。Rosette hứa sẽ không phụ lòng mong đợi của anh/chị đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Vậy nên、 trong thời gian đó、 xin hãy vui vẻ cắm trại cùng mọi người nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11310303.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103853/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao thế、 đã xong xuôi vụ hẹn hò với mấy cô gái khác rồi à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103853/adv/atlas/stand_a,body:unique,nanaba,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>——Không、 cái vẻ mặt đó、 hình như mày đang âm mưu gì đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103853/adv/atlas/stand_a,body:unique,nanaba,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mày đến chỗ tao với vẻ mặt đó、 nghĩa là muốn tao giúp một tay、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103853/adv/atlas/stand_a,body:smile,nanaba,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Khà khà…… À、 dĩ nhiên là được thôi。Nếu mày đã muốn、 tao sẽ đáp ứng bất cứ điều gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103853/adv/atlas/stand_a,body:unique,nanaba,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cắm trại yên bình cũng tốt、 nhưng tham gia vào âm mưu của mày có vẻ thú vị hơn đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103853/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy、 rốt cuộc mày đang âm mưu gì thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103853/adv/atlas/stand_a,body:unique,nanaba,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Là chuyện của mày。Dĩ nhiên、 mày cũng sẽ làm tao vui vẻ chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11310303.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm143.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103853/adv/atlas/stand_a,body:unique,nanaba,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Line_center,em1,default,animation,1,0,0,1,1.0,0
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——Từ giờ、 chúng ta sẽ tổ chức Đại Hội Tìm Kho báu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103253/adv/atlas/stand_a,body:sad,alma,-300,-120,0.5,0.5,,,,
+anm,tint,alma,150_150_150,0.0001,0
+spriteatlas,download/character/102052/adv/atlas/stand_a,body:unique,tabasa,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tự nhiên có cái gì đó bắt đầu rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103253/adv/atlas/stand_a,body:sad,alma,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Haizz…… Lại rắc rối rồi。Chắc chắn là rắc rối mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104211/adv/atlas/stand_a,body:normal,soka,300,-110,0.5,0.5,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tìm kho báu……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:unique,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/103853/adv/atlas/stand_a,body:surprise,nanaba,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm……？ Có vẻ mọi người không hào hứng như ta nghĩ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:unique,frau,300,-120,0.5,0,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là do cách cư xử thường ngày của mày đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

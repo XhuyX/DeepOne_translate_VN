@@ -1,0 +1,161 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010600.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:surprise,julia,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_01.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Dù sao thì、 em không ngờ Norn lại có những người anh em như anh và Frau-san… Em hơi bất ngờ đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_02.mp3
+msg,1,<outline width=2 color=black>Tất nhiên、 em cũng bất ngờ về thân phận、 hay nói đúng hơn là xuất thân của cô ấy nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_03.mp3
+msg,1,<outline width=2 color=black>Được Nguyên thư Pnakotic tạo ra、 một phần của Thuật thức Luyện thành Mẫu thể-Birth of Ys… một thụ thể để thu thập trái tim con người… Dù em đã cảm thấy cô ấy không phải người bình thường ngay từ đầu、 nhưng vẫn vượt xa sức tưởng tượng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_04.mp3
+msg,1,<outline width=2 color=black>Bên ngoài thì thông tin bị kiểm soát nên em hầu như không biết gì、 nhưng em nghe nói sự việc xảy ra ở R'lyeh gần đây cũng có liên quan đến chuyện đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:sad,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_05.mp3
+msg,1,<outline width=2 color=black>Dù chỉ là nghe Norn kể lại、 nhưng có vẻ mọi người đã phải trải qua rất nhiều khó khăn…… Dù bây giờ mới nói、 nhưng mọi người bình an là tốt rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:surprise,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_06.mp3
+msg,1,<outline width=2 color=black>……？ Anh có vẻ đang bất ngờ về điều gì đó…… ——À。Hay là Norn chưa kể cho anh nghe ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_07.mp3
+msg,1,<outline width=2 color=black>Em là bạn của Norn đấy。Nhờ một cơ duyên nào đó、 chúng em đã cùng nhau hành động khoảng một tháng。Sau đó cũng thường xuyên liên lạc với nhau。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_08.mp3
+msg,1,<outline width=2 color=black>Chính vì thế mà em mới bất ngờ đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_09.mp3
+msg,1,<outline width=2 color=black>Norn、 cái người khó tính đó、 lại có một người anh tính cách thẳng thắn như anh、 và một cô em gái thuần khiết như Frau-san。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:surprise,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_10.mp3
+msg,1,<outline width=2 color=black>——À、 xin lỗi anh。Nói về gia đình anh như vậy chắc anh không vui đâu nhỉ。Em lỡ theo thói quen nói chuyện với Norn mất rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Hai người thân nhau nhỉ。,Norn cũng thẳng thắn mà。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_11.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À vâng… Em thì nghĩ vậy、 nhưng Norn nghĩ về em thế nào thì em không dám khẳng định。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:unique,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_12.mp3
+msg,1,<outline width=2 color=black>Bởi vì cô ấy là một người khó tính và ghét con người mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_13.mp3
+msg,1,<outline width=2 color=black>Dù sao thì、 có vẻ từ khi đến R'lyeh、 cô ấy đã có sự thay đổi trong cảm xúc。Chắc hẳn đó là ảnh hưởng từ người anh trai tuyệt vời của cô ấy phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_14.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Fufu、 chuyện đó thì… Ý em là、 bộ mặt khi ở bên gia đình và khi ở bên bạn bè là khác nhau mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_15.mp3
+msg,1,<outline width=2 color=black>So với trước đây thì có vẻ đã cải thiện rất nhiều、 nhưng dù vậy、 trước mặt em thì Norn vẫn là Norn、 vẫn hơi khó tính và không thể thẳng thắn được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:unique,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_16.mp3
+msg,1,<outline width=2 color=black>Theo một nghĩa nào đó、 đó là Norn mà chỉ mình em biết、 Norn mà cô ấy không cho anh thấy đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_17.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nói những điều tùy tiện như vậy、 có khi Norn sẽ giận em mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_18.mp3
+msg,1,<outline width=2 color=black>Trước khi bị giận、 chúng ta hãy dừng chuyện này ở đây nhé。Với lại、 em cũng sắp phải đến chỗ Norn rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_19.mp3
+msg,1,<outline width=2 color=black>Cô ấy đã hỏi em về tình hình trên mặt đất。Vì R'lyeh khá khép kín、 thông tin bên ngoài khó lọt vào、 nên có vẻ cô ấy khá quan tâm đến những chuyện đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:sad,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_20.mp3
+msg,1,<outline width=2 color=black>Gần đây、 Haeresis hoạt động mạnh mẽ、 có nhiều chuyện bất ổn mà。Cứ nắm bắt thông tin thì vẫn tốt hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_21.mp3
+msg,1,<outline width=2 color=black>Dù em nghĩ những chuyện đó sẽ không ảnh hưởng đến R'lyeh dưới đáy biển này、 nhưng có thông tin thì cũng chẳng hại gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181500/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_02_22.mp3
+msg,1,<outline width=2 color=black>Vì vậy、 em xin phép đi trước nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

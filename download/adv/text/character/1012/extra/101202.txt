@@ -1,0 +1,113 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+roombg,1012,0
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dám ngang nhiên vào phòng tôi、 là gan dạ hay chỉ là đầu óc đơn giản đây… Hôm nay đến đây làm gì vậy？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nói chuyện với tôi？ Ha… Đã bảo rồi、 tôi ghét bị đối xử suồng sã。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:anger,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu Mari quá trớn、 tôi thật sự không biết mình sẽ làm gì đâu đấy？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:smile,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Mà、 tôi cũng không phiền đâu。Bị nhốt ở đây cũng hơi bứt rứt nhỉ？ Hừ hừ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:sad,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>…Đến nước này mà vẫn không chịu đi、 vậy là mi đúng là đồ ngốc à？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu không phải、 thì tại sao lại quan tâm tôi đến thế？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_06.mp3
+clickwait,,,,,,,,,,,
+select,選択肢1 「Lydiaのことが気になるから,選択肢2 「仲間だから
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Lại còn tự cho mình là trung tâm nữa chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi không biết mi quan tâm tôi vì điều gì、 nhưng với tôi、 mi còn chẳng có nghĩa lý gì hơn vỏ đạn vứt trên chiến trường。Vô dụng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:surprise,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>…Sao bị nói thế mà vẫn cứ trơ ra được nhỉ。Thật là… thích của lạ hay liều mạng đây…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_09.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:sad,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng là kiểu người chưa từng gặp… Hơi… thấy hứng thú rồi đấy。Vì cái sự ngu ngốc đó、 tôi sẽ nói chuyện với mi một chút vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_10.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:sad,lid,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi ghét nhất là những kẻ phiền phức như thế。Cứ như tôi đã nói、 đừng có dính vào tôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Với lại、 những kẻ dùng từ 'đồng đội' là đáng ngờ nhất đấy。Mi cũng nên nhớ lấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…À、 nhưng mà…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:smile,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hừ hừ、 ra vậy。Nếu xét theo nghĩa đó… tôi cũng có thể gọi mi là đồng đội được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu có chuyện gì xảy ra trong Dreamlands、 thì có thể lợi dụng đồng đội triệt để、 mà nếu là mối quan hệ như vậy、 thì thân thiết hơn một chút cũng không sao nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_15.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù vậy、 cũng chẳng có gì để nói đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi và Milva là trẻ mồ côi、 được nuôi dưỡng trong một hội ma thuật、 và được dạy các kỹ năng ám sát ở đó。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tổ chức đó nhận nuôi rất nhiều trẻ mồ côi để đào tạo nhân tài như vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:smile,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 tự nói thì hơi kỳ、 nhưng tôi và Milva là những người tài giỏi đặc biệt đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_19.mp3
+clickwait,,,,,,,,,,,
+stopbgm,0
+endwait
+msg,1,<size=30><outline width=2 color=black>Chắc chắn… không ai trong tổ chức đó có thể ngờ tới。Rằng chúng tôi、 những đứa trẻ chúng nuôi、 lại giết sạch bọn chúng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_20.mp3
+clickwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm024.mp3,0,,
+wait,0.5
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>…À、 dừng ở đây thôi。Nhớ lại thì tôi lại thấy máu nóng lên rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_21.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nên đi nhanh lên。Cứ thế này、 tôi sẽ đùa giỡn với mi mất。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101200/adv/sound/fav101200_02_22.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

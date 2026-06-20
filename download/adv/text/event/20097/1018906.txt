@@ -1,0 +1,439 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11540300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À… bạn không cần ở cùng các Frau sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>——Cái bộ dạng này sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Phì cười、 tôi muốn cho bạn thấy đấy—— lý do này chắc bạn không chấp nhận đâu nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Cứ coi là vậy đi。,Sự thật là gì？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng… hôm nay nhân vật chính là các cô ấy mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Những chuyện không cần thiết thì bạn cứ nhắm mắt làm ngơ nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có vẻ như bạn đã nhìn thấu rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vùng này được sắp đặt để chào đón những thực thể nghĩ rằng mình có thể biến mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu là vì Asaka、 tôi có biến mất cũng được。Nếu tôi trở thành chướng ngại cho Asaka、 thì thà tôi không tồn tại còn hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đó là tấm lòng chân thật của tôi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đừng làm cái vẻ mặt đó。Asaka cũng đã nói tôi rất nhiều lần rồi、 rằng hãy trân trọng bản thân hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì Asaka đã nói vậy、 tôi muốn nghiêm túc tiếp nhận lời đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù vậy… vẫn có những phần không thể thay đổi được đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Điều đó、 chừng nào tôi còn tồn tại với tư cách là tôi、 là điều không thể tránh khỏi。Tôi sẽ rất vui nếu bạn chấp nhận nó、 nhưng mà…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11230300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm096.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101002/adv/atlas/stand_a,body:normal,jamila,300,-180,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Các bạn thật ngốc nghếch。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ở bên tôi là bất hạnh cho các bạn。Tin vào con đường của tôi sẽ dẫn các bạn đến một kết cục tàn khốc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Người phải trả giá cho lý tưởng ngốc nghếch không phải là Katia Brunseva、 người đã ôm ấp nó、 mà là các bạn、 những người đã cố gắng ủng hộ nó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu không liên quan đến tôi、 chắc chắn Jamila Jibril và Irina Ilizarova sẽ không trở nên như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đã không chết một cách thảm khốc như thế…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101002/adv/atlas/stand_a,body:normal,jamila,300,-180,0.5,0,,,,
+anm,tint,catia_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kết cục thế nào cũng không quan trọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101002/adv/atlas/stand_a,body:normal,jamila,300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù đó có là một cái kết tồi tệ đến đâu、 dù có đầy rẫy khổ đau、 thì điều đó cũng chẳng có ý nghĩa gì với tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101002/adv/atlas/stand_a,body:smile,jamila,300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đối với tôi、 được ở bên cạnh người… đó mới là điều quan trọng nhất mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101002/adv/atlas/stand_a,body:normal,jamila,300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu người bước trên con đường dẫn xuống vực sâu、 tôi cũng sẽ cùng người bước đi một bước đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101002/adv/atlas/stand_a,body:normal,jamila,300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>Niềm tin này、 tôi đã dâng hiến cho duy nhất một người、 Katia Brunseva。Kiên định với điều đó mới là mong muốn của tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Tôi không hiểu。Tại sao bạn lại đến mức đó chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,jamila,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0.5,,,,
+anm,tint,catia_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hỏi làm gì cho phí công。Bởi vì việc người phụ nữ đó nghĩ về bạn thì không cần lý lẽ hay lý do gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu nói rằng tín ngưỡng là như vậy thì cũng đành chịu thôi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>Sẵn lòng đi theo đến tận địa ngục。Có một người như vậy、 rốt cuộc là tốt hay xấu đây nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Irina、 bạn thì——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,catia_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi nói trước nhé、 tôi không phải là kẻ cuồng tín như vậy đâu。Và cũng không giống tôi ở thế giới của bạn đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù Katia có nhìn lại quá khứ đến mức nào、 tôi cũng không nghĩ cái lý tưởng yếu ớt đó có thể thành hiện thực。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>Điều tôi không hiểu là tại sao tôi ở thế giới đó lại ngoan ngoãn chọn con đường đi cùng bạn——…không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:sad,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Chắc là đã bám víu vào một sự dung túng nửa vời nào đó rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì vậy、 kết cục của tôi ở thế giới đó、 vốn dĩ bạn không cần phải cảm thấy có trách nhiệm hay gánh vác điều gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>Và… tôi đang ở đây bây giờ、 không phải là người mà bạn biết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi không chấp nhận sự nửa vời、 và nếu là lý tưởng không thể theo kịp thực tế、 thì tôi sẽ không đi cùng con đường đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi sẽ không tin tưởng Katia Brunseva。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ilyna1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ilyna2,0,0,0,0,,,,
+imgconf,ilyna2,ilyna1,0,-770,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Và một người như vậy cũng cần thiết mà nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0.5,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đặt một người không tin tưởng mình ở bên cạnh và chấp nhận điều đó。…Quả thật、 đó có lẽ là điều tôi không thể làm được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không thể hiểu nhau… không thể hòa hợp với người đồng hành、 tôi cứ nghĩ đó là điều không tốt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Điều đó chắc chắn chỉ là sự tô điểm bằng từ 'tin tưởng'… nếu mượn lời bạn、 thì có lẽ đó là sự dung túng nửa vời。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>…………Tại sao tôi lại cảm thấy không muốn thừa nhận đến vậy chứ？ Rằng tôi ở thế giới này đã bắt đầu bước trên một con đường khác với tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chắc chắn là tôi đang kỳ vọng rồi… rằng ở thế giới này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Một tôi không phải là tôi có thể đến được nơi mà tôi không thể đến。Không đánh mất những gì đã mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Kỳ vọng… ghen tị、 đố kỵ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>Và… dù cho viễn cảnh tương lai đó sẽ không bao giờ thuộc về mình、 nhưng nếu ở bên tôi của thế giới này、 có lẽ tôi cũng có thể cảm nhận được sự ấm áp đó—— nghĩ vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Một ý nghĩ thật lố bịch。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11230300.jpg,1,255
+endwait
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,catia_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s2,0,0,0,0,,,,
+imgconf,catia_s2,catia_s1,0,0,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Katia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……À、 thôi rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s2,0,0,0,0,,,,
+imgconf,catia_s2,catia_s1,0,0,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Em không hề muốn nhận ra cảm xúc này、 vậy mà lại lỡ rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s2,0,0,0,0,,,,
+imgconf,catia_s2,catia_s1,0,0,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Em đã nói rằng sẽ chứng kiến kết cục của mình ở thế giới này…… Nhưng rốt cuộc、 em vẫn cứ khao khát lý tưởng mình chưa thể tạo ra…… Vì vậy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100381/adv/atlas/stand_a,body:sad,catia_s2,0,0,0,0,,,,
+imgconf,catia_s2,catia_s1,0,0,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Vì vậy、 giờ đây em mới――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11540300.jpg,1,255
+endwait
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,alt1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:normal,alt2,0,0,0,0,,,,
+imgconf,alt2,alt1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100182/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Các cô nên nhận ra đi。Cái nỗi sợ khi những mong muốn của mình trở thành hiện thực ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

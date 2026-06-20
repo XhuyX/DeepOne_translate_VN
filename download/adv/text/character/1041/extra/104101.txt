@@ -1,0 +1,173 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:surprise,aika,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_01.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>——Anh muốn biết về em sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_02.mp3
+msg,1,<outline width=2 color=black>Em cứ tưởng anh đột nhiên bắt chuyện、 sao lại hỏi điều đó chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_03.mp3
+msg,1,<outline width=2 color=black>Không phải là em không thích…… nhưng mà、 vốn dĩ em chẳng có gì để kể cả。Bởi vì em trống rỗng mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_04.mp3
+msg,1,<outline width=2 color=black>Em là Ma thuật sư cường hóa do Tổ chức Lovecraft tạo ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_05.mp3
+msg,1,<outline width=2 color=black>Tổ chức cần rất nhiều ma thuật sư để có được Nguyên thư Pnakotic…… nhưng những ma thuật sư xuất chúng thì khó mà tập hợp được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_06.mp3
+msg,1,<outline width=2 color=black>Ma thuật sư cường hóa được thai nghén trong kế hoạch lập ra vì mục đích đó、 và mục tiêu ban đầu là nâng cao năng lực hậu thiên của các ma thuật sư、 em nghe nói vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_07.mp3
+msg,1,<outline width=2 color=black>Em nghe nói hồi kế hoạch mới bắt đầu thì mọi chuyện tệ lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_08.mp3
+msg,1,<outline width=2 color=black>Nhiều loại thủ thuật đã được thực hiện trên những ma thuật sư thiếu tài năng、 và có người còn chết một cách thảm khốc nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Aika cũng gặp chuyện đau khổ sao？,Chuyện đó、 là thật sao？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_09.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ưm…… em có trải qua một vài nghi thức ma thuật hay dùng thuốc、 nhưng không có gì đáng kể đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_10.mp3
+msg,1,<outline width=2 color=black>Trường hợp của em thì hầu như không cần đến các thủ thuật hậu thiên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_11.mp3
+msg,1,<outline width=2 color=black>Em không thích đau đớn hay khổ sở gì cả…… nên có lẽ như vậy là tốt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_12.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Anh nghĩ Tổ chức Lovecraft là một tổ chức như thế nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_13.mp3
+msg,1,<outline width=2 color=black>Zakuro hay nói lắm。Rằng Tổ chức không bình thường chút nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_14.mp3
+msg,1,<outline width=2 color=black>Em cũng nghĩ、 ít nhất thì Tổ chức chẳng có chút đạo đức hay luân lý nào cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_15.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Trường hợp của em thì、 bẩm sinh đã―― À。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_16.mp3
+msg,1,<outline width=2 color=black>……Nói thêm nữa là bí mật rồi。Nguy hiểm thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_17.mp3
+msg,1,<outline width=2 color=black>Ngay cả trong thế giới ma thuật cũng có những điều cấm kỵ。Không phải Tổ chức sợ chạm vào chúng、 nhưng họ không muốn chuyện đó bị phơi bày và khiến kẻ thù gia tăng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_18.mp3
+msg,1,<outline width=2 color=black>Vì vậy、 em không thể nói…… Em nghĩ 'không thể nói' chính là câu trả lời cho câu hỏi của anh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_19.mp3
+msg,1,<outline width=2 color=black>Không phải em cần phải giữ im lặng vì nghĩa vụ với Tổ chức đâu。Chỉ là、 hễ em định nói ra、 thì 'vòng cổ' gắn trên tim em lại chuyển động。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_20.mp3
+msg,1,<outline width=2 color=black>Đối với Tổ chức、 em là một vật thí nghiệm quý giá。Vì thế、 em bị đặt ra nhiều giới hạn、 và cả hình phạt nếu vi phạm chúng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_21.mp3
+msg,1,<outline width=2 color=black>Thôi thì、 nói ra cũng được thôi。Tim em chỉ ngừng đập thôi mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:surprise,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_22.mp3
+msg,1,<outline width=2 color=black>……？ Sao anh lại hoảng hốt đến vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_23.mp3
+msg,1,<outline width=2 color=black>Em không hiểu rõ lắm、 nhưng không cần nói cũng được sao？ Hừm…… vậy à。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104100/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104104/adv/sound/fav104104_01_24.mp3
+msg,1,<outline width=2 color=black>Vậy thì、 em đi đây…… Tạm biệt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

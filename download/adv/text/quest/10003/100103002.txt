@@ -1,0 +1,714 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm024.mp3,0.5,,,
+endwait
+msg,0,<size=30><outline width=2 color=black>Yếu ớt、 yếu ớt、 yếu đến mức đáng thương hại。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Rốt cuộc cũng chỉ là kẻ vướng víu。Không có thì 'cô ấy' chắc chắn sẽ dễ dàng hơn nhiều。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Kẻ vô dụng thì chỉ có thể thốt ra những tiếng kêu thảm thiết nghe êm tai mà thôi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Im đi……！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_011_3_02_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi、 tôi ngưỡng mộ người đó…… nên tôi muốn đuổi kịp bóng lưng người đó。Tôi không muốn chỉ mình tôi bị bỏ lại、 nên…… nên……！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_011_3_02_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế mà、 vì tôi…… người đó lại bị thương…… Ôi、 tôi thật ngu ngốc、 đã làm chuyện không thể cứu vãn được……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_011_3_02_03.mp3
+clickwait,,,,,,,,,,,
+spriteoff,edel,0
+endwait
+mask,bg1,0,0,1280,300,0,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,norn1,0,0,1280,300,0.5,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,0,0,0,0,,,,
+imgconf,norn,norn1,0,-400,,,0,1.5,1.5,0
+endwait
+name,<size=27><outline size=8 color=black>Norn</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 đúng vậy…… Em đang rất thành tâm đối mặt với tội lỗi của mình。Đó là một trái tim thật、 thật…… tuyệt đẹp。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_3_02_01.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Tôi không thể chịu đựng được nếu những cảm xúc của em không được đền đáp。Không thể cứu vãn ư？ Không、 không có chuyện đó đâu。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_3_02_02.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Đã làm tổn thương、 đã cướp đi。Vậy thì…… em nên bù đắp lại phần đó…… phải không？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_3_02_03.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Tôi sẽ chỉ cho em cách…… Chỉ cần nhấn chìm nó vào thế giới giấc mộng này là được。Vì ở đây、 mọi thứ đều có thể thành hiện thực mà。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_014_3_02_04.mp3
+clickwait
+stopbgm,0.5
+name,
+msg,0,
+spriteoff,all,0.5
+endwait
+bg,download/bg/bg_10040100.jpg,2,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm006.mp3,0.5,
+endwait,,,,,,,,,,,
+sprite,download/monster/20030101/adv/image/20030101.png,robo,0,-100,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――――――――――――！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_022.mp3
+shake,0.2,2,15,15
+endwait
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:sad,lid,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Haizz…… thật là、 chuyện gì thế này……</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_01.mp3
+clickwait,,,,,,,,,,,
+spriteoff,lid,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,-235,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bri,300,-190,0.5,0.5,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đang ngẩn ngơ cái gì thế！ Không thấy kẻ địch đang chĩa súng vào sao！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_01.mp3
+clickwait,,,,,,,,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chết、 không ổn rồi……！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_01.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không ổn ư？ Chuyện gì？</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_02.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+sprite,download/monster/20030101/adv/image/20030101.png,robo,0,-100,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――――――――――――――！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_022.mp3
+shake,0.2,3,15,15
+flash,255,255,255,3,0.2,0.5
+endwait
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:anger,lid,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mấy viên đạn chì cỏn con này mà nghĩ có thể làm gì được tôi ư？</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:anger,lid2,0,-120,0.5,0,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:anger,lid3,0,-120,0.5,0,,,,
+endwait
+anm,move,lid,-1000_-120,0.2,1
+anm,move,lid2,-1000_-120,0.5,1
+anm,move,lid3,-1000_-120,0.8,1
+playse,/download/sound/se/se_016.mp3
+endwait
+spriteoff,all,0
+endwait
+sprite,download/monster/20030101/adv/image/20030101.png,robo,0,-100,1.35,0.5
+endwait
+anm,scale,robo,1.7_1.7,0.2,0
+endwait
+playse,/download/sound/se/se_053.mp3
+flash,255,255,255,3,0.2,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――、…………、……</outline></size>,,,,,,,,,
+clickwait
+stopbgm,0
+spriteoff,robo,1
+playse,/download/sound/se/se_025.mp3
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừ、 chán thật。Có phá bao nhiêu món đồ chơi thế này cũng chẳng thỏa mãn chút nào đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_04.mp3
+clickwait,,,,,,,,,,,
+spriteoff,lid,0
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,-235,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bri,300,-190,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tuyệt thật…… nhiều đạn đến thế mà không trúng một phát nào sao……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_02.mp3
+clickwait,,,,,,,,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đáng sợ hơn là cái thần kinh điên rồ dám lao thẳng vào làn mưa đạn mà không chút do dự đó……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_02.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:sad,dana,0,-120,0.5,0.5,,,
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không chỉ Lydia-san đâu…… Milva-san cũng vậy……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_3_02_01.mp3
+clickwait,,,,,,,,,,
+spriteoff,dana,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:sad,mil,300,-180,0.5,0.5,,,,
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chị hai…… mấy đứa này、 dù có phá bao nhiêu、 phá bao nhiêu đi nữa、 cũng chẳng có vị gì hết……</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_02_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:smile,lid,-300,-120,0.5,0,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 Milva、 em đã hạ gục nhiều kẻ địch thế này ư？ Giỏi lắm chứ。Vậy mà chẳng có lấy một phần thưởng nào、 đáng thương thật đó……</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:normal,mil,300,-180,0.5,0,,,,
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Này、 chị hai…… em vừa nghĩ ra một ý hay。Nếu mấy món đồ chơi này không được、 vậy thì nếm thử những cảm xúc ngọt ngào của họ thì sao nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_02_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:smile,mil,300,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Đặc biệt là cô bé trắng muốt kia…… nhìn là em thấy rùng mình rồi。Nếu nhuộm màu trắng đó thành màu mà chúng ta yêu thích thì…… chắc chắn là……</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_02_03.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm…… à、 ừm……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_3_02_01.mp3
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:smile,mil,300,-180,0.5,0.5,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,-300,-120,0.5,0.5,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Milva、 không được đâu。Mọi người、 'bây giờ' là đồng đội mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù đáng buồn、 nhưng chỉ có chúng ta thì không thể thoát khỏi R'lyeh và Dreamlands mãi mãi đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sống mãi dưới đáy biển thì chán lắm phải không？ Nên、 bây giờ phải nhịn。Nhé？</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:sad,mil,300,-180,0.5,0,,,,
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà……</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_02_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:anger,lid,-300,-120,0.5,0,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,mil,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Milva、 em đang cãi lời tôi đấy ư？</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_09.mp3
+clickwait,,,,,,,,,,,
+shake,0.2,2,5,5
+flash,255,255,255,2,0.2,0.5
+endwait
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ách、 à……！</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_02_05.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,65,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khoan、 khoan đã、 sao tự nhiên lại tát vào má……！？ Cô ấy là em gái cô mà！？ Sao lại dùng bạo lực đột ngột thế chứ……！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_03.mp3
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:sad,mil,300,-180,0.5,0.5,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:anger,lid,-300,-120,0.5,0.5,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đừng có xen vào chuyện của người khác。Đây là chuyện giữa tôi và Milva mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,-300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Milva。Em đã hiểu những gì tôi nói rồi chứ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:shy,mil,300,-180,0.5,0,,,,
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng、 chị hai…… em xin lỗi。Fufu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_02_06.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:sad,bri,300,-190,0.5,0.5,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Bị tát mà sao lại trông vui vẻ thế？ Quả nhiên、 không phải người bình thường sao nhỉ？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_03.mp3
+clickwait,,,,,,,,,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mấy người đó…… sao lại、 đến mức đó…… đáng lẽ phải đau、 vậy mà、 lại vui vẻ…… thỏa mãn……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_3_02_02.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:sad,dana,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,-235,-120,0.5,0.5,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chị em Lynn Lindman…… thông tin đọc được từ cơ sở dữ liệu đã bất thường rồi、 nhưng khi thực sự tiếp xúc thì quả nhiên không phải người bình thường nhỉ……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_3_02_02.mp3
+clickwait,,,,,,,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bridget cũng có vẻ biết、 hai người đó nổi tiếng lắm sao……？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_04.mp3
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+endwait
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:anger,bri,300,-190,0.5,0.5,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hai người đó là lính đánh thuê dùng ma thuật đấy。Cách họ chiến đấu thì khá nổi tiếng trong một số giới。Đương nhiên、 là theo nghĩa xấu đó。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_04.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:normal,mil,300,-180,0.5,0.5,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,-300,-120,0.5,0.5,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chà chà、 ăn nói ghê gớm thật đấy…… trong khi tôi đang đối xử thân thiện mà。Khiến tôi cứ muốn làm nát cái khuôn mặt xinh đẹp đó ra。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:smile,mil,300,-180,0.5,0,,,,
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu vậy thì em muốn làm。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_02_07.mp3
+clickwait,,,,,,,,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,mil,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 vậy thì chia đôi nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_13.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:sad,dana,400,-120,0.5,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,-375,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bri,0,-190,0.5,0.5,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nếu có thể thì tôi không muốn dính dáng gì đến loại người đó。Cái kiểu đối tượng mà nói chuyện vui vẻ về việc phá hủy cơ thể người khác như thế này。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,-375,-120,0.5,0,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_05.mp3
+clickwait,,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À thì、 dù sao thì họ cũng có vẻ hiểu tình hình、 và theo ghi chép thì、 ngay cả trong thời gian làm lính đánh thuê、 họ vẫn hoàn thành nhiệm vụ mà……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_3_02_03.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Chắc là、 sẽ ổn thôi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_3_02_04.mp3
+clickwait,,,,,,,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chẳng qua là không được ghi lại thôi phải không？ Ai mà biết họ làm gì sau lưng chứ……</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_06.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:normal,mil,300,-180,0.5,0.5,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:sad,lid,-300,-120,0.5,0.5,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,mil,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Chán thật… Nếu bọn ta muốn、 giờ tụi bây đã là một đống thịt bầy nhầy rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Đã để tụi bây sống sót、 là bọn ta đang cho thấy thành ý rồi đấy。Mong tụi bây hiểu cho。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_15.mp3
+clickwait,,,,,,,,,,,
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Nếu muốn thân thiết hơn、 hay mình cùng uống trà nhé？ À、 mà ở đây thì làm sao chuẩn bị trà được nhỉ… Phiền phức thật。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_02_08.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:sad,dana,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bri,300,-190,0.5,0.5,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>anger: …Rốt cuộc、 đi cùng với bọn họ có lẽ là một sai lầm。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_07.mp3
+clickwait,,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>anger: Dù vậy、 thực lực của họ là thật、 chi bằng tìm cách hòa hoãn thì hơn…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_3_02_05.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:sad,bri,300,-190,0.5,0,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Liệu có làm được không đây…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_08.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,-235,-120,0.5,0.5,,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>sad: À…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_3_02_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-235,-120,0.5,0,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Sao vậy、 Frau？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_06.mp3
+clickwait,,,,,,,,,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Kia…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_3_02_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,-235,-120,0.5,0,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Ờm… 'Kia' là sao？ Chẳng có gì cả…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_07.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:anger,dana,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,300,-120,0.5,0.5,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Khoan đã… Vừa rồi、 có một chút xáo trộn ma lực…！ Kẻ nào ở đó、 mau lộ diện！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_3_02_06.mp3
+clickwait,,,,,,,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Lại còn lên tiếng nữa chứ、 tử tế ghê。Với loại này、 cứ tẩn cho một trận trước cho nhanh。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_16.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+flash,255,255,255,2,0.1,0.5
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,-235,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:anger,bri,300,-190,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>anger: Khoan、 khoan đã、 tự dưng lại xả súng…！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_08.mp3
+clickwait,,,,,,,,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>anger: Đợi đã、 thấy rồi！ Đó là…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_09.mp3
+clickwait,,,,,,,,,,,
+select,選択肢1 見知らぬ後ろ姿,選択肢2 見覚えのある後ろ姿
+if,select_===_1,,,,,,,,,
+spriteoff,all,0
+name,
+msg,0,
+endwait
+spriteatlas,download/character/100503/adv/atlas/stand_a,body:anger,edel,600,-120,0.5,0.5,,,
+anm,scale,edel,-0.5_0.5,0,0
+anm,tint,edel,40_40_40,0.0001,0
+endwait
+spriteoff,edel,0.6
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,-235,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,bri,300,-190,0.5,0.5,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Bóng lưng đó… Không、 nhưng mà…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_10.mp3
+clickwait,,,,,,,,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Tôi không thấy rõ、 Bridget thấy à？ Cảm giác như hơi lùn thì phải…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_09.mp3
+clickwait,,,,,,,,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: …Không、 chỉ thoáng qua thôi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_11.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteoff,all,0
+name,
+msg,0,
+endwait
+spriteatlas,download/character/102601/adv/atlas/stand_a,body:normal,zero,-600,-120,0.5,0.5,,,
+anm,tint,zero,40_40_40,0.0001,0
+endwait
+spriteoff,zero,0.6
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,-235,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,bri,300,-190,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Bóng lưng vừa rồi… Chẳng lẽ…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_10.mp3
+clickwait,,,,,,,,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Cô thấy mặt đối phương à？ Tôi thì không thấy rõ…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,-235,-120,0.5,0,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Ư… Ưm… Trông như người quen、 nhưng mà、 người đó không đời nào ở đây…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_11.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0.5,,,,]
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Kia… là…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_3_02_05.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:anger,dana,400,-120,0.5,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,-375,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bri,0,-190,0.5,0.5,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>anger: Dù chưa rõ đối phương là ai、 cứ đuổi theo đã…！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_3_02_07.mp3
+clickwait,,,,,,,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>anger: Ừ、 đi hướng này！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,-375,-120,0.5,0,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>surprise: Ê、 đợi đã… Bóng người thì ở đằng kia…！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:sad,bri,0,-190,0.5,0,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Hả？ Cô đang nói gì vậy…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_14.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:normal,mil,300,-180,0.5,0.5,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,-300,-120,0.5,0.5,,,,
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+endawait
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Hừm、 cả hai đều không nói dối。Cả hai đều thấy bóng người… Phải không、 chị hai？</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_02_09.mp3
+clickwait,,,,,,,,,,,
+anm,tint,lid,255_255_255,0.0001,0
+anm,tint,mil,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: À、 đúng là lũ ngốc… Bọn ta sẽ đuổi theo hướng kia、 Youka。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_012_3_02_17.mp3
+clickwait,,,,,,,,,,,
+anm,tint,mil,255_255_255,0.0001,0
+anm,tint,lid,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Vâng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_013_3_02_10.mp3
+clickwait,,,,,,,,,,,
+playse,/download/sound/se/se_018.mp3
+spriteoff,all,1
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:sad,dana,400,-120,0.5,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,-375,-120,0.5,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bri,0,-190,0.5,0.5,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>anger: Này、 khoan đã、 tự tiện hành động là sao…！ Chết thật… Không còn cách nào khác、 tôi sẽ đuổi theo họ。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_3_02_08.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:normal,bri,0,-190,0.5,0,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Một mình trông chừng lũ nguy hiểm đó thì không an tâm。Tôi cũng đi… Asaka、 cô dẫn cậu ta và Frau đi hướng còn lại。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,-375,-120,0.5,0,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,bri,150_150_150,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>surprise: Hả、 chỉ、 chỉ có tôi…！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:normal,bri,0,-190,0.5,0,,,,
+anm,tint,bri,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: …Tự tin hơn vào thực lực của mình đi。Hiện tại、 người được tăng cường sức mạnh nhiều nhất là cô đấy。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_002_3_02_16.mp3
+clickwait,,,,,,,,,,,
+playse,/download/sound/se/se_018.mp3
+spriteoff,bri,1
+spriteoff,dana,1
+endwait
+anm,tint,asaka,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: …Không ngờ Bridget lại nói An như thế…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: May quá、 nhỉ…？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_3_02_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-375,-120,0.5,0,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: À、 ừm…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,-375,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>surprise: Không phải！ Phải đuổi theo nhanh lên、 không thì mất dấu bóng người vừa rồi mất！ Đi thôi、 hai người！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_3_02_16.mp3
+clickwait,,,,,,,,,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>surprise: Ừm。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_3_02_07.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

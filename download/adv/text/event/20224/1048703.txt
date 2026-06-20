@@ -1,0 +1,615 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11560300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103281/adv/atlas/stand_a,body:sad,alma_s,-300,-120,0.5,0.5,,,,
+anm,tint,alma_s,150_150_150,0.0001,0
+spriteatlas,download/character/100383/adv/atlas/stand_a,body:sad,catia_s,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Tại sao</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100383/adv/atlas/stand_a,body:sad,catia_s,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại sao cô biết về Jamila và Irina？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103281/adv/atlas/stand_a,body:sad,alma_s,-300,-120,0.5,0,,,,
+anm,tint,catia_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chắc là vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103281/adv/atlas/stand_a,body:sad,alma_s,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi không thích cô</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103281/adv/atlas/stand_a,body:sad,alma_s,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu cô muốn nghe chuyện đến thế、 thì hỏi gã đàn ông kia đi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Bây giờ tôi muốn gặp Milva và những người khác trước,Liệu họ có tin tôi nếu tôi kể…
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100383/adv/atlas/stand_a,body:anger,catia_s,300,-100,0.5,0,,,,
+anm,tint,alma_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có đùa。Sau khi đã nói đến đây rồi、 mà lại bảo tôi gác lại、 cô tưởng tôi sẽ để yên chuyện đó sao――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100383/adv/atlas/stand_a,body:anger,catia_s,300,-100,0.5,0,,,,
+anm,tint,alma_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi sẽ là người quyết định。Dù sao thì、 hãy nói cho tôi biết mọi thứ mà các người biết――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Thật tình、 nó cứa vào tim tôi đến mức không thể chịu nổi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thật sự、 nếu không phải là giấc mơ này… À、 nhưng dù ở hình dạng nào đi nữa、 tôi cũng không thể đường hoàng đối diện với họ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Vậy nên… hãy kết thúc nó nhanh lên</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm183.mp3,0,
+endwait,,,,,,,,,,,
+
+spine,download/adv/spine/Threebeams_purple,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.3
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.3
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.4
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+flash,240,20,40,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11560300.jpg,0.2,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,catia_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100383/adv/atlas/stand_a,body:sad,catia_s2,0,0,0,0,,,,
+imgconf,catia_s2,catia_s1,0,0,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Ực、 khụ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_068.mp3
+endwait,,,,,,,,,,,
+flash,240,20,40,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,catia_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100383/adv/atlas/stand_a,body:anger,catia_s2,0,0,0,0,,,,
+imgconf,catia_s2,catia_s1,0,0,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>C、 ứ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Threebeams_purple,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.3
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.3
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.4
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Threebeams_purple,em1,default,animation,0,0,0,1,1.0,0
+anm,scale,em1,-1_1,0,
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.3
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.3
+playse,/download/character/103514/se/se_c03514_ef_hit.mp3
+wait,0.4
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+bg,download/bg/bg_11560300.jpg,0.5,255
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,-1,1.0,0
+playse,/download/sound/se/se_068.mp3
+endwait,,,,,,,,,,,
+flash,240,20,40,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+
+
+
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_068.mp3
+endwait,,,,,,,,,,,
+flash,240,20,40,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,catia_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100383/adv/atlas/stand_a,body:sad,catia_s2,0,0,0,0,,,,
+imgconf,catia_s2,catia_s1,0,0,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,1.2,1.0,0
+playse,/download/sound/se/se_068.mp3
+endwait,,,,,,,,,,,
+flash,240,20,40,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103281/adv/atlas/stand_a,body:sad,alma_s,300,-120,0.5,0.5,,,,
+anm,tint,alma_s,150_150_150,0.0001,0
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có để nhân vật trong mơ nói nhiều quá。Dù chỉ là một hình tượng giả tạo、 nhưng anh ta có sự dịu dàng không thể tách rời giấc mơ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103281/adv/atlas/stand_a,body:surprise,alma_s,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>C――…cái gì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_063.mp3
+spriteatlas,download/character/103281/adv/atlas/stand_b,body:anger,alma_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ực、 Norn、 cô――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,alma_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trong thế giới của tuyệt vọng、 trong tình huống tuyệt vọng、 nhưng vẫn không hề bị nhuốm màu tuyệt vọng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Alma Riesfeld。Thật vinh dự khi được trò chuyện với một người như cô、 người đáng được kính trọng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng、 tôi、 một nhân vật trong mơ、 không cần phải chiếm thời gian của các cô</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Những người tuyệt vời như anh và cô không cần phải để tâm đến giấc mơ của loài sâu bọ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103281/adv/atlas/stand_b,body:anger,alma_s,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sâu bọ… Ý cô là sao？ Hơn nữa、 cô là mụ phù thủy của tuyệt vọng sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103281/adv/atlas/stand_b,body:anger,alma_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Norn của thế giới này――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,alma_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi muốn trả lời từng câu hỏi của các cô</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi cũng có lý do riêng、 và tôi cũng có cảm giác ích kỷ rằng tôi không muốn bị nhìn như vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng tôi không có thời gian</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Kẻ đó đang tìm kiếm kết thúc của giấc mơ này。Milva và những người khác không nhận ra điều đó、 họ muốn thay đổi kết thúc</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi không muốn biến giấc mơ vốn đã là một quá khứ tàn khốc thành một bi kịch hơn nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Milva、 dù cô ấy từng là gì đi nữa、 thì giờ đây、 cô ấy không nên phải gánh chịu thêm bất kỳ nỗi buồn nào nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Trong thế giới của tuyệt vọng、 tôi đã đùa giỡn với số phận của cô ấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng bây giờ… anh。Giờ tôi đã biết có một thế giới của hy vọng nơi có anh、 thì tôi chẳng quan tâm đến sự tuyệt vọng nhỏ bé của mình nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thay vào đó、 tôi có một cảm giác tội lỗi hời hợt… Ít nhất nếu tôi bị lôi ra với tư cách là một nhân vật trong mơ、 thì tôi muốn bảo vệ trái tim cô ấy vào lúc này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chắc chắn anh sẽ khinh thường tôi。Dù là một nhân vật trong mơ、 dù là một hình tượng được chiếu ra từ một quá khứ không có linh hồn、 thì tôi vẫn sẽ bỏ qua nó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng、 tôi sẽ bỏ qua。Katia… và cả tôi nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù anh có khinh thường tôi đến đâu、 thì tôi、 một nhân vật trong quá khứ không có cả linh hồn、 cũng chẳng sao</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ưu tiên hàng đầu là họ、 những người đã có thể chạm vào hy vọng nhờ một sự trùng hợp kỳ diệu từ đáy của tuyệt vọng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Sau tuyệt vọng、 không cần phải có thêm tuyệt vọng nào nữa。Ngay cả tôi cũng nghĩ vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103281/adv/atlas/stand_b,body:anger,alma_s,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có độc thoại một chiều。Nếu muốn nói chuyện、 hãy chọn từ ngữ sao cho tôi cũng hiểu được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,alma_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin lỗi。Đây không phải là một cuộc trò chuyện、 cũng không phải là một lời thú tội――。Chỉ là một độc thoại。Sự tự mãn thôi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng、 đúng là vậy。Tôi không thể đắm chìm mãi được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Hãy ngủ một giấc cho đến khi giấc mơ này kết thúc</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11560300.jpg,1,255
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,-150,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/103281/adv/atlas/stand_b,body:surprise,alma_s,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Ực</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,-150,-120,0.5,0,,,,
+imgconf,norn,,-150,-120,,,-1,0.5,0.5,0
+anm,tint,alma_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chúc ngủ ngon、 Alma</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103281/adv/atlas/stand_b,body:surprise,alma_s,0,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28090112_entry_04.mp3
+flash,0,0,0,4,0.3,1.0
+shake,0.2,4,15,15
+anm,move,alma_s,0_-250,0.5,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103281/adv/atlas/stand_b,body:sad,alma_s,0,-250,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ư… ở… ở… nơi… như… thế… này…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,-150,-120,0.5,0,,,,
+imgconf,norn,,-150,-120,,,-1,0.5,0.5,0
+anm,tint,alma_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi sẽ bảo vệ Milva thay cho cô。Tôi hứa。Hãy để tôi、 một kẻ như tôi、 gánh vác vai diễn bẩn thỉu này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,-150,-120,0.5,0,,,,
+imgconf,norn,,-150,-120,,,-1,0.5,0.5,0
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin lỗi nhé</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_28090112_entry_04.mp3
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103281/adv/atlas/stand_b,body:sad,alma_s,0,-250,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,alma_s,0_-1200,1,0
+endwait,,,,,,,,,,,
+
+playse,/download/sound/se/se_020.mp3
+endwait,,,,,,,,,,,
+spriteoff,alma_s,0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Nào。Xin lỗi、 nhưng tôi cũng sẽ cho anh ngủ một giấc</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À、 đừng mà。Đừng nhìn tôi với khuôn mặt buồn bã và dịu dàng như vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em biết mình đã chọn cách làm không được anh chấp nhận。Vậy mà… anh lại… cố gắng thông cảm với hoàn cảnh của em、 như vậy là không được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu không、 em sẽ chọn việc bào chữa với anh thay vì kết thúc giấc mơ này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:anger,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Một nhân vật trong mơ như em、 không thể vì bảo toàn bản thân và sự thỏa mãn cá nhân mà lãng phí thời gian、 để rồi kết thúc theo đúng ý đồ của con sâu bọ đó được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy nên… xin lỗi anh</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Lần tới khi anh mở mắt ra、 giấc mơ này sẽ kết thúc、 và mọi thứ sẽ trở lại như trước kia</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+playse,/download/sound/se/se_28090112_entry_04.mp3
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng em không thể tiêu diệt con sâu bọ đó。Đó là điều duy nhất em còn vướng bận…――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Ha ha。Một nhân vật trong mơ chỉ phản chiếu quá khứ lại có 'trái tim'、 thật là một câu chuyện kỳ lạ。Mình đang nói gì vậy trời</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+playse,/download/sound/se/se_28090112_entry_04.mp3
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đó không phải là điều mà một nhân vật trong mơ như em phải lo lắng。Anh và mọi người chắc chắn sẽ làm được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Chúc ngủ ngon。Rất vui vì đã được gặp anh</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103514/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tạm biệt</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+sprite,download/adv/image/black.jpg,upber,0,0,0,0
+sprite,download/adv/image/black.jpg,bottomber,0,0,0,0
+imgconf,upber,,0,-720,1280,720,1,1,1,0
+imgconf,bottomber,,0,720,1280,720,1,1,1,0
+endwait,,,,,,,,,,,
+anm,move,upber,0_0,2,0
+anm,move,bottomber,0_0,2,0
+fadeinblack,2,,,,,,,,,,
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

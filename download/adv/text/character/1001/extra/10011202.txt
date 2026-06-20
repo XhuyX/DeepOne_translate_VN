@@ -1,0 +1,283 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11310303.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_01.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Này、 khi nghĩ đến chơi sông、 anh tưởng tượng ra những gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_02.mp3
+msg,1,<outline width=2 color=black>Còn biển thì có thể bơi lội、 xây lâu đài cát… đông người thì chơi bóng chuyền bãi biển nữa、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_03.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 chơi sông ấy hả… nghĩ mãi không ra cái gì là ‘chuẩn’ cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_04.mp3
+msg,1,<outline width=2 color=black>Dù là Dreamlands đi nữa、 đã đến chỗ thế này rồi thì nhân tiện muốn tận hưởng một chút chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_05.mp3
+msg,1,<outline width=2 color=black>Anh có muốn làm gì không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Bắt cá đi,Té nước nhau chẳng hạn
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:surprise,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_06.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nói bắt cá、 nhưng không có đồ nghề thì… à、 hay là bắt tay không？ Ừm… dù sông có cạn、 chắc cũng khó lắm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/bg/bg_11310303.jpg,bg,0,0,1.2,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11310303.jpg,0,255
+endwait,,,,,,,,,,,
+anm,move,bg,0_-200,1.5,0
+anm,scale,bg,2_2,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100112/adv/sound/fav100112_02_07.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>A、 khoan đã——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.2,up
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.2,up
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Water,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_050.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,down
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/bg/bg_11310303.jpg,bg,0,0,1.5,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11310303.jpg,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.5,down
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:surprise,asaka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_08.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>A……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:smile,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_09.mp3
+msg,1,<outline width=2 color=black>——、 hì、 hì hì、 a ha ha</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:smile,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_10.mp3
+msg,1,<outline width=2 color=black>Trời ơi、 cũng phải nghe người ta nói hết chứ。Vừa mới nói xong đã trượt chân đẹp thế kia… nhìn cứ như con nít ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_11.mp3
+msg,1,<outline width=2 color=black>Nào、 tôi biết là anh ức chế mà、 nhưng mau ra khỏi sông đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,bg,0_0,1,0
+anm,scale,bg,1.2_1.2,1,0
+endwait,,,,,,,,,,,
+
+spineoff,bg,0
+endwait,,,,,,,,,,,
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_12.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tôi nghĩ chuyện đó không chỉ có ở sông đâu… với lại、 mấy cái đấy thường là giữa những Koi với nhau……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:shy,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_13.mp3
+msg,1,<outline width=2 color=black>………… Ờ、 ờ thì</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:shy,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_14.mp3
+msg,1,<outline width=2 color=black>A！ Không、 không phải là không thích！ Hoàn toàn không phải không thích、 trái lại còn vui nữa… mà！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+spine,download/adv/spine/Water,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_050.mp3
+endwait,,,,,,,,,,,
+wait,1.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:surprise,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_15.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Kya…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:anger,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_16.mp3
+msg,1,<outline width=2 color=black>Nè、 này！ Tự dưng làm vậy là ăn gian đấy！ …Được rồi、 vậy thì tôi cũng—nào！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+flash,255,255,255,3,0.3,1.0
+spine,download/adv/spine/Water,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_050.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:surprise,asaka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_17.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>A… xin、 xin lỗi anh、 hơi mạnh tay quá…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_18.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ướt sũng cả người rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_19.mp3
+msg,1,<outline width=2 color=black>Tuy nắng gắt nhưng bờ sông thì mát、 nước lại lạnh、 bị cảm thì không tốt… lại đây。Tôi dùng ma thuật hong khô cho。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:normal,asaka,0,-120,0.6,0.5,,,,
+endwait
+playvoice,1,download/character/100112/adv/sound/fav100112_02_20.mp3
+msg,1,<outline width=2 color=black>Tóc cũng ướt nhẹp rồi này… ngoan một chút nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:normal,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_21.mp3
+msg,1,<outline width=2 color=black>Tí nữa còn tiệc nướng nữa、 nên hong khô người luôn đi。Nào—biết là nhột rồi、 nhưng đừng cử động。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:normal,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_22.mp3
+msg,1,<outline width=2 color=black>…Mà này nói mới nhớ、 nhìn thế này anh quả đúng là… thân hình、 cơ bắp mấy chỗ này… đúng là đàn ông nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:shy,asaka,0,-120,0.6,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_23.mp3
+msg,1,<outline width=2 color=black>………… Ờ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,asaka,0.5_0.5,0.2,0
+endwait
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:shy,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_24.mp3
+msg,1,<outline width=2 color=black>Xin、 xin lỗi、 lúc nào ấy chạm tay mất… a、 ư、 ư… không、 không phải vậy đâu！ Cái này là… này、 nói thế nào nhỉ…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100112/adv/atlas/stand_a,body:shy,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100112/adv/sound/fav100112_02_25.mp3
+msg,1,<outline width=2 color=black>——、 không có gì hết á á á！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+anm,move,asaka,1200_-120,0.4,0
+endwait
+spriteoff,asaka,0
+endwait
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

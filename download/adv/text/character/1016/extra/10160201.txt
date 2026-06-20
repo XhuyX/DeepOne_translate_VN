@@ -1,0 +1,100 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10050400.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:normal,patrisia,0,-170,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_01.mp3
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Um… thật ra em có điều này cứ nghĩ mãi、 không biết em hỏi được không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_02.mp3
+msg,1,<outline width=2 color=black>Giờ ở đây chỉ có em và anh thôi、 nên em nghĩ đây là thời điểm tốt để hỏi chuyện này、 nhưng mà…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_03.mp3
+msg,1,<outline width=2 color=black>……Bộ trang phục này、 anh không thấy nó hơi không hợp với em sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_04.mp3
+msg,1,<outline width=2 color=black>V-Vì… vì nó cứ lộng lẫy thế nào ấy ạ… Hơn nữa、 cái、 cái khe ngực của em cứ lộ ra nhiều quá…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_05.mp3
+msg,1,<outline width=2 color=black>Bộ đồ này、 sức mạnh của anh cũng can thiệp vào đó đúng không？ Vậy thì、 anh không thể làm nó trông kín đáo hơn một chút sao ạ…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_06.mp3
+msg,1,<outline width=2 color=black>Ít nhất thì nếu anh có thể che bớt phần ngực một chút thôi、 em sẽ rất biết ơn ạ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,Che đi như vậy thì phí quá。,……Anh xin lỗi。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_07.mp3
+msg,1,<outline width=2 color=black>A-Anh đang nói gì vậy！ Mà cái phản ứng đó… bộ đồ này、 chẳng lẽ có pha chút mong muốn của anh vào đó sao…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:unique,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_08.mp3
+msg,1,<outline width=2 color=black>Anh không phải đang vui vẻ khi bắt em mặc bộ đồ đáng xấu hổ thế này đó chứ…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_09.mp3
+msg,1,<outline width=2 color=black>À… Vậy sao。Vậy là anh không thể kiểm soát nó bằng ý chí của mình được…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:normal,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_10.mp3
+msg,1,<outline width=2 color=black>Em mới là người phải xin lỗi vì đã đưa ra yêu cầu vô lý。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_11.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 anh… làm ơn đừng nhìn chằm chằm vào em、 em sẽ rất cảm kích ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_12.mp3
+msg,1,<outline width=2 color=black>Em không quen mặc những bộ đồ thế này từ nhỏ… Thật sự rất xấu hổ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_13.mp3
+msg,1,<outline width=2 color=black>Ưưư… Dù anh có nói nó hợp với em đến mấy、 thì sự xấu hổ vẫn không thay đổi đâu ạ… Mà nói đúng hơn、 em sẽ còn xấu hổ hơn nữa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:surprise,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_14.mp3
+msg,1,<outline width=2 color=black>Khoan、 sao anh lại khen nữa vậy！？ Lại còn cụ thể đến thế！？ Không、 hơn thế nữa thì thật sự… A-Anh có nghe em nói không đó！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_15.mp3
+msg,1,<outline width=2 color=black>N-Nếu cứ thế này、 em sẽ không thể dùng Thuật thức Truy Tìm được nữa đâu！ Làm ơn dừng lại đi mà…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_16.mp3
+msg,1,<outline width=2 color=black>Ưưư… Cái tính trêu chọc đó、 sao mà giống anh trai em quá…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:surprise,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_17.mp3
+msg,1,<outline width=2 color=black>——À。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_18.mp3
+msg,1,<outline width=2 color=black>X-Xin lỗi、 anh cứ coi như chưa nghe thấy lời vừa rồi đi ạ… Cứ cái gì cũng nghĩ đến anh trai、 tự dưng lại thấy như mình yêu anh ấy lắm、 xấu hổ quá…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_05_19.mp3
+msg,1,<outline width=2 color=black>——K-Không phải đâu ạ！？ Em không phải là cái đồ mê anh trai gì đó đâu…！ Em chỉ quý trọng anh ấy với tư cách là người nhà thôi… Không phải vậy đâu nhé！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

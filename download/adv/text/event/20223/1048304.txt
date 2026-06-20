@@ -1,0 +1,321 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11210300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm163.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rosalie1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie2,0,0,0,0,,,,
+imgconf,rosalie2,rosalie1,0,-440,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Haizz…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie2,0,0,0,0,,,,
+imgconf,rosalie2,rosalie1,0,-440,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sợ sao… Ừm… đúng ha… Giselle với Bridget、 hai người luôn để ý đến em、 nhưng trong lòng thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie2,0,0,0,0,,,,
+imgconf,rosalie2,rosalie1,0,-440,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rốt cuộc、 em mang lời nguyền của R'lyeh、 mà lại đi tìm hạnh phúc――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: Ôm từ phía sau,Lựa chọn 2: Thổi vào tai
+if,select_===_1,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:shy,rosalie,0,-200,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hya…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:shy,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>Ê、 ơ、 là、 là gì vậy…？ Cái gì… ơ、 bị ôm sao…！？ À、 ơ？ Anh、 lúc nào…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:shy,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>Ưm！ Đừng、 như vậy、 ôm chặt quá、 không được… ơ、 ngại quá…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:shy,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>Hơ、 tuy là không có ai ở đây… nhưng mà、 ngại thì vẫn là ngại。Tim em、 sao mà cứ đập thình thịch… ư、 ư…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:shy,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>Em、 vẫn chưa quen… với việc được ai đó chạm vào như thế này… nên là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:shy,rosalie,0,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:shy,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Dù đã rời ra、 tim vẫn cứ đập không ngừng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:shy,rosalie,0,-200,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:shy,rosalie,0,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Í、 vừa rồi là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:surprise,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>A… Lúc nào mà anh đến gần thế này… Hay là、 anh cố tình đuổi theo em sao…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái… xin lỗi。Đã làm anh lo lắng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chỉ là… ở gần chỗ Giselle với Bridget、 em thấy hơi khó chịu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:normal,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Chắc vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:normal,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em、 bây giờ… em nghĩ là mình đã bắt đầu cảm thấy hạnh phúc với những ngày tháng ở R'lyeh</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:normal,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Lời nguyền không mất đi。Nỗi bất an về tương lai cũng không tan biến。Vấn đề của em、 vẫn còn đó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:smile,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng… anh、 và mọi người、 đều đối xử bình đẳng với em</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:smile,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù có cảm thấy ghê tởm vì lời nguyền、 nhưng mọi người vẫn vượt qua、 và đối xử với em như một con người</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:smile,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đó、 sao lại không phải là hạnh phúc được chứ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:normal,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Trong em、 còn có ký ức của những “em” đã kết thúc trong bi kịch</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Với cha mẹ、 với hàng xóm、 hay với những người xa lạ。Bị ghét bỏ、 bị từ chối、 bị cướp đi mạng sống rất nhiều lần</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:smile,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cho nên、 những ngày ở đây、 đối với em、 rất、 rất… không thể diễn tả được、 là điều đặc biệt</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:normal,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng… em vẫn là một kẻ đáng bị ghét bỏ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:normal,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhìn phản ứng của Giselle và Bridget khi mất trí nhớ、 em mới nhận ra… như tỉnh mộng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hạnh phúc của em、 là do những người khác cố gắng chịu đựng sự ghê tởm、 mà bảo vệ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Nói ra những điều này、 em biết là vô ích。Em nghĩ là mình chỉ đang làm khó anh</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không ai sai cả。Em cũng không muốn làm khó ai</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:normal,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng… nhưng mà、 những lời lẽ vô lý cứ hiện lên trong đầu em</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:normal,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Chắc là、 nếu em không biết đến sự dịu dàng、 không biết đến hạnh phúc、 thì bây giờ em đã không đau khổ đến thế này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Anh nắm tay em、 kéo em về với hiện thực、 dẫn em đến tận đây。Cho nên em mới đau khổ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em vẫn chưa biết phải đối mặt với sự dịu dàng tàn nhẫn của anh như thế nào</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Ư、 xin lỗi。Em、 thật sự… không có ý định nói ra những điều này… có vẻ như em đã kích động hơn em nghĩ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em cần phải bình tĩnh lại một chút…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Xin lỗi。Em vẫn muốn một mình――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:surprise,rosalie,0,-170,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>A</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>…Anh、 lúc nào cũng vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>Khi em định đi đâu đó、 anh lúc nào cũng nắm tay em như vậy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>Và… em không thể nào giằng ra được、 khỏi cái nắm tay ấm áp đó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:shy,rosalie,0,-200,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:shy,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>…Thật sự、 anh là một người tồi tệ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:shy,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>…Thêm một chút nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105707/adv/atlas/stand_a,body:shy,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>Để em ở yên như thế này、 có được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,335 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 anh trai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:smile,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>May quá。Em đang tìm anh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em có chuyện muốn hỏi anh này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À… nhưng mà、 có lẽ là em sẽ làm phiền anh mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nên em cứ nghĩ là không nên nói ra… nhưng mà、 cuối cùng thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À… ừm、 này… sắp năm mới rồi、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:shy,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì vậy… em biết là em thật ích kỷ、 nhưng mà、 em muốn cùng anh đón năm mới…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:shy,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em biết là anh muốn dành thời gian cho mọi người khác nữa… nhưng mà… chỉ một chút thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:shy,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Chỉ một chút thôi… không được sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 「いいに決まってる
+if,select_===_1,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:smile,frau,0,-120,0.5,0,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…！ Em yêu anh nhất！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:smile,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>E he he、 mong quá đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Phải rồi。Nhân tiện、 mình phải chuẩn bị nhiều thứ mới được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:surprise,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À… ư、 ừm！ Không có gì！ Coi như nãy giờ em chưa nói gì đi…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:shy,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>V、 vậy thì、 hẹn gặp lại anh nha…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+playse,/download/sound/se/se_016.mp3
+endwait
+anm,move,frau,-1010_-120,0.9,0
+endwait
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,-1200,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_048.mp3
+endwait
+anm,move,elica,0_-100,1.6,0
+endwait
+
+
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Vừa rồi Frau chạy đi、 có chuyện gì vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại cái thằng nhóc đó、 lại bám Frau dai như đỉa、 bị ghét bỏ rồi chứ gì？ Thật là… bớt bớt lại một chút đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:smile,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà、 chắc là sẽ làm lành ngay thôi… Nếu không được thì tôi sẽ nói với Frau、 lúc đó thì cứ nói ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Mà này、 sắp hết năm rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Những dịp thế này、 tôi lại càng để ý đến dòng chảy của thời gian。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tương lai、 với tôi、 chẳng hề dịu dàng。Vì vậy、 từ xưa tôi đã ghét sự trôi đi của thời gian。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đôi mắt này của tôi—đôi mắt của Tohil、 sẽ đánh đổi tất cả của tôi để ban vinh quang cho ai đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì ai đó、 tất cả của tôi sẽ bị cướp đi。Khoảnh khắc đó là khi nào đây。Từng ngày、 nỗi sợ hãi về điều đó lại càng lớn dần、 tôi chỉ biết cúi gằm mặt xuống…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà… gặp được mọi người、 tôi đã có thêm chút dũng khí để hướng về tương lai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Thằng nhóc đó、 lúc nào cũng tự tiện kéo tay tôi。Tôi chẳng còn thời gian mà cúi gằm mặt xuống nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Lúc nào cũng thích làm theo ý mình… thỉnh thoảng、 anh có thể chiều theo tôi được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Liệu có thể cho tôi chút thời gian vào năm mới không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Nỗi bất an về thời gian vẫn chưa thể xóa bỏ hết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù vậy、 nếu thằng nhóc đó—anh ở bên cạnh、 tôi có thể đón nhận khoảnh khắc đó với một tâm trạng khác… Tôi cảm thấy như vậy… nên…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:shy,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:shy,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>…T、 tóm lại、 anh lúc nào cũng làm tôi phải xoay như chong chóng、 thỉnh thoảng anh cũng nên chiều theo tôi một chút chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:sad,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Hay là、 anh thấy ở bên tôi thật phiền phức？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 「そ、そんなわけない
+if,select_===_1,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:smile,elica,0,-100,0.5,0,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:smile,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu vậy、 tôi xin anh đấy。Đừng quên nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:unique,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu anh phá vỡ lời hứa… thì lúc đó、 anh sẽ khổ đấy、 biết chưa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:smile,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hừm。Mà、 dù là thằng nhóc đó、 chắc cũng không đến nỗi bất cẩn vậy đâu。…Phải rồi、 tôi tin anh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:smile,elica,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+playse,/download/sound/se/se_048.mp3
+endwait
+anm,move,elica,-900_-100,1.6,0
+endwait
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:normal,rozet,1000,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+playse,/download/sound/se/se_048.mp3
+endwait
+anm,move,rozet,0_-100,1.7,0
+endwait
+
+
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:normal,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>À、 trông ngài có vẻ rất nghiêm trọng、 có chuyện gì sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:normal,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu Rosette này có thể giúp gì được、 xin ngài cứ cho phép…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:sad,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>—Nếu ngài nói không sao、 thì tôi sẽ không hỏi thêm nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:normal,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 nếu cần、 xin cứ dùng Rosette này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:normal,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rosette này đã học được rất nhiều điều từ ngài、 được ngài dẫn dắt。Và、 tôi mong muốn được ở bên cạnh ngài、 mãi mãi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:normal,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù là một mong muốn ích kỷ… nhưng mà、 đây là những gì thật lòng từ Rosette này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:normal,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì vậy、 nếu ngài gặp khó khăn、 tôi xin hứa sẽ dùng tất cả những gì mình có để giúp đỡ ngài。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:normal,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ngay cả mong muốn được giúp đỡ ngài、 người quan trọng của tôi、 cũng là do ngài dạy cho tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:shy,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Nhân tiện、 tôi muốn hỏi một điều、 ngài đã có dự định gì cho dịp cuối năm chưa ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,30,30
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:surprise,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>…？ Ơ、 sao ngài lại run rẩy như vậy？ Với lại、 có vẻ như ngài đang né tránh điều gì đó…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:sad,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Có phải tôi đã làm điều gì khiến ngài cảnh giác… hay là、 làm ngài phật lòng không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:sad,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rosette đã nghĩ rằng mình muốn cùng ngài đón khoảnh khắc giao thời này、 kết thúc một năm ngài đã ban tặng cho Rosette biết bao điều、 và mở ra một năm mới… nếu có thể、 chỉ hai chúng ta thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102901/adv/atlas/stand_a,body:sad,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Quả nhiên、 Rosette này không thể nào độc chiếm thời gian của ngài được、 phải không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+select,Cùng nhau đón năm mới đi！！！！！
+if,select_===_1,,,,,,,,,
+endif,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

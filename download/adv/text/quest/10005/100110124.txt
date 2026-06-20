@@ -1,0 +1,255 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10050300.jpg,0,,,,,,,,
+endwait
+fadeoutblack,1.5,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm006.mp3,0,
+endwait,,,,,,,,,,,
+sprite,download/monster/20040101/adv/image/20040101.png,robo,0,-250,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>————————！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_022.mp3
+endwait
+clickwait
+spriteoff,all,0.2
+endwait
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,qui1,0,0,1280,300,0.5,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:anger,qui,0,0,0,0,,,,
+imgconf,qui,qui1,0,-300,,,0,1.5,1.5,0
+endwait
+name,<size=27><outline width=2 color=black>Quincy</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>——……Chậm quá。</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0.2
+name,
+msg,0,
+endwait
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_053.mp3
+endwait
+flash,255,255,255,4,0.2,0.2
+endwait
+wait,0.5
+endwait
+spriteoff,all,0
+endwait
+sprite,download/monster/20040101/adv/image/20040101.png,robo,0,-250,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>————————……</outline></size>,,,,,,,,,
+endwait
+clickwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait
+wait.0.5
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:anger,qui,0,-120,0.5,0.5,,
+endwait
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>——Mục tiêu đã hạ…… Tiếp theo。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+sprite,download/monster/20040101/adv/image/20040101.png,robo,0,-250,1.35,0.5
+sprite,download/monster/20040101/adv/image/20040101.png,robo1,400,-250,1.35,0.5
+sprite,download/monster/20040101/adv/image/20040101.png,robo2,-400,-250,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>————————！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_022.mp3
+endwait
+clickwait
+name,
+msg,0,
+endwait
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_053.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/blow_Red,em2,default,animation,0,400,0,1,0.8,0
+playse,/download/sound/se/se_053.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/blow_Red,em3,default,animation,0,-400,0,1,0.8,0
+playse,/download/sound/se/se_053.mp3
+endwait
+flash,255,255,255,4,0.2,0.2
+endwait
+wait,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>————————……</outline></size>,,,,,,,,,
+endwait
+clickwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait
+wait.0.5
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:anger,qui,0,-120,0.5,0.5,,
+endwait
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tiếp theo。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,,,,,,
+spriteoff,all,0
+name,
+msg,0,
+endwait
+slideoutblack,0.5,left
+endwait
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:anger,yoshino,10,-200,0.47,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Haaahhh――！</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+name,
+msg,0,
+endwait
+spine,download/adv/spine/Slash4_Blue,em2,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_037.mp3
+endwait
+wait,0.8
+endwait
+sprite,download/monster/20040101/adv/image/20040101.png,robo,0,-250,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>————————……</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait
+wait.0.5
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,325,-120,0.5,0.5,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:normal,yoshino,-290,-200,0.47,0.5,,,,
+anm,tint,lid,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Được rồi、 vậy là chúng ta đã hạ gục hầu hết các Hư Ảnh rồi nhỉ。</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lid,325,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sao mà nhạt nhẽo thế nhỉ。Với tớ thì、 đối thủ nào mà có chút thử thách hơn thì phá hủy mới đã chứ…… Ơ kìa？</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+sprite,download/monster/20040301/adv/image/20040301.png,robo,0,-250,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>————————！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_022.mp3
+endwait
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:normal,yoshino,-290,-200,0.47,0.5,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:smile,lid,325,-120,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Có rồi chứ…… Một con、 trông có vẻ đáng gờm hơn một chút。Không biết Hư Ảnh kia có phải là kẻ cầm đầu đám Hư Ảnh này không nhỉ？</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:normal,yoshino,-290,-200,0.47,0,,,,
+anm,tint,lid,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chắc vậy…… Nếu thế thì việc cần làm đã rõ rồi。Khi đối phó với một nhóm、 ưu tiên hàng đầu là hạ gục kẻ cầm đầu。</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:unique,lid,325,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì、 tớ xin nhận lấy vinh dự này nhé。Nào——quỳ xuống mà bò đi chứ！</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+sprite,download/monster/20040301/adv/image/20040301.png,robo,0,-250,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>————————……</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait
+wait.0.5
+endwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:sad,lid,25,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……？ Sao mà chẳng có chút phản ứng nào vậy。Tớ cứ nghĩ nó sẽ chống cự thêm chút nữa chứ、 hay là tớ đã đánh giá sai rồi sao……？</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:anger,qui,0,-120,0.5,0.5,,
+endwait
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>——！？ Hai người、 cẩn thận！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+name,
+msg,0,
+endwait
+flash,0,0,0,4,0.2,0.2
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:surprise,lid,325,-120,0.5,0.5,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:anger,yoshino,-290,-200,0.47,0.5,,,,
+anm,tint,lid,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chuyện này…… Cảnh vật đang méo mó…… Chẳng lẽ là dịch chuyển không gian sao？ Hạ gục Hư Ảnh kia sẽ kích hoạt cơ chế dịch chuyển…… Khụ！</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:surprise,lid,325,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chết tiệ——</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0.6
+flash,0,0,0,4,0.2,0.2
+endwait
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,0,-120,0.5,0.5,,
+endwait
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Lydia-san、 Yoshino-san！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>……Không có phản ứng Ma Tố nào gần đây…… Chúng ta đã bị chia cắt hoàn toàn rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:anger,qui,0,-120,0.5,0,,
+msg,1,<outline width=2 color=black>Không ngờ lại thành ra thế này…… Dù sao thì、 chúng ta phải nhanh chóng hội quân với hai người họ thôi……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Trước mắt cứ tiến về phía trước đã…… À。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:sad,qui,0,-120,0.5,0,,
+msg,1,<outline width=2 color=black>……À、 xin lỗi。Tôi có một chuyện muốn nhờ。Nếu được、 liệu anh có thể ngăn tôi lại nếu tôi đi nhầm đường không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Lúc nãy thì có Yoshino-san và Lydia-san dẫn đường nên không sao、 nhưng mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tôi thì、 ừm…… không hiểu sao lại rất tệ trong việc nhớ đường trong những tòa nhà thế này…… Nếu không cẩn thận、 tôi có thể cứ đi vòng vòng mãi một con đường mất……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<outline width=2 color=black>Vì vậy、 dù trong tình cảnh này mà nói ra thì thật đáng xấu hổ、 nhưng xin hãy giúp tôi。Ưư…… Tôi xin lỗi rất nhiều。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,1,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

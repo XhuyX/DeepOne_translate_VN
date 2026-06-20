@@ -1,0 +1,175 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11040300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm184.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_01.mp3
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Thật ra、 tôi có chuyện muốn hỏi ý kiến cô。Đây là nhiệm vụ quan trọng mà chỉ có cô mới làm được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Có gì đó khả nghi…,Tôi không đi tìm sô cô la đâu
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:surprise,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_02.mp3
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Thật là quá đáng。Vì tôi tin tưởng cô nên mới lên tiếng đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:sad,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_03.mp3
+msg,1,<outline width=2 color=black>Cô đối xử với tình cảm của tôi như vậy、 thật tàn nhẫn。Tôi bị tổn thương sâu sắc</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:sad,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_04.mp3
+msg,1,<outline width=2 color=black>Trong khi tình hình hiện tại đang vô cùng nguy hiểm… Chúng ta phải hợp sức giải quyết vấn đề này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:surprise,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_05.mp3
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hả… Không ngờ cô đã đoán ra là vụ việc liên quan đến sô cô la。Quả là có tầm nhìn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_06.mp3
+msg,1,<outline width=2 color=black>Nhưng、 hơn cả tầm nhìn đó、 cô còn có vai trò mà chỉ có cô mới đảm nhận được。Không thể thiếu sự hợp tác của cô trong nhiệm vụ này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_07.mp3
+msg,1,<outline width=2 color=black>Nhân tiện、 tôi không muốn cô đi tìm sô cô la đâu。Tình hình đã bước vào giai đoạn còn nghiêm trọng hơn thế</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_08.mp3
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Gần đây、 Asaka cảnh giác tôi ăn vụng sô cô la nên cứ cách một khoảng thời gian lại giấu sô cô la ở chỗ khác</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:unique,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_09.mp3
+msg,1,<outline width=2 color=black>Đương nhiên、 dù có giấu sô cô la đi đâu thì tôi vẫn tìm ra chỗ đó。Không thể nào giấu sô cô la khỏi tôi được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_10.mp3
+msg,1,<outline width=2 color=black>…Muốn nói vậy đấy、 nhưng đúng là cách Asaka giấu sô cô la ngày càng cao siêu hơn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:sad,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_11.mp3
+msg,1,<outline width=2 color=black>Mỗi lần chỗ giấu thay đổi thì thời gian tìm sô cô la cũng tăng lên、 nếu tốn quá nhiều thời gian điều tra thì trong lúc đó Asaka sẽ lại di chuyển sô cô la đi mất</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:anger,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_12.mp3
+msg,1,<outline width=2 color=black>Điều đó cho thấy tình huống tồi tệ nhất… Tôi mà không lấy được sô cô la、 kết cục như thế、 thế giới có cho phép thì tôi cũng không chấp nhận</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_13.mp3
+msg,1,<outline width=2 color=black>Vậy nên、 đến lượt cô rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_14.mp3
+msg,1,<outline width=2 color=black>Asaka cũng bận rộn。Lấy lý do đó、 cô cứ đề nghị thay Asaka di chuyển sô cô la là được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_15.mp3
+msg,1,<outline width=2 color=black>Asaka không thể nào từ chối lời đề nghị của cô được、 chắc chắn Asaka sẽ giao sô cô la cho cô</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:unique,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_16.mp3
+msg,1,<outline width=2 color=black>Cô chỉ cần chia sẻ ngay vị trí đó cho tôi là được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:anger,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_17.mp3
+msg,1,<outline width=2 color=black>Ôi、 một chiến lược hoàn hảo… Nếu ở thời đại khác、 tôi có lẽ đã là một tội phạm hoàn hảo、 người sẽ tạo nên những trận chiến nảy lửa với các thám tử nổi tiếng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_18.mp3
+msg,1,<outline width=2 color=black>Đương nhiên、 tôi cũng chuẩn bị sẵn lợi ích cho cô</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_19.mp3
+msg,1,<outline width=2 color=black>Chỉ cần ký hợp đồng ngay bây giờ、 cô sẽ được tặng một phần sô cô la chiến lợi phẩm。Hơn nữa、 tôi sẽ phục vụ cô ngay tại đây。Ví dụ như…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:unique,maruta,0,-90,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,jump,maruta,0_-90_20_2,1,0
+playvoice,1,download/character/102715/adv/sound/fav102715_02_20.mp3
+msg,1,<outline width=2 color=black>Piyong piyong</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_21.mp3
+msg,1,<outline width=2 color=black>Bằng cách nhảy như thế này、 tôi sẽ cho cô xem ngực tôi rung rinh… Với lại、 cho tay vào khe ngực cũng được luôn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_22.mp3
+msg,1,<outline width=2 color=black>Nhân tiện、 điều kiện này chỉ có bây giờ thôi。Nếu ký hợp đồng sau、 cô đừng mong có được đặc quyền này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,jump,maruta,0_-90_20_2,1,0
+playvoice,1,download/character/102715/adv/sound/fav102715_02_23.mp3
+msg,1,<outline width=2 color=black>Cô muốn xem tôi piyong piyong nhiều hơn đúng không？ Vậy thì、 chỉ cần làm một việc thôi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:smile,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_02_24.mp3
+msg,1,<outline width=2 color=black>Ký hợp đồng với tôi、 piyong</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,136 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10960101.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,
+endwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:sad,asaka,35,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hộc…… hộc……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thật tình。Bộ trang bị này hiệu năng tốt thật、 nhưng cũng hao tổn ghê gớm。Dù vậy…… không thể nào gục ngã chỉ vì chút thế này được……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bởi vì、 bản thân em so với mọi người thì…… còn thiếu sót nhiều lắm。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_03.mp3
+clickwait,,,,,,,,,,,
+select,Lên tiếng gọi,Lặng lẽ tiến lại gần từ phía sau
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:surprise,asaka,35,-120,0.5,0,,,,
+spine,download/adv/spine/Mark3,em1,default,animation,0,170,200,0.6,0.7,0.5
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hả？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_04.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+msg,1,<size=30><outline width=2 color=black>Anh、 từ lúc nào vậy…… Chẳng lẽ、 anh đã xem em luyện tập suốt từ nãy giờ sao……？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_05.mp3
+clickwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:normal,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì phải lên tiếng sớm hơn chứ…… Nhìn em tập luyện thế này chắc cũng chẳng có gì hay ho đâu、 phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:surprise,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Anh nói không phải sao…… Anh lạ thật đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_07.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:surprise,asaka,35,-120,0.5,0,,,,
+spine,download/adv/spine/Mark3,em1,default,animation,0,170,200,0.6,0.7,0.5
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Á！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_08.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:shy,asaka,35,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ơ、 ơ！？ Này、 anh đang làm gì vậy！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bất ngờ bị anh dùng ngón tay vuốt sống lưng như thế、 ai mà chẳng giật mình chứ……！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:sad,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn nữa、 nếu em lỡ phản xạ tấn công thì sao？ Có khi giờ này anh đã thành than rồi cũng nên。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:unique,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thật là hết nói nổi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_12.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:sad,asaka,35,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Haizz…… Em chẳng còn tâm trạng để tiếp tục luyện tập nữa rồi……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:normal,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 người em cũng đã nặng trĩu vì mệt rồi、 dừng lại lúc này cũng vừa đẹp。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:surprise,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À…… chẳng lẽ anh đã tính toán trước điều đó sao……？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_15.mp3
+clickwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:smile,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thật tình、 anh đúng là biết cách quan tâm một cách kỳ lạ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:surprise,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Em、 luyện tập quá sức sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:sad,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Em nghĩ vậy sao…… Em cứ tưởng mọi người cũng đều tập luyện nhiều như thế chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_18.mp3
+clickwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:normal,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn nữa、 em khác với mọi người ở chỗ không có niềm kiêu hãnh hay mục đích để theo đuổi…… nên、 có lẽ em phải nỗ lực gấp đôi người khác、 nếu không sẽ bị bỏ lại phía sau mất。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_19.mp3
+clickwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:sad,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải là sự hơn thua về tài năng hay năng lực…… mà em tin rằng、 khi đối mặt với tình huống hiểm nghèo、 có một 'cốt lõi' vững chắc sẽ tạo nên sự khác biệt lớn。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_20.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Càng cùng mọi người tiến sâu vào Dreamlands、 em càng thấm thía điều đó。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_21.mp3
+clickwait
+msg,1,<size=30><outline width=2 color=black>Em không muốn cứ thế trở thành gánh nặng。Vì là đồng đội、 em muốn được mọi người tin tưởng、 và muốn giúp đỡ khi họ gặp khó khăn。Vì thế、 để làm được điều đó―― hả？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_22.mp3
+clickwait
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:surprise,asaka,35,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Anh nói em đã có 'cốt lõi' rồi sao、 điều đó…… là sao……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_23.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Này、 này、 sao anh lại cười chứ！ Giờ này có gì đáng cười đâu……！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_24.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mà khoan、 'cốt lõi' của em là có ý gì chứ…… À、 này！ Đã nói đến giữa chừng rồi thì đừng có dừng lại ngay lúc quan trọng nhất chứ！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_25.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100105/adv/atlas/stand_b,body:anger,asaka,35,-120,0.5,0,,,,
+spine,download/adv/spine/Mark6,em4,default,animation,0,180,180,0.6,0.8,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>Này、 anh có nghe không đấy！？ Này……！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100105/adv/sound/fav100105_03_26.mp3
+clickwait,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1,,,,,,,,,,
+endwait,,,,,,,,,,,

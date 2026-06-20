@@ -1,0 +1,438 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11490300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm112.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:shy,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 ơ kìa……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:shy,sasya,300,-110,0.5,0.5,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái bộ đồ này là sao chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:shy,sasya,300,-110,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đồ、 đồ hầu gái、 đúng không…… Không、 nhưng mà cái váy thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:sad,asaka,-300,-120,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chắc chắn là quá ngắn rồi……！ C、 cái đồ này、 chỉ cần nhúc nhích một chút là lộ hết ra rồi còn gì……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,sasya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102954/adv/atlas/stand_a,body:surprise,rozet,300,-100,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái này thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102507/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm。Trước đây ta cũng từng bị bắt mặc đồ hầu gái ở Dreamlands rồi、 nhưng không ngờ lại có lần thứ hai thế này nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:shy,sasya,300,-110,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này！ Sao Yoshino lại được mặc váy dài đàng hoàng thế kia chứ！ Không phải là gian lận sao……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:shy,sasya,300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Với lại、 Rosette cũng mặc đồ kiểu Nhật、 ít hở hang nữa…… Mặc dù không hiểu sao lại mọc tai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102954/adv/atlas/stand_a,body:normal,rozet,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Meo meo、 thưa ngài。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: 'Meo meo,Lựa chọn 2: 'Một chú mèo đáng yêu muốn được nuôi
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/102954/adv/atlas/stand_a,body:smile,rozet,0,-100,0.5,0,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Meo meo。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102507/adv/atlas/stand_a,body:normal,yoshino,300,-240,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:shy,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>K、 kìa、 hai người cứ như hiểu ý nhau thế、 thật là gian lận mà……！ T、 tôi cũng sẽ meo meo、 dù không có tai！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102507/adv/atlas/stand_a,body:normal,yoshino,300,-240,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 ta cũng xin phép được meo meo một tiếng vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,yoshino,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:sad,sasya,300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao lại thành ra thế này chứ。Bình tĩnh lại đi mà。Mọi người cứ meo meo thế này、 nghe riết thành đáng sợ rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+
+
+spriteatlas,download/character/102954/adv/atlas/stand_a,body:shy,rozet,0,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>V、 vậy、 vậy sao ạ……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102954/adv/atlas/stand_a,body:shy,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rosette này…… nếu là ngài、 thì Rosette không ngại được nuôi đâu ạ…… Không、 đúng hơn là、 Rosette rất muốn được ngài nuôi、 Rosette nghĩ vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102954/adv/atlas/stand_a,body:smile,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rosette này、 với tư cách là thú cưng ngoan ngoãn của ngài、 bất cứ điều gì――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:sad,sasya,300,-110,0.5,0.5,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:shy,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>K、 không được！ Nếu thế thì、 tôi sẽ làm thú cưng！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:sad,sasya,300,-110,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Coi phụ nữ như thú cưng、 đúng là tệ hại mà、 cái tên này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà nói ra trong bộ đồ hầu gái váy ngắn thế kia thì cũng chịu thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:anger,sasya,-300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải tôi thích mặc cái bộ đồ này đâu nhé！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>K、 không sao đâu、 trông hợp lắm mà！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:unique,sasya,-300,-110,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gì mà không sao chứ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:anger,zizel,300,-120,0.5,0.5,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bình tĩnh lại đi、 Sasha-san。Đúng là tình hình có hơi hỗn loạn một chút、 nhưng trước hết chúng ta hãy bình tĩnh đã。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:unique,sasya,-300,-110,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm…… đúng vậy。Không thể để bị cuốn theo những chuyện ngớ ngẩn xung quanh được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:normal,sasya,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đúng là người thừa kế tương lai của gia tộc Bawdwin danh giá。Ngay cả lúc này cũng thật bình tĩnh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:anger,zizel,300,-120,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng…… Dù sao thì、 hãy bình tĩnh lại và cùng bàn bạc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:anger,zizel,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Trước hết、 Sasha-san。Cô có thể thử nói 'Mừng cô chủ trở về' được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:normal,sasya,-300,-110,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Mừng cô chủ trở về。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:unique,sasya,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>――……Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:smile,zizel,300,-120,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Aaaa、 đây chính là 'Mừng cô chủ trở về' của một cô hầu gái váy ngắn！ Phong cách moe chính hiệu chuẩn mực！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:smile,zizel,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À đúng rồi、 Sasha-san。Cô có thể làm 'Moe Moe Kyun' cho tôi xem được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:smile,zizel,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À、 cái này là phải cùng nhau tạo hình trái tim bằng tay đúng không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:sad,sasya,-300,-110,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hoàn toàn không bình tĩnh chút nào……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,sasya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giselle、 nếu là hầu gái thì cô có Holly rồi còn gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:anger,zizel,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Một thị nữ thật sự và một cô hầu gái váy ngắn là hai chuyện hoàn toàn khác nhau！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:unique,zizel,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà nói thật、 nếu tôi mà dám nhắc đến chuyện hầu gái váy ngắn trước mặt Holly thì y như rằng sẽ bị giảng đạo ba tiếng đồng hồ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:unique,zizel,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi sẽ phải ngồi seiza mà nghe cô ấy giảng về thế nào là một hầu gái chân chính、 thế nào là tinh thần phục vụ đích thực。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:unique,zizel,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cái tôi muốn không phải là phục vụ hay gì cả、 mà là moe cơ mà…… Kể từ ngày hôm đó、 tôi đã thề sẽ không bao giờ nhắc đến chuyện hầu gái váy ngắn trước mặt Holly nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0.5,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cậu từng bị giảng đạo rồi nhỉ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:anger,zizel,300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Vậy nên、 Sasha-san！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:normal,sasya,-300,-110,0.5,0.5,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:anger,zizel,300,-120,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trong khi ở trong vùng này、 cô có thể làm hầu gái của tôi được không！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:normal,sasya,-300,-110,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:anger,zizel,300,-120,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hãy làm hầu gái của tôi đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:normal,sasya,-300,-110,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:anger,zizel,300,-120,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi muốn cô！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:anger,sasya,-300,-110,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nói gì thì nói、 tôi cũng không chịu đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:anger,zizel,300,-120,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có sao đâu、 chỉ một chút thôi mà！ Chỉ một chút thôi cũng được mà！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104808/adv/atlas/stand_a,body:anger,sasya,-300,-110,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đáng ghét！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

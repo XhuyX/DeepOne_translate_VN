@@ -1,0 +1,217 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/181005/adv/sound/fav181005_01_01.mp3
+name,<outline width=2 color=black>Yuu</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――Này này？ Nè―、 nghe thấy không―？ Ô――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+sprite,download/adv/image/black.jpg,eye1,0,360,1,0
+sprite,download/adv/image/black.jpg,eye2,0,-360,1,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10150100.jpg,0,255
+endwait,,,,,,,,,,,
+anm,move,eye1,0_720,1,0
+anm,move,eye2,0_-720,1,0
+endwait,,,,,,,,,,,
+spriteoff,eye1,0.5
+spriteoff,eye2,0.5
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm038.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_02.mp3
+name,<outline width=2 color=black>Yuu</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>A、 dậy rồi―？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:normal,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_03.mp3
+msg,1,<outline width=2 color=black>……Nói thế cũng hơi lạ nhỉ―。Nơi này vốn dĩ là không gian mơ hồ như giấc mơ mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:normal,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_04.mp3
+msg,1,<outline width=2 color=black>Ngược lại、 trái ngược hẳn với 'chào buổi sáng' ……？ Thôi、 chi tiết nhỏ bỏ qua đi―。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Ở đây là……？,……Lần đầu gặp nhau？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_05.mp3
+name,<outline width=2 color=black>Yuu</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đã nói rồi mà―、 là giấc mơ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_06.mp3
+msg,1,<outline width=2 color=black>Vì tôi bây giờ là tồn tại mơ hồ、 không ở đâu cả nhưng lại ở đây。Nên nơi này、 nơi có tôi như thế、 cũng là chỗ mơ hồ đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_07.mp3
+msg,1,<outline width=2 color=black>Đáng lẽ ra、 không thể nào nói chuyện với anh như thế này được。Vì là giấc mơ mà―。Gì cũng có thể…… không không、 nên gọi là phép màu thì hơn nhỉ―？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_08.mp3
+name,<outline width=2 color=black>Yuu</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Không có cảm giác là lần đầu gặp nhỉ―。Vì qua trái tim của những người kết nối với tôi、 tôi biết về anh mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_09.mp3
+msg,1,<outline width=2 color=black>Hơn nữa…… nơi này mơ hồ、 quá khứ、 tương lai、 và cả thế giới của khả năng 'nếu như' cũng đan xen vào nhau nữa―。Bao gồm cả điều đó、 ừm、 không có cảm giác xa lạ nhỉ―。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_10.mp3
+msg,1,<outline width=2 color=black>Không ngờ、 có thể nói chuyện với anh trong giấc mơ như thế này。Tuy không hề nghĩ tới、 nhưng rất vui。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_11.mp3
+name,<outline width=2 color=black>Yuu</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Về Aika。Về Souka。Về Mari。Về Asaka。Về chính anh…… và về tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_12.mp3
+msg,1,<outline width=2 color=black>Aaa、 nóng lòng quá―。Dù có bao nhiêu chuyện muốn nói、 nhưng không biết giấc mơ này còn kéo dài bao lâu nhỉ―。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_13.mp3
+msg,1,<outline width=2 color=black>Vậy nên、 tạm thời、 tôi hỏi điều muốn hỏi nhất、 được không―？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:normal,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_14.mp3
+msg,1,<outline width=2 color=black>Anh bây giờ、 có hạnh phúc không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:normal,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_15.mp3
+msg,1,<outline width=2 color=black>Những ngày tháng các anh đang trải qua、 có hạnh phúc không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_16.mp3
+msg,1,<outline width=2 color=black>――……Fufu、 ra vậy―。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_17.mp3
+msg,1,<outline width=2 color=black>Tốt quá―、 các anh hạnh phúc…… đã đến được tương lai có thể khẳng định rõ ràng là hạnh phúc、 thật sự tốt quá―。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_18.mp3
+msg,1,<outline width=2 color=black>Trong hạnh phúc của anh、 cũng có hạnh phúc của những đứa trẻ ấy。Vậy nên、 câu trả lời đó là điều tôi mong muốn nhất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_19.mp3
+msg,1,<outline width=2 color=black>Nhưng、 vì câu trả lời không chút do dự nào cả。Dù tôi đã cầu mong điều đó、 nhưng nói sao nhỉ、 thấy ghen tị、 sắp ghen mất rồi―。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_20.mp3
+msg,1,<outline width=2 color=black>Nè…… nhân tiện đây、 một chút thôi…… bây giờ、 chỉ một khoảnh khắc nhỏ trong giấc mơ này thôi cũng được、 mà―。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_21.mp3
+msg,1,<outline width=2 color=black>Cho tôi cũng được hòa vào trong hạnh phúc của anh、 được không―？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_22.mp3
+msg,1,<outline width=2 color=black>Không có gì khó khăn đâu。Đừng căng thẳng như thế。Tuy tôi hơi nói quá lên、 nhưng không cần làm gì to tát đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_23.mp3
+msg,1,<outline width=2 color=black>Chỉ là…… muốn anh ở bên tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_24.mp3
+msg,1,<outline width=2 color=black>Nghĩa là、 hẹn hò đi―。Vậy thì dễ hiểu đúng không―？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181005/adv/atlas/stand_a,body:smile,you,0,-120,0.5,0,,,,
+playvoice,1,download/character/181005/adv/sound/fav181005_01_25.mp3
+msg,1,<outline width=2 color=black>Vậy thì、 đi thôi―。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

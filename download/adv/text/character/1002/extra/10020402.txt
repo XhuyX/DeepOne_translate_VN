@@ -1,0 +1,96 @@
+﻿// machine translate -- gemini-2.5-flash
+stopbgm,,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0.0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+playse,/download/sound/se/se_029.mp3
+wait,0.7
+playbgm,/download/sound/bgm/bgm005.mp3,0,,
+endwait
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0.5,,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Gì vậy、 giờ này。Xin lỗi、 hôm nay tôi không có tâm trạng để ý đến cậu đâu。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_01.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ để tôi yên đi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_02.mp3
+clickwait,,,,,,,,,,,,
+select,Không thể bỏ mặc được。,Tôi nghĩ nói ra sẽ nhẹ lòng hơn。
+if,select_===_1,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thật sự、 cậu chẳng màng đến việc tôi từ chối thế nào cả。Dù tôi có đẩy ra bao nhiêu、 cậu vẫn cứ muốn ở bên cạnh……</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_03.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cậu đâu phải là không cảm thấy gì trước những lời từ chối đó。Thế mà…… thật sự、 cậu đúng là một người ngốc nghếch。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_04.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Có lẽ tôi nên nghĩ cậu là một sinh vật như thế thì hơn。……Này、 sao lại cười vui vẻ thế chứ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_05.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cậu có hiểu đó là lời mỉa mai không đấy？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_06.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thật là hết nói。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_07.mp3
+clickwait,,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nếu nói ra mà nhẹ lòng được thì、 sao mà dễ dàng quá vậy nhỉ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_08.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái cảm giác này、 tôi đã ôm ấp nó từ khi rời khỏi gia tộc Bawdwin。Kể cho cậu nghe thì có thay đổi được gì chứ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_09.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Chuyện gì cũng phải thử mới biết、 à。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_10.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừm…… Vô nghĩa。Vô nghĩa…… nhưng、 chỉ hôm nay thôi、 có lẽ tôi sẽ thử nghe theo lời đường mật của cậu vậy……</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_11.mp3
+clickwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Này、 cậu có thể tưởng tượng được không？ Cái cảm giác của một người nhận ra sự nhỏ bé của bản thân。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_12.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Người thừa kế tiếp theo của gia tộc Bawdwin…… Giselle Bawdwin。Em gái tôi、 nó là một thiên tài thực sự đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_13.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù tuổi đời còn non nớt、 nhưng chắc chắn một ngày nào đó、 nó sẽ trở thành một trong Mười hai kim của Tháp Chuông。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_14.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đó là một đỉnh cao mà tôi không bao giờ có thể chạm tới…… Là chuyện của bản thân、 tôi hiểu mà。Giới hạn của tôi、 tương lai của tôi…… chắc chắn sẽ nằm trong cái bóng của con bé。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_15.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Từ trước đến nay、 tôi đã đi khắp thế giới、 và cũng đã nỗ lực đến đổ máu theo cách của riêng mình。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_16.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế mà、 nghe những lời đồn thổi về những gì con bé đã làm được、 đó lại là những điều mà đến giờ tôi vẫn chưa thể làm được…… Thật không thể chịu nổi mà、 thật sự đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_17.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Và cái cảm giác không thể chịu nổi ấy、 đôi khi、 cứ chực trào ra。……Ôi、 thôi rồi…… Ghét thật đấy。Ở bên cậu、 tôi cứ nói ra hết mọi chuyện。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_18.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không lẽ tôi muốn cậu hiểu về mình sao…… Không、 chắc không phải đâu。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_19.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không thể nào như thế được…… Không thể nào……</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100204/adv/sound/fav100204_12_20.mp3
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+name,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,,
+endwait,,,,,,,,,,,,

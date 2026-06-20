@@ -1,0 +1,611 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+sprite,download/bg/bg_11770300.jpg,bg,500,0,2.5,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11770300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm153.mp3,0,
+endwait,,,,,,,,,,,
+anm,move,bg,-500_0,30,0
+clickwait,,,,,,,,,,,
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,raz1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:surprise,raz2,0,0,0,0,,,,
+imgconf,raz2,raz1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>0。Ở đây là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,300,-120,0.5,0.5,,,,
+anm,tint,maria,150_150_150,0.0001,0
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:surprise,raz,-300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>1。Có phải là…khu vực tổ chức tiệc không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,300,-120,0.5,0,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>2。Với cả bộ dạng này nữa… Nghĩ lại thì、 thời điểm cũng gần đến rồi、 có lẽ khu vực này tượng trưng cho Giáng Sinh chăng？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 Razlukaに注目する,選択肢2 Mariaに注目する
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:surprise,raz,-300,-110,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>3。…？ À、 có chuyện gì sao。Sao chị cứ nhìn em chằm chằm thế…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,300,-120,0.5,0,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>4。Chắc lại tiếc vì em không hở hang thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:shy,raz,-300,-110,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>5。Ể、 à…thì、 phải…sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:shy,raz,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>6。Chuyện là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:shy,raz,0,-160,0.7,0.5,,,,
+endwait
+msg,0,<outline width=2 color=black>7。Chị…có thể giúp em một tay được không… Chị thử cho tay vào trong áo choàng xem――hự</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:shy,raz,0,-160,0.7,0,,,,
+msg,0,<outline width=2 color=black>8。Ưm…hiểu、 hiểu chứ？ Thật ra thì、 chỉ là em che bằng áo choàng thôi、 bộ này hở khá nhiều ở ngực…ưm…à</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:shy,raz,0,-160,0.7,0,,,,
+msg,0,<outline width=2 color=black>9。Em thấy hơi ngại khi phải cởi áo choàng ra… Vậy nên、 liệu thế này có làm chị thất vọng không… ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maria1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria2,0,0,0,0,,,,
+imgconf,maria2,maria1,0,900,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>10。…？ Gì vậy。Sao nhìn chằm chằm thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maria1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria2,0,0,0,0,,,,
+imgconf,maria2,maria1,0,150,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>11。À、 không、 không cần hỏi nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maria1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria2,0,0,0,0,,,,
+imgconf,maria2,maria1,0,-200,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>12。Dù sao thì、 ánh mắt chị có hơi…quá lộ liễu rồi đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>13。Dù gì thì nhìn cũng chẳng mất mát gì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:unique,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>14。Ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:unique,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>15。Ưm…ừm…ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,300,-120,0.5,0.5,,,,
+anm,tint,maria,150_150_150,0.0001,0
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:surprise,raz,-300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>16。Frau-san…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,300,-120,0.5,0,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>17。Sao chị có vẻ bực mình thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maria,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>18。Em cũng là ông già Noel mà…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:anger,norn,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>19。Đúng vậy đó、 anh trai！ Em buồn lắm！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:anger,norn,0,-160,0.7,0,,,,
+msg,0,<outline width=2 color=black>20。Nhìn xem、 Frau dễ thương chưa kìa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,frau1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:sad,frau2,0,0,0,0,,,,
+imgconf,frau2,frau1,0,2200,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>21。Trang phục dễ thương với tông màu xanh da trời và trắng、 đúng với hình tượng của Frau！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,frau1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:sad,frau2,0,0,0,0,,,,
+imgconf,frau2,frau1,0,900,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>22。Chiếc váy ngắn tung bay mỗi khi em di chuyển、 để lộ ra đôi chân！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,frau1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:sad,frau2,0,0,0,0,,,,
+imgconf,frau2,frau1,0,-300,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>23。Xương quai xanh lộ ra một chút cũng thật quyến rũ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:anger,norn,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>24。Trong khi có một cô em gái ông già Noel dễ thương đến ngỡ ngàng như này、 anh lại đi tơ tưởng đến người khác、 đúng là anh trai tồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:shy,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>25。Norn… À、 em rất vui khi được khen、 nhưng mà、 có hơi…lạ một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:shy,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>26。Ừm？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103718/adv/atlas/stand_a,body:shy,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>27。Chị nhìn vào những điểm gì đó… Ờm…hơi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>28。Chắc Norn đang nhìn vào mấy thứ quái dị nên Frau mới thấy khó chịu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>29。Mày muốn gây sự à！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100307/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:sad,tabasa,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>30。Haizz… Dù có ồn ào thì cũng phải xem xét xung quanh trước chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100307/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>31。A ha ha… Nhưng mà、 dù có ồn ào đến thế này mà không có kẻ địch nào xuất hiện、 có lẽ khu vực này không quá nguy hiểm đâu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:normal,tabasa,300,-120,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>32。Không có địch không có nghĩa là an toàn đâu、 ở trong Giấc Mộng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:normal,raz,300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>33。Đúng vậy… Thực tế thì、 có vẻ như khu vực này đã bị khóa lại rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100307/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>34。Bị khóa lại、 ý là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,raz,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:sad,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>35。Lại phải làm gì đó để thoát ra nữa sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>36。À、 chuyện đó thì、 tôi nghĩ không cần phải cảnh giác quá đâu。Việc cần làm ở khu vực này cũng không quá khó đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:normal,raz,300,-110,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>37。Chị biết sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>38。Khu vực này、 nó còn chẳng thèm giấu giếm điều kiện nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>39。Nó không phải kiểu cản trở việc đạt được mục tiêu、 hay đối xử như một thử thách。Với tôi và Frau thì、 chỉ cần nhìn là biết ngay thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,raz,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:sad,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>40。Nếu vậy thì、 đừng có úp mở nữa、 nói xem nào。Ở khu vực này、 chúng ta phải làm gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>41。Tặng quà Giáng Sinh đấy――như thế này này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_044.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102007/adv/atlas/stand_b,body:surprise,tabasa,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>42。Ể？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104514/adv/atlas/stand_a,body:surprise,raz,-300,-110,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>43。Đây là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104908/adv/atlas/stand_a,body:normal,maria,300,-120,0.5,0.5,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>44。…Trong tay Norn có một cái hộp？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>45。Ở khu vực này、 chính cảm xúc của mình sẽ trở thành món quà。Và、 chỉ cần trao nó đi là xong。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,norn,0.7_0.7,0.5,0
+anm,move,norn,0_-160,0.5,0
+endwait
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:smile,norn,0,-160,0.7,0,,,,
+msg,0,<outline width=2 color=black>46。――Vậy nên、 cái này là dành cho anh trai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:normal,norn,0,-160,0.7,0,,,,
+msg,0,<outline width=2 color=black>47。Anh nhận chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm051.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>48。――Dù thế nào đi nữa、 với anh trai thì em toàn đùa giỡn、 trêu chọc、 hiếm khi nào nói chuyện một cách thật lòng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>49。Nhưng mà、 em tin rằng、 dù không cần phải nói ra、 anh vẫn hiểu hết mọi thứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ừm… có lẽ em hơi trẻ con nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Em biết rõ là cứ ỷ lại thế này thì không được。Vậy mà… cứ theo thói quen、 theo cái dễ dãi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Cứ như né tránh việc bày tỏ tình cảm、 chắc chắn là vì em hơi lo sợ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Em không biết liệu người ta có đáp lại tình cảm của mình hay không。Nỗi bất an ấy、 ai mà chẳng có。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thế nhưng… em vẫn có thể bày tỏ tình cảm của mình như thế này。Vậy nên、 vì đây là cơ hội hiếm có、 dù bất an、 em vẫn muốn nói ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù sao thì、 em không thể giấu nổi tình cảm của mình。Tình cảm chân thật nhất… vì em có thể nói ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Em yêu anh nhiều lắm、 anh trai。Nếu anh cũng nói là anh yêu em、 em sẽ rất vui。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11770300.jpg,1,255
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_020.mp3
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:shy,norn,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>N-nàyyyy！？ Ch-chờ đã、 anh trai、 bây giờ em đang rất rất ngại đấy、 đừng có ôm em đột ngột như thế！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103508/adv/atlas/stand_a,body:shy,norn,0,-160,0.7,0,,,,
+msg,0,<outline width=2 color=black>Bị làm quá lên em càng ngại hơn đấy！ Này、 anh có nghe em nói không！？ Anh trai、 anh có nghe không！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

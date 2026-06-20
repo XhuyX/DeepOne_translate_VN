@@ -1,0 +1,206 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11060300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm070.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_01.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ờm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,aika1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika2,0,0,0,0,,,,
+imgconf,aika2,aika1,0,1300,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_02.mp3
+msg,1,<outline width=2 color=black>…Kỳ lạ thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_03.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chơi trò vớt cá vàng、 rốt cuộc là có ý nghĩa gì nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_04.mp3
+msg,1,<outline width=2 color=black>Cứ phải bày trò chơi để bắt cá vàng làm gì không biết。Nếu muốn nuôi làm cảnh thì cứ mua đại đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_05.mp3
+msg,1,<outline width=2 color=black>Dù sao thì mình cũng đến khu hội chợ rồi、 thử chơi một lần xem sao。Nhưng mà chơi xong rồi vẫn thấy không hiểu nổi、 sao nó lại vui。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Chọn 1 「Vì nó khó nên mới vui,Chọn 2 「Thử trò khác không？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_06.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chắc chắn là giấy của vợt rất dễ rách…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_07.mp3
+msg,1,<outline width=2 color=black>Nhưng mà nếu mình muốn、 thì chỉ cần dùng vành vợt thôi là có thể vớt hết cá vàng trong nước rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:unique,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_08.mp3
+msg,1,<outline width=2 color=black>Mà hình như luật không cấm rõ ràng việc đó nhỉ？ Vậy thì vớt cá vàng cũng đâu có khó lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_09.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khác… ví dụ như bắn súng à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_10.mp3
+msg,1,<outline width=2 color=black>Cũng được。Trò chơi ở mấy hàng quán này、 trò nào cũng dễ。Bắn súng cũng vậy、 nếu không gian lận thì chắc chắn mình làm được thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_11.mp3
+msg,1,<outline width=2 color=black>Mà mình cũng được đánh giá cao về kỹ năng bắn súng nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_12.mp3
+msg,1,<outline width=2 color=black>Vậy nên、 chỉ cần chơi vớt cá vàng thôi là đủ rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_13.mp3
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Mà nói chứ、 mấy trò này thường bị mắng vì lợi dụng sinh vật để chơi đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_14.mp3
+msg,1,<outline width=2 color=black>Mà thôi、 mấy con cá vàng này là ảo ảnh do Dreamlands tạo ra、 không phải là sinh vật sống thật、 nên chắc rồi cũng biến mất thôi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_15.mp3
+msg,1,<outline width=2 color=black>…Con người、 có lẽ vốn thích lợi dụng sinh vật theo ý mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_16.mp3
+msg,1,<outline width=2 color=black>Nghĩ cho cùng、 có lẽ chúng ta cũng chẳng khác gì mấy con cá vàng bị lợi dụng trong trò chơi ở mấy quán hàng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_17.mp3
+msg,1,<outline width=2 color=black>Hơn nữa、 đến cả việc sẽ biến mất ngay lập tức cũng giống y chang mấy con cá vàng này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:surprise,aika,0,-140,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_18.mp3
+msg,1,<outline width=2 color=black>…？ Sao tự dưng lại nắm tay mình？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-140,0.6,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_19.mp3
+msg,1,<outline width=2 color=black>Mình thì không sao… nhưng tự dưng thấy lạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-140,0.6,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_20.mp3
+msg,1,<outline width=2 color=black>…Mà thôi、 chơi chán rồi、 nhưng đồ ăn ở lễ hội thì hơi tò mò。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-140,0.6,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_21.mp3
+msg,1,<outline width=2 color=black>Đồ ăn thì cứ vào quán ăn là được、 sao cứ phải mua ở mấy quán hàng rồi vừa đi vừa ăn làm gì nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-140,0.6,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_22.mp3
+msg,1,<outline width=2 color=black>Hơn nữa、 khu lễ hội nào cũng đông nghẹt người、 mà hàng hóa lại còn đắt nữa đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-140,0.6,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_23.mp3
+msg,1,<outline width=2 color=black>Chắc là có giá trị đến vậy sao？ Mình thì thấy chất lượng còn kém hơn đồ ở mấy quán đàng hoàng nữa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-140,0.6,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_24.mp3
+msg,1,<outline width=2 color=black>Thôi thì、 mình thử ăn gì đó ở mấy quán hàng xem sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-140,0.6,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_25.mp3
+msg,1,<outline width=2 color=black>Ăn gì đây…――À。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104108/adv/atlas/stand_a,body:normal,aika,0,-140,0.6,0,,,,
+playvoice,1,download/character/104108/adv/sound/fav104108_02_26.mp3
+msg,1,<outline width=2 color=black>Mấy cái chuối bọc sô cô la kia。Mình muốn ăn thử。Có một cái to đùng。Mình chọn cái đó… Liệu mình có ăn hết không nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

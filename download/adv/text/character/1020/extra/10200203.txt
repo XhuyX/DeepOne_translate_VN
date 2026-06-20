@@ -1,0 +1,116 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:anger,tabasa,-10,-100,0.5,0.5,,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Này、 hôm nay tôi phải nói cho rõ ràng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đừng có xông lên phía trước khi chiến đấu nữa được không？ Một kẻ như ngươi có xông lên cũng chỉ làm bia đỡ đạn mà thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù ngươi có dùng cách đó để bảo vệ bọn ta khỏi đòn tấn công của kẻ địch、 thì nếu thiếu ngươi、 mọi hành động sau này ở Dreamlands sẽ trở nên vô vọng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật sự là điều tôi không hề muốn、 nhưng giá trị của ngươi lại nặng hơn từng người trong bọn ta đấy。Hãy tự ý thức được điều đó đi！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:sad,tabasa,-10,-100,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải lúc nào tôi cũng có thể hỗ trợ được đâu…… thật là。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:surprise,tabasa,-10,-100,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ơ、 gì、 cảm ơn á？ Không cần đâu。Tôi chỉ hành động vì bản thân mình thôi、 chứ không phải vì ngươi đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cả anh trai tôi nữa、 á…… Ngươi、 ngươi làm sao thế、 tự nhiên lại……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_07.mp3
+clickwait,,,,,,,,,,,
+select,Vì tôi luôn được hai người giúp đỡ。,Vì tôi chưa từng cảm ơn anh trai cô。
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:anger,tabasa,-10,-100,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu ngươi đã ý thức được điều đó、 thì trước tiên hãy sửa cái thói xấu hay xen vào chuyện không đâu đi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu ngươi cứ ngoan ngoãn thì sẽ không tốn thêm công sức vô ích đâu。……Thôi thì、 lời cảm ơn này tôi sẽ nhận。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_09.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:surprise,tabasa,-10,-100,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………V-vậy à。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:normal,tabasa,-10,-100,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng vậy…… Tôi luôn chiến đấu cùng anh trai。Nên、 ngươi nói đúng…… Tôi cũng nên cảm ơn anh ấy một cách đàng hoàng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:smile,tabasa,-10,-100,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Cũng không tệ、 một tấm lòng đáng khen đấy。Anh trai tôi cũng sẽ rất vui。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_12.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:normal,tabasa,-10,-100,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì、 tôi về phòng nghỉ đây。Trông chừng ngươi khiến tôi mệt mỏi hơn mức cần thiết…… thật là。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng tôi nói trước、 tôi vẫn còn sức chịu đựng lắm。Đừng có mà nghĩ linh tinh rồi xông vào phòng tôi đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_14.mp3
+clickwait,,,,,,,,,,,
+spriteoff,tabasa,0.5
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait
+msg,1,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>………………</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,
+roombg,1020,1
+endwait
+mask,bg1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,tabasa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:shy,tabasa,0,0,0,0,,,,
+imgconf,tabasa,tabasa1,0,-200,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Tabasa Twining</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái tên đó làm sao vậy chứ…… Tôi đâu có đòi hỏi lời cảm ơn đâu……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Cậu ấy sẽ、 cảm ơn anh trai mình một cách đàng hoàng、 nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải chỉ nói suông…… Cậu ấy thật sự tin tưởng tôi và anh trai…… trong khi không ai khác tin cả……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Này、 anh trai、 anh nghĩ sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_18.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái người đó…… cái người đó…… liệu mình có nên、 tin tưởng một chút、 không nhỉ……？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102002/adv/sound/fav102002_07_19.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,404 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11000300.jpg,0,255
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:normal,lydia,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: Mạnh hơn bất kỳ ai ở đây sao… Lớn tiếng thật đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: Ngay cả anh ta、 người chẳng có sức chiến đấu gì、 rồi con bé tóc trắng… và cả mụ mực nữa、 thì cũng đã xem thường tôi và Milva rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: Làm ơn đừng có đặt biệt danh kỳ quặc được không…！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>normal: …Nhưng mà、 tôi mạnh là sự thật。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:anger,lydia,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>anger: Vậy à？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Blue,em1,default,animation,0,300,0,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+anm,tint,lydia,150_150_150,0.0001,0
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,maruta,0
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:surprise,miruva,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>surprise: Hể…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:anger,lydia,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>anger: Rào chắn ma thuật sao… Nói lớn thì làm được、 có vẻ cũng phòng thủ được chút đỉnh。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,miruva,0
+anm,tint,lydia,150_150_150,0.0001,0
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>normal: …Cô có hơi mạnh đấy？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:anger,lydia,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>anger: Hơi、 à… Cứ thích làm người khác khó chịu。Được thôi、 nếu muốn thì tôi sẽ cho cô nát bét——</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:anger,dana,0,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>anger: Vừa phải thôi。Chúng ta vừa mới hợp sức được với nhau、 sao lại gây sự chứ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>anger: Nếu còn tiếp tục、 tôi sẽ là người đối đầu với cô cho đến khi cô bình tĩnh lại。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:anger,lydia,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:normal,miruva,300,-120,0.5,0.5,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:normal,lydia,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>normal: Chậc。Cũng không tệ khi cho mấy người nếm mùi ở đây、 nhưng mà tốn sức thì thật là ngu ngốc。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,miruva,255_255_255,0.0001,0
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>normal: Tiếc thật。Đáng lẽ còn vui hơn trò rối、 vậy mà lại phải bỏ dở。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0.5,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: Haizz… May là cô đã dừng lại ở phút cuối、 nhưng nếu có thể、 tôi muốn cô cư xử bình tĩnh hơn ngay từ đầu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: Xin hãy nghĩ cho tôi、 người lúc nào cũng phải căng thẳng。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:normal,lydia,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:smile,miruva,300,-120,0.5,0.5,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>smile: Mặc kệ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,miruva,255_255_255,0.0001,0
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>smile: Cố lên nhé。Hừm。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,lydia,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,-300,-180,0.5,0.5,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: …Haizz。Tạm thời、 chúng ta nên đưa Martha-san về R'lyeh thôi。Dù cô ấy nói không sao、 nhưng tôi vẫn lo về gánh nặng…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:surprise,dana,-300,-180,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>surprise: …Ơ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:surprise,miruva,300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>surprise: Sao thế？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,-300,-180,0.5,0,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: Không… Thuật thức hồi quy không kết nối được với Cảnh Môn… Chuyện này、 chẳng lẽ…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:anger,lydia,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>anger: …Bị nhốt trong khu vực này sao。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>anger: Mà、 cứ nghĩ rằng mình có thể về vào lúc mình muốn… có lẽ là quá ngây thơ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>anger: Đang ở trong bụng quái vật。Thì cũng có thể xảy ra chuyện như vậy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,lydia,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,-300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: Nhưng、 dù anh ấy có sức mạnh đến đâu、 thì cũng không thể ở trong giấc mộng mãi được。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: Tôi không bảo mọi người phải hoảng loạn、 nhưng hãy có chút ý thức về nguy hiểm đi—</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:normal,miruva,300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>normal: Dù chúng ta có nghĩ thế nào đi nữa、 chắc chắn cũng chẳng hiểu gì đâu。Chi bằng、 hỏi người có vẻ hiểu thì sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>normal: Này、 Frau-chan。Cô có biết gì không？ Cô cũng không phải là “bình thường”、 đúng không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+anm,tint,miruva,150_150_150,0.0001,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>normal: …Ở đây、 là phòng trẻ em、 nên…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>normal: Chơi、 rồi thỏa mãn、 thì có thể ra ngoài… chăng？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,miruva,0
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:surprise,maruta,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>surprise: Chơi…？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0.5,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:normal,lydia,-300,-120,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>normal: Điều kiện có vẻ kỳ lạ thật、 nhưng nếu chỉ có vậy thì cũng không khó lắm。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,lydia,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>normal: Chơi、 à… May là có hai đứa trẻ ở đây。Cứ giao cho chúng nó đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:sad,maruta,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,-300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>surprise: Trẻ con…？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,maruta,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>surprise: Tôi không phải là trẻ con…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:normal,lydia,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>normal: Trẻ con hay nói vậy。Thôi、 cứ chơi thoải mái đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:sad,maruta,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,-300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,maruta,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:sad,lydia,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: …Sao thế？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:sad,maruta,300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: Chơi、 là…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,lydia,0
+endwait
+anm,tint,maruta,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: …Phải làm gì đây？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:surprise,lydia,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: …Ừm？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: Tạm thời thì、 chơi trò bẻ xương ngón tay xem sao——</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: Chỉ có cô thấy vui thôi đấy！ Đừng có dạy mấy trò kỳ quặc！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: …Chẳng lẽ những người ở đây chưa từng chơi trò chơi bình thường sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:normal,lydia,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>normal: Vậy cô thì sao？ Nghe cô nói xem。Chắc cô rành mấy trò chơi “bình thường” của trẻ con lắm nhỉ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: T-Tôi thì… hồi nhỏ… bạn bè… Ư… Đầu óc…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:normal,miruva,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>normal: Đây là vị ngọt của sự xấu hổ và hối hận。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:normal,lydia,-300,-120,0.5,0,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hmm？ I see、 so you were a weirdo。。。Em、 không có bạn bè nào phải không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,miruva,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ư……！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,dana,150_150_150,0.0001,0
+anm,tint,lydia,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ra vậy、 chắc hẳn tính cách khó ưa lắm đây…… Hay là、 hồi nhỏ em nghịch ngợm lắm phải không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư ư</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,lydia,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: Sao thế、 đã từng như thế nào？ Kiểu cô độc à？ Kiểu thích thể hiện à？ Nào、 cứ kể đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: Đ-Đừng… quá khứ đen tối của tôi… Hồi đó tôi chẳng biết gì cả。Cứ tưởng thế là ngầu…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>sad: T-Tôi… tôi…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+endwait
+sprite,download/monster/20030101/adv/image/20030101.png,enemy1,0,-100,1.35,0.5,,,,
+playbgm,/download/sound/bgm/bgm006.mp3,0,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>―――――――――――――――――！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_022.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>normal: …A。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,maruta,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Kẻ địch…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:sad,dana,0,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ôi… Aaaaaaa…！ Ký ức ơi、 hãy chìm xuống đáy của những hồi ức đi…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+sprite,download/monster/20030101/adv/image/20030101.png,enemy1,0,-100,1.35,0.5,,,,
+anm,tint,enemy1,0_0_0,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――、…………</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_025.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

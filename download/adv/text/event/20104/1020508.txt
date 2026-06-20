@@ -1,0 +1,860 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm088.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tabasa、 trông chị không được khỏe lắm… phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:normal,tabasa,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có gì to tát đâu… Chỉ là thiếu ngủ một chút thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:normal,tabasa,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Nên là em với Frau đừng có làm cái mặt lo lắng như vậy nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm… nhưng mà…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái lời đừng lo lắng ấy、 chắc khó mà nói với anh và Frau được nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà nói đến thiếu ngủ… sao tự nhiên lại thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi có chuyện muốn thử… cố gắng ngủ thật nhiều、 nhưng lạ thật。Cứ nghĩ đến chuyện ngủ là tự nhiên lại không tài nào chợp mắt được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À… tôi hiểu mà。Mấy chuyện như vậy、 càng để tâm thì càng hỏng việc nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 tôi sẽ tặng Tabasa vỏ gối ôm anh trai kích thước thật、 hàng Norn-chan tự làm nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Một sản phẩm tâm đắc、 tái hiện hoàn hảo vóc dáng và đặc điểm của anh trai――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Tùy chọn 1: Cốc đầu,Tùy chọn 2: Búng trán
+if,select_===_1,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+endif,,,,,,,,,,
+
+
+playse,/download/sound/se/se_074.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ái da！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Anh ơi、 tự nhiên dùng bạo lực là không tốt đâu ạ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vỏ gối ôm ấy、 em đã cố gắng làm mà、 đáng lẽ anh phải khen em mới phải chứ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gối ôm của cái tên đó thì tôi không cần đâu、 chắc sẽ gặp ác mộng mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gối ôm của anh trai… em lại muốn có cơ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Frau cũng muốn ngủ ngon à？ Vậy thì tôi sẽ làm gối ôm cho Frau nhé！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:unique,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Norn chắc chắn sẽ ôm chặt em làm gối ôm、 nên em xin từ chối ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>K-không thể nào…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,3,15,15
+anm,move,norn,-300_-700,0.5,0
+endwait
+playse,/download/sound/se/se_020.mp3
+endwait
+wait,0.3
+endwait,,,,,,,,,,,
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Đ-đành chịu thôi chứ… Nếu Frau ôm tôi thì tôi cũng sẽ muốn ôm lại chặt cứng mà！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Cứ thế mà bị ôm chặt thôi thì… đúng là tra tấn mà！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:normal,tabasa,-300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:unique,maruta,300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Norn vẫn chứng nào tật nấy、 đúng là đồ cuồng em gái。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 Tabasa sao lại muốn ngủ lâu thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:normal,tabasa,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Chẳng liên quan gì đến cô đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:unique,maruta,300,-90,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――…Ồ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:anger,tabasa,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừ、 hơn nữa、 số sô cô la thua cược lần trước cô đã mang đến cho Norn đàng hoàng chưa hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi luôn giữ lời hứa。Vậy nên、 Norn… hãy coi đó là tôi mà trân trọng nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:sad,norn,-300,-700,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+anm,move,norn,-300_-120,1,0
+endwait
+
+
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Coi sô cô la như chính mình là sao chứ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù sao thì、 tôi cũng đoán trước rồi、 nhưng mà nhiều thật đấy。Cô đã tích trữ bao nhiêu vậy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chẳng có gì đáng khoe đâu… Mà nói thật、 tôi cũng không nghĩ mình có thể ăn hết chỗ sô cô la này một mình được… Vậy thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vừa hay Tabasa đang gặp khó khăn vì không ngủ được、 vậy uống sô cô la nóng trước khi ngủ thì sao nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:surprise,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？ Này、 đừng có lôi tôi vào。Đó là của cô rồi、 tự cô mà giải quyết đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi nào、 đừng nói vậy chứ。Người ta bảo sô cô la có tác dụng thư giãn、 nên cũng hiệu quả cho giấc ngủ đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Cùng nhau、 nghĩa là tôi cũng có thể uống sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:anger,maruta,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Được。Tabasa、 vậy thì tối nay chúng ta cùng uống ngay đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Cái cô này thì đã hoàn toàn nhập cuộc rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi nào、 chỉ là uống sô cô la nóng thôi mà、 nếu nghĩ đó là sô cô la của Martha thì chắc cũng không tệ đâu nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện đó thì、 ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tiện thể nói luôn、 nếu Tabasa không chấp nhận điều kiện này、 tôi sẽ chia chỗ sô cô la này cho người khác đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Trừ Martha、 kẻ thua cuộc ra nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:surprise,maruta,-300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gì…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:sad,maruta,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>T-Tabasa、 sô cô la nóng ngon lắm。Nên là、 uống đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:anger,maruta,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Với lại、 ngay từ đầu việc thua cược với Norn là lỗi của Tabasa。Thế nên、 chuyện nhỏ thế này thì phải chấp nhận chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Thôi được rồi、 tôi biết rồi。Tôi sẽ chiều cô、 nên đừng có cằn nhằn thêm nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:smile,maruta,-300,-90,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm、 nếu vậy thì coi như đôi bên cùng chịu thiệt vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi cứ thấy hình như mình tôi chịu thiệt thôi thì phải…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:smile,maruta,-300,-90,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 lát nữa tôi sẽ đến phòng Tabasa、 chuẩn bị sẵn sàng nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_048.mp3
+anm,move,maruta,-900_-90,1.3,0
+endwait
+
+
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Haizz…… đúng là nói mấy chuyện thừa thãi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101400/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có sao đâu。Nhân cơ hội này thử làm thân hơn với Martha xem。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em không có muốn mấy chuyện đó đâu nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tabasa không muốn làm bạn với Martha sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có nhìn em bằng ánh mắt đó chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em sẽ uống sô cô la nóng với Martha…… Thế là được rồi chứ gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Vâng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:normal,tabasa,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật tình…… cứ lo mấy chuyện thừa thãi không à。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm109.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:normal,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 vì một R'lyeh tự do sô cô la―― Cạn ly！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:normal,tabasa,300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tabasa、 cạn ly。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có nói mấy chuyện vớ vẩn nữa、 uống xong cái đó thì mau về phòng mình đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Tôi muốn thêm một ly nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không có đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:sad,maruta,-300,-90,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao lại thế…… Người ta bảo sô cô la nóng trước khi ngủ càng nhiều càng tốt mà、 sao lại chỉ có một ly thôi chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em không biết câu đó、 uống xong rồi thì về phòng đi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:sad,maruta,-300,-90,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… nhưng mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:normal,tabasa,300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gì nữa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:sad,maruta,-300,-90,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sô cô la ngon quá…… Em buồn ngủ rồi。Vậy nên、 chúc ngủ ngon。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+anm,move,maruta,-300_-600,1,0
+endwait
+playse,/download/sound/se/se_027.mp3
+endwait
+wait,0.3
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:surprise,tabasa,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？ Này、 sao lại tự tiện ngủ trên giường của người khác thế hả！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maruta1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:sad,maruta2,0,0,0,0,,,,
+imgconf,maruta2,maruta1,0,-40,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――……Khò……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:unique,tabasa,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Con nhỏ này……！ Đã thế thì em sẽ đánh thức nó dậy――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,480,720,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,tabasa1,0,0,480,720,0.5,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_b,body:normal,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,350,-270,,,0,0.7,0.7,0.5
+endwait,,,,,,,,,,,
+
+
+wait,0.5
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:surprise,tabasa,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 anh hai……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đừng đánh thức con bé dậy ư、 vậy thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Tại sao Tabasa lại phải dùng chung giường với cái cô gái ngực bự ảo tưởng này chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà……―― Không、 nếu anh hai đã nói đến mức đó、 nếu chỉ là tối nay thôi thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:normal,tabasa,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hừm…… phải biết ơn sự tử tế của anh hai đấy nhé……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,tabasa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:normal,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-220,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật tình、 sao lại thành ra thế này―― Á！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maruta1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:sad,maruta2,0,0,0,0,,,,
+imgconf,maruta2,maruta1,0,260,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sô cô la…… ưm、 của em……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,tabasa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102005/adv/atlas/stand_a,body:unique,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-430,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngủ mơ nói gì thế…… ưm、 ừm、 c-con nhỏ này、 dù đang ngủ mà cũng cố tình trêu tức mình sao……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102005/adv/atlas/stand_a,body:unique,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-430,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù anh hai có nói gì đi nữa、 cũng có những chuyện không thể tha thứ được đâu nhé……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maruta1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:sad,maruta2,0,0,0,0,,,,
+imgconf,maruta2,maruta1,0,-40,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm、 ừ…… một ngày nào đó…… em cũng、 sô cô la、 cùng với chị……――Khò。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,tabasa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:anger,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-220,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-220,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>…………Haizz。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngủ tệ hết sức、 đêm nay chắc chắn lại thiếu ngủ rồi ……Mai dậy em sẽ cằn nhằn cho mà xem。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Hừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,701 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Hầu hết những người tụ tập ở Haelesis đều không có lấy một chút tình đồng chí。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Vậy mà、 thật kỳ lạ、 vẫn có một nơi để những kẻ thuộc về nó tụ tập。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Bên dưới tàn tích、 dường như từng được dùng để nghiên cứu、 nằm sâu trong khu rừng thẳm、 nơi không ai dám bén mảng tới。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>——Nơi đó được gọi là 'Điểm tụ họp' hay 'Bãi rác'。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tôi gặp Sasha ở đó khi được Daphne dẫn đến。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——Cô không nên đến nơi này。Daphne đang nghĩ gì vậy chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tôi đã không đáp lại rằng 'Không phải vậy đâu'…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>——Muốn đạt được điều mình mong muốn bằng mọi giá。Sự ích kỷ đó、 chắc chắn cũng là một ham muốn cá nhân không khác gì những người khác ở nơi này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Thay vào đó、 tôi lại nghĩ Sasha không phù hợp với một nhóm như Haelesis。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Ở Điểm tụ họp、 cô ấy luôn quan tâm đến tôi。Hành động hiển nhiên đó、 đối với tôi、 cũng thật khác thường ở nơi đó…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nhưng… à、 phải rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tôi chắc chắn chỉ là chưa hiểu mà thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Về Sasha、 tôi đã chẳng hiểu gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Cô ấy cũng chỉ là một con người ích kỷ、 đến từ bãi rác mà thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10050100.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm119.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,-200,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+playse,/download/sound/se/slaC.mp3
+flash,240,20,20,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,dana_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100480/adv/atlas/stand_a,body:anger,dana_s2,0,0,0,0,,,,
+imgconf,dana_s2,dana_s1,0,-730,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hộc…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_068.mp3
+endwait,,,,,,,,,,,
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:sad,soka,300,-110,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Souka… Tại sao lại đâm Dana… Cô đang làm gì vậy…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:sad,soka,300,-110,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khô…ng… Đây không phải là ý chí của t…ôi… Cái này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,patrisia,-300,-200,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không lẽ nào、 Souka-san cũng bị thao túng…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:sad,soka,300,-110,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không thể nào… Ngay từ đầu、 tôi đã cảnh giác với ma đạo thư của Sasha。Không bị bất ngờ、 vậy mà lại dễ dàng bị thao túng…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,patrisia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:normal,sasya,-300,-110,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Souka… 'Đầu tiên' là ý cô là sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:sad,soka,300,-110,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:normal,sasya,-300,-110,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khi cô xuất hiện、 tôi đã hơi ngạc nhiên… Tại sao cô lại đứng đó、 khi đang hành động với Daphne、 nhưng chuyện đó bây giờ không quan trọng nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:normal,sasya,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chỉ là、 tôi rất vui… khi cô ở đây</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:normal,sasya,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không ngờ、 một mánh khoé tôi chuẩn bị cho một số tình huống、 lại hữu dụng đến vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:normal,sasya,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Souka。Ở bãi rác đó、 chỉ có mình cô là người dễ dàng chịu ảnh hưởng từ sức mạnh của tôi… Cô thật sự không phù hợp với Haelesis</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:sad,soka,300,-110,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chẳng lẽ… 'Đầu tiên' là…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:normal,sasya,-300,-110,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black><ruby>Bi thảm lục táng — Etzel Antrum</ruby>―― Nhuộm đi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_067.mp3
+flash,0,0,0,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:anger,soka,300,-110,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ực… A… Cái này、 từ bên trong t…ôi… A、 a、 aaaaa…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,sasya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Souka！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:anger,patrisia,300,-200,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ực、 cô… Souka-san không phải là đồng đội sao！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:normal,sasya,-300,-110,0.5,0.5,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng mong đợi những mối quan hệ như vậy ở Haelesis。Ngay từ đầu、 Souka bây giờ đã đứng về phía các cô rồi――Nói cách khác、 là kẻ thù của tôi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:anger,patrisia,300,-200,0.5,0,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô… muốn trả thù đến mức đó sao…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:anger,sasya,-300,-110,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi phải nói đi nói lại bao nhiêu lần、 cô mới hiểu？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:normal,sasya,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Này、 Domyouji？ Cảm giác khi bị đồng đội đâm thế nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:normal,sasya,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đau đớn？ Khổ sở？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:anger,sasya,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>——Nhưng chừng đó vẫn chưa đủ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:anger,sasya,-300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cô đã cướp Marina khỏi tôi、 tôi phải khiến cô đau khổ hơn nữa、 tôi mới hả dạ――Souka！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,patrisia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:anger,soka,300,-110,0.5,0.5,,,,
+anm,tint,sasya,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,sasya,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:anger,patrisia,-300,-200,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Souka-san、 không được đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:anger,soka,300,-110,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_063.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――Ực</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,patrisia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101405/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kh… Chết tiệt、 tôi không thể truyền âm thanh đến nữa… Dana！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,card1,0,0,1280,250,0.5,,,,
+sprite,download/character/100480/image/main.png,card2,0,0,0,0,,,,
+imgconf,card2,card1,0,180,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——Cô định bắt tôi phải nói đi nói lại bao nhiêu lần nữa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Trên thế giới này、 chỉ có một mình tôi được phép dùng dao vì Marina</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chỉ có tôi――mới có thể gánh vác chuyện này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10050100.jpg,1,255
+endwait
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:anger,soka,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash4_green,em1,default,animation,0,0,0,-1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+anm,move,soka,1200_-110,0.5,0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:surprise,sasya,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Gì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:anger,sasya,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ực、 cô là… Tại sao cô có thể cử động bình thường sau khi bị đâm chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:anger,sasya,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vết thương đó、 đâu có nông cạn đến vậy…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+sprite,download/character/100480/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chẳng lẽ――cô đã nghĩ tôi là một con người bình thường sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Cô nghĩ tôi là gì chứ？ Bây giờ、 tôi chỉ trông như người thường vì đang cố gắng chứa chấp trong cơ thể này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi là quái vật mà？ Bị đâm thì làm sao mà chết được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Và vì đã tự dâng cổ mình trước con quái vật đó… em hẳn đã chuẩn bị tinh thần để bị xé thành trăm mảnh rồi chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,sasya1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:anger,sasya2,0,0,0,0,,,,
+imgconf,sasya2,sasya1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ư…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tại sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tình cảm của tôi—sự báo thù này、 tại sao lại không thể chạm tới người đàn bà này chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Lẽ nào、 sự báo thù của tôi lại yếu ớt đến mức、 đối với người đàn bà này、 nó chẳng đáng để bận tâm sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Không thể chấp nhận。Tuyệt đối không thể chấp nhận。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+name,
+msg,0,<outline width=2 color=black>Nếu vậy thì、 tình cảm tôi dành cho Marina cứ như là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,sasya1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104803/adv/atlas/stand_b,body:anger,sasya2,0,0,0,0,,,,
+imgconf,sasya2,sasya1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có đùa giỡn nữa……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm071.mp3,0,
+endwait,,,,,,,,,,,
+sprite,download/character/104803/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Để hoàn thành cơn giận này… sự báo thù này… được thôi、 cứ thiêu rụi tôi thành tro bụi cũng chẳng sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Cứ thiêu rụi bao nhiêu tùy thích bằng sự điên loạn-tình yêu đó đi……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+msg,0,<outline width=2 color=black>Bi Cuồng Lục Táng-Ezel Antram！ Hãy giải phóng đóa hoa lửa thiêu rụi tất cả bằng ảo ảnh-tình yêu duy nhất còn lại dành cho tôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,card1,0,0,1280,250,0.5,,,,
+sprite,download/character/100117/image/main.png,card2,0,0,0,0,,,,
+imgconf,card2,card1,0,-120,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À… ta sẽ lại biến ngươi thành tro bụi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sâu trong lồng ngực trống rỗng… lạnh quá、 cứ như sắp đóng băng、 ta khao khát một thứ gì đó lấp đầy khoảng trống này đến mức không thể chịu nổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Liệu hơi ấm từ ngọn lửa đã thiêu cháy con quái vật-ngươi có thể sưởi ấm trái tim này không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+sprite,download/character/100117/image/main.png,card1,200,-80,3,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1.4_1.4,1.5,0
+anm,fade,card1,255,1.5,0
+endwait,,,,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này—Dana Darrell Dojoji。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+sprite,download/character/100480/image/main.png,card1,0,0,1,0.5,,,,
+endwait,,,,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Akai、 Asaka……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,1
+stopbgm,1,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm069.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Ngày trước khi con bé rời nhà để vào cơ sở của Tổ chức… nó đã đến phòng tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị ơi… ừm、 chị biết không… em、 ổn mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ở một mình thì hơi buồn một chút thôi。Nhưng mà、 như vậy thì mọi người mới có thể sống tốt được mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Với lại nè、 chị xem… em còn có chiếc ruy băng chị tặng nữa mà。Nên là、 em ổn thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>…………Nhưng mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Liệu một ngày nào đó、 em có thể… gặp lại chị không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Em mong là sẽ gặp được chị… ở một mình mãi thì buồn lắm mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Khi cha mẹ tôi được Tổ chức đề nghị đưa con bé đi、 chính nó là người đầu tiên nói rằng hãy chấp nhận。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Đến giờ tôi vẫn không hiểu。Một đứa trẻ thơ lại chọn hy sinh bản thân vì gia đình… điều đó cần bao nhiêu dũng khí chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Con bé hiền lành、 thông minh và kiên cường đến mức có thể đưa ra lựa chọn đó… Vì vậy、 với tư cách là chị của một đứa bé như vậy、 tôi cũng cố gắng tỏ ra mạnh mẽ hết mức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không sao đâu、 Marina… khi em đau khổ đến mức không chịu nổi、 khi em bị dồn vào đường cùng、 chị nhất định sẽ chạy đến giúp em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nên là、 em cứ yên tâm nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

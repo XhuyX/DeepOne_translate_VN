@@ -1,0 +1,120 @@
+﻿// machine translate -- gemini-2.5-flash
+stopbgm,,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0.0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0.5,,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Này。Anh、 chẳng phải lúc nãy tôi đi qua đây、 chúng ta đã gặp nhau rồi sao？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_01.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Dù tôi có đoán anh đang làm gì đi nữa、 thì tôi cũng chẳng được lợi lộc gì đâu。Tại sao tôi phải làm cái chuyện đó chứ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_02.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Kiểu gì thì anh cũng đang rảnh rỗi quá mức、 nên tìm gì đó để giết thời gian thôi、 đúng không？ Hay là cái thứ anh đang thừa thãi、 lại là một ham muốn đáng xấu hổ nào đó？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_03.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:shy,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Quên đi。Tôi tự thấy mình vừa nói một câu đùa nhảm nhí。Chắc là do anh ảnh hưởng xấu đến tôi rồi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_04.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế à？ Thực ra thì anh đang làm gì vậy？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_05.mp3
+clickwait,,,,,,,,,,,,
+select,Lựa chọn 1: 'Đi dạo,Lựa chọn 2: 'Học bài
+if,select_===_1,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:unique,brizit,50,-190,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Đúng là cách dùng thời gian vô bổ mà。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_06.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mà nói thật thì、 bên trong R'lyeh chỗ nào mà chẳng giống nhau。Đi dạo như thế thì có gì vui chứ？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_07.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:surprise,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Vì được tôi bắt chuyện nên là thành công、 hả？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_08.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Đó là cái lý lẽ gì vậy？ Ngay từ đầu tôi đã không nói chuyện thành công hay thất bại gì cả、 …tôi không thể hiểu nổi cách anh suy nghĩ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_09.mp3
+clickwait,,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái chuyện chỉ đi bộ trong hành lang thì có gì mà gọi là học bài chứ。Nhìn kiểu gì cũng thấy anh đang rảnh rỗi quá mức mà。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_10.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái lý do gì mà anh lại nói dối dễ bị lộ tẩy như vậy chứ。Chỉ là sĩ diện thôi sao？ Hay là vì anh ngốc nghếch？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_11.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Tại sao bị tôi coi thường mà anh lại cười chứ。Đúng là một người khó hiểu mà…</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_12.mp3
+clickwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Không lẽ tôi đang bị anh trêu chọc sao… Hay là tôi đang bị biến thành đồ chơi để anh giết thời gian？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_13.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:anger,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu là vậy thì…</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_14.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>——Hừm。Thôi thì、 lần này tôi đặc biệt bỏ qua cho anh đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_15.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Gì vậy、 cái vẻ mặt ngạc nhiên đó là sao。Chẳng có gì cả、 chỉ là tôi có một món nợ từ lần trước、 nên giờ dùng cái này để bù trừ thôi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_16.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ nợ mãi thì khó chịu lắm… Mà hơn hết、 món nợ với anh thì ai mà biết sẽ bị dùng vào việc gì chứ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_17.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu có thể giải quyết được bằng chừng này thì quá rẻ rồi…</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_18.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không được đâu、 tôi sẽ không nghe lời hủy bỏ gì cả。Vậy là không còn nợ nần gì nữa。Anh có nói gì tôi cũng không nghe đâu。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_19.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:smile,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Hì hì、 ngốc nghếch。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_20.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:surprise,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ơ… hả…？ À… T-tôi đâu có cười。Anh nhìn nhầm rồi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_21.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Không có cười。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_22.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:anger,brizit,50,-190,0.5,0,,,,,
+spine,download/adv/spine/Mark6,em1,default,animation,0,150,180,0.65,0.3,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>Tôi đã bảo là không có cười mà、 anh dai dẳng quá đấy！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_23.mp3
+clickwait,,,,,,,,,,,,
+spineoff,em1,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi đi đây！ Khoan đã、 đừng có đi theo tôi！ 'Một lần nữa' là cái gì chứ！？ Chẳng có 'một lần nữa' nào cả、 ngay từ đầu tôi đã không cười rồi！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_24.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ư… Ôi、 thôi rồi、 ở cạnh anh là tôi lại mất bình tĩnh hết cả…！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100202/adv/sound/fav100202_07_25.mp3
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+name,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,,
+endwait,,,,,,,,,,,,

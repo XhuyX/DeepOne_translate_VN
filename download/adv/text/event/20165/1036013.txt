@@ -1,0 +1,1895 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm071.mp3,0,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,-1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11750301.jpg,1,255
+endwait
+
+
+sprite,download/monster/28090113/adv/image/28090113none.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+name,<outline width=2 color=black>グノーシス・レイヤード</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,blizit,-300,-190,0.5,0.5,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:anger,arice,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trời ơi！ Cứng đến mức nào vậy chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,blizit,-300,-190,0.5,0,,,,
+anm,tint,arice,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chém nhiều thế này mà không để lại nổi một vết xước nào sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,arice,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900035/adv/atlas/stand_b,body:anger,999go,300,-150,0.5,0.5,,,,
+imgconf,999go,,300,-150,,,-1,0.5,0.5,0
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>９９９号</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng là cách tấn công thông thường không có tác dụng gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,999go,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:anger,arice,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ai mà biết！ Vừa nãy nó đục một lỗ vào bụng tôi、 tôi còn phải trả đũa nữa chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:anger,arice,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù sao thì、 tôi sẽ nghiền nát nó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:unique,blizit,-300,-190,0.5,0,,,,
+anm,tint,arice,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi đã nói rồi mà、 đây không phải là đối thủ có thể giải quyết bằng sức mạnh cơ bắp đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:anger,arice,300,-100,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù vậy、 tôi vẫn sẽ làm được！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải rồi―― mọi người、 lùi lại！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090113/adv/image/28090113none.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Fire1,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,,,,
+
+
+sprite,download/monster/28090113/adv/image/28090113none.png,enemy1,0,-80,0.75,0,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+name,<outline width=2 color=black>グノーシス・レイヤード</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+slideinblack,0.1,left,
+endwait,
+sprite,download/adv/image/sla3.jpg,sla3,0,0,1,0,,,,
+playse,/download/sound/se/chaA.mp3
+slideoutblack,0.2,left,
+endwait,
+slideinblack,0.1,left,
+endwait,
+spriteoff,all,0,
+fadeoutblack,0.2,
+endwait,,,,,,,,,,,
+sprite,download/monster/28090113/adv/image/28090113none.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em1,default,animation,0,300,250,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em2,default,animation,0,300,250,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,1.0
+endwait
+spineoff,em1,0
+spineoff,em2,0
+endwait,,,,,,,,,,,
+slideinblack,0.1,right,
+endwait,
+sprite,download/adv/image/sla3.jpg,sla1,0,0,1,0,,,,
+anm,scale,sla1,-1_1,0,
+playse,/download/sound/se/chaA.mp3
+slideoutblack,0.2,right,
+endwait,
+slideinblack,0.1,right,
+endwait,
+spriteoff,all,0,
+fadeoutblack,0.2,
+endwait,,,,,,,,,,,
+sprite,download/monster/28090113/adv/image/28090113none.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em1,default,animation,0,-300,250,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em2,default,animation,0,-300,250,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+shake,0.2,4,15,15
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spineoff,em2,0
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900035/adv/atlas/stand_b,body:surprise,999go,-300,-150,0.5,0.5,,,,
+anm,tint,999go,150_150_150,0.0001,0
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:surprise,arice,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Uầy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900035/adv/atlas/stand_b,body:surprise,999go,-300,-150,0.5,0,,,,
+anm,tint,arice,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>９９９号</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hỏa lực khủng khiếp thật……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:surprise,arice,300,-100,0.5,0,,,,
+anm,tint,999go,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giống Midway lúc không phải chibi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,999go,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:unique,blizit,-300,-190,0.5,0.5,,,,
+anm,tint,arice,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Dù sao thì Asaka cũng là kiểu người dùng hỏa lực mạnh để nghiền nát đối thủ bằng những đòn tấn công dồn dập、 nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:normal,arice,300,-100,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Với đòn tấn công vừa rồi thì、 chắc là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090113/adv/image/28090113none.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+name,<outline width=2 color=black>グノーシス・レイヤード</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:unique1,with,-300,-120,0.5,0.5,,,,
+anm,tint,with,150_150_150,0.0001,0
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:surprise,arice,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ngay cả thế mà vẫn không hề hấn gì sao、 thật sự là đòn tấn công của chúng ta không có tác dụng gì ư……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:unique1,with,-300,-120,0.5,0,,,,
+anm,tint,arice,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ウィズ</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy…… Rốt cuộc thì、 vẫn chưa đủ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:unique1,with,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng、 chỉ một chút nữa thôi…… chỉ một chút xíu nữa thôi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:anger,arice,300,-100,0.5,0,,,,
+anm,tint,with,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Một chút là bao nhiêu chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,with,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900035/adv/atlas/stand_b,body:anger,999go,-300,-150,0.5,0.5,,,,
+anm,tint,arice,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>９９９号</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Alice、 chìa khóa đến rồi…… Nhìn kìa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+sprite,download/monster/28090113/adv/image/28090113none.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+name,<outline width=2 color=black>グノーシス・レイヤード</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――、――――……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_025.mp3
+shake,0.2,4,15,15
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,blizit,300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gì vậy……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,-300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có vẻ như、 nó đang đau khổ……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:anger,with,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ウィズ</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Cẩn thận！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+sprite,download/monster/28090113/adv/image/28090113none.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+name,<outline width=2 color=black>グノーシス・レイヤード</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――――――――――――ッ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_28090112_entry_05.mp3
+flash,0,0,0,4,0.3,1.0
+sprite,download/monster/28090113/adv/image/28090113.png,enemy2,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+spriteoff,enemy1,0
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+msg,0,<outline width=2 color=black>―――――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:anger,arice,300,-100,0.5,0.5,,,,
+anm,tint,arice,150_150_150,0.0001,0
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>C-cái gì……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:anger,arice,300,-100,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi không biết、 nhưng tôi chỉ biết là nó cực kỳ nguy hiểm thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:anger,arice,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Trước khi nó làm gì、 tôi sẽ ra tay trước！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/character/191204/se/se_c912_ef_hit.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11750301.jpg,1,255
+endwait
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,arice1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:surprise,arice2,0,0,0,0,,,,
+imgconf,arice2,arice1,0,-310,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/blood,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_068.mp3
+endwait,,,,,,,,,,,
+flash,240,20,20,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0.3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900035/adv/atlas/stand_b,body:anger,999go,0,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>９９９号</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Alice！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,arice1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:anger,arice2,0,0,0,0,,,,
+imgconf,arice2,arice1,0,-310,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khụ…… Cái thứ này、 hết lần này đến lần khác、 đau chết đi được！ Cái thứ khốn kiếp này！！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+sprite,download/monster/28090113/adv/image/28090113.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+name,<outline width=2 color=black>グノーシス・レイヤード</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――――――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,arice1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/191404/adv/atlas/stand_b,body:anger,arice2,0,0,0,0,,,,
+imgconf,arice2,arice1,0,-310,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chậc、 ngay cả thế này mà vẫn không được sao……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Red,em1,default,animation,0,0,0,-1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11750301.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/collabo/900035/adv/atlas/stand_b,body:anger,999go,0,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>９９９号</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Alice！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,999go,1200_-120,0.7,0
+endwait
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,blizit,300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù cơ thể bị tàn tạ đến mức đó mà vẫn phản công được、 đúng là Alice có khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,-300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Với khả năng tái tạo của Alice thì、 tôi nghĩ sẽ ổn thôi、 nhưng……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,blizit,300,-190,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện của Alice cứ giao cho 999。Chúng ta cũng không có nhiều thời gian rảnh rỗi đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,-300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khụ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090113/adv/image/28090113.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+name,<outline width=2 color=black>グノーシス・レイヤード</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,blizit,0,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khụ、 khụ…… Khụ khụ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bridget！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+spine,download/adv/spine/Slash4_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,0,-120,0.5,0,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khụ、 ách……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kyaaáaaaaa！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090113/adv/image/28090113.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+name,<outline width=2 color=black>グノーシス・レイヤード</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:unique1,with,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ウィズ</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có vẻ như ngươi đang rất chật vật đấy、 Kẻ Phán Quyết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:unique1,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Một thế giới như thế này、 ngươi nghĩ có thể dễ dàng hủy diệt sao……？ Xin lỗi、 nhưng ta sẽ không để chuyện đó xảy ra。Ta không muốn một kết cục như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:unique1,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Sự phản kháng của ta…… sức mạnh của những người mà ta tin tưởng、 đang bắt đầu chạm tới ngươi rồi、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:normal,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ngươi nghĩ sao。Thay vì đơn phương phán quyết thế giới、 khi ngươi hạ mình xuống cùng một góc nhìn và đối mặt với nó như thế này、 ngươi có cảm nhận được điều gì về thế giới này không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:normal,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không phải em thấy thật đáng tiếc nếu để mất nó sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090113/adv/image/28090113.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+name,<outline width=2 color=black>グノーシス・レイヤード</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——————————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_28090112_entry_05.mp3
+shake,0.2,4,15,15
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:unique1,with,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ウィズ</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vô ích sao…… Thôi thì、 chắc là vậy rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:unique1,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Được thôi。Điều ta phải làm vẫn không thay đổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:unique1,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đến nước này、 khi đột nhiên bắt đầu bộc phát sức mạnh、 chắc là em đã nhận ra rồi chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:anger,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vô số sợi chỉ định mệnh đã thắt chặt、 giờ đang kéo em xuống。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:anger,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Và rồi、 biết bao ước vọng cùng lời cầu nguyện đã tụ về dưới chân họ、 đang cố gắng nâng họ lên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:anger,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thứ mà ta thấy thật tuyệt vời、 giờ đã chạm tới em rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:anger,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Để em không thể nói rằng những thứ này là vô dụng nữa、 ta sẽ cho em một cú sốc cực mạnh、 ■■■■■。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:anger,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Có những màu sắc ở đây mà em sẽ không thấy được nếu cứ mãi nhìn xuống từ tầng trên。Hãy khắc ghi nó vào mắt em！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:anger,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Bó sợi chỉ tương lai này、 không phải thứ mà kẻ như em có thể cắt đứt đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_28070106_stage_05.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm121.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,jan1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/191304/adv/atlas/stand_a,body:unique1,jan2,0,0,0,0,,,,
+imgconf,jan2,jan1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>確信ノ勇者</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hỡi Ill、 hỡi sứ giả của trời、 xin hãy đưa lời cầu nguyện của Jeanne đến nơi xa xăm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,orl1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/collabo/900037/adv/atlas/stand_a,body:normal,orl2,0,0,0,0,,,,
+imgconf,orl2,orl1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>伝説ノ戦場</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cho đến tận bình minh và ánh trăng、 xin lời thánh dụ này hãy vang vọng khắp nơi――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,jan1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/191304/adv/atlas/stand_a,body:normal,jan2,0,0,0,0,,,,
+imgconf,jan2,jan1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>確信ノ勇者</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bridget…… làm ơn、 hãy mang lời cầu nguyện của Jeanne đi。Và、 làm ơn…… hãy cứu Alice và 999-go nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,orl1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/collabo/900037/adv/atlas/stand_a,body:normal,orl2,0,0,0,0,,,,
+imgconf,orl2,orl1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>伝説ノ戦場</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Asaka…… cầu mong tình yêu của em、 đã dứt bỏ mọi hoang mang、 sẽ được ban phước。Và cầu mong có một phép màu để giành lấy 'tương lai' nằm sau máu và bi kịch。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,jan1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/191304/adv/atlas/stand_a,body:normal,jan2,0,0,0,0,,,,
+imgconf,jan2,jan1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>確信ノ勇者</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì người quan trọng của em…… vì vũ trụ mà em sống cùng anh ấy、 vì tương lai của thế giới mà Jeanne đã gặp、 để không kết thúc chúng……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,orl1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/collabo/900037/adv/atlas/stand_a,body:normal,orl2,0,0,0,0,,,,
+imgconf,orl2,orl1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>伝説ノ戦場</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Và để bảo vệ vũ trụ của người đàn ông mà cả hai ta yêu thương…… ――Hãy chạm tới。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,150,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,jan1,0,150,1280,200,0.5,,,,
+spriteatlas,download/character/191304/adv/atlas/stand_a,body:normal,jan2,0,0,0,0,,,,
+imgconf,jan2,jan1,0,-450,,,0,1.5,1.5,0
+
+
+mask,black3,0,-50,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black4,0,0,0,0,,,,
+imgconf,black4,black3,0,0,,,0,1,1,0.5
+mask,orl1,0,-50,1280,200,0.5,,,,
+spriteatlas,download/character/collabo/900037/adv/atlas/stand_a,body:normal,orl2,0,0,0,0,,,,
+imgconf,orl2,orl1,0,-430,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Jeanne</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cầu mong lời thề và niềm tin của Thánh Nữ sẽ ở bên các bạn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/character/103707/se/se_c03707_skill_01.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11750301.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:anger,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:anger,blizit,300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Asaka、 em ổn chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:anger,asaka,-300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 cũng tạm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,300,-190,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Em nghe thấy giọng nói vừa rồi chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…… chúng ta vừa được nhờ trông nom Alice và 999-go rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,300,-190,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật lòng mà nói、 chị không có đủ thời gian để lo cho người khác đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Dù vậy、 thôi thì、 chị cũng không thể phớt lờ một tấm lòng chân thành như vậy được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…… hơn nữa、 em đã nhận được rồi。Sức mạnh của họ…… ước vọng của họ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì đã nhận được một thứ lớn lao như vậy rồi mà。Nên phải đáp lại cho xứng đáng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit,300,-190,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Phải rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:anger,blizit,300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đi thôi、 Asaka。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka,-300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 Bridget。Hơn nữa――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:normal,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Orléans、 hãy cho em mượn sức mạnh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chúng ta sẽ cùng đánh bại nó、 Jeanne。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>ウィズ</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 đúng vậy…… Ta rất thích những cảnh tượng như thế này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11750301.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/collab2410.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090113/adv/image/28090113.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+name,<outline width=2 color=black>グノーシス・レイヤード</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——————————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100217/adv/atlas/stand_a,body:anger,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không thể hơn nữa――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,999go1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/collabo/900036/adv/atlas/stand_a,body:anger,999go2,0,0,0,0,,,,
+imgconf,999go2,999go1,0,-580,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>９９９号</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Không đời nào để ngươi toại nguyện！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090113/adv/image/28090113.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+slideinblack,0.1,left,
+endwait,
+sprite,download/adv/image/sla3.jpg,sla3,0,0,1,0,,,,
+playse,/download/sound/se/chaA.mp3
+slideoutblack,0.2,left,
+endwait,
+slideinblack,0.1,left,
+endwait,
+spriteoff,all,0,
+fadeoutblack,0.2,
+endwait,,,,,,,,,,,
+sprite,download/monster/28090113/adv/image/28090113.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,1.0
+endwait
+spineoff,em1,0
+endwait,,,,,,,,,,,,,,
+
+
+sprite,download/monster/28090113/adv/image/28090113.png,enemy1,0,-80,0.75,0,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+name,<outline width=2 color=black>グノーシス・レイヤード</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>————、 ——————————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900036/adv/atlas/stand_b,body:anger,999go,300,-150,0.5,0.5,,,,
+anm,tint,999go,150_150_150,0.0001,0
+spriteatlas,download/character/100217/adv/atlas/stand_b,body:anger,blizit,-300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có vẻ như đòn vừa rồi đã có tác dụng rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900036/adv/atlas/stand_b,body:anger,999go,300,-150,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>９９９号</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。Ước vọng của biết bao người đã kết nối và trở thành sức mạnh của chúng ta。Vậy nên……――Alice！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,arice1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/collabo/900034/adv/atlas/stand_a,body:anger,arice2,0,0,0,0,,,,
+imgconf,arice2,arice1,0,-570,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900034/adv/atlas/stand_a,body:anger,arice,0,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cuối cùng cũng có thể trả đũa rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900034/adv/atlas/stand_a,body:unique2,arice,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Trước hết、 nếu không đấm cho ngươi một trận、 thì ta sẽ không cam lòng đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+sprite,download/monster/28090113/adv/image/28090113.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Red,em1,default,animation,0,0,200,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,1.0
+endwait
+spineoff,em1,0
+endwait,,,,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100124/adv/atlas/stand_a,body:anger,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Với ngọn lửa bùng cháy từ biết bao ước vọng này―― Hãy cháy rụi đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090113/adv/image/28090113.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Fire1,em1,default,animation,0,0,0,1,1.0,0
+spine,download/adv/spine/Explosion,em2,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spineoff,em2,0
+endwait,,,,,,,,,,,,,,
+
+
+sprite,download/monster/28090113/adv/image/28090113.png,enemy1,0,-80,0.75,0,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+name,<outline width=2 color=black>グノーシス・レイヤード</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>————、 ————、 ——————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:unique1,with,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ウィズ</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin lỗi nhé、 nhưng nếu đã ở cùng một tầng、 thì em sẽ không còn lý do gì để thắng họ nữa đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:unique1,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em không chấp nhận。Ta、 sự tồn tại、 sẽ phủ nhận điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900039/adv/atlas/stand_a,body:anger,with,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đây là kết quả！ Biến đi！ Ngươi cản đường ta đấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_019.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11750302.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/194704/adv/atlas/stand_b,body:anger,kaguya,-300,-140,0.5,0.5,,,,
+anm,tint,kaguya,150_150_150,0.0001,0
+spriteatlas,download/character/191004/adv/atlas/stand_b,body:anger,tubaki,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Suzakuin Tsubaki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chém thôi、 Kaguya！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/194704/adv/atlas/stand_b,body:anger,kaguya,-300,-140,0.5,0,,,,
+anm,tint,tubaki,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kaguya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em đang nói với ai thế ạ？ Thứ này―― đâu phải là kẻ địch！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+spriteatlas,download/character/100702/adv/atlas/stand_b,body:anger,zizel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Với ánh sáng rực rỡ này、 hãy xé toạc mọi thứ cản trở ngày mai、 Claiomh Solais！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:normal,milva,300,-120,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thế giới mà biến mất thì phiền lắm。Vậy nên、 ngươi hãy biến mất đi nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.4
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Red,em1,default,animation,0,0,0,-1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11750303.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/194804/adv/atlas/stand_a,body:unique1,saki,-300,-120,0.5,0.5,,,,
+anm,tint,saki,150_150_150,0.0001,0
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Naitou Maia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>ふふ… Nào、 Saki-chan。Không cần phải làm quá đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193704/adv/atlas/stand_a,body:normal,maia,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chỉ cần bắn một viên đạn nhỏ thôi là đủ rồi。Giấc mộng này、 đã trở nên mong manh đến thế rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/194804/adv/atlas/stand_a,body:unique1,saki,-300,-120,0.5,0,,,,
+anm,tint,maia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hasuno Saki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em hiểu rồi ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:anger,soka,-300,-110,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+spriteatlas,download/character/104102/adv/atlas/stand_b,body:normal,aika,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Với viên đạn đó、 có thể kết thúc mọi chuyện sao？ …Vậy thì、 cứ từ từ nhắm bắn nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:anger,soka,-300,-110,0.5,0,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì có chúng ta ở đây、 Saki… Đừng lo lắng gì cả。Cứ bắn xuyên qua đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/194804/adv/atlas/stand_a,body:anger,saki,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hasuno Saki</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/194804/adv/atlas/stand_a,body:anger,saki,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hãy kết thúc giấc mộng này thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+slideinblack,0.1,left,
+endwait,
+sprite,download/adv/image/sla3.jpg,sla3,0,0,1,0,,,,
+playse,/download/sound/se/se_053.mp3
+slideoutblack,0.2,left,
+endwait,
+slideinblack,0.1,left,
+endwait,
+spriteoff,all,0,
+fadeoutblack,0.2,
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11750304.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:anger,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Norn……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À。Mặc dù chỉ còn biết phó thác cho bên kia、 nhưng chúng ta sẽ cố gắng hết sức mình ở đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900017/adv/atlas/stand_a,body:normal,ren,300,-260,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ふじいれん</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sắp đến lúc dứt điểm rồi nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,ren,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dư sức mà… Thật là đáng tin cậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/194504/adv/atlas/stand_a,body:normal,reia,300,-120,0.5,0.5,,,,
+anm,tint,reia,150_150_150,0.0001,0
+spriteatlas,download/character/191804/adv/atlas/stand_a,body:normal,marie,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Marie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ren。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/194504/adv/atlas/stand_a,body:normal,reia,300,-120,0.5,0,,,,
+anm,tint,marie,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Himuro Rea</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fujii-kun。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/191804/adv/atlas/stand_a,body:smile,marie,-300,-120,0.5,0,,,,
+spriteatlas,download/character/194504/adv/atlas/stand_a,body:smile,reia,300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Marie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cứ đánh bại nó đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900017/adv/atlas/stand_a,body:normal,ren,0,-260,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ふじいれん</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>ふじいれん</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Cứ giao cho tao！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11750305.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/190104/adv/atlas/stand_a,body:normal,sou,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Karin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có vẻ như、 mọi chuyện sắp kết thúc rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190104/adv/atlas/stand_a,body:normal,sou,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù mang danh hiệu to tát là kẻ hủy diệt thế giới、 nhưng cuối cùng lại dễ dàng đến thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190104/adv/atlas/stand_a,body:normal,sou,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hãy phối hợp đòn cuối cùng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101802/adv/atlas/stand_b,body:anger,rin,-300,-120,0.5,0.5,,,,
+anm,tint,rin,150_150_150,0.0001,0
+spriteatlas,download/character/194604/adv/atlas/stand_a,body:normal,ren,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Koi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101802/adv/atlas/stand_b,body:anger,rin,-300,-120,0.5,0,,,,
+anm,tint,ren,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lynn Rowen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chúng ta cũng vậy、 cùng nhau… Cả bọn mình cùng nhau đánh bại nó thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/194604/adv/atlas/stand_a,body:normal,ren,300,-120,0.5,0,,,,
+anm,tint,rin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Koi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ren,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102902/adv/atlas/stand_b,body:anger,rozet,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thân này là lưỡi đao diệt trừ、 ngọn lửa xua tan tà ác。Để bảo vệ、 kết nối và tiếp tục hướng đến ngày mai――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190104/adv/atlas/stand_a,body:unique3,sou,-300,-110,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Karin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hãy tiêu diệt nó đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash4_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash4_Blue,em1,default,animation,0,0,0,-1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11750306.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/190880/adv/atlas/stand_a,body:anger,kasumi,0,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Quyết định ở đòn này đây、 mọi người sẵn sàng chưa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104903/adv/atlas/stand_a,body:anger,maria,-300,-120,0.5,0.5,,,,
+anm,tint,maria,150_150_150,0.0001,0
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:anger,maruta,300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104903/adv/atlas/stand_a,body:anger,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đương nhiên、 lúc nào cũng sẵn sàng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190704/adv/atlas/stand_a,body:anger,kyuka,300,-100,0.5,0.5,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Itsukino Konoka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mọi người… Cố gắng lên！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maria,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190904/adv/atlas/stand_a,body:anger,saya,-300,-100,0.5,0.5,,,,
+anm,tint,kyuka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinamori Saya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sẽ đáp lại mong mỏi của mọi người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190880/adv/atlas/stand_a,body:anger,kasumi,0,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yuuki Kasumi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đi thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Ice1,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_040.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Shine,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11750301.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/100217/adv/atlas/stand_b,body:anger,blizit,300,-190,0.5,0.5,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+spriteatlas,download/character/100124/adv/atlas/stand_b,body:anger,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không cho phép bất cứ ai nói rằng tương lai của chúng ta là không cần thiết、 không để ai cướp đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100217/adv/atlas/stand_b,body:anger,blizit,300,-190,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhìn thế giới này từ một nơi cao nào đó、 có lẽ nó không có gì đặc biệt。Nhưng、 đây là thế giới mà chúng ta đang sống！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900036/adv/atlas/stand_b,body:anger,999go,300,-150,0.5,0.5,,,,
+anm,tint,999go,150_150_150,0.0001,0
+spriteatlas,download/character/collabo/900034/adv/atlas/stand_b,body:anger,arice,-300,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không đời nào tao tha thứ cho cái trò đùa là hủy diệt thế giới của tụi tao đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/collabo/900036/adv/atlas/stand_b,body:anger,999go,300,-150,0.5,0,,,,
+anm,tint,arice,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>９９９号</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Quyết định sự tồn tại của chúng ta là chính chúng ta。Không phải là mày。Vì vậy…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/28090113/adv/image/28090113.png,enemy1,0,-80,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_28080107_entry_03.mp3
+name,<outline width=2 color=black>グノーシス・レイヤード</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>それぞれの声</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cút khỏi thế giới này điiiiiiiiiiiiii！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+name,
+msgwin,off
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

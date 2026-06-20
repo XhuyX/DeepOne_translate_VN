@@ -1,0 +1,1163 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10970104.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm015.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——————————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103602/adv/atlas/stand_a,body:anger,rise,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hự、 aaaaaaa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,,,
+
+
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1.5,1,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Red,em2,default,animation,0,-200,-170,0.7,1.2,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Red,em3,default,animation,0,320,270,0.4,0.9,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Red,em4,default,animation,0,-250,300,1,1.4,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Red,em5,default,animation,0,260,-100,0.4,1.1,0
+playse,/download/sound/se/se_053.mp3
+endwait
+
+
+flash,255,255,255,4,0.3,1.0
+endwait
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——————、 ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+anm,tint,enemy1,0_0_0,0.5,0
+endwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>—————————————————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:anger,rlin,300,-60,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+spriteatlas,download/character/103602/adv/atlas/stand_a,body:anger,rise,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chết tiệt、 thôi rồi……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:anger,rlin,300,-60,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em nghĩ mình đã tiến khá xa rồi、 nhưng số lượng hư ảnh không những không giảm mà còn tăng lên không ngừng thì phải……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rlin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190604/adv/atlas/stand_a,body:normal,hina,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hina</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… Vì đã lỡ tiến nửa vời rồi、 nên kẻ địch cũng tràn vào đường lui…… Có khi tình hình còn tệ hơn ấy chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rise,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190404/adv/atlas/stand_a,body:normal,kuo,-300,-100,0.5,0.5,,,,
+anm,tint,hina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kuon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù thế nào đi nữa、 chúng ta cũng không thể chọn rút lui ở đây。Đừng bận tâm đến phía sau。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190404/adv/atlas/stand_a,body:normal,kuo,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Dù vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—————————————————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—————————————————————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+spriteatlas,download/character/190404/adv/atlas/stand_a,body:normal,kuo,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kuon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trong tình huống không biết phải tiến thêm bao xa nữa mà lại thế này、 đúng là có hơi nản lòng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0,,,,
+anm,tint,kuo,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng…… Dù sao thì các anh chị cũng đang được Martha-chan bảo vệ、 nên chắc không cần lo lắng đâu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kuo,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103602/adv/atlas/stand_a,body:sad,rise,-300,-100,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng nếu chúng ta gục ngã、 thì dù là Martha-chan cũng không biết sẽ ra sao đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rlin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190604/adv/atlas/stand_a,body:sad,hina,300,-100,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hina</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Những lúc như thế này、 ước gì có Inuko hay Wakana-chin ở đây nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rise,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190404/adv/atlas/stand_a,body:normal,kuo,-300,-100,0.5,0.5,,,,
+anm,tint,hina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kuon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cầu xin những thứ không có cũng chẳng ích gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190604/adv/atlas/stand_a,body:sad,hina,300,-100,0.5,0,,,,
+anm,tint,kuo,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hina</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng là vậy ạ—……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190404/adv/atlas/stand_a,body:normal,kuo,-300,-100,0.5,0,,,,
+anm,tint,hina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kuon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đến nước này、 thay vì chờ đợi kiệt sức、 có lẽ nên dốc toàn lực mở đường thì hơn……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,hina,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:sad,rlin,300,-60,0.5,0.5,,,,
+anm,tint,kuo,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không nhìn thấy phía trước mà làm thế thì hơi mạo hiểm đấy chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kuo,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103602/adv/atlas/stand_a,body:sad,rise,-300,-100,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu giữa chừng hụt hơi thì đúng là toang của toang luôn đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rise,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190404/adv/atlas/stand_a,body:normal,kuo,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kuon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……À、 đúng vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rlin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190604/adv/atlas/stand_a,body:normal,hina,300,-100,0.5,0.5,,,,
+anm,tint,kuo,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hina</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy tức là、 Hina chúng em vẫn chỉ có thể tiếp tục cuộc chiến không hồi kết này thôi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190404/adv/atlas/stand_a,body:normal,kuo,-300,-100,0.5,0,,,,
+anm,tint,hina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kuon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—Không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190404/adv/atlas/stand_a,body:normal,kuo,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Những lúc như thế này、 có kẻ đó ở đây để làm những việc mà chúng ta không thể。Chắc chắn sẽ có gì đó—</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,shino1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/190504/adv/atlas/stand_a,body:normal,shino2,0,0,0,0,,,,
+imgconf,shino2,shino1,0,-330,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Shino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—Hina！ Em có thể gây rối cánh trái của địch không！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190404/adv/atlas/stand_b,body:smile,kuo,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kuon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kìa、 đến rồi đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<size=32>………………。</size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<size=32>…………。</size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<size=32>……。</size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10970104.jpg,1,255
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mọi người…… có ổn không nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chắc giờ này Rise đang nói ‘toang của toang’ rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190504/adv/atlas/stand_a,body:normal,shino,300,-100,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Shino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,shino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Shino、 có chuyện gì vậy？ Trông em có vẻ đang suy nghĩ gì đó……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190504/adv/atlas/stand_a,body:normal,shino,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Shino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dạ không…… Em muốn hỏi một điều、 liệu có thể coi hư ảnh có một mức độ trí tuệ nhất định không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,shino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…… Tùy loại、 nhưng về cơ bản thì chị nghĩ chúng không thông minh lắm。Giống như động vật hoang dã ấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190504/adv/atlas/stand_a,body:normal,shino,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Shino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ra vậy。Tức là、 thú vật sao…… Nhưng mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190504/adv/atlas/stand_a,body:normal,shino,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Shino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyển động của kẻ địch đó…… vừa chặn đường lui、 vừa dần dần siết chặt vòng vây về phía này……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190504/adv/atlas/stand_a,body:normal,shino,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đây không phải là cách săn mồi của thú vật…… Mà giống như một đội quân hành động dưới sự chỉ huy rõ ràng hơn……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190504/adv/atlas/stand_a,body:unique4,shino,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>—Hina！ Em có thể gây rối cánh trái của địch không！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,hina1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/190604/adv/atlas/stand_a,body:surprise,hina2,0,0,0,0,,,,
+imgconf,hina2,hina1,0,-300,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hina</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190604/adv/atlas/stand_a,body:smile,hina2,0,0,0,0,,,,
+imgconf,hina2,hina1,0,-300,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:surprise,maruta,-300,-90,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:surprise,maruta,-300,-90,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hina、 giỏi quá…… Xông thẳng vào giữa hư ảnh…… —Khoan đã？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Sao chuyển động của hư ảnh lại lạ thế nhỉ？ Những hư ảnh xung quanh đang di chuyển đến vị trí của hư ảnh đuổi theo Hina……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,,,
+
+
+spriteatlas,download/character/190504/adv/atlas/stand_a,body:normal,shino,300,-100,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Shino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chúng đang dàn ngang ra để không làm đứt đoạn vòng vây。Quả nhiên、 kẻ địch này đang hành động dưới sự chỉ huy rõ ràng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190504/adv/atlas/stand_a,body:normal,shino,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Việc Hina làm mồi nhử kéo giãn đội hình đã giúp tôi nhìn thấy đặc điểm bố trí của địch。Trong khi cố gắng lấp đầy những khoảng trống tạo ra、 có một nhóm nhất định không bao giờ phá vỡ mật độ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190504/adv/atlas/stand_a,body:normal,shino,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dễ hiểu thế này thì thật may。Bởi vì phòng thủ cứng rắn tức là có thứ gì đó ở đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190604/adv/atlas/stand_a,body:normal,hina,1200,-100,0.5,0,,,,
+anm,move,hina,300_-100,0.3,1
+endwait
+
+
+name,<outline width=2 color=black>Hina</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phù、 mệt quá—…… Vậy、 Kuon-sama、 người đã tìm ra gì chưa ạ—？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190404/adv/atlas/stand_a,body:normal,kuo,-300,-100,0.5,0.5,,,,
+anm,tint,hina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kuon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm、 vất vả cho con rồi。Nhờ con mà ta đã nhìn thấy nơi cần tấn công。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:unique,rlin,300,-60,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+spriteatlas,download/character/103602/adv/atlas/stand_a,body:anger,rise,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là những kẻ không đuổi theo Hina-chan khi nãy đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:unique,rlin,300,-60,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dễ hiểu thật đấy nhỉ…… Vậy ra đó là kẻ đang chỉ huy những hư ảnh khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:anger,rlin,300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em cứ mải nhìn mấy kẻ địch trước mặt、 mà chẳng để ý đến cách toàn bộ chúng di chuyển gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103602/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tức là mấy tên cơ bắp chỉ biết đấm đá、 tầm nhìn hạn hẹp thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:unique,rlin,300,-60,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rise-chan cũng thế mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103602/adv/atlas/stand_a,body:anger,rise,-300,-100,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cũng đúng… nhưng người đơn giản、 một khi đã biết kẻ địch cần đánh bại thì sẽ rất mạnh đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:anger,rlin,300,-60,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm hừm… đúng chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190404/adv/atlas/stand_a,body:normal,kuo,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kuon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Làm được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kuo,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:anger,rlin,300,-60,0.5,0.5,,,,
+spriteatlas,download/character/103602/adv/atlas/stand_a,body:anger,rise,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tất nhiên！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:anger,rlin,300,-60,0.5,0.5,,,,
+spriteatlas,download/character/103602/adv/atlas/stand_a,body:anger,rise,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tránh ra！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1.5,1,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Red,em2,default,animation,0,-200,-170,0.7,1.2,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Red,em3,default,animation,0,320,270,0.4,0.9,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Red,em4,default,animation,0,-250,300,1,1.4,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Red,em5,default,animation,0,260,-100,0.4,1.1,0
+playse,/download/sound/se/se_053.mp3
+endwait
+flash,255,255,255,4,0.3,1.0
+endwait
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――――――……、…………、……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+anm,tint,enemy1,0_0_0,0.5,0
+anm,tint,enemy2,0_0_0,0.5,0
+anm,tint,enemy3,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+spriteatlas,download/character/103602/adv/atlas/stand_a,body:anger,rise,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rin-chan、 giữ chân một lát thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:normal,rlin,300,-60,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng vâng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:anger,rlin,0,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Này、 lùi lại đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+flash,255,255,255,4,0.3,1.0
+endwait
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+anm,tint,enemy1,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:anger,rlin,0,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi chao、 lại đông thế này。Bị lộ vị trí trùm nên cuống lên à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:normal,rlin,0,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 tụ tập đông thế này có ổn không nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rise1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103602/adv/atlas/stand_a,body:anger,rise2,0,0,0,0,,,,
+imgconf,rise2,rise1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Viêm Đế Tinh Tú。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103602/adv/atlas/stand_b,body:anger,rise,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tam Bạch Thúc Tử――Kim Thần Phong Hỏa… AAAAAAA！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em2,default,animation,0,-300,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em3,default,animation,0,300,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spineoff,em2,0
+spineoff,em3,0
+endwait
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+flash,255,255,255,4,0.3,1.0
+endwait
+wait,0.8
+endwait
+spineoff,em1,0
+endwait,,,,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――――――……、…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+anm,tint,enemy1,0_0_0,0.5,0
+anm,tint,enemy2,0_0_0,0.5,0
+anm,tint,enemy3,0_0_0,0.5,0
+endwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em2,default,animation,0,-300,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em3,default,animation,0,300,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spineoff,em2,0
+spineoff,em3,0
+endwait
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+flash,255,255,255,4,0.3,1.0
+endwait
+wait,0.8
+endwait
+spineoff,em1,0
+endwait,,,,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――――――……、…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+anm,tint,enemy1,0_0_0,0.5,0
+anm,tint,enemy2,0_0_0,0.5,0
+anm,tint,enemy3,0_0_0,0.5,0
+endwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em2,default,animation,0,-300,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em3,default,animation,0,300,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spineoff,em2,0
+spineoff,em3,0
+endwait
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+flash,255,255,255,4,0.3,1.0
+endwait
+wait,0.8
+endwait
+spineoff,em1,0
+endwait,,,,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>―――――――……、…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+anm,tint,enemy1,0_0_0,0.5,0
+anm,tint,enemy2,0_0_0,0.5,0
+anm,tint,enemy3,0_0_0,0.5,0
+endwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190404/adv/atlas/stand_a,body:normal,kuo,-300,-100,0.5,0.5,,,,
+anm,tint,kuo,150_150_150,0.0001,0
+spriteatlas,download/character/190604/adv/atlas/stand_a,body:surprise,hina,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hina</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ối chao、 uy lực gì thế kia、 khiếp quá đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190404/adv/atlas/stand_a,body:normal,kuo,-300,-100,0.5,0,,,,
+anm,tint,hina,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kuon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thế nhưng、 với cái này thì… Hina！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190604/adv/atlas/stand_a,body:smile,hina,300,-100,0.5,0,,,,
+anm,tint,kuo,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hina</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng ạ、 cú chốt cuối cùng phải không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+anm,move,hina,1200_-100,0.3,0
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+end wait
+bg,download/bg/bg_10970104.jpg,1,255
+endwait
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,-350,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,350,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+anm,tint,enemy1,0_0_0,0.5,0
+anm,tint,enemy2,0_0_0,0.5,0
+anm,tint,enemy3,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020301/adv/image/20020301.png,enemy1,0,-220,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/190404/adv/atlas/stand_a,body:anger,kuo,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kuon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kẻ dẫn đầu đám này là ngươi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,,,
+
+
+sprite,download/character/190404/image/main.png,main,0,0,1.0,0.5,,,,
+endwait,,,,,,,,,,,,,
+name,<outline width=2 color=black>Kuon</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Từ giờ trở đi、 ta sẽ không để ngươi cản bước chúng ta nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Bằng đòn này、 ta sẽ kết liễu ngươi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+anm,scale,main,2.2_2.2,0.5,0
+anm,fade,main,0,0.5,0
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,600 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Tayori Tanomi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hôm đó、 tôi chỉ định về nhà bằng con đường mình thấy tò mò như mọi khi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Giữa trường và nhà có rất nhiều con đường、 mỗi con lại mang đến những cảnh tượng khác nhau、 những điều thú vị khác nhau。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thế nên tôi rất thích tan học、 cứ tan học là lại háo hức không biết hôm nay sẽ tìm thấy gì、 sẽ đi đường vòng nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>——Nhưng mà、 tôi thật sự không thể tưởng tượng được một con đường vòng mà ở đó có cô gái đánh bay quái vật đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10020200.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010201/adv/image/20010201.png,enemy1,0,-170,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_b,body:unique,rlin,0,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đồ cản đường！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010201/adv/image/20010201.png,enemy1,0,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Blue,em1,default,animation,0,10,0,1,1.0,0
+playse,/download/sound/se/se_075.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+wait,0.2
+spine,download/adv/spine/blow_Blue,em2,default,animation,0,0,200,1,1.0,0
+playse,/download/sound/se/se_075.mp3
+wait,0.2
+spine,download/adv/spine/blow_Blue,em3,default,animation,0,0,-100,1,1.0,0
+playse,/download/sound/se/se_075.mp3
+wait,0.2
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spineoff,em2,0
+spineoff,em3,0
+endwait
+
+
+anm,tint,enemy1,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-400,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy2,300,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy3,-50,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_b,body:anger,rlin,0,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mấy đứa này、 cứ bu lại lằng nhằng、 khó chịu quá đi mất！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-400,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy2,300,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy3,-50,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,300,0,1,1.0,0
+playse,/download/sound/se/se_075.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,1,0.3,1.0
+anm,move,enemy2,1200_-170,0.3,0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,-400,0,-1,1.0,0
+playse,/download/sound/se/se_075.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,1,0.3,1.0
+anm,move,enemy1,-1200_-170,0.3,0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/blow_Blue,em1,default,animation,0,0,-200,1,1.0,0
+playse,/download/sound/se/se_075.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Blue,em2,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_075.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Blue,em3,default,animation,0,200,0,1,1.0,0
+playse,/download/sound/se/se_075.mp3
+endwait,,,,,,,,,,,
+shake,0.2,4,15,15
+flash,255,255,255,4,0.3,1.0
+anm,move,enemy3,-50_1200,0.4,0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spineoff,em2,0
+spineoff,em3,0
+endwait
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_b,body:normal,rlin,0,-60,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——Được rồi、 cuối cùng cũng dọn dẹp xong xuôi rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm029.mp3,0,
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193304/adv/atlas/stand_a,body:surprise,tanomi,-300,-120,0.5,0.5,,,,
+anm,tint,tanomi,150_150_150,0.0001,0
+spriteatlas,download/character/193404/adv/atlas/stand_a,body:unique2,youka,300,-140,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Osanami Youka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tự dưng thấy mình ở một nơi lạ hoắc、 bị quái vật tấn công、 rồi giờ lại có cô gái đánh bay nó dễ như không…… Giấc mơ gì mà hỗn loạn vậy trời。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193304/adv/atlas/stand_a,body:surprise,tanomi,-300,-120,0.5,0,,,,
+anm,tint,youka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tayori Tanomi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 đây là mơ thật sao！？ Cứ tưởng mình đến được một nơi tuyệt vời chưa từng thấy chứ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193404/adv/atlas/stand_a,body:sad,youka,300,-140,0.5,0,,,,
+anm,tint,tanomi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Osanami Youka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng là chưa từng thấy cảnh tượng kinh khủng thế này bao giờ、 nhưng mà giờ đâu phải lúc để nghĩ mấy chuyện đó……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tanomi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0.5,,,,
+anm,tint,youka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xem ra mọi người không ai bị thương gì nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193404/adv/atlas/stand_a,body:normal,youka,300,-140,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Osanami Youka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nói vậy thì cô mới đúng chứ…… Cô đánh con quái vật đó như chuyện thường tình vậy…… Cô có phải người không thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:unique,rlin,-300,-60,0.5,0,,,,
+anm,tint,youka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này này。Chẳng lẽ cô định gọi Rin-chan đáng yêu thế này là khỉ đột hay cuồng nhân sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193404/adv/atlas/stand_a,body:sad,youka,300,-140,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Osanami Youka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tuyệt đối không đời nào tôi nghĩ vậy với người mới gặp lần đầu…… lại còn là người đã cứu mình nữa chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,youka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193304/adv/atlas/stand_a,body:normal,tanomi,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tayori Tanomi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 thật sự cảm ơn cô rất nhiều…… ừm、 gọi là Rin-san được chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:smile,rlin,-300,-60,0.5,0,,,,
+anm,tint,tanomi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy。Rin Arbiter、 rất vui được làm quen nhé。Mà tôi nghĩ tốt hơn hết là mọi người đừng có dính dáng lâu với tôi thì hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193304/adv/atlas/stand_a,body:sad,tanomi,300,-120,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tayori Tanomi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ？ Ý cô là sao……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tanomi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rin。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 Frau-chan và mọi người cũng đến rồi、 vậy là đã bảo vệ được họ an toàn rồi nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm、 với tôi thì chuyện này dễ như không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:smile,rlin,-300,-60,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng là Martha-chan có khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:unique,maruta,300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đấy thấy chưa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/193304/adv/atlas/stand_a,body:normal,tanomi,-300,-120,0.5,0.5,,,,
+anm,tint,tanomi,150_150_150,0.0001,0
+spriteatlas,download/character/193504/adv/atlas/stand_a,body:surprise,tukusi,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tsukushima Tsukushi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À…… các cô là những người lúc nãy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193304/adv/atlas/stand_a,body:normal,tanomi,-300,-120,0.5,0,,,,
+anm,tint,tukusi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tayori Tanomi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tanomi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193404/adv/atlas/stand_a,body:normal,youka,-300,-140,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Osanami Youka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 người đã đánh rơi túi lúc nãy……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193504/adv/atlas/stand_a,body:surprise,tukusi,300,-120,0.5,0,,,,
+anm,tint,youka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tsukushima Tsukushi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đánh rơi—— À、 á á á！ Đúng rồi、 bánh su kem giới hạn của tôi đâu rồi……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193404/adv/atlas/stand_a,body:sad,youka,-300,-140,0.5,0,,,,
+anm,tint,tukusi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Osanami Youka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi cũng đã nhặt lên và định trả lại rồi…… nhưng khi tỉnh dậy thì không thấy nó đâu nữa…… Sau đó thì cũng không phải lúc để tìm kiếm gì cả……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193504/adv/atlas/stand_a,body:sad,tukusi,300,-120,0.5,0,,,,
+anm,tint,youka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tsukushima Tsukushi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ư ư…… Bánh su kem của tôi…… Hàng giới hạn……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193404/adv/atlas/stand_a,body:sad,youka,-300,-140,0.5,0,,,,
+anm,tint,tukusi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Osanami Youka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi xin lỗi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tukusi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193304/adv/atlas/stand_a,body:normal,tanomi,300,-120,0.5,0.5,,,,
+anm,tint,youka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tayori Tanomi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…… chị là người quen của Osanami-san à？ Thấy đồng phục giống nhau nên chắc là cùng trường nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193404/adv/atlas/stand_a,body:normal,youka,-300,-140,0.5,0,,,,
+anm,tint,tanomi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Osanami Youka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 chỉ là va vào nhau ngoài đường thôi、 chứ không phải người quen gì cả……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tanomi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193504/adv/atlas/stand_a,body:surprise,tukusi,300,-120,0.5,0.5,,,,
+anm,tint,youka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tsukushima Tsukushi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 lần đó tôi xin lỗi rất nhiều ạ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193404/adv/atlas/stand_a,body:normal,youka,-300,-140,0.5,0,,,,
+anm,tint,tukusi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Osanami Youka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không cần phải khách sáo vậy đâu。Va vào nhau một chút thì có là gì so với tình cảnh này、 với lại lúc đó tôi cũng có lỗi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193404/adv/atlas/stand_a,body:normal,youka,-300,-140,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy thì…… đây là đâu vậy？ Dù sao thì、 tôi cũng không thể viện cớ là mơ được nữa rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193504/adv/atlas/stand_a,body:sad,tukusi,300,-120,0.5,0,,,,
+anm,tint,youka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tsukushima Tsukushi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lúc nãy cô nói là thế giới khác đúng không……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,youka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0.5,,,,
+anm,tint,tukusi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy。Đây là Dreamlands…… dù nói vậy chắc mọi người cũng không hiểu đâu、 nhưng có lẽ đây là một thế giới khác với nơi mọi người từng ở。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tukusi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193304/adv/atlas/stand_a,body:surprise,tanomi,300,-120,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tayori Tanomi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dị giới……！？ Chuyện đó chỉ có trong anime hay manga thôi mà！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tanomi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193504/adv/atlas/stand_a,body:sad,tukusi,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tsukushima Tsukushi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi cũng nghĩ là không thể nào…… nhưng nhìn cảnh tượng này、 rồi con quái vật lúc nãy thì、 đành phải tin thôi nhỉ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0,,,,
+anm,tint,tukusi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chắc mọi người còn nhiều điều muốn hỏi lắm、 nhưng nếu cứ ở đây、 có khi con quái vật lúc nãy lại xuất hiện nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:normal,rlin,-300,-60,0.5,0,,,,
+msg,0,<outline width=2 color=black>Với lại、 đứng nói chuyện thế này cũng không tiện。Chúng ta về R'lyeh một chuyến đi。Tôi sẽ giải thích chi tiết ở đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tukusi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193304/adv/atlas/stand_a,body:surprise,tanomi,300,-120,0.5,0.5,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tayori Tanomi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>R'lyeh……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rlin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0.5,,,,
+anm,tint,tanomi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>R'lyeh an toàn lắm…… Với lại、 bánh su kem cũng sẽ được làm cho…… chắc vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tanomi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193504/adv/atlas/stand_a,body:sad,tukusi,300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tsukushima Tsukushi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật、 thật sao ạ……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tukusi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193304/adv/atlas/stand_a,body:normal,tanomi,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tayori Tanomi</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chắc là chị ấy sốc lắm vì mất bánh su kem nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,tanomi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tsukushi-chan đang bối rối vì đến một thế giới khác…… Để họ yên tâm、 nếu nói là cần đồ ngọt、 tôi nghĩ Asaka sẽ làm bao nhiêu cũng được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tanomi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103902/adv/atlas/stand_a,body:unique,rlin,300,-60,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rin Arbiter</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Martha-chan、 cô đang định lợi dụng mấy người này để mình được ăn bánh su kem đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:unique,maruta,-300,-90,0.5,0,,,,
+anm,tint,rlin,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Không có chuyện đó đâu。Tuyệt đối không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rlin,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:unique,frau,300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Martha、 mắt cô đang đảo lia lịa kìa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102702/adv/atlas/stand_a,body:anger,maruta,-300,-90,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tóm lại là vậy、 về R'lyeh ngay đi。Nhanh lên、 đừng có mà chần chừ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/193404/adv/atlas/stand_a,body:sad,youka,0,-140,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Osanami Youka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Haizzz。。。Có vẻ mọi chuyện đang trở nên tệ hại quá rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

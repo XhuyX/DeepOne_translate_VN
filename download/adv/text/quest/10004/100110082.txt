@@ -1,0 +1,410 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10050200.jpg,0,,,,,,,,
+endwait
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm007.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_b,body:anger,pato,0,-200,0.5,0.5,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em sẽ kết liễu bằng chiêu này！</outline></size>,,,,,,,,,
+clickwait
+name,
+msg,0,
+spriteoff,all,0
+endwait
+sprite,download/monster/20040106/adv/image/20040106.png,enemy1,370,-170,1.35,0.5.
+sprite,download/monster/20040106/adv/image/20040106.png,enemy2,-430,-170,1.35,0.5
+sprite,download/monster/20040106/adv/image/20040106.png,enemy3,-30,-170,1.35,0.5
+endwait
+flash,255,255,255,5,0.2,0.2,,
+spine,download/adv/spine/Thunder1_yellow,em3,default,animation,0,0,0,1,1,0.5
+wait,0.4
+playse,/download/sound/se/se_024.mp3
+wait,1
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>——………………</outline></size>,,,,,,,,,
+clickwait
+playse,/download/sound/se/se_025.mp3
+spriteoff,all,0.5
+endwait
+wait,1
+endwait
+slideinblack,0.5,left
+endwait
+name,
+msg,0,
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:normal,dana,0,-120,0.5,0,,,
+endwait,,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù tự nhận còn non nớt、 nhưng làm được đến mức này thì cũng đủ rồi chứ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi cũng không thể thua kém được——</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+sprite,download/monster/20040106/adv/image/20040106.png,enemy3,-30,-170,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>————————！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait
+shake,0.2,7,20,20,,,,,,,,,,,,
+endwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:anger,dana,0,-120,0.5,0.5,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dám định tấn công lén từ phía sau ở một nơi trống trải thế này、 đúng là quá coi thường tôi rồi đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,all,0
+name,
+msg,0,
+endwait
+sprite,download/monster/20040106/adv/image/20040106.png,enemy3,-30,-170,1.35,0.5
+endwait
+spine,download/adv/spine/Slash3_Blue,em4,default,animation,0,0,0,1,1.5,0
+playse,/download/sound/se/se_037.mp3
+endwait
+wait,0.3
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>————、…………、……</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0.5,,
+playse,/download/sound/se/se_025.mp3
+endwait
+wait,1
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:normal,dana,300,-120,0.5,0.5,,,
+spriteatlas,download/character/101602/adv/atlas/stand_b,body:normal,pato,-300,-200,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chị Dana、 chị không sao chứ？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:normal,dana,300,-120,0.5,0,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm。Tầm đó thì chẳng đáng gọi là đánh úp đâu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn nữa、 mấy cái hư ảnh này cũng sắp hết rồi、 chúng ta mau chóng giải quyết chúng đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_b,body:normal,pato,-300,-200,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng。Một nửa số hư ảnh còn lại、 em nhận nhé？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:normal,dana,300,-120,0.5,0,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dĩ nhiên rồi。Thậm chí em có thể giao thêm cho tôi một chút cũng được mà。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_b,body:normal,pato,-300,-200,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không được đâu ạ。Em không thể để chị phải gánh thêm gánh nặng được。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:normal,dana,300,-120,0.5,0,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thật ra thì、 em cứ dựa dẫm tôi một chút cũng được mà。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+slideinblack,1,left
+endwait
+name,
+msg,0,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:normal,bri,0,-190,0.5,0,,,,,
+endwait,,,,,,,,,,,,
+slideoutblack,1,left
+endwait
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Gì chứ、 hai người phối hợp ăn ý thế này cơ mà。Cái sự ngượng ngùng ban nãy xem ra chỉ là lo lắng thừa thãi thôi nhỉ。</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+slideinblack,1,left
+endwait
+name,
+msg,0,
+spriteoff,all,0
+endwait
+stopbgm,0.5
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,pato,-300,-200,0.5,0,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+slideoutblack,1,left
+endwait
+wait,0.5
+endwait
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À ừm…… Hư ảnh、 hình như không còn nữa rồi nhỉ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,pato,-300,-200,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng…… À、 chị Dana không sao là tốt rồi ạ。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không、 Patricia-san mới là người……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,pato,-300,-200,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>………………</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……………………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 đúng rồi。Tôi đi trinh sát phía trước một chút nhé。Lỡ có bẫy gì thì phiền lắm。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,pato,-300,-200,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 vậy thì em cũng……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không không、 em vừa chiến đấu với hư ảnh xong mà、 Patricia-san cứ nghỉ ngơi một chút đi。Vậy nhé、 tôi đi đây。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,dana,0.7
+endwait
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,pato,-300,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À…………</outline></size>,,,,,,,,,
+clickwait
+spriteoff,pato,0
+endwait
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:unique,bri,0,-190,0.5,0.5,,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,bri,0,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ban nãy còn nói chuyện đàng hoàng、 phối hợp ăn ý thế cơ mà、 sao vừa hết trận chiến là lại xa cách đến thế chứ、 thật tình……</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,bri,300,-190,0.5,0.5,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,pato,-300,-200,0.5,0.5,,,,
+anm,tint,bri,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Chị ơi。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,bri,300,-190,0.5,0,,,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Có chuyện gì à？</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:normal,pato,-300,-200,0.5,0,,,,
+anm,tint,bri,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À ừm、 em có chuyện muốn hỏi ý kiến chị một chút…… Không biết có được không ạ？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,bri,300,-190,0.5,0,,,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 được thôi。Dana đã đi trước để xem xét tình hình rồi phải không？ Vậy thì trong lúc chờ đợi cũng chẳng có gì để làm。</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Dù sao thì、 dù em có gọi là hỏi ý kiến、 tôi cũng đoán được nội dung rồi。</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:surprise,pato,-300,-200,0.5,0,,,,
+anm,tint,bri,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ể？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,bri,300,-190,0.5,0,,,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em dễ đoán quá đấy…… Mấy chuyện hỏi ý kiến kiểu này là sở trường của tên này mà、 tôi giao lại cho cậu ta đấy。Tôi sẽ đứng cách xa một chút、 có gì thì cứ gọi tôi。</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,pato,-300,-200,0.5,0,,,,
+anm,tint,bri,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em xin lỗi…… Với lại、 em cảm ơn chị ạ。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,bri,300,-190,0.5,0,,,,,
+anm,tint,pato,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu biết ơn thì mau chóng giải quyết cái khoảng cách giữa em với Dana đi nhé。</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+spriteoff,bri,0.7
+endwait
+wait,0.2
+endwait
+spriteoff,pato,0.2
+endwait
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,pato,0,-200,0.5,0.3,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Em đang gây phiền phức cho mọi người phải không ạ？</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>À ừm、 về nội dung mà em muốn hỏi ý kiến thì……</outline></size>,,,,,,,,,
+clickwait
+select,Chuyện của Dana？,Sợ Bridget à？
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,pato,0,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng、 đúng vậy ạ。Em cứ đứng trước chị Dana là lại trở nên gượng gạo thế nào ấy…… Em không biết mình nên tiến tới mức nào。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Cũng vì thế mà từ nãy đến giờ em không thể nói chuyện đàng hoàng、 còn khiến anh và chị Bridget phải bận tâm nữa……</outline></size>,,,,,,,,,
+clickwait
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:surprise,pato,0,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Patricia Portman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải đâu ạ！？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:normal,pato,0,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ngược lại、 em còn gây phiền toái cho chị Bridget nữa、 nên em thấy rất có lỗi。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Vậy nên、 chuyện mà em muốn hỏi ý kiến là về chị Dana ạ……</outline></size>,,,,,,,,,
+clickwait
+endif,,,,,,,,,,,
+spriteatlas,download/character/101602/adv/atlas/stand_a,body:sad,pato,0,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Bản thân em cũng muốn có thể trò chuyện tự nhiên hơn với chị Dana。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Thế nhưng、 việc vẫn cứ gượng gạo như vậy、 có lẽ là vì sự hiện diện của anh trai em……</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Chị Dana、 trước đây từng là Người Truy Tìm chung đội với anh trai em。Chắc chắn chị ấy biết về anh em nhiều hơn bất cứ ai đang ở R'lyeh bây giờ。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Em có mong muốn được nghe chị Dana kể về anh trai mình……</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Thế nhưng、 điều đó…… chắc chắn sẽ giống như việc khoét sâu vào vết thương lòng của chị Dana。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Cứ nghĩ như vậy、 em lại không biết phải mở lời thế nào……</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Nhưng nếu cứ thế này mãi、 không chỉ Bridget-san mà em còn có thể làm phiền người khác nữa… Em phải tìm cách dung hòa mọi chuyện thôi、 đúng không ạ？</outline></size>,,,,,,,,,
+clickwait
+slideinblack,1,left
+endwait
+name,
+msg,0,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,0,-120,0.5,0,,,
+endwait,,,,,,,,,,,,
+slideoutblack,1,left
+endwait
+wait,0.5
+endwait,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em là người đã cướp đi anh trai của Patricia-san… cướp Jin。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Một người như em、 giờ đây biết phải nói gì với cô ấy đây？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0.5,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,bri,-300,-190,0.5,0.5,,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi chỉ đến xem tình hình cho chắc thôi mà、 vậy mà tự dưng lại nghe mấy chuyện này thật là。</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0,,,
+anm,tint,bri,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em xin lỗi… nhưng mà…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,bri,-300,-190,0.5,0,,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Haizz。</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì sao？ Cô muốn làm gì、 muốn thế nào với Patricia đây？</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0,,,
+anm,tint,bri,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù chị có hỏi em muốn làm gì thì… chuyện đó đâu phải em có thể quyết định…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,bri,-300,-190,0.5,0,,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ai khác ngoài cô sẽ quyết định những gì cô muốn làm chứ？</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 cũng chẳng sao đâu… Ít nhất thì trong lúc chiến đấu với hư ảnh、 hai người vẫn phối hợp được bình thường、 tôi cũng chẳng thấy có gì bất tiện mà。</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0,,,
+anm,tint,bri,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chắc là vì trong lúc giao chiến、 em tập trung vào việc trước mắt、 không có thời gian để nghĩ đến chuyện khác đâu nhỉ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:sad,bri,-300,-190,0.5,0,,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không có thời gian thì lại giao tiếp suôn sẻ hơn、 nghe cũng lạ đời thật đấy。</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0,,,
+anm,tint,bri,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Về phần em thì、 em vẫn muốn giúp đỡ cô ấy dù chỉ một chút thôi… Nhưng để làm được điều đó thì em phải làm sao đây…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:normal,bri,-300,-190,0.5,0,,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi không biết đâu。Tôi đã nói rồi mà、 tôi chỉ cần không bị cản trở việc truy tìm là được rồi。Tôi không có ý định nhúng tay vào chuyện gì hơn thế đâu。</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0,,,
+anm,tint,bri,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Xin chị làm ơn giúp đỡ… Nếu chị chịu giúp、 em sẽ tặng chị món mực khô này、 với cả vây cá đuối khô nữa mà…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_a,body:unique,bri,-300,-190,0.5,0,,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi không cần đâu… Nếu cô cứ nói mấy chuyện ngớ ngẩn này thì tôi về đây。Bên kia chắc cũng đã tạm ổn rồi nhỉ。</outline></size>,,,,,,,,,,,
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,1,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

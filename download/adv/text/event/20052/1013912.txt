@@ -1,0 +1,678 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11340300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm073.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,300,-120,0.5,0.5,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,-1200,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+anm,move,milva,-100_-120,0.7,1
+endwait
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,-100,-120,0.5,0,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 chị hai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giỏi lắm、 Milva。Cứ thế này、 chúng ta sẽ nghiền nát họ một lượt！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+anm,move,ridia,1200_-120,0.5,0
+endwait
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:sad,frau,-1200,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+anm,move,frau,-100_-120,1.4,1
+endwait
+
+
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:sad,frau,-100,-120,0.5,0,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm、 ứ ứ…… Norn……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:smile,norn,300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cậu vất vả rồi、 Frau。Tớ đã nhận được gậy tiếp sức rồi…… Phần còn lại cứ để bọn tớ lo！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,norn,1200_-120,0.5,0
+endwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:sad,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tớ sẽ không để công sức của Frau uổng phí đâu……！ Bọn tớ nhất định sẽ thắng……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Frau-sama、 ngài vất vả rồi。Rosette đã chuẩn bị nước、 nếu ngài muốn thì xin hãy uống ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… Cảm ơn、 Rosette……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi、 Frau-chan、 mới chạy có một vòng thôi mà đã mệt bở hơi tai rồi。Chắc em nên vận động thêm chút nữa thì hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhất là Frau-chan lại hay ăn bánh kẹo của Asaka-chan nữa…… Không khéo lại mập lên đấy nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A、 mai…… mai em sẽ cố gắng……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phù phù、 vậy à…… À、 nhìn kìa。Đến lượt người tiếp theo nhận gậy rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:anger,norn,-1300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:anger,ridia,-800,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+anm,move,ridia,200_-120,0.8,1
+anm,move,norn,-300_-120,0.8,1
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cũng khá đấy…… Không ngờ lại rút ngắn khoảng cách đến thế。Nhưng đến đây thôi―― Đừng có lơ là nữa、 Quincy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phần còn lại tớ giao cho cậu đấy…… Nhất định phải mang chiến thắng về cho Frau――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,quinecy1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101706/adv/atlas/stand_a,body:anger,quinecy2,0,0,0,0,,,,
+imgconf,quinecy2,quinecy1,0,-570,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không ngờ tôi lại được chạy đua với cô thế này…… Thật là một trải nghiệm mới mẻ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101706/adv/atlas/stand_a,body:anger,quinecy2,0,0,0,0,,,,
+imgconf,quinecy2,quinecy1,0,-570,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng vì hai người đã tin tưởng và trao gậy cho tôi、 tôi không thể lơ là ở đây được……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101706/adv/atlas/stand_a,body:surprise,quinecy,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… Đuổi kịp rồi…… Quả nhiên là giỏi thật……！ Nhưng tôi sẽ không thua đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+anm,move,quinecy,1000_-120,0.5,0
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,-300,-100,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:anger,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cùng lúc…… khúc cua cuối……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,-300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái này…… Rosette nên cổ vũ cho bên nào đây……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phù phù、 phải rồi…… Hay là chúng ta cổ vũ cho cả hai luôn nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,-300,-100,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Như vậy có được không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:smile,milva,300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đâu có quy định nào là chỉ được cổ vũ cho một bên đâu。Nào…… Cả hai cùng cố lên！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,-300,-100,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin hãy cố gắng hết sức ạ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,quinecy1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101706/adv/atlas/stand_a,body:sad,quinecy2,0,0,0,0,,,,
+imgconf,quinecy2,quinecy1,0,-570,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hộc、 hộc……！ Cố、 cố lên……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101706/adv/atlas/stand_a,body:anger,quinecy,-1200,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+anm,move,quinecy,1200_-120,1.5,0
+playse,/download/sound/se/se_016.mp3
+endwait
+
+
+flash,255,255,255,1,0.2,0.5
+endwait
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm031.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,-300,-100,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Về đích……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,-300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kết quả là、 Quincy-sama đã thắng rồi ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101706/adv/atlas/stand_a,body:normal,quinecy,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>May quá…… Tôi đã thắng rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,quinecy,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ư、 ứ ứ…… Cứ tưởng được cùng đội với Frau rồi、 không ngờ lại thua mất……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Frau với tớ đã cố gắng lắm mà~</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin lỗi…… Tại em chậm quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+
+
+anm,move,norn,100_-120,0.3,0,
+endwait,
+
+
+shake,0.5,3,15,0,norn,
+
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải đâu！ Frau đã cố gắng lắm mà、 giỏi lắm！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A、 ứ…… Norn、 cậu mà xoa mạnh quá là băng đô của tớ rớt mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù không hài lòng khi khoảng cách bị rút ngắn đến mức nguy hiểm với gã đó、 nhưng thôi、 ít ra cô cũng đã hoàn thành vai trò tối thiểu rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vất vả rồi、 Quincy-chan。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,milva,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101706/adv/atlas/stand_a,body:normal,quinecy,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hai người cũng vất vả rồi。Nhờ có hai người mà chúng ta mới thắng được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 nói rằng chiến thắng này là do tôi và Milva cùng nhau giành được cũng không quá lời đâu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101706/adv/atlas/stand_a,body:normal,quinecy,300,-120,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 lần tới tôi sẽ cố gắng để có thể giúp ích nhiều hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 tôi sẽ không kỳ vọng quá nhiều đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Quincy、 Lydia…… Milva cũng trông vui vẻ quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tốt quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không tốt chút nào！ Kể cả tớ thì thôi đi、 nhưng để Frau cứ thua mãi thế này sao、 không、 không thể được……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy nên chúng ta đấu lại một lần nữa！ Lần tới hay là mời Rosette vào làm người hỗ trợ luôn nhé！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:surprise,rozet,300,-100,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rosette cũng vậy ạ……？ Nhưng liệu có được không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rosette…… Chúng ta cùng cố gắng nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rosette đã rõ。Nếu quý vị đã đặt kỳ vọng vào Rosette、 Rosette nhất định sẽ không phụ lòng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Từ nãy đến giờ mấy người tự mình hăng hái cái gì thế。Bọn tôi đâu có nói là sẽ đấu lại đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì lần tới chúng ta đổi môn thi đấu nhé。Số người cũng khác rồi、 tiếp sức thì không được đâu nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ridia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Được thôi、 vậy lần tới là trò ném bóng vào rổ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ném bóng vào rổ？ Nghe tên có vẻ thú vị đấy、 nhưng là môn gì vậy nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:sad,ridia,-300,-120,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Thôi được rồi。Vì Milva có vẻ muốn chơi nên tôi sẽ chiều theo thêm một chút nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng tôi không có ý định thua đâu。Tôi sẽ lại cho các người nếm mùi thất bại một lần nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chuyện này hợp với cậu đấy nhỉ…… Tôi sẽ trông đợi cậu làm việc cho ra trò đấy、 Quincy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,milva,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101706/adv/atlas/stand_a,body:smile,quinecy,300,-120,0.5,0.5,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 tất nhiên rồi ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật lòng mà nói、 tôi vẫn thấy áy náy khi mình còn ở nơi ấm áp này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi là kẻ sát nhân、 rồi sẽ có ngày tôi phải mang tội lỗi mà sa xuống địa ngục thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thế nhưng…… cho đến khi ngày đó tới、 tôi muốn sống hết mình như thế này、 và thành tâm đối mặt với những gì mình đã vun đắp bấy lâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Rồi một ngày nào đó、 khi gặp sư phụ dưới địa ngục、 tôi không biết mình sẽ bị mắng bao lâu nữa……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Sau khi bị mắng xong、 sau khi đã xin lỗi thật nhiều、 tôi muốn kể về việc mình đã gặp được những con người tuyệt vời đến thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Lúc đó、 tôi không biết sư phụ sẽ phản ứng thế nào nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu người、 dù chỉ một chút thôi、 cũng từng nghĩ rằng đã không sai khi nhận nuôi tôi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Khi ấy、 tôi tin mình có thể ngẩng cao đầu mà cùng sư phụ cười nói。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

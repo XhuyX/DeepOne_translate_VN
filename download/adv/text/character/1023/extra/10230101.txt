@@ -1,0 +1,116 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10020100.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:surprise,bea,-10,-200,0.5,0.5,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>――A、 ư…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>surprise: M、 mới… mới không được đâu。Tự dưng lại chạm vào tai từ phía sau…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>normal: …Anh tò mò về đôi tai này đến vậy sao？ Nếu thích thì cứ nói ra là được mà</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:smile,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>smile: À、 phải rồi… Đôi tai này còn có thể cử động thế này nữa này。Phập phập phập…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_04.mp3
+clickwait,,,,,,,,,,,
+select,選択肢1 「可愛い,選択肢2 「面白い
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:shy,bea,-10,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>shy: A、 dễ thương ư… Hừm、 dù là lời khen thì em cũng vui lắm</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Thực ra、 đôi tai này em luôn chăm sóc cẩn thận、 cũng là một điểm em tự hào đấy</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Nhưng mà、 chỉ có một vấn đề… Giống như chim thật、 thỉnh thoảng lông lại rụng mất…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Vì là một phần cơ thể của mình、 nên em thấy buồn vô cớ。Lúc nào rụng thì em đều nhặt về… Ước gì có ích gì đó</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_08.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:smile,bea,-10,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>smile: Hừm、 vậy sao？ Nhưng mà、 chuyện này cũng có những nỗi lo riêng của em đấy</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_09.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>sad: Vốn dĩ không phải bộ phận của con người、 nên nếu không cử động một thời gian、 cơ bắp sẽ bị yếu đi、 rồi không cử động được nữa… Em nghĩ vậy đấy</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:smile,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>smile: Nên em phải tập phập phập mỗi ngày đấy？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_11.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-10,-200,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: …Nhưng mà、 rốt cuộc đôi tai này để làm gì nhỉ？ Ngay cả em cũng thấy nó chẳng giúp ích gì…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:surprise,bea,-10,-200,0.5,0,,,,
+spine,download/adv/spine/Mark14,em1,default,animation,0,110,300,0.65,1,0
+endwait
+msg,1,<size=30><outline width=2 color=black>surprise: …A、 em chưa từng thử bay nữa。Ra là vậy、 có lẽ khả năng không phải là con số không</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_13.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:smile,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>smile: Hừm、 nếu vậy thì em sẽ cố gắng vậy。Em sẽ cố gắng phập phập、 anh nhớ nhìn cho kỹ nhé</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>normal: Vậy thì、 bắt đầu thôi… Phập phập phập… Phập phập…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>normal: …Thế nào？ Anh thấy em có nhấc lên được một chút nào không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>sad: T、 Toàn bộ… không được sao…？ Chắc là em chưa dùng sức rồi？ Em sẽ cố gắng lần nữa！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:anger,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>anger: Đ、 đi đây――Haaa！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_18.mp3
+clickwait,,,,,,,,,,,
+shake,0.2,5,5,5,bea
+endwait
+msg,1,<size=30><outline width=2 color=black>anger: ――Phụt！ Phùuun！ Ưmー！ T、 thế nào rồi！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_19.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,bea,-10,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>sad: K、 không được sao… Có vẻ như nó không được tạo ra để bay rồi。Hơi… tiếc thật</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_20.mp3
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/Mark5,em2,default,animation,0,140,260,0.5,0.8,0
+endwait
+msg,1,<size=30><outline width=2 color=black>sad: Ưu… Đầu em đau quá… X、 xin cho em nghỉ một chút… Em thấy hơi khó chịu…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102301/adv/sound/fav102301_03_21.mp3
+clickwait,,,,,,,,,,,
+spineoff,em2,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,413 @@
+﻿// machine translate -- gemini-2.0-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_052_16_06_01.mp3
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chỗ này chắc là sâu trong Dreamlands rồi nhỉ…… ưm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_052_16_06_02.mp3
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Quả nhiên、 hơi…… không đến mức là vấn đề、 nhưng mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10080200.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:surprise,kukuru,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_03.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>A</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_04.mp3
+msg,1,<outline width=2 color=black>May quá。Cậu tỉnh rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_05.mp3
+msg,1,<outline width=2 color=black>Có vẻ như ở đây chỉ có mỗi tôi với cậu thôi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: 'Cậu có bị thương không？,Lựa chọn 2: 'Mọi người đang lo lắng lắm
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_06.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ừ、 tớ không sao。Cảm ơn cậu đã lo lắng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_07.mp3
+msg,1,<outline width=2 color=black>Fufu…… sao mà lạ thế</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_08.mp3
+msg,1,<outline width=2 color=black>Được ai đó lo lắng cho、 cảm giác dễ chịu đến vậy sao？ Tim tớ ấm lên、 hình như còn đập nhanh hơn nữa……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_09.mp3
+msg,1,<outline width=2 color=black>Ấy chà…… tại tớ chỉ là lính quèn ở Tổ chức、 Nowa-chan thì lúc nào cũng lạnh lùng、 dạo này không ai lo lắng cho tớ một cách chân thành như vậy nên lỡ lời rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_10.mp3
+msg,1,<outline width=2 color=black>Tự dưng kể khổ thế này chắc cậu thấy phiền nhỉ。Quên đi、 quên đi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_11.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ừm…… thật ra、 mọi chuyện xảy ra đột ngột quá、 tớ còn chưa theo kịp tình hình nữa……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_12.mp3
+msg,1,<outline width=2 color=black>Nowa-chan và Bridget không sao thì tốt rồi、 nhưng mà tại sao Bridget lại có được sức mạnh của tông đồ Avon、 rồi là</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_13.mp3
+msg,1,<outline width=2 color=black>Cả Lynn nữa、 nhỉ…… Giấc mộng Nakotic đối địch và thuộc hạ của ả。Mục đích của họ là gì、 tớ vẫn chưa hiểu rõ…… rối hết cả lên</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_14.mp3
+msg,1,<outline width=2 color=black>À、 nhưng mà、 mọi người chắc chắn đều rất mạnh、 nhất định sẽ không sao đâu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_15.mp3
+msg,1,<outline width=2 color=black>Với lại、 tớ cũng có thể tự bảo vệ mình ở mức tối thiểu、 nên tớ sẽ bảo vệ cậu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_16.mp3
+msg,1,<outline width=2 color=black>Tuy là so với những người như dòng dõi Nakotic hay tông đồ Avon thì có vẻ tớ không đáng tin lắm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_17.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 đến lúc nguy cấp、 tớ nghĩ mình có thể giúp cậu trốn thoát</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_18.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Trước mắt、 chúng ta đi tìm mọi người thôi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,2,7,7,kukuru
+endwait
+anm,move,kukuru,0_-150,0.5,0
+endwait
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:sad,kukuru,0,-150,0.5,0,,,,
+endwait
+playvoice,1,download/adv/voice/quest/main_052_16_06_19.mp3
+msg,1,<outline width=2 color=black>A…… ừm、 thì là</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:normal,kukuru,0,-150,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_20.mp3
+msg,1,<outline width=2 color=black>A、 ahaha。Xin lỗi nhé、 người tớ hơi nặng nề…… Quả nhiên、 gánh nặng của Dreamlands thật kinh khủng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:normal,kukuru,0,-150,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_21.mp3
+msg,1,<outline width=2 color=black>Tớ đã chuẩn bị trước kỹ càng nhất có thể rồi、 với lại có cậu ở gần thì gánh nặng cũng giảm bớt phần nào、 nhưng mà、 vẫn hơi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,kukuru,0_-130,0.5,0
+endwait
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_22.mp3
+msg,1,<outline width=2 color=black>Tớ nghĩ mình vẫn chịu được、 đừng lo lắng。Nào nào、 chúng ta mau đi thôi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm178.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:surprise,kukuru,0,-170,0.6,0.5,,,,
+endwait
+playvoice,1,download/adv/voice/quest/main_052_16_06_23.mp3
+msg,1,<outline width=2 color=black>Ể…… à、 ờm……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-210,0.7,0.5,,,,
+endwait
+playvoice,1,download/adv/voice/quest/main_052_16_06_24.mp3
+msg,1,<outline width=2 color=black>Ể、 ểể？ Ờ thì、 sao lại đến gần…… tớ、 tớ hơi hồi hộp đó nha…… cái、 cái đó……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-210,0.7,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_25.mp3
+msg,1,<outline width=2 color=black>A…… h、 hay là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-210,0.7,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_26.mp3
+msg,1,<outline width=2 color=black>Không、 ừm、 thì là…… tớ hiểu là việc đó có hiệu quả trong việc giảm gánh nặng của Dreamlands、 nhưng mà…… không、 không phải là tớ không thích đâu nha！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-210,0.7,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_27.mp3
+msg,1,<outline width=2 color=black>Thậm chí、 có thể nói là tớ còn thấy vui nữa…… cái đó…… như vậy có được không、 nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-210,0.7,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_28.mp3
+msg,1,<outline width=2 color=black>Tớ biết là đây chỉ là biện pháp ứng phó、 là cách xử lý cần thiết thôi！ Nhưng mà、 thì là…… au、 ư ư ư</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-210,0.7,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_29.mp3
+msg,1,<outline width=2 color=black>Tớ thấy hơi、 phức tạp…… trong tình huống này、 không có chút lãng mạn nào thì、 con gái ai mà chẳng hơi…… nghĩ vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-210,0.7,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_30.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 hay là mình được lợi nhỉ…… thành thật mà nói、 tớ cũng thấy vui nữa…… thấy vui đó……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-210,0.7,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_31.mp3
+msg,1,<outline width=2 color=black>Ư、 ư ư…… ư ư…… nư nư nư ư ư ư……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-210,0.7,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_32.mp3
+msg,1,<outline width=2 color=black>C、 cái đó……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-210,0.7,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_33.mp3
+msg,1,<outline width=2 color=black>Mong cậu、 giúp đỡ、 ạ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-210,0.7,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_34.mp3
+msg,1,<outline width=2 color=black>A、 ư…… tớ、 tớ lỡ lời rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-260,0.8,0.5,,,,
+endwait
+playvoice,1,download/adv/voice/quest/main_052_16_06_35.mp3
+msg,1,<outline width=2 color=black>A</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,kukuru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru2,0,0,0,0,,,,
+imgconf,kukuru2,kukuru1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_052_16_06_36.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ưm…… chụt</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-240,0.8,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_37.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>A…… ư…… t、 tớ、 hôn mất rồi、 nhỉ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-240,0.8,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_38.mp3
+msg,1,<outline width=2 color=black>Cái này、 rất là…… ngực tớ、 khó chịu quá…… sao mà tớ、 khó thở thế này……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+anm,scale,kukuru,0.5_0.5,0.5,0
+anm,move,kukuru,0_-130,0.5,0
+endwait
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_39.mp3
+msg,1,<outline width=2 color=black>A、 không！ Không phải vậy！ Không phải tại gánh nặng！ Nhờ có cậu mà gánh nặng đã giảm đi đáng kể rồi、 nhưng mà thay vào đó thì đủ thứ khác lại trở nên nghiêm trọng hơn……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_40.mp3
+msg,1,<outline width=2 color=black>T、 tóm lại là、 không phải là có vấn đề gì đâu！ T、 tớ không sao、 đừng lo lắng……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_41.mp3
+msg,1,<outline width=2 color=black>Ư ư…… t、 tớ không dám nhìn thẳng mặt cậu nữa……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_42.mp3
+msg,1,<outline width=2 color=black>T、 trước mắt、 chúng ta lên đường thôi、 điện hạ！ Tiến lên！ Chúng ta không thể thong thả ở những nơi thế này được！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,nowa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:sad,nowa2,0,0,0,0,,,,
+imgconf,nowa2,nowa1,0,-500,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/adv/voice/quest/main_053_16_06_01.mp3
+name,<outline width=2 color=black>ノワ・ヴァラード</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đến lúc này rồi mà không khí vẫn cứ kỳ lạ thế nhỉ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:sad,nowa,300,-130,0.5,0.5,,,,
+anm,tint,nowa,150_150_150,0.0001,0
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:surprise,kukuru,-300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_43.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ể……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:normal,nowa,300,-130,0.5,0,,,,
+anm,tint,kukuru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_053_16_06_02.mp3
+name,<outline width=2 color=black>ノワ・ヴァラード</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Xem ra cô không sao</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105204/adv/atlas/stand_a,body:normal,kukuru,-300,-130,0.5,0,,,,
+anm,tint,nowa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_052_16_06_44.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nowa-chan！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105300/adv/atlas/stand_a,body:anger,nowa,300,-130,0.5,0,,,,
+anm,tint,kukuru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+playvoice,1,download/adv/voice/quest/main_053_16_06_03.mp3
+name,<outline width=2 color=black>ノワ・ヴァラード</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đã bảo là đừng có gọi tôi bằng cái kiểu đó mà</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,149 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010600.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:anger,sasya,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_01.mp3
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>……Này。Sao tự dưng lại ngồi cùng bàn thế？ Chỗ khác còn bao nhiêu ghế cơ mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:anger,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_02.mp3
+msg,1,<outline width=2 color=black>Tôi không muốn ăn cơm cùng với anh đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Bị ghét rồi sao……？,Hay là mình giới thiệu lại từ đầu nhỉ？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:normal,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_03.mp3
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ồ、 hiểu chuyện đấy chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:normal,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_04.mp3
+msg,1,<outline width=2 color=black>Không biết là câu nói ở đâu nhỉ…… Kiểu như 'ghét cả dãi bãi trầu' ấy mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:normal,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_05.mp3
+msg,1,<outline width=2 color=black>Tôi ghét Tổ chức Lovecraft。Ghét cả Người Truy Tìm-Diver thuộc tổ chức、 và ghét cả anh、 một nhân vật quan trọng của tổ chức。Chỉ đơn giản vậy thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:sad,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_06.mp3
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Bị từ chối ngay từ đầu thế mà、 cái tinh thần gì mà vững vàng quá vậy？ Phải kiểu như、 nao núng một chút、 hoặc chùn bước chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:normal,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_07.mp3
+msg,1,<outline width=2 color=black>Thôi thì…… nếu không như thế、 thì có lẽ cũng chẳng thể sống nổi ở R'lyeh、 nơi toàn những kẻ lập dị、 quái gở này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:normal,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_08.mp3
+msg,1,<outline width=2 color=black>Cái mặt anh có vẻ muốn nói gì đó là sao？ Muốn biện hộ rằng mọi người đều bình thường à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:normal,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_09.mp3
+msg,1,<outline width=2 color=black>À thì、 tôi không nói tất cả mọi người、 nhưng những kẻ dám lao đầu vào nơi điên rồ như Dreamlands、 tận đáy biển này、 thì làm sao có thể là người bình thường được chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:normal,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_10.mp3
+msg,1,<outline width=2 color=black>Anh thử nghĩ khách quan một chút xem？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:sad,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_11.mp3
+name,<outline width=2 color=black>Sasha O'Donnell</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Mà nói đi thì cũng phải nói lại…… thật là。Không ngờ lại phải hành động cùng với những kẻ như thế này…… Chắc tôi cũng đến lúc lẩm cẩm rồi hay sao ấy nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:normal,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_12.mp3
+msg,1,<outline width=2 color=black>Nhưng mà…… cũng không hẳn là toàn chuyện xấu đâu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:normal,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_13.mp3
+msg,1,<outline width=2 color=black>Dù cảm thấy phức tạp thật đấy…… nhưng dù sao thì、 đây cũng là nơi Marina đã từng sống mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:sad,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_14.mp3
+msg,1,<outline width=2 color=black>Con bé có vẻ hơi nhút nhát、 hay nói đúng hơn là…… không biết có hòa hợp được với mọi người xung quanh không nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:sad,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_15.mp3
+msg,1,<outline width=2 color=black>Ở đây、 con bé đã tích lũy những kỷ niệm gì、 và cảm xúc ra sao――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:sad,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_16.mp3
+msg,1,<outline width=2 color=black>Ưm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:anger,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_17.mp3
+msg,1,<outline width=2 color=black>――Tôi ăn xong rồi。Tôi đi đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:anger,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_18.mp3
+msg,1,<outline width=2 color=black>Gì chứ。Tôi để lại cũng được chứ sao。Hay là ở R'lyeh có cái luật gì đó kiểu như 'không được bỏ thừa cơm' à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:normal,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_19.mp3
+msg,1,<outline width=2 color=black>Mà nói thật thì、 cơm ở R'lyeh ngon một cách vô lý ấy。Tôi lại thuộc dạng dễ tăng cân nữa chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104800/adv/atlas/stand_a,body:shy,sasya,0,-110,0.5,0,,,,
+playvoice,1,download/character/104803/adv/sound/fav104803_01_20.mp3
+msg,1,<outline width=2 color=black>――Này、 anh、 anh đang bắt tôi nói cái gì thế！ Không có gì hết！ Đồ ngốc này！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

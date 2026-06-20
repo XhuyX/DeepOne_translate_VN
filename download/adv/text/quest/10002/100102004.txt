@@ -1,0 +1,634 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10030200.jpg,0
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm006.mp3,0.5,,,
+endwait
+sprite,download/monster/20020105/adv/image/20020105.png,angel,0,-250,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――――――！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait,,,,,,,,,,,
+spriteoff,angel,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,65,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>C、 cái…！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_04_01.mp3
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/100901/adv/atlas/stand_b,body:anger,ily,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cô còn định dây dưa với lũ tạp nham đó đến bao giờ？ Phiền phức quá、 tránh ra。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_01.mp3
+clickwait,,,,,,,,,,
+spriteoff,ily,0
+name,
+msg,0,
+endwait
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,foka1,0,0,1280,300,0.5,,,,
+sprite,download/character/100902/adv/image/dragon.png,foka,0,0,0,0
+imgconf,foka,foka1,0,-250,,,0,0.4,0.4,0
+shake,0.2,4,10,10
+flash,255,255,255,4,0.2,0
+playse,/download/sound/se/se_051.mp3
+endwait
+name,<size=27><outline width=2 color=black>フォカロル</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>―――――――――――――ッ！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,foka1,0
+spriteoff,bg1,0
+endwait
+sprite,download/monster/20020105/adv/image/20020105.png,angel,-100,-250,1.35,0.5
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,65,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hả…！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_04_02.mp3
+clickwait,,,,,,,,,,,
+endwait
+spine,download/adv/spine/Slash2_Blue,em2,default,animation,0,-400,0,1,1.5,0
+anm,move,asaka,365_-120,0.3,1
+playse,/download/sound/se/se_037.mp3
+shake,0.2,2,5,5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――……、…………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,angel,0.5
+playse,/download/sound/se/se_025.mp3
+endwait
+stopbgm,0.5
+spriteatlas,download/character/100901/adv/atlas/stand_b,body:normal,ily,-300,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Xem ra mọi chuyện chỉ đến thế này thôi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_02.mp3
+clickwait,,,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,365,-120,0.5,0,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khoan đã…！ Cô định tấn công cả tôi sao！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_04_03.mp3
+clickwait,,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi đã lên tiếng cảnh báo rồi còn gì。Với lại、 cô đã tránh được rồi、 có sao đâu。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_03.mp3
+clickwait,,,,,,,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cô…！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_04_04.mp3
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:anger,dana,300,-120,0.5,0.5,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Đã hợp lưu được rồi、 cô không thể hợp tác với chúng tôi một chút sao？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_2_04_01.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cô cũng đang gặp khó khăn vì không có cách nào thoát khỏi Dreamlands。Trong khi đó、 chúng tôi có cách để trở về R'lyeh。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_2_04_02.mp3
+clickwait,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Nói cách khác、 cô muốn tôi quy phục để đổi lấy sự an toàn？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_04.mp3
+clickwait,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi không nói vậy。Nhưng chúng tôi cũng không dư dả thời gian。Tôi chỉ nói rằng cần có một giới hạn tối thiểu để cùng nhau hành động。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_2_04_03.mp3
+clickwait,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Vậy thì、 ta sẽ cho các ngươi mượn sức mạnh của ta và Focalo。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_05.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0
+name,
+msg,0,
+endwait
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,foka1,0,0,1280,300,0.5,,,,
+sprite,download/character/100902/adv/image/dragon.png,foka,0,0,0,0
+imgconf,foka,foka1,0,-250,,,0,0.4,0.4,0
+playse,/download/sound/se/se_051.mp3
+endwait
+name,<size=27><outline width=2 color=black>フォカロル</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>………………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,foka1,0
+spriteoff,bg1,0
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:sad,catia,-300,-100,0.5,0.5,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_b,body:anger,ily,300,-120,0.5,0.5,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng đổi lại、 hãy vứt bỏ Katia。Ta không có ý định hợp tác với những kẻ của Thánh Lễ Giáo。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_06.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Với lại、 đây cũng là một lời cảnh báo。Những kẻ của Thánh Lễ Giáo đều không ra gì。Nếu ở cùng bọn chúng、 chắc chắn cô sẽ hối hận。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_07.mp3
+clickwait,,,,,,,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ir、 Irina…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_04_01.mp3
+clickwait,,,,,,,,,,
+spriteoff,catia,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,-235,-120,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không đời nào…！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_04_05.mp3
+clickwait,,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì、 cuộc nói chuyện kết thúc tại đây。Ta sẽ tự tìm cách thoát thân。…Thà vậy còn hơn là phải hành động cùng Katia。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_08.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù thân xác này có bị áp lực của Dreamlands nghiền nát đi chăng nữa… Ta không muốn sống bằng cách làm trái ý mình。Như vậy、 sống còn ý nghĩa gì。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_09.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0.5,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tại sao cô lại…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_2_04_04.mp3
+clickwait,,,,,,,,,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Cô…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_2_04_01.mp3
+clickwait,,,,,,,,,,
+spriteoff,dana,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,365,-120,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>N… không được đâu Frau！ Gần cô ta nguy hiểm lắm…！ Này、 cô có nghe không đấy！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_04_06.mp3
+clickwait,,,,,,,,,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tại sao cô lại làm cho trái tim mình trở nên lạnh lẽo đến vậy？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_2_04_02.mp3
+clickwait,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/100901/adv/atlas/stand_b,body:normal,ily,300,-120,0.5,0.5,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Ý cô là sao？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_10.mp3
+clickwait,,,,,,,,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cô thực ra rất ấm áp、 rất dịu dàng—</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_2_04_03.mp3
+clickwait,,,,,,,,,,
+stopbgm,0.5
+spriteoff,all,0.5
+msg,0,
+name,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+mask,jya1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:anger,jya,0,0,0,0,,,,
+imgconf,jya,jya1,0,-655,,,0,1.5,1.5,0
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Kẻ phản bội bẩn thỉu kia、 không được phép làm xáo trộn tâm trí của Katia-sama。Hãy dùng cái chết để chuộc lại tội lỗi của ngươi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_010_2_04_01.mp3
+clickwait,,,,,,,,,,,
+spriteoff,jya1,0
+endwait
+bg,download/bg/bg_10030200.jpg,0.7
+endwait,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_b,body:surprise,ily,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Focalo！ Chặn lại！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_11.mp3
+clickwait,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm007.mp3,0.5,,,
+endwait
+spriteoff,ily,0
+name,
+msg,0,
+endwait
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,foka1,0,0,1280,300,0.5,,,,
+sprite,download/character/100902/adv/image/dragon.png,foka,0,0,0,0
+imgconf,foka,foka1,0,-250,,,0,0.4,0.4,0
+shake,0.2,4,10,10
+flash,255,255,255,4,0.2,0
+playse,/download/sound/se/se_051.mp3
+endwait
+name,<size=27><outline width=2 color=black>フォカロル</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>―――――――――――――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,foka1,0
+spriteoff,bg1,0
+endwait
+spine,download/adv/spine/Slash1_Blue,em2,default,animation,0,0,0,1,0.8,0
+shake,0.2,2,10,10
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+endwait
+spineoff,em2,1
+endwait
+spriteatlas,download/character/101001/adv/atlas/stand_b,body:anger,jya,0,-120,0.5,1,,,,
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Báu vật bí mật cướp được từ Thánh Lễ Giáo… Dám vênh váo sử dụng nó trước mặt ta。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_010_2_04_02.mp3
+clickwait,,,,,,,,,,
+spriteoff,jya,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,365,-120,0.5,0.5,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:surprise,catia,-300,-100,0.5,0.5,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Jamila……！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_04_02.mp3
+clickwait,,,,,,,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khoan đã、 người kia cũng là người quen của Katia sao…？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_04_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vừa xuất hiện đã lao vào tấn công… Người quen của cô là kiểu gì vậy！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_04_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:sad,catia,-300,-100,0.5,0,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>T、 thưa… Jamila、 xin hãy dừng lại！ Bây giờ mà đánh nhau với Irina thì…！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_04_03.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/101001/adv/atlas/stand_b,body:anger,jya,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_b,body:anger,ily,-300,-120,0.5,0.5,,,,
+anm,tint,jya,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Xin thứ lỗi、 Katia-sama。Ả đàn bà này là một trọng tội nhân、 đã làm tổn thương biết bao tín đồ của Thánh Lễ Giáo… Ngay cả bây giờ、 ả vẫn chà đạp tâm hồn của Katia-sama。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_010_2_04_03.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi không thể nào tha thứ cho chuyện đó。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_010_2_04_04.mp3
+clickwait,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,jya,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Jamila… À、 ra là vậy。Ngươi là Jamila Jibril。Nghe nói ngươi đang hầu hạ Katia hiện tại。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_12.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Và… là Kiếm Vũ Nữ。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_13.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta ghét những kẻ ngu dốt như Katia、 nhưng ngươi còn tệ hơn。Ngươi gieo rắc bất hạnh bằng sự cuồng tín… Kẻ xấu xa đáng ghét nhất。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_14.mp3
+clickwait,,,,,,,,,,
+anm,tint,jya,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật trùng hợp。Tôi cũng coi cô là một kẻ đáng ghét。Có thể tự tay kết liễu cô、 chắc chắn đây cũng là sự dẫn dắt của Nguyên thư Pnakotic。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_010_2_04_05.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_b,body:unique,jya,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>—Hãy chết đi。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_010_2_04_06.mp3
+clickwait,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,jya,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngươi mới là người chết。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_15.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0
+name,
+msg,0,
+endwait
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,foka1,0,0,1280,300,0.5,,,,
+sprite,download/character/100902/adv/image/dragon.png,foka,0,0,0,0
+imgconf,foka,foka1,0,-250,,,0,0.4,0.4,0
+shake,0.2,4,10,10
+flash,255,255,255,4,0.2,0
+playse,/download/sound/se/se_051.mp3
+endwait
+name,<size=27><outline width=2 color=black>フォカロル</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――――――――――――――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,foka1,0
+spriteoff,bg1,0
+endwait
+spine,download/adv/spine/Slash1_Blue,em2,default,animation,0,0,0,1,0.8,0
+shake,0.2,4,10,10
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.5
+endwait
+spineoff,em2
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-120,0.5,0.5,,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>A、 ư…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_2_04_04.mp3
+clickwait,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Frau、 nguy hiểm…！ Hãy lùi lại cùng với anh ấy！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_2_04_05.mp3
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,-235,-120,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ôi trời…！ Rốt cuộc là gì đây、 tôi còn muốn đuổi theo Norn、 mà hết chuyện này đến chuyện khác phiền phức…！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_04_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mấy người、 làm ơn…！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_04_10.mp3
+clickwait,,,,,,,,,,,
+shake,0.2,4,10,10
+playse,/download/sound/se/se_011.mp3
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,-235,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hả？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_04_11.mp3
+clickwait,,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sức mạnh từ trận chiến đã làm nứt mặt đất… Lùi lại đi！ Cứ thế này thì—！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_2_04_06.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+shake,0.2,3,20,20
+playse,/download/sound/se/se_011.mp3
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,365,-120,0.5,0.5,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_b,body:sad,ily,-300,-120,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ch、 chỉ là nói đùa thôi mà…！ A、 áaaaaa！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_04_12.mp3
+clickwait,,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Kh…！？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_04_16.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_2_04_05.mp3
+clickwait,,,,,,,,,,
+select,選択肢1 Frauの手を掴む,選択肢2 Asakaの手を掴む
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,0,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>A…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_2_04_06.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>…Ừm。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_2_04_07.mp3
+clickwait,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,365,-120,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ch、 khoan đã、 tại sao cô lại nhảy vào… Ôi trời！ Frau cũng phải… Chuẩn bị đối phó với chấn động đi！</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_04_13.mp3
+clickwait,,,,,,,,,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ư… ừm…</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_2_04_08.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+stopbgm,0.5
+spriteoff,all,0
+msg,0,
+name,
+endwait
+shake,0.2,5,30,30
+flash,255,255,255,5,0.2,0
+playse,/download/sound/se/se_011.mp3
+playse,/download/sound/se/se_011.mp3
+wait,2
+endwait
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>………………。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+bg,download/bg/bg_10030100.jpg,2,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm024.mp3,0.5,,,
+endwait
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,vi1,0,0,1280,300,0.5,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,0,0,0,0,,,,
+imgconf,vi,vi1,0,-970,,,0,1.5,1.5,0
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừm… Có vẻ lũ kia ở đây thật… Thật tình、 lũ Người Truy Tìm lúc nào cũng gây rắc rối。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_2_04_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ tìm kiếm thứ như Pnakotic làm gì、 con người làm sao mà kham nổi。Tại sao lại không hiểu đạo lý đó chứ… Thật ngu ngốc。Này、 cô thấy vậy không？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_2_04_02.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,beat1,0,0,1280,300,0.5,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,beat,0,0,0,0,,,,
+imgconf,beat,beat1,0,-900,,,0,-1.5,1.5,0
+endwait
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_2_04_01.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+mask,bg1,0,110,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,vi1,0,110,1280,200,0,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,0,0,0,0,,,,
+imgconf,vi,vi1,0,-1000,,,0,1.5,1.5,0
+mask,bg3,0,-110,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,bg2,0,0,0,0
+imgconf,bg2,bg3,0,0,,,0,1,1,0
+mask,beat1,0,-110,1280,200,0,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,beat,0,0,0,0,,,,
+imgconf,beat,beat1,0,-930,,,0,-1.5,1.5,0
+endwait
+anm,tint,vi1,255_255_255,0.0001,0
+anm,tint,beat1,150_150_150,0.0001,0
+endwait
+msg,1,<size=30><outline width=2 color=black>Ừm、 có chuyện gì sao？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_2_04_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,beat,0,0,0,0,,,,
+imgconf,beat,beat1,0,-930,,,0,-1.5,1.5,0
+anm,tint,beat1,255_255_255,0.0001,0
+anm,tint,vi1,150_150_150,0.0001,0
+msg,1,<size=30><outline width=2 color=black>À… không、 tôi chỉ đang suy nghĩ một chút thôi。À、 về lý do con người tìm kiếm Pnakotic、 phải không？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_2_04_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Vì trái tim con người rất mong manh。Chắc chắn sâu thẳm trong lòng họ luôn khao khát một sự tồn tại mạnh mẽ、 không gì có thể lay chuyển。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_2_04_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Họ muốn bám víu vào những thứ như vậy… Họ tin rằng làm vậy sẽ bảo vệ được trái tim mình。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_2_04_04.mp3
+clickwait,,,,,,,,,,,
+anm,tint,vi1,255_255_255,0.0001,0
+anm,tint,beat1,150_150_150,0.0001,0
+msg,1,<size=30><outline width=2 color=black>Hừm… Ta không hiểu nổi cảm xúc đó。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_2_04_04.mp3
+clickwait,,,,,,,,,,,
+anm,tint,beat1,255_255_255,0.0001,0
+anm,tint,vi1,150_150_150,0.0001,0
+msg,1,<size=30><outline width=2 color=black>Tôi nghĩ không nên so sánh con người với chúng ta đâu。Dù thế nào đi nữa、 về cơ bản、 chúng ta là những thực thể khác biệt。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_2_04_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À… từ giờ、 chúng ta đi riêng được không ạ？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_2_04_06.mp3
+clickwait,,,,,,,,,,,
+anm,tint,vi1,255_255_255,0.0001,0
+anm,tint,beat1,150_150_150,0.0001,0
+msg,1,<size=30><outline width=2 color=black>Hử？ À、 chia nhau ra có lẽ sẽ nhanh hơn。Ta không phiền đâu。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_2_04_05.mp3
+clickwait,,,,,,,,,,,
+anm,tint,beat1,255_255_255,0.0001,0
+anm,tint,vi1,150_150_150,0.0001,0
+msg,1,<size=30><outline width=2 color=black>Cảm ơn… Vậy thì、 tôi sẽ vào từ phía sau。</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_2_04_07.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0
+mask,vi1,0,0,1280,300,0.5,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,0,0,0,0,,,,
+imgconf,vi,vi1,0,-970,,,0,1.5,1.5,0
+endwait
+msg,1,<size=30><outline width=2 color=black>Ừm。Vậy、 gặp lại sau… ừm？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_2_04_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Lạ thật… Tại sao con bé đó lại biết rõ lối vào của tòa nhà này nhỉ？</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_2_04_07.mp3
+clickwait,,,,,,,,,,,
+endwait
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

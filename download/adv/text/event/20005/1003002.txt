@@ -1,0 +1,471 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11000300.jpg,0,255
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm006.mp3,0,
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20030101/adv/image/20030101.png,enemy1,0,-100,1.35,0.5,,,,
+playse,/download/sound/se/se_022.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――――――――――――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playse,/download/sound/se/se_053.mp3
+flash,255,255,255,4,0.2,0.2
+anm,tint,enemy1,10_10_10,1,0
+endwait
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:anger,lydia,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:normal,miruva,300,-120,0.5,0.5,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chậm chạp đến mức ngáp ngắn ngáp dài…… Câu nói đó、 nghe hơi sáo rỗng nhỉ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:normal,miruva,300,-120,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vậy thì、 nói là chậm chạp đến mức em ăn hết cả đồ ăn vặt thì sao ạ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lydia,-300,-120,0.5,0,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Gì thế、 Milva。Nếu em thấy thèm ăn vặt、 chị cho em chút sô cô la nhé？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:smile,miruva,300,-120,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vâng ạ！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,lydia,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:sad,dana,-300,-180,0.5,0.5,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Em biết là hai người rất tự tin rồi、 nhưng làm ơn、 những màn đối đáp đó ít nhất hãy để sau khi hạ gục kẻ địch đi ạ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_b,body:normal,lydia,-300,-120,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thật tình、 em đúng là người chẳng hiểu gì về mấy trò đùa cả。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_b,body:normal,miruva,300,-120,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sô cô la sẽ bị giữ lại cho đến khi hạ gục kẻ địch sao？ Vậy thì…… em phải dọn dẹp nhanh thôi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+sprite,download/monster/20030101/adv/image/20030101.png,enemy1,0,-100,1.35,0.5,,,,
+playse,/download/sound/se/se_023
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,-200,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+wait,1
+endwait,,,,,,,,,,,
+anm,tint,enemy1,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――、……、…………</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+endwait
+wait,0.5
+endwait
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:normal,lydia,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:normal,miruva,300,-120,0.5,0.5,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Giờ thì em không còn gì để phàn nàn nữa chứ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:normal,miruva,300,-120,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chị ơi、 em muốn ăn sô cô la nhanh lên。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:smile,lydia,-300,-120,0.5,0,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Được thôi。Nào、 há miệng ra。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:smile,miruva,300,-120,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Aaa…… ưm、 khà khà…… ngon quá。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,lydia,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,-300,-180,0.5,0.5,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thật sự thì、 nếu chỉ xét về thực lực thì em không có gì để phàn nàn đâu ạ、 nhưng mà……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:surprise,miruva,300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sao cô lại làm vẻ mặt ủ rũ thế kia？ Hay là、 cô cũng muốn ăn sô cô la sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không、 tôi thì――</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,500,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sô cô la……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:surprise,miruva,-300,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ôi、 cô cũng muốn sao？ Khà khà、 thôi được rồi。Chị ơi、 mình còn sô cô la không ạ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,miruva,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:smile,lydia,-300,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chị chuẩn bị cho Milva thôi、 nhưng mà…… thôi được。Em hãy vừa cảm ơn lòng tốt của Milva、 vừa thưởng thức thật kỹ nhé。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vâng、 cảm ơn Lydia、 Milva。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:sad,maruta,500,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.00001,0
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,jump,maruta,500_-120_80_2,0.5,0
+endwait
+spriteoff,lydia,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:surprise,miruva,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không có gì đâu…… Nào、 aaaa。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Aaaa。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,jump,maruta,500_-120_80_2,0.5,0
+endwait
+anm,tint,miruva,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ngon không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ưm…… ngọt…… ngon。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,jump,maruta,500_-120_80_2,0.5,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:smile,miruva,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tốt quá rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,-300,-180,0.5,0.5,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………À、 em xin lỗi vì đã làm phiền không khí vui vẻ của mọi người、 nhưng mà、 chúng ta có nên phản ứng lại không ạ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:sad,maruta,300,-120,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:smile,miruva,-300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Em xin lỗi。Tại trái tim của đứa bé này、 buồn vì không được ăn kẹo、 lại ngọt ngào quá、 nên em lỡ trêu chọc một chút。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:normal,miruva,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Cô cũng muốn ăn sô cô la sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:surprise,maruta,300,-120,0.5,0,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+anm,tint,maruta,255_255_255,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……！ Vâng……！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:smile,miruva,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng mà、 không cho đâu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+shake,0.2,3,15,15,maruta
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:sad,maruta,300,-120,0.5,0,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,maruta,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Trêu chọc là không tốt。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,miruva,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À…… Cả cảm xúc buồn bã của Frau-chan cũng thật ngọt ngào。Có thể có những cảm xúc như vậy vì người khác、 em đúng là một đứa trẻ ngoan。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Được nếm hai vị ngọt đáng yêu như thế này、 em thật hạnh phúc。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Haizz。Thôi đành vậy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:normal,dana,0,-180,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Đề phòng trường hợp như thế này、 tôi đã mang theo mực khô――</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+endwait
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:anger,maruta,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:anger,frau,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cái đó không phải。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Em nghĩ không phải loại đó đâu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,maruta,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:unique,miruva,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không cần đâu、 nó có mùi lạ lắm、 đừng lấy ra。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:anger,lydia,-300,-120,0.5,0.5,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Làm ơn đừng để Milva cảm thấy khó chịu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Mọi người không thấy quá đáng sao！？ Mực khô ngon lắm mà……！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,Nhưng bây giờ thì không phải lúc。,Sao lại mang thứ đó……
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Cả cô nữa sao……！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Sô cô la thì mọi người đều chấp nhận bình thường、 vậy tại sao mực khô lại không được chứ……！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Không được thấu hiểu、 thật là một điều đáng buồn biết bao……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:sad,miruva,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:sad,lydia,-300,-120,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cảm xúc buồn bã đáng lẽ phải ngọt ngào và ngon lành、 vậy mà…… em lại cảm thấy có một vị chát kỳ lạ……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+anm,tint,miruva,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Em không sao chứ、 Milva…… Nào、 ăn thêm một viên sô cô la nữa để tráng miệng đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,miruva,0
+endwait
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-120,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……chằm chằm。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+anm,tint,lydia,255_255_255,0.0001,0
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hừm。。。Cái ánh mắt thèm thuồng đó thật phiền phức không chịu nổi。Thôi được rồi。。。Này、 em muốn cái này đúng không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:smile,maruta,300,-120,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ưm。。。Cảm ơn。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,maruta,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,lydia,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hừm。。。Em cũng vậy、 đây là cái cuối cùng đấy。Sẽ không còn phần cho Milva đâu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>。。。！ Cảm ơn、 Lydia。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait
+spriteatlas,download/character/101302/adv/atlas/stand_a,body:smile,miruva,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ngon quá。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,miruva,0
+endwait
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:smile,maruta,300,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ưm。。。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,maruta,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ngọt。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:sad,lydia,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tại sao tôi lại đến tận Dreamlands này mà lại phải đi phát bánh kẹo thế này chứ。。。？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,lydia,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,-300,-180,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Mà nói thật thì。。。Tôi có thể hỏi một chút được không？ Cô cứ tự nhiên hòa vào nhóm、 nhưng cô là ai vậy？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:surprise,maruta,300,-120,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>--Tôi ư？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Martha Tarasque。。。Cứ gọi tôi là Martha。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+anm,tint,dana,255_255_255,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Martha-san à。。。Với bộ dạng đó、 chắc cô là người của R'lyeh bị kẹt vào Dreamlands、 nhưng cô đã một mình an toàn đến tận đây thật giỏi nhỉ。。。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Dù có gánh nặng của Dreamlands、 và cả những hư ảnh nữa chứ。。。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,maruta,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không sao đâu。。。Mấy thứ này、 chẳng đáng gì。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vì tôi mạnh mà。。。Có lẽ là mạnh hơn bất cứ ai ở đây。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:anger,lydia,-300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>。。。Ồ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

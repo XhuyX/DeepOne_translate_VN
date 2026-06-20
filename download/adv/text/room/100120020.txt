@@ -1,0 +1,430 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Ơ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,tabasa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:smile,tabasa2,0,0,0,0,,,,
+imgconf,tabasa2,tabasa1,0,-220,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:normal,patrisia,1200,-200,0.5,0,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:normal,quinecy,1200,-120,0.5,0,,,,
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,-350,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vừa rồi…… mình nhìn nhầm chăng……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,patrisia,0_-200,1.4,0
+anm,move,quinecy,350_-120,1.4,0
+endwait
+
+
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:normal,quinecy,350,-120,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 Rise-san。Chào bạn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trông bạn có vẻ đang suy tư、 có chuyện gì sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,-350,-100,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 ừm。Cũng không có gì to tát đâu…… nhưng vừa nãy、 mình thấy Tabasa-chan mang một cái quan tài đi về phía phòng của em ấy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:normal,quinecy,350,-120,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có gì sao？ Quan tài đó là Ma đạo thư mà anh trai Tabasa-san đang ở trong đó mà、 phải không？ Việc em ấy mang theo nó thì có gì lạ đâu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,-350,-100,0.5,0,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vấn đề là…… trông nó không giống Ma đạo thư của Tabasa-chan cho lắm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,quinecy,350,-120,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:normal,patrisia,0,-200,0.5,0,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tabasa-san lại có một chiếc quan tài mới、 không phải Ma đạo thư sao……？ Sao lại thế được……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,-350,-100,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 mình cũng nhìn từ xa nên không chắc lắm…… ừm…… có lẽ vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,quinecy,350,-120,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Hay là、 chỉ là một món đồ trang trí thôi chăng？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,-350,-100,0.5,0,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Quan tài á？ Có chuyện đó sao……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:sad,patrisia,0,-200,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà nói đúng hơn、 nếu đó là một chiếc quan tài bình thường、 thì ngay từ đầu sao lại có thứ như vậy ở R'lyeh chứ…… Mình thấy cái đó đáng lo hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:smile,rise,-350,-100,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ha ha、 Patricia-chan nói gì lạ vậy。Ở R'lyeh、 thứ gì không có trong kho mới là lạ đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:unique,patrisia,0,-200,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Đúng là vậy thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:normal,quinecy,350,-120,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 nghe mọi người nói vậy、 em cũng không khỏi tò mò……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,-350,-100,0.5,0,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Được rồi。Nếu vậy thì chúng ta đến phòng Tabasa-chan đi。Hỏi trực tiếp em ấy là nhanh nhất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:surprise,quinecy,350,-120,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:surprise,patrisia,400,-200,0.5,0.5,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:surprise,quinecy,600,-120,0.5,0.5,,,,
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+wait,0.1
+anm,move,rise,150_-100,0.3,0
+endwait
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:smile,rise,150,-100,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy nên、 chúng ta cùng đến phòng Tabasa-chan nào！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:surprise,patrisia,400,-200,0.5,0,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:surprise,quinecy,600,-120,0.5,0,,,,
+anm,move,rise,0_-100,0.5,0
+wait,0.1
+anm,move,patrisia,200_-200,0.5,0
+anm,move,quinecy,400_-120,0.5,0
+endwait
+
+
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:surprise,patrisia,200,-200,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>R-Rise-san！ Em biết rồi mà、 đừng kéo tay em nữa…… Em thấy lo lắng lắm đó……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:anger,rise,0,-100,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ai là đồ berserker ngốc nghếch chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,quinecy,400,-120,0.5,0,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có ai nói vậy đâu mà……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+roombg,1020,1
+endwait
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rồi sao、 tự dưng kéo cả đám đến đây làm gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:normal,rise,-300,-100,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đó là―― Ối、 đúng là có thật！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rise,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:surprise,quinecy,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Đúng là có quan tài thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:normal,tabasa,300,-120,0.5,0,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 mấy người nói cái này hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:smile,tabasa,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vừa nãy em đến kho thì tình cờ tìm thấy nó。Anh trai em có vẻ ưng ý nên em mang về đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,quinecy,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:normal,patrisia,-300,-200,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Anh trai em ấy ư？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:smile,tabasa,300,-120,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Anh ấy khen thiết kế này vừa tinh tế、 lại vừa có sự hiện diện mạnh mẽ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:smile,tabasa,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em cứ nghĩ kho của R'lyeh toàn chứa đồ kỳ quái thôi、 vậy mà cũng có thứ lọt vào mắt xanh của anh trai em đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,patrisia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:normal,quinecy,-300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…… ra、 vậy…… anh trai em ấy、 lại thích quan tài……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:sad,rise,300,-100,0.5,0.5,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Hinowatari Rise</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ma đạo thư của Tabasa-chan có hình quan tài là do ảnh hưởng từ anh trai em ấy sao……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,quinecy,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:sad,patrisia,-300,-200,0.5,0.5,,,,
+anm,tint,rise,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>V-Vậy sao…… Ừm、 có lẽ nào nó giống như việc thích những thiết kế có hình thập giá hay đầu lâu không nhỉ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rise,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:anger,tabasa,300,-120,0.5,0.5,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gì chứ、 có ý kiến gì hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:surprise,patrisia,-300,-200,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>K-Không、 không phải vậy đâu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:unique,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chỉ là…… nếu cứ đắm chìm vào những thứ như vậy、 sau này có thể sẽ hối hận hoặc dằn vặt nên…… em hơi lo lắng một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:sad,patrisia,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ưm…… Cứ nói chuyện thế này、 những chuyện ngày xưa lại hiện về trong tâm trí em……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102001/adv/atlas/stand_a,body:sad,tabasa,300,-120,0.5,0,,,,
+anm,tint,patrisia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Này Quincy、 tự dưng con nhỏ này bị làm sao vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,patrisia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,quinecy,-300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 ơ……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

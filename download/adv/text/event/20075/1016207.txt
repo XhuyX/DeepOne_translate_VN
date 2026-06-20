@@ -1,0 +1,511 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Hơi sợ khi phải nói chuyện với ai đó。Luôn bất an khi tự mình làm gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Thực ra、 muốn hòa đồng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nhưng、 cứ nghĩ đến việc lỡ nói điều gì kỳ quặc rồi bị ghét bỏ、 nên chẳng thể cất lời。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Muốn thử làm bánh、 cũng muốn nấu được những món ngon。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nhưng、 cũng không biết phải làm thế nào、 chẳng thể bước tiếp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Vì vậy、 khi được mấy anh cho biết tương lai mình có thể hòa đồng với mọi người、 em vui lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Vì đó là con người mà em muốn trở thành。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nhưng……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tại sao mình lại có thể trở thành con người như vậy？ Tại sao mình lại có thể thay đổi từ con người hiện tại？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Mỗi khi nghĩ đến điều đó、 có gì đó cứ lởn vởn trong đầu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,alt1,0,0,1280,250,0.5,,,,
+spriteatlas,download/monster/28050101/adv/atlas/stand_a,body:normal,alt2,0,0,0,0,,,,
+imgconf,alt2,alt1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Sợ quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Chắc chắn、 là điều không nên nhớ lại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Em cảm thấy mơ hồ như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11410300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103806/adv/atlas/stand_a,body:normal,nanaba,300,-100,0.5,0.5,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+spriteatlas,download/character/103207/adv/atlas/stand_a,body:sad,alma,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Asaka và Louise vẫn chưa có dấu hiệu trở lại… Chịu nổi không đây？ Không đời nào tôi phải trông trẻ suốt đâu đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103806/adv/atlas/stand_a,body:normal,nanaba,300,-100,0.5,0,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì chỉ hai người họ chịu ảnh hưởng của khu vực này、 nên không phải là vô cớ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103806/adv/atlas/stand_a,body:normal,nanaba,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chắc chắn có lý do hay nguyên nhân nào đó chỉ ảnh hưởng đến hai người họ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,alma,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0.5,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vấn đề là、 nguyên nhân đó là gì đây… Frau、 cô không biết gì sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,nanaba,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103453/adv/atlas/stand_a,body:normal,ruiez,300,-20,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+spriteatlas,download/character/100152/adv/atlas/stand_a,body:normal,asaka,-300,-20,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103453/adv/atlas/stand_a,body:normal,ruiez,300,-20,0.5,0,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gì cơ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103207/adv/atlas/stand_a,body:normal,alma,-300,-120,0.5,0.5,,,,
+anm,tint,alma,150_150_150,0.0001,0
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103207/adv/atlas/stand_a,body:normal,alma,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>… À、 ra là vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,300,-100,0.5,0.5,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Alma？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103207/adv/atlas/stand_a,body:normal,alma,-300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nanaba、 chúng ta có chuyện cần nói。Anh cứ trông chừng hai đứa này đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103806/adv/atlas/stand_a,body:normal,nanaba,300,-100,0.5,0.5,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rõ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103207/adv/atlas/stand_a,body:normal,alma,-300,-120,0.5,0,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nào、 đi thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,nanaba,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11210300.jpg,0,255
+endwait
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,300,-100,0.5,0.5,,,,
+anm,tint,elica,150_150_150,0.0001,0
+spriteatlas,download/character/103207/adv/atlas/stand_a,body:normal,alma,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ở đây thì bọn chúng không nghe thấy đâu。Nói lẹ lên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,300,-100,0.5,0,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Frau… Chuyện này không muốn cho Louise và Asaka nghe sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 thì… Asaka、 giữa con người của cô bé ngày xưa và bây giờ、 có gì đó không khớp nhau…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>… Ý cô là sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103207/adv/atlas/stand_a,body:normal,alma,-300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngày xưa và bây giờ… Tức là、 trước và sau khi khởi động Bản thảo Pnakotic、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm… Asaka、 vào lúc đó、 đã từng… mất hình dạng vì sức mạnh của Bản thảo Pnakotic。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:sad,elica,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù không nghe rõ、 nhưng linh hồn của Asaka đã tan vỡ vì không chịu nổi sức mạnh、 và được Bản thảo Pnakotic tái tạo lại、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103207/adv/atlas/stand_a,body:sad,alma,-300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ra là vậy… Dù sau khi tan vỡ được tái tạo lại、 nhưng lại cảm thấy như một thứ khác、 chỉ giống về hình dạng thôi、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103207/adv/atlas/stand_a,body:sad,alma,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi cứ nghĩ Asaka đã chấp nhận chuyện đó rồi chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:sad,elica,300,-100,0.5,0,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chắc chắn không phải chuyện dễ dàng chấp nhận。Nỗi dằn vặt đó、 chỉ mình cô ấy mới hiểu được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:sad,elica,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>… Không cảm thấy mình bây giờ và mình ngày xưa là cùng một người。Chắc chắn là một cảm giác kinh khủng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:sad,elica,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Quả thật、 chuyện này không thể cho Asaka nghe được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:sad,elica,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Từ một Asaka trẻ con trở lại thành người lớn、 chẳng khác nào nói với cô bé、 “rồi con sẽ biến mất” vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Một chút… Asaka lúc nhỏ cũng cảm nhận được điều đó。Vì vậy… rất sợ hãi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,alma,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nỗi sợ hãi đó… sự từ chối đó、 đã ngăn cản Asaka trở lại như xưa、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:sad,elica,-300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khó hiểu thật…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103207/adv/atlas/stand_a,body:normal,alma,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>… Đã hiểu về Asaka。Nhưng còn Louise thì sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103207/adv/atlas/stand_a,body:normal,alma,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cô ta cũng muốn trở lại làm trẻ con、 hay muốn cứ mãi là trẻ con sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103207/adv/atlas/stand_a,body:sad,alma,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà、 nếu biết sau này sẽ sa sút rồi trở thành nô lệ lao động、 thì không muốn làm người lớn cũng phải thôi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Louise chỉ là quên đi một cuộc gặp gỡ quan trọng thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,alma,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tức là、 chỉ cần nhớ lại điều đó、 thì có thể trở lại thành Louise như xưa、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103207/adv/atlas/stand_a,body:normal,alma,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>So với Asaka、 thì dễ hơn nhiều。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà…… em không biết cuộc gặp gỡ đó là ký ức gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,alma,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:unique,elica,-300,-100,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì cứ an tâm đi。Tôi có manh mối rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103309/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cuộc gặp gỡ đã thay đổi Louise đó…… đó là――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

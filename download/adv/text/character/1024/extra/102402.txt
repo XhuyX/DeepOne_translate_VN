@@ -1,0 +1,108 @@
+﻿// machine translate -- gemini-2.5-flash
+name,,,
+stopbgm,,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bg,download/bg/bg_10010300.jpg,0.0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,
+endwait
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0.5,,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Xin lỗi nhé、 vì đã đột ngột ghé qua。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_01.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 không cần tiếp đãi đâu。Xong việc là tôi sẽ đi ngay。Tôi chỉ muốn hỏi lịch trình lặn vào Dreamlands của các người thôi mà。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_02.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:anger,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Lý do thì rõ như ban ngày rồi còn gì。Ngươi quên ta đang giám sát ngươi à？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_03.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Người Truy Tìm không biết sẽ làm gì đâu…… Hành động của các người có thể kích động Nguyên thư Pnakotic、 thậm chí dẫn đến sự hủy diệt của Dreamlands và cư dân ở đó。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_04.mp3
+clickwait,,,,,,,,,,,,
+select,Lo lắng thái quá rồi。,Chưa biết lịch trình。
+if,select_===_1,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:anger,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngươi thiếu cảnh giác quá đấy…… Mang trong mình sức mạnh kết nối với Pnakotic mà lại chẳng cảm nhận được gì sao？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_05.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bên trong Dreamlands luôn biến động。Ngày mai、 không có gì đảm bảo cùng một không gian vẫn tồn tại。Đó là một thế giới mơ hồ、 có thể bị ý chí của Pnakotic biến thành hư vô chỉ trong chớp mắt。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_06.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngươi có dám nói những lời đó với những Debris đang sống ở nơi như vậy không？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_07.mp3
+clickwait,,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:surprise,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ta không phải là người khuyến khích việc truy tìm Dreamlands、 nhưng ngươi có nên nghiêm túc hơn một chút không？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_08.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:anger,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu không có ngươi、 làm sao có thể truy tìm an toàn được？ Vậy thì、 ngươi chính là trung tâm、 là trụ cột của Người Truy Tìm。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_09.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu ngươi không làm cho ra hồn、 những người xung quanh cũng sẽ gặp nguy hiểm đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_10.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn nữa、 kết cục của sự bất cẩn đó、 không chừng sẽ dẫn đến sự hủy diệt của Dreamlands và những sinh vật sống ở đó。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_11.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:sad,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngươi đã ở vị trí có thể quyết định số phận của nhiều sinh mạng rồi。Hãy tự nhận thức điều đó đi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_12.mp3
+clickwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Xin lỗi。Ta không có ý uy hiếp、 nhưng có vẻ đã lộ ra mặt rồi。Chỉ là、 giống như ngươi quan tâm đến đồng đội、 ta cũng có những người mà ta đã quyết tâm bảo vệ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_13.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:sad,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Chính vì ở vị trí gánh vác sinh mạng、 ta không thể dễ dàng nói rằng không có gì đáng lo。Dù ta có tin ngươi không có ác ý、 nhưng những Người Truy Tìm khác thì ta không nghĩ vậy đâu。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_14.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trong quá trình truy tìm、 ta sẽ cố gắng hết sức để bảo vệ ngươi…… Ta không có ý định phản bội。Nếu ngươi tin ta、 có thể cho ta biết lịch trình truy tìm không？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_15.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:surprise,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Tình trạng sức khỏe của ta？ Gì chứ、 chẳng lẽ ngươi đang lo lắng cho ta sao？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_16.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ra vậy…… Thật tình、 một người như ngươi lại để ý cả chuyện đó sao。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_17.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không cần phải lo lắng đâu…… Một Debris、 cư dân của Dreamlands、 sẽ không cảm thấy gánh nặng nào。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_18.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngược lại、 khi ở lại thế giới thực vốn không thuộc về mình、 ta mới bị hao tổn。Nhưng mà、 nếu có sức mạnh của ngươi thì cũng không thành vấn đề đâu。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_19.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:sad,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Dù vậy、 ngươi vẫn không thể gạt bỏ nỗi lo về việc lặp lại những trận chiến sao？ Thật tình、 ta mong ngươi tin tưởng sức mạnh của ta chứ……</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_20.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng là một người đàn ông hết cách mà…… Vậy thì、 thỉnh thoảng chúng ta sẽ nghỉ ngơi một chút。Khi đó、 ngươi sẽ phải nộp một bản báo cáo chi tiết về việc truy tìm đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_21.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:unique,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Đây là kết quả của việc ta nhượng bộ trước sự quan tâm của ngươi đấy、 đừng có trưng ra cái vẻ mặt khó chịu đó。Hãy làm cho thật tốt để không phụ lòng tin của ta nhé…… Nghe rõ chưa？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102400/adv/sound/fav102400_02_22.mp3
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+name,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,,
+endwait,,,,,,,,,,,,

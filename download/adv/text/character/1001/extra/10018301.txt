@@ -1,0 +1,184 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11780300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm155.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_01.mp3
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Dù ở trong Dreamlands thì cũng phải thôi、 nhưng một công viên giải trí vắng bóng người thế này、 sao mà kỳ quái quá</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_02.mp3
+msg,1,<outline width=2 color=black>Đáng lẽ ra、 đây phải là nơi tuyệt vời để mọi người vui vẻ bên nhau</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Chọn 1 「Cậu có muốn chơi gì không？,Chọn 2 「Ước gì một ngày nào đó mình có thể đến đây thật
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_03.mp3
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Phu phu。Với tình hình hiện tại mà cậu lại đưa ra lời đề nghị đó、 đúng là gan dạ thật đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_04.mp3
+msg,1,<outline width=2 color=black>Ở một công viên giải trí buồn tẻ thế này、 nếu mình chơi trò chơi thì có khi lại càng thấy trống rỗng hơn ấy chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_05.mp3
+msg,1,<outline width=2 color=black>……Mà thôi、 nếu cậu muốn thì、 tất nhiên là tôi sẽ đi cùng cậu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_06.mp3
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Vậy thì… đến lúc đó、 nhất định phải dắt Asaka đi nhé。Chắc chắn、 em ấy sẽ rất vui đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:surprise,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_07.mp3
+msg,1,<outline width=2 color=black>――Hả？ Cả tôi nữa sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_08.mp3
+msg,1,<outline width=2 color=black>Chuyện đó… tôi thì、 không cần thiết phải…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_09.mp3
+msg,1,<outline width=2 color=black>…Không、 phải rồi。Nếu cậu mời、 và Asaka cho phép、 thì có lẽ tôi cũng nên thử tận hưởng khoảng thời gian như thế một lần xem sao</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:smile,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_10.mp3
+msg,1,<outline width=2 color=black>Vậy thì、 hôm nay coi như là đi xem trước cho ngày đó vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_11.mp3
+name,<outline width=2 color=black>ASAKA</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nói đến công viên giải trí thì、 chắc chắn phải là tàu lượn siêu tốc rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:sad,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_12.mp3
+msg,1,<outline width=2 color=black>…Nhưng mà、 phiền thật đấy。Nghĩ kỹ lại thì、 thành thật mà nói、 tôi không có cảm giác sẽ vui khi chơi trò chơi ở công viên giải trí</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:sad,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_13.mp3
+msg,1,<outline width=2 color=black>Không phải là tôi ghét đâu nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:sad,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_14.mp3
+msg,1,<outline width=2 color=black>Chỉ là… ví dụ như、 tàu lượn siêu tốc là để tận hưởng tốc độ mà bình thường mình không cảm nhận được、 nỗi sợ đi kèm、 hay là cảm giác hưng phấn đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:sad,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_15.mp3
+msg,1,<outline width=2 color=black>…Tôi thì、 có thể đạt được tốc độ cỡ tàu lượn siêu tốc đấy。Có lẽ、 dù có đi thì tôi cũng chẳng cảm thấy gì đâu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:sad,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_16.mp3
+msg,1,<outline width=2 color=black>Huống chi tôi còn chẳng phải là người、 chỉ là một <ruby>quyển ma đạo thư-Grimoire</ruby>。Việc tôi vui vẻ như con người…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:sad,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_17.mp3
+msg,1,<outline width=2 color=black>Tôi muốn đáp lại lời cậu nói… nhưng mà… tôi tự thấy mình đang làm hỏng hết mọi thứ rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:sad,alt,0,-120,0.5,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_18.mp3
+msg,1,<outline width=2 color=black>Chắc chắn、 những chuyện thế này、 phải là cùng với Asaka mới đúng。Tôi sẽ rút lui、 ngay từ bây giờ――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:surprise,alt,0,-130,0.6,0.5,,,,
+endwait
+playvoice,1,download/character/100183/adv/sound/fav100183_01_19.mp3
+msg,1,<outline width=2 color=black>――Tự dưng nắm tay tôi、 là sao vậy？ Chẳng lẽ、 cậu định giữ tôi lại sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:normal,alt,0,-130,0.6,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_20.mp3
+msg,1,<outline width=2 color=black>Tại sao…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:sad,alt,0,-130,0.6,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_21.mp3
+msg,1,<outline width=2 color=black>…Ôi、 thôi nào。Đừng nhìn tôi bằng ánh mắt thẳng đuột như thế chứ。Ánh mắt của cậu… sao mà、 tôi không thể nào cưỡng lại được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:sad,alt,0,-130,0.6,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_22.mp3
+msg,1,<outline width=2 color=black>Thật tình、 tôi đúng là yếu đuối với cậu mà。Có lẽ nào、 đây là ảnh hưởng từ trái tim của Asaka… hay là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:normal,alt,0,-130,0.6,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_23.mp3
+msg,1,<outline width=2 color=black>…Không</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:smile,alt,0,-130,0.6,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_24.mp3
+msg,1,<outline width=2 color=black>Không có gì đâu。Hơn nữa、 cậu hứng thú với trò chơi nào cơ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100183/adv/atlas/stand_a,body:smile,alt,0,-130,0.6,0,,,,
+playvoice,1,download/character/100183/adv/sound/fav100183_01_25.mp3
+msg,1,<outline width=2 color=black>Tôi thì、 không biết nên chọn trò nào。Cậu chọn giúp tôi nhé、 tôi rất vui đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,105 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10050100.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0.5,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừm、 ở đây sách nhiều như núi vậy。Để xem… không biết có cuốn nào khơi gợi hứng thú của ta không nữa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm… Với số lượng sách khổng lồ thế này、 cho dù có cuốn ta muốn đi chăng nữa thì cũng khó mà tìm ra。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,
+msg,1,<size=30><outline width=2 color=black>Haizz… Giá mà lúc này、 thay vì có đôi tai của yêu quái、 ta có thêm tay hoặc mắt thì tiện biết mấy…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:surprise,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm… Khó coi ư？ Vậy sao…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu nói vậy、 thì đôi tai và cái đuôi này của ngươi cũng đâu có đẹp trong mắt ngươi、 phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_05.mp3
+clickwait,,,,,,,,,,,
+select,選択肢1 「Veeみたいな耳なら欲しい,選択肢2 「Veeみたいな尻尾なら欲しい
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:smile,vi,-20,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừm… Nhưng mà、 cũng không phải là thứ tốt lành gì đâu？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Đội mũ thì vướng tai、 còn nếu không để ý mà cử động thì tai lại vướng vào trần nhà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Với lại、 tai thính quá cũng là một vấn đề。Nghe được cả những âm thanh nhỏ nhặt、 khó mà yên ổn được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_08.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Còn đuôi… Thứ này、 có cũng chẳng để làm gì？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vốn dĩ、 khi con người còn là loài vượn thì ai cũng có đuôi cả。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trong quá trình tiến hóa、 nó bị loại bỏ、 chắc là vì bị phán là không cần thiết。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ta cũng thấy vướng víu khi ngủ。Mà、 được cái là sờ vào thì thích tay。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_12.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Thôi thì、 dù có thấy bất tiện hay không cần thiết、 thì cũng chỉ có thể sống chung với nó thôi。Chứ chẳng lẽ tự mình cắt bỏ đi được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khi ta có được cái tôi trong Giấc Mộng、 thì cơ thể đã ở hình dạng này rồi。Vốn dĩ đã không có ký ức、 cũng chẳng có quá khứ… Phải trân trọng cơ thể này mới được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:surprise,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>…Khó khăn khác ư？ Ngươi hỏi để làm gì？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>…Ra là、 nếu có thể thì muốn giúp đỡ。Thật là chu đáo。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:smile,vi,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng ta là hồ ly。Hồ ly là loài vật chuyên lừa gạt con người… Liệu có nên mang bộ mặt ngây thơ như vậy không đây？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Coi chừng sau này hối hận đó？ Coco。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_18.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Sao vậy、 có vẻ như ngươi muốn nói gì về tiếng cười của ta nhỉ？ Thấy kỳ lạ à？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_19.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chẳng còn cách nào khác。Từ khi có cơ thể này、 mỗi khi cười thì tự nhiên lại phát ra âm thanh như vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_20.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chuyện lúc nãy… Nếu nói về điều khó khăn、 thì… chắc là vì không thể nào sửa được tiếng kêu này。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/102200/adv/sound/fav102200_01_21.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

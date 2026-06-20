@@ -1,0 +1,107 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+roombg,1013,0
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0.5,,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chào mừng。Em vào phòng đột ngột quá、 chị hơi giật mình。Có chuyện gì gấp à？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ơ… đó là khoai tây chiên sao？ Trông còn ấm nữa chứ… Chẳng lẽ là mới làm à？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:surprise,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ồ、 Asaka-chan làm đấy à… Con bé đó đúng là khéo tay thật。Chị chưa bao giờ ăn khoai tây chiên mới làm bao giờ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Chẳng lẽ、 em cố tình mang cái này đến cho chị sao…？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_04.mp3
+clickwait,,,,,,,,,,,
+select,Vì chị nói thích ăn vặt。,Đằng nào cũng có、 em nghĩ mình cùng ăn。
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm、 đúng rồi。Chị vui vì em nhớ kỹ như vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,mil,-10,-120,0.5,0,,,,,
+spine,download/adv/spine/Mark5,em1,default,animation,0,100,200,0.65,0.8,0.2
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 khi em nhắc lại như vậy、 chị cứ thấy mình như một đứa ham ăn vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_06.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải lúc nào chị cũng chỉ ăn vặt đâu―― cũng không hẳn là không、 nhưng mà、 em thấy đó、 con gái với đồ ăn vặt thì không thể tách rời mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đồ ngọt cũng như đồ mặn、 đều là thứ không thể thiếu với con gái… Chị đâu có ham ăn đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_08.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Phì cười、 em đúng là tinh ý thật đấy。Chị có khi không ghét điểm đó ở em đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_09.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Sao mà em lạ thật đấy。Người bình thường khi biết về chị、 ánh mắt họ thường ánh lên chút tình cảm ngọt ngào…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Còn mắt em thì cứ nhìn thẳng vào chị… không có vị gì cả… Không、 không phải… Hay là một vị mà chị chưa từng biết nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_11.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Phì cười… Chị bỗng thấy hứng thú với em rồi đấy。Này、 ngồi xuống đây。Mình vừa ăn vặt vừa nói chuyện từ từ nhé？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_12.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Phì cười、 chị cũng rất thích đồ ngọt、 nhưng thỉnh thoảng ăn đồ mặn cũng hay nhỉ。Vậy thì、 chị xin phép… ừm…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:surprise,mil,-10,-120,0.5,0,,,,,
+spine,download/adv/spine/Mark3,em2,default,animation,0,100,200,0.65,0.8,0
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm… ưm ưm…！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_14.mp3
+clickwait,,,,,,,,,,,
+spineoff,em2,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm… mặn quá。Dạo này chị toàn ăn đồ ngọt thôi、 nên thấy nó mặn đặc biệt luôn。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Không đến mức đó sao…？ Vậy à… Chị chỉ vừa đặt lên lưỡi thôi mà、 cứ thấy miệng mình như co lại vậy… ưm。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Dù sao thì、 chị vẫn thích đồ ngọt hơn。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:surprise,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Á、 nhưng không phải là món này không ngon đâu nhé？ Chỉ là khi so sánh thôi、 chứ món này cũng đủ… ưm、 ưm ưm、！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:shy,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi、 đừng nhìn chị nữa mà。Ăn đồ mặn là chị hay làm mặt xấu lắm。Biết sao giờ… ưm… mặn quá đi mất。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_04_19.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

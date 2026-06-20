@@ -1,0 +1,105 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010300.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm005.mp3,0,,
+endwait
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0.5,,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À。。。Em xin lỗi vì đột ngột thế này。Giờ anh có tiện không？ Anh ngủ rồi sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng。。。Em lại không ngủ được。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em biết là có thể làm phiền anh、 nhưng em chỉ muốn nói chuyện với anh thôi。。。Thế là em đến đây。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 ha ha。Chắc anh cũng khó xử khi em nói đột ngột thế này nhỉ。Nếu em làm phiền thì em sẽ về ngay。。。Ừm、 cái đó。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_04.mp3
+clickwait,,,,,,,,,,,
+select,Không cần bận tâm đâu。,Không phải Lydia sao？
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À。。。Phù。。。Cảm ơn anh。Anh nói vậy。。。thật sự giúp em rất nhiều。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:shy,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Bởi vì。。。chuyện em sắp nói、 em thật sự muốn anh nghe。。。Chuyện em muốn nói。。。nên là。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_06.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:shy,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng、 không phải chị em、 mà là chuyện em muốn nói với anh。。。Chuyện của em và chị ấy。。。Em có một lời thỉnh cầu。。。Nên là。。。được không ạ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_07.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Phù。。。Cảm ơn anh。Quả nhiên anh vẫn nói vậy。Cái điểm đó ở anh。。。sao mà ấm áp lạ lùng。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Em chưa từng có cảm giác này bao giờ。。。Ngay cả với chị em、 em cũng chưa từng cảm nhận được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Bởi vì anh đã mang đến cho em một điều gì đó mới mẻ。。。nên em muốn nói chuyện một cách thật lòng。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_10.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em。。。em không muốn rời xa chị ấy và cả anh nữa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_11.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em cuối cùng cũng nhận ra cả hai người đều là những người rất quan trọng。Em đã suy nghĩ rất lâu、 rất lâu。。。nhưng một khi đã nhận ra、 mọi thứ lại thật đơn giản。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Anh biết không、 em thích cái vị ngọt của sự tuyệt vọng。。。Nên trước đây、 em vẫn thường tưởng tượng cảnh chia ly với chị ấy và anh、 rồi cảm nhận vị ngọt đó。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng。。。điều đó đã dần thay đổi。。。Giờ đây、 mỗi khi tưởng tượng như vậy、 thay vì vị ngọt、 em lại thấy lồng ngực mình nhói lên。。。chỉ còn lại nỗi đau。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Đau đớn。。。xót xa。。。khổ sở đến mức muốn bật khóc。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em。。。hơn cả hạnh phúc được bao bọc trong vị ngọt、 chắc chắn、 được ở bên anh và chị ấy mới là hạnh phúc thật sự của em。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng vậy、 ngay từ đầu đã là như thế。。。Em chỉ muốn cùng người mình yêu thương thưởng thức trà chiều với những món bánh ngọt、 cùng nhau mỉm cười。。。Chỉ vậy thôi。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cuộc gặp gỡ với anh、 chắc chắn đã giúp em nhớ lại điều đó。Chính vì vậy。。。em mới thỉnh cầu anh。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_18.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Từ giờ trở đi、 hãy luôn ở bên em và chị ấy。Dù có chuyện gì xảy ra、 cũng đừng rời đi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_19.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu vậy。。。cảm xúc của em sẽ không còn lạc lối nữa。。。。Em sẽ không đánh mất sự ấm áp này nữa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_20.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:shy,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Xin anh đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101304/adv/sound/fav101304_13_21.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

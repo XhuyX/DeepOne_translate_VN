@@ -1,0 +1,201 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm131.mp3,0,
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_020.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:surprise,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_01.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ồ… Chút thôi。Rõ ràng là em ngã nhiều quá rồi、 đúng không？ Tuyết cũng không đến mức dày để vấp ngã đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:normal,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_02.mp3
+msg,1,<outline width=2 color=black>Em không đi bằng gót chân、 mà hãy đặt cả bàn chân xuống。Đừng cố gắng đạp đất。Bước ngắn thôi。Nếu làm vậy thì một chút tuyết――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_020.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:sad,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_03_03.mp3
+msg,1,<outline width=2 color=black>…Có vẻ không được rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+name,
+msg,0,
+endwait,,,,,,,,,,,,,
+sprite,download/character/100215/image/main.png,card1,400,350,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,2_2,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_04.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Thật là… Chẳng còn cách nào khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,,,
+sprite,download/character/100215/image/main.png,card2,0,0,2,0,,,,
+anm,fade,card2,0,0,0
+anm,scale,card2,1_1,1,0
+anm,fade,card2,255,1,0
+endwait,,,,,,,,,,,,,,
+spriteoff,card1,0
+endwait,,,,,,,,,,,,,,
+
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_05.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Này、 chị cho em mượn tay này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_06.mp3
+msg,1,<outline width=2 color=black>Chịu thôi。Nếu cứ thấy em ngã lên ngã xuống、 thì chị cũng không thể làm ngơ được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_07.mp3
+msg,1,<outline width=2 color=black>Nếu em bị ướt sũng rồi cảm lạnh、 thì chị có thể bị đổ lỗi vì trách nhiệm giám sát đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_08.mp3
+msg,1,<outline width=2 color=black>Nên là、 này。Cứ nắm lấy đi、 đừng ngại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_09.mp3
+msg,1,<outline width=2 color=black>Nếu em bảo tay chị không đáng tin、 thì chị cũng không ép đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lúc nào em cũng nhờ cậy chị,Vậy em ôm chị được không？
+if,select_===_1,,,,,,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_03_10.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_11.mp3
+msg,1,<outline width=2 color=black>Đ、 đừng có đột ngột thế… Nếu là lời xã giao thì không cần đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_12.mp3
+msg,1,<outline width=2 color=black>Hả、 hả？ Chị có đỏ mặt đâu。Nếu em thấy vậy thì chắc là do ánh hoàng hôn thôi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_03_13.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Sao lại thành ra thế được？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_14.mp3
+msg,1,<outline width=2 color=black>Chắc chắn là em đang nghĩ mấy chuyện không đâu、 rồi viện cớ là để giữ thăng bằng、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,10,10,card2
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_15.mp3
+msg,1,<outline width=2 color=black>Em đã bối rối thấy rõ… Nếu em có thời gian mà nói mấy chuyện ngớ ngẩn đó、 thì có lẽ chị không cần cho em mượn tay nữa nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_03_16.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Vậy… tay em tính sao đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_17.mp3
+msg,1,<outline width=2 color=black>…Cứ để tay thế này thì lạnh lắm đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,card2,1.8_1.8,1.5,0
+anm,move,card2,-150_-200,1.5,0
+endwait,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_18.mp3
+msg,1,<outline width=2 color=black>Ừm… Tay em lạnh hơn đấy。Em cứ ngã rồi lại cho tay vào tuyết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_19.mp3
+msg,1,<outline width=2 color=black>…Lạnh quá rồi、 chị bỏ ra được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_20.mp3
+msg,1,<outline width=2 color=black>Hừm hừm。Chị đùa thôi。Mà、 lạnh thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_21.mp3
+msg,1,<outline width=2 color=black>…Tay chị tuy cũng hơi lạnh、 nhưng vẫn đỡ hơn em、 và nếu mình nắm tay thật chặt thì sẽ ấm hơn đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_03_22.mp3
+msg,1,<outline width=2 color=black>…Thử nắm tay nhau kiểu đó không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

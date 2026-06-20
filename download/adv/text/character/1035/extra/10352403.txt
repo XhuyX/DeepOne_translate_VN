@@ -1,0 +1,219 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11840302.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm141.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_03_01.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À、 anh hai ngốc…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_02.mp3
+msg,1,<outline width=2 color=black>――Ưm、 chụt、 chụt、 ưm、 phù… chụt、 chụt… ưm、 khự、 rệ、 chừ… ưm、 ph、 ha…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_03_03.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hức、 tại anh hai、 rõ ràng là… Từ nãy đến giờ cứ trêu chọc em、 trong khi em đã ăn mặc thế này、 tim còn đập thình thịch nữa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_03_04.mp3
+msg,1,<outline width=2 color=black>Sờ ngực、 rồi cả lưng、 cả mông nữa… Hôn cũng hôn rất nhiều</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_03_05.mp3
+msg,1,<outline width=2 color=black>Ư、 ư… Tóm lại！ Tại anh hai thích làm gì thì làm với cơ thể em、 nên mới ra nông nỗi này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_03_06.mp3
+msg,1,<outline width=2 color=black>Em cũng không nhịn nữa đâu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+sprite,download/character/103524/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_07.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Anh hai… lại đây gần em hơn đi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_08.mp3
+msg,1,<outline width=2 color=black>Ưm… Này。Ở đây、 cởi dây buộc ra như thế này… Khi em bỏ tay ra、 vải sẽ trong suốt hết、 những chỗ không được nhìn thấy sẽ bị lộ ra đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_09.mp3
+msg,1,<outline width=2 color=black>Này、 anh hai… muốn nhìn không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_10.mp3
+msg,1,<outline width=2 color=black>Muốn nhìn chỗ không nên nhìn của em sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Cho em xem đi,Muốn em xem không？
+if,select_===_1,,,,,,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_03_11.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Phù phù、 ngoan ngoãn quá… Muốn nhìn chỗ này đến thế sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_12.mp3
+msg,1,<outline width=2 color=black>Anh hai thật là hư hỏng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_13.mp3
+msg,1,<outline width=2 color=black>Nhưng em cũng đang có tâm trạng hư hỏng đây… được thôi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_14.mp3
+msg,1,<outline width=2 color=black>Nếu anh hai đã nói đến mức đó、 thì em cho anh xem cũng được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_03_15.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Việc đó…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_16.mp3
+msg,1,<outline width=2 color=black>…Ừm、 muốn anh xem</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_17.mp3
+msg,1,<outline width=2 color=black>Em muốn anh hai、 nhìn em hơn nữa… nhìn tất cả mọi thứ về em</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_18.mp3
+msg,1,<outline width=2 color=black>Nếu anh hai say mê em、 em sẽ rất vui… Chắc chắn em sẽ làm bất cứ điều gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_19.mp3
+msg,1,<outline width=2 color=black>Vì vậy、 anh hai… nhìn cho kỹ nhé？ Cơ thể em、 những thứ vải vướng víu này、 em sẽ cởi ra ngay thôi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_03_20.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――Nhưng、 trước đó… hôn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_21.mp3
+msg,1,<outline width=2 color=black>Em muốn… hôn、 muốn hôn anh。Được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+sprite,download/character/103524/image/main.png,card2,100,-100,1.3,0.5,,,,
+endwait,,,,,,,,,,,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_03_22.mp3
+msg,1,<outline width=2 color=black>Ưm、 chụt…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_23.mp3
+msg,1,<outline width=2 color=black>Không được。Thêm nữa… thêm nữa đi。Chỉ hôn thế này thì không đủ…――Ưm、 chụt、 chụt</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_24.mp3
+msg,1,<outline width=2 color=black>Rệ、 chụt… chụt、 pi、 chụt、 chừm… ưm、 phù phù… chụt、 chụt、 hôn với anh hai、 em hạnh phúc quá、 chụt、 chụt、 thích lắm… chụt</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_03_25.mp3
+msg,1,<outline width=2 color=black>Rệ、 chụt pi、 chụt、 hức… ha、 à… Vậy thì、 anh hai。Em sẽ cho anh xem tất cả mọi thứ về em… Nhìn cho kỹ nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+spriteoff,all,1
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

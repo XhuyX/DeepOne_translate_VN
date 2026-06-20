@@ -1,0 +1,101 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10030300.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:normal,dana,0,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Quả nhiên、 khi lặn vào Dreamlands cùng anh、 chỉ riêng điều đó thôi cũng khiến em tràn đầy sức mạnh。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ như thể sức mạnh của em bị đẩy lên một bậc một cách mạnh mẽ…… hoặc là、 một thứ gì đó không thuộc về em đang chảy vào bên trong cơ thể……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn nữa、 áp lực cũng giảm đi đáng kinh ngạc。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Điều này thì…… có lẽ Asaka-san và mọi người、 những người mới lần đầu lặn cùng anh、 sẽ không cảm nhận được rõ ràng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mức độ áp lực khác nhau một trời một vực。Thật sự là、 chỉ cần có anh hay không cũng đủ để định đoạt số phận của chúng em……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu ví von thì…… à thì…… nó khác biệt như việc uống một shot vodka hay nhấm nháp bia vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hả？ À…… x-xin lỗi、 đó là một ví dụ khó hiểu nhỉ。Em lỡ lời rồi…… xin hãy quên điều vừa rồi đi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_07.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:normal,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Dù sao thì、 mối liên kết mà em cảm nhận được giữa anh và Nguyên thư Pnakotic…… em không biết bản chất của nó là gì、 nhưng nếu không dựa vào sức mạnh đó thì không thể chinh phục Dreamlands được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Một lần nữa、 từ giờ trở đi cũng xin hãy giúp đỡ em nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_09.mp3
+clickwait,,,,,,,,,,,
+select,Cái ví dụ vừa nãy là sao vậy……,Những lần lặn trước đây có vất vả không？
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 ừm…… nếu anh không nhắc đến chuyện đó thì tốt hơn……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nghĩ lại thì…… ngay cả bản thân em cũng cảm thấy ngớ ngẩn vì đã ví von bằng thứ gì đó……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_11.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:normal,dana,0,-180,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu nói là không hề vất vả…… thì chắc chắn là nói dối rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Áp lực mỗi lần lặn đều ăn mòn cả thể xác lẫn tinh thần、 nôn ra máu vẫn còn là chuyện nhẹ nhàng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trong số các Người Truy Tìm、 thậm chí có người còn bị biến đổi cả cơ thể vì dần dần bị sức mạnh của Nguyên thư Pnakotic xâm thực……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:normal,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Xin đừng làm vẻ mặt lo lắng như vậy。Bây giờ nhờ có anh mà em không còn phải lo lắng về áp lực đến mức đó nữa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật đấy…… Giá như em có thể gặp anh sớm hơn…… Em cứ nghĩ như vậy đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,0,-180,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ngay cả lúc đó…… nếu có sức mạnh của anh、 có lẽ là……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_17.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:normal,dana,0,-180,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Tiếp tục nói chuyện này cũng chẳng ích gì nhỉ。Bây giờ là lúc truy tìm ở Dreamlands。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_18.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mọi người đi trước có ổn không nhỉ…… Em lo lắng lắm、 chúng ta hãy nhanh lên một chút。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_19.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……À、 ừm。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_20.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Những điều em vừa nói、 nếu anh có thể quên đi thì em sẽ rất biết ơn。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100402/adv/sound/fav100402_05_21.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

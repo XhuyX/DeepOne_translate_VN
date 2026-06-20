@@ -1,0 +1,94 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010400.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0.5,,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ồ、 gặp anh ở đây này… Hôm nay không đi 'Truy Tìm' à？ Sao thế？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ đi dạo thôi sao…？ Phì、 buồn cười thật。Đi lòng vòng trong mấy tòa nhà toàn kim loại này vui ở chỗ nào chứ？ Lạ thật đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em thì đang nghĩ về Dreamlands ở đây này。Thế giới đó toàn những cảm xúc ngọt ngào、 chỉ tưởng tượng thôi cũng thấy vui rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Vì thế… này、 anh mau dẫn em đi 'Truy Tìm' tiếp đi？ Đương nhiên là rủ cả chị nữa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_04.mp3
+clickwait,,,,,,,,,,,
+select,選択肢1 「Lydiaとはいつも一緒なのか？,選択肢2 「Lydiaのことが好きなんだな
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừ、 đúng vậy。Vì bọn em là song sinh mà。Sinh ra đã ở bên nhau rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chưa từng xa nhau、 và sau này cũng tuyệt đối không。Cả em và chị đều không muốn điều đó。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu có ai đó cố tình chia rẽ bọn em… Em sẽ khiến người đó tan nát… Phì。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_07.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừ、 em yêu chị nhất trên đời。Yêu mãi mãi、 từ khi sinh ra。Vì bọn em là song sinh mà。Chị là em、 và em là chị。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm、 không thể diễn tả bằng từ 'yêu' được… Cảm xúc này、 rốt cuộc phải diễn tả thế nào đây？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_09.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chắc chắn chị cũng nghĩ giống em。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chị luôn nghĩ cho em trước tiên。Từ xưa đến nay、 chị đã luôn rất trân trọng em。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+spine,download/adv/spine/Mark1,em1,default,animation,0,100,200,0.65,0.8,0.5
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Phì、 đúng vậy。Chị em thân thiết！ Chỉ cần có chị ở bên、 em đã thấy hạnh phúc ngập tràn rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_12.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tất cả những gì chị cho em đều là bảo vật。Dù là vui vẻ、 hạnh phúc… đương nhiên cả những điều đau khổ、 đớn đau nữa！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 thật khó chịu… Chắc chắn em còn chưa thể truyền tải hết được một phần nhỏ bé của tình yêu em dành cho chị。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tại sao từ ngữ lại bất tiện đến thế chứ？ Rồi một ngày nào đó、 em muốn nói cho anh biết em yêu chị đến nhường nào。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Rồi một ngày nào đó、 khi em lấp đầy thế giới bằng những cảm xúc ngọt ngào… Cuối cùng、 em muốn cảm nhận vị ngọt của chị… Em yêu chị đến mức đó…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Ừm… Phải rồi、 chắc chắn đây là 'yêu'。Em yêu chị。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_02_17.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,203 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11340300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:smile,zakuro,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_01.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>……Này、 em hỏi một chuyện được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:smile,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_02.mp3
+msg,1,<outline width=2 color=black>Em nghe nói có hai người nam nữ vô liêm sỉ nào đó dùng bánh kem cam làm vật trao đổi、 bắt Aika mặc đồ hoạt náo viên、 có biết gì không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:smile,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_03.mp3
+msg,1,<outline width=2 color=black>Nghe nói là、 nếu chịu mặc đồ hoạt náo viên rồi tạo dáng các kiểu để họ chụp ảnh thì sẽ được cho bánh kem、 một vụ giao dịch xàm xí như thế……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:smile,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_04.mp3
+msg,1,<outline width=2 color=black>Ấy、 sao lại cuống lên thế kia？ Chẳng lẽ có chuyện gì mờ ám à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:anger,zakuro,1200,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,zakuro,0_-120,0.7,0
+endwait
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_05.mp3
+msg,1,<outline width=2 color=black>Tưởng rằng sẽ để yên cho chạy trốn à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Tớ、 hiểu lầm thôi,Bình tĩnh nói chuyện nào
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_06.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nếu bảo là hiểu lầm thì phải giải thích rõ ràng chứ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_07.mp3
+msg,1,<outline width=2 color=black>Nào。Nếu có gì muốn nói thì cứ nói đi。Trước khi đến lúc muốn nói cũng không thể nói được nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_08.mp3
+msg,1,<outline width=2 color=black>Bây giờ、 cho dù chỉ là lời bào chữa vô vị thì em cũng sẽ nghe</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:smile,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_09.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Yên tâm、 em rất bình tĩnh</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:smile,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_10.mp3
+msg,1,<outline width=2 color=black>Bình tĩnh mà nghĩ xem nên cho mấy người gặp chuyện gì đây。Dám dùng đồ ăn để làm chuyện đó với Aika……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_11.mp3
+msg,1,<outline width=2 color=black>Chẳng phải còn có tội khác sao？ Ngoan ngoãn khai báo hết mọi chuyện đi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm137.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_12.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hay nói đúng hơn là、 rốt cuộc là sao chứ……！ Em cũng muốn nhìn Aika mặc đồ hoạt náo viên、 cũng muốn chụp ảnh nữa……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:shy,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_13.mp3
+msg,1,<outline width=2 color=black>Nếu được thì lấy lý do là đồ đôi với Aika、 bắt Souka mặc nữa、 rồi hai người cùng cổ vũ、 hoặc là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_14.mp3
+msg,1,<outline width=2 color=black>Vậy mà chỉ có Asaka và anh…… Không thể nào bỏ qua được chuyện này！ Sao lại không rủ em chứ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:unique,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_15.mp3
+msg,1,<outline width=2 color=black>——Dữ liệu chụp ảnh？ Gì chứ、 chẳng lẽ anh nghĩ rằng chia sẻ cái đó thì sẽ được tha thứ sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_16.mp3
+msg,1,<outline width=2 color=black>Không đời nào</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_17.mp3
+msg,1,<outline width=2 color=black>Có được dữ liệu anh chụp cũng chẳng có nghĩa lý gì。Em phải tự tay chụp Aika thì mới chịu được……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_18.mp3
+msg,1,<outline width=2 color=black>……Tuy nhiên、 nếu em cứ thẳng thừng nhờ Aika mặc đồ hoạt náo viên thì có lẽ vì thiếu vật trao đổi nên sẽ bị từ chối mất</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_19.mp3
+msg,1,<outline width=2 color=black>…………Làm lại đi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_20.mp3
+msg,1,<outline width=2 color=black>Chụp ảnh với Aika、 nếu được thì cho cả Souka vào nữa。Lúc đó đương nhiên là em cũng phải tham gia</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_21.mp3
+msg,1,<outline width=2 color=black>Nếu làm vậy thì em sẽ quên chuyện này đi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_22.mp3
+msg,1,<outline width=2 color=black>Asaka và anh cũng có thể nhìn thấy hai người mặc đồ khác nhau。Chắc chắn không phải là một đề nghị tồi đâu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:smile,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_23.mp3
+msg,1,<outline width=2 color=black>Nếu từ chối thì sẽ có hình phạt tương xứng――à không、 là trút giận――cho mấy người</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104309/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104309/adv/sound/fav104309_03_24.mp3
+msg,1,<outline width=2 color=black>Được chứ？ Nhất định phải chuẩn bị đấy nhé？ Nhất định đấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

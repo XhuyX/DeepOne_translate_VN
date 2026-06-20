@@ -1,0 +1,395 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+roombg,1007,0
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,zizel1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel2,0,0,0,0,,,,
+imgconf,zizel2,zizel1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cầu mong điều ước này thành sự thật……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——Không、 thay vì cầu nguyện thì phải chăm chỉ luyện tập mới đúng chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:normal,holy,1200,-160,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+anm,move,holy,300_-160,1,1
+playse,/download/sound/se/se_029.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly Hargreaves</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin lỗi đã làm phiền。Thưa Giselle-sama、 thỉnh thoảng xin hãy để tôi dọn dẹp phòng cho người、 thay vì tự mình làm ạ——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:surprise,zizel,0,-120,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+
+
+anm,move,zizel,-1000_300,0.2,0
+wait,0.1
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phì hyaaa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:surprise,zizel,-1000,-400,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+anm,move,zizel,0_-120,0.2,0
+endwait
+wait,0.1
+endwait,,,,,,,,,,,
+anm,move,zizel,-1000_-120,0.2,0
+endwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:surprise,holy,300,-160,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly Hargreaves</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giselle-sama…… Người vừa làm sao vậy ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,-1400,-120,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+anm,move,zizel,-300_-120,0.5,1
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>C-c-c-c-c-cái gì đâu ạ？ Có gì đâu ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:sad,holy,300,-160,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly Hargreaves</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Người rõ ràng đang có biểu hiện khả nghi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:sad,holy,300,-160,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hơn nữa、 người vừa dùng động tác nhào lộn như nhảy lưng hay nhảy ba bước bằng tường để giấu thứ trên bàn đi…… Lời giải thích đó có vẻ khó chấp nhận đấy ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:sad,holy,300,-160,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cả cái cây tre trang trí này nữa。Sao lại có thứ này trong phòng vậy ạ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:surprise,zizel,-300,-120,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？ Á、 k-khoan đã！ Cái cây tre đó có……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:normal,holy,300,-160,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly Hargreaves</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Hừm。Là những mảnh giấy điều ước。Để xem nào—— 'Cầu mong kỹ năng vẽ của con tiến bộ để trở thành họa sĩ thần thánh'？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:normal,holy,300,-160,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cái này…… có nghĩa là sao ạ？ Kỹ năng vẽ thì tôi hiểu、 nhưng 'họa sĩ thần thánh' là gì…… Phải chăng có liên quan đến thứ Giselle-sama đã giấu đi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:normal,holy,300,-160,0.5,0,,,,
+endwait
+anm,move,holy,100_-160,1,1
+endwait
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,-300,-120,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Haiz、 được rồi。Dù có im lặng thì cô cũng sẽ không bỏ cuộc đâu…… Đây là thứ tôi đã giấu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:surprise,holy,100,-160,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly Hargreaves</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là tranh minh họa、 không、 là truyện tranh sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,-300,-120,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Tôi đọc mấy cuốn trong thư viện rồi thấy cũng muốn thử vẽ。Cứ thế tôi luyện tập dần dần。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:normal,holy,100,-160,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly Hargreaves</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ra là vậy ạ…… Dù sao thì、 cách thể hiện thật tuyệt vời。Người nói là dần dần、 nhưng chẳng phải đã luyện tập rất nhiều sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,-300,-120,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Có bí quyết để tiến bộ、 hay đúng hơn là có những chủ đề dễ tiến bộ。Tôi nghĩ là kỹ năng của mình đã tăng lên khi vẽ những thứ đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:anger,zizel,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù vậy、 thực lực vẫn còn kém lắm。Phải đặt mục tiêu cao hơn nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:normal,holy,100,-160,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Holly Hargreaves</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ra vậy。Dù tôi không am hiểu về thế giới truyện tranh、 nhưng tôi cũng sẽ âm thầm ủng hộ người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,-300,-120,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…… Cảm ơn、 Holly。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+roombg,1007,0.5
+endwait
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Haiz…… Holly đúng là、 dọn dẹp mất tận hai tiếng đồng hồ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:smile,zizel,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 giờ thì mình có thể tập trung vào truyện tranh rồi。Bản thảo 'kia' không bị Holly phát hiện、 mình sẽ đẩy nhanh tiến độ——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:sad,ulusura,1400,-200,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+anm,move,ulusura,300_-200,1,1
+playse,/download/sound/se/se_029.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi vào đây。Ồ…… chỉ có mình cô thôi sao？ Tôi có việc cần gặp người hầu của cô。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:surprise,zizel,0,-120,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+anm,move,zizel,-300_-120,0.1,1
+shake,0.2,4,30,30
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phì hyaaa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:anger,ulusura,300,-200,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ồn ào quá。Gì thế、 làm rơi giấy lung tung cả ra……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:surprise,ulusura,300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hừm…………？ Ơ、 cái gì…… đây……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:surprise,zizel,-300,-120,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+anm,move,zizel,100_-120,0.1,1
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Oa、 oa！ Đừng nhìn mà！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,zizel,1400_-120,0.2,1
+endwait
+
+anm,jump,zizel,200_-120_100_1,0.3,0
+endwait
+
+anm,jump,zizel,-1400_200_200_1,0.4,0
+endwait
+
+anm,move,zizel,1400_400,0.3,1
+endwait
+
+anm,move,zizel,1400_-320,0.1,1
+endwait
+
+anm,move,zizel,-1400_400,0.2,1
+endwait
+
+anm,move,zizel,-300_-120,0.3,1
+endwait
+
+anm,move,zizel,-1000_300,0.3,1
+endwait
+
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:sad,ulusura,300,-200,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đó không phải là động tác nhặt giấy đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,-1400,-120,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+anm,move,zizel,-300_-120,1,1
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hộc、 hộc………… Cô、 cô không nhìn thấy gì đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:unique,ulusura,300,-200,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải rồi…… Tôi đây mà、 vậy mà lại bất giác dao động trong chốc lát。Không ngờ người thừa kế tiếp theo của nhà Bawdwin lại vẽ cảnh nóng đậm đà thế này——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:surprise,zizel,-300,-120,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+anm,jump,zizel,-300_-120_30_3,1,0
+wait,0.3
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Oa！ Ban đầu chỉ là nhất thời thôi、 thật đấy！ Chỉ là đọc truyện tranh hơi ecchi rồi bị ảnh hưởng thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:shy,zizel,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà tranh ecchi rất tốt để nâng cao kỹ năng vẽ và cách thể hiện！ Thế là tôi cứ vẽ theo ý mình、 không biết từ lúc nào lại thành ra thế này！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102101/adv/atlas/stand_a,body:smile,ulusura,300,-200,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Theo ý mình、 hả…… Vậy là cô đang thú nhận đó là bản chất thật của mình sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:shy,zizel,-300,-120,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Aaa、 không phải！ Không phải vậy…… Nên là……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:shy,zizel,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù sao thì、 xin cô đừng nói với ai hết、 làm ơn！ Tôi sẽ làm bất cứ điều gì cô muốn mà！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

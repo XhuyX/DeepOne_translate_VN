@@ -1,0 +1,205 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11570300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm107.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_01.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ờ… ư… ừ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:surprise,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_02.mp3
+msg,1,<outline width=2 color=black>À、 xin lỗi。Tại có chút chuyện làm em bận tâm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_03.mp3
+msg,1,<outline width=2 color=black>Tại、 em thấy không yên… Này、 bộ đồ này、 kiểu dáng hơi… hở hang quá chăng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_04.mp3
+msg,1,<outline width=2 color=black>… Chật…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,kukuru,0.6_0.6,0.5,0
+anm,move,kukuru,0_-170,0.5,0
+endwait
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:shy,kukuru,0,-170,0.6,0,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_05.mp3
+msg,1,<outline width=2 color=black>À、 đ、 đâu có！ Không phải đâu！ Không phải là em mập lên đâu nhé！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:anger,kukuru,0,-170,0.6,0,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_06.mp3
+msg,1,<outline width=2 color=black>Ý em là、 theo nghĩa thông thường、 là đồ nhỏ size thôi！ Tuyệt đối、 tuyệt đối！ Tuyệt đối không phải là em mập lên、 xin đừng hiểu lầm！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,kukuru,0.5_0.5,0.5,0
+anm,move,kukuru,0_-130,0.5,0
+endwait
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_07.mp3
+msg,1,<outline width=2 color=black>Em vẫn luôn cố gắng giữ dáng mà。Nhất là gần đây、 là… để… lỡ có bị nhìn thấy lúc nào cũng được…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_08.mp3
+msg,1,<outline width=2 color=black>— À mà、 chuyện đó để sau đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_09.mp3
+msg,1,<outline width=2 color=black>Bộ đồ này、 vòng ngực、 vòng eo… với lại、 cái… ở dưới nữa、 đều… gần như là vừa khít…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_10.mp3
+msg,1,<outline width=2 color=black>Khóa cài cũng nhỏ、 lỡ sơ sẩy là bung ra ngay…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Hmm…,Xin phép
+if,select_===_1,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,kukuru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:shy,kukuru2,0,0,0,0,,,,
+imgconf,kukuru2,kukuru1,0,260,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105207/adv/sound/fav105207_02_11.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>… À、 ừm… bị nhìn chằm chằm thế này、 thì em cũng hơi ngại…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105207/adv/sound/fav105207_02_12.mp3
+msg,1,<outline width=2 color=black>Không、 em cũng không hẳn là không thích kiểu 'chắc là anh mê em lắm đây' đâu nhỉ？ Nói là không có ý muốn quyến rũ thì cũng là nói dối…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105207/adv/sound/fav105207_02_13.mp3
+msg,1,<outline width=2 color=black>Quay đi quay lại、 em còn nghĩ là、 việc em không hề che giấu chuyện đang nghĩ bậy cũng dễ thương nữa chứ…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105207/adv/sound/fav105207_02_14.mp3
+msg,1,<outline width=2 color=black>Th、 thôi thì cứ nhìn mặt nhau mà nói chuyện đi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_028.mp3
+wait,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,kukuru1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:shy,kukuru2,0,0,0,0,,,,
+imgconf,kukuru2,kukuru1,0,-150,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105207/adv/sound/fav105207_02_15.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ê… hya！？ Đ、 đợi đã、 móc ngón tay vào đó làm gì！ Đừng có kéo！ Em、 em sợ nó bung ra thật đấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105207/adv/sound/fav105207_02_16.mp3
+msg,1,<outline width=2 color=black>Nếu cái khóa này mà hỏng thì em tiêu rồi！？ Em sẽ thành con mụ hở hang lộ hàng mất！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105207/adv/sound/fav105207_02_17.mp3
+msg,1,<outline width=2 color=black>Ấy、 ây da、 ây da！ Giờ anh còn tỏ vẻ như 'cũng được đấy' nữa chứ！ L、 lộ hàng…！？ Đợi đã、 đợi em mười giây！ Để em chuẩn bị tinh thần！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105207/adv/sound/fav105207_02_18.mp3
+msg,1,<outline width=2 color=black>Khoan đã、 đừng có chuẩn bị tinh thần gì hết！ Bình tĩnh lại đi！ Ừm、 được rồi！ Lộ hàng thì để lần sau nhé…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_19.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ư… Trước hết、 cả hai mình cùng bình tĩnh đã… Một lần、 mình cùng cool ngầu nào、 anh bạn。Mấy chuyện hở hang này、 ít nhất là về R'lyeh rồi tính…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:surprise,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_20.mp3
+msg,1,<outline width=2 color=black>— Ê、 hứa nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:surprise,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_21.mp3
+msg,1,<outline width=2 color=black>À、 ừ、 hứa。Về R'lyeh rồi thì chuyện hở hang—</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105207/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105207/adv/sound/fav105207_02_22.mp3
+msg,1,<outline width=2 color=black>Khoan đã、 em đang bị bắt hứa cái gì thế này！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

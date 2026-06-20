@@ -1,0 +1,227 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11760302.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_01.mp3
+name,<outline width=2 color=black>Nanaba</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À、 phải rồi… Ta có chút chuyện muốn xác nhận、 được chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_02.mp3
+msg,1,<outline width=2 color=black>Đứng yên đó một lát… Với lại、 đừng có rời mắt khỏi ta đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_063.mp3
+spriteatlas,download/character/103813/adv/atlas/stand_b,body:smile,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_03.mp3
+msg,1,<outline width=2 color=black>—— Xoẹt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_purple,em1,default,animation,0,-200,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+sprite,download/bg/bg_11760302.jpg,bg,0,0,2,1
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11760302.jpg,0,255
+endwait
+playse,/download/sound/se/se_055.mp3
+anm,scale,bg,1_1,0.4,0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+spriteoff,bg,0.5
+endwait
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:smile,nanaba,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_04.mp3
+name,<outline width=2 color=black>Nanaba</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khừ khừ、 né được à。Ừm、 phản ứng khá tốt đấy。Dù chưa dùng hết sức、 nhưng vẫn phản ứng lại được đòn của ta、 còn né được nữa chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_05.mp3
+msg,1,<outline width=2 color=black>Không tệ、 ngươi ngày càng hợp gu ta đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: …Ta hơi bất ngờ đấy。,Lựa chọn 2: Ta biết ngay mà。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:unique,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_06.mp3
+name,<outline width=2 color=black>Nanaba</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khừ khừ、 ít ra ta còn báo trước hẳn hoi、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_07.mp3
+msg,1,<outline width=2 color=black>Nếu muốn dạy về tinh thần luôn sẵn sàng chiến đấu、 thì nên đánh úp mới đúng。Nhưng ta nghĩ làm thế thì hơi quá đáng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:unique,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_08.mp3
+msg,1,<outline width=2 color=black>Mà nhìn động tác vừa rồi、 có vẻ ngươi cũng rèn luyện thể chất rất tốt、 mắt cũng tinh hơn… Hay là ta lo thừa rồi nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:surprise,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_09.mp3
+name,<outline width=2 color=black>Nanaba</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hừm、 đã đoán ra rồi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:unique,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_10.mp3
+msg,1,<outline width=2 color=black>Ra là vậy。Ừm、 nói cách khác là tâm đầu ý hợp nhỉ。Hai ta hiểu nhau đến mức này、 thật là ngại quá đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:smile,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_11.mp3
+name,<outline width=2 color=black>Nanaba</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khừ khừ、 đừng có làm mặt khó chịu thế。Đùa thôi、 chỉ là đùa thôi mà。Đòn vừa rồi、 nếu ngươi không né được thì ta đã dừng lại rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_12.mp3
+msg,1,<outline width=2 color=black>Ta muốn xác nhận sự trưởng thành của ngươi… chỉ là nói cho hay thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:unique,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_13.mp3
+msg,1,<outline width=2 color=black>Gần đây、 ta có cảm giác thời gian ngươi dành cho ta ít đi một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:unique,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_14.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 tự mình lên tiếng đòi được quan tâm、 thì thật là đáng xấu hổ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_15.mp3
+msg,1,<outline width=2 color=black>Tóm lại、 chỉ là muốn làm nũng thôi。Ngươi không phải là kẻ hẹp hòi đến mức để bụng chuyện này、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:smile,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_16.mp3
+msg,1,<outline width=2 color=black>Hãy rộng lượng mà chấp nhận sự ích kỷ của ta đi。Nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm034.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:surprise,nanaba,0,-130,0.7,0.5,,,,
+endwait
+playvoice,1,download/character/103813/adv/sound/fav103813_03_17.mp3
+msg,1,<outline width=2 color=black>Ối。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:unique,nanaba,0,-130,0.7,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_18.mp3
+msg,1,<outline width=2 color=black>Khừ khừ、 bị ôm thật rồi sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:normal,nanaba,0,-130,0.7,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_19.mp3
+msg,1,<outline width=2 color=black>À、 vui quá。Được ôm trong vòng tay ngươi thế này。Khiến ta nhận ra mình là phụ nữ đến mức không thể nào khác được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:normal,nanaba,0,-130,0.7,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_20.mp3
+msg,1,<outline width=2 color=black>Nhưng… ta vẫn cứ là một kẻ ích kỷ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:smile,nanaba,0,-130,0.7,0,,,,
+playvoice,1,download/character/103813/adv/sound/fav103813_03_21.mp3
+msg,1,<outline width=2 color=black>Đừng có nói những lời buồn bã như 'kết thúc' nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,nanaba1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:normal,nanaba2,0,0,0,0,,,,
+imgconf,nanaba2,nanaba1,0,-278,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103813/adv/sound/fav103813_03_22.mp3
+msg,1,<outline width=2 color=black>Ưm… Chụt… Chụt、 chụt chụt… Ưm、 phì phì。À、 thật là、 ngươi đúng là… Chụt、 chụt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_a,body:normal,nanaba2,0,0,0,0,,,,
+imgconf,nanaba2,nanaba1,0,-278,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103813/adv/sound/fav103813_03_23.mp3
+msg,1,<outline width=2 color=black>Thật là một người đàn ông tuyệt vời… Chụt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

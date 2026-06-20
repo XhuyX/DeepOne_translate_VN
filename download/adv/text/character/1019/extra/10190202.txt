@@ -1,0 +1,99 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,
+endwait
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:sad,siruvi,25,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm… Đầu óc và mí mắt nặng trĩu。Nhưng mà、 thêm chút nữa thôi… Ối！？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:surprise,siruvi,25,-120,0.5,0,,,,
+spine,download/adv/spine/Mark3,em1,default,animation,0,120,160,0.65,0.7,0
+shake,0.5,0.3,5,5
+wait,1.5
+endwait,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:sad,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 à、 là cậu à… Xin lỗi、 tôi va phải cậu。Chắc là tôi hơi đãng trí một chút。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_02.mp3
+clickwait,,,,,,,,,,,
+spriteoff,em1,0,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À thì… Thực ra là tôi chưa ngủ từ hôm qua。Mải mê nghiên cứu quá、 đến khi để ý thì trời đã sáng mất rồi…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Giờ thì tôi hơi bí ý tưởng、 nên đi dạo cho khuây khoả một chút。Phải quay lại nghiên cứu ngay mới được…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Ơ、 cậu có vẻ muốn nói gì đó nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_05.mp3
+clickwait,,,,,,,,,,,
+select,選択肢1 「ちゃんと休んだ方がいい,選択肢2 「どうしてそんなに頑張るのか
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm、 cậu nói phải đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 có những lúc mình không thể dừng lại、 chỉ muốn thêm một chút nữa、 một chút nữa thôi、 đúng không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhất là khi có ý tưởng mới lóe lên trong đầu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:sad,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thật là… Sao một ngày chỉ có hai mươi tư tiếng đồng hồ chứ。Bất tiện chết đi được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đến cả thời gian ngủ、 thời gian ăn cũng thấy phí nữa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_10.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:sad,siruvi,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm… Mà chuyện này cũng chẳng có gì to tát đâu。Vì tôi thích làm thế mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nghiên cứu của tôi là để tiến gần hơn đến chân lý của Nguyên thư Pnakotic。Chút liều lĩnh là cần thiết。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Phải、 cho dù thân này có ra sao đi nữa… Khuhuhu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_13.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie Suomalainen</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nghiên cứu Nguyên thư Pnakotic thú vị、 ý nghĩa và đầy sức hút đến mức tôi phải say mê như vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Càng đến gần chân lý、 tôi lại càng muốn biết、 muốn hiểu hơn nữa… Không ai có thể ngăn cản được cảm xúc này。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Phải、 ngay cả tôi… Nó khiến tôi say mê đến mức quên cả mục đích ban đầu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ôi… Nói chuyện lan man quá rồi。Sắp đến lúc tôi phải về phòng nghiên cứu rồi…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:smile,siruvi,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nói chuyện với cậu giúp tôi khuây khoả hơn nhiều。Vậy nhé、 hẹn gặp lại。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101902/adv/sound/fav101902_06_18.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

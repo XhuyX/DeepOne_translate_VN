@@ -1,0 +1,201 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11310303.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm094.mp3,0,
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103521/adv/sound/fav103521_02_01.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hừ hừ hừ hừ hừ hừ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:smile,norn,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Line_center,em1,default,animation,1,0,0,1,1.0,0
+playvoice,1,download/character/103521/adv/sound/fav103521_02_02.mp3
+msg,1,<outline width=2 color=black>Fiiish！ Hôm nay、 chuyện phiêu lưu câu cá mỹ thiếu nữ của Norn-chan chính thức bắt đầu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+sprite,download/bg/bg_11310303.jpg,bg,0,-250,3,1
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Water,em1,default,animation,0,0,-200,1,1.0,0
+playse,/download/sound/se/se_050.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_03.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ôi dào、 toàn cá to cá to。Tài năng bất ngờ của Norn-chan đã được dịp phát huy rồi nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_04.mp3
+msg,1,<outline width=2 color=black>Dù chỉ là buộc dây vào cành cây、 mà cá cứ cắn câu liên tục thế này、 tài năng của mình đúng là đáng sợ。Rốt cuộc Norn-chan là thiên tài đến mức nào đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_05.mp3
+msg,1,<outline width=2 color=black>Ơ kìa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,norn,0.6_0.6,0.5,0
+anm,move,norn,0_-130,0.5,0
+endwait
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:smile,norn,0,-130,0.6,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_06.mp3
+msg,1,<outline width=2 color=black>Ơ kìa ơ kìa ơ kìa ơ kìa、 anh hai、 anh làm sao thế？ Cá chẳng câu được con nào hết nhỉ、 dạo này không ổn hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:normal,norn,0,-130,0.6,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_07.mp3
+msg,1,<outline width=2 color=black>Đành chịu thôi。Để em gái dễ thương này nhường cho anh trai tội nghiệp kia vài con。Nhớ biết ơn đấy nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Phục quá đi……,Có gian lận không đấy？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:smile,norn,0,-130,0.6,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_08.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Cơ mà！ Đây gọi là tài năng đó nhé cậu bé！ Thôi nào！ Đừng có nản chí vậy chứ！ Nào！ Hãy cảm tạ tấm lòng từ bi của Norn-chan đi！ Hừ hừ hừ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:sad,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103521/adv/sound/fav103521_02_09.mp3
+msg,1,<outline width=2 color=black>Ôi đau đau đau！ Khoan đã、 anh hai、 đừng có túm đầu em rồi xiết chặt thế、 đau lắm！ Á à à à à！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,black1,0.2
+spriteoff,norn2,0.2
+endwait,,,,,,,,,,,
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:anger,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_10.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khặc、 ừ…… thua rồi cay cú nên động tay động chân hả！ Phản đối bạo lực！ Đối xử với em gái phải bằng tình thương và sự dịu dàng hơn nữa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_11.mp3
+msg,1,<outline width=2 color=black>Anh hai thật chẳng ra sao、 đáng lẽ phải yêu thương Norn-chan với tình cảm em gái hơn chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:smile,norn,0,-130,0.6,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_12.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Á ha ha！ Nào có đâu、 vì mình thua nên mới nói bừa thế thôi、 đừng có mà đổ oan chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:unique,norn,0,-130,0.6,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_13.mp3
+msg,1,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0.2
+endwait
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0.5,,,,
+endwait
+playvoice,1,download/character/103521/adv/sound/fav103521_02_14.mp3
+msg,1,<outline width=2 color=black>……Em có gian lận gì đâu nà。Có dùng ma thuật hay pháp thuật gì nà。Anh nghĩ nhiều rồi nghĩ nhiều rồi。Em gái、 không nói dối。Okey？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_15.mp3
+msg,1,<outline width=2 color=black>Thôi thì、 mấy chuyện nhỏ nhặt đó bỏ qua đi！ Á ha ha ha！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_16.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tạm thời、 thử nướng mấy con cá vừa câu được xem sao。Phải đi nhặt mấy cành cây khô làm củi đã。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_17.mp3
+msg,1,<outline width=2 color=black>Ở giữa thiên nhiên、 nướng và ăn con cá mình tự câu được、 nói sao nhỉ、 lãng mạn thật đấy nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_18.mp3
+msg,1,<outline width=2 color=black>Kiểu nghỉ cuối tuần thế này cũng chẳng tệ nhỉ。Mà、 lại còn là anh trai ở bên cạnh nữa chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_19.mp3
+msg,1,<outline width=2 color=black>Vui thế này、 chắc chắn là hạnh phúc rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_20.mp3
+msg,1,<outline width=2 color=black>Phù phù。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103521/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103521/adv/sound/fav103521_02_21.mp3
+msg,1,<outline width=2 color=black>Nào、 anh hai。Đi nhặt củi thôi nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

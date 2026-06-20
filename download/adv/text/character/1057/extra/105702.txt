@@ -1,0 +1,202 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rosalie1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:normal,rosalie2,0,0,0,0,,,,
+imgconf,rosalie2,rosalie1,0,-440,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105703/adv/sound/fav105703_02_01.mp3
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Lại hôm nay nữa…… liệu người đó có đến nói chuyện với kẻ như mình không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:normal,rosalie2,0,0,0,0,,,,
+imgconf,rosalie2,rosalie1,0,-440,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105703/adv/sound/fav105703_02_02.mp3
+msg,1,<outline width=2 color=black>……Đúng là người kỳ lạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:normal,rosalie2,0,0,0,0,,,,
+imgconf,rosalie2,rosalie1,0,-440,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105703/adv/sound/fav105703_02_03.mp3
+msg,1,<outline width=2 color=black>Không ghê tởm mình…… không ghét bỏ mình…… lại còn nhìn mình bằng ánh mắt dịu dàng đến thế、 đúng là người kỳ quặc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:normal,rosalie2,0,0,0,0,,,,
+imgconf,rosalie2,rosalie1,0,-440,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105703/adv/sound/fav105703_02_04.mp3
+msg,1,<outline width=2 color=black>……Lại hôm nay nữa、 mình có thể nói chuyện được không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:unique,rosalie,0,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_05.mp3
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ehe……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:shy,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_06.mp3
+msg,1,<outline width=2 color=black>——！？ A、 á、 đ-đừng có xuất hiện đột ngột như thế……！ M-mình sẽ giật mình đấy……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:shy,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_07.mp3
+msg,1,<outline width=2 color=black>…………Mà này、 cậu ở đó từ lúc nào thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Hôm nay tôi cũng đến để nói chuyện đây。,Cười thêm lần nữa đi？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:shy,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_08.mp3
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>A、 ư、 ưưư…… C-cái nụ cười đó là sao chứ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:shy,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_09.mp3
+msg,1,<outline width=2 color=black>K-không phải đâu！ Vừa nãy không phải、 k-không phải…… Đúng、 chỉ là một câu nói đùa thôi！ Một câu nói đùa tự lẩm bẩm、 thế thôi……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_10.mp3
+msg,1,<outline width=2 color=black>……Làm ơn、 hãy quên đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:shy,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_11.mp3
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ách……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:shy,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_12.mp3
+msg,1,<outline width=2 color=black>M-mình không có cười…… Tuyệt đối không có chuyện mình cười vì mong được nói chuyện với cậu、 không hề có một chút nào như thế đâu……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:shy,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_13.mp3
+msg,1,<outline width=2 color=black>Cho dù có thấy gì đi chăng nữa、 đ-đó cũng là cậu nhìn nhầm thôi……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:shy,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_14.mp3
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Thật là…… sao cứ ở cạnh cậu là mình lại trở nên…… mất tự nhiên thế này chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_15.mp3
+msg,1,<outline width=2 color=black>……Mình là Phù thủy Ghen tị đấy。Một kẻ ác đã đầu độc và giết chết những người thân yêu của mình…… Bình thường、 người ta sẽ tránh xa mình chứ…… Việc muốn thân thiết với mình、 thật không bình thường chút nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:sad,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_16.mp3
+msg,1,<outline width=2 color=black>Thôi thì、 mình chỉ là người kế thừa ký ức của Rosalie cùng với Rorugudoasu、 chứ không hoàn toàn là cô ấy、 và cảm xúc cũng không đi kèm theo……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:normal,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_17.mp3
+msg,1,<outline width=2 color=black>……Dù vậy、 việc cậu cố gắng tiếp cận một kẻ như mình vẫn thật kỳ lạ。Tiếp cận Phù thủy Ghen tị、 cậu không thấy nguy hiểm sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:normal,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_18.mp3
+msg,1,<outline width=2 color=black>Một phù thủy điên loạn đã giết chết cả chị gái lẫn người đàn ông mình yêu。Một người phụ nữ như thế đang tồn tại bên trong mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:normal,rosalie,0,-150,0.5,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_19.mp3
+msg,1,<outline width=2 color=black>Dù cho sự can thiệp tinh thần của Rorugudoasu không có tác dụng、 nhưng dù sao thì、 bình thường người ta cũng phải có ít nhất một chút ghê tởm chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:surprise,rosalie,0,-170,0.6,0.5,,,,
+endwait
+playvoice,1,download/character/105703/adv/sound/fav105703_02_20.mp3
+msg,1,<outline width=2 color=black>Ách、 s-sao cậu lại đến gần…… Cậu đã nghe mình nói sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:sad,rosalie,0,-170,0.6,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_21.mp3
+msg,1,<outline width=2 color=black>Cậu nói là muốn nói chuyện、 vậy mà lại chẳng hiểu gì cả。Thật sự là một người kỳ lạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:sad,rosalie,0,-170,0.6,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_22.mp3
+msg,1,<outline width=2 color=black>……Mình nghĩ là mình đã nói những lời như thể đang chế giễu cậu。Vậy mà sao cậu vẫn cười như thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:sad,rosalie,0,-170,0.6,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_23.mp3
+msg,1,<outline width=2 color=black>Thật là…… nhìn lại mấy trăm năm qua、 mấy chục cuộc đời của Rosalie、 cũng chẳng có ai giống cậu cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105700/adv/atlas/stand_a,body:smile,rosalie,0,-170,0.6,0,,,,
+playvoice,1,download/character/105703/adv/sound/fav105703_02_24.mp3
+msg,1,<outline width=2 color=black>……Thật sự là、 mình chẳng thể nào hiểu nổi cậu chút nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

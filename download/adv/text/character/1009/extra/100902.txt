@@ -1,0 +1,105 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:normal,irina,-20,-220,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Chuyện gì vậy？ Tự dưng gọi tôi lại。Hôm nay truy tìm mệt rồi、 tôi chỉ muốn về phòng sớm thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:anger,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>…Quan hệ với Katia ư？ Sao mày lại bận tâm chuyện đó？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_02.mp3
+clickwait,,,,,,,,,,,
+select,Trông như cô ghét bỏ cô ấy。,Trông như cô đang né tránh cô ấy。
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:anger,irina,-20,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đương nhiên rồi。Con bé đó là Thánh nữ của Thánh Lễ Giáo… nói thẳng ra là một biểu tượng。Làm sao tôi có thể có thiện cảm với một người như thế được chứ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:sad,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thật đáng tiếc、 tôi chưa từng được dạy rằng 'Hãy yêu kẻ thù của mình'。Kẻ thù thì phải nghiền nát không chút khoan nhượng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:anger,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Tình thế bây giờ buộc tôi phải bỏ qua cô ta như một chiến lực、 nhưng đáng lẽ ra、 cô ta phải là đối tượng bị loại bỏ đầu tiên。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_05.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:normal,irina,-20,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải 'trông như'、 mà là tôi thực sự đang né tránh cô ấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi và Thánh Lễ Giáo là kẻ thù của nhau… Vậy mà、 mày nghĩ tôi có thể thân thiết với một người đang giữ vị trí Thánh nữ sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_07.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:normal,irina,-20,-220,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi thì、 không muốn dính dáng gì đến con bé đó nếu có thể。Bởi vì、 cô ta thật khó chịu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Làm gì có lý do nào khác。Sao mày lại nghĩ vậy？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_09.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:sad,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ là cảm giác thôi à… Lại một cái cớ qua loa nữa rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nhưng… xem ra、 trực giác của mày không tệ nhỉ。Cứ tưởng mày là một kẻ lờ đờ thôi chứ…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_11.mp3
+clickwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm026.mp3,0.5,,
+endwait
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:normal,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>…Cha mẹ tôi là tín đồ của Thánh Lễ Giáo。Từ nhỏ tôi cũng đã tuân theo giáo lý và tin tưởng… hoàn toàn không có chút nghi ngờ nào。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Với tôi、 tin vào giáo lý của Thánh Lễ Giáo là điều hiển nhiên、 và dâng lời cầu nguyện lên Nguyên thư Pnakotic đã trở thành một phần của cuộc sống thường ngày。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vì thế、 việc được chọn làm thị nữ cho Katia… Thánh nữ của Thánh Lễ Giáo、 thật sự là một vinh dự lớn。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng… điều khiến tôi vui hơn cả là cha mẹ đã rất đỗi vui mừng và tự hào về tôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:sad,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nhưng… chính Thánh Lễ Giáo đã giết hại cha mẹ tôi。Bọn chúng đã dùng mạng sống của tín đồ cho một nghi thức ma thuật nào đó。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:anger,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Bị cướp đi cha mẹ、 tôi mới vỡ lẽ ra。Giáo lý của Thánh Lễ Giáo toàn là dối trá… và chỉ mang lại bất hạnh cho con người mà thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:unique,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thật ngu ngốc… tôi của ngày xưa、 đúng là vậy。Và cả con bé đang giữ vị trí Thánh nữ trong cái Thánh Lễ Giáo đó nữa… tôi thấy ghê tởm。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:normal,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Chính vì thế… giờ đây、 không thể nào quay lại mối quan hệ như xưa được nữa。Trên đời này、 có những thứ một khi đã vỡ tan、 thì không bao giờ lành lại được đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_19.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:sad,irina,-20,-220,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Rồi mày cũng sẽ biết thôi。Thế giới này… chỉ toàn những sự thật xấu xí、 và sự ngu dốt thậm chí còn là một tội lỗi đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100900/adv/sound/fav100900_02_20.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

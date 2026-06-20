@@ -1,0 +1,113 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010300.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm019.mp3,0,,
+endwait
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:shy,ouka,-10,-120,0.47,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Chậc、 phải nói là vẫn như mọi khi nhỉ…… Hôm nay trên giường、 em cũng ra dáng lắm đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Này…… mình nói chuyện chút được không？ Tôi chưa muốn về phòng ngay đâu…… ở lại với tôi một lát nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thỉnh thoảng、 tôi kể cho em nghe chuyện cũ nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi từng có một người mà tôi nhất định muốn bảo vệ…… muốn giúp đỡ họ hết lòng…… Cái mặt đó là sao？ Ngạc nhiên lắm à？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_04.mp3
+clickwait,,,,,,,,,,,
+select,Hơi ghen tị một chút。,Nghĩ kỹ lại thì cũng không hẳn。
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:shy,ouka,-10,-120,0.47,0,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ghen tị、 à…… Tôi phải nói sao về cảm giác này đây nhỉ……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Được ai đó bày tỏ cảm xúc chân thật、 thì ra lại là một điều hạnh phúc đến vậy。Không ngờ trong tôi vẫn còn những cảm xúc như thế này……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:shy,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Việc nhớ lại được điều đó cũng là nhờ em à…… Tôi biết ơn lắm。Cảm ơn em nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_07.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:surprise,ouka,-10,-120,0.47,0,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Cái gì vậy。Em nói là có thể tưởng tượng được、 à…… Tôi tự biết rõ mình không hợp để bảo vệ ai đó đâu。Đừng có nịnh bợ tôi chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Nhưng、 nếu em thật sự nghĩ như vậy thì――</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_09.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:smile,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi cũng muốn đáp lại tấm lòng của em…… Tôi cũng nghĩ như vậy đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_10.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:sad,ouka,-10,-120,0.47,0,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Người mà tôi từng muốn bảo vệ、 đã không còn trên đời này nữa rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ ngỡ như chuyện từ rất lâu rồi…… Là chuyện hồi tôi còn làm cái công việc không hợp chút nào、 như làm chỉ huy trong một đội lính đánh thuê nọ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đội trưởng lúc đó là bạn thân của tôi…… cậu ấy đã cho tôi、 kẻ chỉ biết dùng bạo lực、 một lý do để chiến đấu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:sad,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu chúng tôi thể hiện sức mạnh、 nó sẽ trở thành sức mạnh răn đe、 dẫn đến hòa bình…… cậu ấy tin vào lý tưởng đó、 cứ thế mà lao thẳng về phía trước…… Tôi bị thu hút một cách lạ kỳ bởi hình ảnh đó。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Vì vậy、 tôi đã quyết định sẽ trở thành thanh kiếm của cậu ấy。Tôi thật lòng nghĩ rằng mình phải bảo vệ cậu ấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bằng cách chiến đấu vì cậu ấy、 tôi cứ nghĩ mình cũng đang làm gì đó vì hòa bình…… Tôi đã say sưa với lý tưởng và chính bản thân mình。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đắm chìm trong chiến đấu…… cảm giác muốn bảo vệ dần dần trở nên mờ nhạt。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:sad,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Vì vậy…… tôi đã không thể bảo vệ cậu ấy。Trong lúc tôi đang chiến đấu trên chiến trường、 cậu ấy đã bị giết。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_18.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu tôi ở bên cạnh、 đã có thể cứu cậu ấy。……Đã có thể bảo vệ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_19.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi là loại người như vậy đấy。Rốt cuộc…… chỉ biết chiến đấu、 không thể bảo vệ ai cả…… Tôi đã thất bại rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_20.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù vậy、 tôi vẫn…… muốn bảo vệ em。Từ góc nhìn của em、 tôi đúng là người cực kỳ không đáng tin cậy rồi nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_21.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Ngốc、 tại sao nghe xong chuyện vừa rồi mà em lại nói ra lời 'tin tưởng' chứ。Em đúng là…… thật là……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_22.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Tôi sẽ không lặp lại cùng một sai lầm hai lần đâu。Lần này tôi nhất định sẽ bảo vệ điều quan trọng。Tôi thề với người mà tôi đã không thể bảo vệ ngày xưa…… Vì vậy、 hãy yên tâm nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_11_23.mp3
+clickwait,,,,,,,,,,, 
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

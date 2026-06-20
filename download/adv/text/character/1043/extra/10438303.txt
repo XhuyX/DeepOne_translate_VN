@@ -1,0 +1,213 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11840302.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm141.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104383/adv/atlas/stand_a,body:unique,zero,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_01.mp3
+name,<outline width=2 color=black>Zero</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À、 anh này… từ nãy đến giờ cứ lợi dụng sơ hở để quấy rối em、 anh không thể dừng lại được sao…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104383/adv/atlas/stand_a,body:unique,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_02.mp3
+msg,1,<outline width=2 color=black>Có giả vờ ngây thơ đến mấy cũng vô ích thôi！ Không chỉ lưng với đùi、 mà còn cả mông nữa… Sao anh lại thành ra như vậy chứ…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104383/adv/atlas/stand_a,body:sad,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_03.mp3
+msg,1,<outline width=2 color=black>À、 không、 về chuyện trưởng thành、 có lẽ em không có quyền lên tiếng vì em đã không ở bên cạnh anh…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Muốn chạm vào và cảm nhận nhiều hơn,Vì anh quá quyến rũ！
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104383/adv/atlas/stand_a,body:shy,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_04.mp3
+name,<outline width=2 color=black>Zero</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hả、 ừm… m、 muốn… muốn nhiều hơn… thẳng thắn quá…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104383/adv/atlas/stand_a,body:shy,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_05.mp3
+msg,1,<outline width=2 color=black>C、 cầu xin như vậy… thì、 em cũng không ghét、 nhưng mà、 dù sao đi nữa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104383/adv/atlas/stand_a,body:shy,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_06.mp3
+msg,1,<outline width=2 color=black>Nhưng mà… có lẽ anh đang cố gắng rút ngắn khoảng cách với em… Em cũng cảm thấy gần gũi với anh…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104383/adv/atlas/stand_a,body:shy,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_07.mp3
+msg,1,<outline width=2 color=black>Ư、 ư…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104383/adv/atlas/stand_a,body:shy,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_08.mp3
+name,<outline width=2 color=black>Zero</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đ、 đừng… đừng có nói lớn tiếng như vậy chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104383/adv/atlas/stand_a,body:shy,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_09.mp3
+msg,1,<outline width=2 color=black>Hay nói đúng hơn、 quy、 quyến rũ… Anh、 lại đi đối xử với em như vậy… Ôi、 thôi nào</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104383/adv/atlas/stand_a,body:shy,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_10.mp3
+msg,1,<outline width=2 color=black>Những lời như vậy、 đáng lẽ phải nói với người khác mới đúng chứ… Thật sự、 tại sao lại…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104383/adv/atlas/stand_a,body:shy,zero,0,-120,0.5,0,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_11.mp3
+name,<outline width=2 color=black>Zero</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>……Th、 thì là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,zero,0.6_0.6,0.5,0
+anm,move,zero,0_-140,0.5,0
+endwait
+
+
+spriteatlas,download/character/104383/adv/atlas/stand_a,body:shy,zero,0,-140,0.6,0,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_12.mp3
+msg,1,<outline width=2 color=black>Lại đây một chút…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104383/adv/sound/fav104383_03_13.mp3
+name,<outline width=2 color=black>Zero</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chuyện này… không phải、 em không có ý đó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,,,
+sprite,download/character/104383/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104383/adv/sound/fav104383_03_14.mp3
+name,<outline width=2 color=black>Zero</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chỉ là、 anh cứ、 cứ… nói những chuyện như vậy một cách nghiêm túc。Cứ khăng khăng không được thì、 có chút đáng thương…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104383/adv/sound/fav104383_03_15.mp3
+msg,1,<outline width=2 color=black>Với lại、 cũng một phần là do bộ dạng này của em。Bắt anh phải chịu đựng một mình cũng không đúng…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104383/adv/sound/fav104383_03_16.mp3
+msg,1,<outline width=2 color=black>N、 nên là… chỉ nhìn thôi nhé？ Tuyệt đối không được chạm vào những chỗ nhạy cảm đâu đấy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104383/adv/sound/fav104383_03_17.mp3
+msg,1,<outline width=2 color=black>……Tuy nhiên、 đùi hay bụng、 với lại、 mông nữa… thì cũng đã bị chạm vào rồi、 có khi chạm thêm lần nữa cũng không sao</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104383/adv/sound/fav104383_03_18.mp3
+msg,1,<outline width=2 color=black>……Chỉ một chút thôi nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104383/adv/sound/fav104383_03_19.mp3
+msg,1,<outline width=2 color=black>Thật sự、 chỉ một chút thôi… ngoan ngoãn thì、 anh hứa được chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+sprite,download/character/104383/image/main.png,card2,-100,-60,1.2,0.5,,,,
+endwait,,,,,,,,,,,
+spriteoff,card1,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_20.mp3
+msg,1,<outline width=2 color=black>……Nếu không giữ lời hứa、 thì lát nữa em sẽ mắng đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+sprite,download/character/104383/image/main.png,card3,-150,-100,1.3,0.5,,,,
+endwait,,,,,,,,,,,
+spriteoff,card2,0
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104383/adv/sound/fav104383_03_21.mp3
+msg,1,<outline width=2 color=black>Đã、 hiểu chưa…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+spriteoff,all,1
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104383/adv/sound/fav104383_03_22.mp3
+name,<outline width=2 color=black>Zero</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

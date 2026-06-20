@@ -1,0 +1,93 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:anger,lid,25,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Gì đây？ Có việc gì với tôi à？ Nếu không có thì đừng có bắt chuyện với tôi chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cứ mỗi lần chạm mặt là lại bị bắt chuyện、 phiền phức thật đấy。Tôi đang định thảnh thơi sau bữa ăn mà。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì sao？ Đã bắt chuyện rồi thì chắc là có gì muốn nói đúng không？ Tôi nghe đây、 nói đi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_03.mp3
+clickwait,,,,,,,,,,,
+select,Không có việc gì đặc biệt。,Vì tình hình thế này nên tôi muốn hợp tác。
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:anger,lid,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hả？ Vậy thì sao lại cứ quấn lấy tôi？ Phiền phức hết sức。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không có gì khó chịu hơn việc bị ép phải dính vào những chuyện mình không quan tâm đâu、 phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Môi trường đã đủ căng thẳng rồi、 đừng có làm tôi thêm bực bội nữa chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_06.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tình hình thế này à？ À、 ý là bị nhốt trong R'lyeh đó hả。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_07.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:anger,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Mà、 đúng là tình hình không mấy hay ho thật。。。Nhưng dù sao thì vẫn tốt hơn là bị cậu làm quen một cách suồng sã。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hợp tác ư？ Cậu định hợp tác về cái gì？ Dù sao thì、 bất kể tình hình thế nào、 tôi cũng không có ý định thân thiết với người khác đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi đã thấy không ít người chết vì kiểu đó rồi đấy。Fufu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_10.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu cậu muốn thân thiết với ai đó đến vậy thì đi tìm người khác mà làm quen đi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_11.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi hoàn toàn không có hứng thú với bất kỳ ai ngoài tôi và Milva。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:smile,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 nhưng mà。。。nếu không phải là con người、 mà là thú cưng thì tôi có thể nuôi cậu đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Năng lực của cậu cũng có chút hữu ích、 và nếu cậu ngoan ngoãn làm thú cưng của tôi thì tôi sẽ cưng chiều cậu kha khá đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hừm。。。cái vẻ mặt đó là sao？ Chẳng lẽ cậu đang nghĩ cũng không tệ lắm đâu đấy chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Haa。。。Cậu đúng là một người kỳ lạ hết sức。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Được rồi。Nếu cậu muốn dính dáng đến tôi đến vậy thì cứ việc。Nhưng mà、 tôi nói trước nhé。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:smile,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi khá là nghiêm khắc trong việc huấn luyện thú cưng đấy。Cậu hãy chuẩn bị tinh thần đi nhé。。。Fufufu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_03_18.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

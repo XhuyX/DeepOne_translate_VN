@@ -1,0 +1,285 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait
+bg,color_0_0_0,0,255
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm024.mp3,0.5,
+endwait
+mask,beat1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102302/adv/atlas/stand_b,body:sad,beat,0,0,0,0,,,,
+imgconf,beat,beat1,0,-950,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sao lại ra nông nỗi này？</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Dù là anh đi chăng nữa、 nếu anh định làm hại cô ấy thì—</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>……Haa。Tôi hiểu rồi。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Sau này、 tôi phải xin lỗi tử tế mới được……</outline></size>,,,,,,,,,
+clickwait
+stopbgm,0.5
+endwait
+spriteoff,all,0.5
+msg,0,
+name,
+endwait
+bg,download/bg/bg_10970104.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,
+endwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,0,-190,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cả ở đây cũng không có sao…… Beatrice đó、 rốt cuộc đã biến đi đâu chứ。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,0,-190,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hay là、 nàng ấy thật sự đã trở về lãnh địa của mình？ Thà như vậy còn hơn、 có lẽ sẽ thành chuyện cười cho ta……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,0,-190,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nàng ấy là người duy nhất ta có thể trò chuyện được lúc này。Phải mau chóng tìm thấy nàng ấy thôi。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:anger,vi,0,-190,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>——Mà thôi。</outline></size>,,,,,,,,,
+clickwait
+spriteoff,vi,0.5
+endwait
+sprite,download/monster/20020105/adv/image/20020105.png,angel,0,-250,1.35,0.5
+playse,/download/sound/se/se_023.mp3
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>————！</outline></size>,,,,,,,,,
+clickwait
+spine,download/adv/spine/Fire1,em1,default,animation,0,0,-10,0.8,1,0
+playse,/download/sound/se/se_038.mp3
+wait,0.4
+shake,0.1,4,20,20,
+msg,1,<size=30><outline width=2 color=black>—……</outline></size>,,,,,,,,,
+clickwait
+spriteoff,angel,1
+playse,/download/sound/se/se_025.mp3
+endwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:anger,vi,0,-190,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thật sự là、 mấy cái hư ảnh này cứ liên tục xuất hiện hết cái này đến cái khác。</outline></size>,,,,,,,,,
+spineoff,em1,0
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,0,-190,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Sự hao tổn do liên tục chiến đấu cũng hơi khó chịu rồi。Nếu được、 ta không muốn đối phó thêm nữa……</outline></size>,,,,,,,,,
+clickwait
+stopbgm,0.5
+endwait
+spriteoff,vi,0.5
+endwait
+playbgm,/download/sound/bgm/bgm007.mp3,0.5,
+endwait
+sprite,download/monster/20020105/adv/image/20020105.png,angel2,-300,-200,1.35,0.5
+sprite,download/monster/20020105/adv/image/20020105.png,angel3,300,-200,1.35,0.5
+sprite,download/monster/20020105/adv/image/20020105.png,angel,0,-300,1.35,0.5
+playse,/download/sound/se/se_023.mp3
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>——————！</outline></size>,,,,,,,,,
+shake,0.1,4,20,20
+endwait
+clickwait
+spriteoff,angel,0.5
+spriteoff,angel2,0.5
+spriteoff,angel3,0.5
+endwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,0,-190,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Haizz、 người ta nói họa từ miệng mà ra quả không sai。Xem ra chúng chẳng quan tâm đến tình cảnh của ta。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:anger,vi,0,-190,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Được thôi…… Kẻ nào muốn bị ngọn lửa này thiêu đốt thì cứ bước ra đây！</outline></size>,,,,,,,,,
+clickwait
+spriteoff,vi,0.5
+endwait
+sprite,download/monster/20020105/adv/image/20020105.png,angel2,-300,-200,1.35,0.5
+sprite,download/monster/20020105/adv/image/20020105.png,angel3,300,-200,1.35,0.5
+sprite,download/monster/20020105/adv/image/20020105.png,angel,0,-300,1.35,0.5
+playse,/download/sound/se/se_023.mp3
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>————！</outline></size>,,,,,,,,,
+clickwait
+anm,scale,angel,1.7_1.7,0.5,0
+playse,/download/sound/se/se_023.mp3
+endwait
+spriteoff,angel,0.5
+spriteoff,angel2,0.5
+spriteoff,angel3,0.5
+endwait
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:anger,vi,0,-190,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>—Khụ！</outline></size>,,,,,,,,,
+clickwait
+spriteoff,vi,0.5
+stopbgm,0,
+endwait
+mask,bg2,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg2,0,0,,,0,1,1,0.5
+mask,xeno1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,0,0,0,0,,,,
+imgconf,xeno,xeno1,0,-400,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hỡi sấm sét、 hãy càn quét chúng đi！</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0
+endwait
+playbgm,/download/sound/bgm/bgm008.mp3,0,
+endwait
+sprite,download/monster/20020105/adv/image/20020105.png,angel2,-300,-200,1.35,0.5
+sprite,download/monster/20020105/adv/image/20020105.png,angel3,300,-200,1.35,0.5
+sprite,download/monster/20020105/adv/image/20020105.png,angel,0,-300,1.35,0.5
+endwait
+spine,download/adv/spine/Thunder1_yellow,em3,default,animation,0,0,0,1,1,0,,,,,,
+wait,0.4
+shake,0.2,4,20,20,,,,,,,,,,,,
+playse,/download/sound/se/se_024.mp3
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>—……</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:surprise,vi,300,-190,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái、 cái gì、 tia chớp vừa rồi là…… Chẳng lẽ、 Beatrice—</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,-300,-120,0.5,0.5,,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Suýt nữa thì nguy hiểm rồi。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:normal,vi,300,-190,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>—…… Ngươi、 rốt cuộc là ai？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,-300,-120,0.5,0,,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta là Zeno。Vừa nãy ngươi có nhắc đến Beatrice、 ngươi là người quen của Beatrice sao？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:normal,vi,300,-190,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nghe ngươi nói vậy、 xem ra ngươi cũng vậy。Vừa hay。Ta có chuyện muốn hỏi về Beatrice—</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,-300,-120,0.5,0,,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chuyện đó nói sau。Bây giờ phải giải quyết kẻ địch trước mắt đã、 nếu không thì không thể nói chuyện được đâu。</outline></size>,,,,,,,,,
+clickwait
+spriteoff,xeno,0.5
+spriteoff,vi,0.5
+endwait
+sprite,download/monster/20020105/adv/image/20020105.png,angel2,-300,-200,1.35,0.5
+sprite,download/monster/20020105/adv/image/20020105.png,angel3,300,-200,1.35,0.5
+sprite,download/monster/20020105/adv/image/20020105.png,angel,0,-300,1.35,0.5
+playse,/download/sound/se/se_023.mp3
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>——————！</outline></size>,,,,,,,,,
+clickwait
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,-300,-120,0.5,0.5,,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:anger,vi,300,-190,0.5,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thật dai dẳng。Mấy cái hư ảnh này đều như vậy sao？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,-300,-120,0.5,0,,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hư ảnh là sản phẩm mô phỏng trái tim con người do Nguyên thư Pnakotic tạo ra、 là đồ bỏ đi。Chúng chỉ có bản năng tìm kiếm những thứ mình thiếu。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Dù là những tồn tại có cùng nguồn gốc từ Dreamlands、 Debris lại có ý chí。Đối với những kẻ không có được điều đó、 ý chí hẳn là thứ gì đó rất chói mắt。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Dù có khao khát đến mấy、 đó cũng không phải là thứ có thể cướp đoạt từ người khác đâu。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:anger,vi,300,-190,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đồ bỏ đi…… những vong hồn không có ý chí sao。Nếu vậy、 ta có lẽ cũng gần giống chúng。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,-300,-120,0.5,0,,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hửm？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:anger,vi,300,-190,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta không biết bản thân mình là ai、 cũng chẳng biết nên tìm kiếm điều gì…… Về điểm này、 có lẽ ta còn trống rỗng hơn cả chúng。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,-300,-120,0.5,0,,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Chính sự giằng xé đó、 chẳng phải là ý chí không muốn giữ nguyên bản thân mình hiện tại sao？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:smile,xeno,-300,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trống rỗng ư。Nếu vậy、 chỉ còn việc lấp đầy thôi。Không có gì vướng bận phía sau、 đó là một điều khá đáng ghen tị đấy。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:surprise,vi,300,-190,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Đáng ghen tị、 đó lại là một lời nói bất ngờ đấy。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,-300,-120,0.5,0,,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngươi thấy khó chịu sao？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:normal,vi,300,-190,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Nếu vậy thì、 giờ này ta đã ném một quả cầu lửa vào ngươi rồi đấy。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:smile,xeno,-300,-120,0.5,0,,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì、 may quá。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:normal,xeno,-300,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ngươi còn chiến đấu được không？ Nếu không thể thì cứ nghỉ ngơi cũng được。Chừng này、 một mình ta cũng lo liệu được hết。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:normal,vi,300,-190,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hả、 đừng có khinh thường ta đấy…… Ngươi nghĩ ta sẽ rút lui khi nghe vậy sao？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102402/adv/atlas/stand_b,body:anger,xeno,-300,-120,0.5,0,,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Lời nói đáng tin cậy đấy。Vậy thì、 hãy cố gắng hết sức để không bị ta bỏ lại phía sau！</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:anger,vi,300,-190,0.5,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đồ ngốc。Đó là lời của ta mới đúng！</outline></size>,,,,,,,,,
+clickwait
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,1,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

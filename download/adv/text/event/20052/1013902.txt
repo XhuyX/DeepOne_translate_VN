@@ -1,0 +1,330 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11340300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi được、 vậy thì tôi nghĩ chúng ta nên bắt đầu hội thao rồi。。。Chắc chắn là phải có lời khai mạc trước tiên、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy nên、 xin mời lời khai mạc！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Hôm nay trời đẹp và trong xanh。。。,Hãy cùng có một hội thao vui vẻ mà không ai bị thương nhé！
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hình như có gì đó không đúng thì phải？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Có lẽ tôi cũng có lỗi vì đã bất ngờ giao phó cho cậu、 nhưng sao nghe cứ như bài phát biểu trong đám cưới vậy。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:sad,ridia,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao cái tên này lại có thể đột nhiên hăng hái như vậy chứ。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chẳng phải là tốt sao。Người ta nói những chuyện như thế này、 ai tận hưởng được thì người đó thắng mà。Chỉ là、 cái vừa rồi có vẻ không phải lời khai mạc cho lắm。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101706/adv/atlas/stand_a,body:normal,quinecy,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng là、 có thể khí thế rất tốt、 nhưng hoàn toàn không có lời nào liên quan đến khai mạc cả。Như vậy thì không thể gọi là lời khai mạc được、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi được rồi。Để cô bé Norn xinh đẹp hoàn hảo này sẽ đọc một lời khai mạc hoàn hảo cho mà xem。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,norn,0.75_0.75,0.5,0
+anm,move,norn,0_-150,0.5,0
+endwait
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:anger,norn,0,-150,0.75,0,,,,
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngay bây giờ、 Hội thao lớn R'lyeh xin được bắt đầu！ Toàn thể vận động viên、 hãy thi đấu công bằng、 hết mình nhé！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>………………Chỉ vậy thôi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,300,-120,0.5,0.5,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lời khai mạc thì chỉ cần thế này thôi mà。Nếu muốn、 tôi cũng có thể nghĩ ra một bài diễn văn dài dòng hơn đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 cũng đỡ hơn là phải nghe một bài diễn văn dài dòng vô nghĩa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0.5,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À mà này。。。Hội thao、 cụ thể là một sự kiện làm những gì vậy ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đã gọi là hội thao thì đương nhiên là phải vận động rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ridia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy！ Hội thao chính là lễ hội tuổi trẻ đẫm mồ hôi và nước mắt。。。！ Là nơi tranh tài sảng khoái、 không có máu hay hận thù。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tuổi trẻ、 sao ạ。。。？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101706/adv/atlas/stand_a,body:sad,quinecy,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù đã nghe Norn-san giải thích、 nhưng em vẫn chưa hiểu rõ lắm ạ。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 những chuyện như thế này thì cứ làm thử sẽ nhanh hiểu hơn。Người ta nói trăm nghe không bằng một thấy mà、 vậy thì chúng ta hãy thử làm thật đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy nên、 trước tiên、 chúng ta hãy bắt đầu với một cuộc thi chạy đơn giản。。。chạy nước rút nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À、 nhân tiện。。。Dù tôi nghĩ không cần nói thì mọi người cũng hiểu rồi、 nhưng cấm sử dụng ma thuật đấy nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:sad,ridia,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Chậc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101706/adv/atlas/stand_a,body:normal,quinecy,300,-120,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lydia-san、 chị định dùng thật sao。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0,,,,
+anm,tint,quinecy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đương nhiên rồi。Để chiến thắng thì bất cứ thứ gì dùng được tôi cũng sẽ dùng。Đó là nguyên tắc thép của mọi cuộc thi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà。。。cũng không sao cả。Dù không dùng ma thuật、 tôi cũng không nghĩ mình sẽ thua các cậu đâu。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,quinecy,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:smile,milva,300,-120,0.5,0.5,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufu、 vậy thì em sẽ cổ vũ cho cậu ấy để cậu ấy không thua chị nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:anger,ridia,-300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Milva、 em lại đứng về phía cái tên đó hơn là chị sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:smile,milva,300,-120,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Bởi vì dù chị có tập luyện thường xuyên đến mấy、 nhưng nếu thi đấu bình thường、 em không nghĩ cậu ấy có thể thắng chị đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:smile,milva,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy nên、 em nghĩ ít nhất cũng nên cổ vũ cho cậu ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy sao。。。Cứ làm theo ý em đi。Đổi lại。。。nếu chị thắng、 thì chị sẽ phạt cả hai đứa cùng lúc、 được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101252/adv/atlas/stand_a,body:unique,ridia,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Milva sẽ bị phạt vì đã đứng về phía người khác ngoài chị、 còn cái tên đó、 sẽ bị phạt vì đã thể hiện sự yếu kém dù nhận được sự cổ vũ của Milva đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:smile,milva,300,-120,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufu、 đó đúng là một đề nghị rất tuyệt vời đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Này、 nếu cậu không cố gắng、 thì có vẻ như cả tôi cũng sẽ bị phạt đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi thì rất mong chờ hình phạt từ chị ấy。。。nhưng tôi cũng muốn cậu cố gắng thể hiện một khía cạnh thật ngầu đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101309/adv/atlas/stand_a,body:smile,milva,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi sẽ cổ vũ cho cậu thật nhiệt tình、 và nếu cậu thắng chị ấy、 tôi còn có phần thưởng cho cậu nữa。。。Vậy nên、 cố gắng lên nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

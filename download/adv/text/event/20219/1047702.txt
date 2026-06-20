@@ -1,0 +1,730 @@
+﻿// machine translate -- gemini-2.0-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11460300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20210201/adv/image/20210201.png,enemy1,-400,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy2,300,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy3,-50,-130,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181508/adv/atlas/stand_a,body:sad,julia,300,-120,0.5,0.5,,,,
+anm,tint,julia,150_150_150,0.0001,0
+spriteatlas,download/character/103512/adv/atlas/stand_c,body:sad,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Anh ơi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181508/adv/atlas/stand_a,body:sad,julia,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bình tĩnh đi、 Norn。Chỉ cần chúng ta sơ sẩy thôi、 anh ấy có thể bị thương đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:anger,metiru,-300,-20,0.5,0.5,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Methyl Mercury</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng không lẽ cứ khoanh tay đứng nhìn à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tóm lại、 mình xử lý bọn kia trước khi chúng kịp làm hại anh ấy là được chứ gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+playse,/download/sound/se/se_021.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181508/adv/atlas/stand_a,body:surprise,julia,300,-120,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ma lực này…… Từ lúc nào mà……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:normal,metiru,-300,-20,0.5,0,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Methyl Mercury</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mấy chuyện này、 quyết đoán vẫn hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20210201/adv/image/20210201.png,enemy1,-400,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy2,300,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy3,-50,-130,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Ice2,em1,default,animation,0,-400,0,1,1.0,0
+playse,/download/sound/se/se_040.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Ice2,em2,default,animation,0,300,0,1,1.0,0
+playse,/download/sound/se/se_040.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Ice2,em3,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_040.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait
+spineoff,em1,0
+spineoff,em2,0
+spineoff,em3,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105151/adv/atlas/stand_a,body:sad,mari,-300,-110,0.5,0.5,,,,
+anm,tint,mari,150_150_150,0.0001,0
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:surprise,metiru,300,-20,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Methyl Mercury</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105151/adv/atlas/stand_a,body:sad,mari,-300,-110,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chờ、 chờ đã Methyl！ Hình như không ăn thua thì phải！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0,,,,
+anm,tint,mari,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Methyl Mercury</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 dù ưu tiên tốc độ、 nhưng mà đòn vừa rồi mà không xước tí nào á……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mari,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103512/adv/atlas/stand_c,body:anger,norn,-300,-120,0.5,0.5,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vừa nãy、 ngay lúc đòn tấn công trúng、 em đã thấy có gì đó sai sai。Có lẽ、 cái hư ảnh này……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,metiru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103721/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Có lẽ、 cách tấn công thông thường không có tác dụng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Methyl Mercury</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ủa、 thế cũng được hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105151/adv/atlas/stand_a,body:sad,mari,-300,-110,0.5,0.5,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy、 làm sao để cứu anh ấy đây……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,metiru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181508/adv/atlas/stand_a,body:anger,julia,300,-120,0.5,0.5,,,,
+anm,tint,mari,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chờ đã。Nếu đòn tấn công thông thường không có tác dụng với hư ảnh trong không gian này、 vậy tại sao anh ấy lại bị bắt làm con tin？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105151/adv/atlas/stand_a,body:surprise,mari,-300,-110,0.5,0,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181508/adv/atlas/stand_a,body:anger,julia,300,-120,0.5,0,,,,
+anm,tint,mari,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu đòn tấn công của chúng ta vô hiệu、 thì việc bắt con tin là vô nghĩa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181508/adv/atlas/stand_a,body:anger,julia,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hơn nữa…… Sau cùng、 dù chúng ta đã tấn công、 nhưng nó vẫn chưa hề nhúc nhích。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20210201/adv/image/20210201.png,enemy1,-400,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy2,300,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy3,-50,-130,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103721/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/105151/adv/atlas/stand_a,body:sad,mari,-300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy chẳng lẽ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103721/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,mari,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có lẽ、 nó không có ý định làm hại anh hai。Ít nhất là bây giờ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mari,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103512/adv/atlas/stand_c,body:sad,norn,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy、 mục đích của nó không chỉ đơn thuần là hãm hại người khác……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20210201/adv/image/20210201.png,enemy1,-400,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy2,300,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy3,-50,-130,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105151/adv/atlas/stand_a,body:sad,mari,-300,-110,0.5,0.5,,,,
+anm,tint,mari,150_150_150,0.0001,0
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Methyl Mercury</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng là có cảm giác thù địch、 nhưng cũng không thấy nó định ra tay……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105151/adv/atlas/stand_a,body:sad,mari,-300,-110,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng nếu vậy、 cái hư ảnh kia muốn gì chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20210201/adv/image/20210201.png,enemy1,-400,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy2,300,-130,1.35,0.5,,,,
+sprite,download/monster/20210201/adv/image/20210201.png,enemy3,-50,-130,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181508/adv/atlas/stand_a,body:sad,julia,-300,-120,0.5,0.5,,,,
+anm,tint,julia,150_150_150,0.0001,0
+spriteatlas,download/character/103721/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Không hiểu sao、 em có cảm giác</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103721/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nó muốn mình chứng minh điều gì đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181508/adv/atlas/stand_a,body:surprise,julia,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chứng minh…… ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103721/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…… Em cảm nhận được một sự nghi ngờ rất lớn……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,julia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103512/adv/atlas/stand_c,body:sad,norn,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nghi ngờ？ Ý chị là、 nghi ngờ anh hai……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105151/adv/atlas/stand_a,body:sad,mari,300,-110,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bị nghi ngờ、 nhưng anh ấy đã làm gì chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mari,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:surprise,metiru,300,-20,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Methyl Mercury</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……A</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>Có khi nào liên quan đến White Day không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm182.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103512/adv/atlas/stand_c,body:surprise,norn,-300,-120,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Methyl Mercury</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tại ngay trước khi Truy Tìm、 em cũng nói chuyện này với anh hai mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thấy đó。Anh hai có rất nhiều người trao tình cảm、 và cũng có rất nhiều người trao tình cảm cho anh ấy、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu anh hai bị nghi ngờ và phải chứng minh điều gì đó、 thì điều đầu tiên em nghĩ đến là chuyện tình cảm trai gái…… đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>Với lại、 hôm nay là White Day mà？ Mọi người chắc cũng đã nhận quà đáp lễ từ anh hai rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mọi người vui vì món quà đó、 không chỉ vì bản thân món quà、 mà còn vì qua đó mọi người có thể cảm nhận được tình cảm của anh hai、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>White Day là ngày để xác nhận tình cảm như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu hiểu theo hướng đó、 thì có lẽ cái hư ảnh kia đang nghi ngờ phần tình cảm đó của anh hai、 em nghĩ vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,metiru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181508/adv/atlas/stand_a,body:sad,julia,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm、 nếu giả thuyết đó đúng thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105151/adv/atlas/stand_a,body:sad,mari,-300,-110,0.5,0.5,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nghi ngờ sự chân thành của anh ấy、 người có quá nhiều đối tượng để đáp lễ vào White Day、 kiểu vậy……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mari,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103512/adv/atlas/stand_c,body:sad,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ờ、 ờm、 Frau？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,julia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103721/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Có lẽ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103512/adv/atlas/stand_c,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>………………Anh ơi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: 'Lẽ nào tại mình……？,Lựa chọn 2: 'Anh quý tất cả mọi người！
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103512/adv/atlas/stand_c,body:sad,norn,-300,-120,0.5,0,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 em không nói thế… nhưng có lẽ một phần cũng do anh cứ trói buộc các cô gái quá mức…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105151/adv/atlas/stand_a,body:normal,mari,-300,-110,0.5,0.5,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy、 vậy thì、 nếu mình chứng minh được rằng cảm xúc của anh ấy không đáng bị trách cứ thì sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0.5,,,,
+anm,tint,mari,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Methyl Mercury</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chứng minh thế nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:unique,metiru,300,-20,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Methyl Mercury</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nghe mỗi câu thoại thôi thì anh ta đích thị là gã tồi bắt cá nhiều tay rồi biện bạch đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105151/adv/atlas/stand_a,body:normal,mari,-300,-110,0.5,0.5,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy、 vậy thì、 nếu mình chứng minh được rằng cảm xúc của anh ấy không đáng bị trách cứ thì sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+anm,tint,mari,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Methyl Mercury</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chứng minh thế nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteatlas,download/character/105151/adv/atlas/stand_a,body:surprise,mari,-300,-110,0.5,0,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thì、 thì là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,metiru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181508/adv/atlas/stand_a,body:normal,julia,300,-120,0.5,0.5,,,,
+anm,tint,mari,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chẳng phải chúng ta chỉ có thể thể hiện bằng lời nói và hành động thôi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mari,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103512/adv/atlas/stand_c,body:sad,norn,-300,-120,0.5,0.5,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nói là lời nói và hành động… Chẳng lẽ định gào lên 'em yêu anh' à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181508/adv/atlas/stand_a,body:smile,julia,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cũng không tệ đâu ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103512/adv/atlas/stand_c,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao em phải nghe con mèo trộm tình kia gào thét ái tình chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,julia,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Methyl Mercury</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105151/adv/atlas/stand_a,body:surprise,mari,-300,-110,0.5,0.5,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Methyl、 sao thế？ Em vẫn còn lo lắng gì à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:sad,metiru,300,-20,0.5,0,,,,
+anm,tint,mari,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Methyl Mercury</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 tự em nói ra thì cũng hơi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:normal,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Không、 thôi、 không có gì đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:smile,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>Trước mắt thì、 em không nghĩ mọi chuyện đơn giản đến mức chỉ cần gào lên 'em yêu anh' là xong đâu、 hay là mình kể xem anh đã tặng gì cho mọi người vào ngày White Day đi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:smile,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>Món quà anh tặng mọi người vui đến mức nào、 mọi người đã cảm thấy gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181609/adv/atlas/stand_a,body:smile,metiru,300,-20,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu kể ra、 mấy cái bóng ma kia sẽ hiểu được tình cảm của anh không hề hời hợt đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mari,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103512/adv/atlas/stand_c,body:unique,norn,-300,-120,0.5,0.5,,,,
+anm,tint,metiru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thế thì khác gì khoe khoang đâu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,metiru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181508/adv/atlas/stand_a,body:unique,julia,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 để em kể trước nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103512/adv/atlas/stand_c,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao chị hăng hái thế hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181508/adv/atlas/stand_a,body:smile,julia,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em chỉ muốn giải thoát cho anh ấy càng sớm càng tốt thôi ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103512/adv/atlas/stand_c,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,julia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xạo！ Chắc chắn là cô chỉ muốn khoe khoang thôi、 con mèo trộm tình kia……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

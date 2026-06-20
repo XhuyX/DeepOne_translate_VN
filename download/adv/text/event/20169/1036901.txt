@@ -1,0 +1,528 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11640300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm141.mp3,0,
+endwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+playse,/download/sound/se/se_034.mp3
+endwait,,,,,,,,,,,
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,milva_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:normal,milva_s2,0,0,0,0,,,,
+imgconf,milva_s2,milva_s1,0,-350,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… rốt cuộc vẫn không được rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0.5,,,,
+anm,tint,edel_s,150_150_150,0.0001,0
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:normal,milva_s,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chỉ một chút tấn công thế này thì không thể phá vỡ được sức mạnh đang phong tỏa không gian này rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:normal,milva_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thế này thì chúng ta còn chẳng thể di chuyển bình thường được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0,,,,
+anm,tint,milva_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chậc…… thật là khốn nạn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cứ tưởng bị lôi ra để giúp truy tìm、 ai dè lại dính vào cái rắc rối này……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đã thế còn phải ở cùng với cái tên này nữa chứ…… Thật sự là tệ nhất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:smile,milva_s,300,-120,0.5,0,,,,
+anm,tint,edel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufufu、 Edel。Chiếc váy đó rất hợp với cậu đấy。Phần ngực thì xuyên thấu、 đường xẻ đùi cũng táo bạo、 thật là gợi cảm。Tớ có khi còn thấy xao xuyến mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0,,,,
+anm,tint,milva_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mày không thể nào hiểu được mạch chuyện một chút à？ Với lại、 đừng có nói mấy lời ghê tởm đó nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:normal,milva_s,300,-120,0.5,0,,,,
+anm,tint,edel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này này、 cậu thấy sao？ Váy của tớ có dễ thương không？ Nhìn xem、 tớ cũng hở ngực thế này đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:normal,milva_s,300,-120,0.5,0,,,,
+endwait
+msg,0,<outline width=2 color=black>Dù ngực tớ không lớn như của Edel。Thế nhưng……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+imgconf,milva_s,,300,-120,,,-1,0.5,0.5,0
+endwait
+anm,move,milva_s,-100_-120,0.6,0
+endwait
+
+
+playse,/download/sound/se/se_020.mp3
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:smile,milva_s,-100,-120,0.5,0,,,,
+imgconf,milva_s,,-100,-120,,,-1,0.5,0.5,0
+endwait
+msg,0,<outline width=2 color=black>Nếu tớ cứ bám lấy cậu thế này、 như ôm tay ấy、 thì mềm mại lắm phải không？ Cậu có thấy xao xuyến không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0,,,,
+anm,tint,milva_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phiền phức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:smile,milva_s,-100,-120,0.5,0,,,,
+imgconf,milva_s,,-100,-120,,,-1,0.5,0.5,0
+endwait
+playse,/download/sound/se/se_020.mp3
+shake,0.2,4,15,15
+anm,move,milva_s,300_-120,0.6,0
+endwait
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:sad,milva_s,300,-120,0.5,0,,,,
+anm,tint,edel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kya…… Thật là、 tự dưng đẩy tớ ra như thế、 thật quá đáng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0,,,,
+anm,tint,milva_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Im đi。Có cái gì mà phải buồn bã đến mức tao phải dính lấy mày chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:normal,milva_s,300,-120,0.5,0,,,,
+anm,tint,edel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Biết đâu việc thân mật lại là điều kiện để giải trừ phong tỏa không gian này thì sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0,,,,
+anm,tint,milva_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì vĩnh viễn không thể thoát ra được rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:smile,milva_s,300,-120,0.5,0,,,,
+anm,tint,edel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thế là cậu sẽ ở bên tớ mãi mãi sao？ Nếu có Edel ở cùng thì điều đó cũng không tệ đâu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0,,,,
+anm,tint,milva_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chết tiệt…… Mày là thiên tài khiến tao phát điên à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:smile,milva_s,300,-120,0.5,0,,,,
+anm,tint,edel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufufu、 được trò chuyện cùng Edel、 tớ vẫn thấy rất vui。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm147.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,,,
+sprite,download/character/101383/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 Edel…… đến thế giới này、 cậu thấy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Một thế giới nằm ngoài những khả năng hạnh phúc。Một thế giới chưa từng biết đến tuyệt vọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Một thế giới mà có lẽ sẽ chạm tới một tương lai ấm áp mà chúng ta không thể nào tưởng tượng nổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tớ chỉ cần dõi theo thế giới này thôi là lòng đã rộn ràng rồi。Nhưng đồng thời、 tớ cũng thấy bất an。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tớ nghĩ rằng、 một người như Milva Lindman、 tốt nhất là nên biến mất thật nhanh thì mới tốt cho thế giới này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,,,
+sprite,download/character/100582/image/main.png,card2,0,0,2,0,,,,
+anm,fade,card2,0,0,0
+anm,scale,card2,1_1,1,0
+anm,fade,card2,255,1,0
+endwait,,,,,,,,,,,
+spriteoff,card1,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù vậy、 thế giới này vẫn không vứt bỏ cả một kẻ vô dụng như mày、 nên nó mới thành ra thế này đấy chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù có phiền phức đến mấy、 dù có nặng nề đến mấy、 họ cũng không vứt bỏ。Không buông tay。Họ tự mình quyết định những điều quý giá、 và kiên trì với những suy nghĩ đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Bởi vì họ đã làm được những điều mà chúng ta không thể、 nên thế giới này……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>——Không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù sao đi nữa、 những kẻ thất bại trong tuyệt vọng như chúng ta thì chẳng có gì để mà xen vào cả、 mà cứ đi đánh giá từng li từng tí thì cũng thật nực cười。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Vốn dĩ、 việc chúng ta xuất hiện thế này cũng đã là sai rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,,,
+sprite,download/character/101383/image/main.png,card1,0,0,1,0.5,,,,
+endwait,,,,,,,,,,,
+spriteoff,card2,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có lẽ vậy…… Nhưng họ lại nhặt nhạnh cả những người đáng lẽ đã kết thúc trong tuyệt vọng như chúng ta、 và cố gắng cho chúng ta thấy ngày mai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thật là phiền phức…… bởi vì tớ không thể phủ nhận sự tử tế đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Hơn nữa…… ở thế giới này、 tớ lại có thời gian để ở bên Edel lần nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thật ra thế này không tốt chút nào'——đáng lẽ tớ phải hét lên như vậy、 nhưng trái tim tớ lại tê liệt vì hạnh phúc、 không thể cất tiếng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Này、 Edel thì sao？ Chúng ta、 những người đáng lẽ đã kết thúc rồi、 lại đang cùng nhau trải qua thời gian ở một thế giới khác thế này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Cậu…… nghĩ sao về điều đó？ Cậu cảm thấy thế nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,,,
+sprite,download/character/100582/image/main.png,card2,0,0,1,0.5,,,,
+endwait,,,,,,,,,,,
+spriteoff,card1,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có hỏi mấy câu phiền phức đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Với lại、 dù mày có bày tỏ cảm xúc dài dòng đến mấy、 tao cũng chẳng quan tâm、 cũng chẳng muốn nghe。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Mấy chuyện như thế này、 không phải là thứ cần phải dùng lời lẽ để trả lời từng chút một đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,,,
+sprite,download/character/101383/image/main.png,card1,0,0,1,0.5,,,,
+endwait,,,,,,,,,,,
+spriteoff,card2,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 Edel。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>——Cậu là người bạn quý giá nhất của tớ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Edel thì sao？ Cậu nghĩ gì về tớ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,,,
+sprite,download/character/100582/image/main.png,card2,0,0,1,0.5,,,,
+endwait,,,,,,,,,,,
+spriteoff,card1,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Hừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Giờ này mà còn phải nói ra à、 đồ ngốc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0.5,,,,
+anm,tint,edel_s,150_150_150,0.0001,0
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:normal,milva_s,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufufu…… Edel thật không thành thật chút nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0,,,,
+anm,tint,milva_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Im đi、 đừng có luyên thuyên nữa、 mau tìm cách thoát ra đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:sad,milva_s,300,-120,0.5,0,,,,
+anm,tint,edel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tớ cũng rất muốn làm thế mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:sad,milva_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì chúng ta đã bị chia cắt ngay khi lặn vào Dreamlands、 nên tớ cũng muốn nhanh chóng xác nhận mọi người đều bình an……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:normal,milva_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 có vội vàng cũng chẳng ích gì、 chúng ta cùng nhau hợp tác để tìm ra cách giải quyết nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:smile,milva_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Này。Đằng nào cũng vậy、 hay là chúng ta nắm tay nhau tìm kiếm nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0,,,,
+anm,tint,milva_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:smile,milva_s,300,-120,0.5,0,,,,
+endwait
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_055.mp3
+endwait,,,,,,,,,,,
+anm,move,milva_s,500_-120,0.3,0
+endwait
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:normal,milva_s,500,-120,0.5,0,,,,
+anm,tint,edel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi chao、 tự dưng lao vào đánh người ta thế này đáng sợ thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0,,,,
+anm,tint,milva_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chậc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:normal,milva_s,500,-120,0.5,0,,,,
+imgconf,milva_s,,500,-120,,,-1,0.5,0.5,0
+endwait
+anm,move,milva_s,-100_-120,0.6,0
+endwait
+
+
+playse,/download/sound/se/se_020.mp3
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0,,,,
+anm,tint,milva_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:normal,milva_s,-100,-120,0.5,0,,,,
+imgconf,milva_s,,-100,-120,,,-1,0.5,0.5,0
+anm,tint,edel_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gì thế、 Edel♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-300,-120,0.5,0,,,,
+anm,tint,milva_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……………………Chết tiệt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,aika1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:normal,aika2,0,0,0,0,,,,
+imgconf,aika2,aika1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……À。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-100,-120,0.5,0.5,,,,
+anm,tint,edel_s,150_150_150,0.0001,0
+spriteatlas,download/character/101383/adv/atlas/stand_a,body:normal,milva_s,100,-120,0.5,0.5,,,,
+imgconf,milva_s,,100,-120,,,-1,0.5,0.5,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi chao……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100582/adv/atlas/stand_a,body:anger,edel_s,-100,-120,0.5,0,,,,
+anm,tint,milva_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Edelgard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Mày là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104110/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Edelgard……Milva……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,173 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11690300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm101.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_01.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Em có lẽ thích không khí của những khu vườn Nhật Bản thế này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_02.mp3
+msg,1,<outline width=2 color=black>Tôi không nói là mình hiểu được tinh thần 'wabi-sabi'… nhưng mà、 tôi cảm thấy được sự tỉ mỉ và cả sự tinh nghịch của người tạo ra…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_03.mp3
+msg,1,<outline width=2 color=black>Vườn châu Âu thì người ta chăm chút、 quản lý rất kỹ、 tôi thấy đẹp đấy、 nhưng mà hơi có cảm giác máy móc</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_04.mp3
+msg,1,<outline width=2 color=black>Điểm đó、 vườn Nhật thì、 dĩ nhiên là có bàn tay con người vào、 nhưng mà lại tận dụng tự nhiên、 có cả những phần để mặc cho sự phát triển và ngẫu nhiên nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_05.mp3
+msg,1,<outline width=2 color=black>Trong những hình dáng tự do và bất quy tắc、 có khi lại thấy được cả tấm lòng của con người。Tôi thấy những thứ như vậy thật là hay</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_06.mp3
+msg,1,<outline width=2 color=black>Không chỉ riêng vườn tược、 mà tôi nghĩ、 không chỉ gò bó theo khuôn mẫu、 đôi khi cũng cần có sự vui vẻ nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Chọn 1 「Cố gắng đừng đánh mất sự vui vẻ,Chọn 2 「Kết quả là 'Puchi' sao？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_07.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hừm… Trong trường hợp của anh、 tôi nghĩ dùng từ 'tự do' thì đúng hơn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_08.mp3
+msg,1,<outline width=2 color=black>Dĩ nhiên、 không phải là ý xấu đâu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_09.mp3
+msg,1,<outline width=2 color=black>Tôi thấy những người tự do như vậy… có chút trẻ con、 thật là đáng yêu và tuyệt vời</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:unique,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_10.mp3
+msg,1,<outline width=2 color=black>Hơn nữa、 anh lại còn là người chăm chỉ、 đến lúc cần thì còn cho thấy một bộ dạng rất ngầu nữa。Tính cả những điểm đó、 tôi thấy anh thật tuyệt vời</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:sad,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_11.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ưm… Thật khó để khẳng định hay phủ định</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:sad,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_12.mp3
+msg,1,<outline width=2 color=black>Puchi là một trường hợp đặc biệt、 là kết quả của sự ngẫu nhiên、 tôi đâu có cố tình tạo ra một tính cách như vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:sad,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_13.mp3
+msg,1,<outline width=2 color=black>Thật sự、 tại sao lại thành ra như vậy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_14.mp3
+msg,1,<outline width=2 color=black>Mà thôi、 tuy cũng gặp nhiều phiền phức、 nhưng mà、 tôi còn thấy yêu mến hơn nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_15.mp3
+msg,1,<outline width=2 color=black>Kìa、 người ta hay nói mà。Con cái càng khó bảo thì càng đáng yêu。Tôi nghĩ là kiểu như vậy đó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:unique,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_16.mp3
+msg,1,<outline width=2 color=black>À、 nghĩ như vậy、 thì tôi cũng bị anh làm cho quay cuồng suốt。Có lẽ、 tôi bị thu hút cả bởi những điểm đó chăng？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_17.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nếu bị lộ chuyện tôi nói chuyện này、 chắc chắn Norn sẽ lại gọi tôi là 'mèo đạo chích' mất</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_18.mp3
+msg,1,<outline width=2 color=black>Mà、 có lẽ cũng không sai</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_19.mp3
+msg,1,<outline width=2 color=black>—— Này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+playse,/download/sound/se/se_020.mp3
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:smile,julia,0,-170,0.7,0.5,,,,
+endwait
+playvoice,1,download/character/181511/adv/sound/fav181511_02_20.mp3
+msg,1,<outline width=2 color=black>Tôi đã khoác tay rồi đây… Dù sao thì、 ở một nơi như thế này、 lại còn ăn mặc khác ngày thường、 thì tôi có hơi vui vẻ một chút cũng được nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:normal,julia,0,-170,0.7,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_21.mp3
+msg,1,<outline width=2 color=black>Hơn nữa、 anh cũng không ghét việc ở gần tôi như thế này đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:shy,julia,0,-170,0.7,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_22.mp3
+msg,1,<outline width=2 color=black>…Tôi nói trước nhé、 tôi cũng đang hồi hộp lắm đấy、 nếu anh đối xử hờ hững quá thì tôi sẽ hờn dỗi đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181511/adv/atlas/stand_a,body:unique,julia,0,-170,0.7,0,,,,
+playvoice,1,download/character/181511/adv/sound/fav181511_02_23.mp3
+msg,1,<outline width=2 color=black>Vậy nên… bây giờ、 hãy quan tâm đến tôi nhiều vào nhé。Hừm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

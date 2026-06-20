@@ -1,0 +1,523 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11810300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm061.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,soka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:sad,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vừa bước vào Vùng Hư Vô là chúng ta đã lạc mất mọi người rồi、 nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 có ba ở đây thì tốt quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ba cứ yên tâm nhé。Con nhất định sẽ bảo vệ ba。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Ba tin tưởng con。,Mà khoan、 bộ đồ đó của con。。。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phù phù、 được ba tin tưởng、 con vui lắm。Cứ như có một sức mạnh to lớn đang trỗi dậy trong con vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Này ba？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu chúng ta gặp lại được mọi người rồi…… lúc đó、 ba khen con nhé。Kiểu như xoa đầu con ấy…… mấy cái đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:surprise,soka,0,-130,0.6,0.5,,,,
+endwait
+shake,0.5,3,12,0,soka
+msg,0,<outline width=2 color=black>À……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:shy,soka,0,-130,0.6,0,,,,
+msg,0,<outline width=2 color=black>Ưm、 thôi nào…… Xoa đầu con bây giờ thì sớm quá rồi。Ba có lẽ hơi nuông chiều con đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:smile,soka,0,-130,0.6,0,,,,
+msg,0,<outline width=2 color=black>……Tất nhiên、 con vui lắm chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:smile,soka,0,-130,0.6,0,,,,
+msg,0,<outline width=2 color=black>Được ba xoa như thế này、 con vui lắm và cũng dễ chịu nữa、 nhưng cứ thế này thì con sẽ không dừng lại được mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0.5,,,,
+endwait
+msg,0,<outline width=2 color=black>Trước hết、 chúng ta phải gặp lại mọi người đã…… Vậy nên、 thân mật đến đây thôi nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:unique,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>……À mà、 vừa rồi chỉ là thân mật thôi nhé。Phần thưởng khi con bảo vệ ba thành công thì lại là chuyện khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Phù phù…… Ba sẽ phải xoa đầu con thêm lần nữa sau này đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:surprise,soka,0,-110,0.5,0,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm…… Không chỉ không khí của Vùng Hư Vô này、 mà còn、 nói sao nhỉ、 cứ như vũ công của một đất nước sa mạc hay vùng khô hạn vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,soka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:surprise,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,950,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+wait,0.5
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,soka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:surprise,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,200,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+wait,0.5
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,soka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:surprise,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-270,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+wait,0.5
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:shy,soka,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 ba ơi…… Con biết ba tò mò、 nhưng mà、 ba nhìn chằm chằm hơi nhiều rồi đấy ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Nhưng mà、 ba say mê con đến thế、 con cũng hơi vui một chút…… Được độc chiếm ánh mắt của ba、 có lẽ cũng là một đặc quyền。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nói đùa thôi mà。Phù phù。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 chúng ta hãy tìm cách gặp lại mọi người thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà、 con nghĩ cũng không cần phải vội vàng đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mẹ và Norn chắc chắn sẽ không sao đâu、 còn Patricia cũng tự bảo vệ mình được mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mọi người đều mạnh lắm mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy nên、 ba ơi…… Vội vàng quá sẽ nguy hiểm đấy、 chúng ta cứ từ từ đi thôi nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:unique,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Đâu có、 con đâu có muốn tận hưởng thời gian bên ba đâu、 mấy cái cảm xúc đó―― chỉ có một tí xíu thôi à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Phù phù、 vì con đang ở bên ba mà。Ba tha thứ cho con một chút bướng bỉnh đó nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Với lại、 đây là lần đầu tiên con đến một nơi có không khí thế này、 lại còn mặc bộ đồ này nữa。Đã mất công đến đây rồi、 con muốn cùng ba ngắm nhìn mọi thứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 nói lại thì…… bộ đồ vũ công này tuyệt thật đấy。Đồ trang sức thì lộng lẫy、 nhưng mà…… cái đó……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:shy,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Lại còn hở nhiều nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:unique,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hừm。Ba ơi、 ba nhìn chằm chằm quá rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Ba có hứng thú với con trong bộ đồ này đến thế sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu vậy thì、 thôi、 ba cứ nhìn cũng được……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:surprise,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Ơ、 múa ư？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:shy,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>K-khoan đã、 ý ba là muốn con múa trong bộ đồ này sao？ Không、 cái đó thì thật sự là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ư ư…… Ba mà nhìn con với ánh mắt đầy mong đợi như thế thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Con có biết múa gì đâu chứ？ Trước đây con chỉ nhớ là có xem qua trong một cảnh phim nào đó thôi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Không sao đâu、 con đáng yêu mà！,Dù chỉ một chút thôi cũng được……！
+endif,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Thôi được rồi、 nếu ba đã nói đến thế…… Chỉ một chút thôi đấy nhé？ Dù có buồn cười cũng không được cười đâu đấy nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 ừm――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,,,
+sprite,download/character/104216/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>T-thế này、 được không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Hình như、 trong bộ phim đó、 là thế này…… À、 chắc cũng nên lắc mấy món trang sức nữa、 ừm、 thế này、 nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ưm…… Ba ơi、 thế nào ạ？ Chắc là khác hẳn với một điệu múa thực sự rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù vậy…… Đã mất công múa rồi、 con chỉ mong ba thấy con đẹp một chút thôi là con vui lắm rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>――Phù phù、 ba đang cười vui vẻ kìa。Ba thích điệu múa của con sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu vậy thì、 con thử cố gắng thêm chút nữa xem sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_28070106_stage_05.mp3
+flash,255,255,255,2,1.0,2.0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>――Ơ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Gì vậy、 phản ứng Ma Tố-Mana vừa rồi…… Cái này、 là gì――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+spriteoff,all,1
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,patrisia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101614/adv/atlas/stand_a,body:sad,patrisia2,0,0,0,0,,,,
+imgconf,patrisia2,patrisia1,0,-860,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chúng ta không chỉ lạc mọi người、 mà nơi này dường như cũng không phải một không gian bình thường。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101614/adv/atlas/stand_a,body:sad,patrisia2,0,0,0,0,,,,
+imgconf,patrisia2,patrisia1,0,-860,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Từ nãy đến giờ、 dù cố gắng di chuyển、 tôi vẫn có cảm giác lạ…… Hơn nữa、 dù có đi thế nào thì vẫn quay về căn phòng cũ、 liệu không gian này đã bị phong tỏa rồi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101614/adv/atlas/stand_a,body:sad,patrisia2,0,0,0,0,,,,
+imgconf,patrisia2,patrisia1,0,-860,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Để gặp nhau、 không phải khoảng cách vật lý、 mà là phong tỏa này、 mình phải làm gì đó sao…… Nhưng、 làm sao đây……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_28070106_stage_05.mp3
+flash,255,255,255,2,1.0,2.0
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,patrisia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101614/adv/atlas/stand_a,body:surprise,patrisia2,0,0,0,0,,,,
+imgconf,patrisia2,patrisia1,0,-1090,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>……――Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11810300.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:anger,soka,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái này、 không gian đang méo mó…… Không lẽ、 dịch chuyển không gian――chỉ mình tôi sao！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_28070106_stage_05.mp3
+flash,255,255,255,2,0.5,0.5
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104216/adv/atlas/stand_a,body:anger,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không được……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_015.mp3
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ba ơi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11810300.jpg,1,255
+endwait
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,patrisia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101614/adv/atlas/stand_a,body:surprise,patrisia2,0,0,0,0,,,,
+imgconf,patrisia2,patrisia1,0,800,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+wait,0.5
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,patrisia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101614/adv/atlas/stand_a,body:surprise,patrisia2,0,0,0,0,,,,
+imgconf,patrisia2,patrisia1,0,-150,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+wait,0.5
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,patrisia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101614/adv/atlas/stand_a,body:surprise,patrisia2,0,0,0,0,,,,
+imgconf,patrisia2,patrisia1,0,-550,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+wait,0.5
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101614/adv/atlas/stand_a,body:surprise,patrisia,0,-200,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả…… ơ、 cái gì vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101614/adv/atlas/stand_a,body:surprise,patrisia,0,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Sao lại là cô…… Chuyện này、 rốt cuộc là sao đây……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

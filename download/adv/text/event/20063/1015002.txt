@@ -1,0 +1,715 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11260300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lũ tép riu các ngươi đừng có mà tưởng bở khi tụ tập lại thành bầy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Dark,em1,default,animation,0,0,0,1,0.8,0
+playse,download/character/102002/se/se_c02004_ef_hit.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,tint,enemy1,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:normal,thisa,300,-100,0.5,0.5,,,,
+anm,tint,thisa,150_150_150,0.0001,0
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:normal,tabasa,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm、 dễ dàng quá nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:normal,thisa,300,-100,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tisa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm、 các ngươi cũng có ích phết đấy chứ。Đặc biệt、 Tisa sẽ ban cho các ngươi lời khen。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:unique,tabasa,-300,-120,0.5,0,,,,
+anm,tint,thisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Thật sự là cái quái gì thế này。Tôi đấm nó một phát được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102802/adv/atlas/stand_a,body:normal,miliam,-300,-220,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ừm…… tạm thời thì tôi có nhiều điều muốn hỏi。Trước hết、 tên cô là Tisa、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:normal,thisa,300,-100,0.5,0,,,,
+anm,tint,miliam,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tisa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy。Thôi thì、 Tisa sẽ cho phép các ngươi gọi là Tisa-sama。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102802/adv/atlas/stand_a,body:sad,miliam,-300,-220,0.5,0,,,,
+anm,tint,thisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Tôi xin phép từ chối。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,thisa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,miliam,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tisa…… tại sao lại chạy trốn vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102802/adv/atlas/stand_a,body:normal,miliam,-300,-220,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi nhớ là Ảo Ảnh hiếm khi chủ động tấn công Debris cùng sinh ra trong một Dreamlands、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:normal,thisa,300,-100,0.5,0.5,,,,
+anm,tint,miliam,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tisa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tisa làm sao mà biết mấy cái chuyện của bọn đó chứ。Chắc là tại Tisa dễ thương quá nên bọn chúng mới muốn trêu chọc thôi、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102802/adv/atlas/stand_a,body:sad,miliam,-300,-220,0.5,0,,,,
+anm,tint,thisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,miliam,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:unique,tabasa,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật sự là tôi đấm nó một phát được không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,thisa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đánh nhau là không tốt đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:sad,tabasa,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù sao thì cũng đã hạ gục Ảo Ảnh rồi、 vậy là được rồi chứ。Tôi không muốn dính dáng gì đến con bé này nữa、 chúng ta đi chỗ khác đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:sad,thisa,300,-100,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tisa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？ Khoan đã chứ、 nếu lại có Ảo Ảnh xuất hiện như lúc nãy thì các ngươi định làm gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:normal,tabasa,-300,-120,0.5,0,,,,
+anm,tint,thisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện đó thì tự lo đi chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:sad,thisa,300,-100,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tisa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ít nhất thì、 các ngươi không thể tử tế mà dẫn Tisa đến chỗ có Debris khác sao……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,-300,-120,0.5,0,,,,
+anm,tint,thisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao lúc nào cũng ra vẻ bề trên thế hả。Tôi nói cho mà biết、 chúng tôi cũng không rảnh rỗi đến mức đi giúp Debris đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:anger,tabasa,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Huống hồ là loại người như ngươi、 không chiến đấu mà thái độ thì lúc nào cũng hống hách。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102802/adv/atlas/stand_a,body:normal,miliam,-300,-220,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 dù là Debris đi nữa、 cô bé ấy có vẻ không chiến đấu được nhiều、 bỏ rơi một người như vậy thì thật không đành lòng……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,miliam,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:normal,tabasa,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không chiến đấu được…… ư。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,thisa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tabasa……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:normal,tabasa,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Để tôi thử một chút xem sao…… như thế này này！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:surprise,thisa,300,-100,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tisa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Dark,em1,default,animation,0,0,0,1,0.8,0
+playse,download/character/102002/se/se_c02004_ef_hit.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+spine,download/adv/spine/Water,em2,default,animation,0,0,0,1,1.3,0
+playse,/download/sound/se/se_050.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+spineoff,em2,0
+endwait,,,,,,,,,,,
+
+
+flash,255,255,255,2,0.3,1.0
+playse,/download/sound/se/conA.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102802/adv/atlas/stand_a,body:anger,miliam,-300,-220,0.5,0.5,,,,
+anm,tint,miliam,150_150_150,0.0001,0
+spriteatlas,download/character/180504/adv/atlas/stand_b,body:anger,thisa,300,-100,0.5,0.5,,,,
+name,<outline width=2 color=black>Tisa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tự dưng làm cái quái gì thế hả！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102802/adv/atlas/stand_a,body:anger,miliam,-300,-220,0.5,0,,,,
+anm,tint,thisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy chứ、 dù có tức giận đến mấy thì cũng không thể tự dưng tấn công người khác như thế……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,miliam,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:normal,tabasa,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ồn ào quá…… Tôi đã nương tay rồi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:normal,tabasa,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà nói thật、 dù tôi đã nương tay、 nhưng cô lại dễ dàng hóa giải ma thuật của tôi。Nói rằng cô không thể chiến đấu thì hơi vô lý đấy chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:sad,thisa,300,-100,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tisa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102802/adv/atlas/stand_a,body:normal,miliam,-300,-220,0.5,0.5,,,,
+anm,tint,thisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 tại sao lúc nãy cô cứ mãi chạy trốn vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:sad,thisa,300,-100,0.5,0,,,,
+anm,tint,miliam,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tisa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện đó thì không liên quan gì đến các ngươi cả mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,miliam,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:normal,tabasa,-300,-120,0.5,0.5,,,,
+anm,tint,thisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lý do gì thì tôi cũng chẳng quan tâm。Không cần phải bảo vệ con bé này。Thế nên、 có bỏ lại thì tôi cũng chẳng thấy áy náy gì。Chỉ cần biết vậy là đủ rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:unique,thisa,300,-100,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tisa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái、 gì……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:unique,thisa,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>K-Không sao cả mà？ Không cần dựa dẫm vào lũ yếu ớt như các ngươi、 Tisa vẫn ổn thôi…… Thậm chí còn thoải mái hơn ấy chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:sad,tabasa,-300,-120,0.5,0,,,,
+anm,tint,thisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nói sao nhỉ、 đúng là một đứa đáng tiếc từ tính cách cho đến đầu óc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:anger,thisa,300,-100,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tisa</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái、 cái gì hả ngươi、 ngươi đang khinh thường Tisa đấy à！？ Ngươi cũng lùn tịt mà cứ ra vẻ bề trên hoài vậy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:unique,tabasa,-300,-120,0.5,0,,,,
+anm,tint,thisa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lùn、 ư……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,thisa1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:anger,thisa2,0,0,0,0,,,,
+imgconf,thisa2,thisa1,0,0,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180504/adv/atlas/stand_a,body:anger,thisa,300,-100,0.5,0.5,,,,
+anm,tint,thisa,150_150_150,0.0001,0
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:unique,tabasa,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngươi cũng có khác gì đâu chứ……！ Dù là Debris như Vee hay Beatrice nói thì còn đỡ、 chứ ta không muốn nghe từ ngươi đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102802/adv/atlas/stand_a,body:normal,miliam,-300,-220,0.5,0.5,,,,
+anm,tint,miliam,150_150_150,0.0001,0
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A、 ừm…… đ-đánh nhau là không tốt đâu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102802/adv/atlas/stand_a,body:normal,miliam,-300,-220,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Quả thật、 cứ thế này thì không thể giải quyết được rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,vi1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi2,0,0,0,0,,,,
+imgconf,vi2,vi1,0,-980,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ê ê、 dừng lại、 dừng lại！ Ngươi có nghe không hả！ Này、 Ginbane、 đủ rồi、 thả ta xuống！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:surprise,vi2,0,0,0,0,,,,
+imgconf,vi2,vi1,0,-980,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Khụ！？ C-Cái gì、 Ginbane！ Tên ngốc này！ Dù vậy cũng đừng có mà buông tay giữa không trung chứ……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11260300.jpg,1,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:surprise,vi,300,1500,0.5,0,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_067.mp3
+anm,move,vi,-100_-1500,0.7,0
+endwait
+
+
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+playse,/download/sound/se/se_020.mp3
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102802/adv/atlas/stand_a,body:sad,miliam,-300,-220,0.5,0.5,,,,
+anm,tint,miliam,150_150_150,0.0001,0
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102802/adv/atlas/stand_a,body:sad,miliam,-300,-220,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>C-Cái gì！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:anger,vi,300,-1500,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+anm,move,vi,300_-240,1.0,0
+endwait
+
+
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái tên…… Ginbane！ Ngươi đang làm cái quái gì vậy！ Ngươi muốn tiêu diệt ta sao！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180404/adv/atlas/stand_a,body:normal,ginbane,-300,1500,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+
+anm,move,ginbane,-300_-160,1.0,0
+playse,/download/sound/se/se_046.mp3
+endwait
+anm,move,ginbane,-300_-150,0.1,0
+endwait
+
+
+spriteatlas,download/character/180404/adv/atlas/stand_a,body:unique,ginbane,-300,-150,0.5,0,,,,
+name,<outline width=2 color=black>Ginbane</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tại Vee bảo thả xuống mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:anger,vi,300,-240,0.5,0,,,,
+anm,tint,ginbane,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đây không phải là thả xuống、 mà là ném xuống đó！ Với lại ngươi、 chắc chắn là cố tình gọi sai tên ta đúng không？ Phải không！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180404/adv/atlas/stand_a,body:sad,ginbane,-300,-150,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ginbane</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao lại giận dữ thế、 rõ ràng là tôi đã đưa đi dạo trên trời mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:anger,vi,300,-240,0.5,0,,,,
+anm,tint,ginbane,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ta đã nói ngay từ đầu là phải điều chỉnh tốc độ rồi mà。Sao lại bay nhanh đến mức bỏ lại cả âm thanh phía sau chứ！ Nếu là dạo chơi trên trời thì phải bay chậm rãi hơn chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180404/adv/atlas/stand_a,body:sad,ginbane,-300,-150,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ginbane</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chậm thế mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,300,-240,0.5,0,,,,
+anm,tint,ginbane,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Haizz…… Ngươi đúng là…… Hử？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ôi、 các ngươi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,vi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chào Vee。Ginbane。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。Hôm nay các ngươi vẫn khỏe mạnh、 vậy là tốt rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180404/adv/atlas/stand_a,body:normal,ginbane,-300,-150,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ginbane</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chào Hallow。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,vi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,ginbane,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là Frau mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102002/adv/atlas/stand_b,body:sad,tabasa,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chỉ đúng có một chữ thôi mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180404/adv/atlas/stand_a,body:normal,ginbane,-300,-150,0.5,0,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ginbane</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Còn…… Debris đằng kia là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0.5,,,,
+anm,tint,ginbane,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi、 chẳng phải Tisa đó sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/180404/adv/atlas/stand_a,body:normal,ginbane,-300,-150,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ginbane</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Người quen ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,ginbane,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。Tisa là Debris mới nhất mà bọn ta biết đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

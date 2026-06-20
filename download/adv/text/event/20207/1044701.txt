@@ -1,0 +1,459 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11090300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm125.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:smile,frau,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nyan~♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:smile,norn,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nyan~♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:smile,norn,-300,-160,0.7,0.5,,,,
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:smile,frau,300,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nyaaan~♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hì hì hì、 thế nào、 anh trai？ Hai cô em gái đáng yêu của anh đã hóa thành mèo Halloween rồi đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đáng yêu ư？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Vuốt ve Norn,Ôm tim
+if,select_===_1,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:surprise,norn,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Á…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:smile,norn,0,-160,0.7,0,,,,
+msg,0,<outline width=2 color=black>Ưm、 phì phì… Gì đây、 hôm nay Norn-chan cũng chịu ngoan ngoãn để em cưng chiều sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:normal,norn,0,-160,0.7,0,,,,
+msg,0,<outline width=2 color=black>Em cứ nghĩ anh trai sẽ chỉ cưng chiều mỗi Frau rồi trêu chọc em thôi chứ、 có lẽ em đã nghĩ hơi quá rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:smile,norn,0,-160,0.7,0,,,,
+msg,0,<outline width=2 color=black>Anh trai~♪ Nyaaan、 cọ cọ~♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:smile,norn,0,-160,0.7,0,,,,
+msg,0,<outline width=2 color=black>Phì phì、 hôm nay anh trai có vẻ cưng chiều lắm nên em sẽ tha hồ làm nũng đây~♪</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ô、 anh trai…！？ Sao tự nhiên anh lại ôm ngực rồi khụy xuống thế！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm、 có vẻ như tình yêu dành cho cô em gái bé bỏng đã vượt quá giới hạn、 gây ảnh hưởng xấu đến tim rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tim… Không thể nào…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cần phải xử lý ngay lập tức！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:anger,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xử lý cái gì cơ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là hai cô em gái đáng yêu hôn chụt vào má！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:anger,frau,300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em hiểu rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,150,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,150,1280,200,0.5,,,,
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:normal,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0.5
+
+
+mask,black3,0,-50,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black4,0,0,0,0,,,,
+imgconf,black4,black3,0,0,,,0,1,1,0.5
+mask,frau1,0,-50,1280,200,0.5,,,,
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:normal,frau2,0,0,0,0,,,,
+imgconf,frau2,frau1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chụt♡</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phì phì、 thế nào、 anh trai？ Anh khỏe lại chưa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đương nhiên rồi。Làm gì có bệnh nào mà nụ hôn của cô em gái đáng yêu không chữa khỏi được chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105205/adv/atlas/stand_a,body:sad,kukuru,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Huhu、 họ tình tứ quá… Ghen tị ghê。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105205/adv/atlas/stand_a,body:shy,kukuru,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>À、 ừm、 tôi cũng muốn、 tình tứ một chút…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105205/adv/atlas/stand_a,body:shy,kukuru,300,-130,0.5,0.5,,,,
+anm,tint,kukuru,150_150_150,0.0001,0
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin cô đừng có cái vẻ mặt rõ ràng là có ý đồ đen tối mà lại gần anh trai tôi như thế。Giờ là lượt anh em chúng tôi tình tứ với nhau。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105205/adv/atlas/stand_a,body:shy,kukuru,300,-130,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao lại thế ạ！？ Chỉ、 chỉ một chút thôi cũng được、 xin hãy ban phát cho tôi đi mà！ Tôi xin cô đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kukuru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:unique,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cách nói chuyện của cô ấy lạ quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô gái này vui tính thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105205/adv/atlas/stand_a,body:anger,kukuru,300,-130,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nè、 nếu tôi được tình tứ thì tôi cũng sẽ cảm ơn đàng hoàng đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,kukuru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cảm ơn ư？ Chúng tôi nhường anh trai cho cô、 vậy cô định trả giá bằng thứ gì đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm112.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105205/adv/atlas/stand_a,body:anger,kukuru,300,-130,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi sẽ tặng bản gốc cuốn sổ tay của người đã lai tạo giống dưa lưới ở làng Cantalupo vào thế kỷ 16！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:surprise,norn,-300,-120,0.5,0,,,,
+anm,tint,kukuru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hự！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:surprise,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đ、 đó là… cái cuốn sổ tay gốc của giống dưa Cantaloupe、 thứ được coi là nền tảng cho sự phát triển của dưa lưới thành món tráng miệng ngọt ngào sao…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:surprise,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù tôi có hứng thú cá nhân、 nhưng hơn thế nữa、 đây rõ ràng là một tài liệu có giá trị văn hóa mà！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105205/adv/atlas/stand_a,body:anger,kukuru,300,-130,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hơn nữa！ Tôi còn tặng bản phác thảo của họa sĩ tượng trưng Gustave Moreau nữa！ Đã được giám định là hàng thật đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kukuru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>B、 bản phác thảo nghĩa là chưa ai từng thấy đúng không… Đ、 điều đó、 em hơi muốn xem、 một chút…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>S、 sao cô lại có thể thản nhiên đưa ra những bảo vật như vậy chứ…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105205/adv/atlas/stand_a,body:anger,kukuru,300,-130,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khi bị điều đi khắp nơi trên thế giới với tư cách là nhân viên quèn của Phòng Kiểm Soát Thông Tin、 tôi đã đào được chúng ở các cửa hàng đồ cổ！ Bằng kinh phí công ty！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:surprise,norn,-300,-120,0.5,0,,,,
+anm,tint,kukuru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đó là biển thủ chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105205/adv/atlas/stand_a,body:anger,kukuru,300,-130,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải mà！ Đây là những món quà tôi đã chuẩn bị để tặng thôi mà！ Thấy chưa、 giờ nó cũng có ích đó chứ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,kukuru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi công nhận cái gan của cô khi dám khăng khăng nói rằng thứ dùng để đổi lấy việc tình tứ với anh trai là kinh phí công ty。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kukuru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bản phác thảo của Moreau…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>F、 Frau、 bình tĩnh lại！ Dù có bị cám dỗ bởi những món hời hấp dẫn đến mấy、 chúng ta cũng không thể bán đứng anh trai được…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng、 nguồn gốc của dưa Cantaloupe… sổ tay… Khụ、 khụ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105205/adv/atlas/stand_a,body:unique,kukuru,300,-130,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này này、 được không đó？ Giao dịch hời như vầy chỉ có lúc này thôi đó nha？ Khách hàng ơi、 hãy cứ thành thật với cảm xúc của mình đi nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103522/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,kukuru,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gừ、 nư、 gừ nư nư…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,kukuru,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100605/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A、 hự hự hự…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102809/adv/atlas/stand_a,body:sad,miliam,0,-220,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Này、 chúng ta không bắt đầu Truy Tìm sao？ Có vẻ như có người đã bị lạc khi vào Vùng này、 tôi muốn nhanh chóng hội quân。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

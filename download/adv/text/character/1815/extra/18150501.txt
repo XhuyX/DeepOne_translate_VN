@@ -1,0 +1,178 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11030300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_01.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Dreamlands… Khi thực sự đặt chân đến đây、 ấn tượng khác hẳn so với những gì tôi được nghe kể</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_02.mp3
+msg,1,<outline width=2 color=black>Hai người… và cả Tabasa-sama nữa、 đã luôn tiếp tục hành trình truy tìm trong Dreamlands như vậy sao</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_03.mp3
+msg,1,<outline width=2 color=black>Tôi cũng phải cố gắng hết sức để có thể giúp được…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Đừng quá gắng sức,Lý do để cố gắng là gì？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:sad,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_04.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ư… phải rồi。Tôi không được để tâm trạng phấn khích thái quá mà hỏng việc</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:sad,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_05.mp3
+msg,1,<outline width=2 color=black>Nói đúng hơn、 tôi vẫn luôn như vậy。Những gì tôi cho là tốt lại thường làm tình hình tệ hơn…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:sad,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_06.mp3
+msg,1,<outline width=2 color=black>Xin lỗi。Thật sự rất cảm kích khi được anh nhắc nhở。Tôi sẽ càng phải tập trung hơn nữa、 và tiếp tục hành trình truy tìm phía trước</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_07.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…Tôi nghĩ、 nếu tôi cố gắng ở đây、 gánh nặng của Tabasa-sama sẽ nhẹ đi phần nào</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_08.mp3
+msg,1,<outline width=2 color=black>Mặc dù、 nếu Tabasa-sama biết tôi nói vậy、 chắc chắn sẽ bị bảo là đừng suy nghĩ quá nhiều</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_09.mp3
+msg,1,<outline width=2 color=black>Dù vậy… vì đã từng làm tổn thương trái tim của người đó、 ít nhất bây giờ tôi cũng muốn làm gì đó cho người đó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:sad,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_10.mp3
+msg,1,<outline width=2 color=black>Chắc chắn、 đây chỉ là sự áp đặt một chiều、 là hành động để tôi cảm thấy nhẹ nhõm hơn…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_11.mp3
+msg,1,<outline width=2 color=black>Nhưng tôi nghĩ、 làm gì đó vẫn tốt hơn là không làm gì cả。…Đó là lý do tôi cố gắng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_12.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Vậy nên… Petit。Hãy dò xét và điều tra xung quanh nhé</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,puti1,0,0,1280,250,0.5,,,,
+sprite,download/character/181504/image/adv1.png,puti2,0,0,0,0,,,,
+imgconf,puti2,puti1,0,0,,,0,1,1,0.5
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_gacha_012.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:normal,julia,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_13.mp3
+name,<outline width=2 color=black>Julia Melrose</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――Được rồi。Vì Petit sẽ điều tra được một phần、 chúng ta cứ từ từ tiến lên phía trước nhé</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:surprise,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_14.mp3
+msg,1,<outline width=2 color=black>Hả… anh quan tâm đến Petit sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_15.mp3
+msg,1,<outline width=2 color=black>Hô、 hô hô、 hô hô hô。Anh có hứng thú sao。Vậy sao、 anh có hứng thú sao</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_16.mp3
+msg,1,<outline width=2 color=black>Đúng rồi、 đàn ông thích robot mà。Petit nghiêm ngặt mà nói là golem、 nhưng cứ coi như vậy đi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:unique,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_17.mp3
+msg,1,<outline width=2 color=black>Nếu anh muốn、 tôi sẽ giải thích cho anh nhé？ Nếu là về Petit、 tôi có thể nói cả đêm cũng được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_18.mp3
+msg,1,<outline width=2 color=black>Trước hết là về thuật thức mà nó sử dụng、 hay là về cách tôi xây dựng phần cứng của Petit？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_19.mp3
+msg,1,<outline width=2 color=black>A、 tôi có quá nhiều điều muốn kể nên không biết phải bắt đầu từ đâu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_20.mp3
+msg,1,<outline width=2 color=black>Norn thì、 không hiểu sao、 cứ khi nào tôi muốn kể những chuyện như này là lại bỏ chạy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181505/adv/atlas/stand_a,body:smile,julia,0,-120,0.5,0,,,,
+playvoice,1,download/character/181505/adv/sound/fav181505_03_21.mp3
+msg,1,<outline width=2 color=black>Fufu、 hôm nay tôi sẽ kể cho anh nghe thật nhiều về bí mật chế tạo và sự hấp dẫn của Petit nhé</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

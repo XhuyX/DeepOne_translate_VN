@@ -1,0 +1,1024 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11700300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm170.mp3,0,
+endwait,,,,,,,,,,,
+
+
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Explosion,em1,default,animation,0,300,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,-300,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11760302.jpg,0,255
+endwait
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100219/adv/atlas/stand_a,body:anger,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-661,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ư… Ôi、 thôi đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,blizit1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100219/adv/atlas/stand_a,body:anger,blizit2,0,0,0,0,,,,
+imgconf,blizit2,blizit1,0,-861,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Đúng là phiền phức mà…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+slideinblack,0.1,left,
+endwait,
+sprite,download/adv/image/sla3.jpg,sla3,0,0,1,0,,,,
+playse,/download/sound/se/chaA.mp3
+slideoutblack,0.2,left,
+endwait,
+slideinblack,0.1,left,
+endwait,
+spriteoff,all,0,
+fadeoutblack,0.2,
+endwait,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10020403.jpg,0,255
+endwait
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+playse,/download/character/100780/se/se_c00780_skill_09.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100219/adv/atlas/stand_b,body:anger,blizit,300,-190,0.5,0.5,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+spriteatlas,download/character/104012/adv/atlas/stand_b,body:sad,clau,-300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù đã biết rồi、 nhưng mà… thật là…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100219/adv/atlas/stand_b,body:anger,blizit,300,-190,0.5,0,,,,
+anm,tint,clau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy ra đây là sức mạnh của Rosalie Bawdwin sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,clau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_b,body:anger,norn,-300,-120,0.5,0.5,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi có cảm giác năng lực mạnh hơn lúc nãy… Chắc là do Rosalie Bawdwin đã dung hợp sâu hơn rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,blizit,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103813/adv/atlas/stand_b,body:anger,nanaba,300,-100,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng nó sẽ không tiến triển thêm được nữa đâu。Lời của chúng ta chắc chắn đã đến được với Rosalie bên trong kia rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100219/adv/atlas/stand_b,body:anger,blizit,-300,-190,0.5,0.5,,,,
+anm,tint,nanaba,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giờ chỉ cần ngăn được 'cô ta' thôi… nhưng nói thì dễ、 làm thì khó đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rosalie1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105705/adv/atlas/stand_a,body:anger,rosalie2,0,0,0,0,,,,
+imgconf,rosalie2,rosalie1,0,-440,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—Ta thừa nhận。Khi nói chuyện với các ngươi、 trái tim của ta… và của Rosalie、 lại dao động。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_a,body:anger,rosalie2,0,0,0,0,,,,
+imgconf,rosalie2,rosalie1,0,-440,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nên đừng nói gì thêm nữa。Đừng cản trở ta。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+sprite,download/character/105705/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hay là、 các ngươi sẽ nói cho ta biết？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Lời nguyền của Rorugudoasu sẽ ra sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Giả sử 'ta' được cứu rỗi bởi những gì các ngươi áp đặt、 thì 'ta' tiếp theo sẽ ra sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Lại bị thế giới ghét bỏ nữa sao？ Một sự tồn tại tiện lợi đâu phải lúc nào cũng ở bên cạnh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Các ngươi nghĩ 'chúng ta' đã chết trong đau khổ、 biến mất mà không hề biết đến hy vọng、 bao nhiêu lần rồi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Một sự cứu rỗi vô trách nhiệm、 cứ thế áp đặt tương lai lặp lại điều đó… ta…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+spriteoff,all,1
+endwait,,,,,,,,,,,
+slideinblack,0.1,left,
+endwait,
+sprite,download/adv/image/sla3.jpg,sla3,0,0,1,0,,,,
+playse,/download/sound/se/chaA.mp3
+slideoutblack,0.2,left,
+endwait,
+slideinblack,0.1,left,
+endwait,
+spriteoff,all,0,
+fadeoutblack,0.2,
+endwait,,,,,,,,,,,
+sprite,download/character/100219/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải、 đúng vậy。Đúng như cô nói。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Những gì chúng tôi nói có lẽ là vô trách nhiệm。Vì chúng tôi không thực sự hiểu những gì cô đã trải qua。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng… về 'cô' đang ở đây lúc này、 tôi hiểu một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Cô lúc này、 cứ như thể đang cố gắng tuyệt vọng để từ bỏ điều mình không muốn từ bỏ vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Giả vờ không nhận ra cảm xúc của mình、 rồi cố chấp。Tôi biết rõ những người như vậy trông như thế nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Vì vậy… tôi không thể cứ thế chấp nhận lời cô nói với một câu 'vâng、 đúng vậy' được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Về những điều tôi đã sai lầm hết lần này đến lần khác、 tôi cũng có quyền lên tiếng một chút chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi tin rằng、 vì các 'cô' khác、 'cô' sẽ không từ bỏ mảnh hy vọng mà mình đã khó khăn lắm mới tìm thấy đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10020403.jpg,0,255
+endwait
+spriteoff,all,1
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:anger,rosalie,0,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0.5,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/character/100707/se/se_c00707_ef_hit.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+sprite,download/character/104012/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rốt cuộc thì tôi cũng chỉ là một ma đạo thư。Có lẽ tôi không thể thực sự thấu hiểu và sẻ chia với trái tim con người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thế nhưng… tôi không muốn vì thế mà đẩy cô ra、 nói rằng mình không biết gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi tìm kiếm sự rạng rỡ。Sức mạnh của con người、 ánh sáng từ trái tim họ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi tin rằng đó là một điều tuyệt vời。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu cô nói mình chưa từng có điều đó、 thì xin hãy biết rằng…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Việc cô không thể biết điều đó là do lỗi của chúng tôi… nhưng cũng chính vì thế mà tôi tha thiết mong muốn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu có thời gian、 chắc chắn lời nguyền của Rorugudoasu、 và cả vòng luân hồi、 sẽ có thể chọn một tương lai khác với hiện tại… Vì vậy、 xin cô hãy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Xin cô hãy biết rằng、 những gì chúng tôi đã cướp đi từ cô là gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi biết rằng mình đang ích kỷ、 không hiểu lòng người、 và nói những điều mà đối với cô là vô lý。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù vậy… xin cô hãy…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10020403.jpg,0,255
+endwait
+spriteoff,all,1
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:anger,rosalie,0,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0.5,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1.5,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,1
+endwait
+spineoff,em1,0
+endwait,,,,,,,,,,,,,,
+sprite,download/character/103813/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ta chẳng có mấy lời để nói với ngươi đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng mà… ta sẽ thề một điều。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu từ giờ trở đi、 mọi chuyện chẳng suôn sẻ gì cả、 Rorugudoasu lại khiến Rosalie luân hồi、 và một sự tồn tại như ngươi lại ra đời…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ta sẽ không từ chối ngươi、 kẻ là nỗi day dứt còn sót lại của bạn ta。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ta、 một Debris lang thang trong Dreamlands、 không biết từ giờ sẽ trải qua bao nhiêu thời gian nữa… nhưng ta hứa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chừng nào ta còn tồn tại、 ta sẽ nhìn nhận ngươi mà không liên quan đến lời nguyền đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu đã đến nước này、 ta sẽ nói chuyện với ngươi bao nhiêu tùy thích。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10020403.jpg,0,255
+endwait
+spriteoff,all,1
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:anger,rosalie,0,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>………………！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0.5,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_purple,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/character/103801/se/se_c03803_ef_hit.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,zizel_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100782/adv/atlas/stand_a,body:normal,zizel_s2,0,0,0,0,,,,
+imgconf,zizel_s2,zizel_s1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Phần của tôi、 đã kết thúc rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100782/adv/atlas/stand_a,body:normal,zizel_s2,0,0,0,0,,,,
+imgconf,zizel_s2,zizel_s1,0,-375,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Còn lại、 cô hãy nói đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+sprite,download/character/100714/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—Tôi xin lỗi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Vì đã không nghĩ đến cảm xúc của cô… vì đã không thể hiểu được nỗi khổ của cô。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Và… hơn nữa、 vì đã cản trở sự cứu rỗi mà cô mong muốn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi không muốn điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi không muốn ai đó phải bất hạnh vì bị gia tộc Bawdwin cuốn vào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ta xin lỗi vì những gì đã xảy ra với các em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ta cũng xin lỗi vì không thể phủ nhận khả năng sẽ có những người như em được sinh ra trong tương lai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ta không thể nào bỏ rơi 'em' đang ở đây、 không phải ai khác！ Bất kể lý do là gì！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù điều này là sự ngạo mạn của ta đi chăng nữa… Ta vẫn muốn cứu 'em'！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+spriteoff,all,1
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,zizel_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100782/adv/atlas/stand_a,body:normal,zizel_s2,0,0,0,0,,,,
+imgconf,zizel_s2,zizel_s1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Giselle</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rốt cuộc thì vẫn là vậy sao… Thật ngu ngốc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100782/adv/atlas/stand_a,body:normal,zizel_s2,0,0,0,0,,,,
+imgconf,zizel_s2,zizel_s1,0,-375,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Mà、 ta thấy rõ người mình nên nói chuyện hơn lúc nãy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100782/adv/atlas/stand_a,body:normal,zizel_s2,0,0,0,0,,,,
+imgconf,zizel_s2,zizel_s1,0,-375,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Với lại… liệu em ấy của hiện tại có muốn sự cứu rỗi mà em ấy của lúc nãy không muốn hay không…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100782/adv/atlas/stand_a,body:smile,zizel_s2,0,0,0,0,,,,
+imgconf,zizel_s2,zizel_s1,0,-375,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>…Thật là… Rắc rối thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10020403.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm138.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:anger,rosalie,0,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Câm mồm！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đừng… đừng nói những lời đó… Sự cứu rỗi như vậy、 tôi…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại sao… Lúc nãy、 tôi chỉ thấy phiền phức。Sao bây giờ… sâu trong tim tôi lại rung động… xao xuyến…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,300,-150,0.5,0.5,,,,
+anm,tint,rosalie,150_150_150,0.0001,0
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện này cũng không có gì lạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì em đã lần đầu tiên được chạm vào…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>—Thiện ý của con người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,300,-150,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thiện… ý…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,300,-150,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cái… gì… vậy…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,rosalie,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cứ hỏi người đó đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Này、 người ta đến kìa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,300,-150,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-150,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+select,選択肢1 「まだ話の途中だったんだけど,選択肢2 「約束は守ってもらう
+endif,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0,,,,
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>…Không được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>Chuyện này… không được… không được đâu… không được phép。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>Cuối cùng thì 'chúng ta' cũng có thể kết thúc…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>Vậy mà… tại sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>Tại sao、 chỉ vì một lời nói trước khi được cứu rỗi、 tôi lại… do dự…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>Chuyện ước hẹn、 chỉ là… như vậy thôi sao！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>Tôi không biết… 'Tôi'…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 「たくさん話をしよう
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0,,,,
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện… nói chuyện… chuyện gì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>…Tôi không… muốn nói chuyện với anh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>Vì… Càng nghe anh nói、 tôi càng…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105705/adv/atlas/stand_b,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_28070106_stage_05.mp3
+flash,255,255,255,1,1,2
+spriteoff,rosalie,0.2
+spriteatlas,download/character/105703/adv/atlas/stand_a,body:sad,rosalie2,0,-170,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>À…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105703/adv/atlas/stand_a,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>À、 à、 à…！ Không、 không、 không được mà…！ Rosalie trong tôi lại mờ nhạt đi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105703/adv/atlas/stand_a,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>Khô…ng được… Như vậy thì 'tôi'… không thể biến mất…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105703/adv/atlas/stand_a,body:sad,rosalie,0,-170,0.6,0,,,,
+msg,0,<outline width=2 color=black>Không thể biến mất… được…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/105703/adv/atlas/stand_a,body:sad,rosalie,0,-200,0.7,0.5,,,,
+endwait
+msg,0,<outline width=2 color=black>…Tàn nhẫn！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105703/adv/atlas/stand_a,body:sad,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>Tàn nhẫn、 tàn nhẫn、 tàn nhẫn！ Như vậy thật tàn nhẫn…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105703/adv/atlas/stand_a,body:sad,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>Như vậy thì 'tôi'… không thể cứu 'chúng ta' được！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105703/adv/atlas/stand_a,body:sad,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>Không tha thứ đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105703/adv/atlas/stand_a,body:sad,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>Vì tôi không tha thứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105703/adv/atlas/stand_a,body:sad,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>Vì đã phủ nhận sự cứu rỗi mà 'tôi' đã chọn、 anh phải chịu trách nhiệm。Cứu 'chúng ta' đi… nhất định phải cứu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105703/adv/atlas/stand_a,body:sad,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>Nếu không、 tôi sẽ không tha thứ…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105703/adv/atlas/stand_a,body:sad,rosalie,0,-200,0.7,0,,,,
+msg,0,<outline width=2 color=black>…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Rosalie</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ư、 à… à、 à、 à…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>À、 à、 à…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100219/adv/atlas/stand_a,body:normal,blizit,300,-190,0.5,0.5,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:sad,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Thật là、 anh lại gánh vác nhiều thứ rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100219/adv/atlas/stand_a,body:normal,blizit,300,-190,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Về chuyện này、 chúng ta cũng sẽ gánh vác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi không nghĩ vậy。Các người cũng không đáng tin tưởng cho lắm… Lần này、 nếu không có anh thì mọi chuyện sẽ ra sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100219/adv/atlas/stand_a,body:sad,blizit,300,-190,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>anger: Rốt cuộc、 chuyện lần này cũng chỉ là trì hoãn vấn đề mà thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>anger: Có lẽ có thể cứu 'cô ta' đang ở đây、 nhưng không được phép nói là ổn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100219/adv/atlas/stand_a,body:sad,blizit,300,-190,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: Ừm、 em hiểu。Em cũng biết chuyện đó khó đến nhường nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100219/adv/atlas/stand_a,body:sad,blizit,300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>sad: Nhưng… cũng không thể bỏ cuộc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: ……Thôi nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Tao không mong chờ gì ở tụi mày đâu、 có chuyện gì thì cứ nhờ tao。Anh trai tao đã nhúng tay vào rồi thì tao cũng không thể làm ngơ được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: Cứ coi như là mang ơn tao đi、 Bawdwin。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100219/adv/atlas/stand_a,body:sad,blizit,300,-190,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: …Xem ra lại mang nợ lớn rồi đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm147.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,,,
+sprite,download/character/105703/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>——Chén thuốc độc đã tràn ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Rõ ràng phải uống cạn。Rõ ràng phải uống cạn mới được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Vòng lặp của R'lyeh không bao giờ kết thúc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Cùng với trái tim không trọn vẹn của Rosalie、 rồi sẽ có một ngày 'ta' trở lại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…Ôi、 nhưng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Ngu ngốc、 thiển cận、 và ngạo mạn đến cùng cực。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Ta' không muốn phá vỡ lời hứa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Chỉ vì điều đó thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Chỉ vì điều đó thôi… 'Ta' cũng sẽ phạm sai lầm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,1
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,439 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10040100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm039.mp3,0,
+endwait,,,,,,,,,,,
+sprite,download/monster/29030102/adv/image/29030102.png,enemy1,0,-70,0.5,0.5,,,,
+playse,/download/monster/29030102/se/se_raging_in.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>戦輪鋼渦</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――――――――――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em1,default,animation,0,-300,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,300,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+endwait
+spineoff,em1,0
+endwait
+spriteatlas,download/character/103002/adv/atlas/stand_b,body:anger,anna,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Anna</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Quyết định nào、 Siêu Tuyệt Vòng……！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,1.0,0
+spine,download/adv/spine/blow_Blue,em2,default,animation,0,0,0,1,1.0,0
+playse,/download/character/103002/se/se_c03003_ef_hit.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait
+bg,download/bg/bg_10040100.jpg,1,255
+endwait
+sprite,download/monster/29030102/adv/image/29030102.png,enemy1,0,-70,0.5,0.5,,,,
+playse,/download/monster/29030102/se/se_raging_in.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>戦輪鋼渦</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――――、……、……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,enemy1,0_0_0,0.5,0
+endwait
+spine,download/adv/spine/Fire1,em1,default,animation,0,-300,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Fire1,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Fire1,em1,default,animation,0,300,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait
+wait,0.5
+endwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+endwait
+wait,0.5
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103002/adv/atlas/stand_a,body:sad,anna,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Anna</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Tạm biệt nhé、 Siêu Tuyệt Vòng</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100806/adv/atlas/stand_a,body:sad,holy,-300,-160,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Có vẻ như đã đánh bại được rồi nhỉ……Nhưng tôi vẫn cảm thấy có gì đó không ổn</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Tạm biệt Siêu Tuyệt Vòng</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,holy,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101905/adv/atlas/stand_a,body:normal,silvy,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Kufufu、 kufufu……Sức mạnh mới này、 thật thú vị。Muốn nghiên cứu sâu hơn、 phân tích nó quá</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103002/adv/atlas/stand_a,body:normal,anna,300,-100,0.5,0.5,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Anna</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sylvie……cả cô nữa、 Holly phải không？ Hai người đã giúp tôi。Một mình tôi không thể vượt qua Siêu Tuyệt Vòng</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103002/adv/atlas/stand_a,body:normal,anna,300,-100,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Vì có hai người……vì có đồng đội、 tôi mới thắng được！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,silvy,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100806/adv/atlas/stand_a,body:sad,holy,-300,-160,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À、 vâng……ừm、 xin、 cảm ơn……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103002/adv/atlas/stand_a,body:normal,anna,300,-100,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Anna</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Siêu Tuyệt Vòng……Tôi sẽ cùng với họ bước những bước đi mới。Ghi nhớ những kỷ niệm với mày trong tim……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103002/adv/atlas/stand_a,body:surprise,anna,300,-100,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Ừm……kỷ niệm？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103002/adv/atlas/stand_a,body:surprise,anna,300,-100,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>À、 nghĩ kỹ lại thì、 tôi cũng chẳng có kỷ niệm gì đặc biệt với Siêu Tuyệt Vòng――</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,holy,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101905/adv/atlas/stand_a,body:normal,silvy,-300,-120,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Kufufu……Anna-kun。Sau trận chiến ác liệt、 chắc cậu mệt rồi nhỉ？ Uống cái này đi。Chắc chắn sẽ hết mệt mỏi đấy。Vị cola đấy</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103002/adv/atlas/stand_a,body:normal,anna,300,-100,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Anna</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ồ、 thật á！ Cảm ơn！ Uống đây……Ực</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,anna1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103002/adv/atlas/stand_a,body:sad,anna2,0,0,0,0,,,,
+imgconf,anna2,anna1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Khụ、 khụ！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/103002/adv/atlas/stand_a,body:sad,anna,300,-100,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+shake,0.1,5,8,8,anna
+endwait
+anm,move,anna,300_-1000,0.5,0
+playse,/download/sound/se/se_020.mp3
+endwait
+spriteoff,anna,0.2
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,-300,-120,0.5,0.,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100806/adv/atlas/stand_a,body:surprise,holy,300,-160,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>T、 tự dưng ngã quỵ……！？ Sylvie-sama、 vừa rồi ngài cho cậu ấy uống gì vậy！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101905/adv/atlas/stand_a,body:smile,silvy,-300,-120,0.5,0.5,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Trà do Bridget-kun pha</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100806/adv/atlas/stand_a,body:unique,holy,300,-160,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,holy,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sao……lại、 tàn nhẫn đến vậy……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101905/adv/atlas/stand_a,body:normal,silvy,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vì nếu Anna-kun tỉnh táo lại bây giờ thì phiền phức lắm</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101905/adv/atlas/stand_a,body:smile,silvy,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Không sao đâu、 uống trà này có vẻ như sẽ khiến ký ức bị thổi bay một phần。Khi tỉnh lại、 Anna-kun sẽ không nhớ gì về chuyện lần này đâu</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ký ức……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101905/adv/atlas/stand_a,body:normal,silvy,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À、 không có ảnh hưởng xấu đến sức khỏe đâu、 cứ yên tâm。Tôi cũng tự hỏi làm sao mình có thể tạo ra thứ này、 nhưng đã được thử nghiệm lâm sàng rồi</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100806/adv/atlas/stand_a,body:sad,holy,300,-160,0.5,0.5,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Bridget-ojousama</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101905/adv/atlas/stand_a,body:normal,silvy,-300,-120,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Sylvie</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Kufufu、 kufufu……Nói gì thì nói、 lần này tôi đã có những suy nghĩ thật sự mãn nguyện。Giờ thì tôi đã gặp được Anna-kun rồi、 kết quả này không có gì phải phàn nàn</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101905/adv/atlas/stand_a,body:smile,silvy,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Nào、 chúng ta cùng về thôi、 mọi người</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100806/adv/atlas/stand_a,body:sad,holy,300,-160,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vâng…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,holy,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vâng…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:sad,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-430,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sao lại thấy tội nghiệp đến thế này cơ chứ</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+name, 
+msg,0,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>………………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+endwait
+bg,download/bg/bg_10010100.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm031.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:sad,anna,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Anna</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ư…Sao đầu tôi cứ ong ong thế này……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:sad,anna,0,-100,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Ở R'lyeh có chuyện gì đó、 rồi bị ném vào Dreamlands……tôi vẫn còn nhớ mang máng、 nhưng ký ức cứ mờ nhạt dần…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:sad,anna,0,-100,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Cứ như là mình đã quên điều gì đó quan trọng……hay không phải vậy……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:sad,anna,300,-100,0.5,0.5,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:surprise,holy,-300,-160,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À……Anna-sama</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:surprise,anna,300,-100,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Anna</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hửm？ Cô là……ừm、 sao tôi thấy quen mặt thế này……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:sad,holy,-300,-160,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Quả thật là ngài đã quên hết rồi。Tôi là Holly Hargreaves。Rất mong được làm quen</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:normal,anna,300,-100,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Anna</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ừ、 rất vui được gặp cô、 Holly</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,holy,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,-300,-120,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Holly。Vị này là người mới gia nhập phải không……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:sad,holy,-300,-160,0.5,0.5,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vâng……Xin phép được giới thiệu với Anna-sama。Đây là chủ nhân của tôi、 đồng thời là người thừa kế đời tiếp theo của gia tộc Bowden、 Giselle Bowden-sama</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,holy,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:smile,zizel,-300,-120,0.5,0.5,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Rất vui được gặp cô、 Anna-san</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:smile,anna,300,-100,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Anna</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ừ</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,-300,-120,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Phải rồi……Vì chúng ta đã gặp nhau、 để làm quen、 Anna-san có muốn đi cùng tôi không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi định cùng chị Bridget uống trà。Hơn nữa、 hôm nay chị ấy còn chuẩn bị trà nữa đấy……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizel,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Trà của chị tôi có vị rất đặc biệt nhưng lại ngon――</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,anna,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:anger,holy,300,-160,0.5,0.5,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không được đâu、 Giselle-sama</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:surprise,zizel,-300,-120,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hả？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:sad,holy,300,-160,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không thể để chị Anna chịu đựng thêm bất cứ điều gì tàn nhẫn hơn nữa、 cho dù là do Giselle-sama…！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:sad,holy,300,-160,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Chị Anna đã phải trải qua nhiều điều đau khổ… Xin hãy để chị ấy yên、 làm ơn。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,-300,-120,0.5,0,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hả… Hả…？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:normal,holy,300,-160,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Anna-sama… Xin hãy sống thật mạnh mẽ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,holy,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:sad,anna,300,-100,0.5,0.5,,,,
+anm,tint,holy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Anna</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hả？ À、 ừm… Ừm？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103001/adv/atlas/stand_a,body:sad,anna,300,-100,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>…Ý là sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,-300,-120,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ai mà biết…？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

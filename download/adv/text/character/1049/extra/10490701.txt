@@ -1,0 +1,186 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11530300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm075.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:smile,maria,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_01.mp3
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Sao… bộ đồ này thế nào？ Chị bảo mặc lên rất hợp mà</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:smile,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_02.mp3
+msg,1,<outline width=2 color=black>Với lại、 em cũng rất vui vì được mặc đồ quỷ này giống chị</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:smile,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_03.mp3
+msg,1,<outline width=2 color=black>Lúc đầu em cũng nghĩ cosplay Halloween chẳng có gì hay ho、 nhưng kiểu này thì cũng không tệ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_04.mp3
+msg,1,<outline width=2 color=black>Tóm lại là – Trick or Treat。Không cho kẹo thì tao nghiền mày thành bụi đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:surprise,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_05.mp3
+msg,1,<outline width=2 color=black>Lỡ mồm。Nghịch cho chừa nhé</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_06.mp3
+msg,1,<outline width=2 color=black>Hôm nay tao là Devil Maria、 phục tùng Devil Martha vĩ đại。Nào、 dâng hiến vật tế cho chị đây</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Mỗi người đều có phần riêng đấy,Quên mất không mang kẹo rồi
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_07.mp3
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Vậy thì phần của em cũng cho chị luôn – … hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_08.mp3
+msg,1,<outline width=2 color=black>Chị… giận ạ？ Thật sao…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:sad,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_09.mp3
+msg,1,<outline width=2 color=black>Đúng là… chị có lẽ không đòi cả kẹo của em thật… nhưng mà…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104907/adv/atlas/stand_b,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_10.mp3
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ra vậy、 vậy thì nghịch một trận rồi nghiền nát thành bụi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_11.mp3
+msg,1,<outline width=2 color=black>– Hừ。Cuối cùng cũng có kẹo mà。Dám giấu tao á？ Mày còn non lắm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_12.mp3
+msg,1,<outline width=2 color=black>Nhớ lấy bài học này、 từ giờ cứ ngoan ngoãn dâng đồ tế cho chị đi、 thằng chó rác này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_13.mp3
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ơ… cái bánh này、 ở giữa có vết lõm như đường kẻ… Có phải bẻ làm đôi được không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:surprise,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_14.mp3
+msg,1,<outline width=2 color=black>…Để chia đôi với chị hả？ Bánh quy chuyên dụng cho nhau ăn？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:surprise,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_15.mp3
+msg,1,<outline width=2 color=black>A、 anh đúng là thiên tài… khen anh đấy。Muốn sờ ngực cũng được đây này、 nhanh lên</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm150.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:shy,maria,0,-170,0.7,0.5,,,,
+endwait,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_16.mp3
+msg,1,<outline width=2 color=black>Ư… ưm… ưu… ai ngờ anh sờ thật chứ。Bình thường kiểu này người ta coi là đùa thôi mà… ư… hừ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:shy,maria,0,-170,0.7,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_17.mp3
+msg,1,<outline width=2 color=black>Vì em là người nói ra… nên đành chịu thôi… ư… ưa… tiện thể、 lúc chị sờ ngực chị thì anh hay làm thế nào…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:unique,maria,0,-170,0.7,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_18.mp3
+msg,1,<outline width=2 color=black>Nếu mà biết… chị thích bị xoa thế nào… thì em… hừ… ư… ưm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:unique,maria,0,-170,0.7,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_19.mp3
+msg,1,<outline width=2 color=black>Hư… hừ… giống như chị vậy… ngực em cũng bị… bóp nát… à… ưu… hừ… ư…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:surprise,maria,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_20.mp3
+msg,1,<outline width=2 color=black>Ơ… sao lại ngừng sờ thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:shy,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_21.mp3
+msg,1,<outline width=2 color=black>Chẳng phải… em vẫn còn có thể cho anh thoải mái thêm tí nữa… thôi cũng được？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:shy,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_22.mp3
+msg,1,<outline width=2 color=black>……Ừm。Vậy thì thôi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104907/adv/atlas/stand_a,body:shy,maria,0,-120,0.5,0,,,,
+playvoice,1,download/character/104907/adv/sound/fav104907_01_23.mp3
+msg,1,<outline width=2 color=black>…………Đồ chó rác này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

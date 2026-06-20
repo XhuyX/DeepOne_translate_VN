@@ -1,0 +1,142 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bg,download/bg/bg_10020200.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm006.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:anger,edelgard,0,-120,0.5,0.5,,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Này này、 sao thế hả！ Chậm chạp thế này thì buồn ngủ mất thôi！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_01.mp3
+clickwait,,,,,,,,,,,,
+spriteoff,all,0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,monster,-50,-200,1.25,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>———————————！</outline></size>,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait,,,,,,,,,,,,
+shake,0.2,3,30,30
+endwait,,,,,,,,,,,,
+spriteoff,all,0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:anger,edelgard,0,-120,0.5,0.5,,,,,
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừ、 trượt rồi nhé。。。Kết thúc tại đây！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_02.mp3
+clickwait,,,,,,,,,,,,
+spriteoff,edelgard,0
+endwait
+sprite,download/monster/20010101/adv/image/20010101.png,monster,-50,-200,1.25,0.5,,,,
+endwait
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,0.65,1,0.5
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+wait,0.1
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,2,0.2,1.5
+shake,0.1,1,100,100
+endwait
+spriteoff,monster,1,,,,,,,,,,
+playse,/download/sound/se/se_025.mp3
+endwait
+wait,1.5
+stopbgm,0
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edelgard,0,-120,0.5,0.5,,,,,
+endwait
+msg,1,<size=30><outline width=2 color=black>Thiệt tình、 bọn này đúng là chẳng có tí sức phản kháng nào。Mạnh hơn chút nữa thì mình cũng hứng khởi hơn rồi。。。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_03.mp3
+clickwait,,,,,,,,,,,,
+select,Kẻ địch yếu thì càng tốt,Cứ theo cảm hứng thì nguy hiểm lắm
+if,select_===_1,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Có thể là vậy、 nhưng mà nếu cứ mãi đối phó với mấy kẻ yếu xìu thì tay nghề sẽ mai một mất。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_04.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đến lúc cần thiết mà không phát huy được sức mạnh thì gay go lắm chứ？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_05.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:sad,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ là vấn đề mức độ thôi。Ít nhất cũng phải có kẻ địch đủ mạnh để tay nghề không bị mai một chứ。。。Nghĩ vậy là sai sao？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_06.mp3
+clickwait,,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:sad,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Này này、 đừng nói những lời tàn nhẫn thế chứ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_07.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Theo tôi thì chiến đấu phần lớn là dựa vào cảm hứng và tinh thần。Tâm trạng chán nản thì làm gì cũng chẳng có kết quả tốt đâu。。。Cũng như vậy thôi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_08.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn nữa、 cứ tỉnh bơ mà xông pha chiến trường、 theo tôi thì cái đó mới đáng sợ hơn nhiều đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_09.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu có kẻ nào sống với cùng một thái độ trên chiến trường lẫn trong đời thường、 thì kẻ đó chắc chắn là bị điên rồi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_10.mp3
+clickwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Mà nói cho cùng、 chiến đấu là sở trường của tôi。Cứ bị xen vào cách làm thì hơi khó chịu đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_11.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Anh cũng vậy thôi、 bị xem nhẹ cảm xúc thì có dễ chịu gì đâu、 phải không？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_12.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ví dụ như。。。Anh lén lút rèn luyện cơ thể、 hoặc học cách chiến đấu từ những người khác、 phải không？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_13.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:smile,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Sao lại ngạc nhiên thế chứ。Edelgard-san cái gì cũng biết hết đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_14.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Những hành động đó của anh、 chắc là xuất phát từ những dằn vặt của riêng anh。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_15.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Có lẽ là anh thấy mình không thể chiến đấu mà phải đẩy gánh nặng cho chúng tôi thì thật đáng xấu hổ、 đại loại vậy phải không？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_16.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 theo tôi thì đây là mối quan hệ tương trợ lẫn nhau、 nói thẳng ra là tôi không cần phải lo chuyện bao đồng、 và cũng không phải chuyện tôi nên xen vào。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_17.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Anh cứ làm những gì mình muốn đi。Cứ tự nhiên đi。Và tôi cũng sẽ làm như vậy。。。Chỉ đơn giản thế thôi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_18.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tóm lại là、 miễn là không gây phiền phức cho người khác、 và cứ tự mình làm những gì mình muốn、 thì chúng ta đừng xen vào chuyện của nhau nữa nhé。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_19.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:sad,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nói vậy thôi chứ、 anh đằng nào cũng sẽ lo lắng thừa thãi nữa thôi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_20.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Nếu đó là điều anh muốn làm、 thì tôi nói gì cũng vô ích thôi nhỉ。。。Thật là một kẻ quá tốt bụng mà。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100502/adv/sound/fav100502_06_21.mp3
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+name,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,,
+endwait,,,,,,,,,,,,

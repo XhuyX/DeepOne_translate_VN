@@ -1,0 +1,197 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11760302.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm126.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_01.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ơ、 ơ… nếu là anh、 em cũng không ngại anh thấy em ăn mặc táo bạo một chút… Nhưng mà、 cái này thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_02.mp3
+msg,1,<outline width=2 color=black>Quả là… có lẽ em thấy xấu hổ thật</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_03.mp3
+msg,1,<outline width=2 color=black>Vải thì trong suốt hết、 bên dưới lại chỉ có đồ lót gợi cảm… Ư、 ừm。Chẳng có ý định che giấu gì cả</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_04.mp3
+msg,1,<outline width=2 color=black>…Mà、 chắc là anh thích mấy bộ đồ trong suốt gợi cảm như này lắm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Đúng là vậy,Nếu lộ liễu thế này thì…
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_05.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Dù biết rõ là vậy、 nhưng nếu anh cứ công khai thừa nhận thì em hơi khó xử… Dù là anh trai em、 nhưng anh lại quá thật thà với dục vọng của mình</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_06.mp3
+msg,1,<outline width=2 color=black>Tuy nhiên… nghĩ đến việc anh say mê em thì em cũng không thấy phiền、 có lẽ em cũng vậy… Thật là、 cả hai chúng ta đều thành thật với dục vọng của mình</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:smile,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_07.mp3
+msg,1,<outline width=2 color=black>Vậy nên… em sẽ thưởng cho anh、 người anh trai thật thà</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_08.mp3
+msg,1,<outline width=2 color=black>Anh thích chạm vào chỗ nào cũng được、 một chỗ bất kỳ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:surprise,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_09.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đừng có phản ứng lạnh nhạt đột ngột như thế！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:surprise,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_10.mp3
+msg,1,<outline width=2 color=black>Em gái dễ thương của anh đang mặc bộ đồ gợi cảm thế này đấy？ Vậy mà sao anh lại bình tĩnh được chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:anger,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_11.mp3
+msg,1,<outline width=2 color=black>Ch、 ừm… Đừng có đùa nữa！ Không hề hứng thú với dáng vẻ gợi cảm của em gái、 anh nghĩ anh là một người anh trai tốt sao！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:anger,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_12.mp3
+msg,1,<outline width=2 color=black>Em không công nhận anh là anh trai đâu！ Nếu chỉ nhìn thôi chưa đủ、 được thôi！ Chạm đi！ Cứ chạm vào đi！ Nào、 cứ chạm thoải mái đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_13.mp3
+msg,1,<outline width=2 color=black>…Hay là、 anh thật sự không có hứng thú với em gợi cảm sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:surprise,norn,0,-160,0.7,0.5,,,,
+endwait
+playvoice,1,download/character/103524/adv/sound/fav103524_01_14.mp3
+msg,1,<outline width=2 color=black>Chờ、 anh？ Sao anh lại lao về phía trước thế――a</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_028.mp3
+wait,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:surprise,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-130,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_01_15.mp3
+msg,1,<outline width=2 color=black>Hya、 ư… ư、 ưm… a、 ứ、 anh、 cách anh chạm vào、 hư hỏng quá… a、 ha、 ưm… cách anh chạm、 thật là、 gợi cảm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_01_16.mp3
+msg,1,<outline width=2 color=black>Em、 em là người khơi mào… ư、 phù、 ừm… a、 anh、 anh không hề nể nang gì cả… ưm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103524/adv/sound/fav103524_01_17.mp3
+msg,1,<outline width=2 color=black>A… phù、 a… ch、 chạm mạnh thế、 vải sẽ bị xước mất… ưm、 hơn nữa thì、 thôi nào… ưm、 ưm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_18.mp3
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>――！ Th、 thôi nào！ Không được nữa、 cấm chạm vào nữa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,norn,0.5_0.5,0.5,0
+anm,move,norn,0_-120,0.5,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_19.mp3
+msg,1,<outline width=2 color=black>Thật là… anh trai em、 vừa thấy em sơ hở một chút、 lại trở nên táo bạo đột ngột… Ư…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:unique,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_20.mp3
+msg,1,<outline width=2 color=black>Dù anh có vẻ tiếc nuối thì cũng vô ích thôi。Em sẽ không cho anh chạm vào nữa đâu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_21.mp3
+msg,1,<outline width=2 color=black>…Nếu cứ tiếp tục như thế、 chắc chắn em cũng không chịu nổi mất</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_22.mp3
+msg,1,<outline width=2 color=black>！ Đ、 đâu có gì đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103524/adv/atlas/stand_a,body:shy,norn,0,-120,0.5,0,,,,
+playvoice,1,download/character/103524/adv/sound/fav103524_01_23.mp3
+msg,1,<outline width=2 color=black>Thật đấy、 anh nên biết ơn vì có một cô em gái dễ thương và rộng lượng như em chứ！ Hừ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

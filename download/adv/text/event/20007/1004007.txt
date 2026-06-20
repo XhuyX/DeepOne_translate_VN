@@ -1,0 +1,282 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm026.mp3,0,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đã biết được điều gì là quan trọng。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nếu đã vậy、 chẳng còn gì phải do dự。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Bởi vốn dĩ、 bàn tay này chẳng có gì cả。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nếu bàn tay này có thể cứu vớt điều quan trọng ấy、 thì tôi――……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+endwait
+stopbgm,0.5,,,,,,,,,,
+endwait
+bg,download/bg/bg_11020300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait
+flash,0,0,0,4,0.3,1.0
+endwait
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0.5,,,,
+anm,scale,norn,-0.5_0.5,0,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ối、 chà……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.3
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100106/adv/atlas/stand_a,body:surprise,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Khoan…… Lại、 lại giữa không trung……！ Á á á！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100106/adv/atlas/stand_a,body:surprise,asaka,-300,1200,0.5,0,,,,
+anm,move,asaka,-300_-700,0.5,1
+endwait,,,,,,,,,,,
+shake,0.2,4,15,15
+playse,/download/sound/se/se_043.mp3
+endwait,,,,,,,,,,
+spriteatlas,download/character/100106/adv/atlas/stand_a,body:sad,asaka,-300,-700,0.5,0.5,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:sad,norn,300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+anm,scale,norn,-0.5_0.5,0,0
+anm,move,asaka,-300_-120,1,1
+endwait,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đau、 đau quá…… Em ngã đập mông rõ mạnh luôn đấy chứ……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:sad,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Asaka、 đây đâu phải lần đầu tiên em dịch chuyển đâu nhỉ……？ Lần nào em cũng định đáp bằng mông thế này à？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100106/adv/atlas/stand_a,body:anger,asaka,-300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Lối ra dịch chuyển ở giữa không trung mới là không được chứ！？ Hơn nữa、 không phải do anh đột ngột kéo em đi sao……！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:sad,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Em nói thế nhưng mà……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+anm,tint,norn,150_150_150,0.0001,0
+spriteoff,asaka,0.5
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100205/adv/atlas/stand_b,body:anger,blizit,-300,1200,0.5,0,,,,
+anm,move,blizit,-300_-210,0.5,1
+endwait,,,,,,,,,,,
+anm,move,blizit,-300_-190,0.5,1
+playse,/download/sound/se/se_020.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thật là、 ồn ào quá đi mất。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Kìa、 Bridget vẫn đáp xuống ngon lành đấy thôi？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,blizit,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100106/adv/atlas/stand_a,body:unique,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100205/adv/atlas/stand_b,body:sad,blizit,-300,-190,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sao em lại nhìn chị bằng ánh mắt đó chứ……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100205/adv/atlas/stand_b,body:anger,blizit,-300,-190,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Hơn nữa、 Norn。Anh làm tốt lắm đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không phải em đã bảo tôi phải làm gì đó với tình cảnh bị kẻ địch bao vây sao？ Như em thấy đấy、 tôi đã làm được rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100205/adv/atlas/stand_b,body:anger,blizit,-300,-190,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng nếu vì thế mà phải tách khỏi Giselle và mọi người thì có ý nghĩa gì chứ！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:surprise,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ôi chà、 đáng sợ thật。Là một người chị、 em vẫn lo cho em gái mình sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+endwait
+msg,0,<size=30><outline width=2 color=black>Mà nói thật、 với thực lực của em mà lại lo lắng cho Giselle Bawdwin thì đúng là một chuyện nực cười đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100205/adv/atlas/stand_b,body:anger,blizit,-300,-190,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Nếu anh định dùng những lời đó để khiến tôi dao động thì vô ích thôi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100205/adv/atlas/stand_b,body:anger,blizit,-300,-190,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Thực lực kém hơn Giselle ư？ Tôi quan tâm con bé là chuyện bao đồng ư？ Những chuyện đó…… tôi hiểu rõ hơn ai hết。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Phù phù…… Người biết rõ điểm yếu của mình thì thật mạnh mẽ đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100205/adv/atlas/stand_b,body:anger,blizit,-300,-190,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Được anh khen thì tôi cũng chẳng vui vẻ gì đâu。Asaka、 chuẩn bị đi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,blizit,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100106/adv/atlas/stand_a,body:surprise,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ơ……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100205/adv/atlas/stand_b,body:anger,blizit,-300,-190,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Dù trong tình cảnh này、 đây cũng là cơ hội tuyệt vời。Hai đấu một…… anh sẽ không nói là hèn hạ đâu nhỉ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Làm gì có chuyện đó。Kẻ mạnh áp bức kẻ yếu là điều ác hiển nhiên trong mọi thời đại。Làm sao tôi có thể phủ nhận điều đó được chứ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+endwait
+msg,0,<size=30><outline width=2 color=black>Tuy nhiên…… nếu hai người chỉ với hai người mà nghĩ có thể làm gì được tôi、 thì đó là một sự nhầm lẫn vô cùng thú vị đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100205/adv/atlas/stand_b,body:anger,blizit,-300,-190,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhầm lẫn hay không thì phải thử mới biết chứ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100205/adv/atlas/stand_b,body:anger,blizit,-300,-190,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>――Asaka、 đừng có nương tay đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,blizit,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100106/adv/atlas/stand_b,body:anger,asaka,-300,-120,0.5,0.5,,,,
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ưm…… Em biết rồi。Em có rất nhiều điều muốn hỏi Norn。Rất nhiều điều muốn nói。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100106/adv/atlas/stand_b,body:anger,asaka,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Vì thế…… xin lỗi nhé、 nhưng em sẽ dốc toàn lực đấy！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Phù、 phù phù、 ha ha ha ha ha！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+endwait
+msg,0,<size=30><outline width=2 color=black>Rằng 'dù sao thì mình cũng chẳng làm được gì'。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+endwait
+msg,0,<size=30><outline width=2 color=black>Rằng 'dù mình không làm thì cũng sẽ có ai đó lo liệu'。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+endwait
+msg,0,<size=30><outline width=2 color=black>Asaka、 người mà khi mới đến R'lyeh luôn thiếu tự tin và chỉ nghĩ những điều như vậy、 đã thay đổi rất nhiều nhỉ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:smile,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+endwait
+msg,0,<size=30><outline width=2 color=black>Tôi mừng lắm、 Asaka。Vì em đã trưởng thành。Sự trưởng thành đó…… một ngày nào đó sẽ khiến em nở rộ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100106/adv/atlas/stand_b,body:sad,asaka,-300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Anh đang nói gì vậy……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100205/adv/atlas/stand_b,body:anger,blizit,-300,-190,0.5,0.5,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tin những lời đó chỉ là vô ích thôi。Nếu muốn nghe chi tiết thì để sau cũng được。……Sau khi chúng ta bắt được cô ta ấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:normal,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+anm,tint,blizit,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Norn</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ha ha ha…… Được thôi、 tôi cũng hơi hứng thú rồi。Tôi sẽ chơi với hai người。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101402/adv/atlas/stand_a,body:anger,norn,300,-120,0.5,0,,,,
+anm,scale,norn,-0.5_0.5,0,0
+endwait
+msg,0,<size=30><outline width=2 color=black>Đừng làm tôi thất vọng quá đấy nhé？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

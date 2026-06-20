@@ -1,0 +1,161 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11360300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm178.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_01.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Well、 the instruments here are all pretty good。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_02.mp3
+msg,1,<outline width=2 color=black>I've seen a lot of instruments、 and I've collected a few myself、 but even I'm impressed by this many。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_03.mp3
+msg,1,<outline width=2 color=black>How wonderful… Maybe I should get more serious about collecting instruments。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,A collector？,Are you rich？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_04.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hmm、 I guess so。You could call me a collector。I like collecting all sorts of things、 not just instruments。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_05.mp3
+msg,1,<outline width=2 color=black>It's not like I collect things because they have value、 you know？ It might sound like a cop-out、 but it's just that the things I collect end up having value。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_06.mp3
+msg,1,<outline width=2 color=black>I collect things because I feel the emotions of people、 the stories they've built up、 within them。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_07.mp3
+msg,1,<outline width=2 color=black>People's lives are limited、 but what's put into something that remains in a physical form lasts forever… Don't you think it's a luxury to be able to feel that？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:surprise,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_08.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Eh…？ Oh、 right。You do need money to collect things like this。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_09.mp3
+msg,1,<outline width=2 color=black>And if you had my collection properly appraised、 it would be worth a lot、 so maybe I am rich…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_10.mp3
+msg,1,<outline width=2 color=black>But it's not like I'm just throwing money at things to build my collection、 you know？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_11.mp3
+msg,1,<outline width=2 color=black>There are treasures in the world that aren't properly valued、 gathering dust as antiques in the corner of a shop… I'm just good at finding those。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:unique,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_12.mp3
+msg,1,<outline width=2 color=black>And then there's the fact that things that were sold off cheaply in their time can suddenly explode in value later on。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_13.mp3
+msg,1,<outline width=2 color=black>Not everything in my collection is high-value、 but maybe in a hundred、 two hundred years、 some of it will be worth a fortune。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_14.mp3
+name,<outline width=2 color=black>Kukuru Y. Trecena</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>But… yeah、 I think I'll focus on what I want to collect most right now。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_15.mp3
+msg,1,<outline width=2 color=black>It's different from anything I've collected so far、 but it has a very special value。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_16.mp3
+msg,1,<outline width=2 color=black>It doesn't remain in a physical form、 and no one else will understand its value、 but for me、 it's a treasure beyond compare。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_17.mp3
+msg,1,<outline width=2 color=black>——Memories with you。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_18.mp3
+msg,1,<outline width=2 color=black>Ugh、 I said something cheesy、 didn't I？ Heh heh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:unique,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_19.mp3
+msg,1,<outline width=2 color=black>But I mean it。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:normal,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_20.mp3
+msg,1,<outline width=2 color=black>Right now、 I want to cherish this moment with you above all else。Your voice、 your expression、 your warmth… I want to keep so much of it deep in my heart。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_21.mp3
+msg,1,<outline width=2 color=black>So… let's keep making more memories together、 okay？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105206/adv/atlas/stand_a,body:smile,kukuru,0,-130,0.5,0,,,,
+playvoice,1,download/character/105206/adv/sound/fav105206_02_22.mp3
+msg,1,<outline width=2 color=black>Heh。Promise。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

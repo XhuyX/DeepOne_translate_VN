@@ -1,0 +1,256 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11040300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm184.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:anger,maruta,0,-90,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Line_center,em1,default,animation,1,0,0,1,1.0,0
+playvoice,1,download/character/102715/adv/sound/fav102715_01_01.mp3
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Martha thỏ gợi cảm、 xuất hiện……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spineoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:unique,maruta,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_02.mp3
+msg,1,<outline width=2 color=black>Ưm… Sao lại hờ hững thế này。Tớ cứ tưởng cậu sẽ thô bạo mà nhào tới ôm chầm lấy tớ chứ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:sad,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_03.mp3
+msg,1,<outline width=2 color=black>Hay là、 sức hút của Martha siêu gợi cảm không đến được với cậu……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_04.mp3
+msg,1,<outline width=2 color=black>Nhìn cho kỹ vào。Không chỉ có đôi tai thỏ đáng yêu、 mà còn có cả đường cong đôi chân nhờ quần tất nữa… Hơn nữa、 chỗ ngực cũng siêu gợi cảm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_05.mp3
+msg,1,<outline width=2 color=black>Nói thật、 nếu không có em này đỡ、 chỉ cần động đậy một chút là có thể bị tràn ra ngoài rồi。Với một người thích ngực như cậu、 chắc chắn là không thể cưỡng lại được</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spineoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:anger,maruta,0,-90,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Line_center,em1,default,animation,1,0,0,1,1.0,0
+playvoice,1,download/character/102715/adv/sound/fav102715_01_06.mp3
+msg,1,<outline width=2 color=black>Đây chính là、 gợi cảm trong gợi cảm、 Martha siêu gợi cảm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Đúng là vậy,Danh hiệu của cậu thay đổi xoành xoạch
+if,select_===_1,,,,,,,,,
+
+
+spineoff,em1,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:surprise,maruta,0,-90,0.6,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_07.mp3
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Không thể tin được… Đến nước này mà cậu vẫn bình tĩnh được。Chẳng lẽ、 sự gợi cảm này vẫn chưa lay động được cậu sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:unique,maruta,0,-90,0.6,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_08.mp3
+msg,1,<outline width=2 color=black>Nếu cậu cứ phản ứng như vậy、 tớ cũng phải nghiêm túc thôi。Bằng mọi giá、 tớ phải khiến cậu hiểu được sự quyến rũ của người lớn này</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+
+
+spineoff,em1,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:unique,maruta,0,-90,0.6,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_09.mp3
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…Đó là vì sự gợi cảm đang trào dâng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:unique,maruta,0,-90,0.6,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_10.mp3
+msg,1,<outline width=2 color=black>Martha thỏ gợi cảm là người phụ nữ có bảy sắc thái gợi cảm、 thay đổi sức hút tùy theo góc nhìn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:unique,maruta,0,-90,0.6,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_11.mp3
+msg,1,<outline width=2 color=black>…Nói trước、 tớ tuyệt đối không nói bừa đâu đấy。Thế nên、 cái nhìn đầy hoài nghi của cậu thật là bất lịch sự</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.6,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_12.mp3
+msg,1,<outline width=2 color=black>Tớ đã tự kiềm chế vì cho rằng gợi cảm quá mức sẽ không tốt cho cơ thể cậu、 nhưng có vẻ như đã quá nhẹ tay rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.6,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_13.mp3
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đến nước này thì không thể chọn lựa được nữa。Nếu chỉ có mình tớ là chưa đủ、 thì tớ sẽ nhờ người giúp đỡ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maruta1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta2,0,0,0,0,,,,
+imgconf,maruta2,maruta1,100,350,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/102715/adv/sound/fav102715_01_14.mp3
+msg,1,<outline width=2 color=black>Hãy nhìn xem、 dáng vẻ siêu gợi cảm của em thỏ này……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:smile,maruta,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_15.mp3
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hai chị em tớ mà kết hợp thì vô địch。Không ai có thể cưỡng lại được sức hút của hai chị em thỏ xinh đẹp chúng ta</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:unique,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_16.mp3
+msg,1,<outline width=2 color=black>Nhân tiện、 nếu cậu thành thật thú nhận là đã mê mẩn rồi、 thì tớ sẽ cho cậu sờ thử</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:smile,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_17.mp3
+msg,1,<outline width=2 color=black>――Hừm、 ngoan ngoãn đấy。Quả nhiên cậu cũng sẽ bị hạ gục trước hai chị em thỏ siêu cấp gợi cảm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:smile,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_18.mp3
+msg,1,<outline width=2 color=black>Vậy thì đặc biệt、 tớ sẽ xoa đầu em này cho cậu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:unique,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_19.mp3
+msg,1,<outline width=2 color=black>…Sao lại có vẻ hơi tiếc nuối thế kia。Trong khi cậu có thể sờ vào một em dễ thương như thế này、 mà phản ứng của cậu thật là bất lịch sự</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:smile,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_20.mp3
+msg,1,<outline width=2 color=black>Nói chung、 hãy đặt tình cảm vào và xoa nhẹ nhàng cho em ấy nhé</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maruta1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta2,0,0,0,0,,,,
+imgconf,maruta2,maruta1,100,350,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_045.mp3
+endwait,,,,,,,,,,,
+
+
+wait,0.5
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:smile,maruta,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_21.mp3
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tớ cũng thích được cậu xoa đầu lắm、 nên tớ nghĩ em này chắc cũng thích được như vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:normal,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_22.mp3
+msg,1,<outline width=2 color=black>Vậy thì、 sau khi cậu xoa đầu em này xong… tiếp theo là tớ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:smile,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_23.mp3
+msg,1,<outline width=2 color=black>Cậu đang mong chờ được sờ ngực tớ đúng không？ Với tớ、 cậu nghĩ gì thì tớ đều biết cả</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:smile,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_24.mp3
+msg,1,<outline width=2 color=black>Cậu cũng không cần phải vội。Việc cậu mê mẩn ngực tớ thì bây giờ mới nói cũng không muộn… Tớ cũng không ghét việc cậu mê mẩn đâu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:smile,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_25.mp3
+msg,1,<outline width=2 color=black>Nếu cậu chịu cưng chiều em này、 thì ngực tớ、 cậu muốn làm gì thì làm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102715/adv/atlas/stand_a,body:smile,maruta,0,-90,0.5,0,,,,
+playvoice,1,download/character/102715/adv/sound/fav102715_01_26.mp3
+msg,1,<outline width=2 color=black>Hôm nay、 tớ sẽ khiến cậu mê mẩn hai chị em thỏ xinh đẹp chúng tớ、 nên hãy chuẩn bị tinh thần đi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

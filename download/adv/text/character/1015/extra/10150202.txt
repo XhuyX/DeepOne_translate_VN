@@ -1,0 +1,105 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,
+endwait
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:normal,ouka,-10,-120,0.47,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Này、 chắc cậu cũng quen với cuộc sống ở đây rồi chứ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>R'lyeh nằm dưới đáy biển、 nhưng môi trường sống được sắp xếp khá ổn、 nên chắc cũng không bất tiện lắm đâu nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hồi mới đến R'lyeh、 tôi cũng ngạc nhiên lắm đấy。Dưới đáy biển mà họ còn xây cả trang trại chăn nuôi、 trồng trọt nữa cơ mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải lo bữa ăn ngày mai、 cũng chẳng cần ngủ trong bộ đồ dính đầy đất cát hay máu me。……Hồi sống bên ngoài、 mọi thứ đều thiếu thốn hơn nhiều。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 cái cuộc sống sung sướng thế này、 với một người như tôi thì lại hơi nhạt nhẽo。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hồi xưa、 lúc còn trong đội lính đánh thuê、 chuyện phải chiến đấu liên tục mấy ngày liền trong môi trường thiếu thốn thức ăn、 nước uống là thường tình thôi……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế mà、 không hiểu sao cái kiểu sống đó lại hợp với tôi。Chẳng bao giờ thấy khổ sở gì cả。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_07.mp3
+clickwait,,,,,,,,,,,
+select,Cuộc sống như vậy nghe có vẻ vất vả。,Tôi lại khao khát cuộc sống như vậy。
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:normal,ouka,-10,-120,0.47,0,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Với quyết tâm nửa vời thì khó mà chịu đựng nổi đâu。Cái sự khao khát làm mọi thứ để sống sót cũng quan trọng lắm đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:unique,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Khi khát đến mức tưởng chết、 tôi từng uống cả nước bùn、 còn nhai rễ cây hay đất để lừa cơn đói……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Để sống sót、 tôi đã làm mọi thứ có thể。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 chiến trường chắc không hợp với cậu đâu。Cùng lắm thì đi cắm trại thảnh thơi ở một đất nước yên bình là hợp với cậu nhất rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_11.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:surprise,ouka,-10,-120,0.47,0,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Này này、 khao khát á？ Cậu ư？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ha ha、 đùa à？ Chưa từng bước chân ra khỏi R'lyeh mà đã nói phét rồi。Tôi nghĩ cậu không chịu nổi sự khắc nghiệt đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:surprise,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hả？ Cùng nhau á……？ Tôi ư？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Thôi được、 nếu có tôi đi cùng thì chắc đa số tình huống đều ổn thỏa thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_15.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:normal,ouka,-10,-120,0.47,0,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm…… Một ngày nào đó、 nếu tôi thoát khỏi R'lyeh、 và nếu lúc đó tôi có hứng、 tôi sẽ dẫn cậu đi du hành。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đương nhiên là không thể dẫn cậu ra chiến trường được、 nhưng tôi có thể dạy cậu cách sinh tồn đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Lúc đó、 mình phải cẩn thận đừng để say xỉn rồi đốt cháy cả một ngọn núi như lần trước nữa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:surprise,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ối、 không có gì đâu。Chuyện của tôi thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_19.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:smile,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 đúng rồi。Đến lúc đó thì nhớ chọn xem muốn ăn rắn hay chuột nhé？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_20.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_a,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Này này、 cả hai đều là thức ăn cơ bản đấy nhé？ Cứ còn ghét chúng thì khó mà sinh tồn cùng tôi được đâu…… Ha ha！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101502/adv/sound/fav101502_06_21.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

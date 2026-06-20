@@ -1,0 +1,88 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:sad,jamira,25,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bị nhốt ở R'lyeh cũng đã lâu、 tôi cũng tìm tòi được kha khá、 nhưng vẫn chưa thấy manh mối nào để thoát ra cả…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Với lại… Cảm giác bế tắc vì không thể liên lạc với bên ngoài、 thật sự khiến tôi căng thẳng hơn tôi tưởng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Katia-sama tuy vẫn tỏ ra mạnh mẽ、 nhưng chắc chắn cũng đang cảm thấy bức bối…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vì vậy、 tôi đã nghĩ đến việc gì đó để khuây khoả… Nhưng mãi vẫn chưa nghĩ ra được gì…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:normal,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Anh có ý kiến gì hay không？ Nếu được、 tôi rất mong có thể mượn trí tuệ của anh…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_05.mp3
+clickwait,,,,,,,,,,,
+select,選択肢1 「映画を観る,選択肢2 「散歩をする
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:normal,jamira,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Phim ảnh sao… Phải rồi、 trong thư viện có lưu trữ rất nhiều phim。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Từ trước đến nay、 Katia-sama bận rộn、 nên hầu như không có cơ hội xem phim…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trong tình huống này、 được tiếp xúc với những điều mới mẻ có lẽ cũng là một cách giải toả tốt。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_08.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:normal,jamira,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ra là vậy… Thay vì chỉ để tâm đến bên ngoài、 thì xem xét lại R'lyeh cũng là một ý kiến hay。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trong R'lyeh có cả một khu vườn tự nhiên rất đẹp、 dù là nhân tạo、 nhưng vẫn có sông chảy、 có cả gió thoảng…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu để ý đến những điều đó、 dù là ở dưới đáy biển、 có lẽ tâm trạng cũng sẽ khác đi một chút。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_11.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:normal,jamira,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cảm ơn anh。Tôi đã tham khảo được rất nhiều。Tôi sẽ đề xuất với Katia-sama ngay。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:smile,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 phải rồi。Nếu được、 anh có thể cùng tôi giải khuây được không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:normal,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Katia-sama có vẻ rất thích anh、 nếu được ở bên anh、 chắc chắn cô ấy sẽ rất vui。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:smile,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>…Cảm ơn anh。Tôi rất vui vì anh đã đồng ý。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Fufu… Tôi như thấy nụ cười của Katia-sama hiện lên trong đầu。Chỉ cần tưởng tượng thôi、 mà ngực tôi đã thấy ấm áp đến vậy…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không thể chần chừ được nữa… Phải đến gặp Katia-sama ngay thôi…！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_05_17.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

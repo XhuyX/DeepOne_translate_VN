@@ -1,0 +1,334 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+roombg,1049,0
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maruta1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta2,0,0,0,0,,,,
+imgconf,maruta2,maruta1,0,-40,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Maria、 cái dấu đó、 em lo nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maria1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:smile,maria2,0,0,0,0,,,,
+imgconf,maria2,maria1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Được thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:unique,zizel,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ờm…… hai người đang làm gì vậy ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,0,-1200,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,maruta,0_-90,1,0
+endwait
+
+
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Như em thấy đấy、 chị đang vẽ ma pháp trận。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:unique,zizel,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dạ không、 em hiểu điều đó rồi nhưng mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,0,-1200,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,maria,0_-120,1,0
+endwait
+
+
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà này、 Giselle。Cuốn sách đâu？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0.5,,,,
+anm,tint,maria,150_150_150,0.0001,0
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:smile,maruta,350,-90,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:unique,zizel,-350,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 vâng。Đây là cuốn sách chị nhờ em tìm、 nói về lý thuyết triệu hồi các thực thể siêu nhiên ạ…… Không lẽ、 cái ma pháp trận này là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:smile,maruta,350,-90,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,-350,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dạ không、 dù chị có nở nụ cười bí ẩn như thế…… Kh、 không được đâu ạ？ Chị không được thử triệu hồi thật đâu đấy nhé！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu em định cản trở những gì chị ấy đang làm、 thì chị sẽ không nương tay đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,-350,-120,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù chị có trừng mắt nhìn em thì không được vẫn là không được ạ！ Mấy chuyện như thế này、 làm nửa vời là tệ nhất đấy nhé！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,-350,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thật ra、 nội dung cuốn sách này cũng kỳ lạ đến mức đáng lẽ phải bị đốt bỏ rồi ấy chứ…… Lỡ mà có hiện tượng gì đụng đến cấm kỵ thì phải làm sao ạ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:anger,maruta,350,-90,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị không làm nửa vời đâu、 dù có đụng đến cấm kỵ thì cũng không thể dừng lại。Quyết tâm của chị là thật lòng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:smile,maria,0,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị Martha、 ngầu quá。Lại còn đáng yêu nữa。Ngầu đáng yêu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:smile,maruta,350,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đấy thấy chưa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,-350,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đến mức đó rồi、 rốt cuộc chị định làm gì vậy ạ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,350,-90,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Triệu hồi ác quỷ、 và nhờ nó thực hiện điều ước。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:anger,maruta,350,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đúng vậy、 để thực hiện dã tâm của ta。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,-350,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>D、 dã tâm đó là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm112.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:unique,maria,0,-170,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+spine,download/adv/spine/Line_center,em1,default,animation,1,0,0,1,1.0,0
+msg,0,<outline width=2 color=black>Nhập vào cơ thể chị Martha một ngày、 rồi muốn làm đủ thứ chuyện mình thích với cơ thể đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0.5,,,,
+anm,tint,maria,150_150_150,0.0001,0
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Quyền sở hữu tất cả sô cô la trên thế giới phải thuộc về tay ta—— Khoan đã Maria、 em vừa nói gì cơ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hửm？ Gì cơ？ Em có nói gì đâu？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Vậy à、 chắc là chị nghe nhầm rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:unique,zizel,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không không không！ Chị ấy vừa nói rõ ràng luôn mà！？ Lại còn là chuyện rất đáng sợ nữa chứ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Im đi。Đừng cản trở。Muốn bị nghiền nát à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maria,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizel,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có tự nhiên nổi giận như thế chứ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:anger,zizel,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ôi、 thôi rồi！ Chẳng có vẻ gì là sẽ chịu nghe em nói cả…… Vậy thì！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_073.mp3
+endwait,
+spriteatlas,download/character/100701/adv/atlas/stand_b,body:anger,zizel,0,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Claiomh Solais、 hãy thổi bay ma pháp trận này đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:unique,maruta,300,-90,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:anger,maria,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không được đâu…… Để được làm đủ thứ chuyện mình thích với cơ thể chị Martha！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:unique,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi、 chị nghĩ mình không nên triệu hồi nữa。Dù sao thì、 bị chiếm đoạt cơ thể thì hơi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104900/adv/atlas/stand_a,body:surprise,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị Martha！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

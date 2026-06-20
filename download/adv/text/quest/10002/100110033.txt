@@ -1,0 +1,298 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name, 
+msg,0,<size=30><outline width=2 color=black>―― Dục vọng là mặt trời。Xóa tan ánh hào quang của nó、 đồng nghĩa với việc báo trước màn đêm buông xuống。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0, 
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10040200.jpg,1.0,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,1.0,
+endwait,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:normal,gizel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi đã xem xét xung quanh、 nhưng có vẻ như không có gì đặc biệt trong khu vực này。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:normal,catia,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ừm。Thời gian để chúng ta tập hợp với những người khác cũng không còn nhiều、 có lẽ nên kết thúc việc truy tìm thôi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,catia,150_150_150,0.0001,0
+anm,tint,gizel,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Phải rồi―― Ơ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+anm,tint,catia,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Có chuyện gì vậy、 Giselle-san？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,catia,150_150_150,0.0001,0
+anm,tint,gizel,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:sad,gizel,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không… Vừa rồi、 tôi có cảm giác như có tiếng động ở gần đây。Nhưng tôi không cảm nhận được bất kỳ phản ứng nào từ Ma Tố…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:normal,gizel,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nếu chỉ là do tôi tưởng tượng thì tốt rồi… Nhưng để chắc chắn、 chúng ta nên kiểm tra lại。Vì sẽ quá muộn nếu có chuyện gì xảy ra。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Katia-san、 chị có thể ở lại đây với tôi được không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,選択肢1 「気を付けて,選択肢2 「警戒は怠らないように
+if,select_===_1,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vâng。Cảm ơn chị đã quan tâm。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+anm,tint,catia,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Phải rồi… Đúng như chị nói、 không ai biết chuyện gì sẽ xảy ra trong giấc mộng。Xin hãy cẩn thận。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Mà nói vậy thôi、 với thực lực của Giselle-san thì có lẽ chúng ta lo lắng hơi thừa。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,catia,150_150_150,0.0001,0
+anm,tint,gizel,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không có chuyện đó đâu、 cảm ơn chị。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+anm,tint,catia,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nếu có chuyện gì、 hãy gọi cho tôi ngay nhé？ Dù chỉ một chút、 chúng tôi cũng sẽ đến ngay。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,catia,150_150_150,0.0001,0
+anm,tint,gizel,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:smile,gizel,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vâng。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name, 
+msg,0, 
+spriteoff,all,0.5
+endwait
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>………………。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name, 
+msg,0, 
+spriteoff,all,0.5
+bg,download/bg/bg_10040200.jpg,0.5,255
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:surprise,gizel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À… Chắc chắn là có tiếng động ở gần đây―― A。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:sad,gizel,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ô、 một con thằn lằn lớn… Tiếng động vừa rồi、 có lẽ là do con thằn lằn này gây ra…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:normal,gizel,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ngoài ra… Ừm、 có vẻ không có gì bất thường。May quá、 có vẻ như không có chuyện gì――</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:surprise,gizel,-300,-120,0.5,0,,,,
+anm,jump,gizel,-300_-120_50_2,0.5,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――N-này…！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:surprise,catia,1000,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,catia,400_-100,0.2,0
+playse,/download/sound/se/se_016.mp3
+anm,tint,gizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Có chuyện gì vậy、 Giselle-san！？ Chẳng lẽ có gì nguy hiểm――</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,catia,150_150_150,0.0001,0
+anm,tint,gizel,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đ-đợi đã！ Đừng đến đây！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+anm,tint,catia,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:sad,catia,400,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ơ、 nhưng…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,catia,150_150_150,0.0001,0
+anm,tint,gizel,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:anger,gizel,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không sao đâu！ Thật sự không có chuyện gì đâu。Vì vậy、 cứ ở yên đó、 làm ơn đi！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi sẽ quay lại ngay！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+anm,tint,catia,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>V-vâng… Tôi hiểu rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name, 
+msg,0, 
+spriteoff,all,0.5
+endwait
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,
+bg,download/bg/bg_10040100.jpg,0.5,255
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:sad,gizel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>X-xin lỗi vì đã để chị chờ。Tôi đã tìm thấy một con thằn lằn lớn… Có vẻ như tiếng động vừa rồi là do con thằn lằn đó gây ra。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:sad,catia,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vậy sao。Tự dưng nghe thấy tiếng thét lớn、 tôi đã rất bất ngờ…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:smile,catia,300,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không có chuyện gì xảy ra、 tôi thấy nhẹ nhõm rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,catia,150_150_150,0.0001,0
+anm,tint,gizel,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:normal,gizel,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+anm,tint,catia,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:sad,catia,300,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À… Giselle-san？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,catia,150_150_150,0.0001,0
+anm,tint,gizel,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:surprise,gizel,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Hả？ À、 vâng、 có chuyện gì sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+anm,tint,catia,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không、 chỉ là tôi thấy may vì không có chuyện gì thôi…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,catia,150_150_150,0.0001,0
+anm,tint,gizel,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:shy,gizel,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đ-đúng là vậy！ Nếu không có gì thì tốt nhất！ Tôi cũng đồng ý、 vâng！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+anm,tint,catia,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À… Chị có thật sự ổn không、 Giselle-san？ Trông chị có vẻ hơi lạ…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,catia,150_150_150,0.0001,0
+anm,tint,gizel,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:unique,gizel,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>T-tôi、 tôi không sao cả！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+anm,tint,catia,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:surprise,catia,300,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nyo？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,catia,150_150_150,0.0001,0
+anm,tint,gizel,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:shy,gizel,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Tôi chỉ bị vấp lời một chút thôi、 đừng để ý。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,gizel,150_150_150,0.0001,0
+anm,tint,catia,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:sad,catia,300,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>V-vâng… Vậy sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,catia,150_150_150,0.0001,0
+anm,tint,gizel,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:surprise,gizel,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>T-thay vì vậy、 Katia-san！ Chúng ta hãy nhanh chóng tập hợp với những người khác thôi。Nếu trễ、 A-Mari sẽ lo lắng mất！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100702/adv/atlas/stand_a,body:normal,gizel,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi nghĩ có rất nhiều người sẽ lo lắng、 đặc biệt là về anh ấy、 nên chúng ta không thể thong thả được！ Phải！ Không thể thong thả được！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name, 
+msg,0, 
+spriteoff,all,0.5
+endwait
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>………………。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

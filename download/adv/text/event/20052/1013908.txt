@@ -1,0 +1,321 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rosette、 trước khi được Cha xứ nhận nuôi、 đã luôn sống như một công cụ để thể hiện ý chí vĩ đại của thần linh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Rosette chưa từng được hỏi hay thể hiện ý chí của mình、 chỉ biết vâng lời hoàn thành vai trò được giao…… đó chính là Rosette của ngày trước。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng từ khi đến R'lyeh、 được chạm vào sự tử tế của mọi người đã chấp nhận một người như Rosette、 Rosette bắt đầu cảm thấy một hơi ấm sâu trong lồng ngực。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chắc hẳn Cha xứ、 người đã đưa Rosette đến R'lyeh、 muốn dạy Rosette về hơi ấm này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Không phải là một công cụ、 mà là một con người。Có lẽ、 đó là khi Rosette cảm nhận được hơi ấm từ người khác……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Vì vậy、 Rosette muốn cảm nhận hơi ấm đó nhiều hơn nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11340300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À mà này、 Rosette không tham gia thi đấu sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 Rosette định dốc hết sức mình để cổ vũ mọi người như thế này、 có vấn đề gì sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 chẳng có vấn đề gì cả、 nếu em không muốn thì cũng không sao đâu…… Nhưng đến một nơi như thế này mà không làm gì cả thì không phải là phí hoài sao nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:normal,frau,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rosette…… không thích hội thao sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 không phải như vậy ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng nếu bộ trang phục này là dành cho vai trò cổ vũ những người tham gia thi đấu、 thì Rosette nghĩ mình nên tập trung vào việc cổ vũ hơn là thi đấu ạ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: Muốn chạy cùng Rosette。,Lựa chọn 2: Rosette muốn làm gì？
+if,select_===_1,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:surprise,rozet,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật vậy sao ạ……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rosette đã hiểu。Nếu ngài muốn、 Rosette xin phép được chạy bên cạnh ngài。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rosette sẽ luôn ở ngay bên cạnh để dõi theo ngài、 nếu có bất cứ điều gì khiến ngài mệt mỏi、 xin hãy nói ngay với Rosette ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:sad,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm、 tôi cảm thấy đó không hẳn là ý của cậu ấy khi nói 'chạy cùng' đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:surprise,rozet,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật vậy sao ạ？ Vậy thì、 xin ngài hãy chỉ dạy để Rosette có thể chạy theo ý ngài muốn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:smile,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ngài không cần phải ngại đâu ạ。Rosette cảm thấy vui khi được thực hiện mong muốn của ngài……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Rosette vẫn chưa thể tự quyết định hành động của mình。Vẫn chưa thể thể hiện ý chí mạnh mẽ như mọi người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng…… trong lồng ngực này、 Rosette có một mong muốn rõ ràng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:shy,rozet,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rosette muốn ngài được vui…… Nếu ngài có thể cho Rosette thấy gương mặt hạnh phúc của ngài、 đó sẽ là niềm vui lớn nhất đối với Rosette。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:normal,frau,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0.5,,,,
+endwait
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngay cả Rosette cũng thấy thật kỳ lạ。Nếu chỉ là một công cụ、 thì đâu cần phải có những cảm xúc như thế này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng、 càng được ở bên cạnh ngài、 bên cạnh Frau-sama và tất cả mọi người ở R'lyeh、 cảm xúc này càng lớn dần lên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:normal,rozet,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Để cảm nhận cảm xúc này nhiều hơn nữa…… Rosette có thể chạy cùng ngài được không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:normal,frau,-300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em cũng muốn đi cùng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:smile,rozet,300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Tất nhiên rồi、 cả Frau-sama nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100609/adv/atlas/stand_a,body:smile,frau,-300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi được rồi、 chuyện đã xong xuôi、 tôi đi hái hoa một lát đây。Rosette、 trông chừng cậu ấy và Frau giúp tôi nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102953/adv/atlas/stand_a,body:smile,rozet,300,-100,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rosette đã hiểu。Rosette xin thề sẽ bảo đảm an toàn cho cả hai、 dù có phải đánh đổi bằng cả sinh mạng này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:smile,norn,-300,-120,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ha ha、 đừng nghiêm trọng thế chứ、 em cũng hãy tận hưởng hội thao này đi。Cậu ấy sẽ vui hơn nếu em làm vậy đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——……Hửm？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Sao thế、 sao lại nhìn Norn-chan chằm chằm như vậy？ Chẳng lẽ、 cậu cũng muốn đi hái hoa sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ưm………… Ra là vậy。Có vẻ như đã bị cậu nhận ra rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cảm ơn cậu đã quan tâm。Nhưng đây là việc tôi phải làm。Lần này、 xin hãy để tôi tự giải quyết nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi cũng muốn chơi với Frau nhiều hơn、 nhưng riêng chuyện này、 tôi phải có trách nhiệm và tự mình giải quyết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103506/adv/atlas/stand_a,body:normal,norn,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cậu hãy tận hưởng thật vui vẻ、 cả phần của tôi nữa nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

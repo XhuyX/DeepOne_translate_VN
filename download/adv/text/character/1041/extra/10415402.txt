@@ -1,0 +1,199 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11410300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm088.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,-40,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_01.mp3
+name,<outline width=2 color=black>Aika</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nhân tiện、 mình thử làm gì đó giống trẻ con xem sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,-40,0.5,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_02.mp3
+msg,1,<outline width=2 color=black>Mà nói gì thì nói、 mình cũng chẳng nghĩ ra gì cả… Làm gì mới được coi là trẻ con nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,-40,0.5,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_03.mp3
+msg,1,<outline width=2 color=black>Ưm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,-40,0.5,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_04.mp3
+msg,1,<outline width=2 color=black>Ba ơi、 bế con。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,-40,0.6,0.5,,,,
+endwait
+playvoice,1,download/character/104154/adv/sound/fav104154_02_05.mp3
+msg,1,<outline width=2 color=black>Cứ có cảm giác trẻ con là được bế。Mà giờ người mình cũng nhỏ lại、 được bế chắc cũng được nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,aika,0_40,0.5,0
+endwait
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,40,0.6,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_06.mp3
+msg,1,<outline width=2 color=black>Ưm… ra là vậy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:unique,aika,0,40,0.6,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_07.mp3
+msg,1,<outline width=2 color=black>Trẻ con thích thế này、 nhưng mình chẳng hiểu gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Chọn 1 'Anh vui lắm。,Chọn 2 'Em còn muốn làm gì khác không？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:surprise,aika,0,40,0.6,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_08.mp3
+name,<outline width=2 color=black>Aika</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…Vậy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,40,0.6,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_09.mp3
+msg,1,<outline width=2 color=black>Hừm… Bế mình là ba vui hơn à。Mình không hiểu lắm、 nhưng nếu vậy thì tốt rồi… chăng？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:smile,aika,0,40,0.6,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_10.mp3
+msg,1,<outline width=2 color=black>Vậy thì、 mình cứ ở yên thế này thêm một lát vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:smile,aika,0,40,0.6,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_11.mp3
+msg,1,<outline width=2 color=black>Ba vui thì mình cũng không thấy phiền。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,40,0.6,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_12.mp3
+name,<outline width=2 color=black>Aika</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Còn gì nữa…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,40,0.6,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_13.mp3
+msg,1,<outline width=2 color=black>Ưm、 là gì nhỉ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,40,0.6,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_14.mp3
+msg,1,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,aika1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika2,0,0,0,0,,,,
+imgconf,aika2,aika1,0,130,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104154/adv/sound/fav104154_02_15.mp3
+msg,1,<outline width=2 color=black>——Chụt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:smile,aika,0,40,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_16.mp3
+name,<outline width=2 color=black>Aika</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ưm、 ba ngạc nhiên kìa。Fufu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:smile,aika,0,40,0.6,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_17.mp3
+msg,1,<outline width=2 color=black>Muốn hôn cũng có vẻ giống trẻ con nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:shy,aika,0,40,0.7,0.5,,,,
+endwait
+playvoice,1,download/character/104154/adv/sound/fav104154_02_18.mp3
+name,<outline width=2 color=black>Aika</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ư… Ba ơi、 ôm chặt thế này thì mình hơi khó thở đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,40,0.7,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_19.mp3
+msg,1,<outline width=2 color=black>…Này、 ba。Mình muốn làm nhiều thứ khác nữa。Mình đã bỏ qua nhiều thứ、 đến được đây rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,40,0.7,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_20.mp3
+msg,1,<outline width=2 color=black>Những điều mình không được trải nghiệm… Những điều lẽ ra mình đã có thể làm cùng ba… Mình muốn thử。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,40,0.7,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_21.mp3
+msg,1,<outline width=2 color=black>Mình cũng không nghĩ là bình thường là tốt、 mình nghĩ mình cứ là mình là được rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:normal,aika,0,40,0.7,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_22.mp3
+msg,1,<outline width=2 color=black>Dù vậy… Nhân tiện、 mình muốn được nũng nịu với ba như những đứa trẻ bình thường… Nên là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104154/adv/atlas/stand_a,body:smile,aika,0,40,0.7,0,,,,
+playvoice,1,download/character/104154/adv/sound/fav104154_02_23.mp3
+msg,1,<outline width=2 color=black>Nũng nịu thật nhiều、 thật nhiều vào、 ba nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

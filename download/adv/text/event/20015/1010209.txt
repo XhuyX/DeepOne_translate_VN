@@ -1,0 +1,264 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm026.mp3,0,
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chiến đấu là lẽ sống của tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trong lúc hai bên liều mạng chiến đấu、 chẳng còn quá khứ hay tương lai。Chỉ còn khoảnh khắc hiện tại、 nơi ta dồn hết thảy vào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cảm giác được sống mãnh liệt、 sự thỏa mãn、 niềm vui trong khoảnh khắc ấy。Không gì khác có thể mang lại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì vậy、 tôi chiến đấu。Tiếp tục chiến đấu。Dù bao nhiêu lần、 chỉ để được cảm nhận điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi chỉ có thể sống như vậy thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+stopbgm,0.5,,,,,,,,,,
+endwait
+bg,download/bg/bg_11070300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_b,body:anger,ouka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>anger: 'Cái kiểu tấn công gì mà yếu xìu thế này！ Tấn công là phải thế này này！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20120201/adv/image/20120201.png,enemy1,0,-50,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash4_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+anm,tint,enemy1,0_0_0,0.5,0
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: '――――――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endwait
+name,
+msg,0,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+sprite,download/monster/20120201/adv/image/20120201.png,enemy1,0,-50,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_b,body:unique,ouka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>unique: 'Hừ、 lại có đứa mới chui ra à。Được thôi、 cứ đến đi。Tao chấp hết――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20120201/adv/image/20120201.png,enemy1,0,-50,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>unique: '――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_b,body:surprise,ouka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>surprise: '――Uầy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+shake,0.2,4,30,30
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_b,body:unique,ouka,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>unique: 'Hể、 cũng được đấy。Có vẻ cũng có chút xương đấy nhỉ… Hừ、 hay đấy！ Càng ngày càng vui rồi đây！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_b,body:unique,ouka,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>unique: 'Đến đây、 lũ thỏ kia！ Chơi tới bến nào。Cứ làm tao vui thêm nữa đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20120201/adv/image/20120201.png,enemy1,0,-50,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>unique: '――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_b,body:sad,yoshino,0,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>sad: 'Haizz… Vẫn là cái kiểu cuồng chiến như thường</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_b,body:normal,yoshino,0,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: 'Được ở trong chiến trận khiến cô ấy vui không tả xiết――Chỉ cần nhìn dáng vẻ chiến đấu của cô ấy、 niềm vui ấy đã lan tỏa rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm026.mp3,0,
+endwait,,,,,,,,,,,
+name, 
+msg,0,<outline width=2 color=black>Tôi gặp Ototachibana lần đầu、 khi tham gia vào chiến dịch càn quét một tổ chức phản động ở một tiểu quốc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gọi là cách mạng lật đổ chính quyền mà tổ chức này rao giảng chỉ là cái cớ。Thực chất、 chúng dùng vũ lực để cướp bóc những người yếu thế vô tội。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lý tưởng của Hiệp sĩ đoàn Baltikum là bảo vệ sự bình yên của con người。Không thể bỏ mặc hành vi tàn bạo của tổ chức đe dọa điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi cùng vài học trò đến chiến trường、 được phân vào một trong những đội càn quét。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lúc đó、 Ototachibana cũng ở trong đội。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi đã nghe đồn về cô từ trước、 một thành viên chủ chốt của Đội lính đánh thuê pháp thuật Mary Warren、 nhưng khi tận mắt chứng kiến、 tôi đã phải kinh ngạc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô ấy lao vút trên mặt đất、 vui vẻ chém gục kẻ địch、 như một vị thần。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Có lẽ、 con người sinh ra để chiến đấu là để chỉ những người như cô ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+stopbgm,0.5,,,,,,,,,,
+endwait
+bg,download/bg/bg_11070300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_b,body:normal,yoshino,0,-240,0.5,0.5,,,,
+endwait
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: 'Nếu là đồng đội thì đáng tin cậy、 nhưng nếu là kẻ thù、 thì không có gì đáng sợ hơn…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_b,body:normal,yoshino,0,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: 'Mà thôi、 gác chuyện đó qua một bên――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,yoshino,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_b,body:unique,ouka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>unique: 'Xông lên――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Fire1,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+sprite,download/monster/20120201/adv/image/20120201.png,enemy1,0,-50,1.35,0.5,,,,
+anm,tint,enemy1,0_0_0,0.0001,0
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: '――――――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_b,body:normal,yoshino,0,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: '…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_b,body:unique,yoshino,0,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>unique: '…Hay là mình ăn thịt thỏ nướng ngắm trăng nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20120201/adv/image/20120201.png,enemy1,-350,-50,1.35,0.5,,,,
+sprite,download/monster/20120201/adv/image/20120201.png,enemy2,350,-50,1.35,0.5,,,,
+sprite,download/monster/20120201/adv/image/20120201.png,enemy3,0,-50,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: '――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,move,enemy1,1000_-50,0.4,0
+anm,move,enemy2,1000_-50,0.3,0
+anm,move,enemy3,1000_-50,0.4,0
+endwait
+wait,0.5
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/102704/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0.5,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: 'Thỏ… cứ biến mất đâu mất rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102704/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: 'Ouka và Yoshino đang cố gắng câu giờ。Nhờ vậy、 phòng thủ cũng bớt đi nhiều rồi。Thế này thì thoải mái rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102704/adv/atlas/stand_a,body:normal,maruta,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>normal: 'Hai người、 đi theo tôi？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>normal: 'Ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

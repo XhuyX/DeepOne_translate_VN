@@ -1,0 +1,88 @@
+﻿// machine translate -- gemini-2.5-flash
+name,,,
+stopbgm,,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,
+endwait
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0.5,,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu hỏi tôi có khỏe không、 thì thật khó trả lời。Khác hẳn với Dreamlands、 nhưng cuộc sống ở đây cũng không tệ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_01.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À… Mà này、 ngươi vốn đâu có biết cuộc sống của <ruby><rp> (</rp><rt>Debris</rt><rp>)</rp></ruby></outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_02.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trong Dreamlands、 tồn tại vô số không gian。<ruby><rp> (</rp><rt>Debris</rt><rp>)</rp></ruby> lang thang trong Dreamlands、 và thường chọn một vùng có cùng tần số làm nơi ở。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_03.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sau khi ẩn mình trong nơi ở、 hầu hết sẽ không ra khỏi các vùng khác。Họ sẽ dành thời gian dài đằng đẵng、 sống theo ý mình ở nơi đó。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_04.mp3
+clickwait,,,,,,,,,,,,
+select,選択肢1 「波長の合う領域？,選択肢2 「Zenoはここにいる
+if,select_===_1,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Có thể nói là hợp với bản thân。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_05.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Có lẽ ký ức trước khi trở thành <ruby><rp> (</rp><rt>Debris</rt><rp>)</rp></ruby> đã ảnh hưởng đến điều đó。Hoặc、 Dreamlands dẫn dắt、 thu hút <ruby><rp> (</rp><rt>Debris</rt><rp>)</rp></ruby>…</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_06.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta cũng có một vùng thoải mái、 nhưng lại không muốn ẩn mình。Ta đã đi khắp các vùng、 tập hợp những <ruby><rp> (</rp><rt>Debris</rt><rp>)</rp></ruby> giữ vững ý thức。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_07.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ban đầu là để tự vệ… Nhưng ta nghĩ、 việc gặp gỡ nhiều <ruby><rp> (</rp><rt>Debris</rt><rp>)</rp></ruby> đã nuôi dưỡng tâm hồn ta。Có lẽ nhờ vậy mà ta không mất đi lý trí。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_08.mp3
+clickwait,,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Vì ngươi đã lôi ta ra… Mà、 vốn dĩ trước đây ta đã không định sẵn vùng nào làm nơi ở、 mà đi khắp các vùng khác nhau。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_09.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ở yên một chỗ、 ta không tài nào chịu được。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_10.mp3
+clickwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Và giờ đây、 ta đang ở đây、 sống cùng với các ngươi… Có lẽ ta nên cảm tạ số phận kỳ lạ này。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_11.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cơ hội hiếm có… Ta không ngại dùng sức mạnh của mình vì các ngươi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_12.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu ngươi muốn thoát khỏi R'lyeh、 ta cũng sẽ giúp。Vì ta đã đối thoại、 đã đến gần nhau、 nên không thể bỏ mặc được nữa。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_13.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tất nhiên、 nếu ngươi tin vào lời nói của ta、 một <ruby><rp> (</rp><rt>Debris</rt><rp>)</rp></ruby>、 và tin tưởng giao phó lưng cho ta… Nhưng này。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_14.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mà、 ta không thể hình dung ngươi nghi ngờ ai được。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_15.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Nếu là ngươi、 sau này、 dù gặp những <ruby><rp> (</rp><rt>Debris</rt><rp>)</rp></ruby> khác ngoài chúng ta、 ngươi vẫn có thể vun đắp những mối quan hệ mới。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_16.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:sad,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Và nếu một tương lai mà ngươi và những Người Truy Tìm khác、 cùng với <ruby><rp> (</rp><rt>Debris</rt><rp>)</rp></ruby> có thể cùng tồn tại… thì đó là một điều đáng mừng。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_17.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Hoặc nếu là ngươi、 thì tương lai đó… À、 đây là một lời nói vô trách nhiệm、 có phần nặng nề quá。Xin lỗi、 hãy quên nó đi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_07_18.mp3
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+name,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,,
+endwait,,,,,,,,,,,,

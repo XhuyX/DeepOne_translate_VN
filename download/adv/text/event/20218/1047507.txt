@@ -1,0 +1,606 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11430302.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm104.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,komati1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/195904/adv/atlas/stand_a,body:anger,komati2,0,0,0,0,,,,
+imgconf,komati2,komati1,0,-520,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—Này này、 lại đây mau、 đồ to xác kia！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195904/adv/atlas/stand_a,body:anger,komati,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù yếu ớt、 em cũng sẽ làm tròn vai trò mồi nhử này cho xem！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29050105/adv/image/29050105.png,enemy1,0,-250,1,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——————————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195904/adv/atlas/stand_a,body:surprise,komati,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Oái、 nó tới rồi！ Clarisse！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,claris1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/195804/adv/atlas/stand_a,body:anger,claris2,0,0,0,0,,,,
+imgconf,claris2,claris1,0,-710,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>クラリス・ツァインブルグ</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng！ Casaleshart！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/character/102302/se/se_c02303_skill_05.mp3
+flash,255,255,255,4,0.3,1.0
+endwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash1_green,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/character/100402/se/se_c00404_skill_04.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11430302.jpg,1,255
+endwait
+
+
+sprite,download/monster/29050105/adv/image/29050105.png,enemy1,0,-250,1,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>————、 ————……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195804/adv/atlas/stand_a,body:anger,claris,0,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>クラリス・ツァインブルグ</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vừa bảo vệ Komachi-san vừa tấn công và dẫn dụ… Dù hao tổn nhiều、 nhưng chừng này thì…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:anger,norn,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Clarisse và Komachi đang dụ con hư ảnh。Erica、 Louise、 hai em sẵn sàng chưa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103451/adv/atlas/stand_a,body:normal,ruiez,300,-100,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+spriteatlas,download/character/103322/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em không sao cả… Còn Louise thì sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103451/adv/atlas/stand_a,body:normal,ruiez,300,-100,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em cũng ổn… Nhất định em sẽ lấy lại ký ức。Chúng ta hãy hợp sức lại và làm thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103322/adv/atlas/stand_a,body:smile,elica,-300,-100,0.5,0,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ruiez,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:anger,norn,300,-120,0.5,0.5,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà nói đi thì、 đúng là một năng lực phiền phức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:anger,norn,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Có lẽ là một sức mạnh nảy sinh do chịu ảnh hưởng từ Clarisse và những người đến từ thế giới bên kia。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103322/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không hẳn là năng lực y hệt như Clarisse đã dự đoán đâu。Chúng ta không nên lơ là thì hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:anger,norn,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tất nhiên。Tuy vậy、 cũng đúng là có lý。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:anger,norn,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Với những đòn đánh bất ngờ hay tấn công cơ động cao thì không có tác dụng cũng là điều hiển nhiên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:anger,norn,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chỉ vì quá chú tâm vào việc không bị đòn của nó、 đến nỗi không thể dùng được phương pháp hiệu quả và đơn giản nhất…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103451/adv/atlas/stand_a,body:anger,ruiez,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nó tới rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29050105/adv/image/29050105.png,enemy1,0,-250,1,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——————————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195804/adv/atlas/stand_a,body:anger,claris,-300,-190,0.5,0.5,,,,
+anm,tint,claris,150_150_150,0.0001,0
+spriteatlas,download/character/195904/adv/atlas/stand_a,body:sad,komati,300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đ、 đến được đây rồi thì、 phần còn lại giao cho mọi người được chứ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195804/adv/atlas/stand_a,body:anger,claris,-300,-190,0.5,0,,,,
+anm,tint,komati,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>クラリス・ツァインブルグ</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dẫn dụ、 đã hoàn thành！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103451/adv/atlas/stand_a,body:anger,ruiez,300,-100,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cảm ơn。Bên này cũng đã sẵn sàng rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103451/adv/atlas/stand_a,body:anger,ruiez,300,-100,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tấn công thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103322/adv/atlas/stand_a,body:anger,elica,-300,-100,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29050105/adv/image/29050105.png,enemy1,0,-250,1,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>————、 ——————…………！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195804/adv/atlas/stand_a,body:normal,claris,-300,-190,0.5,0.5,,,,
+anm,tint,claris,150_150_150,0.0001,0
+spriteatlas,download/character/195904/adv/atlas/stand_a,body:surprise,komati,300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có vẻ nó đang rất bối rối？ Trong khi mọi người còn chưa tấn công…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195804/adv/atlas/stand_a,body:normal,claris,-300,-190,0.5,0,,,,
+anm,tint,komati,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>クラリス・ツァインブルグ</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có lẽ、 nó đã nhìn thấy tương lai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195804/adv/atlas/stand_a,body:normal,claris,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>Theo phân tích của Norn-san、 dựa trên những chuyển động của con hư ảnh từ trước đến nay、 'thời gian có thể quay ngược về quá khứ từ tương lai' dài nhất cũng chỉ khoảng mười mấy giây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195804/adv/atlas/stand_a,body:normal,claris,-300,-190,0.5,0,,,,
+msg,0,<outline width=2 color=black>Người sở hữu năng lực đó mà tôi biết có vẻ có thể quay ngược thời gian lâu hơn、 nhưng việc nó không phải là một năng lực quá mạnh là một điều may mắn trong cái rủi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29050105/adv/image/29050105.png,enemy1,0,-250,1,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——————————！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195904/adv/atlas/stand_a,body:normal,komati,300,-130,0.5,0.5,,,,
+anm,tint,komati,150_150_150,0.0001,0
+spriteatlas,download/character/195804/adv/atlas/stand_a,body:anger,claris,-300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>クラリス・ツァインブルグ</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Năng lực mà ngươi đang có、 chính là Save và Load trong game。Có lẽ là khả năng quay ngược thời gian trong điều kiện nhất định。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195904/adv/atlas/stand_a,body:normal,komati,300,-130,0.5,0,,,,
+anm,tint,claris,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tức là、 dù bị tấn công、 nếu quay về thời điểm trước đó、 vì đã biết sẽ bị tấn công như thế nào nên có thể dễ dàng né tránh、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195804/adv/atlas/stand_a,body:anger,claris,-300,-190,0.5,0,,,,
+anm,tint,komati,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>クラリス・ツァインブルグ</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà… dù biết trước tương lai、 nếu không thể đối phó thì cũng vô nghĩa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/195904/adv/atlas/stand_a,body:normal,komati,300,-130,0.5,0,,,,
+anm,tint,claris,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miyako</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gọi là 'save chết' trong game、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:anger,catia,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Clarisse-san、 Komachi-san、 lại đây！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:anger,catia,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>—Nó tới rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_019.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm086.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103505/adv/atlas/stand_a,body:anger,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-660,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù nó có nhận ra cũng chẳng sao。Một cuộc oanh tạc thảm rộng khắp mà với khả năng quay ngược thời gian chỉ mười mấy giây thì không thể né tránh được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ruiez1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103451/adv/atlas/stand_a,body:anger,ruiez2,0,0,0,0,,,,
+imgconf,ruiez2,ruiez1,0,-600,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bên này đã dành rất nhiều thời gian để chuẩn bị đủ thứ rồi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103322/adv/atlas/stand_b,body:anger,elica,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—Chịu đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+playse,/download/character/100121/se/se_c00121_skill_03.mp3
+flash,255,255,255,4,0.3,1.0
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Threebeams_purple,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/chaA.mp3
+wait,0.3
+playse,/download/sound/se/chaA.mp3
+wait,0.3
+playse,/download/sound/se/chaA.mp3
+wait,0.4
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Threebeams_purple,em1,default,animation,0,0,1,0,1.0,0
+anm,scale,em1,-1_1,0,
+playse,/download/sound/se/chaA.mp3
+wait,0.3
+playse,/download/sound/se/chaA.mp3
+wait,0.3
+playse,/download/sound/se/chaA.mp3
+wait,0.4
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Thunder1_yellow,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_024.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+bg,download/bg/bg_11430302.jpg,1,255
+endwait
+
+
+spine,download/adv/spine/Explosion,em1,default,animation,0,-300,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,300,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+endwait
+spineoff,em1,0
+endwait
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em1,default,animation,0,-300,0,1.3,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1.3,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,300,0,1.3,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+endwait
+spineoff,em1,0
+endwait
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/29050105/adv/image/29050105.png,enemy1,0,-250,1,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—……、 …………、 ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,
+spine,download/adv/spine/Explosion,em1,default,animation,0,-300,0,1.3,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1.3,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,300,0,1.3,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+spineoff,em1,0
+endwait
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>————、 ———————</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,tint,enemy1,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>—……、 ……、 ………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

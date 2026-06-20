@@ -1,0 +1,155 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10020400.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm141.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:normal,clau,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_01.mp3
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ồ… về Rorgduas sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:sad,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_02.mp3
+msg,1,<outline width=2 color=black>Thật ra、 tôi cũng không rành về nó。Vì tôi đã rời xa ngay sau khi nó bị phân mảnh…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:normal,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_03.mp3
+msg,1,<outline width=2 color=black>Việc nó bị phân mảnh là vì tôi đã cầu xin được bảo vệ và cứu rỗi tâm hồn của Rosalie。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:normal,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_04.mp3
+msg,1,<outline width=2 color=black>Tôi đã ôm lấy một phần tâm hồn của Rosalie、 người đã tan vỡ vì nhận ra tội lỗi của mình、 để rồi một ngày nào đó trong tương lai、 ánh sáng của người sẽ trở lại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:normal,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_05.mp3
+msg,1,<outline width=2 color=black>Có lẽ、 điều đó đã dẫn đến việc Rorgduas có tính chất truyền từ người này sang người khác、 mang theo tâm hồn của Rosalie。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:sad,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_06.mp3
+msg,1,<outline width=2 color=black>Vấn đề là lời nguyền bị mọi người ghê tởm… Đó hoàn toàn là điều tôi không hề biết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:sad,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_07.mp3
+msg,1,<outline width=2 color=black>Có lẽ、 khi đồng hóa với tâm hồn của Rosalie、 Rorgduas đã bị ảnh hưởng… Tại sao lại là một lời nguyền như thế này cơ chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:sad,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_08.mp3
+msg,1,<outline width=2 color=black>Dù có xin lỗi đến mấy với Rosalie cũng không đủ。Tôi không ngờ hành động của mình lại gây ra cho người ấy nhiều đau khổ đến vậy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Vì sao Claiomh Solais ở lại Boardwin？,Rorgduas có nhân cách không？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:normal,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_09.mp3
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Rorgduas đã mang theo tâm hồn thơ bé của Rosalie。Phần còn lại ở lại bên cạnh thể xác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:normal,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_10.mp3
+msg,1,<outline width=2 color=black>Vì tôi nghĩ mình cần phải hỗ trợ Rosalie、 người đã gánh vác tư tưởng của những người quan trọng mà cô ấy đã giết để chuộc tội。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:normal,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_11.mp3
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nó mới chỉ bị phân mảnh gần đây、 và chưa có cái tôi rõ ràng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:normal,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_12.mp3
+msg,1,<outline width=2 color=black>Tất nhiên、 vì nó được sinh ra vì Rosalie、 nên nó có bản năng hành động vì điều đó…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:sad,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_13.mp3
+name,<outline width=2 color=black>Claiomh Solais</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…Liệu Rosalie、 người đã đi cùng Rorgduas、 và Rosalie、 người đã trở thành thủy tổ của Boardwin、 có oán tôi không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:sad,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_14.mp3
+msg,1,<outline width=2 color=black>Khi đó、 tôi、 người còn non nớt hơn bây giờ、 đã nghĩ rằng đó là lựa chọn đúng đắn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:sad,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_15.mp3
+msg,1,<outline width=2 color=black>Nhưng、 đó lại là việc gây ra nỗi đau khổ vĩnh cửu。Đó là lựa chọn khiến cô ấy chọn một kết thúc cô độc trong Dreamlands。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:sad,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_16.mp3
+msg,1,<outline width=2 color=black>Giờ thì… liệu tôi có thể đưa ra một lựa chọn tốt hơn cho Rosalie không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:normal,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_17.mp3
+msg,1,<outline width=2 color=black>…À、 một cảm giác kỳ lạ nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:normal,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_18.mp3
+msg,1,<outline width=2 color=black>Nếu như lúc đó… Tôi cứ nghĩ rằng、 suy nghĩ như vậy là đặc quyền của con người。Không ngờ tôi lại nghĩ đến chuyện này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:normal,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_19.mp3
+msg,1,<outline width=2 color=black>Có lẽ tôi cũng đã trưởng thành hơn một chút、 và có thể gần gũi với mọi người hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:normal,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_20.mp3
+msg,1,<outline width=2 color=black>…Nhưng、 đến gần con người… thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104012/adv/atlas/stand_a,body:normal,clau,0,-130,0.5,0,,,,
+playvoice,1,download/character/104012/adv/sound/fav104012_02_21.mp3
+msg,1,<outline width=2 color=black>Chỉ là… hơi đau khổ một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

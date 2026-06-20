@@ -1,0 +1,104 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:normal,patrisia,0,-170,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_01.mp3
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Bạn chưa từng ra khỏi R'lyeh bao giờ、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:normal,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_02.mp3
+msg,1,<outline width=2 color=black>Nếu sau này、 phong tỏa R'lyeh được dỡ bỏ và bạn có thể ra ngoài、 bạn đã quyết định sẽ làm gì chưa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:sad,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_03.mp3
+msg,1,<outline width=2 color=black>Tất nhiên、 với thân phận của bạn、 Tổ chức Lovecraft và những bên khác sẽ không bỏ qua đâu、 nên có lẽ đây không phải là chuyện có thể nghĩ nhẹ nhàng được……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,Muốn thử nhiều loại rượu khác nhau,Muốn ở cùng Patricia
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:normal,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_04.mp3
+msg,1,<outline width=2 color=black>Có lẽ nào、 trong lúc uống cùng tôi、 bạn đã nghiện mất rồi sao？ Fufu、 vậy thì công sức tôi pha chế đủ thứ cũng đáng giá nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:normal,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_05.mp3
+msg,1,<outline width=2 color=black>Rượu từ khắp nơi trên thế giới… fufufu、 đó là một mục tiêu hay đấy。Nghe có vẻ rất vui、 tôi thật ghen tị。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_06.mp3
+msg,1,<outline width=2 color=black>Ơ… à、 ừm、 cái đó là có ý gì vậy…！？ Ở cùng tôi、 tức là… tức là…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:surprise,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_07.mp3
+msg,1,<outline width=2 color=black>…Khoan đã、 bạn cười cái gì… À！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:anger,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_08.mp3
+msg,1,<outline width=2 color=black>K-Không lẽ、 bạn đang trêu tôi đấy à！？ Khừ… C-Cái trò đùa đó、 có hơi kém duyên rồi đấy…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:anger,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_09.mp3
+msg,1,<outline width=2 color=black>Nếu cứ đùa giỡn với trái tim thiếu nữ như thế、 bạn sẽ bị mọi người xung quanh nghĩ là người tùy tiện giống anh trai tôi đấy！ Thật là…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:surprise,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_10.mp3
+msg,1,<outline width=2 color=black>Ơ… tôi á？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:sad,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_11.mp3
+msg,1,<outline width=2 color=black>Đúng vậy… tôi vẫn chưa thể hình dung được sẽ thoát ra bằng cách nào、 và có lẽ còn tùy thuộc vào tình hình nữa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:sad,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_12.mp3
+msg,1,<outline width=2 color=black>Vốn dĩ、 tôi đã bất chấp sự phản đối của bố mẹ để trở thành Người Truy Tìm。Nói đúng hơn、 tôi đã bỏ nhà đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:normal,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_13.mp3
+msg,1,<outline width=2 color=black>Thế nên、 dù có thoát ra khỏi đây an toàn、 tôi cũng khó mà về nhà được…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:normal,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_14.mp3
+msg,1,<outline width=2 color=black>Vậy nên… phải rồi。Nếu ra khỏi R'lyeh được、 sau đó tôi có thể tự do、 thử đi du lịch khắp thế giới cũng không tệ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:smile,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_15.mp3
+msg,1,<outline width=2 color=black>Vì đằng nào cũng biết pha chế rượu、 làm một người pha chế lưu động có lẽ cũng vui。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_16.mp3
+msg,1,<outline width=2 color=black>Thậm chí、 thật sự là ở cùng bạn… fufufu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:shy,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_17.mp3
+msg,1,<outline width=2 color=black>…Nếu bạn cũng thấy điều đó không tệ、 thì hãy cho tôi câu trả lời khi chúng ta thoát khỏi R'lyeh nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:normal,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_18.mp3
+msg,1,<outline width=2 color=black>…Thế nhưng、 nếu vậy thì tôi phải trau dồi kỹ năng hơn nữa rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:normal,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_19.mp3
+msg,1,<outline width=2 color=black>Vậy nên、 khi nào rảnh、 bạn có thể giúp tôi luyện tập được không？ Dù có pha chế rượu、 nhưng không có người uống thì cũng phí。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:smile,patrisia,0,-170,0.5,0,,,,
+playvoice,1,download/character/101602/adv/sound/fav101602_07_20.mp3
+msg,1,<outline width=2 color=black>Yên tâm đi。Nếu lỡ có say mềm、 tôi sẽ chăm sóc bạn chu đáo mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

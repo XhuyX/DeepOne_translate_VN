@@ -1,0 +1,112 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10040100.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:normal,ouka,-10,-120,0.47,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>— Quanh đây có vẻ cũng không có kẻ địch nào。Sao hôm nay yên ắng lạ thường vậy nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù không có trận chiến nào、 chúng ta cũng đi bộ khá lâu rồi nhỉ…… Sao rồi？ Nếu mệt thì nghỉ một lát nhé？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_02.mp3
+clickwait,,,,,,,,,,,
+select,Cậu thật tốt bụng。,Tớ không sao đâu。
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:normal,ouka,-10,-120,0.47,0,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngốc。Chỉ là nếu cậu kiệt sức mà không thể di chuyển lúc cần thì sẽ phiền phức thôi。Dù không chiến đấu、 nhưng gần đây khả năng chạy trốn của cậu cũng khá hơn rồi đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:smile,ouka,-10,-120,0.47,0,,,,
+spine,download/adv/spine/Mark1,em1,default,animation,0,80,190,0.65,0.8,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>Đây cũng là thành quả của việc tớ huấn luyện cậu nhỉ。Haha、 cậu có thể cảm ơn tớ đấy chứ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_04.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:shy,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Này、 này！ Đừng có nghiêm túc mà cảm ơn tớ như thế chứ。Thật là ngượng chết đi được。Đừng có coi lời nói đùa là thật chứ！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_05.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:normal,ouka,-10,-120,0.47,0,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy sao。Nếu mệt thì nói ngay nhé？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:surprise,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Cậu lo cho tớ hơn à？ Này này、 cậu biết rõ sức mạnh của tớ mà、 phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_07.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:smile,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>— Kẻ nào cũng không phải là đối thủ của tớ đâu。Nếu cậu ở bên、 tớ sẽ không sao đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_08.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:normal,ouka,-10,-120,0.47,0,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Này、 đống đổ nát kia、 kích thước vừa phải đúng không？ Cứ ngồi xuống đó đi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Rồi、 nghỉ một lát xong hôm nay chúng ta về nhé…… Gì chứ、 tớ nói sẽ về mà không chiến đấu một trận nào lại bất ngờ đến thế sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 đó là cái gọi là thay đổi tâm trạng thôi。Tớ cũng、 lại có thứ cần phải bảo vệ rồi。Tớ muốn trân trọng điều đó hơn là chiến đấu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:sad,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Trước khi gặp cậu、 tớ đã mất đi thứ cần bảo vệ、 trở nên tuyệt vọng。Tớ chạy trốn vào chiến đấu、 chìm đắm trong đó、 và từ bỏ mọi suy nghĩ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Việc tớ gặp được cậu ở nơi này、 nơi tớ đã đến sau tất cả… là một sự trớ trêu―― hay là、 một sự may mắn nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:smile,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Cậu đã…… một lần nữa ban cho tớ ý nghĩa để sống。Vì vậy、 tớ sẽ trở thành thanh kiếm của cậu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Chừng nào cậu còn mong muốn、 tớ sẽ bảo vệ cậu。Không chỉ mạng sống của cậu、 mà cả những ước muốn của cậu…… và cả những người mà cậu muốn bảo vệ、 tất cả、 tớ sẽ bảo vệ hết。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:surprise,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>— Hả？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Trong số những người muốn bảo vệ、 có cả tớ nữa à。Haha、 vậy thì phiền phức đây。Vậy thì、 tớ cũng phải tự bảo vệ chính mình nữa sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:unique,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nói vậy thì、 tớ xin rút lại lời vừa nói một chút…… Lý tưởng của tớ là、 được một người đàn ông bảo vệ…… Nói ra điều không giống tớ chút nào như vậy có được không nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:smile,ouka,-10,-120,0.47,0,,,,
+spine,download/adv/spine/Mark1,em2,default,animation,0,80,190,0.65,0.8,0.5
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khụ、 ha、 hahahaha！ Cậu lại gật đầu ngay lập tức chứ！ Nhưng mà、 để làm được điều đó、 cậu phải luyện tập nhiều hơn nữa đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_19.mp3
+clickwait,,,,,,,,,,,
+spineoff,em2,,,,,,,,,,
+spriteatlas,download/character/101502/adv/atlas/stand_b,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu đã vậy、 hôm nay về rồi thì tập luyện thôi！ Hôm nay tớ đang rất vui。Tớ sẽ 'chăm sóc' cậu thật kỹ、 cứ chờ mà xem nhé！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101504/adv/sound/fav101504_13_20.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

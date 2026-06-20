@@ -1,0 +1,677 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11050300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,enemy1,0,0,1280,250,0.5,,,,
+sprite,download/monster/20100201/adv/image/20100201.png,enemy2,0,0,1.35,0.5,,,,
+imgconf,enemy2,enemy1,0,-100,,,0,1.5,1.5,0.5
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——————————</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,weat1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:sad,weat2,0,0,0,0,,,,
+imgconf,weat2,weat1,0,-950,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ít nhất là lúc này、 nếu chịu ngoan ngoãn thì tốt quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+
+sprite,download/monster/20100201/adv/image/20100201.png,enemy1,0,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>———、 ……、 ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,tint,enemy1,0_0_0,0.5,0
+endwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:smile,weat,-300,-240,0.5,0.5,,,,
+anm,tint,weat,150_150_150,0.0001,0
+spriteatlas,download/character/102851/adv/atlas/stand_a,body:surprise,miliam,300,-220,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 vừa rồi có gì đó như là ma lực……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:smile,weat,-300,-240,0.5,0,,,,
+anm,tint,miliam,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có vẻ như trận bóng chuyền bãi biển của Zeno-san và mọi người đang rất sôi nổi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102851/adv/atlas/stand_a,body:normal,miliam,300,-220,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……À…… ra là vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102851/adv/atlas/stand_a,body:sad,miliam,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà nói đúng hơn、 chuẩn bị BBQ cũng sắp xong rồi、 hay là mình đi gọi mọi người thì hơn nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102851/adv/atlas/stand_a,body:sad,miliam,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Ơ kìa、 nếu mà mình vào can thì sợ bị cuốn vào mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,weat,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102907/adv/atlas/stand_a,body:normal,rozet,-300,-100,0.5,0.5,,,,
+anm,tint,miliam,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu vậy thì、 Rosette này đi gọi mọi người giúp chị nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102851/adv/atlas/stand_a,body:normal,miliam,300,-220,0.5,0,,,,
+anm,tint,rozet,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cũng không nên đẩy việc này cho em、 mình cùng đi nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102907/adv/atlas/stand_a,body:normal,rozet,-300,-100,0.5,0,,,,
+anm,tint,miliam,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0.5,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:normal,weat,-300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cách lấp liếm tệ hại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Em không muốn mọi người phải lo lắng thêm chút nào cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Miriam và Rosette đều đã nhận ra rồi、 chỉ là họ giả vờ không biết thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Vậy thì、 có vẻ như em lại khiến họ phải bận tâm ngược lại、 thật xin lỗi quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị nghĩ em cũng không cần phải bận tâm đến mức đó đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:normal,weat,-300,-240,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em thì、 mặc dù là Debris、 lại có ký ức lúc còn là con người sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A-a…… khụ、 khụ！？ Khụ、 ừm、 khụ khụ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gì mà tự nhiên sắp chết đến nơi vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 ừm、 vì quá đột ngột nên em bị nghẹn họng mất rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ơ、 ơ、 ừm、 s-sao chị lại nói như vậy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà nói đúng hơn là、 em nghĩ sẽ không ai nhận ra sao。Khi em đã phản ứng mạnh mẽ như vậy với những chủ đề liên quan đến tôn giáo―― hay nói đúng hơn là Thánh Lễ Giáo thì phải。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………C-chỉ là tình cờ thôi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm…… nếu em muốn giả vờ không biết thì cũng được thôi。Chị cũng không có ý định hỏi gì đặc biệt、 chỉ là hơi tò mò một chút thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chỉ là、 đúng là một mối duyên kỳ lạ…… không ngờ lại có mối liên hệ kéo dài đến tận nơi này。Dù sao thì、 đây cũng chẳng phải chuyện đáng mừng gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>Một mối duyên nợ dai dẳng như thế này、 ước gì có thể dứt khoát vứt bỏ nó đi…… Em có bao giờ nghĩ như vậy không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Dù vậy、 mối liên hệ vẫn là mối liên hệ、 em nghĩ mình muốn đối mặt với nó một cách đàng hoàng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Có thể đó là định mệnh không mong muốn hay nhân duyên đáng ghét…… Dù vậy、 em không thể vứt bỏ nó mà tiến về phía trước được……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:normal,weat,-300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>…………Dù nói vậy、 em cũng không biết phải làm gì để đạt được điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Quả nhiên là em đã thừa nhận có mối duyên nào đó rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:surprise,weat,-300,-240,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Á、 không…… k-cái vừa rồi không phải……！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,300,-220,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đến nước này mà còn phủ nhận thì cũng chịu thôi…… Này、 chị muốn hỏi em một chuyện――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ilyna,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,0,-220,0.5,0.5,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+spriteatlas,download/character/100603/adv/atlas/stand_a,body:normal,frau,400,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>BBQ、 chuẩn bị xong rồi đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,0,-220,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Vậy sao。Chị sẽ đi ngay。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100603/adv/atlas/stand_a,body:normal,frau,400,-120,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm、 em đi gọi mọi người khác nữa nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:normal,ilyna,0,-220,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Cẩn thận đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,xeno1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102405/adv/atlas/stand_a,body:anger,xeno2,0,0,0,0,,,,
+imgconf,xeno2,xeno1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Zeno Nazari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ăn đòn đi…… Đây chính là đòn đánh quét sạch mọi thứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ridia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101251/adv/atlas/stand_a,body:anger,ridia2,0,0,0,0,,,,
+imgconf,ridia2,ridia1,0,-300,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừ！ Làm quá lên vậy…… Cái đó chỉ là đòn yếu ớt thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+endwait
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,miliam1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102851/adv/atlas/stand_a,body:sad,miliam2,0,0,0,0,,,,
+imgconf,miliam2,miliam1,0,-870,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Miriam Riffler</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khoan…… n-nên là、 sắp đến giờ BBQ rồi！ Nghe người ta nói――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rozet1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102907/adv/atlas/stand_a,body:surprise,rozet2,0,0,0,0,,,,
+imgconf,rozet2,rozet1,0,-200,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Rosette Savigny</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>M-Miriam-sama、 xin hãy tránh ra……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,1,0.3,0.5
+playse,/download/sound/se/se_043.mp3
+shake,0.2,2,15,15
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,vi1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102205/adv/atlas/stand_a,body:normal,vi2,0,0,0,0,,,,
+imgconf,vi2,vi1,0,-980,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi…… Trúng đạn lạc một cách ngoạn mục luôn nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,milva1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101351/adv/atlas/stand_a,body:normal,milva2,0,0,0,0,,,,
+imgconf,milva2,milva1,0,-350,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vừa rồi chị ấy bay đi trong khi xoay ba vòng lận、 không biết có sao không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:sad,ilyna,300,-220,0.5,0.5,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+spriteatlas,download/character/100603/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Ư……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:sad,ilyna,300,-220,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm…… Thôi đành vậy。Chị cũng đi cùng em vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100603/adv/atlas/stand_a,body:smile,frau,-300,-120,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102309/adv/atlas/stand_a,body:sad,weat,-300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 ừm、 Irina-san。Vừa rồi chị định nói gì vậy ạ、 rốt cuộc là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:sad,ilyna,300,-220,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Không có gì đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm026.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>――Thật là một câu chuyện ngu ngốc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Thật sự、 tôi thấy mình thật đáng trách。Rốt cuộc thì tôi đang muốn hỏi điều gì đây……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ilyna1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100908/adv/atlas/stand_a,body:sad,ilyna2,0,0,0,0,,,,
+imgconf,ilyna2,ilyna1,0,-770,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Trước kia、 cha mẹ tôi đã dâng hiến tất cả cho tín ngưỡng、 chẳng hề đoái hoài đến tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Họ là những kẻ tử vì đạo、 tìm kiếm Nguyên thư Pnakotic、 rồi lao mình vào Dreamlands。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Được chọn、 cha mẹ tôi đã không nghe lời tôi níu kéo、 cũng chẳng một lần ngoảnh lại。Họ lao mình vào Thuật thức một chiều đến Dreamlands。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Thật ngu ngốc làm sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Cả cha mẹ tôi、 những kẻ đã tin vào Thánh Lễ Giáo。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Cả tôi、 kẻ đã ảo tưởng rằng cha mẹ、 những người lệ thuộc vào tín ngưỡng、 sẽ chọn tình yêu dành cho tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Phải… tôi hiểu rõ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Sự thật là Thánh Lễ Giáo đã cướp cha mẹ tôi đi。……Nhưng sự thật là cha mẹ đã chọn Thánh Lễ Giáo thay vì tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Tôi nung nấu sự căm hờn với Thánh Lễ Giáo、 vì nếu không、 trái tim tôi sẽ không chịu nổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Tôi muốn đổ lỗi cho một thứ gì đó、 về việc cha mẹ đã không thực sự yêu thương tôi。Tôi muốn tự mình thuyết phục bản thân rằng có lý do cho việc đó、 trong sự cô độc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Và sự yếu đuối đó… có lẽ、 vẫn không hề thay đổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Bởi vì、 đúng là như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Nếu không thì… tôi đã không nghĩ đến việc hỏi những điều như thế này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Rằng、 liệu có ai biết cha mẹ tôi、 những người đã rơi vào Dreamlands hay không――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Đến giờ phút này、 tôi còn mong đợi điều gì chứ？ Đến bao giờ tôi mới thôi bị ám ảnh đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name, 
+msg,0,<outline width=2 color=black>Thật sự、 một người phụ nữ ngốc nghếch。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

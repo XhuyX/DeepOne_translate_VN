@@ -1,0 +1,120 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:sad,jamira,25,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+anm,move,jamira,250_-120,1,1
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À… lo lắng quá… Không sao chứ… Thật sự không sao chứ…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_01.mp3
+clickwait,,,,,,,,,,,
+anm,move,jamira,-350_-120,2,1
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À… Ch、 chào anh。Anh cũng đến phòng pha trà à？ Nhưng xin lỗi、 anh đợi một chút được không…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_02.mp3
+clickwait,,,,,,,,,,,
+anm,move,jamira,25_-120,1,1
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:surprise,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hả… Trông tôi bồn chồn đến vậy sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:sad,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Quả thật là tôi có vẻ mất bình tĩnh hơn mọi khi。Nhưng mà、 cũng chẳng có gì lạ。Bởi vì――</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:anger,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>――Katia-sama đang tự mình đi pha trà đấy！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_05.mp3
+clickwait,,,,,,,,,,,
+select,選択肢1 「……それだけ？,選択肢2 「そうなんだ
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:anger,jamira,25,-120,0.5,0,,,,
+spine,download/adv/spine/Mark6,em1,default,animation,0,130,250,0.65,0.8,0.2
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không chỉ có thế đâu！ Thánh nữ của Thánh Lễ Giáo đang tự tay pha trà đấy！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_06.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,0,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:sad,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng là dạo gần đây Katia-sama rất muốn thử những điều mới、 tinh thần ấy thật đáng ngưỡng mộ。Nhưng… nhưng…！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_07.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:anger,jamira,25,-120,0.5,0,,,,
+spine,download/adv/spine/Mark6,em2,default,animation,0,130,250,0.65,0.8,0.2
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sao anh lại thờ ơ thế chứ！ Chuyện đang diễn ra là một sự kiện lịch sử đấy！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_08.mp3
+clickwait,,,,,,,,,,,
+spineoff,em2,0,
+msg,1,<size=30><outline width=2 color=black>Katia-sama vốn đã là một người tuyệt vời、 vậy mà còn tự mình thử những điều mới… Thật là một hình ảnh đáng quý làm sao…！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu người trở nên hoàn hảo hơn nữa、 tôi e là sẽ chói mắt đến mức không dám nhìn nữa mất…！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_10.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:sad,jamira,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 nói đi cũng phải nói lại、 nếu lỡ làm đổ nước sôi、 bị bỏng thì… Nghĩ đến đó thôi là tôi đã không thể ngồi yên được rồi…！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:normal,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>…Vâng、 tôi biết。Không được quá bao bọc。Katia-sama cũng đã nói với tôi như vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:sad,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Dù vậy thì lo vẫn cứ lo… Giờ tôi chỉ có thể cầu mong mọi chuyện diễn ra suôn sẻ thôi… Thật là bất lực làm sao。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:surprise,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>A、 nhìn kìa！ Cuối cùng Katia-sama cũng đã rót nước vào ấm rồi！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:normal,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>N、 nhẹ nhàng làm sao… Tấm lòng từ bi của Katia-sama như hiện rõ qua từng động tác vậy…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:sad,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À… không được rồi。Cứ cố kìm nén thì nước mắt lại trào ra…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:smile,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Cảnh tượng cảm động này、 tôi muốn cho tất cả các tín đồ chiêm ngưỡng quá… Chắc chắn ai cũng sẽ rơi lệ giống tôi thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:surprise,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Bởi vì、 chỉ một hành động rót nước vào ấm thôi mà、 lại đẹp đến thế、 lại toát ra vẻ thần thánh đến thế、 thì ngoài… A！？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_18.mp3
+clickwait,,,,,,,,,,,
+playse,/download/sound/se/se_042.mp3
+wait,0.5
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:sad,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>N、 nước sôi、 đã dính vào tay của Katia-sama…！？ À… điều tôi lo sợ đã thành sự thật rồi…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_19.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:anger,jamira,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu để lại sẹo trên đôi tay trắng như sứ ấy thì thật là thảm họa… Phải nhanh chóng giúp đỡ… Katia-sama！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101002/adv/sound/fav101002_06_20.mp3
+clickwait,,,,,,,,,,,
+anm,move,jamira,1200_-120,0.5,1
+endwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

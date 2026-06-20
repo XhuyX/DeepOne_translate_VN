@@ -1,0 +1,140 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bg,download/bg/bg_10020200.jpg,0.0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm006.mp3,0.5,,,
+endwait
+sprite,download/monster/20010101/adv/image/20010101.png,monster,-50,-200,1.25,0.5,,,,
+endwait,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>―――――――――――――！</outline></size>,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait,,,,,,,,,,,,
+spriteoff,monster,0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edelgard,0,-120,0.5,0.5,,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Yo、 hừm。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_01.mp3
+clickwait,,,,,,,,,,,,
+spriteoff,edelgard,0
+endwait
+sprite,download/monster/20010101/adv/image/20010101.png,monster,-50,-200,1.25,0.5,,,,
+endwait
+spine,download/adv/spine/Thunder1_yellow,em1,default,animation,0,0,0,1,1,0.5,
+wait,0.4
+playse,/download/sound/se/se_024.mp3
+endwait,,,,,,,,,,,
+flash,255,255,255,2,0.2,1.5
+shake,0.1,1,100,100
+endwait
+spriteoff,monster,1,,,,,,,,,,
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,,
+wait,1.5
+endwait
+stopbgm,0
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edelgard,0,-120,0.5,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>Cái này không phải là đối thủ của <Debris>Raiha。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_02.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:surprise,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Hửm？ Gì vậy。Mày có vẻ như muốn nói gì đó nhỉ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_03.mp3
+clickwait,,,,,,,,,,,,
+select,選択肢1 「戦うのは楽しい？,選択肢2 「幻夢境だと姿を見せてくれるんだな
+if,select_===_1,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 vui đấy。Tao đúng là kiểu người không chiến đấu thì không được。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_04.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tất nhiên、 có lẽ mày thấy kỳ lạ。Có đứa lại thích những trận chiến nguy hiểm。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_05.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng… tao là kiểu người như vậy。Cứ nghĩ là trên đời có những thằng ngốc như thế là được。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_06.mp3
+clickwait,,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Edelgard Einstein</outline></size>,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Chắc chắn rồi、 không thể hạ gục kẻ địch qua màn hình ảo được。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_07.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Với lại、 trong Dreamlands thì không có vấn đề gì khi lộ diện cả。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_08.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…Trong R'lyeh thì lại có nhiều chuyện。Về điểm này thì、 đúng là bí mật tuyệt mật。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_09.mp3
+clickwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Chắc tao là đứa lạc quan nhất trong tình huống hiện tại。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_10.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bị nhốt trong R'lyeh、 muốn thoát thì phải truy tìm Dreamlands、 mà chiến đấu thì không thể tránh khỏi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_11.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Với lại、 gánh nặng của Dreamlands thì có mày ở đây là ổn。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_12.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:smile,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhờ vậy、 tha hồ chiến đấu trong Dreamlands。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_13.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 thật sự… lâu rồi、 nhưng vẫn thấy sướng。Cảm giác hưng phấn khi chiến đấu、 cảm giác khi hạ gục kẻ địch… ha ha。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_14.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:surprise,edelgard,0,-120,0.5,0,,,,,
+spine,download/adv/spine/Mark3,em2,default,animation,0,150,150,0.5,0.5,0
+endwait
+msg,1,<size=30><outline width=2 color=black>Này、 đừng có sợ khiếp vía thế chứ。Mất lịch sự quá đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_15.mp3
+clickwait,,,,,,,,,,,,
+spineoff,em2,,,,,,,,,,
+endwait
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:normal,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Phù thủy thì toàn lũ có một đến hai tật xấu。Trong số đó、 tao còn đỡ hơn đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_16.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tất nhiên、 đỡ hơn thôi、 chứ với mày thì cũng như nhau cả。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_17.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À thì、 kiểu vậy。Dù mày thấy tao nguy hiểm đến mức nào đi nữa、 thì cứ tìm cách dùng tao đi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_18.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dao hay súng cũng vậy。Suy cho cùng thì chúng đều nguy hiểm。Nhưng quan trọng là dùng chúng như thế nào、 đúng không？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_19.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:smile,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nên là、 cứ dùng tao cho tốt vào。Dù tao tự nhận、 nhưng tao khá là hữu dụng đấy？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_20.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:surprise,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ối… Nhưng mà、 về chuyện trên giường vào ban đêm thì tao vẫn còn nhiều chỗ chưa quen。Đừng có mong đợi AnMari nhé。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_21.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100502/adv/atlas/stand_b,body:smile,edelgard,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…Nói chơi thôi。Ha ha、 đừng có tin、 thằng ngốc。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100500/adv/sound/fav100500_02_22.mp3
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+name,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,,
+endwait,,,,,,,,,,,,

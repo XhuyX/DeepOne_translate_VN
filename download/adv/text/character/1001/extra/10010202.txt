@@ -1,0 +1,126 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngay sau khi bị nhốt ở R'lyeh、 em đã nghĩ mình sẽ nhớ mặt đất lắm、 nhưng khi sống ở đây thế này、 thì thấy nó cũng tiện lợi ghê。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:smile,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Anh đã thử đến khu vườn nhân tạo ở trung tâm chưa？ Cây cối xanh tươi、 trên trần nhà còn chiếu hình ảnh bầu trời、 gió cũng thổi nữa、 khiến em suýt quên mất là mình đang ở dưới đáy biển đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngoài ra、 phòng tập gym và thư viện giải trí cũng rất đầy đủ、 。。。chắc đây chính là cái gọi là 'sống đâu quen đó' đây mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 đúng rồi。Với lại、 ở đây、 mỗi khu vực lại có một nhà tắm riêng đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khu dân cư thì theo phong cách La Mã、 nhưng khu nghiên cứu lại có bồn tắm lộ thiên kiểu Nhật。Ngoài ra còn có cả phòng xông hơi kiểu Phần Lan nữa cơ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:unique,asaka,65,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái người thiết kế R'lyeh ấy、 chắc phải mê tắm đến mức nào chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 em cũng thích tắm、 và nó cũng giúp thư giãn tốt。Anh cũng thử đi tắm ở nhiều nơi xem sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_07.mp3
+clickwait,,,,,,,,,,,
+select,Cùng đi không？,Một mình thì buồn lắm。
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,65,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_08.mp3
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/Mark11,em1,default,animation,0,200,180,0.65,0.8,0.5
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………Hả！ Anh nói cái gì đột ngột quá、 khiến em đứng hình mất một lúc。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_09.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,0,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:unique,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Anh này、 nếu cứ nói đùa kiểu đó、 người ta sẽ nghĩ anh là kẻ nông cạn đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_10.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À… phải rồi、 ở đây chỉ có mỗi anh là đàn ông thôi mà。Một mình trong cái nhà tắm rộng lớn đó、 đúng là có hơi buồn thật。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:smile,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì、 cùng vào nhé？ 。。。Đùa thôi。Đương nhiên là đùa rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:shy,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Này、 này、 sao anh lại thất vọng đến thế chứ。Đương nhiên là em không làm vậy rồi！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:anger,asaka,65,-120,0.5,0,,,,
+spine,download/adv/spine/Mark6,em2,default,animation,0,200,210,0.5,0.8,0.5
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cố gắng một chút đi' á、 không thể nào đâu！ Đừng có coi đùa là thật chứ！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_14.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spineoff,em2,0,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:unique,asaka,65,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Anh này、 thỉnh thoảng lại có những ý nghĩ kỳ cục ghê。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hả？ Mặc đồ bơi á。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:unique,asaka,65,-120,0.5,0,,,,
+spine,download/adv/spine/Mark12,em3,default,animation,0,180,190,0.65,0.8,0.5
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Anh muốn vào cùng đến thế cơ à。。。？ Em thấy hơi rợn người đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_17.mp3
+clickwait,,,,,,,,,,,
+spineoff,em3,0,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đùa á、 hả。。。Chắc gì。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi được、 lần này em sẽ tin anh。Chỉ lần này thôi đấy nhé？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_19.mp3
+clickwait,,,,,,,,,,,
+spriteoff,asaka,1,,,,,,,,,
+endwait,,,,,,,,,,,
+mask,bg1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,0,0,0,0,,,,
+imgconf,asaka,asaka1,90,-480,,,0,1.5,1.5,0.5
+clickwait
+msg,1,<size=30><outline width=2 color=black>—Mà này、 đồ bơi thì。。。đâu thể đột ngột thế được。。。Em cũng cần chuẩn bị nữa chứ。。。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_20.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>。。。Chắc em nên thử dùng phòng tập gym xem sao。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100102/adv/sound/fav100102_06_21.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1,,,,,,,,,,
+endwait,,,,,,,,,,,

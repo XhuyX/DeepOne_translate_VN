@@ -1,0 +1,416 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm026.mp3,0,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Từ khi sinh ra、 vai trò đã được định đoạt。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Để khôi phục lại vinh quang cho gia tộc đã suy tàn。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ba và mẹ đã sinh ra、 nuôi dưỡng 'chúng tôi' vì mục đích đó。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Có lẽ chẳng có tình yêu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cũng có thể chẳng có tình thân。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Dù vậy cũng không sao。Chẳng liên quan。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Từ khi sinh ra、 hai đứa là một。'Đứa bé này' tồn tại để tôi sử dụng、 và tôi tồn tại để sử dụng 'đứa bé này'。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vì vậy、 tôi―― sẽ chiến đấu vì 'đứa bé này'。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,
+endwait
+stopbgm,0.5,,,,,,,,,,
+endwait
+wait,0.5
+endwait
+playbgm,/download/sound/bgm/bgm007.mp3,0.5,
+endwait
+bg,download/bg/bg_11000300.jpg,0.5,255
+endwait
+sprite,download/monster/20030101/adv/image/20030101.png,enemy1,-350,-100,1.35,0.5,,,,
+sprite,download/monster/20030101/adv/image/20030101.png,enemy2,350,-100,1.35,0.5,,,,
+sprite,download/monster/20030101/adv/image/20030101.png,enemy3,0,-100,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>―――――――――――――！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_b,body:anger,maruta,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cầu nguyện Rừng Đen、 hãy ban thêm sức mạnh cho tôi……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+sprite,download/monster/20030101/adv/image/20030101.png,enemy1,-350,-100,1.35,0.5,,,,
+anm,tint,enemy1,0.0001_0.0001_0.0001,0.0001,0
+sprite,download/monster/20030101/adv/image/20030101.png,enemy2,350,-100,1.35,0.5,,,,
+anm,tint,enemy2,0.0001_0.0001_0.0001,0.0001,0
+sprite,download/monster/20030101/adv/image/20030101.png,enemy3,0,-100,1.35,0.5,,,,
+anm,tint,enemy3,0.0001_0.0001_0.0001,0.0001,0
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>――――、――……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+endwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11000300.jpg,0.5,255
+endwait
+stopbgm,0.5,,,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0.5,
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:surprise,dana,300,-180,0.5,0.5,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:normal,lydia,-300,-120,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sức mạnh đáng sợ quá…… Lẽ ra cô ấy phải bị giam cầm trong Dreamlands suốt bấy lâu、 sao lại có được sức mạnh lớn đến vậy……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,lydia,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Quả thật là phi thường quá mức rồi…… Rốt cuộc là cơ chế gì vậy？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-120,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,lydia,255_255_255,0.0001,0
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sự im lặng đó、 có nghĩa là cô không định trả lời sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Lydia-san、 đừng ép buộc quá…… Martha-san cũng là một pháp sư、 chắc chắn cô ấy có một hai quân bài muốn giấu kín。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thật sự、 để có được sự tin tưởng đến mức kể hết mọi chuyện thì không dễ dàng chút nào đâu……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:normal,lydia,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thôi thì、 cũng được thôi。Không cần xác nhận、 tôi cũng đoán được phần nào rồi。――'Thứ đó' phải không、 nguồn sức mạnh của cô？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-120,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………Ừm。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+endwait
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maruta1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta2,0,0,0,0,,,,
+imgconf,maruta2,maruta1,120,380,,,0,1.5,1.5,0.5
+wait,1.0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:normal,lydia,-300,-120,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-120,0.5,0.5,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đúng vậy…… 'Đứa bé này' chính là Ma Đạo Thư của tôi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:surprise,lydia,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cô nói ra dễ dàng vậy sao。Chẳng phải cô muốn giấu sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,maruta,255_255_255,0.0001,0
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không phải tôi định giấu。Chỉ là、 tôi đang băn khoăn không biết giải thích thế nào thôi……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ma Đạo Thư…… là con búp bê đó sao……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:normal,lydia,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chà chà、 lẽ ra người sử dụng Ma Đạo Thư không phải là thứ dễ tìm đến vậy đâu…… R'lyeh đúng là nơi tập hợp đủ mọi loại người。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Anh lại nói vậy sao……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,lydia,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101305/adv/atlas/stand_a,body:normal,miruva,-300,-120,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Con búp bê là Ma Đạo Thư、 thật thú vị nhỉ。Này、 tôi chạm vào một chút được không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:anger,maruta,300,-120,0.5,0.5,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Martha Tarasque</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không được。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đừng chạm vào 'đứa bé này'。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101305/adv/atlas/stand_a,body:surprise,miruva,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101305/adv/atlas/stand_a,body:shy,miruva,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Fufu…… Cái gì thế này。Tuyệt thật…… Chỉ định chạm một chút thôi mà、 lại khiến tôi cảm nhận được hương vị ngọt ngào、 tan chảy đến thế。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đối với cô、 nó là gì vậy？ Cô cầm nó với cảm xúc nào？ Cô sử dụng nó với tâm tư gì？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vừa nãy tôi không mấy hứng thú、 nhưng giờ tôi lại rất tò mò về cô rồi……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:normal,lydia,300,-120,0.5,0.5,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Milva…… đừng nghịch ngợm nữa。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101305/adv/atlas/stand_a,body:shy,miruva,-300,-120,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng mà、 chị hai……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:anger,lydia,300,-120,0.5,0,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Em không nghe lời tôi nói sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101305/adv/atlas/stand_a,body:sad,miruva,-300,-120,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Vâng ạ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:anger,lydia,300,-120,0.5,0,,,,
+anm,tint,miruva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thật là…… có một đứa em gái phóng túng như vậy đúng là khổ sở。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>À mà、 điều kiện 'chơi đùa' vẫn chưa được thỏa mãn sao？ Tôi không muốn cứ mãi ở trong cái Vùng Hư Không vớ vẩn này đâu……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,miruva,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Ơ。Vẫn chưa、 đủ chút nào sao……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:sad,lydia,300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Em hỏi lại thì tôi cũng khó xử đấy。Chẳng phải em đã nói là nếu em 'chơi đùa' thỏa thích thì sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Lẽ ra là vậy…… nhưng mà…… có vẻ vẫn chưa chơi đủ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:sad,lydia,300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chà chà…… 'chưa chơi đủ' cơ à。Cái đó thì cũng ngang ngửa với Milva、 thật là bướng bỉnh。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:anger,lydia,300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>……Nhưng tôi chỉ dịu dàng với Milva thôi。Nếu cứ bướng bỉnh mãi thì có lẽ cần phải dạy dỗ lại rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ưm……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:surprise,lydia,300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ôi……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,lydia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101202/adv/atlas/stand_a,body:surprise,lydia2,0,0,0,0,,,,
+imgconf,lydia2,lydia1,0,-300,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cái này……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+endwait
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11000300.jpg,0.5,255
+endwait
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+spriteatlas,download/character/101205/adv/atlas/stand_a,body:surprise,lydia,-300,-120,0.5,0.5,,,,
+msg,0,<size=30><outline width=2 color=black>Hừm……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:surprise,dana,300,-180,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Khoan、 khoan đã。Lại có thêm người đóng vai thầy giáo nữa sao！？ Hơn nữa lại là Lydia-san、 bỏ qua tôi luôn！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101205/adv/atlas/stand_a,body:normal,lydia,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Dana-kun。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Em phải gọi tôi là 'thầy' một cách đàng hoàng、 với sự tôn trọng。Nếu không…… sẽ bị phạt đấy？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Mọi người hào hứng quá nhỉ…… Các vị thường thuận theo những chuyện thế này sao。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không、 quả thật có những điểm giống Edelgard-san、 nếu nghĩ vậy thì có lẽ không lạ gì…… nhưng mà…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,lydia,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Bị so sánh với Thỏ Săn Đầu thật khó chịu。Cậu nên cẩn thận lời nói đấy、 Dana-kun。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101205/adv/atlas/stand_a,body:anger,lydia,-300,-120,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Nếu không、 cậu sẽ phải nếm mùi đau khổ đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Đó là quấy rối đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101205/adv/atlas/stand_a,body:normal,lydia,-300,-120,0.5,0,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Fufufu、 đây là Dreamlands mà？ Chẳng có cái thứ lễ nghi nhàm chán nào ở đây cả。Tôi sẽ không nói những lời ngọt ngào như Milva、 kiểu 'chúng ta hãy cùng vui vẻ chơi đùa' đâu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không biết là Nguyên thư Pnakotic、 hay là chính vùng đất này có ý chí riêng biệt nữa、 tôi vẫn chưa hiểu rõ lắm……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Để các vị không thể chống lại lời tôi nói、 tôi sẽ từ từ huấn luyện―― à không、 là dạy dỗ các vị thật kỹ càng。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,dana,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+anm,tint,lydia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Huấn luyện？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:sad,dana,300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Dana</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Chị không cần nhớ những từ kỳ quặc đó đâu、 Frau-san。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+endwait
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+endwait
+wait,0.5
+endwait
+playbgm,/download/sound/bgm/bgm007.mp3,0.5,
+endwait
+sprite,download/monster/20030101/adv/image/20030101.png,enemy1,0,-100,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>———————————！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101205/adv/atlas/stand_a,body:normal,lydia,0,-120,0.5,0.5,,,,
+anm,tint,dana,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Fufufu、 đến đúng lúc thật đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nào、 hãy bò như chó và thề trung thành đi。Nếu vậy、 tôi sẽ nhẹ nhàng hủy hoại các vị。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

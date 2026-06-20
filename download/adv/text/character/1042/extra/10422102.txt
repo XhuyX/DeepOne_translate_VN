@@ -1,0 +1,172 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010700.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_01.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À、 ba cũng có việc trong kho à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_02.mp3
+msg,1,<outline width=2 color=black>Con đến lấy cuốn sổ mới vì cuốn nhật ký cũ đã viết đầy rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_03.mp3
+msg,1,<outline width=2 color=black>Dạo gần đây con nghĩ là nên ghi lại những khoảnh khắc đáng yêu của Aika nên con đang viết vào nhật ký đấy ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_04.mp3
+msg,1,<outline width=2 color=black>Nhưng mà…… thực ra con hơi bối rối một chút……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,soka,0.6_0.6,0.5,0
+anm,move,soka,0_-130,0.5,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:anger,soka,0,-130,0.6,0,,,,
+spine,download/adv/spine/Line_center,em1,default,animation,1,0,0,1,1.0,0
+playvoice,1,download/character/104221/adv/sound/fav104221_02_05.mp3
+msg,1,<outline width=2 color=black>Tại Aika có quá nhiều điểm đáng yêu、 nên trang nhật ký chẳng bao giờ đủ cả……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+spineoff,all,0.2
+endwait,,,,,,,,,,,
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:anger,soka,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_06.mp3
+msg,1,<outline width=2 color=black>Mỗi lần phát hiện ra điểm đáng yêu của Aika là con lại viết vào nhật ký、 thế là hết sổ nhanh lắm luôn ấy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_07.mp3
+msg,1,<outline width=2 color=black>Nhưng mà này、 nhật ký rất tuyệt luôn đó ba！ Cứ ghi lại bằng chữ như vậy、 chỉ cần đọc lại là con có thể nhớ rõ ràng cảm xúc lúc đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_08.mp3
+msg,1,<outline width=2 color=black>Đọc nhật ký là con có thể cảm nhận được sự đáng yêu của Aika nhiều lần…… con nghĩ điều này thật phi thường。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_09.mp3
+msg,1,<outline width=2 color=black>Lợi ích tuyệt vời thế này、 giờ mà bỏ thì uổng quá…… nhưng mà kiểu này chắc phòng con sẽ sớm bị nhật ký lấp đầy mất thôi…… trong khi album ảnh cũng đầy ụ rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Anh hiểu cảm giác đó,Không dùng dữ liệu được sao
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_10.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đúng vậy ha、 ba cũng hiểu mà đúng không……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_11.mp3
+msg,1,<outline width=2 color=black>Khi có món nấu với cam、 Aika tỏ vẻ rất vui、 rồi khi bị phát hiện thì lại giả vờ không cười lên được ấy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_12.mp3
+msg,1,<outline width=2 color=black>Còn hôm trước nữa、 lúc ba và Aika nắm tay đi dạo、 chắc ba không để ý nhưng Aika trông rất phấn khích luôn……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:shy,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_13.mp3
+msg,1,<outline width=2 color=black>A a、 thôi。Chỉ nghĩ thôi mà ngực con như thắt lại vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_14.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Con cũng nghĩ đến chuyện đó、 nhưng không được đâu ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_15.mp3
+msg,1,<outline width=2 color=black>Tự tay viết thì mới in sâu vào ký ức được ba ạ。Vì là chữ do chính tay viết nên mới gửi gắm được nhiều cảm xúc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_16.mp3
+msg,1,<outline width=2 color=black>Vậy nên con thích chữ viết tay…… con không muốn xuống tay ở chuyện này đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:anger,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_17.mp3
+msg,1,<outline width=2 color=black>Nhật ký quan sát sự đáng yêu của Aika quan trọng hơn cuộc sống tiện nghi nhiều nhiều lắm ấy……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:unique,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_18.mp3
+msg,1,<outline width=2 color=black>……Nhưng mà、 vật lý như nhật ký cũng có nguy cơ hư hại bất ngờ、 hay là con cũng lưu thêm bản sao lưu dữ liệu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_19.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đúng rồi。Ba cũng biết nhiều điểm đáng yêu của Aika lắm đúng không？ Ba nên ghi lại đi、 nhất định luôn đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_20.mp3
+msg,1,<outline width=2 color=black>Rồi sau đó hai ba con đổi nhật ký đáng yêu của Aika cho nhau、 vậy là có thể chia sẻ những điểm đáng yêu mà một mình không nhận ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:unique,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_21.mp3
+msg,1,<outline width=2 color=black>Ừm、 làm vậy đi、 như vậy tốt。Quyết định thế nhé、 ba cũng dùng cuốn nhật ký này đi ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_02_22.mp3
+msg,1,<outline width=2 color=black>Khi cuốn nhật ký đó đầy rồi、 hai ba con hãy cùng xem của nhau nhé、 ba。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

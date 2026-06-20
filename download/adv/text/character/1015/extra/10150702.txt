@@ -1,0 +1,177 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11270300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_01.mp3
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Dù sao thì…… bộ đồ này、 vẫn cứ thấy kì cục sao ấy nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_02.mp3
+msg,1,<outline width=2 color=black>Sao á？ Thì tại mấy bộ đồ điệu đà thế này đâu có hợp với tao。Để Edel mà thấy thì chắc chắn nó cười cho thối mũi luôn đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_03.mp3
+msg,1,<outline width=2 color=black>Kể cả là kimono đi nữa、 thì cũng phải kiểu khác một chút…… đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Em thích kiểu ngầu hơn à？,Trông em đẹp và rất hợp đấy。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_04.mp3
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Đúng rồi đấy。Kiểu nữ tính quá thì không hợp、 mà phải theo hướng đó mới đúng ý tao…… Mày cũng nghĩ vậy mà、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:normal,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_05.mp3
+msg,1,<outline width=2 color=black>Mấy đứa con gái dịu dàng、 thục nữ hơn tao thì đầy rẫy ngoài kia、 nên mấy bộ đồ này cứ để tụi nó mặc là được rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:surprise,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_06.mp3
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Mắt mày có phải lỗ thủng không đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_07.mp3
+msg,1,<outline width=2 color=black>Không、 nhưng mà、 mày…… là tao đây mà？ Tự nói thì cũng kì、 nhưng mà、 cái thứ nữ tính đó、 tao còn chẳng nhớ mình đã bỏ quên ở đâu nữa là……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:surprise,ouka,0,-160,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_08.mp3
+msg,1,<outline width=2 color=black>—— Này、 đ-đừng có lại gần thế！ Đ-được rồi、 tao biết mày nghiêm túc rồi、 nên đừng có dồn ép tao nữa……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:shy,ouka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_09.mp3
+msg,1,<outline width=2 color=black>Hừm、 chẳng hiểu cái thứ này có gì hay ho nữa。Mày đúng là đồ kì lạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:shy,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_10.mp3
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>……Mà、 nếu mày nói là được、 thì tao cũng không thấy khó chịu đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:surprise,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_11.mp3
+msg,1,<outline width=2 color=black>Á、 không！ Không có gì hết！ Vừa nãy là tao hơi lỡ lời、 kiểu như、 tự nhiên buột miệng ra ấy mà……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_12.mp3
+msg,1,<outline width=2 color=black>Lại một lần nữa á…… Đồ ngốc！ Sao tao lại phải nói mấy lời đó thêm lần nữa chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:shy,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_13.mp3
+msg,1,<outline width=2 color=black>Thôi đi、 mày cũng quên hết mấy lời vừa nãy đi！ Không thì tao sẽ đấm cho mày mất trí nhớ luôn đấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:sad,ouka,0,-120,0.5,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_14.mp3
+msg,1,<outline width=2 color=black>……Chết tiệt。Tại cái bộ đồ này mà tao thấy khó chịu quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:surprise,ouka,0,-160,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_15.mp3
+msg,1,<outline width=2 color=black>Này、 sao mày lại gần thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:surprise,ouka,0,-200,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_16.mp3
+msg,1,<outline width=2 color=black>Khoan、 sao mày lại nắm tay…… N-này、 buông ra！ Khụ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:shy,ouka,0,-200,0.7,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_17.mp3
+msg,1,<outline width=2 color=black>S-sao vậy chứ、 bình thường mấy chuyện này có là gì đâu…… Chết tiệt、 tất cả là tại cái bộ đồ này hết……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:shy,ouka,0,-200,0.7,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_18.mp3
+msg,1,<outline width=2 color=black>Mày、 nhớ đấy…… Lát nữa tao sẽ trả đũa mày cho xem。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.4,2,8,8,ouka
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:surprise,ouka,0,-200,0.7,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_19.mp3
+msg,1,<outline width=2 color=black>Này、 đừng có khoác tay tao！ C-cái tên khốn này、 mày được đà lấn tới à…… Thật sự là tao sẽ cho mày biết tay đấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:shy,ouka,0,-200,0.7,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_20.mp3
+msg,1,<outline width=2 color=black>Haizz、 thôi rồi…… Chỉ có mày là dám làm tao rối tung lên thế này thôi……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101507/adv/atlas/stand_a,body:shy,ouka,0,-200,0.7,0,,,,
+playvoice,1,download/character/101507/adv/sound/fav101507_02_21.mp3
+msg,1,<outline width=2 color=black>Đừng có cười。Tao đâu có khen mày đâu、 đồ ngốc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,103 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ở trong cơ sở xây dưới đáy biển thế này、 tôi lại càng nhớ không khí bên ngoài。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Tản bộ thong thả trên đường phố London… Giờ nghĩ lại、 những khoảnh khắc ấy chắc chắn là hạnh phúc。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:smile,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>London là một thành phố cổ kính、 với nhiều công trình kiến trúc quý giá theo thời gian、 chỉ cần đi dạo thôi cũng thấy vui rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À… xin lỗi。Anh không biết gì về thế giới bên ngoài đúng không。Vậy mà tôi lại kể lể… có lẽ hơi vô tâm rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>… Này、 anh có muốn ra thế giới bên ngoài không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>… Xin lỗi。Chuyện đó là đương nhiên rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Phải chăng việc anh bị giam cầm ở R'lyeh có liên quan đến mối liên hệ kỳ lạ với Nguyên thư Pnakotic…？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_07.mp3
+clickwait,,,,,,,,,,,
+select,選択肢1 「わからない,選択肢2 「そうだと思う
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu xét theo lẽ thường thì đúng là vậy… Nhưng nếu có điều gì khác、 có lẽ chúng ta nên tìm hiểu rõ hơn。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù vậy、 đối tượng là Tổ chức Lovecraft、 chắc chắn không dễ gì có được thông tin。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu giả định rằng anh có liên quan đến việc anh có được Nguyên thư Pnakotic、 thì tổ chức sẽ không bao giờ buông tha cho anh…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:surprise,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À… xin lỗi。Tôi đã nói điều gì khiến anh bất an rồi。Đây chỉ là giả định thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_11.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizeru,0,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hiện tại、 không có lý do nào khác để nghĩ đến。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Có lẽ Tổ chức Lovecraft đã nắm được một số thông tin quan trọng về mối liên hệ giữa anh và Nguyên thư Pnakotic…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hiện tại thì chưa rõ đó là gì… Nhưng nếu tiếp tục truy tìm trong Dreamlands、 có lẽ chúng ta sẽ tìm được manh mối。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_14.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Giselle Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nói thật、 với tư cách là người của gia tộc hợp tác với tổ chức、 với tư cách là một pháp sư、 tôi không thể bỏ qua sự tồn tại của anh、 người có liên quan đến bí ẩn của Thất Đại Nguyên Thư。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:normal,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng… với tư cách là một con người、 tôi cảm thấy anh là người tốt、 và tôi biết ơn vì hiện tại anh vẫn đang dùng sức mạnh của mình để kết nối vận mệnh của chúng ta。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vì vậy、 nếu có lúc nào đó tôi có thể giúp được anh、 người đang giúp đỡ chúng ta… thì tôi xin hứa sẽ dốc sức。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:smile,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Vì vậy、 mong anh hãy tiếp tục hợp tác để thoát khỏi R'lyeh。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:sad,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>… Chắc tôi lại nói chuyện có vẻ ra vẻ rồi、 phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_19.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100701/adv/atlas/stand_a,body:smile,zizeru,0,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng tôi thực lòng mong muốn có một mối quan hệ tốt đẹp với anh。Mong anh hãy nhớ điều đó。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/100700/adv/sound/fav100700_02_20.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

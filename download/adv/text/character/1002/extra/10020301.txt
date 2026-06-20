@@ -1,0 +1,124 @@
+﻿// machine translate -- gemini-2.5-flash
+stopbgm,,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0.5,,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sao mà phòng ốc cứ nhanh bẩn thế không biết nữa……</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_01.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+spine,download/adv/spine/Mark2,em1,default,animation,0,110,200,0.65,0.8,0
+endwait
+msg,1,<size=30><outline width=2 color=black>Thoáng cái là chẳng còn chỗ đặt chân nữa rồi…… Thiệt tình、 phòng riêng ở R'lyeh cứ thấy hơi chật chội sao ấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_02.mp3
+clickwait,,,,,,,,,,,,
+spineoff,em1,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Mới hôm nọ、 vì phòng bụi quá nên em hắt hơi、 thế là lắp nhầm chỗ quan trọng nhất、 hỏng bét cả rồi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_03.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:surprise,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Cái gì á…… À、 không、 không có gì đâu。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_04.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Cũng chỉ là chuyện sở thích vặt vãnh thôi。Sao em phải kể sở thích của mình cho anh nghe chứ？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_05.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi được rồi、 chuyện phòng ốc ấy mà。R'lyeh tự hào là có trang thiết bị tối tân nhất đúng không？ Vậy chẳng phải nên trang bị robot dọn dẹp hay những thứ tương tự sao？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_06.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Anh cũng nghĩ vậy chứ？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_07.mp3
+clickwait,,,,,,,,,,,,
+select,Đồng ý,Không có gì đáng phàn nàn
+if,select_===_1,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:smile,brizit,50,-190,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đúng rồi、 có chúng thì tiện hơn nhiều chứ。Gì chứ、 thỉnh thoảng chúng ta cũng có chung ý kiến mà。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_08.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Thiệt tình、 phòng thì chật、 hỗ trợ sinh hoạt cũng chẳng ra sao。R'lyeh cũng chỉ đến thế thôi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_09.mp3
+clickwait,,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:surprise,brizit,50,-190,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Anh、 anh lạ thật đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_10.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Hay là、 vì anh là đàn ông nên phòng có hơi bẩn một chút cũng chẳng bận tâm sao？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_11.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em không phục đâu nhé…… Anh vốn dĩ đã có liên hệ với phụ nữ vì vị trí của mình、 lại còn thỉnh thoảng mời người vào phòng nữa chứ…… Ơ？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_12.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:surprise,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Mà nói mới nhớ、 hình như lần trước em vào phòng anh、 thấy nó cũng tươm tất lắm mà…… Hả？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_13.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dọn dẹp và sắp xếp gọn gàng là sở trường…… Hề、 hề…… Hừm……</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_14.mp3
+clickwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Hả、 t、 tự mình dọn dẹp á？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_15.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>K-không lẽ anh nghĩ em là đứa con gái không biết dọn dẹp sao？ Nếu vậy thì em bị coi thường quá rồi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_16.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trông em thế này thôi chứ cũng lăn lộn ngoài đời kha khá rồi đấy。Bị nghĩ là tiểu thư cành vàng lá ngọc yếu ớt、 chẳng làm được gì thì oan ức lắm。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_17.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ là、 hiện tại、 phòng đã chẳng còn chỗ đặt chân rồi、 nên em nghĩ làm bừa bộn thêm nữa thì không hợp lý chút nào。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_18.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Vâng、 em đang nói chuyện dọn dẹp mà？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_19.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_20.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Đ-được thôi！ Nếu đã vậy thì hôm nay em nhất định sẽ dọn dẹp phòng cho xong！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_21.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em không cần giúp đỡ đâu。Chuyện của mình thì tự mình làm…… Không thể cứ mãi dựa dẫm vào người khác được。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_22.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Dù có tin tưởng và dựa dẫm vào ai đó、 thì rồi họ cũng sẽ rời đi thôi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_23.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Rồi sẽ nhận ra thôi。Rằng con người rốt cuộc cũng chỉ có một mình……</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_24.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Anh thì có vẻ vẫn chưa hiểu được điều đó。Nhưng chắc chắn、 rồi một ngày nào đó anh sẽ nhận ra thôi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_25.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,brizit,50,-190,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…………Em đang nói cái gì vớ vẩn về chuyện dọn dẹp thế này không biết。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100203/adv/sound/fav100203_08_26.mp3
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+name,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,,
+endwait,,,,,,,,,,,,

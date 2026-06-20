@@ -1,0 +1,343 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11070300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm006.mp3,0,
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20120201/adv/image/20120201.png,enemy1,-350,-50,1.35,0.5,,,,
+sprite,download/monster/20120201/adv/image/20120201.png,enemy2,350,-50,1.35,0.5,,,,
+sprite,download/monster/20120201/adv/image/20120201.png,enemy3,0,-50,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_b,body:unique,ouka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chơi luôn、 cháy sạch đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20120201/adv/image/20120201.png,enemy1,-350,-50,1.35,0.5,,,,
+sprite,download/monster/20120201/adv/image/20120201.png,enemy2,350,-50,1.35,0.5,,,,
+sprite,download/monster/20120201/adv/image/20120201.png,enemy3,0,-50,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spine,download/adv/spine/Fire1,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_038.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,enemy1,0_0_0,0.5,0
+anm,tint,enemy2,0_0_0,0.5,0
+anm,tint,enemy3,0_0_0,0.5,0
+endwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+endwait
+wait,0.5
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_b,body:normal,yoshino,-300,-240,0.5,0.5,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thỏ… bị nướng chín rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_b,body:normal,yoshino,-300,-240,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hmm… Cảm giác như thịt có vẻ hơi tanh、 không biết có ăn được nếu dùng với sốt BBQ không nhỉ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102704/adv/atlas/stand_a,body:unique,maruta,300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:sad,ouka,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mày… tao chịu。Chịu hết nổi luôn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khoan đã、 đùa thôi！ Chỉ là muốn làm không khí bớt căng thẳng、 chứ tôi không hề có ý muốn ăn thật…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:sad,ouka,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật không đấy… Mày、 dù là sâu bọ hay sâu róm、 thứ gì ăn được mày cũng chén sạch――hửm？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ouka,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,yoshino,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:normal,ouka,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao thế、 Frau。Nhìn con thỏ chằm chằm làm gì… Chẳng lẽ mày cũng nghĩ nó ngon à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm… Cái đó…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:surprise,ouka,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gì vậy、 có chuyện gì à… Khoan đã、 bột trắng dính trên chày này là gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ouka,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hình như không phải bột mì… Hạt mịn quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102704/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thuốc nguy hiểm？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,yoshino,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:sad,ouka,-300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chỉ thấy bột trắng mà mày đã liên tưởng đến thứ gì rồi đấy… Thôi、 Yoshino。Liếm thử xem sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ouka,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:anger,yoshino,-300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Từ chối。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:sad,ouka,300,-120,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao lại từ chối、 biết đâu ngon？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:anger,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải vấn đề ở chỗ đó。Bột không rõ nguồn gốc dính trên chày của hư tượng、 ai biết được sẽ ra sao nếu ăn vào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:sad,ouka,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hay cho câu nói。Cái thằng còn bảo nướng hư tượng ăn nhậu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:sad,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi đã bảo là đùa rồi còn gì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:sad,yoshino,-300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nói mới nhớ、 loại bột này… hình như tôi đã thấy hồi còn nhỏ… Chắc là mẹ tôi hay dùng loại bột này để…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Chẳng lẽ đây là bột gạo？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ouka,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bột gạo…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là bột gạo dùng để làm bánh、 ví dụ như bánh dango đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102704/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bánh dango…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,yoshino,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:normal,ouka,-300,-120,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ồ？ Sao thế、 Martha。Tự nhiên sáng mắt ra。Thích bánh dango à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102704/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm… Hồi trước、 Asaka đã làm cho em ăn vặt。Tròn tròn、 dẻo dẻo、 ngọt nữa… Ngon lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102704/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chỉ cần tưởng tượng thôi… Bụng em đã kêu ục ục rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:smile,ouka,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thích đến vậy à… À、 vậy thì、 tao có một ý tưởng hay đây！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ouka,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Mày mà nói vậy thì thường là chẳng ra gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,yoshino,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:normal,ouka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có nói mấy lời xàm、 làm mất hứng。Martha、 mày có muốn ăn no bánh dango không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102704/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Muốn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:smile,ouka,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 mình đi ăn cắp bánh dango mà mấy con thỏ kia đang làm thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ouka,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:sad,yoshino,-300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Mày đang nói gì vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:normal,ouka,300,-120,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 nhắc đến trăng tròn là nhắc đến ngắm trăng、 ngắm trăng thì nhắc đến thỏ、 mà nhắc đến thỏ thì phải làm bánh dango chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:normal,ouka,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Bột dính trên chày là nguyên liệu làm bánh dango、 vậy thì chắc chắn tụi nó đang làm bánh dango rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trong chuyện về thỏ trên cung trăng、 chúng giã bánh、 chứ không phải làm bánh dango？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:normal,ouka,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bánh hay dango thì cũng gần giống nhau thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hình dáng và hương vị hoàn toàn khác nhau。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:normal,ouka,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì chắc là chúng làm dango để cúng vào đêm trăng tròn、 đại loại vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:sad,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gượng ép quá… Giả sử thỏ có làm bánh dango đi chăng nữa、 thì ăn cắp là trái với đạo lý。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:sad,yoshino,-300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tuyệt đối không tha thứ cho kẻ nào dụ dỗ người khác vào con đường tội lỗi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:surprise,ouka,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ê ê、 nói nặng lời thế。Bánh dango cúng trong ngày ngắm trăng、 ăn cắp có sao đâu？ Hồi trước mày còn bảo vậy mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102506/adv/atlas/stand_a,body:surprise,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ouka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái gì？ Tôi á…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101506/adv/atlas/stand_a,body:normal,ouka,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ototachibana Ouka</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 hồi trước mình có nói chuyện đó mà。Chuyện đó là… phải rồi。Trong chiến trường Nam Mỹ、 lúc mình đang đợi ở căn cứ――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

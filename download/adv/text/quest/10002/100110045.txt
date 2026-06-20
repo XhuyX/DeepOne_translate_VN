@@ -1,0 +1,270 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10030100.jpg,0,255
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm006.mp3,1.0,
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,-400,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,400,-250,1.35,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>————！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_039.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+name, 
+msg,0, 
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+wait,1.0
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,-400,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,400,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait
+wait,1.0
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Ôi、 thôi rồi！ Đánh mãi đánh mãi、 chúng cứ hết đợt này đến đợt khác… Đúng là không có hồi kết mà！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Này、 Bridget。Thuật thức thoát hiểm vẫn chưa kích hoạt được sao！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:anger,bligit,300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Không được rồi。Kẻ địch quá đông、 khiến Thuật thức bị nhiễu loạn rồi。Nếu không giảm bớt số lượng kẻ địch、 chúng ta sẽ không làm được gì cả。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Giảm bớt số lượng á… Chuyện đó là không thể！ Cứ tiêu diệt một con thì ba con khác lại xuất hiện mà！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+spriteoff,bligit,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:normal,irina,300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Dù sao đi nữa、 chúng ta cũng không còn lựa chọn nào khác… Nếu cứ đứng yên thế này、 chúng ta sẽ bị chúng áp đảo và tiêu diệt hết mất。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,irina,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thì đúng là vậy thật nhưng… Ôi、 thôi rồi！ Không ai có ý tưởng hay nào để thoát khỏi tình cảnh này sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+spriteoff,irina,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_a,body:normal,holy,300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Nếu vậy、 tôi có một ý này。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,holy,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thật sao！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,holy,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vâng。Vấn đề chính là số lượng kẻ địch quá đông。Vậy thì、 chúng ta có nên đi đến một nơi thật xa khỏi chúng không ạ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi sẽ thu hút sự chú ý của những hư ảnh này、 trong lúc đó、 xin mọi người hãy chạy đến nơi Thuật thức có thể kích hoạt được。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,holy,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+stopbgm,0.5
+endwait
+playbgm,/download/sound/bgm/bgm026.mp3,1.0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Khoan đã！… Ý cô là chúng ta sẽ bỏ mặc Holly lại và tự mình chạy thoát sao？ Làm sao chúng ta có thể làm được chuyện đó chứ！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,holy,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng mà… Đây là phương án tốt nhất rồi、 Asaka-sama。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,holy,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:normal,irina,300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Thôi thì、 đúng vậy。Thời gian cũng có hạn、 tôi cũng nghĩ ý của cô là tốt nhất。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,irina,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Khoan đã、 Irina！ Cô nói thật đấy à！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,irina,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Irina</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Mục đích của chúng ta là thu thập con côn trùng làm thuốc giải cho Giselle và mang về R'lyeh… Việc ai đó ở lại cầm chân chúng là một quyết định hợp lý。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Hơn nữa… Chính cô ấy、 với tư cách là thị nữ、 cũng mong muốn làm vậy mà。Chẳng có lý do gì để ngăn cản cả、 phải không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,irina,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không thể nào… Này、 Bridget！ Cậu thật sự chấp nhận chuyện này sao？ Holly có thể sẽ chết đấy！？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+spriteoff,irina,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100202/adv/atlas/stand_b,body:normal,bligit,300,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Holly…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,bligit,150_150_150,0.0001,0
+spriteoff,asaka,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_a,body:normal,holy,-300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,holy,150_150_150,0.0001,0
+anm,tint,bligit,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Được rồi… Phần còn lại giao cho cô đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:anger,asaka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cái gì…！？ Ngay cả Bridget cũng nói cái gì thế—</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_a,body:normal,holy,300,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Không sao đâu、 Asaka-sama。Như Irina-sama đã nói、 đây là điều tôi mong muốn…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vậy nên… Xin hãy cho phép tôi hoàn thành vai trò của một thị nữ của Giselle-sama được không ạ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,holy,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Holly…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,asaka,150_150_150,0.0001,0
+anm,tint,holy,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Cái lọ này、 tôi xin gửi Asaka-sama。Xin hãy mang nó đến chỗ Giselle-sama một cách an toàn。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,tint,holy,150_150_150,0.0001,0
+anm,tint,asaka,255_255_255,0.0001,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Được rồi、 tôi hứa。Nhất định sẽ cứu Giselle。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng mà、 Holly。Đừng bỏ cuộc cho đến cùng nhé？ Sau khi mang con côn trùng đến、 tôi nhất định sẽ quay lại。Cho đến lúc đó、 hãy cố gắng cầm cự！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name, 
+msg,0, 
+anm,move,asaka,-800_-120,0.3,0
+playse,/download/sound/se/se_018.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_b,body:normal,holy,0,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cuối cùng thì mọi người cũng đã đi rồi sao… Xin mọi người hãy bình an。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_b,body:sad,holy,0,-180,0.5,0,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng mà… Tôi thật ngốc nghếch。Trong tình cảnh thế này mà tôi vẫn nghĩ rằng、 nếu điều này có thể chuộc lại một phần lỗi lầm…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Thật là một suy nghĩ thiển cận… Với tư cách là thị nữ của gia tộc Bawdwin、 việc hy sinh thân mình để bảo vệ chủ nhân là điều hiển nhiên vậy mà—</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+stopbgm,0.5
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy3,-400,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy1,0,-250,1.35,0.5,,,,
+sprite,download/monster/20020101/adv/image/20020101.png,enemy2,400,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>————！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm010.mp3,0.5,
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_b,body:normal,holy,0,-180,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…Ôi chao、 không cho tôi chút thời gian để chìm đắm trong cảm xúc sao。Có vẻ như các vị đang rất nóng lòng muốn 'chơi đùa' ngay lập tức nhỉ。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng mà、 các tiểu thư đang rất bận rộn… Thành thật xin lỗi、 nhưng liệu các vị có thể hài lòng với việc đối đầu với tôi không ạ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Tôi là thị nữ của gia tộc Bawdwin、 Holly Hargreaves。Từ giờ xin hãy nhớ lấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Mặc dù vậy、 đối với các vị、 những kẻ sắp sửa biến mất、 thì đây cũng chỉ là cái tên của một thị nữ tầm thường không cần phải nhớ…</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100802/adv/atlas/stand_b,body:anger,holy,0,-180,0.5,0,,,,
+endwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Vậy thì— tôi đến đây！</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

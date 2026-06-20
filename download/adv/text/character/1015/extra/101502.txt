@@ -1,0 +1,125 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,
+endwait
+spriteatlas,download/character/101501/adv/atlas/stand_b,body:anger,ouka,-10,-120,0.47,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hự！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_01.mp3
+clickwait,,,,,,,,,,,
+playse,/download/sound/se/se_037.mp3
+shake,0.1,1,50,50
+endwait
+msg,1,<size=30><outline width=2 color=black>Haa！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_02.mp3
+clickwait,,,,,,,,,,,
+playse,/download/sound/se/se_037.mp3
+shake,0.1,2,50,50
+endwait
+spriteatlas,download/character/101501/adv/atlas/stand_b,body:surprise,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Hử？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_b,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 là cậu à…… Cậu hỏi tôi đang làm gì á？ Đang vung kiếm tập luyện chứ gì。Nhìn là biết ngay mà、 phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sân tập đang có người khác dùng mất rồi…… Thôi thì、 vung kiếm tập luyện ở đây cũng được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_05.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu không rèn luyện mỗi ngày、 cơ thể tôi sẽ ì ạch、 mà tôi cũng không yên lòng được。Kiểu như、 sáng nào dậy cậu cũng rửa mặt phải không？ Nó cũng giống như vậy đó。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hồi mới cầm kiếm、 chỉ vung kiếm một trăm lần thôi là cơ thể đã kêu gào rồi、 nhưng giờ thì、 nó đã trở thành một phần của cuộc sống tôi rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_07.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cậu ngạc nhiên cái gì chứ。Cái này là cơ bản thôi、 cơ bản。Cậu mà rèn luyện thì cũng sẽ làm được ngay thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À phải rồi、 muốn thử xem sao không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_09.mp3
+clickwait,,,,,,,,,,,
+select,Thử xem sao,Thôi vậy
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_b,body:normal,ouka,-10,-120,0.47,0,,,,
+spine,download/adv/spine/Mark1,em1,default,animation,0,80,190,0.65,0.8,0.5
+endwait
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Được đấy。Vậy thì、 tôi cho cậu mượn kiếm của tôi。Đây này。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_10.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Này này、 cậu cầm kiểu gì thế…… Tay phải thế này、 tay trái thế kia。Đúng rồi。Rồi、 cứ thế dồn lực vào hông mà nhấc lên xem nào。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_b,body:sad,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Cậu…… có làm nghiêm túc không đấy？ Có nhấc lên được một li nào đâu。Có vẻ như、 ngay từ đầu sức cơ của cậu đã không đủ rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thay vì vung kiếm tập luyện、 có lẽ nên bắt đầu từ những bài tập cơ bản hơn……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_13.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_b,body:sad,ouka,-10,-120,0.47,0,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Gì chứ、 không làm à？ Chán thật đấy……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_b,body:surprise,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hả……？ Không thể mượn vũ khí quan trọng như vậy à？ Gì chứ、 cậu bận tâm chuyện đó sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_b,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Cậu có làm gì thì kiếm của tôi cũng chẳng sứt mẻ gì đâu。Thôi thì、 nếu cậu ngại thì tôi cũng không ép đâu……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì、 thử tập luyện gì khác xem sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_17.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_b,body:normal,ouka,-10,-120,0.47,0,,,,
+name,<size=27><outline width=2 color=black>Ototachibana Ouka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì…… Này、 thử nhấc cái tạ này lên xem nào。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_b,body:surprise,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Từ đâu mà có á…… Bình thường thì ai mà chẳng mang theo tạ để phòng khi cần chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_19.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Này、 cứ làm thử đi。Chắc chắn là cái này thì cậu cũng nhấc lên được chứ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_20.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_b,body:smile,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ồ、 được đấy。Cứ thế mà làm――</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_21.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_b,body:sad,ouka,-10,-120,0.47,0,,,,
+spine,download/adv/spine/Mark2,em3,default,animation,0,80,190,0.65,0.8,,0.5
+msg,1,<size=30><outline width=2 color=black>Này này、 chưa nhấc được mười lần nữa kìa？ Haizzz…… Để vung kiếm của tôi tập luyện thì chắc phải mất mấy năm nữa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_22.mp3
+clickwait,,,,,,,,,,,
+spineoff,em3,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cậu thiếu ý chí rồi。Nếu làm với tinh thần sống chết thì đa số mọi việc đều làm được thôi。Cái tạ đó tôi cho cậu đấy、 ráng mà tập luyện chút đi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_23.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101501/adv/atlas/stand_b,body:normal,ouka,-10,-120,0.47,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn hết…… Cậu có thể lực thì sẽ tiện lợi đủ đường chứ gì？ Haha！ Đừng hỏi tôi có ý gì nhé？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101500/adv/sound/fav101500_02_24.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,103 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0.5,,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>R'lyeh thoải mái hơn em nghĩ nhiều đấy nhỉ。Em có lẽ đã khá là thích nơi này rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Mà、 bị nhốt ở đây mà chẳng biết lý do là gì thì em cũng hơi không cam tâm thật đấy……</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 có chị ở đây、 lại thêm Dreamlands cũng thú vị và là một nơi tuyệt vời、 nên em nghĩ mình chịu đựng được thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_03.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn hết…… nếu ở đây、 em sẽ được nếm trải thật nhiều cảm giác ngọt ngào…… phì cười。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_04.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À mà、 anh đã cất công đến nói chuyện với em thế này、 hẳn là có điều gì muốn hỏi phải không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_05.mp3
+clickwait,,,,,,,,,,,
+select,Xuất thân của cô là ở đâu？,Trước đây cô làm gì？
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:surprise,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Xuất thân ư？ Anh lại tò mò chuyện đó sao……？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm、 khó ghê。Em và chị vốn là trẻ mồ côi、 nên cha mẹ mình là ai、 quê hương ở đâu…… mấy chuyện đó em không biết đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_07.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Khi em bắt đầu có nhận thức、 thì đã được một hội pháp thuật mua về nuôi dưỡng rồi、 ở đó có rất nhiều đứa trẻ giống như bọn em vậy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ai cũng được dạy cách giết người từ khi còn nhỏ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_09.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trước khi đến đây、 em làm lính đánh thuê trên chiến trường。Tất nhiên là cùng với chị rồi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_10.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chẳng có gì khó khăn cả。Bởi vì chỉ cần giết hết những người xung quanh là được mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_11.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em và chị đều được dạy dỗ những điều đó từ nhỏ…… nên chuyện đó chẳng khác gì nếm thử một món bánh kẹo cả。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_12.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nên、 em rất giỏi giết người đấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:surprise,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Sao mặt anh lại thế kia？ Em nói gì lạ sao？ Chẳng phải giết chóc là chuyện bình thường sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_14.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cả thú vật、 chim chóc、 cá、 côn trùng cũng làm vậy mà、 làm gì có chuyện chỉ có con người là không được làm chứ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+spine,download/adv/spine/Mark1,em2,default,animation,0,100,200,0.65,0.8,0.5
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Với lại này、 khi người ta tuyệt vọng、 trong miệng em sẽ lan tỏa vị ngọt。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_16.mp3
+clickwait,,,,,,,,,,,
+spineoff,em2,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Chị em đã kể cho em nghe trước đây rồi…… à ừm…… đúng rồi。Gọi là chứng cảm ứng chéo、 phải không nhỉ？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Sự tuyệt vọng của con người、 khoảnh khắc cái chết、 khiến em cảm nhận được một vị ngọt tan chảy。Một khi đã nếm thử、 em liền nghiện mất rồi…… không thể kiềm chế được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nên…… em thích con người。Yêu thế giới này lắm。Bởi vì nó cho em nếm trải thật nhiều vị ngọt tuyệt vời…… khúc khích。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101300/adv/sound/fav101300_01_19.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

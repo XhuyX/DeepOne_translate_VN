@@ -1,0 +1,519 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Cuối cùng、 điều cô ấy tìm kiếm đã rõ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Dòng máu Thánh Nữ đã cướp đi gia đình thân yêu của cô ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tôi đã nghĩ cô ấy đang bối rối、 không biết nên căm ghét hay yêu thương nó…… nhưng đó chỉ là vẻ bề ngoài。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Razluka Brunseva đang đứng ở khởi điểm của định mệnh Thánh Nữ đầy bi ai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Dù điều đó không hề do cô ấy gây ra…… nhưng cũng là sự thật không thể chối cãi rằng chỉ cô ấy mới có thể ngăn định mệnh xoay vần。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nhận ra điều đó、 cô ấy hẳn đã tự trách mình。Nỗi tuyệt vọng nối tiếp từ bao đời đã đè nặng lên cô ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>—— Chính vì thế、 tôi không có lời nào để nói với cô ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Bởi vì…… tôi không còn bị ràng buộc bởi định mệnh Thánh Nữ nữa。Tôi sẽ không tuyệt vọng vì điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Người có thể nói chuyện với cô ấy、 chắc chắn chỉ có thể là người đã bị định mệnh Thánh Nữ giày vò、 và rơi vào tuyệt vọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,catia_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100380/adv/atlas/stand_a,body:normal,catia_s2,0,0,0,0,,,,
+imgconf,catia_s2,catia_s1,0,0,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Katia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Vậy thì、 đó là——</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11460300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm097.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait
+spine,download/adv/spine/Slash3_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/character/101008/se/se_c01008_ef_hit.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash3_Blue,em1,default,animation,0,0,-200,-1,1.0,0
+playse,/download/character/101008/se/se_c01008_ef_hit.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Dark,em1,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+sprite,download/character/100380/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Katia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi không nghĩ các người có lý do để bảo vệ cô ấy đâu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Katia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Jamila…… Razluka không phải chị tôi。Tại sao các người lại bảo vệ kẻ xâm phạm thế giới của Katia Brunseva？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Katia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Và Irina。Ngay cả cô cũng hẳn đã chán ngấy cái sân khấu giấc mộng lố bịch này rồi chứ？ Tôi đang nói là sẽ kéo màn kết thúc cho nó đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Katia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Các người lẽ ra không có lý do gì để cản đường tôi ở đây cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+sprite,download/character/101008/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin thứ lỗi、 nhưng chúng tôi có lý do。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Katia-sama không muốn mang đến một màn kết đẫm máu cho giấc mộng này。Đó không phải là kết cục mà người mong muốn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Việc tôi có phải là một tên hề bị mắc kẹt trong giấc mộng hay không、 hay giấc mộng này là bi kịch hay hài kịch、 rốt cuộc cũng không quan trọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Làm theo ước nguyện của người、 và ở bên người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>—— Dù trong bất cứ lúc nào、 bất cứ thế giới nào、 đó mới chính là lòng trung thành của tôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,
+anm,scale,card1,2.5_2.5,1,0
+anm,fade,card1,0,1,0
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+playse,/download/character/101008/se/se_c01008_skill_03.mp3
+endwait,,,,,,,,,,,
+
+
+sprite,download/character/100380/image/main.png,card1,0,0,1,0.5,,,,
+endwait,,,,,,,,,,,,,,
+name,<outline width=2 color=black>Katia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tín ngưỡng ư…… Đó là thứ độc dược sẽ giết chết chính cô vào một ngày nào đó đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu không tin vào Katia Brunseva như vậy、 cô sẽ có được hạnh phúc hơn đấy chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/character/100909/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nói mấy lời đó với con cuồng tín ấy cũng vô ích thôi。Dù biết rõ là đường đến địa ngục、 con nhỏ đó vẫn sẽ đi theo cô đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Mà nói thật、 tôi không có thời gian để dây dưa với mấy chuyện đó、 cũng không có ý định kéo dài cái giấc mộng lố bịch này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thật lòng mà nói、 Razluka có ra sao tôi cũng chẳng bận tâm đâu。……Nhưng nếu vậy、 sau này sẽ có vài người làm ầm ĩ lên cho mà xem。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Mà nói chung…… tôi không biết cô đã đi đến kết luận gì、 nhưng tôi vẫn chưa xác nhận được Katia đang nghĩ gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>—— Tôi ở đây để xem xét hành động của Katia Brunseva。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Vậy nên、 Katia phải giải thích rõ ràng cho tôi biết、 rốt cuộc cô định làm gì trong giấc mộng này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,
+anm,scale,card1,2.5_2.5,1,0
+anm,fade,card1,0,1,0
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+playse,/download/character/100909/se/se_c00909_skill_08.mp3
+endwait,,,,,,,,,,,
+sprite,download/character/100380/image/main.png,card1,0,0,1,0.5,,,,
+endwait,,,,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Katia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Dù ở thế giới nào、 các người cũng đều như vậy nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù con đường nào、 cũng phục vụ bên cạnh、 kề vai sát cánh。Dù lúc nào、 cũng chất vấn、 và chỉ lối。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi hiểu rõ bản chất của các người。Đã được nâng đỡ、 đã yêu thương—— và đã mất đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi vừa là nỗi tuyệt vọng của Katia Brunseva、 vừa là thứ đứng trên nỗi tuyệt vọng của các người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chính tôi là bằng chứng cho thấy sức mạnh của các người không thể vượt qua tuyệt vọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Vậy nên、 đừng nghĩ rằng Jamila Jibril và Irina Ilizarova có thể ngăn cản tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,
+anm,scale,card1,2.5_2.5,1,0
+anm,fade,card1,0,1,0
+endwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+playse,/download/sound/se/conA.mp3
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101008/adv/atlas/stand_b,body:anger,jamila,-300,-180,0.5,0.5,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+spriteatlas,download/character/100909/adv/atlas/stand_b,body:anger,ilyna,300,-220,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khụ…… Hoàn toàn không cảm thấy đòn tấn công của mình có tác dụng gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101008/adv/atlas/stand_b,body:anger,jamila,-300,-180,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật vô dụng。Hãy hữu ích hơn một chút đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100909/adv/atlas/stand_b,body:anger,ilyna,300,-220,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi sẽ trả lại y nguyên lời đó cho cô đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100909/adv/atlas/stand_b,body:anger,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Thật là。Việc phải hợp sức với cô thật là bất đắc dĩ hết sức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101008/adv/atlas/stand_b,body:anger,jamila,-300,-180,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lời đó、 tôi xin trả lại cô y nguyên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101008/adv/atlas/stand_b,body:anger,jamila,-300,-180,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Nhưng、 không còn cách nào khác。Nếu đây là vì ước nguyện của Katia-sama。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100909/adv/atlas/stand_b,body:anger,ilyna,300,-220,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái ước nguyện đó rốt cuộc là gì、 cái kiểu giải thích thiếu sót này không thể khá hơn được sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101008/adv/atlas/stand_b,body:smile,jamila,-300,-180,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng suy nghĩ、 hãy cảm nhận ý chí vĩ đại của Katia-sama。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100909/adv/atlas/stand_b,body:sad,ilyna,300,-220,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đồ ngốc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100909/adv/atlas/stand_b,body:anger,ilyna,300,-220,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Thôi thì、 cứ giao việc xác nhận đó cho bọn họ đi。Chúng ta sẽ cố gắng kiềm chế thứ đó hết mức có thể。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101008/adv/atlas/stand_b,body:anger,jamila,-300,-180,0.5,0,,,,
+anm,tint,ilyna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Jamila Jibril</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi biết rồi。Đừng ra lệnh cho tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100909/adv/atlas/stand_b,body:anger,ilyna,300,-220,0.5,0,,,,
+anm,tint,jamila,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Irina Ilizarova</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu vậy、 thì hãy hành động trước khi bị nói gì đi chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+sprite,download/character/101008/image/main.png,card1,300,-200,2,0.5,,,,
+anm,move,card1,-300_-200,4,1
+endwait,,,,,,,,,,,
+sprite,download/character/100909/image/main.png,card2,-500,0,2,0.5,,,,
+anm,fade,card1,0,0,0
+anm,move,card2,100_0,4,1
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+sprite,download/character/100380/image/main.png,card3,0,0,2,0,,,,
+anm,fade,card3,0,0,0
+anm,scale,card3,1_1,1,0
+anm,fade,card3,255,1,0
+endwait,,,,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11460300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm037.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,weat,-300,-240,0.5,0.5,,,,
+anm,tint,weat,150_150_150,0.0001,0
+spriteatlas,download/character/104502/adv/atlas/stand_a,body:sad,raz,300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Tại sao、 họ lại…… muốn bảo vệ tôi……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,weat,-300,-240,0.5,0,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chẳng phải đã rõ rồi sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,weat,-300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì Katia-san rất quan trọng… tôi đang chiến đấu để bảo vệ tâm nguyện của con bé đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104502/adv/atlas/stand_a,body:sad,raz,300,-110,0.5,0,,,,
+anm,tint,weat,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Razluka Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tâm nguyện của Katia……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,weat,-300,-240,0.5,0,,,,
+anm,tint,raz,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng。Con bé đã nói với tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin hãy chăm sóc Razluka-san。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11460300.jpg,1,255
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,weat,0,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Beatrice</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Điều đó、 tuyệt đối không phải là loại bỏ cô và kết thúc mọi chuyện đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,weat,0,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Những lời con bé nói với tôi vào lúc đó không thể nào vô nghĩa được。Con bé đã tin tưởng giao phó cho tôi、 và hẳn đã nói ra những lời đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,weat,0,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Nếu nghĩ như vậy、 việc tìm ra câu trả lời cho điều đang được mong đợi không hề khó khăn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,weat,0,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Phải không nào……——Dì Razluka。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

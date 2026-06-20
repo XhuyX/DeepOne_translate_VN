@@ -1,0 +1,300 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10050100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-400,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy2,300,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy3,-50,-170,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,soka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:anger,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104221/adv/sound/fav104221_03_01.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Xé toạc nó đi、 Tsubaki Xanh――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Water,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_050.mp3
+endwait,,,,,,,,,,,
+wait,2.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10050100.jpg,1,255
+endwait
+sprite,download/monster/20010101/adv/image/20010101.png,enemy1,-400,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy2,300,-170,1.35,0.5,,,,
+sprite,download/monster/20010101/adv/image/20010101.png,enemy3,-50,-170,1.35,0.5,,,,
+anm,tint,enemy1,0_0_0,0.0001,0
+anm,tint,enemy2,0_0_0,0.0001,0
+anm,tint,enemy3,0_0_0,0.0001,0
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_b,body:normal,soka,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_02.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ừm……chắc hết rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_03.mp3
+msg,1,<outline width=2 color=black>Không thấy có địch hay bẫy nào khác、 nên chắc quanh đây an toàn rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm106.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_04.mp3
+msg,1,<outline width=2 color=black>…………Nhìn chằm chằm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:unique,soka,0,-110,0.5,0,,,,
+endwait
+anm,move,soka,-50_-110,0.3,0
+endwait
+anm,move,soka,50_-110,0.6,0
+endwait
+anm,move,soka,0_-110,0.3,0
+endwait
+playvoice,1,download/character/104221/adv/sound/fav104221_03_05.mp3
+msg,1,<outline width=2 color=black>Sốt sắng……sốt sắng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:unique,soka,0,-110,0.5,0,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_06.mp3
+msg,1,<outline width=2 color=black>……Nè、 ba？……Cỡ này thì con không gặp khó khăn gì đâu……nhưng mà、 ba có nghĩ con đã cố gắng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Đã cố gắng lắm rồi,Souka còn làm được hơn thế
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_07.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hửm……ba khen thì con vui、 nhưng không phải vậy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_08.mp3
+msg,1,<outline width=2 color=black>Con nghĩ là……đôi khi、 ngoài lời nói ra、 cũng nên đi kèm hành động thì tốt hơn ấy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:unique,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_09.mp3
+msg,1,<outline width=2 color=black>……Mà ba biết thừa rồi còn cố tình nói thế đúng không。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:unique,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_10.mp3
+msg,1,<outline width=2 color=black>Nếu ba cứ trêu con thế、 con mách mẹ và Zakuro đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_11.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>B…bị nói thế thì con cũng khó chối、 dĩ nhiên con làm được rồi… Nh…nhưng bây giờ không phải chuyện đó！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:anger,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_12.mp3
+msg,1,<outline width=2 color=black>Đương nhiên cỡ đó gấp mười lần hay hai mươi lần con cũng chẳng sao、 nhưng con không muốn nói chuyện đó……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:unique,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_13.mp3
+msg,1,<outline width=2 color=black>……Trời ơi。Ba không muốn khen con gái mình à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:unique,soka,0,-110,0.5,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_14.mp3
+msg,1,<outline width=2 color=black>Được、 hiểu rồi、 con hiểu rồi。Vậy từ giờ con đi tìm địch mạnh hơn đây。Đến nỗi phải liều mạng chiến đấu cơ――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteoff,all,0.2
+endwait
+
+playse,/download/sound/se/se_045.mp3
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:unique,soka,0,-130,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+shake,0.5,3,12,0.soka
+playvoice,1,download/character/104221/adv/sound/fav104221_03_15.mp3
+msg,1,<outline width=2 color=black>Ừm……đã chịu xoa đầu con thì từ đầu ngoan ngoãn làm đi có phải hơn không。Ba đúng là xấu tính。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:smile,soka,0,-130,0.6,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_16.mp3
+msg,1,<outline width=2 color=black>Không còn cách nào、 lần này con tha thứ cho ba vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:smile,soka,0,-130,0.6,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_17.mp3
+msg,1,<outline width=2 color=black>……Được ba chạm vào kiểu này、 con thấy dễ chịu quá、 tận sâu trong lòng cũng ấm áp lên……con rất thích。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:unique,soka,0,-130,0.6,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_18.mp3
+msg,1,<outline width=2 color=black>Nhưng……còn nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_028.mp3
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:smile,soka,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+anm,scale,soka,0.7_0.7,0.5,0
+anm,move,soka,0_-160,0.5,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:smile,soka,0,-160,0.7,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_19.mp3
+msg,1,<outline width=2 color=black>Phì、 ôm chặt rồi nhé。Ba xấu tính hay bắt nạt con gái thì không được chống cự đâu……cứ để yên thế này một lát。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:smile,soka,0,-160,0.7,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_20.mp3
+msg,1,<outline width=2 color=black>Và nữa……――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,soka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:shy,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104221/adv/sound/fav104221_03_21.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chụt……chụt、 chụt……ưm、 phù、 chụp……ha… a。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10050100.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:smile,soka,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_22.mp3
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>––Con yêu ba。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:smile,soka,0,-160,0.7,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_23.mp3
+msg,1,<outline width=2 color=black>Từ giờ、 con muốn có thật nhiều、 thật nhiều những khoảnh khắc thế này。Muốn cảm nhận hạnh phúc hơn nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:smile,soka,0,-160,0.7,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_24.mp3
+msg,1,<outline width=2 color=black>Vì thế、 con có thể sẽ toàn đòi hỏi ích kỷ với ba……nhưng được chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:smile,soka,0,-160,0.7,0,,,,
+playvoice,1,download/character/104221/adv/sound/fav104221_03_25.mp3
+msg,1,<outline width=2 color=black>Về sau、 hãy cùng con tìm thấy hạnh phúc thật nhiều nha、 ba。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

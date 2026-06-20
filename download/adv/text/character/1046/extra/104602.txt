@@ -1,0 +1,249 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_01.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chào buổi sáng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,255
+endwait
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_02.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Em đi hơi nhanh đấy。Cơ thể này của tôi、 như em thấy đấy、 bước chân không dài。Hãy đi chậm lại một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010600.jpg,0,255
+endwait
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_03.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Thị hiếu ẩm thực của em có vẻ khá bình thường。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010800.jpg,0,255
+endwait
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_04.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Em là vật chứa thiện ý、 không có tố chất ma thuật để chiến đấu。Dù vậy、 việc em cứ mãi rèn luyện thể chất thì có ý nghĩa gì chứ nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,255
+endwait
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm115.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:surprise,perufe,0,-170,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_05.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>…………？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_06.mp3
+msg,1,<outline width=2 color=black>Có chuyện gì vậy、 sao em đột nhiên dừng lại rồi nhìn tôi？ Em có điều gì muốn nói với tôi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: 'Sao cô cứ bám theo tôi vậy？,Lựa chọn 2: 'Có kẻ theo dõi。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_07.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Việc em là trung tâm tinh thần của nhiều người ở R'lyeh thì không cần phải nói thêm nữa rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_08.mp3
+msg,1,<outline width=2 color=black>Nếu quan sát một người như em、 có lẽ tôi sẽ thấy được điều gì đó。Vì vậy、 tôi chỉ đang quan sát em từ sáng nay thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_09.mp3
+msg,1,<outline width=2 color=black>Trước mắt、 hôm nay tôi sẽ tiếp tục quan sát em cho đến khi em đi ngủ。Đừng bận tâm đến tôi、 cứ sống như bình thường nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_10.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Kẻ theo dõi ư？ Lạ thật đấy。Sáng nay、 tôi đã bắt đầu quan sát em từ hai tiếng trước khi em thức dậy、 nhưng không hề có dấu hiệu nào như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_11.mp3
+msg,1,<outline width=2 color=black>Chẳng lẽ nào lại có kẻ nào đó sở hữu năng lực đến mức có thể thoát khỏi sự cảm nhận của tôi sao？ Và em lại có kỹ năng đặc biệt để nhận ra điều đó sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:sad,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_12.mp3
+msg,1,<outline width=2 color=black>Chuyện đó thật là、 không có chút thực tế nào cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_13.mp3
+msg,1,<outline width=2 color=black>Bị theo dõi ư、 chẳng phải là em tưởng tượng ra sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:sad,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_14.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>……Sao em lại thở dài vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,255
+endwait
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104604/adv/sound/fav104604_02_15.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À… sao lại đột nhiên chạy đi… Khụ、 đứng lại mau…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104604/adv/sound/fav104604_02_16.mp3
+msg,1,<outline width=2 color=black>Tại sao、 lại như vậy… Nói rồi、 đứng lại、 khụ… ư… ha…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104604/adv/sound/fav104604_02_17.mp3
+msg,1,<outline width=2 color=black>Ha、 ha、 ha… Đứng、 lại… khụ、 ha… ha…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104604/adv/sound/fav104604_02_18.mp3
+msg,1,<outline width=2 color=black>Đứng、 khụ、 ư、 ha… ư… khụ…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_19.mp3
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ha、 khụ、 ư…！ Ha、 ha… Giờ thì… cơ thể này、 bị phân tách khỏi Nguyên thư Pnakotic、 chỉ là một vật chứa tạm thời、 ha、 ha、 đến thể lực bình thường cũng không có… ư、 ư。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:anger,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_20.mp3
+msg,1,<outline width=2 color=black>Khụ、 đừng nhìn tôi bằng ánh mắt đáng thương như vậy、 đừng thương hại tôi…！ Mà nói đúng hơn、 là do mày đột nhiên chạy đi là sai… ha、 ha。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:anger,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_21.mp3
+msg,1,<outline width=2 color=black>Ha、 khụ、 tại sao lại định chạy trốn chứ… Hoàn toàn không hiểu nổi… ha、 ư、 khụ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104604/adv/sound/fav104604_02_22.mp3
+msg,1,<outline width=2 color=black>Khụ… thật thảm hại… Trước hết、 phải rèn luyện thể lực tối thiểu đã… Ha、 khụ… ư、 ư ư。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

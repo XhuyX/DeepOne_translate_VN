@@ -1,0 +1,503 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10960102.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20060201/adv/image/20060201.png,enemy1,0,-80,1,0.5,,,,
+playse,/download/sound/se/se_022.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>訓練用ゴーレム</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>————————</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_b,body:anger,maruta,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>“Croix de Nerluk”… Đánh nát nó đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+playse,/download/sound/se/se_039.mp3
+flash,255,255,255,4,0.3,1.0
+endwait
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20060201/adv/image/20060201.png,enemy1,0,-80,1,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>訓練用ゴーレム</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——、…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,tint,enemy1,0_0_0,0.5,0
+endwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,silvy,-300,-120,0.5,0.5,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Xong rồi à？ Chẳng đáng gì cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,silvy,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khà… đúng là Martha-kun có khác。Dù đã cập nhật mẫu hành động、 tăng cường giáp và cả cơ cấu bên trong rồi đấy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,silvy,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nào、 còn Alma-kun thì sao đây、 ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103201/adv/atlas/stand_a,body:anger,alma,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mạnh hơn được có thế này thôi à？ Chậm quá、 chán chết đi được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20060201/adv/image/20060201.png,enemy1,0,-80,1,0.5,,,,
+playse,/download/sound/se/se_022.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>訓練用ゴーレム</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>——————</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103201/adv/atlas/stand_a,body:unique,alma,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A ha… muốn được quan tâm đến thế thì tôi sẽ xé nát cô ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20060201/adv/image/20060201.png,enemy1,0,-80,1,0.5,,,,
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash1_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+playse,/download/sound/se/se_069.mp3
+name,<outline width=2 color=black>訓練用ゴーレム</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,tint,enemy1,0_0_0,0.5,0
+endwait
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+stopbgm,0.3,,,,,,,,,,
+endwait
+wait,0.2
+endwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+spriteatlas,download/character/103201/adv/atlas/stand_a,body:normal,alma,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm、 thấy sao nào？ Tôi đã đánh nát con golem này đến mức không thể nát hơn được nữa rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khà khà、 Alma-chan có vẻ vui nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103201/adv/atlas/stand_a,body:smile,alma,-300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>V-vâng ạ！ Được Milva-oneesama dõi theo thế này、 Alma cảm thấy hạnh phúc nhất trên đời ngay lúc này！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,milva,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:unique,maruta,300,-90,0.5,0.5,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103201/adv/atlas/stand_a,body:anger,alma,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gì thế、 cái ánh mắt đó。À、 phải rồi… trước sự chênh lệch thực lực quá lớn、 cô đang thừa nhận thất bại và hối hận chứ gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:unique,maruta,300,-90,0.5,0,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Alma、 ngốc à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103201/adv/atlas/stand_a,body:anger,alma,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô nói cái gì？ Dù là lời thua cuộc thì tôi nghĩ cũng nên có từ ngữ phù hợp hơn chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,silvy,300,-120,0.5,0.5,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khà、 khà khà… Này Alma-kun、 con golem mà em vừa phá、 giờ thành đống sắt vụn không thể sửa chữa được nữa rồi、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103201/adv/atlas/stand_a,body:normal,alma,-300,-120,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đương nhiên rồi。Cô nghĩ tôi xé nát nó ra để làm gì？ Kẻ địch mà không thể đứng dậy được nữa thì mới có ý nghĩa chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,silvy,300,-120,0.5,0,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 phải rồi。Vậy、 em có biết con golem này giá bao nhiêu không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.3,,,,,,,,,,
+endwait
+wait,0.2
+endwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103201/adv/atlas/stand_a,body:surprise,alma,-300,-120,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,silvy,300,-120,0.5,0,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chà、 bị xé nát tơi tả thế này thì sửa chữa cũng bất khả thi rồi… hừm。Alma-kun mà làm việc cật lực、 một hai năm… có lẽ vẫn không đủ đâu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103201/adv/atlas/stand_a,body:surprise,alma,-300,-120,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>K-khoan đã nào。Nếu nói thế thì Martha cũng đâu có khác gì—</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,silvy,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi đã nương tay。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:smile,silvy,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 có lẽ Martha-kun biết rõ điều đó nhỉ？ Dù vỏ ngoài có vết xước、 nhưng bên trong vẫn nguyên vẹn、 chỉ cần sửa một chút là ổn thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103201/adv/atlas/stand_a,body:surprise,alma,-300,-120,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,silvy,300,-120,0.5,0,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nào、 vậy thì Alma-kun？ Em định làm gì với con golem đã biến thành đống phế liệu này đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103201/adv/atlas/stand_a,body:anger,alma,-300,-120,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi biết cái quái gì về chuyện đó—</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,silvy,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,milva,300,-120,0.5,0.5,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi、 Alma-chan không được đâu nhé？ Phá hỏng đồ của người khác thì phải nói “xin lỗi” đàng hoàng chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103201/adv/atlas/stand_a,body:smile,alma,-300,-120,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng như lời Milva-oneesama nói ạ！ Alma phải đền bù cho việc đã phá hỏng con golem này、 đúng không ạ！ Con xin lỗi rất nhiều！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,milva,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,silvy,300,-120,0.5,0.5,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà nói vậy chứ、 Alma-kun cũng không thể bồi thường ngay được… hết cách rồi。Chỗ này đành phải để em trả bằng thân thôi nhỉ、 khà khà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103201/adv/atlas/stand_a,body:surprise,alma,-300,-120,0.5,0,,,,
+anm,tint,silvy,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả…？ T-thân thể là sao…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:unique,silvy,300,-120,0.5,0,,,,
+anm,tint,alma,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhanh nào、 lại đây với tôi… Nào、 ngoan ngoãn một chút đi？ Tôi sẽ không làm gì xấu đâu、 khà、 khà khà khà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,silvy,-100_-120,0.4,0
+endwait,,,,,,,,,,,
+
+
+anm,move,silvy,-1000_-120,1.2,0
+anm,move,alma,-1000_-120,1.6,0
+name,<outline width=2 color=black>Alma Riesfeld</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>K-khoan đã nào…！ Thân thể là sao、 cô định làm cái gì… H-hễ mà làm chuyện gì kỳ quặc là tôi sẽ không bao giờ tha thứ đâu—！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,milva,-300,-120,0.5,0.5,,,,
+anm,tint,milva,150_150_150,0.0001,0
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lại một lần nữa vạch trần cái ác… Đây cũng là số mệnh của một thám tử tài ba。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,milva,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm、 chị không nghĩ là em đã vạch trần cái ác đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:unique,maruta,300,-90,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện nhỏ nhặt thì không cần bận tâm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,milva,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khà khà、 thôi thì chị thấy vui là được rồi。Alma-chan bị Sylvie-chan dẫn đi、 trông sợ hãi、 đã mang lại cho chị một cảm giác thật ngọt ngào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:unique,maruta,300,-90,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngọt ngào… À phải rồi、 vì đã dùng đầu óc nên tôi thấy thèm sô cô la。Đồ ngọt là thứ không thể thiếu đối với một thám tử…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,milva,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị nghĩ là do em đã vận động khi chiến đấu với golem thì đúng hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,milva,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà、 chị cũng đang muốn ăn đồ ngọt đây。Hay là chúng ta đi nhờ Asaka-chan làm đồ ăn vặt cho nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:unique,maruta,300,-90,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đi。Asaka、 có thể nghe yêu cầu của tôi không？ Giờ tôi đang muốn ăn parfait sô cô la。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,milva,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Asaka-chan hiền lành mà、 chắc chắn sẽ nghe thôi。Với lại、 hôm nay cậu ấy cũng ở cùng chúng ta mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: Có liên quan gì sao？,Lựa chọn 2: Cứ giao cho tôi。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,milva,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đương nhiên rồi… Asaka-chan mà được cậu nhờ vả thì chắc chắn sẽ hăng hái lắm đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:unique,maruta,300,-90,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm… Tôi muốn cậu phát huy tối đa khả năng của Asaka。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Câu trả lời thật đáng tin cậy… Có sự cổ vũ của cậu、 Asaka chắc chắn sẽ làm ra những món bánh tuyệt vời…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,milva,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 nhưng mà nếu muộn quá thì có khi lại bị nói là không được ăn tối mất、 nên chúng ta đi nhanh thôi nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+anm,tint,milva,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rõ rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,210 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10040200.jpg,0,,,,,,,,
+endwait
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm007.mp3,0,
+endwait,,,,,,,,,,,
+sprite,download/monster/20030101/adv/image/20030101,robo3,0,-100,1.35,0.5
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>——————————！</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_022.mp3
+clickwait,,,,,,,,,,
+spine,download/adv/spine/Slash2_Blue,em2,default,animation,0,-100,0,1,1,0
+playse,/download/sound/se/se_037.mp3
+wait,0.6
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>——————……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+shake,0.2,5,20,20,,
+spriteoff,all,1
+playse,/download/sound/se/se_025.mp3
+wait,1.5
+endwait
+stopbgm,0.5
+endwait
+wait,0.5
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_b,body:normal,yosi,-310,-200,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>—Vậy là đã xử lý xong hết đám địch rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_a,body:sad,yosi,-310,-200,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Các em、 không ai bị thương chứ？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,yosi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm…… không sao。Vì Yoshino…… đã bảo vệ em mà。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_a,body:smile,yosi,-310,-200,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy sao、 thế thì tốt quá rồi……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,all,0.2
+endwait
+mask,bg1,0,0,1280,250,0,,,,
+sprite,download/adv/image/black,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,frau1,0,0,1280,250,0,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_a,body:sad,frau,0,0,0,0,,,,
+imgconf,frau,frau1,0,-1000,,,0,1.5,1.5,0.5
+endwait,,
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Khụ…………</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+bg,color_0_0_0,1,255,,,,
+endwait,,
+wait,0.2
+endwait
+msg,1,<size=30><outline width=2 color=black>Cơ thể nặng trĩu、 khó mà dồn sức…… Chắc hẳn là ảnh hưởng từ những ngày truy tìm liên tục đang bộc lộ rõ rệt。</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù vậy、 tôi không thể than vãn。Giờ đây、 chỉ có tôi mới có thể bảo vệ họ。</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không được lặp lại những hối tiếc trong quá khứ。</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhìn đồng đội bị thương、 thân mình lâm nguy mà chỉ đứng nhìn từ xa。Chuyện như vậy、 sẽ không bao giờ……</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.2
+name,
+msg,0,
+bg,download/bg/bg_10040200.jpg,1,,,,,,,,
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_a,body:anger,yosi,-310,-200,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>—Tôi、 nhất định phải bảo vệ họ đến cùng。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,yosi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Yoshino。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_a,body:anger,yosi,-310,-200,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hửm……？ Có chuyện gì sao、 Frau？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,yosi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mặt anh…… trông đáng sợ……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_a,body:sad,yosi,-310,-200,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À…… xin lỗi、 anh không có ý định dọa em。Có vẻ như anh đã quá căng thẳng rồi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Giờ đây、 chỉ có anh mới có thể bảo vệ các em…… Nghĩ đến đó、 anh không thể làm khác được。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,yosi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thật sự…… chỉ có vậy thôi sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_a,body:normal,yosi,-310,-200,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……À、 chỉ có vậy thôi。Thôi nào、 đứng mãi ở đây cũng chẳng ích gì、 chúng ta đi tiếp thôi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,yosi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Yoshino…… hướng này。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_a,body:normal,yosi,-310,-200,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Frau……？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,yosi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Asaka và Miriam…… ở hướng đó。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_a,body:surprise,yosi,-310,-200,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Gì cơ……？ Em biết sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,yosi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm…… chỉ là cảm giác thôi、 nhưng mà……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_a,body:normal,yosi,-310,-200,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ra vậy。Em có khả năng đặc biệt là cảm nhận được cảm xúc của người khác mà……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Anh định tin lời Frau và đi tiếp…… em thấy sao？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+select,Để Yoshino quyết định。,Tin tưởng Frau。
+if,select_===_1,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì、 chúng ta sẽ dựa vào cảm giác của Frau。Xin lỗi、 nhưng em giúp anh được không？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0,,,,
+anm,tint,yosi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm…… cứ giao cho em……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,yosi,150_150_150,0.0001,0,
+endwait,,
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Em…… sẽ cố gắng、 nhé？</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/102502/adv/atlas/stand_a,body:normal,yosi,-310,-200,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Yoshino</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì、 anh sẽ đi trước、 em chỉ đường cho anh nhé。Tuyệt đối không được đi lên phía trước đâu đấy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,yosi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm……</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,1,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,284 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait
+bg,download/bg/bg_10970101.jpg,0,255
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm008.mp3,0.5,
+endwait
+spriteatlas,download/character/102202/adv/atlas/stand_b,body:anger,vi,0,-190,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cháy rụi đi cho ta……！</outline></size>,,,,,,,,,
+clickwait
+spriteoff,vi,0
+endwait
+sprite,download/monster/20020105/adv/image/20020105.png,angel2,-300,-200,1.35,0.5
+sprite,download/monster/20020105/adv/image/20020105.png,angel3,300,-200,1.35,0.5
+sprite,download/monster/20020105/adv/image/20020105.png,angel,0,-300,1.35,0.5
+endwait
+spine,download/adv/spine/Fire1,em1,default,animation,0,0,-10,0.8,0.8,0
+playse,/download/sound/se/se_038.mp3
+wait,0.3
+endwait
+name,<size=27><outline width=2 color=black>エネミー</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>――――！</outline></size>,,,,,,,,,
+shake,0.1,4,20,20,,
+endwait
+clickwait
+spriteoff,angel,0.5
+spriteoff,angel2,0.5
+spriteoff,angel3,0.5
+playse,/download/sound/se/se_025.mp3
+endwait
+wait,0.5
+spineoff,em1,0
+endwait
+stopbgm,0.5
+endwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,300,-190,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Hình như đó là đòn cuối cùng rồi。</outline></size>,,,,,,,,,
+clickwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:surprise,beat,-300,-190,0.5,0.5,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Mới trở thành Debris mà đã có thể chiến đấu đến mức này…… Chắc hẳn、 từ khi còn sống、 người đã là một pháp sư xuất chúng。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:surprise,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Từ khi còn sống……？ Ngươi đang nói gì vậy。Ngữ điệu của ngươi cứ như thể muốn nói rằng ta đã chết rồi vậy。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,300,-190,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hay là…… lẽ nào、 ngươi định nói đây là thế giới của người chết？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hoàng Tuyền…… là thế giới sau khi chết trong quan niệm của Nhật Bản、 phải không？</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Nếu có sự an nghỉ sau cái chết、 thì có lẽ、 được như vậy sẽ hạnh phúc hơn。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Thế nhưng、 đây không phải là nơi người chết ghé thăm。Mà nói cho cùng、 đây cũng không phải là nơi người sống nên đến。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:anger,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta không hiểu ngươi đang nói gì cả…… Ngươi muốn chơi chữ với ta à？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Xin lỗi。Tôi sẽ giải thích mọi thứ theo trình tự、 bao gồm cả những điều đó。</outline></size>,,,,,,,,,
+clickwait
+spriteoff,beat,0.5
+spriteoff,vi,0.5
+name,
+msg,0,
+endwait
+bg,color_0_0_0,0.5,255
+endwait
+msg,0,<size=30><outline width=2 color=black>……</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait
+msg,0,<size=30><outline width=2 color=black>………………</outline></size>,,,,,,,,,
+clickwait
+bg,download/bg/bg_10970101.jpg,1,255
+endwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,beat,-300,-190,0.5,0.5,,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,300,-190,0.5,0.5,,,,
+anm,tint,beat,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Hừm。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Thân thể này là Debris không phải con người…… là kết cục của một ai đó từng tồn tại、 sao。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi biết điều đó khó tin…… nhưng đó là sự thật。Bạn đang ở đây với tư cách là một loại sinh vật tồn tại trong một thế giới gọi là Dreamlands。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thành thật mà nói、 ta không thể chấp nhận ngay được。Nhưng…… tại sao nhỉ。Ta lại có cảm giác như mọi thứ đã được sắp đặt sẵn。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Có lẽ đó là bản năng của một sinh vật được tạo ra trong thế giới do Nguyên thư Pnakotic tạo ra……</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>……Dù sao đi nữa、 ta không có ký ức、 cũng chẳng có thông tin nào khác để dựa vào。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Ta cũng không cảm thấy tà khí từ ngươi。Vậy nên、 ta sẽ bắt đầu bằng cách tin ngươi。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:smile,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Cảm ơn bạn。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:unique,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 đơn giản là ngươi không đủ khéo léo để lừa gạt người khác đâu。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ơ、 vậy sao……？ Ừm、 tôi không biết nên vui hay nên buồn nữa……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:smile,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cô…… là người chất phác、 đó。Đừng buồn vậy、 ừm、 cô là Beatri-ce phải không？ Ưm、 cái tên khó nói quá……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:surprise,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ơ…… vậy sao？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Beatri-ce…… Beat――Beato。Phiền phức quá。Từ giờ ta sẽ gọi ngươi là Beato。Được chứ？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng、 bạn cứ gọi tôi thế nào cũng được。Nhân tiện、 tôi nên gọi bạn là gì ạ？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ưm。Quả thật、 không có tên gọi thì bất tiện。Nhưng、 đáng tiếc là ngay cả tên của ta cũng đã biến mất khỏi ký ức rồi。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy sao…… Việc mất đi hoàn toàn nguyên mẫu như vậy là điều hiếm thấy。Ngay cả Debris cũng thường giữ lại một chút dấu vết của bản thân。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Đặc biệt、 tên là biểu tượng đầu tiên mà con người có được về bản thân mình…… Nếu bạn cố gắng nghĩ thật mạnh、 có lẽ sẽ nhớ ra điều gì đó？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:sad,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>？？？</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù ngươi có nói vậy…… ưm。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>――Vee。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:surprise,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hả？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tên Vee、 thì sao？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:smile,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm、 đó là…… tên khi còn sống của bạn sao？ Nhìn ngoại hình、 tôi cứ nghĩ bạn là người Nhật chứ……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta không biết。Chỉ là nó chợt hiện lên trong đầu thôi。……Kỳ lạ sao？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 không…… Tôi nghĩ đó là một cái tên hay。Nhân tiện、 nó có ý nghĩa gì không……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ai biết được……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy sao…… Vậy thì、 một lần nữa。Vee-san、 rất vui được làm quen。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhân tiện、 nếu bạn chưa quyết định sẽ làm gì tiếp theo、 bạn có muốn cùng tôi đi thăm một vài vùng――những không gian bên trong Dreamlands không？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ồ…… Tại sao vậy？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhiều Debris thường sống trong một vùng mà họ đã chọn là của mình。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Tôi cũng là người hay ra ngoài hơn so với Debris thông thường、 nhưng về cơ bản、 tôi cũng sống trong vùng của mình。</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Vô số vùng trong Dreamlands được cho là sự trừu tượng hóa của tâm trí con người……</outline></size>,,,,,,,,,
+clickwait
+msg,1,<size=30><outline width=2 color=black>Có lẽ chính vì là Debris đã mất đi bản thân、 nên họ mới tìm kiếm một nơi có thể lấp đầy khoảng trống đó。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Một nơi để lấp đầy sự thiếu hụt của bản thân、 sao。Liệu ta、 người thậm chí không biết mình đã mất đi điều gì、 có thể tìm thấy một nơi như vậy không……</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dreamlands này rất rộng lớn…… chắc chắn、 nó phải ở đâu đó。Khi bạn đến được nơi đó、 bạn sẽ cảm thấy rằng đây chính là nơi đó。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Em sẽ đi cùng ta、 chỉ để tìm nơi ta thuộc về sao？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Em định vậy ạ…… liệu có làm phiền ngài không？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:smile,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Không、 làm gì có。Ta rất vui vì sự chu đáo của em。Beatrice đúng là người tốt đến ngây ngô、 đến mức ta phải ngạc nhiên đấy。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:sad,beat,-300,-190,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đó、 đó là lời khen mà em có thể vui được sao ạ……？</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:smile,vi,300,-190,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 không biết nữa nhỉ…… Coco。</outline></size>,,,,,,,,,
+clickwait
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,300,-190,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Vậy thì、 chúng ta đi thôi。Để tìm nơi lấp đầy trái tim ta、 nhỉ。</outline></size>,,,,,,,,,
+clickwait
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,1,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

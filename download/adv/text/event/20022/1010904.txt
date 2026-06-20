@@ -1,0 +1,878 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm026.mp3,0,
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,yoshino1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102501/adv/atlas/stand_a,body:normal,yoshino2,0,0,0,0,,,,
+imgconf,yoshino2,yoshino1,0,-1000,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Beresford。Em có khuynh hướng ôm đồm quá nhiều thứ、 vì một mình em có thể làm được nhiều việc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu gánh nặng một mình quá lớn、 thì chia sẻ với ai đó cũng là điều cần thiết đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,yoshino1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103401/adv/atlas/stand_a,body:normal,yoshino2,0,0,0,0,,,,
+imgconf,yoshino2,yoshino1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cảm ơn vì đã lo lắng。Nhưng em ổn。Đúng là không dễ dàng gì、 em cũng thường xuyên cảm thấy đau khổ và khó khăn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng đây là điều em đã quyết định làm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em không nghĩ dựa dẫm vào người khác là sai、 nhưng em nghĩ nó không nên là sự ỷ lại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em không muốn bị đánh giá là chỉ đến giới hạn này thôi。Kiểu… 'tự trọng' nghe có vẻ hơi quá nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng nếu không thể 'làm màu' như vậy nữa、 em sẽ không còn tự hào về bản thân mình。Vì vậy… cho đến khi thực sự không thể、 em sẽ cố gắng hết sức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+name,
+msg,0,
+stopbgm,0.3,,,,,,,,,,
+endwait
+bg,download/bg/bg_10050100.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm006.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:sad,ruiez,300,-100,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+spriteatlas,download/character/102507/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Beresford… Lúc đó、 em đã trả lời tôi như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102507/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Giờ đây、 trước khó khăn này、 em có thực sự nghĩ rằng mình không thể không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:sad,ruiez,300,-100,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thì là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29070102/adv/image/29070102.png,enemy1,0,-100,0.5,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>隷迫主亡</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:anger,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chết tiệt…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+anm,move,ruiez,300_-100,0.3,0
+endwait
+wait,0.5
+endwait
+spriteatlas,download/character/101207/adv/atlas/stand_a,body:normal,ridia,-300,-120,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu chỉ đến mức này mà đã than vãn、 thì tôi sẽ tiễn cô đi đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:sad,ruiez,300,-100,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu là khích lệ thì không sao、 sao lại phải bị đe dọa chứ…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:sad,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>… À、 thôi nào… Từ nãy đến giờ、 đầu em cứ đau nhức…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ridia,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,-300,-120,0.5,0.5,,,,
+anm,tint,ruiez,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Louise… Nếu sợ、 mọi người sẽ giúp em mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng… Louise chắc chắn sẽ ổn thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì Louise mạnh mẽ mà… Yoshino và Lydia cũng tin như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:sad,ruiez,300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>… Bị nói bằng nụ cười như thế、 em không thể phản bác được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,選択肢1 「頑張れ,選択肢2 「辛かったら頼ってもいい
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:sad,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chuyện… Cố gắng lên、 trong một số trường hợp、 nó sẽ dồn người ta vào đường cùng đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:normal,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà、 nhưng… Giờ thì em lại được tiếp thêm động lực từ những lời đó。Cảm giác như muốn tiến về phía trước、 một cảm xúc như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:normal,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Gì chứ、 vậy là sao。Nếu nghĩ rằng có thể hạ gục một người phụ nữ yếu đuối bằng những lời ngọt ngào、 thì anh đã lầm to rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:normal,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Lời nói của Yoshino、 của Lydia… Chúng như đang lay động trái tim em… Sâu trong lồng ngực、 nó đang dần nóng lên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:normal,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cái nóng đó、 như đang nói… Em không chỉ có thế này đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:anger,ruiez,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì vậy――…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait
+spriteatlas,download/character/102507/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+spriteatlas,download/character/101207/adv/atlas/stand_a,body:surprise,ridia,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cơ thể của Louise được bao phủ bởi ánh sáng…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102507/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sức mạnh của hắn đang truyền đến mạnh mẽ hơn、 sâu hơn… Đây là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ruiez1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:normal,ruiez2,0,0,0,0,,,,
+imgconf,ruiez2,ruiez1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nghỉ ngơi đến đây thôi… Lâu rồi mới quên hết mọi thứ、 em đã thấy sảng khoái rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+name,
+msg,0,
+endwait
+bg,download/bg/bg_10050100.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm002.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:anger,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giờ thì… Đến giờ làm việc rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29070102/adv/image/29070102.png,enemy1,0,-100,0.5,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>隷迫主亡</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:anger,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xê、 yaaaaaaaa―――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29070102/adv/image/29070102.png,enemy1,0,-100,0.5,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>隷迫主亡</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+spine,download/adv/spine/Slash1_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_049.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101207/adv/atlas/stand_a,body:normal,ridia,300,-120,0.5,0.5,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+spriteatlas,download/character/102507/adv/atlas/stand_a,body:surprise,yoshino,-300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Động tác đó… Khác hẳn so với Saki。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101207/adv/atlas/stand_a,body:normal,ridia,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có vẻ như cô ta đã lấy lại được rồi… Thật là chậm chạp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102507/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng nói thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29070102/adv/image/29070102.png,enemy1,0,-100,0.5,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>隷迫主亡</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:anger,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+anm,move,ruiez,-300_-100,0.3,0
+endwait
+wait,1.0
+spine,download/adv/spine/blow_Red,em1,default,animation,0,-300,0,1,1.0,0
+playse,/download/sound/se/se_041.mp3
+anm,move,ruiez,0_-100,0.3,0
+endwait,,,,,,,,,,,
+wait,1.0
+endwait
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chết tiệt、 không có sơ hở nào sao… Để tung ra đòn quyết định…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29070102/adv/image/29070102.png,enemy1,0,-100,0.5,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>隷迫主亡</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_b,body:surprise,ruiez,0,-100,0.5,0.5,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+flash,255,255,255,2,0.2,1.0
+spine,download/adv/spine/Slash4_Red,em1,default,animation,0,300,400,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+shake,0.2,3,15,15
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:anger,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đ、au…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101207/adv/atlas/stand_a,body:anger,ridia,300,-120,0.5,0.5,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+spriteatlas,download/character/102507/adv/atlas/stand_a,body:surprise,yoshino,-300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không xong rồi、 vũ khí bị hất văng…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101207/adv/atlas/stand_a,body:anger,ridia,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không、 không phải。Cố tình khiêu khích đối phương tấn công mạnh、 và cố tình buông vũ khí ra… Đó là…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ruiez1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_a,body:anger,ruiez2,0,0,0,0,,,,
+imgconf,ruiez2,ruiez1,0,-600,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――hừm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm050.mp3,0,
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_c,body:anger,ruiez,0,-100,0.5,0.5,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xê yaaaaaaaa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+shake,0.2,4,10,15
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29070102/adv/image/29070102.png,enemy1,0,-100,0.5,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>隷迫主亡</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Blue,em1,default,animation,0,0,0,1.5,1,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Blue,em2,default,animation,0,-200,-170,0.7,1.2,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Blue,em3,default,animation,0,320,270,0.4,0.9,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Blue,em4,default,animation,0,-250,300,1,1.4,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Blue,em5,default,animation,0,260,-100,0.4,1.1,0
+playse,/download/sound/se/se_053.mp3
+endwait
+flash,255,255,255,4,0.3,1.0
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_c,body:anger,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nào nào nào nào！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29070102/adv/image/29070102.png,enemy1,0,-100,0.5,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>隷迫主亡</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Blue,em1,default,animation,0,0,0,1.5,1,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Blue,em2,default,animation,0,-200,-170,0.7,1.2,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Blue,em3,default,animation,0,320,270,0.4,0.9,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Blue,em4,default,animation,0,-250,300,1,1.4,0
+playse,/download/sound/se/se_053.mp3
+wait,0.1
+spine,download/adv/spine/blow_Blue,em5,default,animation,0,260,-100,0.4,1.1,0
+playse,/download/sound/se/se_053.mp3
+endwait
+flash,255,255,255,4,0.3,1.0
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102507/adv/atlas/stand_a,body:surprise,yoshino,-300,-240,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+spriteatlas,download/character/101207/adv/atlas/stand_a,body:surprise,ridia,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đ、ánh nhau bằng tay không…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102507/adv/atlas/stand_a,body:surprise,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kia là。。。võ thuật Trung Quốc。。。Cả Karate、 Systema、 Boxing nữa。。。Đòn chân là Taekwondo sao？ Đúng là biến hóa khôn lường thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101207/adv/atlas/stand_a,body:surprise,ridia,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Mà khoan、 kia chẳng phải là Magi-Skill mà ngay cả Royal Wizard của Diogenes Garden cũng có người dùng sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_c,body:anger,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Biến đi――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29070102/adv/image/29070102.png,enemy1,0,-100,0.5,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,1.2,1,0
+playse,/download/sound/se/se_053.mp3
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em2,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+wait0.3
+anm,move,enemy1,0_800,0.3,0
+name,<outline width=2 color=black>隷迫主亡</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+endwait,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101207/adv/atlas/stand_a,body:sad,ridia,-300,-120,0.5,0.5,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nổ tung。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101207/adv/atlas/stand_a,body:sad,ridia,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao nắm đấm lại nổ tung chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ridia,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102507/adv/atlas/stand_a,body:sad,yoshino,-300,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>。。。Đến mức này thì、 tay không lại mạnh hơn không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_c,body:anger,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đây là nắm đấm toàn lực của tôi。。。Một đòn tất diệt――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,enemy1,0,0,1280,250,0.5,,,,
+sprite,download/monster/29070102/adv/image/29070102.png,enemy2,0,0,0,0,,,,
+imgconf,enemy2,enemy1,0,-600,,,0,1.5,1.5,0.5
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>隷迫主亡</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10050100.jpg,1,255
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103402/adv/atlas/stand_c,body:anger,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xuyên thủng――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29070102/adv/image/29070102.png,enemy1,0,1200,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,scale,enemy1,0.5_-0.5,0,0
+endwait,,,,,,,,,,,
+anm,move,enemy1,0_0,0.6,0
+endwait
+name,<outline width=2 color=black>隷迫主亡</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――</outline>,,,,,,,,,
+spine,download/adv/spine/blow_Red,em1,default,animation,0,0,0,2,1,0
+playse,/download/sound/se/se_053.mp3
+endwait,,,,,,,,,,,
+wait,0.1
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Thunder1_yellow,em2,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_024.mp3
+endwait,,,,,,,,,,,
+wait,0.3
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,enemy1,0,0,1280,250,0.5,,,,
+sprite,download/monster/29070102/adv/image/29070102.png,enemy2,0,0,0,0,,,,
+imgconf,enemy2,enemy1,0,-600,,,0,1.5,1.5,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>隷迫主亡</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+sprite,download/bg/bg_white.jpg,bg,0,0,1,1,,,,
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name, 
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name, 
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name, 
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,1,255
+endwait
+wait,0.5
+endwait
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,elica1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103301/adv/atlas/stand_a,body:normal,elica2,0,0,0,0,,,,
+imgconf,elica2,elica1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi。。。Louise、 lâu rồi không gặp nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ruiez1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103401/adv/atlas/stand_a,body:normal,ruiez2,0,0,0,0,,,,
+imgconf,ruiez2,ruiez1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Erica cũng đến R'lyeh sao。Từ giờ mong em giúp đỡ nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,mamiya1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103101/adv/atlas/stand_a,body:unique,mamiya2,0,0,0,0,,,,
+imgconf,mamiya2,mamiya1,0,-720,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Mamiya Maya</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À。Nghe nói có Người Truy Tìm mới gia nhập、 hóa ra là Louise。Lần cuối là khi chúng ta cùng nhau giải lời nguyền ở một di tích Trung Quốc phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ruiez1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103401/adv/atlas/stand_a,body:sad,ruiez2,0,0,0,0,,,,
+imgconf,ruiez2,ruiez1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 nhớ ghê nhỉ。Hàng trăm con cương thi giả xuất hiện、 làm tôi hoảng hồn。。。Mấy cái di tích bị nguyền rủa đó、 tôi chịu hết nổi rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maruta1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:normal,maruta2,0,0,0,0,,,,
+imgconf,maruta2,maruta1,0,-40,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Louise。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ruiez1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103401/adv/atlas/stand_a,body:normal,ruiez2,0,0,0,0,,,,
+imgconf,ruiez2,ruiez1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 Martha đấy à。Đây、 tặng em sô cô la này。Là loại em thích đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,patrisia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101601/adv/atlas/stand_a,body:normal,patrisia2,0,0,0,0,,,,
+imgconf,patrisia2,patrisia1,0,-860,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Patricia Portman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Louise-san。Chúng ta lại gặp nhau rồi nhỉ。Lần tới、 nhất định chúng ta cùng đi uống chút gì đó nhé。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ruiez1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103401/adv/atlas/stand_a,body:normal,ruiez2,0,0,0,0,,,,
+imgconf,ruiez2,ruiez1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 Patricia。Gì chứ、 em bỏ phụ kiện bạc rồi sao？ Trước đây em đeo nhiều đến phát ngán cơ mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102501/adv/atlas/stand_a,body:sad,yoshino,-300,-240,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:sad,ridia,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô ấy hòa nhập như thể đã ở đây nhiều năm rồi vậy。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102501/adv/atlas/stand_a,body:sad,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không ngờ cô ấy đã quen biết hầu hết Người Truy Tìm ở đây。。。Dù thế nào thì、 quan hệ của cô ấy cũng quá rộng rồi không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:sad,ridia,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cứ ba pháp sư thì một người là quen biết Louise'。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102501/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đó là lần đầu tôi nghe đấy。Cái tôi nghe là 'thuyết không có ai chưa từng chạm mặt Beresford' cơ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,ridia,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nói thế thì quá lời rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102501/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 thì ý là cô ấy nổi tiếng đến mức người ta nói vậy thôi。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102501/adv/atlas/stand_a,body:normal,yoshino,-300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà nói chứ、 thật mừng vì Beresford đã lấy lại được ký ức。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,ridia,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 có thêm người hữu dụng thì tôi cũng chẳng phàn nàn gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102501/adv/atlas/stand_a,body:smile,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đâu cần phải nói một cách khó nghe như thế chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ridia,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Louise、 thân với mọi người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102501/adv/atlas/stand_a,body:smile,yoshino,-300,-240,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 đúng vậy。Khả năng giao tiếp của cô ấy、 ngay cả tôi cũng có nhiều điều để học hỏi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,silvy1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101901/adv/atlas/stand_a,body:normal,silvy2,0,0,0,0,,,,
+imgconf,silvy2,silvy1,0,-302,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sylvie Suomalainen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chào、 chào、 Louise-kun。Thật ra、 tôi muốn nhờ cậu giúp một chút trong thí nghiệm。Mỗi một loại thuốc thử sẽ đổi lấy một thùng Nước uống dinh dưỡng Lynn、 cậu thấy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ruiez1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103401/adv/atlas/stand_a,body:normal,ruiez2,0,0,0,0,,,,
+imgconf,ruiez2,ruiez1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đó là Nước uống dinh dưỡng Lynn đặc chế của Sylvie sao？ Nếu vậy thì tôi rất sẵn lòng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,dana1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100401/adv/atlas/stand_a,body:sad,dana2,0,0,0,0,,,,
+imgconf,dana2,dana1,0,-730,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Dana</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Louise-san。Chị vừa về đã phải làm phiền rồi、 nhưng mà、 có một khu vực trong trang trại đang bị mất mùa。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ruiez1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103401/adv/atlas/stand_a,body:normal,ruiez2,0,0,0,0,,,,
+imgconf,ruiez2,ruiez1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có phải do thiết bị điều khiển nuôi trồng bị hỏng hóc không nhỉ？ Để lát nữa tôi kiểm tra xem sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rin1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101801/adv/atlas/stand_a,body:sad,rin2,0,0,0,0,,,,
+imgconf,rin2,rin1,0,-380,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lynn Rowen</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>L-Louise-san！ Cứu em với！ Vừa nãy em định đi tắm、 hình như làm hỏng vòi nước nên nước cứ chảy mãi không ngừng！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ruiez1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103401/adv/atlas/stand_a,body:sad,ruiez2,0,0,0,0,,,,
+imgconf,ruiez2,ruiez1,0,-375,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lynn、 em phải học cách kiểm soát sức mạnh của mình đi chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102501/adv/atlas/stand_a,body:unique,yoshino,-300,-240,0.5,0.5,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:sad,ridia,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>。。。Nói là khả năng giao tiếp thì không đúng、 rõ ràng cô ấy chỉ bị coi là người làm việc vặt thôi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102501/adv/atlas/stand_a,body:unique,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>。。。À mà nói đến đây、 cửa phòng tôi dạo này cũng bị hỏng cảm biến rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:sad,ridia,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không chỉ có những người tiếp cận Louise chỉ để lợi dụng cô ấy làm việc vặt、 mà còn có nhiều người biết được sức mạnh thật sự của cô ấy。。。phải không nhỉ？ Đó là câu của cậu đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102501/adv/atlas/stand_a,body:unique,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:sad,ridia,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khó trả lời thì im lặng luôn à、 đúng là một hiệp sĩ Balticum đáng nể đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102501/adv/atlas/stand_a,body:sad,yoshino,-300,-240,0.5,0,,,,
+anm,tint,ridia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Yoshino</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có nói khó nghe thế chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:sad,ridia,300,-120,0.5,0,,,,
+anm,tint,yoshino,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm。。。Thế nhưng、 nói đi nói lại thì――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103401/adv/atlas/stand_a,body:normal,ruiez,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Louise Beresford</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi、 mới về đã toàn là việc rồi。。。Thôi được。Chừng này thì dọn dẹp chỉ là chuyện nhỏ thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,ridia,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Lydia Lindman</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Chính cô ấy cũng có vẻ vui vẻ mà。Rốt cuộc thì、 cô ấy có phải là có tố chất của một nô lệ công sở không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

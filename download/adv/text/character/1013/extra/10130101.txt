@@ -1,0 +1,104 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0.5,,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Mark7,em1,default,animation,0,100,200,0.65,0.8,0
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ờm、 cái này cũng ngon。Bánh kẹo ở R'lyeh đều ngọt、 tuyệt vời thật。Đặc biệt là bánh gato sô cô la này、 tuyệt hảo luôn！</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_01.mp3
+clickwait,,,,,,,,,,,
+spineoff,em1,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Hả？ Ừm、 phải rồi、 hồi nãy mới ăn tối xong… Nhưng mà、 chuyện đó với chuyện này khác nhau。Không biết à、 con gái có cái bụng riêng để ăn ngọt đấy？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Với lại、 lỡ tìm được cái bánh ngon như này、 chẳng lẽ không ăn sao？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_03.mp3
+clickwait,,,,,,,,,,,
+select,選択肢1 「お菓子が好きなんだな,選択肢2 「隣に座ってもいいか？
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm、 em chắc không có bánh kẹo thì không sống nổi mất。Nhất là mấy món ngọt、 ăn vào là không dừng lại được luôn。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ăn đồ ngọt vào ấy、 cảm giác như tan chảy trong miệng… Cứ thấy lâng lâng ấy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Vị của phần thưởng… Vui quá、 tim cứ nhảy nhót… Cảm giác được lấp đầy。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Bánh gato sô cô la này cũng vậy。Ngọt lịm、 cứ lâng lâng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_07.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ừm、 không sao đâu。Em cũng thích ăn cùng ai đó hơn là ăn một mình。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_08.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:surprise,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 nhưng mà… thân thiết với em như vậy có ổn không…？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_09.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu chị hai thấy thì chắc chắn sẽ mắng là đừng có bám theo em đấy…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_10.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Lúc đó mình nên nói là、 đừng có vì em mà cãi nhau、 nhỉ？ Nói chơi thôi… Hì hì。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_11.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Milva Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 phải rồi。Này、 em chia bánh cho anh này。Anh ăn ngọt được chứ？ Vậy thì… Nào、 chia đôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_12.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:surprise,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Hôn gián tiếp…？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_13.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Hì hì、 anh để ý mấy chuyện đó à？ Không cần để ý đâu。Nào、 a~</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_14.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>…………Sao？ Ngọt và ngon phải không？ Cái bánh ngon như này、 em cũng lần đầu được ăn đấy。Bánh kẹo ở R'lyeh đúng là ghê gớm。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_15.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:sad,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng mà、 thật ra thì hơi thiếu một chút…</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_16.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:normal,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Tại vì、 cái bánh này ngon thật đấy… nhưng mà nỗi tuyệt vọng của con người mà em vẫn luôn cảm nhận được còn ngọt và ngon hơn nhiều。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_17.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Lan tỏa trong miệng、 tê tê đầu lưỡi、 cảm giác ngọt ngào như tan chảy… Bánh kẹo nào cũng không bằng được。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101301/adv/atlas/stand_a,body:smile,mil,-10,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ước gì có thể chia sẻ vị ngọt đó cho anh một ngày nào đó… Chắc chắn anh cũng sẽ nghiện cho xem。Hì hì。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101301/adv/sound/fav101301_03_19.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

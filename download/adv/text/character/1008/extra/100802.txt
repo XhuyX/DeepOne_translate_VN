@@ -1,0 +1,95 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0.0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:anger,holly,0,-160,0.5,0.5,,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Thật bẩn thỉu…… Cực kỳ bẩn thỉu。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_01.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu cứ giao phó mọi thứ cho tôi、 thì đã chẳng có chuyện này xảy ra rồi……</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_02.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù cơ sở có bị đóng cửa、 nhân viên có bỏ đi hết thì cũng không thể nào……！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_03.mp3
+clickwait,,,,,,,,,,,,
+select,Có chuyện gì vậy？,Em đang giận chuyện gì thế？
+if,select_===_1,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:anger,holly,0,-160,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chuyện gì mà chuyện gì chứ……！ Nhìn đây này。Bụi bẩn đóng đầy ở góc hành lang thế này cơ mà？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_04.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:unique,holly,0,-160,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Có vẻ như máy móc tự động đã dọn dẹp được một phần、 nhưng xem ra vẫn có giới hạn nhỉ……</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_05.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:anger,holly,0,-160,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Hoàn hảo đến từng ngóc ngách、 không để sót dù chỉ một hạt bụi…… Máy móc thì làm gì có lòng tự trọng trong việc dọn dẹp、 nên mới ra nông nỗi này！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_06.mp3
+clickwait,,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:anger,holly,0,-160,0.5,0,,,,,
+name,<size=27><outline width=2 color=black>Holly Hargreaves</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Giận ư？ Không、 đây phải gọi là thất vọng rồi。Anh nhìn xem、 bụi bẩn đóng đầy ở một nơi như thế này cơ mà……！？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_07.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:unique,holly,0,-160,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Quản lý vệ sinh của R'lyeh kiểu gì thế này……！ Sau khi thoát ra、 nhất định phải truy cứu trách nhiệm của người phụ trách mới được。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_08.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bẩn thỉu là kẻ thù。Dung túng kẻ thù là sự yếu mềm…… Yếu mềm sẽ phải trả giá bằng mạng sống！ Nhất định phải khiến họ hiểu rõ điều đó。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_09.mp3
+clickwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:anger,holly,0,-160,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Hơn hết、 đây là nơi Giselle-sama、 chủ nhân của tôi、 đang ở。Việc có vết bẩn tồn tại ở đây là điều không thể chấp nhận được！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_10.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù chỉ là một hạt bụi cũng có thể gây ảnh hưởng xấu đến cơ thể con người。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_11.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ví dụ、 các bệnh như viêm mũi dị ứng hay hen suyễn cũng được cho là có thể phát sinh do bụi bẩn。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_12.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu Giselle-sama mà đổ bệnh thì…… Ôi、 chỉ nghĩ đến thôi đã……！ Tôi không thể chịu đựng thêm được nữa！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_13.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ngay lập tức、 tôi phải dọn dẹp hành lang này thật sạch sẽ mới yên lòng！ Mau chuẩn bị dụng cụ dọn dẹp……！</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_14.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bẩn thỉu là kẻ thù。Tôi phải loại bỏ đám bụi đó ngay lập tức―― Gì cơ？ Như anh thấy đấy、 tôi sắp bận rộn lắm rồi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_15.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:surprise,holly,0,-160,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Cùng nhau ư？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_16.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:normal,holly,0,-160,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Ồ、 ra vậy…… Tôi công nhận ý chí đó của anh。Nhưng từ giờ trở đi、 đây là một lĩnh vực không cho phép dù chỉ một chút lơ là。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_17.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Nếu anh có dũng khí dấn thân vào đó…… tôi sẽ tận tình chỉ dạy cho anh từ A đến Z về việc dọn dẹp。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_18.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/100801/adv/atlas/stand_a,body:unique,holly,0,-160,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Nhưng một khi đã dấn thân、 sẽ không có chuyện quay đầu lại。Dù vậy…… anh có thật sự chắc chắn không？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/100800/adv/sound/fav100800_02_19.mp3
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+name,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,,
+endwait,,,,,,,,,,,,

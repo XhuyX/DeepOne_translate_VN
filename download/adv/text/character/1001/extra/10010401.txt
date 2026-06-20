@@ -1,0 +1,130 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,　,
+stopbgm,,,,,,,,,,
+fadeinblack,0,,,,,,,,,
+endwait,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,
+endwait,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,
+endwait,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm019.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,65,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>…………</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_01.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>………………Hả？</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_02.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,65,-120,0.5,0,,,,
+spine,download/adv/spine/Mark3,em1,default,animation,0,200,200,0.5,0.7,0.5
+endwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ôi、 xin lỗi！ Anh vừa nói gì à？ Em không hề hay biết gì cả…… Mà、 anh ở đây từ lúc nào vậy……？</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_03.mp3
+clickwait,,,,,,,,,,
+spineoff,em1,0
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À ha ha…… Có lẽ em đã quá mải mê suy nghĩ rồi……</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_04.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:shy,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Mà、 mà này、 anh không thấy hơi gần sao？ Lúc nào cũng thế này…… khoảng cách như thế này sao……？</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_05.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Ra vậy。Xin lỗi、 em hơi、 hơi bối rối một chút…… Ôi、 thôi rồi。Em bị làm sao thế này。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_06.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:shy,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Chuyện là…… hôm nay、 anh đã xuất hiện trong giấc mộng của em。Chuyện đó thì không sao cả…… nhưng mà……</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_07.mp3
+clickwait,,,,,,,,,,
+spriteoff,asaka,1,,,,,,,,,
+endwait,,,,,,,,,,,
+mask,bg1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:shy,asaka,0,0,0,0,,,,
+imgconf,asaka,asaka1,90,-480,,,0,1.5,1.5,0.5
+clickwait
+msg,1,<size=20><outline width=2 color=black>Ôi、 thôi rồi…… Sao em lại、 lại như thế chứ…… Đúng là trước giờ em đã làm những chuyện như vậy không ít lần rồi…… Nhưng mà、 đến cả trong giấc mộng nữa sao……</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_08.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=20><outline width=2 color=black>Có phải em đã lún sâu đến mức đó rồi không……？ Không、 không thể nào……</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_09.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:shy,asaka,65,-120,0.5,0.5,,,,
+endwait
+msg,1,<size=30><outline width=2 color=black>Ư、 ư ư…… Anh à、 nhìn mặt anh em không thể nào bình tĩnh được、 nên đi chỗ khác đi！</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_10.mp3
+clickwait,,,,,,,,,,
+select,……！？,Tại sao？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,65,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>À、 không phải……！ Anh đừng có sốc đến mức đó chứ。Vừa nãy em chỉ nói đùa thôi。Là do em nói không khéo。Em hơi mất bình tĩnh một chút……</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_11.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:shy,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Không phải là em ghét anh đâu。</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_12.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ là、 bây giờ em hơi ngại khi nhìn mặt anh thôi……</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_13.mp3
+clickwait,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:shy,asaka,65,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chuyện đó、 là…… là vì…… trong giấc mộng、 em với anh…… ư ư……</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_14.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:anger,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Đừng có hỏi mấy chuyện đáng xấu hổ như vậy nữa！ Thôi đi！</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_15.mp3
+clickwait,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:shy,asaka,65,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ôi không、 sao tim em lại đập nhanh thế này…… Chẳng lẽ đây là…… Không không、 không phải đâu、 đây chỉ là do giấc mộng còn ám ảnh thôi mà……</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_16.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Phải vậy、 đúng không？</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_17.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:surprise,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Hả？ Bệnh à？ Anh đang nói gì vậy？</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_18.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:normal,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 có phải vì em nói tim đập nhanh không？ À ha ha、 không phải đâu、 chuyện này không phải như anh nghĩ đâu、 chẳng lẽ em đã、 đã thích anh rồi sao――</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_19.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:anger,asaka,65,-120,0.5,0,,,,
+spine,download/adv/spine/Mark6,em2,default,animation,0,200,200,0.65,0.8,0.5
+endwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>――Anh đang muốn em nói cái gì vậy hả！</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_20.mp3
+clickwait,,,,,,,,,,
+spineoff,em2,0
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:sad,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Anh、 anh thật không thể lơ là được mà！ Thôi được rồi、 nếu anh không đi đâu cả、 thì em sẽ đi chỗ khác！</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_21.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100101/adv/atlas/stand_a,body:shy,asaka,65,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ư ư…… Sao em lại mơ thấy giấc mộng như vậy chứ、 thôi rồi……</outline></size>,,,,,,,,,
+playvoice,1,/download/character/100104/adv/sound/fav100104_11_22.mp3
+clickwait,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,
+endwait,,,,,,,,,,
+endif,,,,,,,,,,
+name,,,,,,,,,,
+msg,0,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,
+endwait,,,,,,,,,,
+bgoff,1.0,,,,,,,,,
+endwait,,,,,,,,,,

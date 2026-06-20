@@ -1,0 +1,212 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10050300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:surprise,nanaba,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_01.mp3
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hửm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:sad,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_02.mp3
+msg,1,<outline width=2 color=black>Tôi cảm nhận được dấu hiệu giao tranh gần đây nên đến xem thử、 nhưng sao em lại ở đây một mình thế này？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:surprise,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_03.mp3
+msg,1,<outline width=2 color=black>——Lạc ư？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:surprise,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_04.mp3
+msg,1,<outline width=2 color=black>……À、 không、 xin lỗi。Chuyện quá đỗi ngớ ngẩn、 khiến tôi nhất thời đơ người ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:sad,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_05.mp3
+msg,1,<outline width=2 color=black>Dù sao thì、 tôi không biết là bị đàn Ảo Ảnh-Vision tấn công hay mắc bẫy、 nhưng đồng đội của em có phải đã quá lơ là rồi không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:sad,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_06.mp3
+msg,1,<outline width=2 color=black>Ở Dreamlands、 việc mất đi em、 cũng có nghĩa là tất cả Người Truy Tìm-Diver sẽ bị tiêu diệt do quá tải。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:sad,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_07.mp3
+msg,1,<outline width=2 color=black>May mà người xuất hiện ở đây là tôi đấy nhé…… Có khi、 đây đã là tình huống chẳng thể cười nổi rồi đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1: Một mình em cũng xoay sở được。,Lựa chọn 2: Nhưng Nanaba đã đến。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_08.mp3
+msg,1,<outline width=2 color=black>Tôi biết em vẫn luôn rèn luyện bản thân。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_09.mp3
+msg,1,<outline width=2 color=black>Lời nói đó không phải để than vãn về sự bất lực của bản thân khi không thể dùng ma thuật、 mà là xuất phát từ sự cao quý muốn cố gắng hết sức trong khả năng của mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_10.mp3
+msg,1,<outline width=2 color=black>Tinh thần dám đối mặt với khó khăn là điều tôi rất thích。Nhưng…… dù lòng có kiên cường đến mấy、 đôi khi khoảng cách giữa ta và địch vẫn không thể san lấp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+msg,0,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+spine,download/adv/spine/Slash3_Red,em1,default,animation,0,0,200,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+bg,download/bg/bg_10050300.jpg,1,255
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_b,body:unique,nanaba,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_11.mp3
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>——Tóc mái của em hơi dài rồi đấy。Ưm、 thế này trông nam tính hơn nhiều。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_12.mp3
+msg,1,<outline width=2 color=black>Nếu cả cái này mà cũng không tránh được thì em còn kém lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_13.mp3
+msg,1,<outline width=2 color=black>……Đừng có cố vươn cao nữa。Em đã đủ cao rồi mà。Nếu em còn cao thêm nữa、 thì việc bất ngờ hôn trộm em sẽ phiền phức lắm đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:sad,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_14.mp3
+msg,1,<outline width=2 color=black>Đó、 suy cho cùng、 cũng chỉ là kết quả thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_15.mp3
+msg,1,<outline width=2 color=black>……Thôi thì、 việc thu hút được cơ hội như vậy、 có lẽ cũng là một phần sức mạnh của em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_16.mp3
+msg,1,<outline width=2 color=black>Dù vậy、 tôi mong em đừng lặp lại những chuyện như thế này nữa。Thật sự là hại tim lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_17.mp3
+msg,1,<outline width=2 color=black>Em có an toàn không、 liệu ngay lúc này có đang gặp nguy hiểm không…… Nếu nỗi lo lắng đó cứ mãi đeo bám trong lòng tôi thì em tính sao đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:unique,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_18.mp3
+msg,1,<outline width=2 color=black>Nếu vậy thì…… tôi sẽ không rời xa em dù chỉ một khoảnh khắc nữa đâu đấy？ Mà thôi、 dù sao thì tôi cũng chẳng bận tâm đâu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_19.mp3
+msg,1,<outline width=2 color=black>——Khà khà。Sao lại ngạc nhiên đến thế。Bị thì thầm lời yêu mà đỏ mặt như vậy、 ngay cả một cô gái chưa biết mùi đời cũng chẳng phản ứng như thế đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:normal,nanaba,0,-100,0.5,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_20.mp3
+msg,1,<outline width=2 color=black>Dù giỏi cướp trái tim phụ nữ、 nhưng có vẻ em lại không quen bị cướp mất nhỉ。Thật tình…… không được rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,nanaba,0.7_0.7,0.5,0
+endwait
+
+
+playvoice,1,download/character/103803/adv/sound/fav103803_02_21.mp3
+msg,1,<outline width=2 color=black>Cứ trưng ra vẻ đáng yêu như thế、 thì dù bị hiểu lầm là đang quyến rũ cũng đừng có mà than vãn đấy nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,nanaba1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:shy,nanaba2,0,0,0,0,,,,
+imgconf,nanaba2,nanaba1,0,-270,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103803/adv/sound/fav103803_02_22.mp3
+msg,1,<outline width=2 color=black>Ưm…… chụt、 ách…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:smile,nanaba,0,-100,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_23.mp3
+name,<outline width=2 color=black>Gudoo Nanaba</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Phì phì…… Môi em khô rồi kìa。Nói gì thì nói、 rốt cuộc vẫn là sợ đúng không？ Thật tình、 thật tình、 à、 đúng là một tên đáng yêu mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103802/adv/atlas/stand_a,body:smile,nanaba,0,-100,0.7,0,,,,
+playvoice,1,download/character/103803/adv/sound/fav103803_02_24.mp3
+msg,1,<outline width=2 color=black>Ngoan nào、 ngoan nào、 tôi sẽ bảo vệ em cho đến khi chúng ta hội quân với những người khác。Cứ thoải mái dựa dẫm và làm nũng tôi đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

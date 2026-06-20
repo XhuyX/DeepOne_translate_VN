@@ -1,0 +1,122 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,qquinecy1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:anger,qquinecy2,0,0,0,0,,,,
+imgconf,qquinecy2,qquinecy1,0,-370,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_01.mp3
+msg,1,<outline width=2 color=black>——……Bắn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.2
+wait,0.3
+endwait
+playse,/download/sound/se/se_053.mp3
+wait,0.5,
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait
+bg,download/bg/bg_10020300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0.2,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_b,body:anger,qquinecy,0,-120,0.5,0.5,,,,
+endwait
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_02.mp3
+msg,1,<outline width=2 color=black>Mục tiêu hạ gục…… Đã loại bỏ hết kẻ địch trong phạm vi 1500 mét。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:anger,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_03.mp3
+msg,1,<outline width=2 color=black>Vẫn có thể có kẻ địch ẩn nấp hoặc xuất hiện thêm、 nên không thể lơ là。Nhưng tạm thời、 chúng ta sẽ giải trừ trạng thái sẵn sàng chiến đấu và chuyển sang cảnh giác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,Lựa chọn 1: …………,Lựa chọn 2: Tuyệt vời。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:surprise,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_04.mp3
+msg,1,<outline width=2 color=black>……？ Có chuyện gì vậy、 sao anh cứng đờ ra thế？ Trông anh cứ thẳng đơ cả lưng lên ấy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_05.mp3
+msg,1,<outline width=2 color=black>Cảm giác căng thẳng ấy à…… Có lẽ nào、 vì em mà anh căng thẳng sao？ Em xin lỗi。Khi chiến đấu、 em cứ như bị chuyển sang một chế độ khác vậy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_06.mp3
+msg,1,<outline width=2 color=black>Sư phụ đã dạy em rằng、 phải coi bản thân lúc bình thường và bản thân lúc chiến đấu là hai người khác nhau。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_07.mp3
+msg,1,<outline width=2 color=black>Nếu không、 sẽ bị cuốn vào cuộc chiến và mất đi những thứ quý giá……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:surprise,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_08.mp3
+msg,1,<outline width=2 color=black>Ơ…… à、 em cảm ơn……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:shy,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_09.mp3
+msg,1,<outline width=2 color=black>À thì…… khi được khen như vậy lần nữa、 em thấy hơi ngượng một chút。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_10.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 em chưa đến mức đáng khen đâu。Em thì làm sao bằng sư phụ được、 còn kém xa lắm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_11.mp3
+msg,1,<outline width=2 color=black>Nếu sư phụ ở đây、 chắc chắn người sẽ bắn hạ kẻ địch chính xác hơn、 nhanh hơn em nhiều。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_12.mp3
+msg,1,<outline width=2 color=black>Tất nhiên、 em cũng nhất định sẽ có ngày đuổi kịp sư phụ。Nếu không、 em sẽ không thể bảo vệ được những thứ quý giá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_13.mp3
+msg,1,<outline width=2 color=black>……Mất đi những thứ quý giá、 đó là điều vô cùng đáng sợ。Bởi vì nó giống như bị khoét sâu vào lồng ngực、 khiến trái tim mình khuyết đi một phần。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_14.mp3
+msg,1,<outline width=2 color=black>Em cũng vậy…… hồi nhỏ、 em bị cuốn vào cuộc xung đột của tổ chức ma thuật và mất đi gia đình…… Lúc đó、 em cứ như bị khoét một lỗ hổng lớn trong lòng vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:anger,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_15.mp3
+msg,1,<outline width=2 color=black>Vì thế、 em đã trở thành Quincy。Em không muốn có thêm bất kỳ ai phải trải qua cảm giác giống như em nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_16.mp3
+msg,1,<outline width=2 color=black>Em đã từng mất đi những thứ quý giá…… nhưng bù lại、 em muốn trân trọng những cảm xúc mới mà em đang có。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_17.mp3
+msg,1,<outline width=2 color=black>Em muốn có sức mạnh để kiên định với cảm xúc này…… không bao giờ quay lưng lại với nó。Để làm được điều đó、 em phải rèn luyện bản thân trong chiến đấu、 không để mình bị cuốn vào nó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_18.mp3
+msg,1,<outline width=2 color=black>……Nhưng mà、 đôi khi em cũng tự hỏi một chút。Việc làm tổn thương ai đó để bảo vệ người khác、 liệu có thật sự……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_19.mp3
+msg,1,<outline width=2 color=black>——……Không、 em xin lỗi。Đây không phải là chuyện để nói ở một nơi mà kẻ địch có thể xuất hiện bất cứ lúc nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101702/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101702/adv/sound/fav101702_05_20.mp3
+msg,1,<outline width=2 color=black>Nào、 chúng ta di chuyển thôi。Đi theo em nhé…… Chừng nào anh còn ở bên em、 em nhất định sẽ bảo vệ anh、 nên hãy yên tâm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,1,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

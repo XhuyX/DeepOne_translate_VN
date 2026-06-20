@@ -1,0 +1,197 @@
+﻿// machine translate -- gemini-2.5-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11430302.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm141.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_01.mp3
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Này này、 cậu thấy bộ đồ này thế nào？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_02.mp3
+msg,1,<outline width=2 color=black>Tớ、 chưa bao giờ mặc váy vóc gì cả、 nên không biết có hợp không、 hơi lo lắng…… Nhưng nếu cậu khen thì tớ sẽ yên tâm thôi、 kiểu vậy đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:smile,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_03.mp3
+msg,1,<outline width=2 color=black>Nói vậy thôi、 nè、 cho cậu đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Đẹp lắm。,Lời nói không đủ để diễn tả。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:smile,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_04.mp3
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hì hì。Chết thật、 mặt tớ cứ toe toét ra thế này。Chỉ một lời khen tầm thường vậy thôi mà tớ đã dễ xiêu lòng thế này rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_05.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 lời nói của cậu、 tớ cảm nhận được đó là thật lòng mà không cần tô vẽ…… nên tớ mới vui đến vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:surprise,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_06.mp3
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:shy,mari,0,-170,0.7,0.5,,,,
+endwait
+playvoice,1,download/character/105105/adv/sound/fav105105_01_07.mp3
+msg,1,<outline width=2 color=black>Ơ、 ơ…… ơ ơ、 sao đột nhiên lại ôm tớ thế này？ Mà này、 mặt cậu sao gần thế…… Ơ、 cái đó、 tớ không ghét đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:shy,mari,0,-170,0.7,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_08.mp3
+msg,1,<outline width=2 color=black>Tớ、 tớ không ghét đâu…… Nhưng đột nhiên thế này thì hơi ngại、 hay nói đúng hơn là tớ chưa chuẩn bị tâm lý nên…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_020.mp3
+anm,scale,mari,0.5_0.5,0.5,0
+anm,move,mari,0_-110,0.5,0
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:shy,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_09.mp3
+msg,1,<outline width=2 color=black>Mấy chuyện đó thì nên có thêm chút nữa、 sau khi có sự chuẩn bị… đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:smile,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_10.mp3
+msg,1,<outline width=2 color=black>Nhưng mà…… Nếu cậu cảm thấy tớ hấp dẫn đến vậy thì tớ cũng vui lắm…… Hì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_11.mp3
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ở bên cậu、 tớ cảm thấy、 trái tim mình ấm áp hẳn lên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:sad,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_12.mp3
+msg,1,<outline width=2 color=black>Chắc là、 tớ đang bị phụ thuộc vào cậu rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:sad,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_13.mp3
+msg,1,<outline width=2 color=black>Vì cậu nuông chiều tớ、 vì cậu chấp nhận tớ…… Vì tớ biết cậu không phải là người sẽ từ chối ai đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:sad,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_14.mp3
+msg,1,<outline width=2 color=black>Thế nên、 tớ mới cố gắng phụ thuộc vào cậu。Cái này chắc chắn là một cảm xúc không tốt đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_15.mp3
+msg,1,<outline width=2 color=black>Tớ không thể thế này được、 phải cố gắng lên、 tự răn mình rồi bước lùi lại、 một mình đứng vững và bước tiếp về phía trước。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_16.mp3
+msg,1,<outline width=2 color=black>Phải làm thế nhỉ。Đó mới là điều đúng đắn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_17.mp3
+msg,1,<outline width=2 color=black>……Tớ nghĩ vậy、 nhưng tớ vẫn là tớ thôi。Vẫn là kẻ thất bại。Là sản phẩm lỗi、 sai lầm chồng chất。Dù có cố tỏ ra cho giống、 thì sai sót vẫn lộ ra ngay。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_18.mp3
+msg,1,<outline width=2 color=black>Một con người không hoàn hảo như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:smile,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_19.mp3
+msg,1,<outline width=2 color=black>Cậu thấy tớ thật thảm hại đúng không。Tớ cũng thấy vậy。Cố gắng thêm chút nữa đi nào… kiểu vậy đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:shy,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_20.mp3
+msg,1,<outline width=2 color=black>Nhưng…… đôi khi tớ cũng thấy mệt mỏi khi cố gắng。Cậu thì、 ngay cả khi tớ không thể cố gắng như vậy――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:surprise,mari,0,-170,0.7,0.5,,,,
+endwait
+playvoice,1,download/character/105105/adv/sound/fav105105_01_21.mp3
+msg,1,<outline width=2 color=black>Hya！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:shy,mari,0,-170,0.7,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_22.mp3
+msg,1,<outline width=2 color=black>Khoan、 khoan、 khoan、 cậu ôm mạnh quá…… Ơ、 ơ ơ……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:sad,mari,0,-170,0.7,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_23.mp3
+msg,1,<outline width=2 color=black>——Này、 cậu biết không？ Khi cậu ôm tớ chặt như thế này、 tớ、 một cô gái dễ xiêu lòng、 sẽ dựa dẫm vào cậu mất thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:sad,mari,0,-170,0.7,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_24.mp3
+msg,1,<outline width=2 color=black>Chắc là、 tớ thuộc kiểu phiền phức lắm nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105105/adv/atlas/stand_a,body:sad,mari,0,-170,0.7,0,,,,
+playvoice,1,download/character/105105/adv/sound/fav105105_01_25.mp3
+msg,1,<outline width=2 color=black>Dù vậy…… cũng không sao chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

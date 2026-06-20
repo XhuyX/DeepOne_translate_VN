@@ -1,0 +1,184 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11560300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm129.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_01.mp3
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nói mới nhớ、 cậu chọn quà Giáng Sinh xong chưa vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_02.mp3
+msg,1,<outline width=2 color=black>Nghe nói ở R'lyeh cũng tổ chức tiệc Giáng Sinh mà。Chắc chắn là có trao quà、 nên tớ hơi lo</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_03.mp3
+msg,1,<outline width=2 color=black>Cậu thì chắc chắn phải tặng quà cho nhiều người、 mà tớ biết cậu không phải kiểu làm cho xong chuyện</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_04.mp3
+msg,1,<outline width=2 color=black>Phải nghĩ xem tặng ai、 tặng gì。Rồi người ta sẽ phản ứng ra sao nữa。Nghĩ mấy chuyện đó vui thật đấy、 nhưng mà cũng mệt nhỉ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:smile,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_05.mp3
+msg,1,<outline width=2 color=black>Tớ cũng định chuẩn bị nhiều quà lắm。Tớ hiểu cảm giác đó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Chọn 1 「Mari muốn gì？,Chọn 2 「Nhiều……？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_06.mp3
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hửm？ Mấy chuyện này tớ nghĩ bất ngờ mới là quan trọng、 nên chỉ riêng chuyện này thì tớ muốn cậu tự nghĩ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:smile,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_07.mp3
+msg,1,<outline width=2 color=black>Cậu sẽ tặng gì cho tớ đây。Vừa mong chờ、 vừa hồi hộp… Tớ muốn trân trọng cảm giác đó</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_08.mp3
+msg,1,<outline width=2 color=black>Đương nhiên、 tớ cũng sẽ chọn món quà tuyệt vời nhất để tặng cậu。Cứ chờ đến hôm đó nhé？ Hih hi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_09.mp3
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ừm。Vì đây là cơ hội tuyệt vời để thân thiết với mọi người mà？ Không tận dụng thì phí quá</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:smile,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_10.mp3
+msg,1,<outline width=2 color=black>Ông già Noel còn chuẩn bị quà cho trẻ em trên toàn thế giới nữa、 mà。So với chuyện đó thì quà cho mọi người ở R'lyeh dễ ợt</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:sad,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_11.mp3
+msg,1,<outline width=2 color=black>――Đã có một thời tớ nghĩ vậy đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:unique,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_12.mp3
+msg,1,<outline width=2 color=black>Vẫn chưa chuẩn bị gì cả。Ư… đến hôm đó phải xoay xở thôi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:anger,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_13.mp3
+msg,1,<outline width=2 color=black>Nhưng mà、 tớ đã quyết tâm rồi… Vừa tìm hiểu sở thích của mọi người、 vừa cố gắng hoàn thành…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_14.mp3
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Mà nghĩ đến đây thì càng mong đến Giáng Sinh hơn</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_15.mp3
+msg,1,<outline width=2 color=black>Tớ từng tham gia mấy sự kiện Giáng Sinh với tư cách tình nguyện viên、 chứ chưa bao giờ đón Giáng Sinh với bạn bè hay đồng bọn cả</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_16.mp3
+msg,1,<outline width=2 color=black>Với lại、 quan trọng nhất là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:smile,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_17.mp3
+msg,1,<outline width=2 color=black>Vì Giáng Sinh này có cậu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:normal,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_18.mp3
+msg,1,<outline width=2 color=black>…Này。Đến hôm đó、 liệu mình có thể có thời gian riêng không nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:surprise,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_19.mp3
+msg,1,<outline width=2 color=black>À、 tất nhiên là không bắt buộc đâu。Chỉ là nếu cậu muốn thôi、 kiểu…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:sad,mari,0,-110,0.5,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_20.mp3
+msg,1,<outline width=2 color=black>…Nhưng mà、 chắc khó nhỉ。Cậu được nhiều người thích mà。Chắc không có thời gian để quan tâm đến tớ đâu――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:surprise,mari,0,-140,0.6,0.5,,,,
+endwait
+playvoice,1,download/character/105108/adv/sound/fav105108_02_21.mp3
+msg,1,<outline width=2 color=black>――Hả？ Được sao？ Thật á？ Giáng Sinh、 mình có thể ở riêng với nhau sao…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:surprise,mari,0,-140,0.6,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_22.mp3
+msg,1,<outline width=2 color=black>……V、 vậy à</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:smile,mari,0,-140,0.6,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_23.mp3
+msg,1,<outline width=2 color=black>Vậy à… Vậy à、 ra là vậy。Hih。Hih hi。Thế thì càng mong chờ hơn nữa rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:normal,mari,0,-140,0.6,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_24.mp3
+msg,1,<outline width=2 color=black>A、 chán thật。Ước gì Giáng Sinh đến thật nhanh</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105108/adv/atlas/stand_a,body:smile,mari,0,-140,0.6,0,,,,
+playvoice,1,download/character/105108/adv/sound/fav105108_02_25.mp3
+msg,1,<outline width=2 color=black>Thời gian bên cậu… Tớ rất mong chờ đấy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,275 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11420300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm034.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ưm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đáng lẽ Norn nên độc chiếm anh nhiều hơn mới phải……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103510/adv/atlas/stand_a,body:normal,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Norn</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu chỉ có Rosette và em ở bên anh thôi thì Frau sẽ đáng thương lắm。Vậy nên、 này anh… Anh phải hộ tùng Frau cẩn thận đấy nhé？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+bg,download/bg/bg_11420300.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lại một lần nữa、 Norn đang nhịn nhường vì mình sao……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Anh nghĩ vậy sao？,Không phải đâu。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Không。Em nghĩ Norn hiểu rõ lời của em và mọi người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em sẽ không xem như chưa từng có chuyện đó…… Nhưng nếu vậy、 đáng lẽ Norn nên nghĩ rằng mình muốn ở bên anh nhiều hơn chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu em là Norn…… em chắc chắn sẽ độc chiếm anh nhiều hơn nữa đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>…………Ưm、 có lẽ lời vừa rồi là giả dối。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:normal,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em rất yêu anh、 nhưng em cũng yêu Norn và mọi người nữa…… Em cũng thích nhìn anh và mọi người cùng cười。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:normal,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Norn cũng vậy sao……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Thật sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Anh có nghĩ rằng Norn có thể nghĩ cho bản thân mình nhiều hơn không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>——……Ra vậy。Nếu anh đã nói thế、 thì có lẽ là vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:normal,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Với lại này…… em luôn cảm thấy Norn có chút vướng bận trong lòng、 nhưng vừa nãy…… Norn đã cười rất vui vẻ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:normal,frau,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu Norn biết trân trọng bản thân mình…… và cũng yêu thương em nhiều như vậy…… thì em cũng rất vui。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:normal,frau,0,-120,0.5,0,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu vậy…… có ổn không nhỉ？ Nếu em cũng tận hưởng thật nhiều thời gian bên anh……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,frau,0_-130,0.5,1
+anm,scale,frau,0.6_0.6,0.5,0
+endwait
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm051.mp3,0,
+endwait,,,,,,,,,,,
+
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:normal,frau,0,-130,0.6,0,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Anh ơi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:normal,frau,0,-130,0.6,0,,,,
+msg,0,<outline width=2 color=black>Em cứ nghĩ mình lúc nào cũng chỉ nhận được gì đó từ mọi người。Chỉ biết nhận mà chẳng thể đáp lại được gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:normal,frau,0,-130,0.6,0,,,,
+msg,0,<outline width=2 color=black>Vì vậy…… em muốn có thể trao tặng gì đó cho mọi người từ chính mình。Muốn có thể làm gì đó cho mọi người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:normal,frau,0,-130,0.6,0,,,,
+msg,0,<outline width=2 color=black>……Em đã nghĩ vậy、 nhưng chắc chắn、 chỉ suy nghĩ như vậy thôi thì không được đâu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:normal,frau,0,-130,0.6,0,,,,
+msg,0,<outline width=2 color=black>Không phải là nhận rồi mới trả lại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103707/adv/atlas/stand_a,body:normal,frau,0,-130,0.6,0,,,,
+msg,0,<outline width=2 color=black>Bởi vì em tin rằng điều đó sẽ dẫn đến hạnh phúc、 nên em muốn làm như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+sprite,download/character/103707/image/main.png,card1,0,0,2,0,,,,
+anm,fade,card1,0,0,0
+anm,scale,card1,1_1,1,0
+anm,fade,card1,255,1,0
+endwait,,,,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Anh ơi。Từ giờ trở đi、 anh sẽ ở bên em chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Em nghĩ chắc chắn sẽ có rất nhiều chuyện xảy ra。Không chỉ những điều vui vẻ、 mà còn cả những điều khó khăn、 buồn bã、 đau khổ nữa……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù vậy…… em muốn anh ở bên chúng em và luôn mỉm cười。Bởi vì nếu anh mỉm cười、 em cũng chắc chắn sẽ mỉm cười được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>……Em nghĩ mình cảm thấy muốn có thể làm được điều gì đó、 bởi vì em muốn mọi người cùng mỉm cười。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Bởi vì đó là hạnh phúc lớn nhất của em mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Em vui quá。Trong lòng em、 cảm xúc đang dần biến thành lời nói một cách rõ ràng。Nhờ có những lời nói đó、 em sẽ không lạc lối trên con đường mình muốn đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,fade,card1,0,1,0
+sprite,download/character/103707/image/main.png,card2,250,-300,2,1,,,,
+endwait,,,,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật tốt vì em đã có thể đến được đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Phía trước、 em chắc chắn sẽ tìm thấy thật nhiều hạnh phúc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nếu cứ tiếp tục vun đắp những cảm xúc như vậy、 thật tuyệt vời phải không anh？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,fade,card2,0,1,0
+sprite,download/character/103707/image/main.png,card1,0,0,1,1,,,,
+endwait,,,,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này anh。Vì đây là một chiếc váy đẹp hiếm có、 em muốn thử nhảy một điệu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Ưm、 em không biết cách nhảy đâu、 nhưng…… chắc chắn sẽ ổn thôi。Dù có kỳ cục hay vụng về、 chắc chắn vẫn sẽ vui mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Bởi vì là với anh mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Vậy nên、 này…… đi thôi、 anh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,2,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

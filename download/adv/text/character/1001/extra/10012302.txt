@@ -1,0 +1,276 @@
+﻿// machine translate -- gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11640301.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_01.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À… thưa chủ nhân… có… có chuyện gì anh muốn em làm không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:smile,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_02.mp3
+msg,1,<outline width=2 color=black>Vì em đã trở thành người hầu gái rồi、 em muốn làm những điều khiến chủ nhân vui vẻ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1 「Khác gì so với mọi khi？,Lựa chọn 2 「Tự em nghĩ xem
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:surprise,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_03.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hả？ Khác… khác với mọi khi á、 thì là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_04.mp3
+msg,1,<outline width=2 color=black>…Nói mới nhớ、 có lẽ cũng không khác mấy nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_05.mp3
+msg,1,<outline width=2 color=black>Nhưng… mọi khi là em tự muốn làm、 nên mới làm thôi。Em nghĩ chủ nhân cũng có những điều phải e dè</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_06.mp3
+msg,1,<outline width=2 color=black>Vậy nên hôm nay、 nếu chủ nhân muốn em làm gì、 xin đừng ngại ngần</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_07.mp3
+msg,1,<outline width=2 color=black>Cứ… cứ ra lệnh、 được không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_08.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tự… tự mình… ừm、 ừm thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,asaka,0.6_0.6,0.5,0
+anm,move,asaka,0_-130,0.5,0
+endwait
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:shy,asaka,0,-130,0.6,0,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_09.mp3
+msg,1,<outline width=2 color=black>Thì… thì là… trước đây、 em có mượn quyển sách Souka đọc、 trong đó có chuyện về người hầu gái và chủ nhân…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,asaka,0.7_0.7,0.5,0
+anm,move,asaka,0_-170,0.5,0
+endwait
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:shy,asaka,0,-170,0.7,0,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_10.mp3
+msg,1,<outline width=2 color=black>――Phục vụ của người hầu gái… như vậy thì、 thế nào ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:shy,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100123/adv/sound/fav100123_02_11.mp3
+msg,1,<outline width=2 color=black>――Chụt… chụt</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:shy,asaka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_12.mp3
+msg,1,<outline width=2 color=black>Ự、 ơ、 ơ… ơ、 em、 em xin lỗi、 em đang làm gì vậy nè…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:shy,asaka,0,-130,0.6,0.5,,,,
+endwait
+playvoice,1,download/character/100123/adv/sound/fav100123_02_13.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ơ… à、 chủ nhân？ Sao anh lại đến gần…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:shy,asaka,0,-170,0.7,0.5,,,,
+endwait
+playvoice,1,download/character/100123/adv/sound/fav100123_02_14.mp3
+msg,1,<outline width=2 color=black>À、 ừm… chủ、 nhân…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:shy,asaka,0,-200,0.75,0.5,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_15.mp3
+msg,1,<outline width=2 color=black>Em… em hiểu rồi… em nghĩ là em hiểu rõ những gì chủ nhân muốn… Vậy nên、 cứ giao cho em</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm034.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:sad,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100123/adv/sound/fav100123_02_16.mp3
+msg,1,<outline width=2 color=black>Chụt… ưm、 ừ… chụt、 chụt… ha、 à… chủ nhân、 chủ nhân à… chụt… ưm、 phù、 chụt、 chụt… ưm、 chụt</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:shy,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100123/adv/sound/fav100123_02_17.mp3
+msg,1,<outline width=2 color=black>Chụt、 ư、 chụt、 chụt… ha、 ưm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:normal,asaka,0,-200,0.75,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_18.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ừm… thế nào ạ、 chủ nhân。Những gì chủ nhân muốn、 em đã làm đúng chưa ạ…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:normal,asaka,0,-200,0.75,0,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_19.mp3
+msg,1,<outline width=2 color=black>Hay là… vẫn chưa đủ ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:normal,asaka,0,-200,0.75,0,,,,
+playvoice,1,download/character/100123/adv/sound/fav100123_02_20.mp3
+msg,1,<outline width=2 color=black>Em là người hầu gái… nên em sẽ phục vụ cho đến khi chủ nhân hài lòng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:shy,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100123/adv/sound/fav100123_02_21.mp3
+name,<outline width=2 color=black>Akai Asaka</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chụt、 chụt… ưm、 phù、 chụt… chụt… ha、 à。Em yêu anh… chụt… chụt、 em yêu anh</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100123/adv/atlas/stand_a,body:shy,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100123/adv/sound/fav100123_02_22.mp3
+msg,1,<outline width=2 color=black>Em yêu anh、 chủ nhân</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

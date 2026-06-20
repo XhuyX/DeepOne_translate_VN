@@ -1,0 +1,653 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Chúng tôi cứ nghĩ mình sẽ không thể hạnh phúc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Những Thuật sư cường hóa được tạo ra để chiến đấu――để bị tiêu hao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Sinh ra không phải làm người、 mà là công cụ、 chúng tôi không được phép tìm kiếm hạnh phúc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>――Thế nhưng、 rất nhiều người đã dạy chúng tôi rằng、 lý do ra đời và ý nghĩa của sự ra đời là hai điều khác biệt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Thật sự có những người đã yêu thương chúng tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Khởi đầu thế nào cũng chẳng quan trọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Dù sinh ra với lý do gì đi nữa、 ý nghĩa mà chúng tôi tìm kiếm trong cuộc đời này không thể bị quyết định bởi những điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tôi muốn được hạnh phúc。Tôi muốn được hạnh phúc cùng những người tôi yêu thương。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Đó chính là ý nghĩa mà tôi tìm kiếm cho cuộc đời mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……Thế nhưng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tình yêu lại khiến trái tim tôi đau nhói。Cứ ngỡ mình sẽ không còn do dự nữa。Cứ ngỡ đó là điều không bao giờ lay chuyển được vậy mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Ôi、 tại sao chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tại sao tình yêu lại vừa dịu dàng、 ấm áp đến thế、 mà cũng vừa tàn nhẫn đến nhường này？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11430302.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+
+
+
+sprite,download/monster/20010206/adv/image/20010206.png,enemy1,0,-170,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+wait,1
+endwait,,,,,,,,,,,
+anm,move,enemy1,1200_-70,1,0
+endwait
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,soka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:normal,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――……Đi rồi、 nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Con xin lỗi、 ba。Nếu con có thể chiến đấu、 thì đã không phải trốn tránh thế này rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Con đã cố gắng rất nhiều、 nhưng ở Vùng Hư Vô này、 con vẫn không thể dùng sức mạnh của mình một cách hiệu quả……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không phải bị phong ấn hay bị kìm hãm、 mà là… làm sao để nói nhỉ… cứ như sức mạnh đang bị hút đi đâu đó vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hiện tại thì vẫn ổn、 nhưng nếu cứ thế này thì có lẽ――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Ưm、 không có gì đâu、 con ổn。Ba đừng có vẻ mặt lo lắng thế chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:smile,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu gặp được Aika và các mẹ、 chắc chắn mọi chuyện sẽ ổn thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>À mà、 tiện thể hỏi luôn……Tertia thì sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,terutia1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104702/adv/atlas/stand_a,body:normal,terutia2,0,0,0,0,,,,
+imgconf,terutia2,terutia1,0,-500,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Tertia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――Đây là số mệnh mà các ngươi phải vượt qua。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104702/adv/atlas/stand_a,body:normal,terutia2,0,0,0,0,,,,
+imgconf,terutia2,terutia1,0,-500,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Vậy thì、 ta không cần phải ra mặt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104702/adv/atlas/stand_a,body:normal,terutia2,0,0,0,0,,,,
+imgconf,terutia2,terutia1,0,-500,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Hãy cho ta thấy。Tình yêu của con người sẽ đưa ra lựa chọn như thế nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Đồ vô dụng……！,Làm ơn。
+if,select_===_1,,,,,,,,,
+
+
+spriteatlas,download/character/104702/adv/atlas/stand_a,body:surprise,terutia2,0,0,0,0,,,,
+imgconf,terutia2,terutia1,0,-500,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Tertia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vô dụ……――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104702/adv/atlas/stand_a,body:anger,terutia2,0,0,0,0,,,,
+imgconf,terutia2,terutia1,0,-500,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>……Phải。Phải rồi。Chắc là vậy rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104702/adv/atlas/stand_a,body:anger,terutia2,0,0,0,0,,,,
+imgconf,terutia2,terutia1,0,-500,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Được thôi、 ta thừa nhận。Lần này、 ta không có ý định giúp ích gì cho ngươi cả。Thế nên đừng có mà trông cậy vào ta。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104702/adv/atlas/stand_a,body:anger,terutia2,0,0,0,0,,,,
+imgconf,terutia2,terutia1,0,-500,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Dù Dreamlands có bị hủy diệt、 ta cũng sẽ không giúp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+
+
+spriteatlas,download/character/104702/adv/atlas/stand_a,body:normal,terutia2,0,0,0,0,,,,
+imgconf,terutia2,terutia1,0,-500,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Tertia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+select,Xin người。
+endif,,,,,,,,,,
+spriteatlas,download/character/104702/adv/atlas/stand_a,body:normal,terutia2,0,0,0,0,,,,
+imgconf,terutia2,terutia1,0,-500,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Tertia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Cầu xin người。
+endif,,,,,,,,,,
+spriteatlas,download/character/104702/adv/atlas/stand_a,body:normal,terutia2,0,0,0,0,,,,
+imgconf,terutia2,terutia1,0,-500,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Tertia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,……Không được sao？
+endif,,,,,,,,,,
+spriteatlas,download/character/104702/adv/atlas/stand_a,body:normal,terutia2,0,0,0,0,,,,
+imgconf,terutia2,terutia1,0,-500,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Tertia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù có nói bao nhiêu lần cũng không được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11430302.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Vậy à、 không thể mượn sức mạnh của Tertia được rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cũng đành thôi。Vả lại、 việc Tertia ra mặt dùng sức mạnh cũng sẽ là gánh nặng cho ba、 có khi không có cô ấy lại tốt hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hơn nữa…… con cảm thấy đây không phải là chuyện có thể nhờ người khác giúp đỡ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Bởi vì、 việc đến được Vùng Hư Vô này、 có lẽ là do lỗi của con。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Con mơ hồ hiểu ra…… việc Cổng Giới bị mất kiểm soát、 và Vùng Hư Vô này kéo chúng ta vào、 là bởi vì Vùng Hư Vô và trái tim con đã cộng hưởng mạnh mẽ đến thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hay là、 có lẽ nào…… Vùng Hư Vô này đã sinh ra từ chính trái tim con。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Ba này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Con tin rằng mình đang được yêu thương。Ba、 các mẹ、 và Zakuro、 tất cả đều trân trọng chúng con。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:normal,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì vậy、 con cũng muốn yêu thương họ nhiều như thế。Cứ như vậy、 con muốn xác nhận hình thái của hạnh phúc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thế nhưng……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104215/adv/atlas/stand_a,body:sad,soka,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tình yêu không có nơi để trao đi、 không thể đáp lại cho bất kỳ ai、 thì…… con phải làm sao đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11430302.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm156.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vùng này được định hình bởi thứ các người gọi là tình yêu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+msg,0,<outline width=2 color=black>Từng có lúc、 các người、 những kẻ nở rộ trong tình yêu、 đã nói với ta。Rằng các người tìm kiếm hạnh phúc vượt lên trên hạnh phúc、 và sẽ tiếp tục điều đó không ngừng nghỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thế nhưng… dường như thứ nảy mầm từ tình yêu không chỉ có hạnh phúc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đây là nỗi bi ai đã mục ruỗng bởi tình yêu đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,perufe,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Perfe、 chị hiểu về vùng này sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đây là vùng mà tàn dư của những đóa hoa từng tàn lụi、 đang hút lấy sinh mệnh của những đóa hoa đang nở rộ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy giờ、 các cô sẽ làm gì đây？ Aika Venatio。Và… Sujou Mari。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,perufe,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105103/adv/atlas/stand_a,body:sad,mari,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À… ơ…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105103/adv/atlas/stand_a,body:sad,mari,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Khoan、 đợi đã、 em không theo kịp đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105103/adv/atlas/stand_a,body:sad,mari,0,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hoa tàn lụi là sao chứ…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/105103/adv/atlas/stand_a,body:sad,mari,300,-110,0.5,0.5,,,,
+anm,tint,mari,150_150_150,0.0001,0
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,-300,-170,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vật chứa Uterus。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105103/adv/atlas/stand_a,body:sad,mari,300,-110,0.5,0,,,,
+anm,tint,perufe,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,-300,-170,0.5,0,,,,
+anm,tint,mari,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Perfe</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu hút và thu thập các yếu tố Uterus mà Type Venatio đã kế thừa、 có lẽ sẽ có thể đưa vật chứa đã mất về lại hình dạng ban đầu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104600/adv/atlas/stand_a,body:normal,perufe,-300,-170,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đây là một vùng như thế đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mari,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:normal,aika,300,-120,0.5,0.5,,,,
+anm,tint,perufe,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị nói rõ ràng hơn đi。Đâu cần phải vòng vo tam quốc mãi thế chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:normal,aika,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tức là、 thứ chúng em đã hy sinh khi chào đời、 có thể lấy lại nếu hy sinh chính chúng em、 đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:normal,aika,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đây là vùng có thể đảo ngược một sự thật vốn dĩ không thể quay ngược lại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/105103/adv/atlas/stand_a,body:surprise,mari,0,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,mari,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 có lẽ đây là cái gọi là trao đổi ngang giá chăng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cũng đành chịu thôi nhỉ。Nếu là để giành lại người quan trọng、 em nghĩ Mari hy sinh chúng em cũng là điều hiển nhiên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ngay cả em、 và cả chị ấy nữa… dù có chấp nhận được hay không、 thì có lẽ cũng sẽ hiểu thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì chúng em đã biết giá trị của hạnh phúc rồi… nên trách nhiệm đã cướp đi nó、 có lẽ phải gánh chịu thôi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Có lẽ、 chính những cảm xúc như thế của em đã tạo ra vùng này、 và kéo tất cả mọi người vào đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:normal,aika,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu chiến đấu được、 có lẽ em đã làm được gì đó rồi、 nhưng trong tình cảnh này、 có lẽ em không thắng nổi Mari đâu… mà trốn thoát cũng khó nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:surprise,aika,-300,-120,0.5,0.5,,,,
+anm,tint,aika,150_150_150,0.0001,0
+spriteatlas,download/character/105103/adv/atlas/stand_a,body:sad,mari,300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khoan、 đợi đã！ Đợi đã chứ！ Đừng có tự ý quyết định mọi chuyện như thế！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105103/adv/atlas/stand_a,body:sad,mari,300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại sao câu chuyện lại đi theo hướng cứ như thể em sẽ hy sinh Aika vậy chứ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:surprise,aika,-300,-120,0.5,0,,,,
+anm,tint,mari,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:surprise,aika,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Ơ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm147.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105103/adv/atlas/stand_a,body:sad,mari,300,-110,0.5,0,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ gì mà ơ… Em sẽ không làm tổn thương Aika đâu。Đương nhiên、 cả Souka nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105103/adv/atlas/stand_a,body:normal,mari,300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Dù có bất cứ lý do gì、 em cũng sẽ không hy sinh các em đâu。Đừng nghi ngờ một điều hiển nhiên như thế chứ。Em buồn đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104112/adv/atlas/stand_a,body:surprise,aika,-300,-120,0.5,0,,,,
+anm,tint,mari,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105103/adv/atlas/stand_a,body:normal,mari,300,-110,0.5,0,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Sujou Mari</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng lo lắng vớ vẩn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105103/adv/atlas/stand_a,body:smile,mari,300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Aika và các em、 cứ ngẩng cao đầu mà sống hạnh phúc đi nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

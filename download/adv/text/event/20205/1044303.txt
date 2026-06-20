@@ -1,0 +1,612 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11520300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm049.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,vi1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi2,0,0,0,0,,,,
+imgconf,vi2,vi1,0,-1250,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>ふむ……quả là nước ở đây rất tuyệt。Chỉ cần ngâm mình thế này thôi là bao nhiêu mệt mỏi tan biến hết。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:surprise,vi2,0,0,0,0,,,,
+imgconf,vi2,vi1,0,-1250,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>――Hửm？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_025.mp3
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:sad,vi2,0,0,0,0,,,,
+imgconf,vi2,vi1,0,-1250,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>……Haizz。Mấy người đó vừa đến đã lại gây rắc rối rồi。Giá mà họ đừng lôi cả ta vào thì đã chẳng đến nỗi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.5,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11110300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm101.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:sad,zizel,-300,-120,0.5,0.5,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:normal,soka,300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Việc lạc nhau khi DIVE cũng không phải là chuyện lạ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:sad,zizel,-300,-120,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20160201/adv/image/20160201.png,enemy1,0,-250,1.35,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+anm,move,enemy1,0_-350,0.4,0
+endwait
+wait,0.2
+endwait,,,,,,,,,,,
+anm,move,enemy1,0_-250,0.4,0
+endwait
+wait,0.2
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:normal,soka,300,-110,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:sad,zizel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Bị một hư ảnh cúi đầu chào、 rốt cuộc là tình huống gì đây chứ…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:normal,soka,300,-110,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có vẻ không tấn công mình、 hay là cứ mặc kệ nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:normal,soka,300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mình còn phải gặp lại Ba và mọi người nữa、 nếu không cần chiến đấu thì tốt hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:normal,zizel,-300,-120,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng vậy… Em vừa thử dùng thuật thức dò tìm、 nhưng có vẻ như khu vực này khá rộng、 nên mình cứ giữ sức thì hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:sad,zizel,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mặc dù vậy、 hiện tại chỉ là chúng không tấn công thôi、 chứ không có gì đảm bảo sau này hư ảnh này sẽ trở thành kẻ địch…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_025.mp3
+flash,0,0,0,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20160201/adv/image/20160201.png,enemy1,0,-250,1.35,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>………………！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,tint,enemy1,0_0_0,0.5,0
+endwait,,,,,,,,,,,
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:normal,soka,300,-110,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:surprise,zizel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ể、 biến mất rồi…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:anger,zizel,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Với lại、 cảm giác rung chuyển không khí vừa rồi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:normal,soka,300,-110,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có lẽ tình hình bắt đầu bất ổn rồi。Dù sao thì、 có vẻ như hiện tại mình không gặp nguy hiểm gì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:normal,zizel,-300,-120,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giờ mình cứ nhắm đến việc gặp mọi người trước đã。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:normal,soka,300,-110,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11110300.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:anger,zizel,-1200,-120,0.5,0,,,,
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:surprise,soka,-1200,-110,0.5,0,,,,
+endwait,,,,,,,,,,,
+
+
+anm,move,zizel,-300_-120,1.2,0
+anm,move,soka,300_-120,1.2,0
+endwait
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:anger,zizel,-300,-120,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……！ Dừng lại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:surprise,soka,300,-120,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ể…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:normal,soka,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Sao vậy、 Giselle…？ Có phải là địch không？ Mình không cảm thấy gì cả…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:anger,zizel,-300,-120,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không… Nhưng、 đó là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:anger,zizel,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>――Không sai、 chắc chắn là nó rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm124.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:smile,zizel,0,-150,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Line_center,em1,default,animation,1,0,0,1,1.0,0
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải là máy bán thẻ TV sao！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:unique,soka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thẻ TV…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:unique,soka,300,-120,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:smile,zizel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 đúng là nhắc đến nhà trọ Nhật Bản thì phải có nó chứ！ Ôi、 lại được trải nghiệm văn hóa này nữa rồi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:smile,zizel,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thật tuyệt vời、 dùng cái này là có thể xem bao nhiêu là hình ảnh đẹp trong suốt thời gian ở trọ đấy！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:smile,zizel,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Gần đây、 các kênh trả phí không còn dùng phương pháp analog này nữa、 mà thanh toán ở quầy lễ tân sau khi ở trọ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:smile,zizel,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng、 tôi vẫn nghĩ rằng、 những thứ cũ kỹ vẫn có cái hay riêng！ Và cả sự lãng mạn nữa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:smile,zizel,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Lãng mạn là thứ không thể thiếu trong cuộc sống… Thật sự là một mất mát lớn của văn hóa Nhật Bản khi văn hóa này dần biến mất！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:unique,soka,300,-120,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À、 ừm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm173.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,0,-240,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Haizz。Cứ tưởng mình bị cuốn vào chuyện kỳ lạ… hóa ra lại là một thứ kỳ quặc khác đang thể hiện sự quan tâm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:unique,soka,300,-120,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:surprise,zizel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ể… Ơ？ Vee-san？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:unique,soka,300,-120,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện kỳ lạ… Chẳng lẽ là cảm giác lúc nãy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không rõ nguyên nhân、 nhưng khu vực này đột nhiên bị đóng lại。Ta cũng không thể ra ngoài được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:unique,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ta đã đến đây nhiều lần、 nhưng bình thường không có chuyện này xảy ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:unique,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu vậy、 gần như chắc chắn là do hai ngươi rồi… Chỉ có hai người ở đây thôi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:sad,soka,-300,-120,0.5,0.5,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm… Con cũng đi cùng Ba và Frau、 nhưng bị lạc khi đến đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:normal,zizel,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sau đó、 khi chúng tôi đang định gặp lại mọi người thì lại xuất hiện một hư ảnh kỳ lạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Kỳ lạ…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:normal,zizel,-300,-120,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng… Chúng tôi không những không bị tấn công、 mà còn cúi đầu chào chúng tôi nữa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:normal,zizel,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cảm giác như đang chào đón chúng tôi vậy、 nhưng vì bị nhốt ở đây、 nên tôi nghĩ có lẽ là một cái bẫy…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 không phải là do hai ngươi hay sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:surprise,zizel,-300,-120,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ể？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tư tưởng của người tạo ra khu vực này、 à、 như các ngươi thấy đấy。Nhà trọ là nơi để thư giãn tinh thần và thể xác。Bản chất của khu vực cũng tự nhiên hướng theo hướng đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hư ảnh thuộc về khu vực này、 tuân theo bản chất đó、 chào đón mọi người。Không có gì lạ khi nó hành động như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:sad,soka,-300,-120,0.5,0.5,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy、 bị nhốt là sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có lẽ là phản ứng thái quá trước hành động của hai ngươi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Trong khu vực này、 thân và tâm phải được an lành。Nhưng nếu có những kẻ mang tâm trạng muốn từ chối điều đó…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:sad,zizel,-300,-120,0.5,0.5,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À… Vậy có lẽ là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,zizel,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:sad,soka,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chúng ta bị nhốt là vì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm。Chẳng phải là ta sẽ không thả các ngươi ra cho đến khi các ngươi tận hưởng trọn vẹn vùng đất này — cái lữ quán này sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:unique,soka,-300,-120,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Tận hưởng lữ quán。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:normal,soka,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em chưa từng đến nơi như thế này bao giờ、 nên không biết phải làm sao để tận hưởng nó nữa、 thật sự không hình dung ra được……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:unique,vi,300,-240,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thôi thì、 đành chịu vậy。Các ngươi đã bị cuốn vào rồi thì không thể đứng ngoài được、 mà ta cũng biết đôi chút về vùng đất này、 nên ta sẽ dẫn đường cho。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ta sẽ truyền thụ cho các ngươi cách tận hưởng lữ quán。Nào、 đi thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:surprise,zizel,-300,-120,0.5,0.5,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 khoan đã、 cái thẻ TV này thì――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102206/adv/atlas/stand_a,body:normal,vi,300,-240,0.5,0,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Vee</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có lề mề nữa、 theo ta！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:sad,zizel,-300,-120,0.5,0,,,,
+anm,tint,vi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng mà thẻ TV……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,vi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104253/adv/atlas/stand_a,body:unique,soka,300,-120,0.5,0.5,,,,
+anm,tint,zizel,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giselle…… nếu cứ làm mấy chuyện kỳ quặc như vậy、 lát nữa em sẽ mách Bridget đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100707/adv/atlas/stand_a,body:unique,zizel,-300,-120,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Giselle Bawdwin</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ư、 ư ư…… Lãng mạn Nhật Bản của tôi…… Cái này cũng phải là một trong những thú vui của lữ quán chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

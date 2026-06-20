@@ -1,0 +1,883 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tại sao mọi chuyện lại thành ra thế này chứ—— tôi、 lại bị bắt ăn mặc như một thứ vớ vẩn gọi là thần tượng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thần tượng là thứ chỉ biết phô bày sự hào nhoáng giả tạo、 là một thần tượng để lừa dối kẻ yếu bằng những giấc mộng và hy vọng hão huyền、 rồi bóc lột họ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi không thể hiểu nổi tâm tư của những kẻ tôn sùng thứ đó、 cũng không thể hiểu được cái cảm giác đắc ý khi đứng trên kẻ yếu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì vậy、 tôi cho rằng cả thần tượng lẫn những kẻ tôn sùng chúng đều ngu ngốc đến mức không thể cứu vãn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thế mà、 dù không mong muốn、 việc phải mặc bộ trang phục này chẳng khác gì sự sỉ nhục。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ulusura1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_a,body:anger,ulusura2,0,0,0,0,,,,
+imgconf,ulusura2,ulusura1,0,-850,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu mày không xuất hiện、 mọi chuyện đã chẳng thành ra thế này。Vậy nên、 tao sẽ hành hạ、 phá hủy、 xé nát mày。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+stopbgm,0.2,,,,,,,,,,
+endwait
+bg,download/bg/bg_10020400.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,0,-200,0.5,0.5,,,,
+endwait
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 mày thích thần tượng lắm đúng không？ Vậy thì mày cũng nhảy cho tao xem đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29060104/adv/image/29060104.png,enemy1,0,-350,1,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>邪雷咆執</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spine,download/adv/spine/Dark,em1,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_023.mp3
+endwait
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+flash,255,255,255,4,0.3,0
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,300,-100,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:smile,anna,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ồ！ Đòn tấn công bá đạo thật…… Với chiêu này、 chắc chắn thằng cứng đầu chết tiệt đó sẽ bị thương……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:surprise,catia,300,-100,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không…… nhìn kìa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29060104/adv/image/29060104.png,enemy1,0,-350,1,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>邪雷咆執</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:smile,anna,-300,-100,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:sad,catia,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ma thuật của Ursula-san có vẻ đã có tác dụng、 nhưng vết thương đang hồi phục rất nhanh……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tấm lòng của những người yêu mến thần tượng、 trái tim họ dành cho thần tượng rất mạnh mẽ。Không dễ gì bị tổn thương hay lay chuyển……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Sức mạnh của kẻ địch này、 có lẽ nằm ở điểm đó thì phải。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,anna,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,-300,-200,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cố chấp đến mức đó、 chẳng khác gì oán niệm rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:sad,ulusura,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù sao đi nữa、 việc ma thuật của tôi bị vô hiệu hóa bởi sự cố chấp với thứ gọi là thần tượng、 thật khó chịu vô cùng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ulusura,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:normal,anna,-300,-100,0.5,0.5,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đấm thì tê tay、 ma thuật thì không ăn thua…… Vậy thì chỉ còn cách đấm mạnh hơn nữa thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:sad,catia,300,-100,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Liệu đó có phải là một chiến thuật hiệu quả không ạ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:sad,catia,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em nghĩ、 chúng ta nên tìm cách giải quyết sự cố chấp mà kẻ địch này đang mang trong mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,anna,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,-300,-200,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nói là giải quyết、 nhưng mà…… cụ thể là định làm gì？ Đối với sự cố chấp với thần tượng、 chúng ta có thể làm gì、 chứ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:surprise,ulusura,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Khoan đã、 không lẽ nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng…… Như Frau-san vừa nói、 để giải quyết sự cố chấp với thần tượng、 e rằng chỉ có cách thỏa mãn những ham muốn và khao khát đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hiện tại、 nếu là chúng ta trong bộ trang phục này…… có lẽ、 chúng ta có thể đáp lại được trái tim đang khao khát thần tượng đó chăng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ulusura,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:sad,anna,-300,-100,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À ừm、 nói tóm lại là sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ba người、 thành thần tượng？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:surprise,anna,-300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,anna,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:anger,ulusura,-300,-200,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ulusura,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:anger,anna,-300,-100,0.5,0.5,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có đùa！ Bảo tao làm trò bắt chước thần tượng、 vui vẻ hát hò nhảy múa như lũ thần tượng à！ Tha cho tao đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:anger,anna,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tao tuyệt đối sẽ không hát mấy cái bài hát thần tượng nông cạn không có chút đấu tranh hay giận dữ nào đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29060104/adv/image/29060104.png,enemy1,0,-350,1,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>邪雷咆執</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Thunder1_yellow,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_024.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:anger,ulusura,-300,-200,0.5,0.5,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:surprise,anna,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？ Uồồồồồ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:unique,ulusura,-300,-200,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đòn tấn công vừa rồi…… là vì bị coi thường thần tượng nên tức giận à？ Đúng là si mê quá nhỉ…… trong khi thực tế là mấy bài hát thần tượng vớ vẩn mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29060104/adv/image/29060104.png,enemy1,0,-350,1,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>邪雷咆執</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Thunder1_yellow,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_024.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:surprise,anna,300,-100,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,-300,-200,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm…… nhưng mà、 nếu nó phản ứng rõ rệt đến vậy、 thì có lẽ cái đề xuất ngớ ngẩn vừa rồi cũng không phải là hoàn toàn sai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:surprise,anna,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này này、 không lẽ mày、 thật sự định làm thần tượng à？ Đừng có đùa nữa！ Cái vẻ ngoài của mày、 khá là không hợp đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:smile,ulusura,-300,-200,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ôi、 có vẻ có con côn trùng nào đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:surprise,anna,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Uồồồồồồồ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+anm,move,anna,450_-100,0.2,0
+endwait
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_037.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:surprise,anna,450,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mày、 mày…… sao lại tấn công tao！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:smile,ulusura,-300,-200,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi chỉ định tiêu diệt con côn trùng có tiếng kêu lạ ở đó thôi mà、 có lẽ tôi đã thất bại rồi chăng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:normal,anna,300,-100,0.5,0.5,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Côn trùng……？ Có con nào đâu？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:smile,ulusura,-300,-200,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải。Tiếng kêu ồn ào một cách kỳ lạ、 nhưng cô không nhận ra sao。Chắc chắn bị con côn trùng đó cắn sẽ lây bệnh ngu đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:sad,anna,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật á、 suýt nữa thì tao cũng thành ngu rồi à。Xin lỗi nhé、 đã đổ oan cho mày。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29060104/adv/image/29060104.png,enemy1,0,-350,1,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>邪雷咆執</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Thunder1_yellow,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_024.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:sad,anna,300,-100,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:sad,ulusura,-300,-200,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Côn trùng thì để sau xử lý、 trước mắt có vẻ phải tìm cách giải quyết cái hư ảnh kia đã。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:sad,anna,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tao sẽ không chơi trò thần tượng đâu！ Nhảy múa dễ thương gì đó、 chẳng rock chút nào！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:sad,anna,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà nói chung、 cái từ dễ thương đó đã không hợp với tao rồi……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ulusura,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:surprise,catia,-300,-100,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ể？ Em thấy Anna-san bây giờ rất dễ thương mà…… Anh/chị cũng nghĩ vậy đúng không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,Giơ ngón cái lên,Lặng lẽ gật đầu
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:shy,anna,300,-100,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái tay đó là sao！ Không phải 'tốt' đâu！ Cái đồ、 bảo tao dễ thương、 đang trêu chọc tao đấy à…… ư、 ưm……！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:shy,anna,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>………………Này、 này？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:shy,anna,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em thật sự nghĩ vậy sao？ Thật sự thấy Anna trong bộ đồ này dễ thương sao…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:shy,anna,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đ-được rồi、 được rồi mà、 đừng có lặp đi lặp lại từ 'dễ thương' nhiều lần như thế chứ、 xấu hổ chết đi được…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:surprise,anna,300,-100,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gật đầu mạnh thế！ Cái vẻ mặt nghiêm trọng đó là sao chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:surprise,anna,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không、 đã bảo đừng gật đầu nhiều lần như thế mà… ư、 ưm…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:shy,anna,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Bị khen trong bộ đồ không rock chút nào thế này、 Anna chẳng vui chút nào đâu！ Đồ… đồ ngốc！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:shy,anna,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hứ…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:shy,anna,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>…………Thôi thì、 dù sao thì？ Bị nói đến mức đó thì cũng đành chịu thôi… phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:shy,anna,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Một chút thôi thì Anna có thể giả làm idol một chút cũng được、 chắc vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:smile,catia,-300,-100,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cảm ơn Anna-san！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:sad,ulusura,-300,-200,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dễ dãi quá rồi còn gì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:normal,anna,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Được！ Đã quyết làm thì không được lơ là！ Đã đến nước này thì ba đứa mình cứ làm tới bến đi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,-300,-200,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi nói trước、 tôi sẽ không làm đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:anger,anna,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 tại sao chứ！ Vừa nãy còn nói không phải là lạc đề hay gì đó、 nghe có vẻ hào hứng lắm mà！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,-300,-200,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi không nhớ mình đã nói sẽ chịu cái nhục giả làm idol đâu。Chỉ cần hai người các cô làm hài lòng thứ đó là được rồi… phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:sad,anna,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ba người thì hơn hai người chứ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,anna,0
+endwait
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin Ursula-san giúp đỡ… Chúng em một mình thì lo lắng lắm、 nhưng nếu có chị ở đây、 em tin chắc mọi chuyện sẽ ổn thôi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,-300,-200,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô lấy căn cứ nào mà nói những lời đó vậy。Chắc chỉ là những lời nịnh nọt vô vị để lôi kéo tôi vào thôi chứ gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:smile,catia,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Có căn cứ chứ ạ！ Bởi vì Ursula-san rất đẹp mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,-300,-200,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi đẹp là chuyện đương nhiên rồi。Nhưng đâu thể vì thế mà tôi phải mặc bộ đồ này rồi bắt chước idol được――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:sad,catia,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin chị đó！ Chúng em cần vẻ đẹp đó của Ursula-san…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:unique,ulusura,-300,-200,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:unique,ulusura,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>…Hừm、 đến cả Thánh nữ của Thánh Lễ Giáo mà cũng phải cúi đầu trước tôi sao。Cô ta thèm khát vẻ đẹp của tôi đến thế cơ à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:sad,catia,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 Ursula-san không phải chỉ là bắt chước đâu、 chị thật sự là idol cũng không có gì lạ cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:unique,ulusura,-300,-200,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là lời khen thì còn kém lắm… Nhưng mà、 thôi được rồi… Thôi thì、 nể tình lời cầu xin đáng thương đó、 tôi có thể đặc biệt giúp đỡ cô một tay。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:unique,ulusura,-300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hãy nhớ kỹ ân huệ này của tôi… Và khắc ghi vẻ đẹp của tôi vào lòng để sau này không bao giờ quên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:smile,catia,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng ạ、 cảm ơn chị！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,catia,0
+endwait
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:sad,anna,300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dễ dãi thật…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:sad,anna,300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Này、 cô… có khi nào cô cố tình không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ulusura,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:surprise,catia,-300,-100,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ơ、 ý chị là sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:sad,anna,300,-100,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này này、 cả mấy lời vừa nãy cô cũng nói thật lòng sao… Thật là đáng nể、 đủ thứ chuyện。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,catia,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,-300,-200,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 nói là idol、 nhưng phải làm thế nào đây？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:sad,anna,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trước hết thì、 cứ thử nhảy nhót hay cử động giống idol xem sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ulusura,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,-300,-100,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng、 vậy thì、 chúng ta bắt đầu thôi…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+stopbgm,0.2,,,,,,,,,,
+endwait
+wait,0.2
+endwait
+playbgm,/download/sound/bgm/bgm047.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:sad,anna,-300,-100,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0.5,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:anger,catia,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm、 hình như trong đoạn video là thế này…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù trong bộ đồ nào thì vẻ đẹp của tôi vẫn là tuyệt đối… Cái sự ám ảnh với idol gì đó、 chắc chắn sẽ bị lãng quên ngay khi nhìn thấy tôi thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:sad,anna,-300,-100,0.5,0,,,,
+imgconf,anna,,-300,-100,,,-1,0.5,0.5,0
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ưm、 đúng là bộ đồ này、 Anna thấy không thoải mái chút nào…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+stopbgm,0.2,,,,,,,,,,
+endwait
+wait,0.2
+endwait
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29060104/adv/image/29060104.png,enemy1,0,-350,1,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>邪雷咆執</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Thunder1_yellow,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_024.mp3
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:anger,ulusura,300,-200,0.5,0.5,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:surprise,anna,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Oa、 nguy hiểm…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:anger,ulusura,300,-200,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 cái hư ảnh đó có vẻ không hề hài lòng chút nào、 chuyện này là sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,anna,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:anger,catia,-300,-100,0.5,0.5,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Rốt cuộc thì、 em không thể khiến ai đó mỉm cười như một idol lấp lánh được sao…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,ulusura,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Với một trái tim u ám như vậy thì không được đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:surprise,catia,-300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Frau-san…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Katia、 tại sao lại thích idol？ Tại sao lại bắt đầu thích？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:sad,catia,-300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đó là… Em ngưỡng mộ và kính trọng họ、 những người đã lan tỏa nụ cười rạng rỡ trên sân khấu、 mang lại hạnh phúc cho rất nhiều người… cho nên…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu không tỏa sáng từ tận đáy lòng… thì không được đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:sad,catia,-300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ý chị là sao…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Cô、 tại sao lại ngưỡng mộ và kính trọng họ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Lan tỏa nụ cười thì ai mà chẳng làm được。Cô nói rằng trái tim mình đã rung động vì những điều hời hợt như vậy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:surprise,catia,-300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>K-không phải vậy đâu ạ… Em chỉ là… thấy hình ảnh họ kiên cường bước đi trên con đường của mình、 rồi đứng trên sân khấu、 thật rực rỡ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em… đã tìm hiểu rất nhiều。Trên đời này、 có rất nhiều người muốn trở thành idol… nhưng chỉ một số ít có thể đứng trên sân khấu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Những buổi tập luyện khắc nghiệt、 hay sức mạnh tinh thần để luôn giữ nụ cười dù khó khăn…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đôi khi、 họ không chỉ hỗ trợ lẫn nhau mà còn phải đối đầu trực diện như những đối thủ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Khi biết họ đã vượt qua những khó khăn đó để đứng trên sân khấu kia… họ lại càng trở nên rực rỡ hơn trong mắt em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 hẳn là như vậy rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:surprise,catia,-300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Thật lòng mà nói、 tôi chẳng hiểu idol là gì。Nhưng nghe cô nói、 tôi hiểu rằng chỉ bắt chước thôi thì chẳng có ý nghĩa gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Điều cô thấy ở một idol、 chính là ánh hào quang tỏa ra từ những người đã vượt qua khó khăn bằng ý chí mạnh mẽ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 chỉ bắt chước idol một cách máy móc cũng vô nghĩa。Để tỏa ra ánh hào quang mà cô thấy chói lọi、 cô nên làm gì？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:surprise,catia,-300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Điều đó… thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khi nghe vậy、 em nhận ra mình chỉ đang cố gắng sao chép hình mẫu một idol。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em ngưỡng mộ idol、 là vì họ rất chân thành。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì họ chân thành muốn mang lại nụ cười cho ai đó… vì điều đó đã chạm đến em… nên em mới ngưỡng mộ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đó、 chắc chắn là ánh hào quang mà em vẫn còn thiếu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em không phải idol、 cũng không muốn trở thành idol。Em chỉ muốn ai đó được hạnh phúc。Chỉ muốn họ mỉm cười。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu bỏ qua mong muốn thật sự của mình、 thì làm sao có thể tỏa sáng được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không phải vì là idol mà họ tỏa sáng。Mà vì họ tỏa sáng nên họ mới là idol。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không ngờ một điều đơn giản như vậy mà em cũng không nhận ra、 quả nhiên em vẫn còn kém cỏi lắm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhưng nhờ lời nói của bạn bè mà em đã nhận ra。Vậy thì em không thể cứ mãi yếu kém như thế này được nữa——。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+name,
+msg,0,
+stopbgm,0.2,,,,,,,,,,
+endwait
+bg,download/bg/bg_10020400.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm047.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:normal,anna,-300,-100,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0.5,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Ôm ấp thật chặt mong muốn của mình trong lòng、 và tỏa sáng rực rỡ。Đó chính là idol。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,0,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ursula-san… Anna-san… xin lỗi。Từ giờ trở đi、 có lẽ… ánh hào quang của em sẽ làm lu mờ cả hai chị。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:surprise,anna,-300,-100,0.5,0,,,,
+imgconf,anna,,-300,-100,,,-1,0.5,0.5,0
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm、 đột nhiên cô nói những lời thật ngông cuồng đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:smile,catia,0,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nụ cười của một idol mà chính bản thân còn không tin tưởng、 chắc chắn sẽ không chạm đến được trái tim ai cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0,,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải… nhưng đáng tiếc nhỉ。Cô thì làm sao có thể sánh bằng sức hút của tôi được？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:anger,anna,-300,-100,0.5,0,,,,
+imgconf,anna,,-300,-100,,,-1,0.5,0.5,0
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu đã nói vậy thì tôi cũng không thể để bị coi thường như thế được！ Rực rỡ ư？ Được thôi、 để tôi cho cô thấy ai mới là người rực rỡ nhất！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29060104/adv/image/29060104.png,enemy1,0,-350,1,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>邪雷咆執</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:normal,anna,-300,-100,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0.5,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:smile,catia,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đây mới là sân khấu thật sự của em… của chúng ta！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:smile,anna,-300,-100,0.5,0,,,,
+imgconf,anna,,-300,-100,,,-1,0.5,0.5,0
+anm,tint,catia,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm… để tôi cho cô thấy chất 'rock' của mình！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:sad,ulusura,300,-200,0.5,0,,,,
+anm,tint,anna,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…Thôi thì、 một idol cá tính、 có lẽ cũng không phải là không thể chấp nhận được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi làm idol ư、 thật là chán ngán… nhưng không vì thế mà tôi chấp nhận bị người khác coi thường。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi đây、 dù là idol hay bất cứ thứ gì、 sẽ cho cô thấy tôi tỏa sáng rực rỡ hơn bất kỳ ai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29060104/adv/image/29060104.png,enemy1,0,-350,1,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>邪雷咆執</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:normal,anna,-300,-100,0.5,0.5,,,,
+anm,tint,anna,150_150_150,0.0001,0
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:smile,catia,0,-100,0.5,0.5,,,,
+anm,tint,catia,150_150_150,0.0001,0
+spriteatlas,download/character/102106/adv/atlas/stand_b,body:normal,ulusura,300,-200,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hừm、 vì tôi đây sẽ cho các người thấy hình ảnh một idol、 nên hãy quỳ xuống mà lắng nghe đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/103004/adv/atlas/stand_b,body:smile,anna,-300,-100,0.5,0,,,,
+imgconf,anna,,-300,-100,,,-1,0.5,0.5,0
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Anna Ruskaryuda</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đã có cây đàn guitar này rồi！ Tôi sẽ dùng chất 'rock' của mình để khuấy động hết cỡ！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100306/adv/atlas/stand_b,body:normal,catia,0,-100,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Katia Brunseva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Riêng cái khao khát mang lại nụ cười và hạnh phúc cho ai đó、 thì em không thể thua bất kỳ ai。Vì vậy… em sẽ khiến cả chị cũng phải hài lòng！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+sprite,download/monster/29060104/adv/image/29060104.png,enemy1,0,-350,1,0.5,,,,
+playse,/download/sound/se/se_023.mp3
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>邪雷咆執</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――――――！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

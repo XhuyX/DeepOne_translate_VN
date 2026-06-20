@@ -1,0 +1,228 @@
+﻿// machine translate -- gemini:gemini-2.0-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11550300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm077.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_01.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nhắc đến tuyết mới nhớ、 hôm nọ ở vườn nhân tạo R'lyeh、 hình như có mấy người chơi trò tạo tuyết</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_02.mp3
+msg,1,<outline width=2 color=black>Hình như họ dùng ma thuật để tạo tuyết rồi chơi đánh nhau。Miriam đã than thở là dọn dẹp mệt muốn chết</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_03.mp3
+msg,1,<outline width=2 color=black>……Nếu mà đưa họ đến đây thì có lẽ đã không đến nỗi thảm hại như vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_04.mp3
+msg,1,<outline width=2 color=black>Mà thôi、 đến Dreamlands chỉ để chơi tuyết thì cũng hơi kỳ、 vấn đề gánh nặng cũng có thể giải quyết được… với lại、 giờ nói gì cũng muộn rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_05.mp3
+msg,1,<outline width=2 color=black>Ít nhất、 ở đây thì sẽ không có chuyện tường bị thủng、 hay là hệ thống điện nổ tung gì đâu nhỉ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_06.mp3
+msg,1,<outline width=2 color=black>Ngay cả việc đánh nhau mà lại thành ra như thế thì tôi cũng không hiểu nổi。Thật sự、 ai cũng có thực lực mà không biết tiết chế gì cả…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Đánh nhau bằng tuyết…？,Đã có chuyện gì vậy
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_07.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Mà、 tôi cũng hiểu là muốn xem lại định nghĩa của việc đánh nhau bằng tuyết</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_08.mp3
+msg,1,<outline width=2 color=black>Nhưng、 có lẽ là sai lầm khi nghĩ rằng đám người R'lyeh chỉ ném tuyết rồi hò reo vui vẻ thôi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,rise1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103601/adv/atlas/stand_a,body:smile,rise2,0,0,0,0,,,,
+imgconf,rise2,rise1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_02_09.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Dùng cánh tay cường hóa để ném bóng với tốc độ kinh hoàng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,150,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,ilyna1,0,150,1280,200,0.5,,,,
+spriteatlas,download/character/100901/adv/atlas/stand_a,body:anger,ilyna2,0,0,0,0,,,,
+imgconf,ilyna2,ilyna1,0,-770,,,0,1.5,1.5,0
+
+
+mask,black3,0,-50,1280,200,0.5,,,,
+sprite,download/adv/image/black.jpg,black4,0,0,0,0,,,,
+imgconf,black4,black3,0,0,,,0,1,1,0.5
+mask,jamila1,0,-50,1280,200,0.5,,,,
+spriteatlas,download/character/101001/adv/atlas/stand_a,body:anger,jamila2,0,0,0,0,,,,
+imgconf,jamila2,jamila1,0,-680,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100215/adv/sound/fav100215_02_10.mp3
+msg,1,<outline width=2 color=black>Trong lúc ném tuyết lại có cả dao bay tới</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maruta1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/102701/adv/atlas/stand_a,body:unique,maruta2,0,0,0,0,,,,
+imgconf,maruta2,maruta1,0,-40,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+playvoice,1,download/character/100215/adv/sound/fav100215_02_11.mp3
+msg,1,<outline width=2 color=black>Dùng <ruby>Ma đạo thư-Old One</ruby> để tạo tuyết trên diện rộng、 ném bom thảm</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11550300.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_12.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Chỉ nghe thôi đã thấy khác xa với trò đánh nhau bằng tuyết thông thường rồi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_13.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Norn nổi hứng bắt đầu đánh nhau、 Martha và Rise đại náo — nói vậy chắc anh cũng đoán ra được rồi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_14.mp3
+msg,1,<outline width=2 color=black>Thực tế thì còn có Tabasa và Rin tham gia nữa、 chắc chắn là cảnh tượng còn kinh khủng hơn cả tưởng tượng</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_15.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khổ nỗi ai cũng là người có thực lực、 một khi buông thả thì không ai cản nổi</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_16.mp3
+msg,1,<outline width=2 color=black>Anh cũng nên nói chuyện nghiêm túc với họ một lần đi—……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_17.mp3
+msg,1,<outline width=2 color=black>……Không。Với anh thì、 có lẽ anh còn là người chủ động tham gia vào những cảnh tượng như vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_18.mp3
+msg,1,<outline width=2 color=black>Sao thế、 làm mặt như bị sốc vậy。Tự chuốc lấy mà</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_19.mp3
+msg,1,<outline width=2 color=black>Mà thôi、 ít nhất thì khi nổi hứng cũng đừng làm phiền người khác。Với lại、 trong trường hợp của anh thì cũng phải đảm bảo an toàn cho bản thân nữa</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_20.mp3
+msg,1,<outline width=2 color=black>Tôi nghĩ mọi người cũng không có ý định nghiêm túc với anh đâu、 nhưng họ cũng có thể lỡ tay</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_21.mp3
+msg,1,<outline width=2 color=black>Nếu tôi ở đó thì có thể bảo vệ anh、 nhưng tôi đâu phải lúc nào cũng ở bên cạnh…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_22.mp3
+msg,1,<outline width=2 color=black>…Khoan đã、 sao anh lại cười toe toét ra thế kia。Có gì buồn cười à？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100215/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100215/adv/sound/fav100215_02_23.mp3
+msg,1,<outline width=2 color=black>Tôi không hiểu nổi… chán thật</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

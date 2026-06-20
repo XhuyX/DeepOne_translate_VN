@@ -1,0 +1,112 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0.5,,,,
+endwait
+name,<outline width=2 color=black>Quincy</outline>,,,,,,,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_01.mp3
+msg,1,<outline width=2 color=black>Ừm… Em muốn tập luyện kỹ hơn một chút… nhưng mà lo quá。Không biết có ổn không nữa…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:surprise,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_02.mp3
+msg,1,<outline width=2 color=black>――À。Chào anh/chị。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:shy,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_03.mp3
+msg,1,<outline width=2 color=black>Ưm… Em xin lỗi。Anh/chị nghe thấy em lẩm bẩm một mình… đúng không ạ？ Em cứ ngẩn ngơ là những gì đang nghĩ lại bật ra miệng mất…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_04.mp3
+msg,1,<outline width=2 color=black>Vừa nãy、 em có đến trường bắn để luyện tập。Dù trang thiết bị thì rất đầy đủ… nhưng mà khoảng cách thì…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,Gần quá？,Xa quá？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_05.mp3
+msg,1,<outline width=2 color=black>……Vâng。Trường bắn ở R'lyeh có thể cài đặt tối đa 1500 mét、 nhưng… em lại muốn 2000 mét cơ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_06.mp3
+msg,1,<outline width=2 color=black>Vì khoảng cách em thường chọn khi làm nhiệm vụ là tầm đó、 nên nếu được、 em muốn điều chỉnh cảm giác ở khoảng cách đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_07.mp3
+msg,1,<outline width=2 color=black>Dù vậy、 có trường bắn đã là điều xa xỉ rồi、 nếu đòi hỏi hơn nữa thì đúng là quá ích kỷ phải không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_08.mp3
+msg,1,<outline width=2 color=black>À、 không。Không phải vậy đâu ạ… Mà ngược lại cơ。Trường bắn ở R'lyeh thì hơi… không đủ đô、 nói sao nhỉ…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_09.mp3
+msg,1,<outline width=2 color=black>Dù thế nào、 em chỉ tự tin vào khả năng bắn tỉa thôi。Nói đúng hơn là、 em chẳng có gì để tự tin ngoài cái này cả…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_10.mp3
+msg,1,<outline width=2 color=black>Vì vậy、 em không muốn để tay nghề mình mai một chút nào。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_11.mp3
+msg,1,<outline width=2 color=black>Nếu thoát khỏi R'lyeh、 em phải rèn luyện lại thôi…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:surprise,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_12.mp3
+msg,1,<outline width=2 color=black>――Hả？ Anh/chị hỏi có vất vả không… Ý anh/chị là công việc của một Quincy sao ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_13.mp3
+msg,1,<outline width=2 color=black>Nếu nói là không vất vả chút nào… thì là nói dối。Cò súng để cướp đi sinh mạng thì nặng trĩu、 và vì thế mà em cũng bị nhắm đến tính mạng…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_14.mp3
+msg,1,<outline width=2 color=black>Nhưng đây là việc mà ai đó phải làm。Hơn nữa、 em đã kế thừa danh hiệu Quincy từ sư phụ… nên em phải cố gắng thật tốt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_15.mp3
+msg,1,<outline width=2 color=black>Đừng nhìn em với vẻ lo lắng như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_16.mp3
+msg,1,<outline width=2 color=black>Dù đối tượng là kẻ xấu、 và đây là công việc cướp đi sinh mạng người khác、 nên có lẽ nói ra điều này hơi kỳ lạ… nhưng em cũng cảm thấy có ý nghĩa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:smile,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_17.mp3
+msg,1,<outline width=2 color=black>……Hồi nhỏ、 em từng muốn trở thành một anh hùng。Một ước mơ không giống con gái chút nào、 phải không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_18.mp3
+msg,1,<outline width=2 color=black>Ông nội em từng là một pháp sư lừng lẫy trong cuộc chiến lớn ngày xưa。Em rất thích nghe những câu chuyện của ông… Chắc là do ảnh hưởng từ đó ạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_19.mp3
+msg,1,<outline width=2 color=black>Dù không còn trong sáng hay thẳng thắn như điều em từng ước ao hồi nhỏ… nhưng điều em hướng tới vẫn không thay đổi so với ngày ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:sad,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_20.mp3
+msg,1,<outline width=2 color=black>Em muốn trở thành người có thể làm điều gì đó vì người khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:normal,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_21.mp3
+msg,1,<outline width=2 color=black>Rằng viên đạn của em có thể bảo vệ hòa bình và nụ cười của ai đó… Chừng nào còn nghĩ được như vậy、 em vẫn sẽ tiếp tục cố gắng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101701/adv/atlas/stand_a,body:smile,qquinecy,0,-120,0.5,0,,,,
+playvoice,1,download/character/101700/adv/sound/fav101700_02_22.mp3
+msg,1,<outline width=2 color=black>Vậy nên、 đừng lo lắng cho em nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,1,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

@@ -1,0 +1,234 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm030.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,zakuro1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:normal,zakuro2,0,0,0,0,,,,
+imgconf,zakuro2,zakuro1,0,-470,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104304/adv/sound/fav104304_02_01.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>À… Mình để nó ở đâu nhỉ…？ Ừm、 quanh đây sao？ Hay là bên này nhỉ…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,1,255
+endwait
+playvoice,1,download/character/104304/adv/sound/fav104304_02_02.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>——Á、 đau quá trời ơi！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+slideinblack,0.5,right
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010300.jpg,0,255
+endwait
+slideoutblack,0.5,right
+endwait,,,,,,,,,,,
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_03.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ư、 hức… Kẹp tóc、 đâm vào lòng bàn chân rồi… Ôi、 hức、 hức hức…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:surprise,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_04.mp3
+msg,1,<outline width=2 color=black>——…À。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_05.mp3
+msg,1,<outline width=2 color=black>………………Khoan đã。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_06.mp3
+msg,1,<outline width=2 color=black>Chuyện anh tự tiện xông vào phòng thì tạm gác lại đã。Nên là、 quay lưng lại ngay、 rồi ra hành lang mà đứng đợi。Rõ chưa？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,1,255
+endwait
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_07.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Có chuyện này tôi cần nói trước。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:normal,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_08.mp3
+msg,1,<outline width=2 color=black>Phòng tôi có thể hơi nhiều đồ。Tôi cũng thừa nhận cách sắp xếp hơi độc đáo。Nhưng mà… nó không hề bẩn đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Lựa chọn 1 'Phòng bẩn quá nhỉ。,Lựa chọn 2 'Lòng bàn chân có sao không？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_09.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Không phải！ Đó là cách sắp xếp cực kỳ hiệu quả mà chỉ mình tôi hiểu được、 chứ không phải tôi làm bẩn đâu！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:anger,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_10.mp3
+msg,1,<outline width=2 color=black>Tôi muốn anh đừng có tung tin đồn vô căn cứ như vậy nữa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_11.mp3
+msg,1,<outline width=2 color=black>Hức… Chuyện tôi giẫm phải kẹp tóc ấy、 đó là… cái đó。Một sự cản trở ma thuật nào đó… một cái bẫy… đúng rồi、 trò đùa của ai đó…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_12.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Khụ…！？ Đừng có vừa nghe vừa cười nhếch mép như thế chứ！ Giờ vẫn đau lắm đây này！ Còn chảy máu nữa！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_13.mp3
+msg,1,<outline width=2 color=black>Ừ thì、 ừ thì、 nó kẹt giữa hai cuốn sách、 dựng đứng thẳng tắp và tôi giẫm trúng điểm chí mạng đó！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_14.mp3
+msg,1,<outline width=2 color=black>Lợi dụng thất bại của người khác mà cười thì anh đúng là đồ tồi、 anh！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_15.mp3
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ư、 hức hức… Không ngờ lại bị nhìn thấy cảnh này… Rõ ràng là tôi không hề có ý định cho người khác vào phòng mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:shy,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_16.mp3
+msg,1,<outline width=2 color=black>…Hừ。Tôi biết rồi。Anh đến vì nghe thấy tiếng tôi hét đúng không？ Đương nhiên là tôi sẽ không giận chuyện đó đâu… dù tôi vẫn sẽ oán hận。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:surprise,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_17.mp3
+msg,1,<outline width=2 color=black>Này、 khoan đã！ Sao anh lại định vào phòng nữa vậy！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:surprise,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_18.mp3
+msg,1,<outline width=2 color=black>——Dọn dẹp、 ư… Không、 không cần đâu！ Này、 tôi bảo không cần mà！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:sad,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_19.mp3
+msg,1,<outline width=2 color=black>Chà、 một khi đã bị nhìn thấy rồi thì có lẽ không cần giấu nữa… Không、 vẫn không được！ Không thể nào！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:shy,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_20.mp3
+msg,1,<outline width=2 color=black>Q-quần áo thay đồ… cả đồ lót cũng rơi lung tung nữa… nên không được！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:surprise,zakuro,0,-120,0.5,0,,,,
+playvoice,1,download/character/104304/adv/sound/fav104304_02_21.mp3
+msg,1,<outline width=2 color=black>——Này、 nghe tôi nói đã chứ！？ Này…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

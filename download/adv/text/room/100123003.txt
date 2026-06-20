@@ -1,0 +1,85 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+roombg,1023,0
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:normal,beat,-300,-180,0.45,0.5,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ưm…… Có vẻ như rất nhiều đồ gia dụng được đặt ở đây…… nhưng tất cả đều là những thứ em chưa từng thấy bao giờ。</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:sad,beat,-300,-180,0.45,0,,,,
+msg,1,<size=30><outline width=2 color=black>À、 cái này、 nhìn hình dáng thì là máy hút bụi…… phải không ạ？ Ưm…… em không muốn dùng nó chút nào……</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,300,-120,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi nghĩ đó là một công cụ tiện lợi mà…… À、 em đang bận tâm chuyện lần trước sao？</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:normal,beat,-300,-180,0.45,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vâng…… Khi em lấy chiếc máy hút bụi trong kho ra dùng、 thì chẳng biết từ lúc nào、 người em đã bị dây điện quấn chặt cứng……</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,300,-120,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi tình cờ đi ngang qua và đã giúp em lúc đó、 phải không。……Nhưng cái này có vẻ là máy hút bụi không dây。Sẽ không có chuyện đáng lo như vậy đâu。</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:surprise,beat,-300,-180,0.45,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+spine,download/adv/spine/Mark11,em1,default,animation,0,-200,240,0.65,0.8,0.5
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Không dây？ À、 quả thật là không có dây thật。Vậy thì、 dù có vung vẩy thế nào、 người em cũng sẽ không bị quấn chặt nữa rồi！</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spineoff,em1,0
+endwait
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:unique,xeno,300,-120,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+endwait
+spine,download/adv/spine/Mark2,em2,default,animation,0,360,200,0.65,0.8,0.5
+endwait
+name,<size=27><outline width=2 color=black>Zeno</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù là dùng máy hút bụi có dây、 bình thường cũng không đến mức đó đâu、 tôi nghĩ vậy…… Thôi thì、 cẩn thận đừng làm hỏng đồ vật xung quanh――</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spineoff,em2,0
+endwait
+shake,0.2,1,20,20
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:surprise,xeno,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ái！</outline></size>,,,,,,,,,,
+playse,/download/sound/se/se_043.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/102301/adv/atlas/stand_a,body:surprise,beat,-300,-180,0.45,0,,,,
+anm,tint,xeno,150_150_150,0.0001,0
+endwait
+spine,download/adv/spine/Mark3,em3,default,animation,0,-200,260,0.5,0.7,0.5
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ái chà、 Zeno-san có sao không ạ……！ Em vung vẩy nên lỡ đánh trúng người rồi……！</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+spineoff,em3,0
+endwait
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:sad,xeno,300,-120,0.5,0,,,,
+anm,tint,beat,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Zeno</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>T-Tôi không sao…… Không chỉ đồ vật、 em cũng phải cẩn thận với những người xung quanh nữa chứ……？</outline></size>,,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

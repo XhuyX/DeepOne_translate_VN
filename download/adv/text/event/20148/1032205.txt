@@ -1,0 +1,667 @@
+﻿// machine translate -- gemini-2.5-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm024.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Ranh giới dần trở nên mơ hồ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tôi cảm thấy một bản thể khác、 không phải là tôi、 đang hòa lẫn vào bên trong mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Thế giới bên kia và thế giới bên này。Tôi của bên này và tôi của bên kia。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Lời cầu nguyện của Rừng Đen và Maria Tarasque hòa quyện vào nhau、 nhuộm thẫm mọi thứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Như tiếng lá xào xạc trong gió đêm giữa khu rừng sâu thẳm、 hoặc như một tạp âm chói tai。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Vang vọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tại sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tại sao tôi lại phải cố gắng đến nhường này？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tại sao tôi lại sinh ra như thế này？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tại sao tôi lại phải chịu đựng nhiều tổn thương đến vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tại sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tại sao、 chỉ có chị ấy――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11720300.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm133.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maria1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:normal,maria2,0,0,0,0,,,,
+imgconf,maria2,maria1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À… phải。Đây… đây chính là bản chất của trái tim nhỏ bé và xấu xí của một con người tên Maria Tarasque。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+slideinblack,0.1,left,
+endwait,
+sprite,download/adv/image/sla3.jpg,sla3,0,0,1,0,,,,
+playse,/download/sound/se/chaA.mp3
+slideoutblack,0.2,left,
+endwait,
+slideinblack,0.1,left,
+endwait,
+spriteoff,all,0,
+fadeoutblack,0.2,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/101382/adv/atlas/stand_a,body:anger,milva_s,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em1,default,animation,0,-300,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,300,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,1
+endwait
+spineoff,em1,0
+endwait
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+slideinblack,0.1,right,
+endwait,
+sprite,download/adv/image/sla3.jpg,sla1,0,0,1,0,,,,
+anm,scale,sla1,-1_1,0,
+playse,/download/sound/se/chaA.mp3
+slideoutblack,0.2,right,
+endwait,
+slideinblack,0.1,right,
+endwait,
+spriteoff,all,0,
+fadeoutblack,0.2,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/103715/adv/atlas/stand_a,body:sad,frau,0,-120,0.5,0.5,,,,
+spriteatlas,download/character/102013/adv/atlas/stand_b,body:anger,tabasa,-150,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+spine,download/adv/spine/Explosion,em1,default,animation,0,-300,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,0.5
+spine,download/adv/spine/Explosion,em1,default,animation,0,300,0,1,1.0,0
+playse,/download/sound/se/se_039.mp3
+endwait
+wait,1
+endwait
+spineoff,em1,0
+endwait
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hự…！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102013/adv/atlas/stand_b,body:anger,tabasa,-150,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái này… khụ！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+shake,0.2,4,15,15
+endwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:sad,maruta,300,-90,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+spriteatlas,download/character/102980/adv/atlas/stand_a,body:sad,rozet_s,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Maria-sama…？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:sad,maruta,300,-90,0.5,0,,,,
+anm,tint,rozet_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hơi thở của Lời cầu nguyện Rừng Đen… đang chồng lên Maria…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,maria1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:normal,maria2,0,0,0,0,,,,
+imgconf,maria2,maria1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Này、 chị… em mệt rồi。Em mệt lắm rồi đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:surprise,maruta,300,-90,0.5,0.5,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị ơi、 nói cho em biết đi。Tại sao lại như vậy chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại sao chúng ta lại sinh ra như thế này？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không thể sinh ra làm người、 chỉ bị buộc phải hiến dâng mạng sống một cách phũ phàng。Chẳng nhận được gì、 ngay cả mong muốn cũng không được phép。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại sao chúng ta lại phải bất hạnh đến thế này？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:surprise,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện đó… Maria、 em…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:sad,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>――………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>…………Phải。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em、 đã bất hạnh sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị、 chị nghĩ mình không bất hạnh sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chị chắc chắn、 chị chưa từng bất hạnh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù dưới hình hài nào、 nếu chị có thể ở bên em、 trở thành sức mạnh cho em、 thì đối với chị、 đó tuyệt đối không phải là điều bất hạnh。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Có lẽ đã từng khổ sở… không、 có khi chị còn chẳng biết đến khái niệm khổ sở là gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng chị――… chị nghĩ rằng、 được ở bên Maria Tarasque、 chị đã hạnh phúc cho đến tận cuối cùng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Và chính vì thế、 chị muốn để lại hạnh phúc cho em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tại sao、 chị lại mạnh mẽ và dịu dàng đến thế chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù là người hay là ma đạo thư、 chị vẫn là chị。À… thôi rồi… thật sự tại sao chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại sao、 chị lại khác em đến thế、 khác nhiều đến thế、 khác xa đến thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chúng ta、 đáng lẽ phải giống nhau chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chị、 chị chưa từng nghĩ 'tại sao' sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chắc chắn là có。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại sao、 chị lại không thể ở bên em như một con người bình thường chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại sao、 chị lại không thể dùng đôi mắt này để dõi theo nụ cười của em、 không thể dùng đôi tay này để vuốt ve em chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tại sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chắc chắn chị đã lặp đi lặp lại những câu hỏi không lời đáp không biết bao nhiêu lần。Chị tin rằng、 mỗi lần lặp lại ấy、 là mỗi lần chị nghĩ về Maria。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:smile,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………Phải。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng、 em xin lỗi… rốt cuộc em vẫn không mạnh mẽ như chị。Em không tuyệt vời bằng chị đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em đã không thể nghĩ về chị một cách đẹp đẽ như chị nghĩ về em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:sad,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Những câu hỏi 'tại sao' của em… lúc nào cũng chỉ là than vãn、 ghen tị、 và… à、 phải rồi… toàn những điều xấu xí thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:smile,maruta,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vậy nên、 được thôi… Chị sẽ đón nhận tất cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:surprise,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:smile,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ha ha。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:smile,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À、 chết tiệt… Khốn kiếp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:smile,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em chắc chắn sẽ thích một người chị như vậy、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:normal,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ừm。Em cũng vậy。Giờ em đã nhận ra rõ ràng mình có cùng cảm xúc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:normal,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Maria――……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:smile,maria,-300,-120,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tại sao、 tại sao、 tại sao… Em đã quá mệt mỏi khi cứ phải lặp đi lặp lại câu hỏi đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:smile,maria,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Giờ thì、 mình không cần phải lặp lại nữa、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:anger,maruta,300,-90,0.5,0,,,,
+anm,tint,maria,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hự… Maria、 đợi đã！ Chị muốn nói chuyện đàng hoàng với em—！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/102980/adv/atlas/stand_a,body:normal,rozet_s,0,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Maria-sama…！ Lần này、 em sẽ ở bên người đến cùng… Ít nhất、 ở gần người—！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:smile,maria,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đồ ngốc。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_b,body:smile,maria,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em không cần chị nữa。Biến đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playse,/download/character/103707/se/se_c03707_skill_01.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm138.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>？？？</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chẳng phải tôi muốn ôm lấy thứ đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng… tôi đã ôm nó、 không sai được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Tôi… không cần phải ôm thứ đó nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Này… chỉ có câu hỏi 'tại sao' cuối cùng là tôi và em giống nhau、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em ghét chị、 ghét cay ghét đắng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Nhưng… đúng là vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Chị cũng là em… Em công nhận điều đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11720301.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/102980/adv/atlas/stand_a,body:sad,rozet_s,300,-100,0.5,0.5,,,,
+anm,tint,rozet_s,150_150_150,0.0001,0
+spriteatlas,download/character/102713/adv/atlas/stand_a,body:surprise,maruta,-300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102980/adv/atlas/stand_a,body:sad,rozet_s,300,-100,0.5,0,,,,
+anm,tint,maruta,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Rosette</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nơi này… là…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,maruta,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102013/adv/atlas/stand_b,body:anger,tabasa,-300,-100,0.5,0.5,,,,
+anm,tint,rozet_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Tabasa Twining</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đứng lại… Maria đang ở đâu…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,rozet_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103715/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,tabasa,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—… Maria đã đi sang bên kia ranh giới rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103715/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chúng ta bị đẩy về phía này… và…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,tabasa,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/101382/adv/atlas/stand_a,body:anger,milva_s,-300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Milva</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>… Nhìn cái gương kia đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+sprite,download/bg/bg_11720301.jpg,bg,600,200,3,1
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Martha Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>—Maria！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+bg,color_0_0_0,0,255
+endwait,,,,,,,,,,,
+spriteoff,all,1
+endwait,,,,,,,,,,,
+bg,download/bg/bg_11720300.jpg,1,255
+endwait
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:normal,maria,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Maria Tarasque</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:smile,maria,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>À。Cuối cùng… cuối cùng…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:smile,maria,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Giờ thì、 mình có thể kết thúc mọi chuyện rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104905/adv/atlas/stand_a,body:smile,maria,0,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thật sự… mệt mỏi quá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

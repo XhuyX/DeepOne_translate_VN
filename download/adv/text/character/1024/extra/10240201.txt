@@ -1,0 +1,99 @@
+﻿// machine translate -- gemini-2.5-flash
+name,,,
+stopbgm,,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0.0,,,,,,,,,,
+endwait,,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0.5,,
+endwait
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0.5,,,,,
+endwait,,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dạo này、 có vẻ như ngươi đang tìm hiểu về Debris nhỉ。Đáng lẽ cứ hỏi thẳng ta thì nhanh hơn、 ngươi đúng là quá khách sáo rồi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_01.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta không biết ngươi đang vướng mắc điều gì、 nhưng để ta giải thích thì nhanh hơn、 mà thông tin cũng chính xác nữa。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_02.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trước tiên、 là về Cảnh Môn mà các ngươi đang dùng。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_03.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta chưa nắm rõ nguyên lý của nó、 nhưng có vẻ đó là một cơ chế cho phép đi lại giữa R'lyeh và Dreamlands。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_04.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đó là một kỹ thuật vượt ngoài sức tưởng tượng。Vốn dĩ、 con đường đến Dreamlands là một chiều。Một khi đã đặt chân vào、 thì không thể nào thoát ra được nữa。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_05.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Và những người không thể quay về sẽ bị nghiền nát、 bị Dreamlands nuốt chửng。Trong số những linh hồn tan biến như vậy、 hiếm hoi lắm mới có một số tái tạo hình hài。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_06.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đó chính là Debris…… giống như con người、 nhưng lại không phải con người、 mà là thứ đã bị nhuốm màu bởi bản chất của Dreamlands。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_07.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Thuyền của Theseus…… có lẽ hơi khác một chút、 nhưng dù được tạo thành từ cùng một yếu tố、 linh hồn và tinh thần đã được tái tạo、 không thể gọi là cùng một thực thể được。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_08.mp3
+clickwait,,,,,,,,,,,,
+select,Ngươi không muốn lấy lại sao？,Không còn lại gì sao？
+if,select_===_1,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Không đâu。Ta hài lòng với con người ta hiện tại。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_09.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Ta không nói tất cả Debris đều như vậy、 nhưng ít nhất ta không ghét con người ta hiện tại…… nên đừng lo lắng quá cho ta。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_10.mp3
+clickwait,,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Zeno Nazari</outline></size>,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Sao nhỉ…… Ít nhất、 ta không hề có ký ức。Nếu không biết quá khứ、 ta cũng không thể phân biệt được còn lại bao nhiêu thứ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_11.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Giọng điệu、 tư tưởng、 hay một vài thói quen nhỏ…… Không biết con người ta trong quá khứ、 rốt cuộc là người như thế nào nhỉ。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_12.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đối với ta、 quá khứ là một sự tồn tại xa vời như người xa lạ。Ta chỉ mong ít nhất mình là người tốt、 chứ cũng không mấy hứng thú đâu。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_13.mp3
+clickwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Tiện thể、 đây chỉ là suy đoán thôi…… nhưng ta cứ hỏi cho chắc。Có phải ngươi tìm hiểu về Debris là để biết về ta không……？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_14.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Ngươi đúng là dễ đoán thật đấy。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_15.mp3
+clickwait,,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vee và Beatrice là những Debris có bản chất hoàn toàn khác với ta。Nếu ngươi quan tâm đến Debris、 thì hãy tìm hiểu kỹ về từng người họ đi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_16.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:unique,xeno,0,-120,0.5,0,,,,,
+spine,download/adv/spine/Mark2,em1,default,animation,0,100,160,0.65,0.4,0.2
+endwait
+msg,1,<size=30><outline width=2 color=black>Thôi thì、 có lẽ ta cũng không cần phải nói với ngươi đâu…… nhưng mà、 cái thói tò mò về phụ nữ cũng là một tật xấu đấy…… Nếu không biết điểm dừng thì tệ hại lắm。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_17.mp3
+clickwait,,,,,,,,,,,,
+spineoff,em1,0,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:sad,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Những người ngươi đang tiếp xúc、 mỗi người đều là những thực thể tinh thông ma thuật…… Ta chỉ mong、 đừng bao giờ có chuyện R'lyeh chìm xuống vì họ tranh giành ngươi。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_18.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:unique,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>……Đừng có cười mà lấp liếm。Đây không phải là chuyện đùa đâu đấy？</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_19.mp3
+clickwait,,,,,,,,,,,,
+spriteatlas,download/character/102401/adv/atlas/stand_a,body:normal,xeno,0,-120,0.5,0,,,,,
+msg,1,<size=30><outline width=2 color=black>Thật tình…… Có lẽ ta cũng đã bị ngươi cuốn hút quá nhiều rồi không chừng。Từ giờ trở đi、 ta sẽ giám sát ngươi chặt chẽ hơn một chút。</outline></size>,,,,,,,,,,,
+playvoice,1,/download/character/102402/adv/sound/fav102402_05_20.mp3
+clickwait,,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,,
+endwait,,,,,,,,,,,,
+endif,,,,,,,,,,,,
+name,,,,,,,,,,,,
+msg,0,,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,,
+endwait,,,,,,,,,,,,

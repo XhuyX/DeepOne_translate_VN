@@ -1,0 +1,612 @@
+﻿// machine translate -- gemini:gemini-2.5-flash-lite
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11400302.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm003.mp3,0,
+endwait,,,,,,,,,,,
+
+
+sprite,download/monster/20050201/adv/image/20050201.png,enemy1,0,-100,1,0.5,,,,
+anm,tint,enemy1,0_0_0,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>エネミー</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>――――……、……、…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+shake,0.2,4,15,15
+spriteoff,all,0.5
+playse,/download/sound/se/se_025.mp3
+endwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm114.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104205/adv/atlas/stand_a,body:smile,soka,300,-110,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:surprise,sui,-300,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……え</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104205/adv/atlas/stand_a,body:smile,soka,300,-110,0.5,0,,,,
+anm,tint,sui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đây、 người chơi của em。Em chắc chắn là cái này rồi chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:surprise,sui,-300,-130,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104205/adv/atlas/stand_a,body:surprise,soka,300,-110,0.5,0,,,,
+anm,tint,sui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Suika？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:surprise,sui,-300,-130,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>À…… em xin lỗi、 em hơi giật mình。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:sad,sui,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Lần đầu gặp chị Aika cũng đã rất mạnh mẽ rồi、 nhưng chị Souka cũng mạnh mẽ thật đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104205/adv/atlas/stand_a,body:surprise,soka,300,-110,0.5,0,,,,
+anm,tint,sui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。Vì chị là chị gái của Aika mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,1200,-120,0.5,0,,,,
+spriteatlas,download/character/104151/adv/atlas/stand_a,body:unique,aika,1200,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_018.mp3
+anm,move,frau,300_-120,1.2,0
+anm,move,aika,-300_-120,1.4,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/104151/adv/atlas/stand_a,body:unique,aika,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Lúc đó em chỉ dùng tay không thôi。Nếu dùng shira zakura thì em cũng không thua chị đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em nghĩ không cần phải so kè chuyện đó đâu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng mà tốt quá rồi。Nhờ có chị Souka ở đây mà chúng ta đã không bỏ lỡ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104151/adv/atlas/stand_a,body:normal,aika,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy、 đó có đúng là người chơi của Suika không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:normal,sui,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。Là của em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:smile,sui,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cảm ơn mọi người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104205/adv/atlas/stand_a,body:normal,soka,300,-110,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+spriteatlas,download/character/104151/adv/atlas/stand_a,body:normal,aika,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Giờ mới hỏi、 nhưng đó là thứ quý giá đến mức khiến Suika bị giữ lại ở thế giới này sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104205/adv/atlas/stand_a,body:normal,soka,300,-110,0.5,0,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em nghĩ tình cảm dành cho đồ vật thì tùy mỗi người thôi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:normal,sui,-300,-130,0.5,0.5,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm…… với người khác thì cái người chơi này có lẽ chẳng có giá trị gì to tát。Nhưng mà、 nó có bài hát kỷ niệm của em ở trong đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+anm,tint,sui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đối với Suika、 đó là thứ đặc biệt nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:smile,sui,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ừm。Đặc biệt、 và là một kỷ niệm quý giá。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/character/103707/se/se_c03707_skill_01.mp3
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:surprise,sui,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>À……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104151/adv/atlas/stand_a,body:normal,aika,300,-120,0.5,0.5,,,,
+anm,tint,sui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Người chơi đang phát sáng……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Em đã lấy lại được thứ đã mất、 nên không còn gì níu giữ Suika ở thế giới này nữa、 và em đã sẵn sàng để trở về rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:sad,sui,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ý…… ý chị là、 em sắp trở về thế giới cũ thật sao？ Đột ngột như vậy……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:sad,sui,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em còn muốn có chút thời gian để chào tạm biệt nữa……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,sui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Xin lỗi em。Một khi đã bị kéo về thế giới kia、 nếu cố ngăn cản thì không biết sẽ xảy ra chuyện gì đâu……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:sad,sui,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Sao lại……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm031.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104151/adv/atlas/stand_a,body:normal,aika,300,-120,0.5,0.5,,,,
+anm,tint,sui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Suika。Hãy mạnh khỏe nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:sad,sui,-300,-130,0.5,0,,,,
+anm,tint,aika,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Aika……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104205/adv/atlas/stand_a,body:smile,soka,300,-110,0.5,0.5,,,,
+anm,tint,sui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vì em sắp được trở về thế giới cũ rồi、 nên em phải vui lên chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104205/adv/atlas/stand_a,body:smile,soka,300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hơn nữa、 chị không thích nhìn em có vẻ mặt khó xử khi chia tay đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:normal,sui,-300,-130,0.5,0,,,,
+anm,tint,soka,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Souka。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:smile,sui,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em…… cảm ơn mọi người。Vì đã giúp đỡ em、 người đột nhiên xuất hiện thế này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,soka,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104151/adv/atlas/stand_a,body:smile,aika,300,-120,0.5,0.5,,,,
+anm,tint,sui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không có gì đâu em。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104205/adv/atlas/stand_a,body:smile,soka,300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Khi trở về thế giới cũ、 em có lẽ sẽ nghĩ mọi chuyện đã xảy ra ở đây chỉ là một giấc mơ thoáng qua。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104205/adv/atlas/stand_a,body:smile,soka,300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em có lẽ sẽ nghĩ rằng những gì đã trải qua ở đây、 rốt cuộc cũng chỉ là chuyện trong một khoảnh khắc của giấc mơ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104205/adv/atlas/stand_a,body:smile,soka,300,-110,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng…… nếu có thể、 chị mong em sẽ nhớ về những kỷ niệm chúng ta đã cùng nhau trải qua。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:smile,sui,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Tất nhiên rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:unique1,sui,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Em sẽ không quên đâu…… rằng đây không phải là một giấc mơ thoáng qua。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:shy,sui,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Rằng em có những người bạn ở một thế giới khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104151/adv/atlas/stand_a,body:smile,aika,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/104205/adv/atlas/stand_a,body:smile,soka,300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:shy,sui,-300,-130,0.5,0.5,,,,
+anm,tint,sui,150_150_150,0.0001,0
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì…… Suika。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:shy,sui,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tạm biệt、 nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,sui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm、 tạm biệt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nhưng…… hẹn gặp lại nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:normal,sui,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+anm,tint,sui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cuộc gặp gỡ này、 mơ hồ như một ảo ảnh、 giống như một phép màu…… nhưng、 nếu nghĩ rằng phép màu chỉ xảy ra một lần thì thật cô đơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì vậy、 đây không phải là lời tạm biệt。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:smile,sui,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:unique1,sui,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Hẹn gặp lại nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104151/adv/atlas/stand_a,body:smile,aika,300,-120,0.5,0.5,,,,
+anm,tint,sui,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Aika Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm、 hẹn gặp lại nhé。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104205/adv/atlas/stand_a,body:smile,soka,300,-110,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Souka Venatio</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hẹn gặp lại nhé、 Midori。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+flash,255,255,255,4,0.3,1.0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:shy,sui,0,-130,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:unique2,sui,0,-130,0.5,0,,,,
+endwait,,,,,,,,,,,
+wait,1.0
+endwait,,,,,,,,,,,
+spriteoff,all,1
+endwait,,,,,,,,,,,
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_015.mp3
+bg,color_255_255_255,1,255
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm178.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>ちょうまいすい</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Ừm。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>………… Ấy！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Đây là phòng câu lạc bộ。。。？ Tớ về rồi sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>……………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Thời gian chẳng hề trôi đi chút nào。。。Thật sự、 chỉ là một khoảnh khắc thôi mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Một khoảnh khắc。。。giấc mơ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>……――Không、 không phải。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Không phải là mơ。Không thể nào là mơ được。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Bởi vì。。。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,sui1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/196004/adv/atlas/stand_a,body:smile,sui2,0,0,0,0,,,,
+imgconf,sui2,sui1,0,-520,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>Lời hứa với bạn bè vẫn còn nguyên vẹn trong tớ mà。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

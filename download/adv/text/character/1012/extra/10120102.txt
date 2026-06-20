@@ -1,0 +1,103 @@
+﻿// machine translate -- gemini-2.5-flash
+﻿name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010300.jpg,0.0,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,,
+endwait
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Này cậu、 giờ cậu có rảnh chút không？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_01.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:anger,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>……Sao lại làm vẻ mặt ngạc nhiên thế kia。Tôi không được phép đến phòng cậu à？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_02.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Cậu nghĩ tôi không có hứng thú sao？ À、 ý tôi là với con người thôi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cậu không phải con người、 mà là thú cưng của tôi、 đúng không？ Thôi thì、 dù vậy tôi cũng không định làm thân đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Chỉ là、 tôi cũng sắp chán cuộc sống ở đây rồi。Ngoài lúc chìm vào Dreamlands、 tôi chán đến phát điên。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_05.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:smile,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Thế nên、 tôi nghĩ thú cưng thì có thể làm gì đó thú vị cho tôi chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_06.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Đương nhiên là cậu làm được、 đúng không？ Nếu không thì、 cậu chẳng có giá trị gì để sống như một thú cưng đâu。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_07.mp3
+clickwait,,,,,,,,,,,
+select,Chọn 1 'Cùng đấu bài đi,Chọn 2 'Cùng chơi một trò đơn giản đi
+if,select_===_1,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Bài để chơi game sao？ Hề、 ở R'lyeh còn có cả thứ đó nữa à。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_08.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Cậu cũng tinh mắt chọn được thứ hay ho đấy chứ。Với một thú cưng thì thế là giỏi rồi。Thôi thì、 tôi sẽ khen cậu một tiếng。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_09.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Vậy thì mau chuẩn bị đi。Đó là trò gì vậy？</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_10.mp3
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:sad,lid,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Trò chơi dùng giấy và bút sao？ Nghe có vẻ rẻ tiền quá nhỉ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_11.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Dù có rảnh rỗi đến mấy、 đây cũng không phải trò người lớn chơi、 đúng không？ À、 phải rồi、 cậu trước khi là người lớn thì đã là thú cưng rồi mà。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_12.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Haa…… Thôi được rồi。Nếu thú cưng muốn chơi、 thì chủ nhân cũng phải chiều chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_13.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Được thôi、 chơi thì chơi。Giải thích luật đi。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_14.mp3
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:normal,lid,25,-120,0.5,0,,,,
+name,<size=27><outline width=2 color=black>Lydia Lindman</outline></size>,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hừm、 không ngờ lại là một trò chơi có tính chiến thuật đấy chứ。Cản trở đối thủ、 hay mở rộng lãnh địa của mình… có nhiều thứ để suy nghĩ thật。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_15.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>……Không ngờ lại đau đầu thế này。Đây là lần đầu tôi chơi trò như thế này、 nhưng có vẻ cũng khá vui đấy chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_16.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Dù không thể so với cảm giác căng thẳng trên chiến trường… nhưng cũng có những xung đột đáng kể đấy chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_17.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:smile,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Tôi không ghét cảm giác này。Lần tới nhất định phải chơi với Milva nữa。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_18.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:surprise,lid,25,-120,0.5,0,,,,
+spine,download/adv/spine/Mark3,em5,default,animation,0,100,150,0.65,0.8,0.2
+endwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>Hả…？ Thế là tôi thua rồi sao？ Vô lý！ Chủ nhân làm sao có thể thua thú cưng được chứ。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_19.mp3
+clickwait,,,,,,,,,,,
+spineoff,em5,0
+spriteatlas,download/character/101201/adv/atlas/stand_a,body:shy,lid,25,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>Ván vừa rồi chỉ là tôi chưa nắm rõ luật thôi。Được、 chơi thêm một ván nữa。Lần này tôi sẽ nghiền nát cậu cho xem。</outline></size>,,,,,,,,,,
+playvoice,1,/download/character/101201/adv/sound/fav101201_04_20.mp3
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
