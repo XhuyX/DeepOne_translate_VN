@@ -1,0 +1,220 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10160200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm096.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_01.mp3
+name,<outline width=2 color=black>Sora</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Tôi muốn yêu thương bạn。Đó là cảm xúc sâu thẳm nhất trong tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_02.mp3
+msg,1,<outline width=2 color=black>Có lẽ、 tình yêu của tôi、 theo cách nhìn của các bạn、 có thể là sai lầm gì đó。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_03.mp3
+msg,1,<outline width=2 color=black>Nhưng、 dù vậy……cảm xúc này là thật。Nếu sai、 tôi muốn biết。Tôi muốn yêu thương các bạn một cách đúng đắn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_04.mp3
+msg,1,<outline width=2 color=black>Vì điều đó、 cần những gì nhỉ……này。Bạn nghĩ thế nào mới là được yêu thương？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_05.mp3
+msg,1,<outline width=2 color=black>Tôi muốn làm điều đó cho bạn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Như ôm ấp nhau chẳng hạn,Chỉ cần ở bên nhau là đủ
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_06.mp3
+name,<outline width=2 color=black>Sora</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Là như thế này sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,sora,0.6_0.6,0.5,0
+anm,move,sora,0_-150,0.5,0
+playse,/download/sound/se/se_028.mp3
+endwait,,,,,,,,,,,
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-150,0.6,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_07.mp3
+msg,1,<outline width=2 color=black>Fufu……cơ thể bạn to quá、 tôi ôm bạn cũng hơi khó khăn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,sora,0.7_0.7,0.5,0
+anm,move,sora,0_-190,0.5,0
+playse,/download/sound/se/se_028.mp3
+wait0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-190,0.7,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_08.mp3
+msg,1,<outline width=2 color=black>A……hihi。Được bạn ôm chặt lại、 tôi vui quá……trong sâu thẳm trái tim、 tràn ngập thứ ấm áp。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-190,0.7,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_09.mp3
+msg,1,<outline width=2 color=black>Nhưng điều này có hơi khác với tưởng tượng của tôi。Dù muốn yêu thương……dù muốn dâng hiến、 nhưng cảm xúc nhận được lại lớn hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:surprise,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_10.mp3
+msg,1,<outline width=2 color=black>Ở bên nhau……？ Chỉ vậy thôi sao？ Như thế chẳng có gì khó khăn cả……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:sad,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_11.mp3
+msg,1,<outline width=2 color=black>……Có cảm giác bạn đang lảng tránh？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:sad,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_12.mp3
+msg,1,<outline width=2 color=black>Nhưng、 nếu bạn nói vậy thì có lẽ đúng……yêu thương là chỉ cần ở bên nhau……hmm、 thật sự như vậy được sao……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_13.mp3
+msg,1,<outline width=2 color=black>Ít nhất……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,sora,0.6_0.6,0.5,0
+anm,move,sora,0_-150,0.5,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-150,0.6,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_14.mp3
+msg,1,<outline width=2 color=black>Tôi muốn được ở gần hơn như thế này……và nắm tay。Không hiểu sao、 bây giờ tôi rất muốn được chạm vào bạn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,sora,0.7_0.7,0.5,0
+anm,move,sora,0_-190,0.5,0
+playse,/download/sound/se/se_045.mp3
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:smile,sora,0,-190,0.7,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_15.mp3
+msg,1,<outline width=2 color=black>……Thật kỳ lạ。Nắm tay thế này、 cảm xúc muốn chạm vào bạn càng dâng trào hơn nữa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-190,0.7,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_16.mp3
+msg,1,<outline width=2 color=black>Không được rồi……cứ đòi hỏi bạn thế này。Tôi muốn dâng hiến tình yêu cho bạn……thế mà lại thế này、 thật mất cân đối。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-190,0.7,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_17.mp3
+name,<outline width=2 color=black>Sora</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ít nhất……tôi muốn đáp lại phần nào cảm xúc mà bạn mang lại cho tôi……nên nhé、 hãy khom người xuống một chút？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,sora1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora2,0,0,0,0,,,,
+imgconf,sora2,sora1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105404/adv/sound/fav105404_05_18.mp3
+name,<outline width=2 color=black>Sora</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ừm……chụt、 chụt……chụp……ưm、 chụt</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:smile,sora,0,-190,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_19.mp3
+name,<outline width=2 color=black>Sora</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nụ hôn……Chỉ bằng lời nói、 tôi vẫn chưa thể truyền đạt tốt。Nên tôi nghĩ đây là cách tốt nhất để truyền cảm xúc đến bạn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:sad,sora,0,-190,0.7,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_20.mp3
+msg,1,<outline width=2 color=black>Nhưng、 thật lạ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:sad,sora,0,-190,0.7,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_21.mp3
+msg,1,<outline width=2 color=black>Dù đã hôn để truyền đạt、 để dâng hiến……nhưng sao trong trái tim tôi lại tràn ngập sự ấm áp hơn lúc nãy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:sad,sora,0,-190,0.7,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_22.mp3
+msg,1,<outline width=2 color=black>Muốn cho đi、 lại được nhận……thật kỳ lạ。Không như ý muốn、 thật bối rối。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-190,0.7,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_23.mp3
+msg,1,<outline width=2 color=black>Bối rối thật đấy……nhưng、 không hiểu sao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-190,0.7,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_24.mp3
+msg,1,<outline width=2 color=black>Tôi không ghét điều này……dù tôi hiện hữu để yêu thương bạn。Tôi cảm thấy vui sướng khi được thỏa mãn như thế này……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:smile,sora,0,-190,0.7,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_05_25.mp3
+msg,1,<outline width=2 color=black>Thật là chuyện lạ nhỉ……hihi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

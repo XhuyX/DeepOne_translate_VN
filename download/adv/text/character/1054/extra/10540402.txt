@@ -1,0 +1,237 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10030300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm175.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,sora1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:sad,sora2,0,0,0,0,,,,
+imgconf,sora2,sora1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105404/adv/sound/fav105404_04_01.mp3
+name,<outline width=2 color=black>Sora</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>kuchupi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:sad,sora,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_02.mp3
+name,<outline width=2 color=black>Sora</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>nmu…… chỗ này hơi lạnh nhỉ……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:surprise,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_03.mp3
+msg,1,<outline width=2 color=black>……？ Gì thế。Có chuyện gì vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Cái hắt xì dễ thương,Hắt xì、 à……？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:shy,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_04.mp3
+name,<outline width=2 color=black>Sora</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>A…… e、 ờm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:shy,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_05.mp3
+msg,1,<outline width=2 color=black>Được khen dễ thương thì cũng vui đấy…… nhưng mà bị người ta cố tình nhắc đến chuyện hắt xì、 hơi ngượng……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:shy,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_06.mp3
+msg,1,<outline width=2 color=black>Ch、 chả hiểu sao…… cảm giác vừa mềm mềm、 vừa nhũn nhũn、 một tâm trạng cực kỳ phức tạp</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:shy,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_07.mp3
+name,<outline width=2 color=black>Sora</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Hả？ A、 a lè、 chẳng lẽ mình hơi kỳ sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:shy,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_08.mp3
+msg,1,<outline width=2 color=black>T、 tại sao lại cười hả？ Nè、 hắt xì của mình kỳ lắm hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:shy,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_09.mp3
+msg,1,<outline width=2 color=black>Uu、 hắt xì thế nào thì tự mình cũng chẳng rõ đâu…… k、 kỳ quái。Hắt xì của mình、 nó kỳ quái lắm hả……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,sora1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:shy,sora2,0,0,0,0,,,,
+imgconf,sora2,sora1,0,-410,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/105404/adv/sound/fav105404_04_10.mp3
+msg,1,<outline width=2 color=black>kuchupi！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:shy,sora,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_11.mp3
+name,<outline width=2 color=black>Sora</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Ts、 a…！ Ts…！ Đừng cười、 không—được—！ Quên đi！ Quên—đi—！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:sad,sora,0,-120,0.5,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_12.mp3
+name,<outline width=2 color=black>Sora</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>U、 uuu…… —— eii！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,sora,0.6_0.6,0.5,0
+anm,move,sora,0_-150,0.5,0
+endwait
+shake,0.2,4,10,10
+playse,/download/sound/se/se_020.mp3
+endwait,,,,,,,,,,,
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:smile,sora,0,-150,0.6,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_13.mp3
+msg,1,<outline width=2 color=black>gyuu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-150,0.6,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_14.mp3
+msg,1,<outline width=2 color=black>N…… dù lạnh、 nhưng cứ dính vào nhau thế này、 sẽ ấm lên nhỉ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-150,0.6,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_15.mp3
+msg,1,<outline width=2 color=black>Vì hắt xì ngượng quá、 nên cứ thế này một lát cũng được。…… Được chứ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:smile,sora,0,-150,0.6,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_16.mp3
+msg,1,<outline width=2 color=black>Fufu…… cánh tay của bạn、 vừa chắc chắn vừa to…… sao đó、 cứ ôm chặt thế này、 không chỉ ấm mà còn thấy yên tâm nhỉ</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:smile,sora,0,-150,0.6,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_17.mp3
+msg,1,<outline width=2 color=black>gyuu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:surprise,sora,0,-150,0.6,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_18.mp3
+msg,1,<outline width=2 color=black>——…… a</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:shy,sora,0,-150,0.6,0,,,,
+endwait,,,,,,,,,,,
+wait,1
+endwait,,,,,,,,,,,
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-150,0.6,0,,,,
+endwait,,,,,,,,,,,
+wait,0.5
+endwait,,,,,,,,,,,
+
+
+anm,scale,sora,0.65_0.65,0.5,0
+anm,move,sora,0_-170,0.5,0
+playse,/download/sound/se/se_028.mp3
+endwait,,,,,,,,,,,
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-170,0.65,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_19.mp3
+msg,1,<outline width=2 color=black>…… gyu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:smile,sora,0,-170,0.65,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_20.mp3
+msg,1,<outline width=2 color=black>………… fufu。Ôm chặt ngực mình、 vui không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-170,0.65,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_21.mp3
+msg,1,<outline width=2 color=black>Định giấu cũng vô ích đâu。Vì tôi biết hết mà</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-170,0.65,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_22.mp3
+msg,1,<outline width=2 color=black>Tôi có đủ cả ba yếu tố của Birth of Yith。Không chỉ là vật chứa、 mà còn có tính chất của cơ quan thụ cảm nữa、 đương nhiên là vậy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:normal,sora,0,-170,0.65,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_23.mp3
+msg,1,<outline width=2 color=black>Cho nên…… bạn đang hồi hộp thế nào、 tôi cảm nhận được đấy</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:smile,sora,0,-170,0.65,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_24.mp3
+msg,1,<outline width=2 color=black>gyuu</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,sora,0.7_0.7,0.5,0
+anm,move,sora,0_-190,0.5,0
+playse,/download/sound/se/se_028.mp3
+endwait,,,,,,,,,,,
+
+spriteatlas,download/character/105400/adv/atlas/stand_a,body:smile,sora,0,-190,0.7,0,,,,
+playvoice,1,download/character/105404/adv/sound/fav105404_04_25.mp3
+msg,1,<outline width=2 color=black>Fufu。Đây là lời cảm ơn vì đã làm tôi ấm lên。Sẽ thật nhiều、 rất nhiều、 ôm chặt ngực cho bạn đây</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

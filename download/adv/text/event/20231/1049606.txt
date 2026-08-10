@@ -1,0 +1,663 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11490301.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm025.mp3,0,
+endwait,,,,,,,,,,,
+slideinblack,0.5,left
+endwait,,,,,,,,,,,
+spineoff,all,0
+endwait,,,,,,,,,,,
+slideoutblack,0.5,left
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,1200,-130,0.5,0,,,,
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_048.mp3
+anm,move,nowa,0_-130,1.2,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Noa Valard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Haa。。。đã phải tham gia cái trò Tìm kiếm thôi cũng đủ u uất rồi、 giờ còn bị cuốn vào chuyện rắc rối thế này nữa chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Mà nói thật、 cô bị ngốc à？ Không thể chiến đấu lại một mình đuổi theo Maya。。。đến cái suy nghĩ cũng có giới hạn đấy chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dầm mưa trong thứ mưa chết tiệt đầy lời nguyền chỉ để chạy theo một người phụ nữ、 đúng là khổ hết chỗ nói。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Có ý nghĩa gì khi cố tình làm đến mức vậy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đồng đội、 quan trọng đến vậy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi chẳng hiểu nổi。Cùng ai đó hành động chẳng qua chỉ toàn rắc rối thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ngay cả bây giờ…… nếu Maya không tham gia cuộc Tìm kiếm hôm nay thì ngay từ đầu vấn đề này đã không xảy ra。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Bị cuốn vào chuyện riêng hay rắc rối của người khác、 phải để tâm、 thỉnh thoảng lại xung đột。Đi cùng ai đó、 toàn là phiền phức thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Một mình thật cô đơn。,Dù vậy vẫn có thể hỗ trợ lẫn nhau。
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+name,<outline width=2 color=black>Noa Valard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Cô đơn ư？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Lại còn là câu chuyện trẻ con thế sao。Vì cô đơn nên chấp nhận rủi ro để ở bên ai đó ư？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Với tôi、 đó là cách suy nghĩ không thể hiểu nổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+name,<outline width=2 color=black>Noa Valard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Hừm、 có lẽ loại người như cô chỉ có thể sống như thế thôi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Điều tôi không hiểu là những người khác dường như cũng đồng tình với cô……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Thôi được rồi。Chắc chắn、 đó là việc tôi không thể hiểu nổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+name,<outline width=2 color=black>Noa Valard</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Là Valard、 là Tông đồ của Nguyên thư Al Azif、 tôi đã chiến đấu một mình。Một mình là đủ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tôi chưa từng dựa dẫm vào ai khác ngoài bản thân、 và từ nay tôi cũng không định làm lựa chọn như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì thế、 tôi không thể đồng cảm với cái cách xuề xòa như các người。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Không đến mức phủ nhận、 nhưng cũng không định xuôi theo。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Vậy mà giờ bị cuốn vào thế này、 thật là một sự mỉa mai。Đúng là không nên hợp tác……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:normal,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Thôi thì lần này đã đến mức này rồi、 và nửa vời cũng khó chịu、 nên tôi sẽ đi cùng đến cuối、 nhưng rắc rối thế này thì không có lần thứ hai đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:anger,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>……Này。Có gì mà cười hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105305/adv/atlas/stand_a,body:sad,nowa,0,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Trong tình huống này có yếu tố nào đáng cười sao？ Thật không hiểu nổi、 cô đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10150100.jpg,1,255
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:sad,azi,-300,-120,0.5,0.5,,,,
+anm,tint,azi,150_150_150,0.0001,0
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hai người、 ổn cả chứ……？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:sad,azi,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vâng…… thành thật mà nói、 hơi khó chịu、 nhưng nếu nghĩ là chịu được thì cũng không đến mức không chịu nổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:sad,azi,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù vậy、 nếu bảo hành động như bình thường thì cũng hơi khó xử……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:sad,azi,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Tuy nhiên、 lời nguyền trong mưa không phải loại cướp mạng ngay lập tức、 có lẽ đó là điều may mắn trong rủi ro。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:sad,azi,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Vì có cả chuyện một khi bị Mamiya nguyền rủa thì chỉ còn cách từ bỏ mạng sống mà thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103317/adv/atlas/stand_a,body:normal,elica,300,-100,0.5,0.5,,,,
+anm,tint,azi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Tuy không rõ lắm、 nhưng Mamiya đó、 bị sợ hãi đến mức ấy sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:sad,azi,-300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tôi cũng chỉ nghe đồn、 nên có lẽ có phần thêm thắt……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:sad,azi,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dù sao cũng có câu không có lửa làm sao có khói。Chắc chắn thực tế có sợ hãi đến mức những tin đồn đó được thì thầm là sự thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:sad,ulusura,300,-130,0.5,0.5,,,,
+anm,tint,azi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Tôi không hứng thú với thuật nguyền rủa vùng Viễn Đông、 nhưng có thể dùng được lời nguyền như vậy、 hơi ngoài dự đoán đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:normal,ulusura,300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Nếu vậy、 thuần hóa thêm một chút rồi bắt cô ta hợp tác nghiên cứu cũng chẳng tệ nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:normal,ulusura,300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Như thế thì cũng có ích được đôi chút cho tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:smile,azi,-300,-120,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufu…… nếu nói điều đó với Maya-san、 chắc cô ấy sẽ vui đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:sad,ulusura,300,-130,0.5,0,,,,
+anm,tint,azi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Không phải tôi nói đâu、 nhưng người vui vì chuyện này có mà không có ai cả。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:normal,azi,-300,-120,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Không có chuyện đó đâu。Nếu có thể giúp ích cho Ursula-san mà cô ấy kính trọng、 chắc chắn Maya-san sẽ vui vẻ hợp tác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:normal,azi,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ít nhất、 so với việc bị sợ hãi vì cái tên Mamiya hay bị xa lánh vì né tránh sức mạnh lời nguyền、 thì như vậy chẳng phải vui hơn nhiều sao？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:sad,ulusura,300,-130,0.5,0,,,,
+anm,tint,azi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nhảm nhí。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:sad,ulusura,300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cái danh của gia tộc đó thì có là gì chứ？ Gia tộc đó từng làm gì trước đây、 đối với tôi chẳng quan trọng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:sad,ulusura,300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Sức mạnh gọi là lời nguyền cũng chỉ là một trong những thuật thức ma thuật。Có thể tôi quan tâm đến nó như đối tượng cần giải mã、 nhưng chẳng cần thiết phải cố tình tránh xa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:smile,azi,-300,-120,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chính vì Ursula-san như thế nên Maya-san mới quý mến phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,azi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103317/adv/atlas/stand_a,body:smile,elica,-300,-100,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải…… hiểu biết sâu về ma thuật、 nắm rõ bản chất của thứ gọi là lời nguyền、 thế mà thái độ vẫn chẳng thay đổi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103317/adv/atlas/stand_a,body:smile,elica,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Đối với Maya、 hành động như vậy của Ursula hẳn là khiến cô ấy rất yên lòng nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:sad,ulusura,300,-130,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đừng có xuyên tạc một cách kỳ quặc và nói những điều chẳng hiểu gì thế chứ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103317/adv/atlas/stand_a,body:smile,elica,-300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Fufu。Chỉ với lời nguyền、 có vẻ không thể bóc được cái tính cứng đầu của Ursula rồi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:sad,ulusura,300,-130,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chính vì thế、 dù có nói về sự bướng bỉnh hay gì đi nữa… nếu là người khác thì không nói、 chứ bạn không có quyền nói những điều như vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:normal,azi,-300,-120,0.5,0.5,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy、 nếu là tôi thì có thể cho phép trêu chọc một chút được không ạ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:anger,ulusura,300,-130,0.5,0,,,,
+anm,tint,azi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cô coi thường người ta cũng vừa phải thôi đấy、 con nhỏ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:smile,azi,-300,-120,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phù phù。Xin lỗi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:sad,ulusura,300,-130,0.5,0,,,,
+anm,tint,azi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Quả thật、 trông có vẻ rất thảnh thơi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:normal,azi,-300,-120,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Gượng gạo thôi。Cô Ursula cũng vậy、 có phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:normal,ulusura,300,-130,0.5,0,,,,
+anm,tint,azi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đối với tôi、 mức độ lời nguyền và đau đớn thế này chẳng có vấn đề gì to tát。Chỉ có vậy thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ulusura,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hai người、 mồ hôi đầm đìa đấy……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:sad,azi,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trời mưa nên độ ẩm cao、 hơi oi bức nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:sad,ulusura,300,-130,0.5,0.5,,,,
+anm,tint,azi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Cái tiệm này、 máy điều hòa không hoạt động hay sao vậy？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,azi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103317/adv/atlas/stand_a,body:sad,elica,-300,-100,0.5,0.5,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Đúng là、 mạnh miệng thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,ulusura,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phải nhanh chóng、 hóa giải lời nguyền……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103317/adv/atlas/stand_a,body:normal,elica,-300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện đó、 chỉ còn cách tin tưởng tên đệ tử truy đuổi Maya và Noa thôi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ừm……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:normal,ulusura,-300,-130,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>– Giao phó cho ai đó、 hợp với tính tôi lắm nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:normal,ulusura,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Ngồi lì ở chỗ này cũng đã quá đủ rồi nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:normal,ulusura,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Trà uống xong rồi、 chúng ta cũng đi thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nh、 nhưng、 cả hai người cơ thể …！</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:normal,ulusura,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Ngồi yên thì lời nguyền cũng đâu có tự hóa giải đâu。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103317/adv/atlas/stand_a,body:sad,elica,300,-100,0.5,0.5,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chính vì thế nên bọn đệ tử mới……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:normal,ulusura,-300,-130,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Dù sao cũng là chuyện của Maya。Hẳn là cô ấy đang buồn vì đã giáng lời nguyền lên chúng ta、 rồi mọi chuyện lại càng rắc rối hơn đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:normal,ulusura,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Cái tên đó mà、 hẳn là sẽ từ tốn nghe Maya nói linh tinh đủ thứ、 chứ chờ đợi kiểu đó càng vô ích。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103317/adv/atlas/stand_a,body:sad,elica,300,-100,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Chuyện đó thì……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:normal,ulusura,-300,-130,0.5,0,,,,
+anm,tint,elica,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Còn hơn chờ đợi、 chúng ta ra tay sẽ nhanh hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,elica,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:sad,azi,300,-120,0.5,0.5,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Tuy nói vậy、 nhưng nếu cứ hành động dưới lời nguyền、 mà có chuyện gì cản trở các vị……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:normal,ulusura,-300,-130,0.5,0,,,,
+anm,tint,azi,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Nếu không tự tin thì cứ ngồi yên ở đây đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:normal,azi,300,-120,0.5,0,,,,
+anm,tint,ulusura,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>– Ồ。Tôi chỉ lo lắng cho cô Ursula thôi、 còn bản thân tôi thì chẳng có vấn đề gì。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,azi,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Hả…！？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:anger,ulusura,-300,-130,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Ursula Arkhart</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Vậy thì、 đi nhanh thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/102155/adv/atlas/stand_a,body:smile,ulusura,-300,-130,0.5,0,,,,
+msg,0,<outline width=2 color=black>Dám xấc xược mà giáng lời nguyền lên tôi đây cơ mà。Có lẽ cần phải đáp lễ thật hậu hĩnh đây。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+playse,/download/sound/se/se_016.mp3
+anm,move,ulusura,1200_-130,1.2,0
+endwait,,,,,,,,,,,
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/181110/adv/atlas/stand_a,body:smile,azi,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Kibashi Ajisai</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>Phù phù。Chuyện như vậy……đáng lẽ cứ thành thật nói là lo lắng cho Maya-san thì hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+playse,/download/sound/se/se_016.mp3
+anm,move,azi,1200_-120,0.7,0
+endwait,,,,,,,,,,,
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103317/adv/atlas/stand_a,body:sad,elica,-300,-100,0.5,0.5,,,,
+anm,tint,elica,150_150_150,0.0001,0
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>A、 uu……phải làm sao đây、 họ đi mất rồi……</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103317/adv/atlas/stand_a,body:sad,elica,-300,-100,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Erica Liubia</outline>,,,,,,,,,,
+msg,0,<outline width=2 color=black>……Đúng thật。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103317/adv/atlas/stand_a,body:smile,elica,-300,-100,0.5,0,,,,
+msg,0,<outline width=2 color=black>Chắc có ngăn cản cũng vô ích nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

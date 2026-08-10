@@ -1,0 +1,143 @@
+﻿// machine translate -- deepseek:deepseek-v4-flash
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11860301.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm152.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:unique,terutia,0,-140,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_01.mp3
+name,<outline width=2 color=black>Tertia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Nhân tiện、 tôi nhớ ra là cần phải dạy dỗ cậu một bài đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:anger,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_02.mp3
+msg,1,<outline width=2 color=black>Cậu đã nói gì với Norn và Frau rồi、 phải không？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:anger,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_03.mp3
+msg,1,<outline width=2 color=black>Vờ mặt ngơ ngác… hai đứa nó đã gọi tôi là Tia-mama đấy。Dĩ nhiên tôi biết là nói đùa。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:anger,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_04.mp3
+msg,1,<outline width=2 color=black>Nhưng cách gọi như thế không phù hợp với tôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:unique,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_05.mp3
+msg,1,<outline width=2 color=black>Hai đứa nó gọi tôi kiểu bông lơn vậy、 nghĩ thế nào cũng là tại cậu。Thú nhận đi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,Tôi không nói sai。,Đang ngượng à？
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:sad,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_06.mp3
+name,<outline width=2 color=black>Tertia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Có thể không sai、 nhưng cũng không chính xác。Đừng có cố tình xuyên tạc quan hệ và ép vào khuôn khổ gia đình như thế。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:unique,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_07.mp3
+msg,1,<outline width=2 color=black>Trời… nếu biết không chỉ cậu mà cả hai đứa kia cũng gọi tôi thế、 Zero sẽ khóc mất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:normal,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_08.mp3
+msg,1,<outline width=2 color=black>Nếu muốn gọi 'mama' đến thế thì cứ gọi Zero đi。Có lẽ nó sẽ vui đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:anger,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_09.mp3
+name,<outline width=2 color=black>Tertia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Không hề ngượng。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:sad,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_10.mp3
+msg,1,<outline width=2 color=black>Nhưng có chút bối rối。Sao các cậu lại muốn đối xử với tôi như mẹ thế？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:sad,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_11.mp3
+msg,1,<outline width=2 color=black>Nhân tiện、 con người thường tin vào khái niệm thần thánh、 đôi khi còn định nghĩa nó như cha… có lẽ là cảm giác gần giống vậy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:unique,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_12.mp3
+msg,1,<outline width=2 color=black>…Quả thật khó hiểu。Nếu muốn gọi thế、 thì so với tôi – người xây dựng thuật thức、 Zero vốn là mảnh vỡ từ hạt nhân thuật thức mới gần với hình tượng người mẹ hơn nhiều。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:sad,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_13.mp3
+name,<outline width=2 color=black>Tertia</outline>,,,,,,,,,,
+msg,1,<outline width=2 color=black>Mỗi lần các cậu đùa giỡn coi tôi như mẹ、 tôi lại bị Zero trừng mắt…</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:unique,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_14.mp3
+msg,1,<outline width=2 color=black>………… Dù có vẻ mặt ủ rũ thế cũng vô ích。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:unique,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_15.mp3
+msg,1,<outline width=2 color=black>Tôi biết cậu đang muốn lợi dụng tình thế đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:unique,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_16.mp3
+msg,1,<outline width=2 color=black>Trời、 chẳng có kẽ hở nào… nói cách khác、 có lẽ tôi không nên nói、 nhưng đó là việc của một 'cơ quan tiếp nhận thiện ý' đấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:sad,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_17.mp3
+msg,1,<outline width=2 color=black>Tuy vai trò của thuật thức giờ đã chỉ còn hình thức、 nhưng cậu là kẻ tiếp xúc với thiện ý của con người、 hãy cư xử cho ra dáng hơn đi、 ra dáng ấy。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:sad,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_18.mp3
+msg,1,<outline width=2 color=black>Sao cậu、 một đứa bé như cậu lại cứ làm những chuyện lệch chuẩn thế nhỉ？</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104710/adv/atlas/stand_a,body:smile,terutia,0,-140,0.5,0,,,,
+playvoice,1,download/character/104710/adv/sound/fav104710_02_19.mp3
+msg,1,<outline width=2 color=black>…Trẻ con、 thực sự、 thật khó hiểu nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
