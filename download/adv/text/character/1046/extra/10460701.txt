@@ -1,0 +1,196 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11110300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm197.mp3,0,
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,perufe1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:normal,perufe2,0,0,0,0,,,,
+imgconf,perufe2,perufe1,0,-600,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/104607/adv/sound/fav104607_01_01.mp3
+name,<outline width=2 color=black>Perfe</outline>,
+msg,1,<outline width=2 color=black>「――Phù。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_02.mp3
+name,<outline width=2 color=black>Perfe</outline>,
+msg,1,<outline width=2 color=black>「Nước ngâm không tệ chút nào。Nơi này đúng là một lãnh vực khá có giá trị đấy chứ。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_03.mp3
+msg,1,<outline width=2 color=black>「Cơ mà、anh lên bờ sớm thật đấy、không thích ngâm mình đến thế sao？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:sad,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_04.mp3
+msg,1,<outline width=2 color=black>「À。Hay là ở một mình thấy bất an đấy à。Nếu vậy thì anh nhạy cảm thật đấy nhé。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_05.mp3
+msg,1,<outline width=2 color=black>「Dù có chia ra bên nam bên nữ đi nữa、với khoảng cách chừng này thì dẫu xảy ra chuyện gì tôi vẫn thừa sức bảo đảm an toàn cho anh mà、chẳng phải đã bảo rồi sao。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1　「Cô thích suối nước nóng à？」,選択肢2　「Tôi tưởng mình đã ngâm đủ thong dong rồi chứ」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_06.mp3
+name,<outline width=2 color=black>Perfe</outline>,
+msg,1,<outline width=2 color=black>「Đâu có。Chẳng thích chút nào nhé。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_07.mp3
+msg,1,<outline width=2 color=black>「Thế nhưng、nhờ có được vật chứa nhỏ bé này mà giác quan cơ thể trở nên nhạy bén hơn、và việc ngâm mình trong nước nóng cũng khiến tôi cảm thấy không tệ chút nào、đó cũng là sự thật。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:anger,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_08.mp3
+msg,1,<outline width=2 color=black>「Dù vậy thì cũng chưa đến mức thích đâu nhé。Dẫu đã mất đi ngai mộng của Nguyên thư Pnakotic、tôi cũng chưa sa sút đến độ nảy sinh thiện cảm với thói quen hay văn hóa của con người đâu。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_09.mp3
+name,<outline width=2 color=black>Perfe</outline>,
+msg,1,<outline width=2 color=black>「Ý anh muốn nói gì đây hả。Chẳng lẽ lại định cằn nhằn rằng tôi ngâm bồn quá lâu đấy à？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_10.mp3
+msg,1,<outline width=2 color=black>「Đúng là trước đây tôi từng tồn tại với chuẩn mực vượt xa con người。Dù đang thu mình trong vật chứa nhỏ bé này、nếu bị bảo là có sự lệch pha trong cảm giác thì tôi cũng chẳng thể phủ nhận。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:anger,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_11.mp3
+msg,1,<outline width=2 color=black>「Thế nhưng、dẫu tôi có ngâm suối nước nóng lâu hơn thông thường đi nữa、thì tuyệt đối không phải vì thích thú tận hưởng mà ngâm lâu đâu nhé。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:anger,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_12.mp3
+name,<outline width=2 color=black>Perfe</outline>,
+msg,1,<outline width=2 color=black>「……Ánh mắt đó là sao hả。Có điều gì muốn nói thì cứ mở miệng ra nói xem nào。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_13.mp3
+msg,1,<outline width=2 color=black>「Hừ…… thôi kệ đi。Muốn hiểu lầm thì anh cứ việc tự đi mà hiểu lầm。Anh nghĩ gì chẳng dính dáng gì đến tôi。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_14.mp3
+msg,1,<outline width=2 color=black>「Nhân tiện thì、tôi muốn hỏi một câu…… mái tóc này、đã được búi gọn ghẽ đàng hoàng chưa hả。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:normal,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_15.mp3
+msg,1,<outline width=2 color=black>「Bình thường toàn là Mari tự tiện chăm sóc cho、thành ra tự mình làm cứ thấy lúng túng thế――……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_16.mp3
+msg,1,<outline width=2 color=black>「……Đừng có mà hiểu lầm đấy nhé、chuyện cỏn con cỡ này、đương nhiên chẳng cần cậy nhờ Mari tôi vẫn làm được hoàn hảo tuyệt đối。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:anger,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_17.mp3
+msg,1,<outline width=2 color=black>「Thế nhưng、cảm nhận của con người đôi khi lại tìm kiếm nét dở dang thay vì hình thái hoàn hảo đúng không？ Cảm giác phi lý đó tôi vẫn chưa tài nào hiểu hết được。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:sad,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_18.mp3
+msg,1,<outline width=2 color=black>「Thế nên、tuy bản thân tự tin là mình đã làm hoàn hảo、nhưng chẳng qua tôi chỉ muốn xác nhận xem dưới góc nhìn con người thì trông ra sao thôi。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:anger,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_19.mp3
+msg,1,<outline width=2 color=black>「Rõ chưa hả？ Hiểu rồi chứ？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:unique,perufe,0,-170,0.5,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_20.mp3
+msg,1,<outline width=2 color=black>「――Thế à。Tóc tai không có vấn đề gì thì được rồi đấy。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:normal,perufe,0,-200,0.6,0.5,,,,
+endwait
+playvoice,1,download/character/104607/adv/sound/fav104607_01_21.mp3
+msg,1,<outline width=2 color=black>「…………Này。Sao anh lại tự tiện chạm vào tóc tôi thế hả。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:unique,perufe,0,-200,0.6,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_22.mp3
+msg,1,<outline width=2 color=black>「Hợp hay không thì tôi đâu có hỏi。Chuyện người ta không hỏi thì anh đâu cần phải trả lời。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:unique,perufe,0,-200,0.6,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_23.mp3
+msg,1,<outline width=2 color=black>「Dẫu có được anh khen là hợp đi nữa、thì tôi cũng chẳng mảy may xúc động chút nào đâu。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:sad,perufe,0,-200,0.6,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_24.mp3
+msg,1,<outline width=2 color=black>「……Nhưng mà、thôi thì ngâm suối nước nóng xong tâm trạng cũng không tệ。Cho nên tôi sẽ giúp một tay điều tra lãnh vực này。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104607/adv/atlas/stand_a,body:normal,perufe,0,-200,0.6,0,,,,
+playvoice,1,download/character/104607/adv/sound/fav104607_01_25.mp3
+msg,1,<outline width=2 color=black>「Liệu mà biết ơn đi đấy nhé。」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

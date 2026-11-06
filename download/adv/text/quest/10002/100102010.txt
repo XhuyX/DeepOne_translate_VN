@@ -1,0 +1,739 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10030101.jpg,0
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm007.mp3,0.5,,,
+endwait
+sprite,download/monster/28020106/adv/image/28020106.png,boss,0,-120,1,0.5
+endwait
+name,<size=27><outline width=2 color=black>Kẻ ngu đồ dâng hiến mạng sống phản nghịch</outline></size>,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「―――――――――――――――――――！」</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+shake,0.2,4,50,50
+endwait
+clickwait
+spriteoff,boss,0
+endwait
+spriteatlas,download/character/100901/adv/atlas/stand_b,body:anger,ily,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:anger,dana,300,-120,0.5,0.5,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana Darrell Doumyouji</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ư…… Mạnh quá…… Khác hẳn với ảo ảnh……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_2_10_01.mp3
+clickwait,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Rắc rối thật。 Tới gần là trúng độc sao…… Da bắt đầu tan chảy rồi。 Dù có thể chống đỡ phần nào nhưng không thể tập trung tấn công được」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_01.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,65,-120,0.5,0.5,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Quả nhiên、 tôi cũng phải chiến đấu cùng mọi người……！」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_10_01.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+stopbgm,0.5
+name,
+msg,0,
+endwait
+mask,bg1,0,0,1280,250,0.2,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,catia1,0,0,1280,250,0.2,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:normal,catia,0,0,0,0,,,,
+imgconf,catia,catia1,0,20,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「——Không sao đâu」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_01.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+wait,0.5
+endwait
+playbgm,/download/sound/bgm/bgm010.mp3,0,,,
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,65,-120,0.5,0.5,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Hả……？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_10_02.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:normal,catia,0,-100,0.5,0.5,,,
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Jamila…… Cô、 lại bị căn bệnh đó hành hạ sao」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_02.mp3
+clickwait,,,,,,,,,,
+spriteoff,catia,0
+endwait
+sprite,download/monster/28020106/adv/image/28020106.png,boss,0,-120,1,0.5
+endwait
+name,<size=27><outline width=2 color=black>Kẻ ngu đồ dâng hiến mạng sống phản nghịch</outline></size>,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「―――――――――――――――――――！」</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait
+spriteoff,boss,0
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:normal,catia,0,-100,0.5,0.5,,,
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「……Không sao đâu。 Dù có bao nhiêu lần、 tôi cũng sẽ lại vươn tay ra với cô。 Vì tôi muốn thấy nụ cười của cô」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_03.mp3
+clickwait,,,,,,,,,,
+spriteoff,catia,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:anger,dana,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Dana Darrell Doumyouji</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Nguy hiểm lắm、 Katia-san！ Với cô ấy hiện tại、 lời nói——」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_2_10_02.mp3
+clickwait,,,,,,,,,,
+spriteoff,dana,0
+endwait
+sprite,download/monster/28020106/adv/image/28020106.png,boss,0,-120,1,0.5
+endwait
+name,<size=27><outline width=2 color=black>Kẻ ngu đồ dâng hiến mạng sống phản nghịch</outline></size>,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「―――――――――――――――――――！」</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait
+spriteoff,all,0
+endwait
+spine,download/adv/spine/Slash3_Blue,em1,default,animation,0,0,0,1,0.8,0
+playse,/download/sound/se/se_037.mp3
+endwait
+shake,0.2,4,50,50
+spineoff,em1,0.2
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:sad,asaka,365,-120,0.5,0.5,,,
+spriteatlas,download/character/100901/adv/atlas/stand_b,body:anger,ily,-300,-120,0.5,0.5,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ư…… Katia！」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_02.mp3
+clickwait,,,,,,,,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Nguy rồi、 không kịp mất…… Katia……！」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_10_03.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+bg,color_255_255_255,1,255
+endwait
+mask,bg1,0,0,1280,250,0.,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,frau1,0,0,1280,250,0.,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,0,0,0,0,,,,
+imgconf,frau,frau1,0,-350,,,0,1.5,1.5,0.5
+endwait
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Không sao đâu…… Sức mạnh của người đó、 sẽ bảo vệ mọi người」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_2_10_01.mp3
+clickwait
+spriteoff,all,0
+endwait
+bg,download/bg/bg_10030101.jpg,1
+endwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:anger,ily,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Focalor！ Hãy bảo vệ Katia！ Vì điều đó、 ngươi muốn lấy bao nhiêu từ ta cũng được……！」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_03.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+name,
+msg,0,
+endwait
+mask,bg1,0,0,1280,300,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,foka1,0,0,1280,300,0.5,,,,
+sprite,download/character/100902/adv/image/dragon.png,foka,0,0,0,0
+imgconf,foka,foka1,0,-250,,,0,0.4,0.4,0.5
+shake,0.2,4,10,10
+flash,255,255,255,4,0.2,0
+playse,/download/sound/se/se_051.mp3
+playse,/download/sound/se/se_051.mp3
+endwait
+name,<size=27><outline width=2 color=black>Focalor</outline></size>,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「―――――――――――――――！」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+spriteoff,foka1,0
+spriteoff,bg1,0
+endwait
+sprite,download/monster/28020106/adv/image/28020106.png,boss,0,-120,1,0.5
+endwait
+name,<size=27><outline width=2 color=black>Kẻ ngu đồ dâng hiến mạng sống phản nghịch</outline></size>,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「―――――――――――――――――――！」</outline></size>,,,,,,,,,
+spine,download/adv/spine/Slash2_Blue,em1,default,animation,0,0,0,1,0.8,0
+spine,download/adv/spine/Slash2_Blue,em2,default,animation,0,200,0,1,0.8,0
+spine,download/adv/spine/Slash2_Blue,em3,default,animation,0,-200,0,1,0.8,0
+spine,download/adv/spine/Slash4_Blue,em4,default,animation,0,0,0,1,0.8,0
+spine,download/adv/spine/Slash4_Blue,em5,default,animation,0,200,100,1,0.8,0
+spine,download/adv/spine/Slash4_Blue,em6,default,animation,0,-200,-100,1,0.8,0
+playse,/download/sound/se/se_037.mp3
+wait,0.05
+playse,/download/sound/se/se_037.mp3
+wait,0.05
+playse,/download/sound/se/se_037.mp3
+wait,0.05
+endwait
+shake,0.2,4,50,50
+spineoff,em1,1
+spineoff,em2,1
+spineoff,em3,1
+spineoff,em4,1
+spineoff,em5,1
+spineoff,em6,1
+endwait
+clickwait
+spriteoff,boss,0
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:normal,catia,0,-100,0.5,0.5,,,
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Cảm ơn chị、 Irina…… vì đã bảo vệ em。 Không chỉ bây giờ、 mà cả từ trước đến nay nữa……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_04.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chị là người hiểu rõ sự yếu đuối của em hơn ai hết…… chính vì vậy、 chị mới rời bỏ em mà không nói một lời nào、 có phải không……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_05.mp3
+clickwait,,,,,,,,,,
+spriteoff,catia,0
+endwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:anger,ily,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Ư、 đừng có ngốc như vậy、 chuyện đó thì có sao chứ？ Bây giờ、 em chẳng thể làm được gì ở đây cả！」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_04.mp3
+clickwait,,,,,,,,,,,
+spriteoff,ily,0
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:normal,catia,0,-100,0.5,0.5,,,
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Có chứ…… Việc này、 em nghĩ chỉ có em mới có thể làm được」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_06.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:smile,catia,0,-100,0.5,0,,,
+msg,1,<size=30><outline width=2 color=black>「Jamila。 Xin hãy để tôi nắm lấy tay cô một lần nữa」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_07.mp3
+clickwait,,,,,,,,,,
+spriteoff,catia,0
+endwait
+sprite,download/monster/28020106/adv/image/28020106.png,boss,0,-120,1,0.5
+endwait
+name,<size=27><outline width=2 color=black>Kẻ ngu đồ dâng hiến mạng sống phản nghịch</outline></size>,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「――――――――……」</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_023.mp3
+clickwait
+spriteoff,boss,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_b,body:surprise,asaka,65,-120,0.5,0.5,,,
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Hả…… Chuyển động、 đã dừng lại rồi……？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_10_04.mp3
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:smile,catia,0,-100,0.5,0.5,,,
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「……Tôi sẽ không bỏ rơi cô đâu。 Dù cho chính bản thân cô có từ bỏ、 tôi cũng tuyệt đối không」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_08.mp3
+clickwait,,,,,,,,,,
+spriteoff,catia,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_b,body:anger,dana,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Dana Darrell Doumyouji</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Không được đâu、 tới gần là độc sẽ làm tan chảy cơ thể đấy……！」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_2_10_03.mp3
+clickwait,,,,,,,,,,
+spriteoff,dana,0
+endwait
+playse,/download/sound/se/se_046.mp3
+flash,255,255,255,2,1,0.5
+endwait
+spriteatlas,download/character/100902/adv/atlas/stand_b,body:surprise,ily,0,-120,0.5,0.5,,,,
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「……Chất độc、 đang tránh Katia ra sao？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_05.mp3
+clickwait,,,,,,,,,,,
+spriteoff,ily,0
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:smile,catia,0,-100,0.5,0.5,,,
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tôi xin lỗi、 Jamila。 Cô chỉ là…… cống hiến tất cả cho đức tin của tôi mà thôi……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_09.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Người khiến cô phải lạc lối、 chính là tôi với đôi mắt mù lòa này、 phải không。 ……Tôi xin hứa。 Lần này、 tôi sẽ…… chọn con đường không làm nụ cười của cô phải vướng bận u sầu」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_10.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Không phải do bẩm sinh hay do bị hoàn cảnh đưa đẩy。 Mà là con đường do chính ý chí của tôi lựa chọn…… Cô sẽ đi theo tôi chứ？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_11.mp3
+clickwait
+stopbgm,0.5
+spriteoff,catia,0
+endwait
+sprite,download/monster/28020106/adv/image/28020106.png,boss,0,-120,1,0.5
+endwait
+name,<size=27><outline width=2 color=black>Kẻ ngu đồ dâng hiến mạng sống phản nghịch</outline></size>,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>「――――……、……」</outline></size>,,,,,,,,,
+playse,/download/sound/se/se_019.mp3
+clickwait
+spriteoff,boss,0
+endwait
+flash,255,255,255,4,1,0.5
+bg,download/bg/bg_10030100.jpg,4
+endwait
+playbgm,/download/sound/bgm/ins_cha2.mp3,0.5,,,
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0.5,,,
+anm,tint,catia,150_150_150,0.0001,0
+endwait
+spriteatlas,download/character/101002/adv/atlas/stand_a,body:sad,jya,300,-120,0.5,2,,,,
+anm,tint,jya,255_255_255,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Aaa…… Người、 lại một lần nữa…… nắm lấy tay tôi sao」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_010_2_10_01.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101002/adv/atlas/stand_a,body:normal,jya,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Tất nhiên rồi…… Katia-sama。 Tôi sẽ luôn ở bên cạnh người、 bất kể lúc nào」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_010_2_10_02.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tôi muốn được trở nên có ích…… Tôi muốn báo đáp ơn huệ đã cứu rỗi tôi bằng hơi ấm từ bàn tay này、 cho người đã trao cho tôi sinh mệnh này」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_010_2_10_03.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Người mà tôi tin tưởng không phải là Thánh Lễ Giáo。 Mà chỉ có Katia-sama mà thôi」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_010_2_10_04.mp3
+clickwait,,,,,,,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,jya,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Cảm ơn cô…… Dù tôi vẫn chỉ là một đứa trẻ vô tri chưa thể làm được gì、 mới chỉ vừa mở mắt ra nhìn đời……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_12.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:smile,catia,-300,-100,0.5,0,,,
+msg,1,<size=30><outline width=2 color=black>「Nhưng tôi nhất định sẽ trở thành một người xứng đáng với đức tin của cô」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_13.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/101002/adv/atlas/stand_a,body:smile,jya,300,-120,0.5,0,,,,
+anm,tint,jya,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Jamila Jibril</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vâng」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_010_2_10_05.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:smile,asaka,365,-120,0.5,0.5,,,
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ily,-100,-120,0.5,0.5,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「…………」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_06.mp3
+clickwait,,,,,,,,,,,
+anm,move,ily,-400_-120,0.5,1
+endwait
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:surprise,asaka,365,-120,0.5,0,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Này、 khoan đã！ Chị định đi đâu vậy！？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_10_05.mp3
+clickwait,,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Tôi đã nói rồi mà。 Tôi không định đi cùng người của Thánh Lễ Giáo。 Nếu mọi người sát cánh cùng cô ta、 thì tôi chọn ở lại trong Dreamlands này」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_07.mp3
+clickwait,,,,,,,,,,,
+spriteoff,asaka,0
+endwait
+spriteatlas,download/character/100402/adv/atlas/stand_a,body:anger,dana,300,-120,0.5,0.5,,,,
+anm,tint,dana,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Dana Darrell Doumyouji</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Cô vẫn còn nói những lời như vậy sao…… Katia và Jamila hoàn toàn không phải là không biết gì cả」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_2_10_04.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chẳng phải họ đã khác xa với những giáo đồ Thánh Lễ Giáo mà cô chán ghét rồi hay sao？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_004_2_10_05.mp3
+clickwait,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,dana,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Dù vậy――tôi là người đã thề sẽ trả thù Thánh Lễ Giáo。 Không thể chung đường、 và cũng không bao giờ chung đường…… được」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_08.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0.3
+endwait
+mask,bg1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,0.5
+mask,ily1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:sad,ily,0,0,0,0,,,,
+imgconf,ily,ily1,0,-785,,,0,1.5,1.5,0.5
+endwait
+msg,1,<size=30><outline width=2 color=black>「Nếu không làm vậy…… tôi sợ rằng lòng thù hận này sẽ phai nhạt mất」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_09.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,1
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:anger,catia,-300,-100,0.5,0.5,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ily,300,-120,0.5,0.5,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Khoan đã……！」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_14.mp3
+clickwait,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「……Gì nữa？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_10.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:sad,catia,-300,-100,0.5,0,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Em đã không biết gì cả…… và cũng không hề muốn tìm hiểu。 Em chỉ tin vào những thứ tốt đẹp ngay trước mắt mình……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_15.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Việc chị rời bỏ Thánh Lễ Giáo chắc chắn phải có lý do。 Dù đã biết như vậy…… nhưng em vẫn cứ mù quáng nhắm mắt làm ngơ……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_16.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chị không thể tha thứ cho một đứa như em sao？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_17.mp3
+clickwait,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「……Không phải vậy。 Dù có hơi ngu ngốc nhưng tôi chưa bao giờ hận em cả。 Trách mắng một đứa trẻ không biết gì về tội lỗi thì có ích gì đâu chứ」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_11.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Thứ mà tôi không thể tha thứ、 là Thánh Lễ Giáo。 Bọn chúng đã cướp đi những thứ quan trọng của tôi、 và đến bây giờ vẫn tiếp tục cướp đi hạnh phúc của người khác……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_12.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Nên tôi muốn tiêu diệt nó」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_13.mp3
+clickwait,,,,,,,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Sự trả thù đó、 là điều quan trọng đối với Irina sao？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_18.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:sad,ily,300,-120,0.5,0,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「……Đừng nhìn tôi bằng ánh mắt đó」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_14.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Thứ quan trọng đối với tôi sao？ Những thứ đó đã mất đi từ lâu rồi」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_15.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Thứ quan trọng đối với tôi từng là……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_16.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait,
+msg,0,
+name,
+bg,color_0_0_0,1,255
+endwait,
+msg,0,<size=30><outline width=2 color=black>Những ngày tháng bình yên đã từng trải qua。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Cùng với bố mẹ hiền từ、 và một cô bé luôn quấn quýt tôi như chị ruột。 Mỗi ngày đều tràn ngập nụ cười…… đắm chìm trong hạnh phúc。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nhưng、 bố mẹ tôi dường như chẳng hề luyến tiếc những ngày tháng đó、 họ đã tự mình dấn thân vào Dreamlands。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Họ hoàn toàn bỏ ngoài tai những lời nài nỉ xin họ hãy quay về trong nước mắt của con gái mình。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>……Đúng vậy。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Sự thật khiến tôi phẫn nộ và đau buồn thực sự là——đối với bố mẹ、 tôi chỉ là một sự tồn tại mờ nhạt đến thế thôi。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Dù vậy、 tôi vẫn rất yêu bố mẹ…… và không biết phải trút cảm xúc này đi đâu。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>Nên tôi đã chĩa mũi nhọn đó vào Thánh Lễ Giáo、 để cảm xúc của mình thêm mạnh mẽ、 tôi đã vứt bỏ cả những tháng ngày từng rất quan trọng、 để không thể quay đầu lại được nữa……。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,
+name,
+msg,0,
+bg,download/bg/bg_10030100.jpg,1
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:sad,catia,-300,-100,0.5,0.5,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:sad,ily,300,-120,0.5,0.5,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「…………」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_17.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chị có thể gửi gắm tâm nguyện đó cho em được không？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_19.mp3
+clickwait,,,,,,,,,,
+spriteatlasdownload/character/100902/adv/atlas/stand_a,body:surprise,ily,300,-120,0.5,0.,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Em nói gì cơ……？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_18.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:anger,catia,-300,-100,0.5,0,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Em cũng sẽ không trốn tránh nữa…… Em sẽ nhìn thẳng vào sự thật、 và muốn thay đổi cách hoạt động của Thánh Lễ Giáo」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_20.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Em xin thề。 Vì hạnh phúc thực sự của mọi người…… vì những nụ cười、 em sẽ dâng hiến cả sinh mạng này」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_21.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Vì vậy、 em muốn chị sẽ là người ở bên cạnh và dõi theo em、 hơn bất cứ ai khác」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_22.mp3
+clickwait,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「…………」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_19.mp3
+clickwait,,,,,,,,,,
+spriteatlasdownload/character/100902/adv/atlas/stand_a,body:normal,ily,300,-120,0.5,0.,,,,
+msg,1,<size=30><outline width=2 color=black>「……Vậy à。 Chị cứ tưởng em là một đứa trẻ yếu đuối hơn cơ、 không ngờ trong lúc chị không để ý、 em lại trở nên……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_20.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:sad,ily,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Em có được sức mạnh để đối diện với chính trái tim mình và cả hiện thực…… hơn hẳn chị nhiều……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_21.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Có lẽ、 chị cũng không thể cứ trốn tránh mãi…… bằng một sự trả thù dễ dãi như thế này được nữa rồi……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_22.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:sad,catia,-300,-100,0.5,0,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「À ừm、 Irina……？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_23.mp3
+clickwait,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「…………Mặt mũi gì mà lo lắng thế」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_23.mp3
+clickwait,,,,,,,,,,
+spriteatlasdownload/character/100902/adv/atlas/stand_a,body:normal,ily,300,-120,0.5,0.,,,,
+msg,1,<size=30><outline width=2 color=black>「Em đã mạnh miệng như vậy、 thì chị cũng rất khó để mà tin vào lời nói của em được」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_24.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chung quy cũng chỉ là người của Thánh Lễ Giáo、 chắc chắn chỉ giỏi mạnh miệng chứ chẳng làm được gì。 Hạnh phúc hay nụ cười của con người、 em nghĩ mình có thể mang lại được sao？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_25.mp3
+clickwait,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+spriteatlas,download/character/100102/adv/atlas/stand_a,body:sad,asaka,-235,-120,0.5,0.5,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「K-Khoan đã…… Chị đâu cần phải nói đến mức đó……！」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_10_06.mp3
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100602/adv/atlas/stand_a,body:smile,frau,300,-120,0.5,0,,,,
+anm,tint,frau,255_255_255,0.0001,0
+anm,tint,asaka,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Frau</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Không sao đâu」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_006_2_10_02.mp3
+clickwait,,,,,,,,,,,
+anm,tint,asaka,255_255_255,0.0001,0
+anm,tint,frau,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Akai Asaka</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Frau？ Sao đến cả em cũng…… Sao lại cản chị……！ Không sao là không sao chỗ nào——」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_001_2_10_07.mp3
+clickwait,,,,,,,,,,,
+spriteoff,all,0
+endwait
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0.5,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ily,300,-120,0.5,0.5,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+endwait
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「——Chính vì chị không tin em、 nên em mới muốn chị ở bên cạnh、 để chứng kiến những hành động của em」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_24.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:smile,catia,-300,-100,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Và một ngày nào đó…… em muốn được chị công nhận」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_25.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Không được、 sao ạ？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_26.mp3
+clickwait,,,,,,,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「……Em nghĩ sẽ có ngày chị công nhận em sao？ Chị không nghĩ cũng không tin rằng một tổ chức như Thánh Lễ Giáo có thể thay đổi được nhờ một đứa như em đâu」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_26.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Rồi em sẽ sớm nhận ra thôi。 Rằng hiện thực vô cùng tàn nhẫn…… và tâm nguyện sẽ chẳng bao giờ thành hiện thực được」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_27.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:smile,catia,-300,-100,0.5,0,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Không sao đâu ạ、 vì em có những người ủng hộ em mà」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_27.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:sad,ily,300,-120,0.5,0,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「……Giá như em cứ ngoan ngoãn bị từ chối thì tốt biết mấy」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_28.mp3
+clickwait,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Có lẽ…… cũng đến lúc chị phải quyết tâm rồi chăng……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_29.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:normal,catia,-300,-100,0.5,0,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Irina……？」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_28.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:normal,ily,300,-120,0.5,0,,,,
+anm,tint,ily,255_255_255,0.0001,0
+anm,tint,catia,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Irina Ilizarova</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Không có gì đâu」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_30.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100902/adv/atlas/stand_a,body:anger,ily,300,-120,0.5,0,,,,
+msg,1,<size=30><outline width=2 color=black>「Nếu em đã nói đến mức đó、 thì chị sẽ dõi theo em ở vị trí gần nhất。 Để xem em có thể vùng vẫy được đến mức nào」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_009_2_10_31.mp3
+clickwait,,,,,,,,,,
+spriteatlas,download/character/100302/adv/atlas/stand_a,body:smile,catia,-300,-100,0.5,0,,,,
+anm,tint,catia,255_255_255,0.0001,0
+anm,tint,ily,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Katia Brunseva</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vâng ạ！」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_003_2_10_29.mp3
+clickwait,,,,,,,,,,
+stopbgm,1
+spriteoff,all,0
+msg,0,
+name,
+bg,color_0_0_0,1,255
+endwait
+msg,0,<size=30><outline width=2 color=black>……。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>…………。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+msg,0,<size=30><outline width=2 color=black>………………。</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+mask,bg3,0,-110,1280,200,0,1,,,
+sprite,download/adv/image/black.jpg,bg2,0,0,0,0
+imgconf,bg2,bg3,0,0,,,0,1,1,1
+mask,beat1,0,-110,1280,200,0,1,,,
+spriteatlas,download/character/102302/adv/atlas/stand_a,body:normal,beat,0,0,0,0,,,,
+imgconf,beat,beat1,0,-930,,,0,-1.5,1.5,1,
+mask,bg1,0,110,1280,200,0,1,,,
+sprite,download/adv/image/black.jpg,bg,0,0,0,0
+imgconf,bg,bg1,0,0,,,0,1,1,1
+mask,vi1,0,110,1280,200,0,1,,,
+spriteatlas,download/character/102202/adv/atlas/stand_a,body:normal,vi,0,0,0,0,,,,
+imgconf,vi,vi1,0,-1000,,,0,1.5,1.5,1
+endwait
+anm,tint,vi1,150_150_150,1,1
+endwait
+playbgm,/download/sound/bgm/bgm024.mp3,0.5,,,
+endwait
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「……Quả nhiên họ không phải là người xấu。 Tôi nghĩ vậy đấy」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_2_10_01.mp3
+clickwait,,,,,,,,,,,
+anm,tint,vi1,255_255_255,0.0001,0
+anm,tint,beat1,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Hừm、 cảm giác cô có vẻ thiên vị quá mức nhỉ、 nhưng đại khái là ta đồng ý」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_2_10_01.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Đúng hơn là nên dè chừng cô gái xuất hiện giữa chừng kia……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_2_10_02.mp3
+clickwait,,,,,,,,,,,
+anm,tint,beat1,255_255_255,0.0001,0
+anm,tint,vi1,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Vâng…… Đen kịt、 như một vực thẳm không đáy……」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_2_10_02.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chúng ta cũng phải báo cho anh Zeno biết。 Dù tốt hay xấu、 thì một cơn sóng lớn đã xuất hiện rồi」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_2_10_03.mp3
+clickwait,,,,,,,,,,,
+anm,tint,vi1,255_255_255,0.0001,0
+anm,tint,beat1,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Vee</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Có lẽ…… nên gọi nó là cả tốt lẫn xấu chăng」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_2_10_03.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Rốt cuộc thì…… ý chí của Pnakotic đang mong muốn điều gì đây」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_022_2_10_04.mp3
+clickwait,,,,,,,,,,,
+anm,tint,beat1,255_255_255,0.0001,0
+anm,tint,vi1,150_150_150,0.0001,0
+name,<size=27><outline width=2 color=black>Beatrice</outline></size>,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Chuyện đó thì làm sao mà biết được chứ」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_2_10_04.mp3
+clickwait,,,,,,,,,,,
+msg,1,<size=30><outline width=2 color=black>「Điều duy nhất có thể nói là、 đó là khát vọng của một con quái vật khổng lồ、 nó chẳng hề mảy may bận tâm đến những tồn tại nhỏ bé như chúng ta」</outline></size>,,,,,,,,,
+playvoice,1,/download/adv/voice/quest/main_023_2_10_05.mp3
+clickwait
+endwait
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+endif,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

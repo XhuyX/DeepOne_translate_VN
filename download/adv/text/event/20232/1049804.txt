@@ -1,0 +1,756 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm021.mp3,0,
+endwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>――Đóa kế tro tàn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nguyên mẫu của tôi、Kurobara và các Bản thảo Pnakotic khác。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Được sinh ra theo mong muốn của con người、nhưng lại bị xé vụn bởi sự ích kỷ của họ、\nbị tước đoạt cả lý do tồn tại là cống hiến cho con người…… Tôi cũng thấy xót thương cho cô ta。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tôi hiểu rõ niềm hạnh phúc khi được nở rộ vì Aika và được ở bên cạnh Aika。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Nếu như…… tôi mất đi sức mạnh và không thể giúp gì cho Aika nữa。\nNếu như mất đi hạnh phúc hiện tại。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Chỉ mới tưởng tượng thôi cũng thấy đáng sợ biết bao。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Đóa kế tro tàn ngay từ đầu thậm chí còn chưa từng có được hạnh phúc。\nChưa từng bước được bước đầu tiên。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Thế nhưng…… thấy xót thương cũng chỉ đến thế thôi。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Chẳng có chút tình cảm nào sâu xa hơn。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Người tôi trân quý nhất chỉ có Aika。\nAika là người quan trọng nhất。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Ngoài con bé ra thì tất cả những thứ khác đều xếp phía sau。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>……Nhưng mà sao thế này nhỉ。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>Tại sao trong sâu thẳm lồng ngực lại cảm thấy bồn chồn thế này。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,1,255
+endwait
+wait,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,1,255
+endwait
+wait,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010900.jpg,1,255
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm159.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,frau,150_150_150,0.0001,0
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,-300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Chậc、a a thật tình！Cái con người này bị làm sao vậy！\nTại sao cứ bám theo sau đuôi tôi thế hả！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「A…… ừm thì、chắc Azami chưa quen với R'lyeh nên……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1　「Anh muốn thân thiết hơn với cô」,選択肢2　「Cô có gặp khó khăn gì không？」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,-300,-90,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Tôi mà lại đi làm thân với con người á？Trò đùa ác ý đấy、dẹp đi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,-300,-90,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Quan tâm thừa thãi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,-300,-90,0.5,0,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Giả sử có gặp khó khăn gì tôi sẽ nhờ cậy Shira Zakura。\nChứ không đời nào mượn tay lũ người trần」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:sad,aika_s,300,-120,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Hểー？Tôi đâu có ý định làm gì cho đóa kế tro tàn đâu？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:sad,azami,-300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「S-Shira Zakura、sao em lại nói như thế……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:unique,aika_s,300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Papa và Frau là những người rất quan trọng với Aika。\nTôi không có hứng làm thân với kẻ coi thường họ đâuー」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:unique,aika_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Đã thế cũng tại đóa kế tro tàn mà Aika cứ ngủ vùi mãi kia kìa」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:sad,azami,-300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Chậc……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「……Lũ con người đó quan trọng đến thế sao？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:normal,aika_s,300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Đúng thế đấy。Aika rất quan trọng。Những thứ Aika trân quý cũng rất quan trọng」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:normal,aika_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Hơn nữa…… mọi người cũng đều trân quý tôi。\nĐã được trân quý thì tôi cũng muốn hết lòng đáp lại tình cảm ấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:smile,aika_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Đó là cảm xúc hết sức bình thường cơ mà？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,-300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「……Cảm xúc。Bản thảo Pnakotic mà lại mở miệng nói về điều đó sao」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:smile,aika_s,300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Đừng có đem cái luận điệu <ruby>ma đạo thư|công cụ</ruby> không cần cảm xúc ra đây nói nhé。\nChuyện đó chúng tôi vượt qua từ lâu rồi、đừng có đào xới lại làm phiền phức」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,-300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Tôi không có ý nói thế。Em là chính em mà。\nSống với cảm xúc nơi lồng ngực là điều đáng trân trọng」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:sad,azami,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Chỉ là đối tượng của cảm xúc đó lại hướng về con người thì……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:unique,aika_s,300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Đừng có để cuộc trò chuyện xoay vòng lặp lại nữa coi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:sad,azami,-300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「……Hầy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Nhưng mà vậy sao…… Em cảm nhận được rằng mình đang được trân trọng nhỉ」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:smile,aika_s,300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Đương nhiên rồi。Nhất là Papa cực kỳ cưng chiều tôi luôn đó nhaー？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,azami,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:smile,frau,-300,-120,0.5,0.5,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「Tớ cũng thích Aika lắm đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:smile,aika_s,300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Oaー」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「…………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:smile,azami,0,-90,0.5,0,,,,
+endwait,,,,,,,,,,,
+wait,0.8
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「――Dù sao trong số con người họ cũng thuộc dòng dõi Nguyên thư Pnakotic、\nviệc các Bản thảo Pnakotic như Shira Zakura bị thu hút theo bản năng cũng không phải không thể hiểu」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Thế nhưng tôi vẫn không thể tin tưởng con người！\nNếu dám làm tổn thương Shira Zakura thì tôi quyết không tha đâu」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Dĩ nhiên không chỉ mỗi Shira Zakura。\nCả những đứa trẻ khác…… cả Akeyuri nữa đấy！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:unique,aika_s,300,-120,0.5,0.5,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「Không có chuyện đó đâu。Aika đối với bọn tớ là những người vô cùng quan trọng。\nTuyệt đối không bao giờ làm tổn thương đâu」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:unique,aika_s,300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Cơ mà thái độ của đóa kế tro tàn đối với tôi là sao thế nhỉ？\nCứ thấy kỳ quặc kiểu như cố tỏ ra thân thiết quá mức……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:sad,azami,-300,-90,0.5,0.5,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Th-Thân thiết……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Các em là những bông hoa đâm chồi từ hạt giống tôi để lại。\nMượn lời em thì việc tôi trân quý các em là lẽ đương nhiên」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:shy,azami,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Cái đó…… có thể coi tôi giống như…… m-mẹ của em vậy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm185.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:sad,aika_s,300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Hếểể？Mẹ á？Tôi hoàn toàn chẳng có chút hình dung nào luôn đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:surprise,azami,-300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「――――！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「C-C-Cái gì…… Rõ ràng em gọi người nắm giữ Kurobara là Mama cơ mà！？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:normal,aika_s,300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Thì Mama là Mama chứ sao」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:unique,azami,-300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Hức…… A-Akai Asaka…… dám phỗng tay trên……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,aika_s,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「B-Bình tĩnh lại đi、Azami」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:unique,azami,-300,-90,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Ồn ào quá！Quả nhiên tôi ghét cay ghét đắng con người！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「Oa oa」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:unique,aika_s,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Mà đúng là đóa kế tro tàn kỳ quặc thật đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:unique,aika_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Đành rằng cô là nguyên mẫu của tôi――nếu đối chiếu sang hình thái con người\nthì có lẽ như bậc sinh thành、nhưng chuyện đó thì đã làm sao？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:unique,aika_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Chúng ta đâu phải con người。Giữa các ma đạo thư làm gì có tình cảm như loài người。\nĐó là lẽ hiển nhiên đúng không？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:unique,aika_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Nói thật tự dưng nhận vơ là mẹ làm tôi hết cả hồn」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:sad,azami,-300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Điều đó…… quả thực dưới góc nhìn của em đột nhiên bị nói thế\ncó lẽ sẽ cảm thấy ngỡ ngàng」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:sad,aika_s,300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Không phải ngỡ ngàng、mà là rợn cả tóc gáy ấy？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:sad,azami,-300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「…………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,azami,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:sad,frau,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「A-Aika、không được nói như thế đâu」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Đúng là mối liên kết giữa các ma đạo thư khác với con người thật。\nThế nhưng…… việc Azami yêu quý Aika chắc chắn là thật lòng đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:smile,frau,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Được trân quý thì muốn đáp lại tình cảm ấy…… đúng không？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:surprise,aika_s,300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Hừ…… thì、đúng là thế thật」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,-300,-120,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「Là người hay là ma đạo thư、chuyện đó quan trọng đến thế sao？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:sad,aika_s,300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Trời ạ、hỏi kiểu đó gian lận quá đấy。Bật lại câu này chẳng khác nào\nphủ nhận sạch trơn tất cả những gì chúng ta đã vun đắp từ trước tới nay」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,-300,-120,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「Thế nên cùng mở lòng với Azami nhé。Được không？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:sad,aika_s,300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Ư gừ…… A a thật tình！Mau giải quyết vấn đề của Azami giùm cái coiー！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:sad,aika_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Lo cho Kurobara đã đủ mệt rồi mà còn lòi ra thêm kẻ này nữa、\nchẳng biết phải cư xử ra sao luôn ấyー！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:sad,aika_s,300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Tôi cũng muốn Aika mau tỉnh lại nữa……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:normal,frau,-300,-120,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「Chuyện đó hình như Norn với Asaka đang tìm cách giải quyết、\nđang điều tra và thử nghiệm nhiều cách rồi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:sad,aika_s,300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Hứ」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「……Quả thật quan hệ của các em gắn bó khăng khít nhỉ」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0
+endwait,,,,,,,,,,,
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:shy,azami,-300,-90,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+spriteatlas,download/character/100601/adv/atlas/stand_a,body:surprise,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「Hả？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:shy,azami,-300,-90,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Chậc、à không…… kh-không có gì đâu！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Tôi bắt đầu thấy bận tâm về Aotsubaki và Hekisuiren rồi đấy！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,-300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Shira Zakura、chúng ta sẽ thong thả trò chuyện sau nhé」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104180/adv/atlas/stand_a,body:sad,aika_s,300,-120,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Thôi khỏi、đừng bận tâm」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:sad,azami,-300,-90,0.5,0,,,,
+anm,tint,aika_s,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Shira Zakura……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010600.jpg,1,255
+endwait
+playbgm,/download/sound/bgm/bgm088.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:normal,soka,-300,-110,0.5,0.5,,,,
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+wait,0.7
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104200/adv/atlas/stand_a,body:smile,soka,-300,-110,0.5,0,,,,
+endwait,,,,,,,,,,,
+wait,0.7
+endwait,,,,,,,,,,,
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0,,,,
+endwait,,,,,,,,,,,
+wait,0.7
+endwait,,,,,,,,,,,
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:shy,azami,300,-90,0.5,0,,,,
+endwait,,,,,,,,,,,
+wait,0.7
+endwait,,,,,,,,,,,
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,300,-90,0.5,0,,,,
+endwait,,,,,,,,,,,
+wait,0.7
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_016.mp3
+
+anm,move,azami,-1200_-90,0.8,0
+endwait
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10010200.jpg,1,255
+endwait
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:normal,zakuro,-300,-120,0.5,0.5,,,,
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+wait,0.7
+endwait,,,,,,,,,,,
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,300,-90,0.5,0,,,,
+endwait,,,,,,,,,,,
+wait,0.7
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:sad,zakuro,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+wait,0.7
+endwait,,,,,,,,,,,
+spriteatlas,download/character/104300/adv/atlas/stand_a,body:unique,zakuro,-300,-120,0.5,0,,,,
+endwait,,,,,,,,,,,
+wait,0.7
+endwait,,,,,,,,,,,
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:shy,azami,300,-90,0.5,0,,,,
+endwait,,,,,,,,,,,
+wait,0.7
+endwait,,,,,,,,,,
+playse,/download/sound/se/se_016.mp3
+anm,move,azami,-1200_-90,0.8,0
+endwait
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+name,
+msg,0,<outline width=2 color=black>……。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>…………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,<outline width=2 color=black>………………。</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

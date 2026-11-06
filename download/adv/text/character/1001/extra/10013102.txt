@@ -1,0 +1,209 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11340300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm114.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_01.mp3
+name,<outline width=2 color=black><ruby>赤井|あかい</ruby><ruby>亜紗花|あさか</ruby></outline>,
+msg,1,<outline width=2 color=black>「Trường học、rồi bộ đồ thể dục…… Cứ thế này không hiểu sao lại làm em nhớ về thời còn đi học quá」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_02.mp3
+msg,1,<outline width=2 color=black>「Nhắc mới nhớ、lớp thể dục ở trường của em là môn tự chọn、còn nữ sinh thì chỉ có bóng chuyền hoặc cầu lông thôi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_03.mp3
+msg,1,<outline width=2 color=black>「Nhân tiện thì、anh nghĩ xem em đã chọn môn nào？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1　「Bóng chuyền」,選択肢2　「Cầu lông」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:smile,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_04.mp3
+name,<outline width=2 color=black><ruby>赤井|あかい</ruby><ruby>亜紗花|あさか</ruby></outline>,
+msg,1,<outline width=2 color=black>「A、chính xác」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_05.mp3
+msg,1,<outline width=2 color=black>「Dẫu chỉ là tiết học thôi、nhưng được chơi bóng chuyền cùng với bạn bè quả thực rất vui」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:smile,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_06.mp3
+msg,1,<outline width=2 color=black>「Đúng rồi。Vì anh đã trả lời đúng、nên em phải thưởng cho anh mới được nhỉ」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,scale,asaka,0.7_0.7,0.5,0
+anm,move,asaka,0_-160,0.5,0
+endwait
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:normal,asaka,0,-160,0.7,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_07.mp3
+msg,1,<outline width=2 color=black>「Nên là…… hãy đứng yên một chút nhé」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,asaka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:normal,asaka2,0,0,0,0,,,,
+imgconf,asaka2,asaka1,0,-450,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100131/adv/sound/fav100131_02_08.mp3
+msg,1,<outline width=2 color=black>「――Chu」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:smile,asaka,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_09.mp3
+name,<outline width=2 color=black><ruby>赤井|あかい</ruby><ruby>亜紗花|あさか</ruby></outline>,
+msg,1,<outline width=2 color=black>「Fufu。Chúc mừng anh vì đã trả lời đúng。Không hiểu sao、em lại thấy rất vui vì có vẻ như anh có thể hiểu được em dù em chẳng nói gì cả」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_10.mp3
+name,<outline width=2 color=black><ruby>赤井|あかい</ruby><ruby>亜紗花|あさか</ruby></outline>,
+msg,1,<outline width=2 color=black>「Bubu。Câu trả lời chính xác là bóng chuyền cơ」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_11.mp3
+msg,1,<outline width=2 color=black>「Môn cầu lông có vẻ cũng vui đấy、nhưng mà bóng chuyền là môn thể thao đồng đội đúng không？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:smile,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_12.mp3
+msg,1,<outline width=2 color=black>「Em không có tham gia hoạt động câu lạc bộ nào cả、nên em nghĩ ít ra những lúc như vậy được tham gia những môn có thể chơi cùng bạn bè thì thật tốt」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_13.mp3
+msg,1,<outline width=2 color=black>「Cơ bản thì、sau khi tan trường、em phải ngay lập tức chăm sóc những đứa trẻ ở cùng cơ sở với em、hơn nữa còn có việc học ma thuật、cho nên em không có nhiều thời gian rảnh cho lắm」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_14.mp3
+name,<outline width=2 color=black><ruby>赤井|あかい</ruby><ruby>亜紗花|あさか</ruby></outline>,
+msg,1,<outline width=2 color=black>「A、đúng rồi。Khó khăn lắm mới đến được nơi như thế này、hay là chúng ta thử chơi môn gì đó xem sao？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_15.mp3
+msg,1,<outline width=2 color=black>「Phía bên kia có phòng thể chất、cũng có một tòa nhà trông giống nhà kho nữa、nếu tìm thử thì chẳng phải sẽ thấy quả bóng sao」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:normal,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_16.mp3
+msg,1,<outline width=2 color=black>「Nói thì nói vậy、chứ tự nhiên em lại chẳng nghĩ ra được môn thể thao nào dành cho hai người cả。……Hay là bóng rổ nhỉ？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_17.mp3
+msg,1,<outline width=2 color=black>「Tuy là em tự nói ra、nhưng em chưa từng chơi bóng rổ bao giờ cả。Luật chơi em cũng không rành lắm……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_18.mp3
+msg,1,<outline width=2 color=black>「Nếu vậy thì、nếu chỉ là cạnh tranh giữa hai người với nhau thì chạy cự ly ngắn có vẻ cũng được đấy。Chỉ là、cái đó、nói sao nhỉ…… cứ như là……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_19.mp3
+msg,1,<outline width=2 color=black>「…………Cảm giác hoàn toàn chẳng giống như đang tán tỉnh nhau chút nào」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:shy,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_20.mp3
+msg,1,<outline width=2 color=black>「D、dù sao thì、với em trò thi đấu cạnh tranh gay gắt thì có hơi？ Cũng không hẳn là những trò như thế…… em đùa thôi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_21.mp3
+msg,1,<outline width=2 color=black>「……K、không có đâu nhé、mượn cớ chơi thể thao、rồi giữa chừng áp sát cơ thể vào nhau rồi ôm ấp hay đẩy ngã xuống các thứ、em hoàn toàn không có nghĩ tới mấy chuyện như vậy đâu nhé？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_22.mp3
+msg,1,<outline width=2 color=black>「…………Em nói thật đấy nhé？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:sad,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_23.mp3
+msg,1,<outline width=2 color=black>「………………Em chỉ nghĩ đến một chút xíu thôi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100131/adv/atlas/stand_a,body:shy,asaka,0,-120,0.5,0,,,,
+playvoice,1,download/character/100131/adv/sound/fav100131_02_24.mp3
+msg,1,<outline width=2 color=black>「Đ、đừng có cười chứ。Không hiểu sao、xấu hổ quá đi mất……！ Ư、ưu…… N、nếu đã đến nước này rồi thì……！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/100131/adv/sound/fav100131_02_25.mp3
+name,<outline width=2 color=black><ruby>赤井|あかい</ruby><ruby>亜紗花|あさか</ruby></outline>,
+msg,1,<outline width=2 color=black>「Không cần biết đến thể thao gì nữa đâu、em sẽ cứ thế mà bám chặt lấy anh đấy――！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

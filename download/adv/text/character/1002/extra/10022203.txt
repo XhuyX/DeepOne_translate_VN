@@ -1,0 +1,166 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11340300.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm179.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_01.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,
+msg,1,<outline width=2 color=black>「Nhắc mới nhớ、 Norn lại bắt đầu nói mấy điều kỳ lạ nữa rồi đấy。 Cái gì mà、 sẽ tổ chức đại hội thể thao ở R'lyeh ấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_02.mp3
+msg,1,<outline width=2 color=black>「Và anh vẫn bị lấy ra làm phần thưởng như thường lệ nhỉ。 Nghe bảo phần thưởng là sẽ được anh đáp ứng một điều kiện bất kỳ……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1　「Lần đầu anh nghe luôn đấy」,選択肢2　「……Chắc phải cho 3 đấm vào đầu mới được」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_03.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,
+msg,1,<outline width=2 color=black>「Tôi biết ngay mà」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_04.mp3
+msg,1,<outline width=2 color=black>「Những lúc thế này、 Norn hầu như chẳng bao giờ thèm xin phép anh trước cả nhỉ」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_05.mp3
+msg,1,<outline width=2 color=black>「Lúc nào cũng vậy、 rõ ràng biết là sau đó sẽ bị mắng、 mà không hiểu sao em ấy cứ tự ý làm mấy chuyện đó cơ chứ」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_06.mp3
+msg,1,<outline width=2 color=black>「……Không lẽ、 em ấy cảm thấy sung sướng khi bị mắng sao。 Nếu thật là vậy thì、 hai người đúng là một cặp anh em đầy tội lỗi đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_07.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,
+msg,1,<outline width=2 color=black>「Vẫn như mọi khi、 anh chẳng hề nương tay với Norn chút nào nhỉ。 Nếu người đó là Frau thì anh sẽ không ra tay đâu đúng không？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_08.mp3
+msg,1,<outline width=2 color=black>「Nói đi cũng phải nói lại、 nếu là Frau thì vốn dĩ em ấy cũng sẽ chẳng bao giờ làm ra mấy chuyện khiến anh phải nổi giận như thế này đâu」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_09.mp3
+msg,1,<outline width=2 color=black>「Thế nhưng、 vì anh cứ đối xử hơi có phần hời hợt như vậy nên có lẽ Norn mới làm ra mấy chuyện này chỉ để được anh chú ý thôi đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_10.mp3
+msg,1,<outline width=2 color=black>「Mặc dù cách đối xử có khác nhau nhưng điều đó không có nghĩa là anh phân biệt đối xử trong tình cảm、 chỉ là thỉnh thoảng anh cũng nên thành thật đối xử dịu dàng với Norn đi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:smile,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_11.mp3
+msg,1,<outline width=2 color=black>「Chuyện lần này、 anh cứ nhắm mắt làm ngơ cho em ấy đi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_12.mp3
+name,<outline width=2 color=black>Bridget Bawdwin</outline>,
+msg,1,<outline width=2 color=black>「Dù sao thì、 chuyện này cũng đã lan truyền đi rồi、 và có vẻ như mọi người cũng đang rất phấn khích nữa、 nên bây giờ có muốn hủy bỏ cũng khó đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_13.mp3
+msg,1,<outline width=2 color=black>「Thêm nữa là、 nghe bảo lần này cả Aika và Souka cũng sẽ tham gia、 nên có vẻ họ đang rất hào hứng đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_14.mp3
+msg,1,<outline width=2 color=black>「Thể lực của hai đứa nhỏ đó quá chênh lệch so với mọi người nên cũng thường xuyên không thể tham gia mấy sự kiện kiểu này、 nhưng lần này nghe bảo sẽ đấu theo hình thức đồng đội đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_15.mp3
+msg,1,<outline width=2 color=black>「Nghe đâu họ sẽ chia Aika và Souka ra làm hai đội khác nhau để cân bằng lại toàn bộ thế trận」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_16.mp3
+msg,1,<outline width=2 color=black>「Chắc hẳn là Norn cũng đã suy nghĩ cho hai đứa nhỏ theo cách của riêng em ấy rồi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_17.mp3
+msg,1,<outline width=2 color=black>「Nghe được như vậy thì anh cũng khó mà từ chối được đúng không？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:smile,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_18.mp3
+msg,1,<outline width=2 color=black>「Biết đâu đấy、 Norn cũng đã tính toán đến mức đó nên mới quyết định làm theo hình thức này thì sao」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:smile,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_19.mp3
+msg,1,<outline width=2 color=black>「Và anh、 sẽ phải tuân theo mệnh lệnh của từng người một trong đội chiến thắng、 nên chắc sẽ vất vả lắm đây…… Mà、 tôi chỉ biết gửi lời chia buồn sâu sắc tới anh thôi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_20.mp3
+msg,1,<outline width=2 color=black>「Sẵn tiện thì、 lần này tôi cũng sẽ tham gia đấy nhé」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_21.mp3
+msg,1,<outline width=2 color=black>「Dù sao thì cũng đã được rủ nên từ chối cũng kì、 với lại dù dưới hình thức nào đi chăng nữa thì đây cũng là cơ hội tốt để đọ sức với Aika và Souka mà」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_22.mp3
+msg,1,<outline width=2 color=black>「Tuy không biết bản thân có thể trụ được đến đâu、 nhưng với tư cách là chính tôi、 tôi cũng không có ý định chịu thua dễ dàng vậy đâu」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100222/adv/atlas/stand_a,body:smile,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100222/adv/sound/fav100222_03_23.mp3
+msg,1,<outline width=2 color=black>「Nếu giành được phần thưởng thì、 tôi nên bắt anh làm gì đây nhỉ。 Bắt đầu thấy mong chờ rồi đây。 Fufu」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

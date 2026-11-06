@@ -1,0 +1,257 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_11510300.jpg,0,,,,,,,,
+endwait
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm176.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:shy,frau,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_01.mp3
+name,<outline width=2 color=black>Frau</outline>,
+msg,1,<outline width=2 color=black>「Ưm…… H-Hình như là、 mặc bộ đồ này hơi ngượng ngùng một chút thì phải」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:shy,frau,0,-120,0.5,0,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_02.mp3
+msg,1,<outline width=2 color=black>「Onii-chan、 không được nhìn em chằm chằm như thế đâu」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,frau1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:shy,frau2,0,0,0,0,,,,
+imgconf,frau2,frau1,0,-200,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103724/adv/sound/fav103724_01_03.mp3
+msg,1,<outline width=2 color=black>「Ơ…… Ơ-Ơ kìa、 Onii-chan？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,frau1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:shy,frau2,0,0,0,0,,,,
+imgconf,frau2,frau1,0,550,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103724/adv/sound/fav103724_01_04.mp3
+msg,1,<outline width=2 color=black>「Đ-Đã bảo là、 bị nhìn như thế thì…… A、 ư ư」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:shy,frau,0,-130,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_05.mp3
+msg,1,<outline width=2 color=black>「Thật là、 đã bảo không được rồi mà、 Onii-chan đang nhìn đi đâu thế hả」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1 「Mải mê ngắm khe hở nơi cúp ngực」,選択肢2 「Đường khoét của bộ đồ bó nguy hiểm quá」
+if,select_===_1,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,frau1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:shy,frau2,0,0,0,0,,,,
+imgconf,frau2,frau1,0,-200,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103724/adv/sound/fav103724_01_06.mp3
+name,<outline width=2 color=black>Frau</outline>,
+msg,1,<outline width=2 color=black>「……Đ-Đồ ngốc、 Onii-chan dê xồm quá đi mất！ Mà lại còn nhìn chằm chằm nữa chứ…… Thật là！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:shy,frau,0,-130,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_07.mp3
+msg,1,<outline width=2 color=black>「Dù sao thì、 mải mê nhìn vào khe hở chỗ thế này…… C-Cái đó người ta gọi là sở thích kỳ quặc đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,frau1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:shy,frau2,0,0,0,0,,,,
+imgconf,frau2,frau1,0,550,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+playvoice,1,download/character/103724/adv/sound/fav103724_01_08.mp3
+name,<outline width=2 color=black>Frau</outline>,
+msg,1,<outline width=2 color=black>「Nguy hiểm là ý làm sao cơ chứ……！？ Mà nói đúng hơn thì、 người suốt ngày chăm chú nhìn mấy chỗ đó như Onii-chan mới là nguy hiểm đấy！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:shy,frau,0,-130,0.6,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_09.mp3
+msg,1,<outline width=2 color=black>「Onii-chan lúc nào cũng vậy hết、 toàn nhìn vào mấy chỗ bậy bạ thôi……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:sad,frau,0,-130,0.6,0,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_10.mp3
+name,<outline width=2 color=black>Frau</outline>,
+msg,1,<outline width=2 color=black>「Dĩ nhiên là thấy anh mê mẩn em thì em cũng vui thật、 nhưng cứ toàn chăm chú vào mấy chỗ bậy bạ thì em thấy hơi khó chịu trong lòng một chút đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:sad,frau,0,-130,0.6,0,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_11.mp3
+msg,1,<outline width=2 color=black>「……Đáng lẽ anh cứ bình thường khen em dễ thương một tiếng là được rồi mà」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_020.mp3
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:surprise,frau,0,-160,0.7,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_12.mp3
+msg,1,<outline width=2 color=black>「A……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:unique,frau,0,-160,0.7,0,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_13.mp3
+msg,1,<outline width=2 color=black>「……Giờ anh có ôm em thế này thì khéo em lại nghĩ anh làm vậy chỉ để lấp liếm vì em vừa nói thế thôi đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_020.mp3
+shake,0.2,4,10,10
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:shy,frau,0,-190,0.8,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_14.mp3
+msg,1,<outline width=2 color=black>「Ưm…… O-Onii-chan、 hơi nghẹt thở đấy。 Đâu phải cứ ôm chặt hơn là giải quyết được vấn đề đâu chứ……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+anm,move,frau,0_-160,0.5,0
+anm,scale,frau,0.7_0.7,0.5,0
+endwait
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:unique,frau,0,-160,0.7,0,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_15.mp3
+msg,1,<outline width=2 color=black>「Ưm…… Thật là bó tay với Onii-chan luôn đó」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:unique,frau,0,-160,0.7,0,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_16.mp3
+msg,1,<outline width=2 color=black>「Đồ dê xồm」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:normal,frau,0,-160,0.7,0,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_17.mp3
+msg,1,<outline width=2 color=black>「Thế nhưng…… Được ôm vào lòng thế này、 em lại cảm thấy mình yêu một người anh như thế đến mức không cứu vãn nổi rồi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:normal,frau,0,-160,0.7,0,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_18.mp3
+msg,1,<outline width=2 color=black>「Bởi vì dù có bao nhiêu nỗi bất mãn đi nữa…… Chỉ cần được ôm như thế này thôi là niềm hạnh phúc sâu trong lồng ngực em cứ thế trào dâng ngập tràn……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:smile,frau,0,-160,0.7,0,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_19.mp3
+msg,1,<outline width=2 color=black>「Tự bản thân em cũng thấy mình là một đứa em gái dễ dãi ghê」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:anger,frau,0,-160,0.7,0,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_20.mp3
+msg,1,<outline width=2 color=black>「――Nhưng mà chuyện nào ra chuyện đó nhé」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:unique,frau,0,-160,0.7,0,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_21.mp3
+msg,1,<outline width=2 color=black>「Cái thói dê xồm quá đà đó thì anh hãy kiểm điểm một chút rồi sửa đổi giùm em đi。 Rõ chưa nào、 nghe lời em dặn chưa hả Onii-chan」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:unique,frau,0,-160,0.7,0,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_22.mp3
+msg,1,<outline width=2 color=black>「…………Ừm」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103724/adv/atlas/stand_a,body:unique,frau,0,-160,0.7,0,,,,
+playvoice,1,download/character/103724/adv/sound/fav103724_01_23.mp3
+msg,1,<outline width=2 color=black>「Chắc là vô vọng rồi đây」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

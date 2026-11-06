@@ -1,0 +1,705 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10060200.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm192.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_b,body:sad,azami,300,-90,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+spriteatlas,download/character/100186/adv/atlas/stand_b,body:smile,alt,-300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Này、 Azami――Cô nghĩ tôi sẽ tha thứ cho một kẻ đe dọa đến Asaka sao？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_b,body:sad,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Kurobara…… Cô……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,norn1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:anger,norn2,0,0,0,0,,,,
+imgconf,norn2,norn1,0,-420,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Norn</outline>,
+msg,0,<outline width=2 color=black>「Này、 cô bị ngốc à！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,0,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+spine,download/adv/spine/blow_Blue,em1,default,animation,0,0,0,1,1.0,0
+playse,/download/sound/se/se_055.mp3
+anm,move,alt,-300_-120,0.3,0
+endwait
+wait,0.5
+endwait,,,,,,,,,,,
+spineoff,em1,0
+endwait,,,,,,,,,,,
+
+
+playbgm,/download/sound/bgm/bgm163.mp3,0,
+endwait,,,,,,,,,,,
+
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:anger,norn,300,-120,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,
+msg,0,<outline width=2 color=black>「Trời ạ、 đừng có né！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Không thích đâu、 bị đánh thì đau lắm、 nhỡ để lại sẹo trên cơ thể Asaka thì sao」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:anger,norn,300,-120,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,
+msg,0,<outline width=2 color=black>「Nếu không muốn bị đánh thì đừng có đùa mấy trò ác ý thế chứ！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Cũng không hoàn toàn là đùa đâu――」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103723/adv/atlas/stand_a,body:anger,frau,300,-120,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「ASAKA」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Frau、 không cần phải lườm như thế đâu……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103723/adv/atlas/stand_a,body:anger,frau,300,-120,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「ASAKA」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:sad,alt,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「…………Hầy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Xin lỗi nhé、 Azami」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Hả、 à…… v-vâng。 Nếu cô đã xin lỗi thì tôi cũng không có ý kiến gì……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,alt,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:anger,norn,-300,-120,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,
+msg,0,<outline width=2 color=black>「Cô cũng phải tức giận hơn đi chứ！ Bản thảo Pnakotic đôi khi cứ đùa quá trớn vậy đó！ Rốt cuộc là sao đây！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Cô có nói với tôi thì……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,azami,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103723/adv/atlas/stand_a,body:normal,frau,300,-120,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「Nhưng mà、 Azami là mẹ của Bản thảo Pnakotic nhỉ？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103525/adv/atlas/stand_a,body:unique,norn,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Norn</outline>,
+msg,0,<outline width=2 color=black>「Là cha mẹ thì phải chịu trách nhiệm cho những gì con cái làm chứ」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0.5,,,,
+anm,tint,norn,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Ư……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,norn,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0.5,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Ôi chà。 Vậy từ giờ Azami sẽ chịu trách nhiệm cho mọi việc tôi làm nhỉ。 Tự nhiên thấy giá trị của cái gọi là gia đình tăng cao hẳn lên」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,azami,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/103723/adv/atlas/stand_a,body:unique,frau,300,-120,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Frau</outline>,
+msg,0,<outline width=2 color=black>「ASAKA」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:sad,alt,-300,-120,0.5,0,,,,
+anm,tint,frau,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「……Tôi đùa thôi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm117.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteoff,frau,0
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Kurobara。 Tại sao đột nhiên lại tấn công tôi…… Quả nhiên là không có tôi thì vẫn tốt hơn sao？ Nếu vậy、 dù cô không tự tay làm thì tôi cũng sẽ một mình――」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Tôi chỉ muốn kiểm tra một chút thôi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Kiểm tra……？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Hiện tại cô đang hấp thụ một phần sức mạnh của chúng tôi。 Cùng với ảnh hưởng từ Nguyên thư Pnakotic、 có lẽ cô đang dần tiếp cận với sức mạnh vốn có của mình rồi nhỉ？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「……Nói là dần tiếp cận cũng không hẳn là sai」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Nhưng mà、 chừng này…… chỉ là một chút thôi。 So với tôi của ngày xưa、 thì sức mạnh này thật sự quá nhỏ bé」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Có thể chặn được đòn tấn công vừa rồi thì ra là vậy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Nếu lời cô nói là sự thật、 thì năng lực vốn có của Azami hoàn toàn cách biệt với Bản thảo Pnakotic chúng tôi nhỉ」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Không đơn thuần chỉ là thu thập toàn bộ sức mạnh của chúng tôi。 Có lẽ cô đã từng sở hữu sức mạnh còn vượt xa hơn thế nữa」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「……Thế thì đã sao chứ。 Thứ đó từ lâu đã bị mất đi…… bị cướp mất rồi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Đúng vậy。 Bị Bản thảo Pnakotic chúng tôi cướp mất」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:anger,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Không phải。 Là con người đã cướp đi và sinh ra các cô」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Người cướp là con người、 các cô không có lỗi lầm gì cả。 Xin đừng nói theo kiểu đó nữa」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Nói hay lắm。 Dù quá trình có ra sao thì kết quả vẫn là như vậy mà？ Chúng tôi được sinh ra từ những thứ bị cướp đoạt từ cô」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Đối với cô、 sự tồn tại của chúng tôi chính là biểu tượng của sự tước đoạt」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Thế mà lại gọi đó là con、 cô đúng là gàn dở thật đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Đó là……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Sự thật về việc bị cướp đoạt sẽ không thay đổi。 Vì vậy、 chí ít nếu những người được sinh ra từ tôi như các cô có thể sống hiên ngang、 thì không có gì làm tôi vui hơn thế」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Rõ ràng là trong thâm tâm cô chẳng hề coi chúng tôi là con cái gì sất」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Cô nói……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Shira Zakura cũng đã chỉ ra rồi phải không？ Bản tâm của cô ấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Bên trong cô vẫn luôn tồn tại sự khó chịu về việc bản thân bị tước đoạt mọi thứ chỉ vì những kẻ như chúng tôi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Kh-không có chuyện đó đâu……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Cô và Shira Zakura đều đang hiểu lầm chuyện gì đó rồi。 Tôi……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Tôi rất ghét Shira Zakura」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:surprise,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Hả…… hả？ T-Tự nhiên cô nói gì vậy……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Thứ quan trọng nhất đối với tôi là Asaka。 Nhưng đối với Shira Zakura、 thứ quan trọng nhất lại là AIKA」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「 <ruby>Bản thảo Pnakotic|chúng tôi</ruby> không bao giờ nhầm lẫn về thứ tự ưu tiên đó。 Nếu cần thiết、 những thứ không quan trọng đều có thể bị vứt bỏ」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Chính vì vậy…… tôi không thể nào hòa hợp với Shira Zakura、 người đã thể hiện rõ ràng suy nghĩ rằng thứ quan trọng nhất của tôi xếp dưới một thứ khác được」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Thế nhưng、 tuy ghét nhưng tôi lại không hề căm ghét cô ta」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「……Tôi không hiểu cô đang nói gì」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Rốt cuộc là cô ghét。 Hay là không ghét đây」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Ghét、 nhưng không phải là căm ghét」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Đối với cô cũng giống như vậy thôi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Bị coi thường chẳng bao giờ là một cảm giác dễ chịu cả。 Cái ánh mắt pha lẫn giữa lòng tự tôn và sự tự chối bỏ đó của cô thật phiền phức và chướng mắt」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:sad,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Nhưng mà、 ghét thì ghét chứ tôi không hề căm hận。 Tôi cũng chẳng mong muốn cô biến mất chút nào đâu」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0,,,,
+anm,tint,alt,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「Nãy giờ cô cứ nói năng lung tung quá…… rốt cuộc là cô muốn nói điều gì chứ？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Mọi người đã truyền đạt điều đó cho cô không biết bao nhiêu lần rồi mà？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5
+endwait,,,,,,,,,,,
+bg,color_0_0_0,1,255
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,aika_s1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:anger,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>AIKA</outline>,
+msg,0,<outline width=2 color=black>「Gia đình gì chứ、 người mẹ gì chứ。 Đừng có mà lố bịch nữa」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:anger,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「Định nghĩa về gia đình mà ai cũng biết、 hay ý nghĩa của từ người mẹ được viết trong từ điển」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104187/adv/atlas/stand_a,body:anger,aika_s2,0,0,0,0,,,,
+imgconf,aika_s2,aika_s1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「Cô chỉ đang bám víu vào những thứ đó thôi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,soka1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:anger,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Souka Venatio</outline>,
+msg,0,<outline width=2 color=black>「――Tự nhiên xuất hiện rồi dùng từ gia đình、 thì hãy chịu trách nhiệm đi。 Chẳng nói ra được một cảm xúc thật lòng nào mà dám nhận là gia đình thì đúng là nực cười」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104202/adv/atlas/stand_a,body:anger,soka2,0,0,0,0,,,,
+imgconf,soka2,soka1,0,-400,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「Gia đình không phải là thứ chỉ cần nói ra thì sẽ trở thành đâu。 Thôi ngay cái trò bỡn cợt về mối liên kết đó đi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+
+
+mask,black1,0,0,1280,250,0.5,,,,
+sprite,download/adv/image/black.jpg,black,0,0,0,0,,,,
+imgconf,black,black1,0,0,,,0,1,1,0.5
+mask,zakuro1,0,0,1280,250,0.5,,,,
+spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro2,0,0,0,0,,,,
+imgconf,zakuro2,zakuro1,0,-470,,,0,1.5,1.5,0.5
+endwait,,,,,,,,,,,
+
+
+name,<outline width=2 color=black>Zaijou Zakuro</outline>,
+msg,0,<outline width=2 color=black>「Là do cô ghét chính bản thân mình đấy。 Nếu không thì cô đã chẳng phải chạy trốn khỏi Souka và Shira Zakura」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro2,0,0,0,0,,,,
+imgconf,zakuro2,zakuro1,0,-470,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「Nói chuyện với những đứa trẻ đó…… rồi chạy trốn khỏi những lời chúng nói、 là vì cô sợ phải đối diện với sự thật của bản thân、 hay sợ phải đối mặt với chính mình」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/104302/adv/atlas/stand_a,body:normal,zakuro2,0,0,0,0,,,,
+imgconf,zakuro2,zakuro1,0,-470,,,0,1.5,1.5,0
+endwait,,,,,,,,,,,
+
+
+msg,0,<outline width=2 color=black>「Vì cô muốn ngoảnh mặt đi khỏi sự xấu xí đang hiện hữu trong mình đúng không」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteoff,all,0.2
+endwait,,,,,,,,,,,
+name,
+msg,0,
+endwait,,,,,,,,,,,
+bg,download/bg/bg_10060200.jpg,1,255
+endwait
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0.5,,,,
+anm,tint,alt,150_150_150,0.0001,0
+spriteatlas,download/character/105803/adv/atlas/stand_a,body:normal,azami,300,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>Azami</outline>,
+msg,0,<outline width=2 color=black>「…………」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+anm,tint,azami,150_150_150,0.0001,0
+endwait,,,,,,,,,,,
+name,<outline width=2 color=black>ASAKA</outline>,
+msg,0,<outline width=2 color=black>「Dù trong thâm tâm cô có ghét chúng tôi đến đâu thì cũng chẳng sao。 Vì chúng tôi cũng ghét cô mà」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Tuy nhiên…… tôi không thể chịu đựng được việc cô cứ giả tạo bằng những lời nói dối đó」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Bởi vì gia đình mà chúng tôi từng chứng kiến…… hình hài của tình yêu đó、 không phải là thứ như vậy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Azami。 Mặc dù hơi tệ nhưng điều này cũng khiến chúng tôi bối rối đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Ghét、 nhưng không phải là căm ghét…… Cho đến nay chỉ với mớ cảm xúc mơ hồ đó đã là đủ rồi、 vậy mà cô lại còn lôi cái từ gia đình ra nữa」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:smile,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Nhờ vậy mà cả tôi và Shira Zakura đều phải đối mặt với từ ngữ đó đấy」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:normal,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Điều muốn nói à？ Được rồi、 vậy thì để tôi nói cho cô nghe nhé」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:anger,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Chúng tôi đang cố gắng đối mặt với tình yêu theo cách của riêng mình、 thế mà người trong cuộc như cô lại không thèm nhìn thẳng vào chúng tôi、 thật không thể tha thứ được」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:anger,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Hãy nhìn chúng tôi đi。 Chạm mắt với chúng tôi、 dùng chính lời nói của cô、 trái tim của cô、 để đối diện với chúng tôi」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:sad,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「……Nếu không làm vậy、 thì chúng tôi cũng chẳng thể nào đưa ra câu trả lời được đâu」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/100186/adv/atlas/stand_a,body:sad,alt,-300,-120,0.5,0,,,,
+msg,0,<outline width=2 color=black>「Bản thân chúng tôi cũng đâu thể khéo léo mãi được đâu…… Azami」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
