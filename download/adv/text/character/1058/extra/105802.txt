@@ -1,0 +1,248 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010800.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm163.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_01.mp3
+name,<outline width=2 color=black>Azami</outline>,
+msg,1,<outline width=2 color=black>「Tôi được tạo ra vì con người」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_02.mp3
+msg,1,<outline width=2 color=black>「Nhưng con người、vì lý do không điều khiển nổi sức mạnh của tôi、đã xé tôi ra、cướp lấy sức mạnh、rồi từ đó tạo ra năm cuốn Bản thảo Pnakotic」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_03.mp3
+msg,1,<outline width=2 color=black>「Nghĩ lại giờ vẫn thấy nhục……nguyên nhân là do sự nhỏ bé của con người khi không điều khiển nổi tôi、vậy mà tại sao sự tồn tại của tôi lại bị phủ nhận……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_04.mp3
+msg,1,<outline width=2 color=black>「Nếu có một con người điều khiển được tôi đàng hoàng、thì tôi sẽ giúp ích cho con người hơn bất cứ thứ gì……――」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+select,選択肢1　「Tôi đang tập bench press đây……」,選択肢2　「Để tôi đi tắm đã rồi nghe」
+if,select_===_1,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm134.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_05.mp3
+name,<outline width=2 color=black>Azami</outline>,
+msg,1,<outline width=2 color=black>「Gì thế？Ý là bảo tôi đừng nói chuyện khi cậu đang tập à？Tại sao tôi phải cân nhắc hoàn cảnh của cậu chứ」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_06.mp3
+msg,1,<outline width=2 color=black>「Con người đã tùy tiện xoay tôi theo ý mình suốt rồi、từ giờ con người phải theo ý tôi mới đúng。Đúng không？」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+
+anm,move,azami,0_-100,0.1,0
+endwait
+anm,move,azami,0_-90,0.1,0
+endwait
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:surprise,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_07.mp3
+msg,1,<outline width=2 color=black>「A、này này、đừng có tự dưng hạ tạ xuống thế！Từ từ thôi！Cái đó mà đè thì con người bẹp dí đấy！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_08.mp3
+msg,1,<outline width=2 color=black>「T、tôi có bảo cậu dừng tập đâu。Đừng làm mấy chuyện nguy hiểm。Nhìn mà tim tôi đập thình thịch」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:smile,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_09.mp3
+msg,1,<outline width=2 color=black>「Trước hết、dù có hạ xuống thì cũng từ từ……lỡ có làm rơi mà bị thương thì……đúng rồi。Thế là được」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+elseif,select_===_2,,,,,,,,,
+
+
+stopbgm,0.4,,,,,,,,,,
+endwait,,,,,,,,,,,
+wait,0.2
+endwait,,,,,,,,,,,
+playbgm,/download/sound/bgm/bgm134.mp3,0,
+endwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_10.mp3
+name,<outline width=2 color=black>Azami</outline>,
+msg,1,<outline width=2 color=black>「Con người mà cũng định để tôi chờ à。Tôi không để ý mùi mồ hôi đâu、đừng có lo thừa」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_11.mp3
+msg,1,<outline width=2 color=black>「Lau bằng khăn này là đủ。Tiện thể có cả xịt lạnh、cậu dùng tùy thích。Với lại tôi để chai nước ở đây luôn」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+endif,,,,,,,,,,
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:anger,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_12.mp3
+name,<outline width=2 color=black>Azami</outline>,
+msg,1,<outline width=2 color=black>「――Mà tại sao tôi lại phải chăm sóc con người chứ！Bắt tôi làm cái gì thế、thật là！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_13.mp3
+msg,1,<outline width=2 color=black>「Grừ……đồ con người」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_14.mp3
+msg,1,<outline width=2 color=black>「Tự tiện tạo ra tôi theo ý mình、làm tôi tan nát rồi vứt đi、vậy mà giờ vẫn định xoay tôi như chong chóng à……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_15.mp3
+msg,1,<outline width=2 color=black>「Tôi không những không làm tròn vai trò、mà chính vai trò cũng bị cướp mất」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_16.mp3
+msg,1,<outline width=2 color=black>「Đã làm tôi ra thế này……quả nhiên ở với con người chẳng có chuyện gì tốt đẹp！Khó chịu thật！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_17.mp3
+msg,1,<outline width=2 color=black>「……Đúng、khó chịu thật」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:sad,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_18.mp3
+msg,1,<outline width=2 color=black>「Đáng lẽ là vậy……vậy mà tại sao tôi lại、vẫn còn định bám víu vào cái vai trò đã mất……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:shy,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_19.mp3
+msg,1,<outline width=2 color=black>「……Không có gì đâu！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_20.mp3
+msg,1,<outline width=2 color=black>「Tại sao tôi lại phải kể mấy chuyện này cho cậu chứ！Chẳng hiểu nổi！Đồ ngốc！Ghét！Tôi ghét con người！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,
+playse,/download/sound/se/se_016.mp3
+anm,move,azami,-1200_-90,0.8,0
+endwait
+wait,1
+endwait,,,,,,,,,,,
+playse,/download/sound/se/se_016.mp3
+anm,move,azami,0_-90,0.8,0
+endwait
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_21.mp3
+name,<outline width=2 color=black>Azami</outline>,
+msg,1,<outline width=2 color=black>「À còn cái này！Tôi quên đưa！Chanh ngâm mật ong đấy！Lát chanh hơi dày là do cậu tưởng tượng thôi！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:unique,azami,0,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_22.mp3
+msg,1,<outline width=2 color=black>「Liệu mà ăn cho ngon vào đấy！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+name,
+msg,0,
+endwait,
+playse,/download/sound/se/se_016.mp3
+anm,move,azami,-1200_-90,0.8,0
+endwait
+spriteoff,all,0
+endwait,,,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,-1200,-90,0.5,0,,,,
+endwait,,,,,,,,,,,
+anm,move,azami,-580_-90,1.5,0
+endwait
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:normal,azami,-580,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_23.mp3
+name,<outline width=2 color=black>Azami</outline>,
+msg,1,<outline width=2 color=black>「……Nhìn chằm chằm」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+anm,move,azami,-580_-70,0.1,0
+endwait
+anm,move,azami,-580_-90,0.1,0
+endwait
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:surprise,azami,-580,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_24.mp3
+msg,1,<outline width=2 color=black>「A……」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+spriteatlas,download/character/105800/adv/atlas/stand_a,body:shy,azami,-580,-90,0.5,0,,,,
+playvoice,1,download/character/105803/adv/sound/fav105803_02_25.mp3
+msg,1,<outline width=2 color=black>「Hừ、hứ！」</outline>,,,,,,,,,
+clickwait,,,,,,,,,,,
+
+
+playse,/download/sound/se/se_016.mp3
+anm,move,azami,-1200_-90,0.7,0
+endwait
+
+
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,

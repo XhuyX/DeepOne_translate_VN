@@ -1,0 +1,99 @@
+name,
+stopbgm,,,,,,,,,,,
+fadeinblack,0,,,,,,,,,,
+bg,download/bg/bg_10010100.jpg,0,,,,,,,,
+endwait,,,,,,,,,,,
+fadeoutblack,1.5,,,,,,,,,,
+endwait
+playbgm,/download/sound/bgm/bgm031.mp3,0,,
+endwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0.5,,,,
+endwait,,,,,,,,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_01.mp3
+name,<size=27><outline width=2 color=black>Bridget Bawdwin</outline></size>,
+msg,0,<size=30><outline width=2 color=black>「Từ ban ngày ban mặt đã nằm ườn ở sảnh đọc tạp chí rồi……。Cậu lúc nào cũng vô tư lự như thế、thấy mà phát ghen tị đấy」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_02.mp3
+msg,0,<size=30><outline width=2 color=black>「Mà khoan……đó là tạp chí dành cho phái nữ đúng không？」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_03.mp3
+msg,0,<size=30><outline width=2 color=black>「Hơn nữa tiêu đề lại còn là Mười Kế Hoạch Cưới Hoàn Hảo Nhất nữa chứ……。Tại sao cậu lại đọc thứ đó hả？」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+select,選択肢1　「Mượn của Asaka」,選択肢2　「Vì tôi thấy hứng thú」
+if,select_===_1,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_04.mp3
+msg,0,<size=30><outline width=2 color=black>「A……cô ấy đúng là thích mấy thứ này nhỉ。Mấy giấc mơ、mấy khao khát mà phụ nữ bình thường hay có ấy……」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_05.mp3
+msg,0,<size=30><outline width=2 color=black>「Thứ đó có gì hay、tôi thật sự không hiểu nổi」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+elseif,select_===_2,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:shy,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_06.mp3
+msg,0,<size=30><outline width=2 color=black>「Sao、cậu à。Cậu cũng mơ mộng về hôn nhân à？Hừm……」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_07.mp3
+msg,0,<size=30><outline width=2 color=black>「Không hẳn……tôi không nói là xấu。Chỉ là đàn ông nói mấy chuyện này thì hiếm、nên tôi thấy lạ thôi」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+endif,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_08.mp3
+msg,0,<size=30><outline width=2 color=black>「Hôn nhân sao……chuyện đó xa vời với tôi lắm。Chung sống trọn đời với ai đó、chỉ nghĩ đến thôi là tôi đã thấy mệt mỏi rồi」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:unique,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_09.mp3
+msg,0,<size=30><outline width=2 color=black>「……Hả？Tôi có thấy cô đơn đâu。Đâu phải chỉ hôn nhân mới là cuộc sống」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_10.mp3
+msg,0,<size=30><outline width=2 color=black>「Cơ mà……thì cũng có thời tôi từng mơ mộng được làm cô dâu khoác lên mình bộ váy lộng lẫy thật đấy、nhưng chuyện đó cũng xa lắc xa lơ rồi」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_11.mp3
+msg,0,<size=30><outline width=2 color=black>「――Ủa gì chứ。Tự dưng lại chìa sách ra。Ý bảo tôi đọc à？」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:anger,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_12.mp3
+msg,0,<size=30><outline width=2 color=black>「Thôi khỏi đi……đã bảo là khỏi mà！――A thật tình、cậu ngang ngược ép người quá đấy nhé……！」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:sad,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_13.mp3
+msg,0,<size=30><outline width=2 color=black>「Haizz……đọc mấy thứ này thì được cái tích sự gì cơ chứ……」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:normal,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_14.mp3
+msg,0,<size=30><outline width=2 color=black>「Để xem nào……hôn lễ tại giáo đường ngập tràn biển xanh và trời biếc sao？Hừm、phong cảnh cũng đẹp đấy chứ。Váy cưới cũng không quá phô trương mà vừa vặn trang nhã……」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:smile,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_15.mp3
+msg,0,<size=30><outline width=2 color=black>「Hai người trong ảnh trông cũng hạnh phúc ghê……hi hi――」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:shy,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_16.mp3
+msg,0,<size=30><outline width=2 color=black>「――！？K-Không phải……vừa rồi chỉ là！Chỉ là……cái đó……！…………Chỉ là tôi thoáng nghĩ thế một chút thôi mà」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_a,body:anger,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_17.mp3
+msg,0,<size=30><outline width=2 color=black>「Cười tủm tỉm cái gì thế hả！Đ-Đã bảo là……không phải như thế rồi cơ mà！？」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_b,body:anger,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_18.mp3
+msg,0,<size=30><outline width=2 color=black>「Hừ……Xem ra cậu cứ phải nếm mùi đau đớn một lần thì mới chịu hiểu người ta nói gì nhỉ……？」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+spriteatlas,download/character/100201/adv/atlas/stand_b,body:anger,blizit,0,-190,0.5,0,,,,
+playvoice,1,download/character/100205/adv/sound/fav100205_01_19.mp3
+msg,0,<size=30><outline width=2 color=black>「Giờ có xin lỗi cũng muộn rồi nhé。Nào、chuẩn bị tinh thần xong chưa？――Đứng lại、đừng có hòng chạy！」</outline></size>,,,,,,,,,
+clickwait,,,,,,,,,,,
+fadeinblack,0.5,,,,,,,,,,
+endwait,,,,,,,,,,,
+name,,,,,,,,,,,
+msg,0,,,,,,,,,,,
+spriteoff,all,0.5,,,,,,,,,
+endwait,,,,,,,,,,,
+bgoff,1.0,,,,,,,,,,
+endwait,,,,,,,,,,,
